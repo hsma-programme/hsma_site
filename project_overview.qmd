@@ -1,0 +1,6 @@
+---
+title: "HSMA Projects"
+listing:
+  contents: previous_projects
+  type: grid
+---

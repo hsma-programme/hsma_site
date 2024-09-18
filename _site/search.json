@@ -1,0 +1,44 @@
+[
+  {
+    "objectID": "project_overview.html",
+    "href": "project_overview.html",
+    "title": "HSMA Projects",
+    "section": "",
+    "text": "A Discrete Event Simulation Model to reduce Rheumatology waiting times in Dorset\n\n\n\n\n\n\nAbby Dewhurst, Claire Davies, Krzysztof Cepa\n\n\n\n\n\n\n\n\n\n\n\n\nThe role of Patient Initiated Follow-up (PIFU) and ‘Digital Outpatients’ in Supporting the Elective Recovery - Can We Better Size Potential for Clearing the Backlog?\n\n\n\n\n\n\nMartina Fonseca, Xiaochen Ge\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "previous_projects/h5_des_dorset.html",
+    "href": "previous_projects/h5_des_dorset.html",
+    "title": "A Discrete Event Simulation Model to reduce Rheumatology waiting times in Dorset",
+    "section": "",
+    "text": "The current Referral to Treatment waiting list is at its highest level in NHS history. Identifying methods for reducing the waiting list and waiting times would benefit patient care.\nThe aim of the project was to look at what changes in capacity, the number of appointments, could be made to reduce the waiting list and waiting times for Rheumatology services in Dorset. This was done using Discrete Event Simulation (DES), which is a technique that models flow through a pathway and can show what happens if changes are made.\nDuring the project the team built a DES model to look at the Rheumatology pathway. They then built an app using Steamlit so that stakeholders can model the impact of capacity changes on the size of the waiting lists and the average waiting time for patients.\nThey will be presenting the final model and app to stakeholders and getting feedback, adapting if required; then putting it on GitHub to be shared."
+  },
+  {
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "hsma_project_handbook",
+    "section": "",
+    "text": "This is a Quarto website.\nTo learn more about Quarto websites visit https://quarto.org/docs/websites."
+  },
+  {
+    "objectID": "previous_projects/hsma_4/h4_rheumatology_pifu.html",
+    "href": "previous_projects/hsma_4/h4_rheumatology_pifu.html",
+    "title": "The role of Patient Initiated Follow-up (PIFU) and ‘Digital Outpatients’ in Supporting the Elective Recovery - Can We Better Size Potential for Clearing the Backlog?",
+    "section": "",
+    "text": "The aim of the project is to find out what role Patient Initiated Follow-up (PIFU) can play in the redeployment of capacity to address the backlog. This will be done by mapping outpatient pathways for rheumatology sub-pathway using discrete event simulation (DES).\nThe team did what-if modelling of resource use based on the proportion of patients on a PIFU pathway, the rate of PIFU patient-initiated requests and the use of advice & guidance. They used this to understand how released resource is redeployed, and how the upstream referral-to-treatment (RTT) waiting list behaves (size and waiting time to first outpatient).\nThe focus was on rheumatology as a case study since it had well documented pathways and good clinical evidence base on PIFU, with PIFU actively endorsed by NHSE and GIRFT. It is mainly an outpatient specialty with many chronic patients on long-term follow-up, meaning that the effect of PIFU is in theory amplified.\nOther opportunities include discussing a spin-off model that includes effect of other digital musculoskeletal peri-treatment interventions or creating a proof-of-concept generalised DES that can be used for other PIFU specialties (PIFU is being advocated across most elective specialties).\nOn the PIFU rheumatology model itself, the team aim to continue refining the model based on internal stakeholder feedback. A secondary aim is to create an end-user toy tool that could help demonstrate some of the what-if scenarios to operational managers, in collaboration with NHSE Digital Care Model colleagues."
+  },
+  {
+    "objectID": "previous_projects/hsma_5/h5_des_dorset.html",
+    "href": "previous_projects/hsma_5/h5_des_dorset.html",
+    "title": "A Discrete Event Simulation Model to reduce Rheumatology waiting times in Dorset",
+    "section": "",
+    "text": "The current Referral to Treatment waiting list is at its highest level in NHS history. Identifying methods for reducing the waiting list and waiting times would benefit patient care.\nThe aim of the project was to look at what changes in capacity, the number of appointments, could be made to reduce the waiting list and waiting times for Rheumatology services in Dorset. This was done using Discrete Event Simulation (DES), which is a technique that models flow through a pathway and can show what happens if changes are made.\nDuring the project the team built a DES model to look at the Rheumatology pathway. They then built an app using Steamlit so that stakeholders can model the impact of capacity changes on the size of the waiting lists and the average waiting time for patients.\nThey will be presenting the final model and app to stakeholders and getting feedback, adapting if required; then putting it on GitHub to be shared."
+  }
+]

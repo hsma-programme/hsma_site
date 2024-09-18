@@ -1,0 +1,18 @@
+project:
+  type: website
+
+website:
+  title: "hsma_project_handbook"
+  navbar:
+    left:
+      - href: index.qmd
+        text: Home
+      - href: project_overview.qmd
+        text: Projects
+      - about.qmd
+
+format:
+  html:
+    theme: cosmo
+    css: styles.css
+    toc: true

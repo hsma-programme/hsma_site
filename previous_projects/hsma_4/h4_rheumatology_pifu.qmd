@@ -1,0 +1,24 @@
+---
+title: "The role of Patient Initiated Follow-up (PIFU) and ‘Digital Outpatients’ in Supporting the Elective Recovery - Can We Better Size Potential for Clearing the Backlog?"
+categories:
+  - Discrete Event Simulation
+  - NHS
+  - NHS England
+  - Rheumatology
+  - Waiting Lists
+author:
+  - name: Martina Fonseca
+    affiliation: NHS England and Improvement
+  - name: Xiaochen Ge
+    affiliation: HS England and Improvement
+---
+
+The aim of the project is to find out what role Patient Initiated Follow-up (PIFU) can play in the redeployment of capacity to address the backlog. This will be done by mapping outpatient pathways for rheumatology sub-pathway using discrete event simulation (DES).
+
+The team did what-if modelling of resource use based on the proportion of patients on a PIFU pathway, the rate of PIFU patient-initiated requests and the use of advice & guidance. They used this to understand how released resource is redeployed, and how the upstream referral-to-treatment (RTT) waiting list behaves (size and waiting time to first outpatient).
+
+The focus was on rheumatology as a case study since it had well documented pathways and good clinical evidence base on PIFU, with PIFU actively endorsed by NHSE and GIRFT. It is mainly an outpatient specialty with many chronic patients on long-term follow-up, meaning that the effect of PIFU is in theory amplified.
+
+Other opportunities include discussing a spin-off model that includes effect of other digital musculoskeletal peri-treatment interventions or creating a proof-of-concept generalised DES that can be used for other PIFU specialties (PIFU is being advocated across most elective specialties).
+
+On the PIFU rheumatology model itself, the team aim to continue refining the model based on internal stakeholder feedback. A secondary aim is to create an end-user toy tool that could help demonstrate some of the what-if scenarios to operational managers, in collaboration with NHSE Digital Care Model colleagues.
