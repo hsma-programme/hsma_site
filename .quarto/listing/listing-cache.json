@@ -1,7 +1,13 @@
 {
   "listingMap": {
     "project_overview.qmd": [
-      "previous_projects"
+      "previous_projects",
+      "previous_projects/hsma_5",
+      "previous_projects/hsma_4"
+    ],
+    "previous_projects\\index.qmd": [
+      "hsma_5/*/index.qmd",
+      "hsma_4/*/index.qmd"
     ]
   }
 }

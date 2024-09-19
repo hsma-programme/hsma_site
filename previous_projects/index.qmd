@@ -1,0 +1,27 @@
+---
+title: "HSMA Projects"
+listing:
+    - id: hsma_5
+      contents: "hsma_5/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      categories: true
+      # template: ../html/previous_projects/listing.ejs
+    - id: hsma_4
+      contents: "hsma_4/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      # template: ../html/previous_projects/listing.ejs
+      categories: true
+---
+
+## HSMA 5
+
+:::{#hsma_5}
+:::
+
+
+## HSMA 4
+
+:::{#hsma_4}
+:::

@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Martina Fonseca">
+<meta name="author" content="Xiaochen Ge">
 
-<title>hsma_project_handbook - HSMA Projects</title>
+<title>hsma_project_handbook - The role of Patient Initiated Follow-up (PIFU) and ‘Digital Outpatients’ in Supporting the Elective Recovery - Can We Better Size Potential for Clearing the Backlog?</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -23,24 +25,22 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="site_libs/quarto-nav/headroom.min.js"></script>
-<script src="site_libs/clipboard/clipboard.min.js"></script>
-<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="site_libs/quarto-search/fuse.min.js"></script>
-<script src="site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="./">
-<script src="site_libs/quarto-listing/list.min.js"></script>
-<script src="site_libs/quarto-listing/quarto-listing.js"></script>
-<script src="site_libs/quarto-html/quarto.js"></script>
-<script src="site_libs/quarto-html/popper.min.js"></script>
-<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="site_libs/quarto-html/anchor.min.js"></script>
-<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
+<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-html/quarto.js"></script>
+<script src="../../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="light">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -68,105 +68,25 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
+<style>
 
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-hsma_5 .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-hsma_5'] = new List('listing-hsma_5', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-hsma_4 .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-title','listing-author','listing-image','listing-description','listing-categories',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-file-modified-sort'] }],
-      
-      searchColumns: ["listing-title","listing-author","listing-image","listing-description","listing-categories"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-hsma_4'] = new List('listing-hsma_4', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
-
-  <script src="https://polyfill.io/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
+      .quarto-title-block .quarto-title-banner {
+        background: #CF4446;
       }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
+</style>
 
-<link rel="stylesheet" href="styles.css">
+
+<link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
-  <header id="quarto-header" class="headroom fixed-top">
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-lg " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a class="navbar-brand" href="./index.html">
+    <a class="navbar-brand" href="../../../index.html">
     <span class="navbar-title">hsma_project_handbook</span>
     </a>
   </div>
@@ -177,15 +97,15 @@ window.Quarto = {
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link" href="./index.html"> 
+    <a class="nav-link" href="../../../index.html"> 
 <span class="menu-text">Home</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./project_overview.html" aria-current="page"> 
+    <a class="nav-link" href="../../../project_overview/index.qmd"> 
 <span class="menu-text">Projects</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./about.html"> 
+    <a class="nav-link" href="../../../about.html"> 
 <span class="menu-text">About</span></a>
   </li>  
 </ul>
@@ -196,142 +116,90 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block projects default toc-left page-columns page-full">
+    <div class="quarto-title-banner page-columns page-full">
+                <div class="back-nav"><a href="../../../previous_projects/">← Back to HSMA projects</a></div>
+                <div class="quarto-title column-body">
+            <h1 class="title">The role of Patient Initiated Follow-up (PIFU) and ‘Digital Outpatients’ in Supporting the Elective Recovery - Can We Better Size Potential for Clearing the Backlog?</h1>
+
+            
+            
+                                    <div class="quarto-categories">
+                                <div class="quarto-category">Discrete Event Simulation</div>
+                                <div class="quarto-category">NHS</div>
+                                <div class="quarto-category">NHS England</div>
+                                <div class="quarto-category">Rheumatology</div>
+                                <div class="quarto-category">Waiting Lists</div>
+                            </div>
+                                </div>
+    </div>
+
+        <div class="project-details">
+                        <ul class="project-links">
+                        <li class="project-link">
+                <a href="https://www.youtube.com/watch?v=P6nQle5tgBM&amp;t=1s"><i class="fa-brands fa-youtube"></i> Video</a>
+            </li>
+                        <li class="project-link">
+                <a href="https://github.com/nhsx/HSMA4-12-DES-rheum"><i class="fa-brands fa-github"></i> Code</a>
+            </li>
+                    </ul>
+            </div>
+
+    
+    <div class="quarto-title-meta-author">
+      <div class="quarto-title-meta-heading">Authors</div>
+      <div class="quarto-title-meta-heading">Affiliations</div>
+      
+        <div class="quarto-title-meta-contents">
+        <p class="author">Martina Fonseca </p>
+      </div>
+      <div class="quarto-title-meta-contents">
+            <p class="affiliation">
+                NHS England and Improvement
+              </p>
+          </div>
+        <div class="quarto-title-meta-contents">
+        <p class="author">Xiaochen Ge </p>
+      </div>
+      <div class="quarto-title-meta-contents">
+            <p class="affiliation">
+                HS England and Improvement
+              </p>
+          </div>
+      </div>
+
+    <div class="quarto-title-meta">
+
+          
+      
+        
+      </div>
+      
+
+    
+</header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
-        <nav id="TOC" role="doc-toc" class="toc-active">
-    <h2 id="toc-title">On this page</h2>
-   
-  <ul>
-  <li><a href="#hsma-5" id="toc-hsma-5" class="nav-link active" data-scroll-target="#hsma-5">HSMA 5</a></li>
-  <li><a href="#hsma-4" id="toc-hsma-4" class="nav-link" data-scroll-target="#hsma-4">HSMA 4</a></li>
-  </ul>
-</nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Council">Council <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Discrete Event Simulation">Discrete Event Simulation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="NHS">NHS <span class="quarto-category-count">(2)</span></div><div class="category" data-category="NHS England">NHS England <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Rheumatology">Rheumatology <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Waiting Lists">Waiting Lists <span class="quarto-category-count">(2)</span></div></div></div>
+    </div>
 <!-- main -->
-<main class="content" id="quarto-document-content">
-
-<header id="title-block-header" class="quarto-title-block default">
-<div class="quarto-title">
-<h1 class="title">HSMA Projects</h1>
-</div>
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
-<div class="quarto-title-meta">
 
-    
-  
-    
-  </div>
-  
-
-
-</header>
+<p>The aim of the project is to find out what role Patient Initiated Follow-up (PIFU) can play in the redeployment of capacity to address the backlog. This will be done by mapping outpatient pathways for rheumatology sub-pathway using discrete event simulation (DES).</p>
+<p>The team did what-if modelling of resource use based on the proportion of patients on a PIFU pathway, the rate of PIFU patient-initiated requests and the use of advice &amp; guidance. They used this to understand how released resource is redeployed, and how the upstream referral-to-treatment (RTT) waiting list behaves (size and waiting time to first outpatient).</p>
+<p>The focus was on rheumatology as a case study since it had well documented pathways and good clinical evidence base on PIFU, with PIFU actively endorsed by NHSE and GIRFT. It is mainly an outpatient specialty with many chronic patients on long-term follow-up, meaning that the effect of PIFU is in theory amplified.</p>
+<p>Other opportunities include discussing a spin-off model that includes effect of other digital musculoskeletal peri-treatment interventions or creating a proof-of-concept generalised DES that can be used for other PIFU specialties (PIFU is being advocated across most elective specialties).</p>
+<p>On the PIFU rheumatology model itself, the team aim to continue refining the model based on internal stakeholder feedback. A secondary aim is to create an end-user toy tool that could help demonstrate some of the what-if scenarios to operational managers, in collaboration with NHSE Digital Care Model colleagues.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/P6nQle5tgBM" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 
 
-<section id="hsma-5" class="level2">
-<h2 class="anchored" data-anchor-id="hsma-5">HSMA 5</h2>
-<div id="listing-hsma_5" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Discrete Event Simulation,Council,NHS,Rheumatology,Waiting Lists" data-listing-file-modified-sort="1726702101138" data-listing-reading-time-sort="1" data-listing-word-count-sort="160">
-<a href="./previous_projects/hsma_5/h5_des_dorset/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./previous_projects/hsma_5/h5_des_dorset/Abby Dewhurst.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-A Discrete Event Simulation Model to reduce Rheumatology waiting times in Dorset
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Discrete Event Simulation'); return false;">
-Discrete Event Simulation
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Council'); return false;">
-Council
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('NHS'); return false;">
-NHS
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Rheumatology'); return false;">
-Rheumatology
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Waiting Lists'); return false;">
-Waiting Lists
-</div>
-</div>
-<div class="card-text listing-description">
-The current Referral to Treatment waiting list is at its highest level in NHS history. Identifying methods for reducing the waiting list and waiting times would benefit…
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Abby Dewhurst, Claire Davies, Krzysztof Cepa
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-</section>
-<section id="hsma-4" class="level2">
-<h2 class="anchored" data-anchor-id="hsma-4">HSMA 4</h2>
-<div id="listing-hsma_4" class="quarto-listing quarto-listing-container-grid">
-<div class="list grid quarto-listing-cols-3">
-<div class="g-col-1" data-index="0" data-categories="Discrete Event Simulation,NHS,NHS England,Rheumatology,Waiting Lists" data-listing-file-modified-sort="1726702498970" data-listing-reading-time-sort="2" data-listing-word-count-sort="238">
-<a href="./previous_projects/hsma_4/h4_rheumatology_pifu/index.html" class="quarto-grid-link">
-<div class="quarto-grid-item card h-100 card-left">
-<p class="card-img-top">
-<img src="./previous_projects/hsma_4/h4_rheumatology_pifu/041-Doctor-Nurse-and-man-and-wife-talking.jpg" class="thumbnail-image card-img" style="height: 150px;">
-</p>
-<div class="card-body post-contents">
-<h5 class="no-anchor card-title listing-title">
-The role of Patient Initiated Follow-up (PIFU) and ‘Digital Outpatients’ in Supporting the Elective Recovery - Can We Better Size Potential for Clearing the Backlog?
-</h5>
-<div class="listing-categories">
-<div class="listing-category" onclick="window.quartoListingCategory('Discrete Event Simulation'); return false;">
-Discrete Event Simulation
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('NHS'); return false;">
-NHS
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('NHS England'); return false;">
-NHS England
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Rheumatology'); return false;">
-Rheumatology
-</div>
-<div class="listing-category" onclick="window.quartoListingCategory('Waiting Lists'); return false;">
-Waiting Lists
-</div>
-</div>
-<div class="card-text listing-description">
-The aim of the project is to find out what role Patient Initiated Follow-up (PIFU) can play in the redeployment of capacity to address the backlog. This will be done by…
-</div>
-<div class="card-attribution card-text-small start">
-<div class="listing-author">
-Martina Fonseca, Xiaochen Ge
-</div>
-</div>
-</div>
-</div>
-</a>
-</div>
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div>
-
-
-
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">

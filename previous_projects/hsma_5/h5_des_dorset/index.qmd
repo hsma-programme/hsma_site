@@ -13,6 +13,12 @@ author:
     affiliation: BCP Council
   - name: Krzysztof Cepa
     affiliation: Dorset Intelligence and Insight Service (NHS Dorset)
+image: "Abby Dewhurst.jpg"
+pub-info:
+  links:
+  - name: Video
+    url: https://www.youtube.com/watch?v=P6nQle5tgBM&t=1s
+    icon: fa-brands fa-youtube
 ---
 
 The current Referral to Treatment waiting list is at its highest level in NHS history. Identifying methods for reducing the waiting list and waiting times would benefit patient care.

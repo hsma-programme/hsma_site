@@ -11,6 +11,15 @@ author:
     affiliation: NHS England and Improvement
   - name: Xiaochen Ge
     affiliation: HS England and Improvement
+image: 041-Doctor-Nurse-and-man-and-wife-talking.jpg
+pub-info:
+  links:
+  - name: Video
+    url: https://www.youtube.com/watch?v=P6nQle5tgBM&t=1s
+    icon: fa-brands fa-youtube
+  - name: Code
+    url: https://github.com/nhsx/HSMA4-12-DES-rheum
+    icon: fa-brands fa-github
 ---
 
 The aim of the project is to find out what role Patient Initiated Follow-up (PIFU) can play in the redeployment of capacity to address the backlog. This will be done by mapping outpatient pathways for rheumatology sub-pathway using discrete event simulation (DES).
@@ -22,3 +31,5 @@ The focus was on rheumatology as a case study since it had well documented pathw
 Other opportunities include discussing a spin-off model that includes effect of other digital musculoskeletal peri-treatment interventions or creating a proof-of-concept generalised DES that can be used for other PIFU specialties (PIFU is being advocated across most elective specialties).
 
 On the PIFU rheumatology model itself, the team aim to continue refining the model based on internal stakeholder feedback. A secondary aim is to create an end-user toy tool that could help demonstrate some of the what-if scenarios to operational managers, in collaboration with NHSE Digital Care Model colleagues.
+
+{{< video https://www.youtube.com/watch?v=P6nQle5tgBM&t=1s >}}
