@@ -5,12 +5,14 @@ listing:
       contents: "hsma_5/*/index.qmd"
       sort: "date desc"
       type: grid
+      grid-columns: 2
       categories: true
       # template: ../html/previous_projects/listing.ejs
     - id: hsma_4
       contents: "hsma_4/*/index.qmd"
       sort: "date desc"
       type: grid
+      grid-columns: 2
       # template: ../html/previous_projects/listing.ejs
       categories: true
 ---
