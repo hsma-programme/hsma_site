@@ -1,7 +1,7 @@
 ---
-title: "hsma_project_handbook"
+title: "HSMA Project Handbook"
 ---
 
-This is a Quarto website.
+Welcome to the HSMA Project Handbook.
 
-To learn more about Quarto websites visit <https://quarto.org/docs/websites>.
+This book will contain tips, useful documents and inspiration for your HSMA project.

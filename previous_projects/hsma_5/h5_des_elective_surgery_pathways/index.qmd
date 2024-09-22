@@ -6,6 +6,7 @@ categories:
   - Elective Surgery
   - Waiting Times
   - Surgical
+  - Hospitals
 author:
   - name: Dominic Allen
     affiliation: Guy’s and St Thomas’ NHS Foundation Trust

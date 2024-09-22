@@ -4,7 +4,7 @@ categories:
   - Discrete Event Simulation
   - Streamlit
   - Acute Medical Unit (AMU)
-  - Accident & Emergency
+  - Emergency Departments
   - Acute Care
   - Hospitals
 author:

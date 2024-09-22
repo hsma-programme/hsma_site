@@ -2,7 +2,7 @@
 title: "Discrete Event Simulation to Improve Flow and Performance in the Urgent Treatment Centre"
 categories:
   - Discrete Event Simulation
-  - Urgent Treatment Care (UTC)
+  - Urgent Treatment Centres (UTC)
   - Emergency Departments
   - Identifying Bottlenecks in Pathways
 author:
@@ -16,9 +16,9 @@ pub-info:
     icon: fa-brands fa-youtube
 ---
 
-The primary aim of the project was to improve Urgent Treatment Care (UTC) performance by developing a model which would help the Emergency Department (ED) team with the allocation of staff and rooms to match patient flow. The team wanted to understand what further staff and resources would be required for any variations in patient attendance. The ED team wanted to understand how changes in the patient pathway would reduce bottlenecks, for example, what would be the impact of front-loading diagnostics. 
+The primary aim of the project was to improve Urgent Treatment Care (UTC) performance by developing a model which would help the Emergency Department (ED) team with the allocation of staff and rooms to match patient flow. The team wanted to understand what further staff and resources would be required for any variations in patient attendance. The ED team wanted to understand how changes in the patient pathway would reduce bottlenecks, for example, what would be the impact of front-loading diagnostics.
 
-Initially, a discrete event simulation model was developed to show how patients currently flow through UTC. After an initial model had been developed, it was used to test the proposed alternative pathways for diagnostics. It was also used to model different numbers of staff and rooms. The model made it easy to understand the impact of changes to the existing provision and what would be most cost-effective. 
+Initially, a discrete event simulation model was developed to show how patients currently flow through UTC. After an initial model had been developed, it was used to test the proposed alternative pathways for diagnostics. It was also used to model different numbers of staff and rooms. The model made it easy to understand the impact of changes to the existing provision and what would be most cost-effective.
 
 The ED department was redesigned based on the model findings, which identified a need for additional rooms leading to reconfiguration of the space. It started a review of staffing rotas to see how they could be better aligned to findings from the analysis and future staffing rotas are designed to align with what the model identified was needed to meet the 95% target.
 

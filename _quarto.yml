@@ -1,5 +1,6 @@
 project:
   type: website
+  output-dir: docs
 
 website:
   title: "HSMA Project Handbook"
@@ -9,7 +10,6 @@ website:
         text: Home
       - href: previous_projects/index.qmd
         text: Projects
-      - about.qmd
 
 format:
   html:

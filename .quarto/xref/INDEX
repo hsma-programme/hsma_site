@@ -25,5 +25,113 @@
   },
   "previous_projects/index.qmd": {
     "index.html": "6ae36f1d"
+  },
+  "previous_projects/hsma_4/h4_reducing_travel_time_cardiac/index.qmd": {
+    "index.html": "213064cb"
+  },
+  "previous_projects/hsma_3/h3_ai_sentiment_tweet/index.qmd": {
+    "index.html": "52046c23"
+  },
+  "previous_projects/hsma_3/h3_crime_data_safeguarding_network/index.qmd": {
+    "index.html": "ad65fec4"
+  },
+  "previous_projects/hsma_3/h3_elective_backlog_hip/index.qmd": {
+    "index.html": "c02a1fd2"
+  },
+  "previous_projects/hsma_3/h3_generic_vaccination/index.qmd": {
+    "index.html": "1cb069a6"
+  },
+  "previous_projects/hsma_3/h3_ml_nlp/index.qmd": {
+    "index.html": "81f8b519"
+  },
+  "previous_projects/hsma_3/h3_simulation_paediatric_critical_care/index.qmd": {
+    "index.html": "5c8fe16c"
+  },
+  "previous_projects/hsma_4/h4_booked_appointments_utc/index.qmd": {
+    "index.html": "c72bcdb0"
+  },
+  "previous_projects/hsma_4/h4_covid_19_vaccination_demand_capacity/index.qmd": {
+    "index.html": "cc54378c"
+  },
+  "previous_projects/hsma_4/h4_des_adhd_autism_pathway/index.qmd": {
+    "index.html": "d96c8b5c"
+  },
+  "previous_projects/hsma_4/h4_des_amu_flow/index.qmd": {
+    "index.html": "e28181c0"
+  },
+  "previous_projects/hsma_4/h4_des_cbt_iapt/index.qmd": {
+    "index.html": "5995924f"
+  },
+  "previous_projects/hsma_4/h4_des_delays_cancer_diagnosis_treatment/index.qmd": {
+    "index.html": "1768332b"
+  },
+  "previous_projects/hsma_4/h4_des_flow_performance_utc/index.qmd": {
+    "index.html": "63a004af"
+  },
+  "previous_projects/hsma_4/h4_forecasting_los_ed/index.qmd": {
+    "index.html": "6664807f"
+  },
+  "previous_projects/hsma_4/h4_meeting_demand_111/index.qmd": {
+    "index.html": "05e15354"
+  },
+  "previous_projects/hsma_4/h4_ml_admissions_los_respiratory/index.qmd": {
+    "index.html": "80901ebd"
+  },
+  "previous_projects/hsma_4/h4_pifu_digital_outpatients_elective_recovery/index.qmd": {
+    "index.html": "c835eaa8"
+  },
+  "previous_projects/hsma_4/h4_predicting_non_elective_admissions/index.qmd": {
+    "index.html": "0c563eab"
+  },
+  "previous_projects/hsma_4/h4_predicting_violent_incidents_mh_inpatients/index.qmd": {
+    "index.html": "5341f7a3"
+  },
+  "previous_projects/hsma_4/h4_reducing_travel_times_cardiac_patients/index.qmd": {
+    "index.html": "bcafc8ad"
+  },
+  "previous_projects/hsma_4/h4_service_planning_inequalities_carbon_output/index.qmd": {
+    "index.html": "26cdd1a9"
+  },
+  "previous_projects/hsma_4/h4_spatial_modelling_crime/index.qmd": {
+    "index.html": "4667ac49"
+  },
+  "previous_projects/hsma_5/h5_des_bottlenecks_amu/index.qmd": {
+    "index.html": "26dfd144"
+  },
+  "previous_projects/hsma_5/h5_des_elective_surgery_pathways/index.qmd": {
+    "index.html": "527057f1"
+  },
+  "previous_projects/hsma_5/h5_effect_complex_discharge_delays_acute_perform/index.qmd": {
+    "index.html": "275f66e4"
+  },
+  "previous_projects/hsma_5/h5_forecasting_demand_clock_starts/index.qmd": {
+    "index.html": "cbe3fbbb"
+  },
+  "previous_projects/hsma_5/h5_health_equity_audits_cdc/index.qmd": {
+    "index.html": "0d763e3b"
+  },
+  "previous_projects/hsma_5/h5_inequalities_demographic/index.qmd": {
+    "index.html": "29fc08db"
+  },
+  "previous_projects/hsma_5/h5_ml_inequities_hospital_procedure_access/index.qmd": {
+    "index.html": "5c0933ca"
+  },
+  "previous_projects/hsma_5/h5_multiobjective_neonatal_optimisation/template.qmd": {
+    "template.html": "c5603468"
+  },
+  "previous_projects/hsma_5/h5_network_analysis_diagnostics_ae/index.qmd": {
+    "index.html": "31333fa4"
+  },
+  "previous_projects/hsma_5/h5_nlp_drug_content/index.qmd": {
+    "index.html": "1dc79ce1"
+  },
+  "previous_projects/hsma_5/h5_understanding_excess_mortality/index.qmd": {
+    "index.html": "5c8176c5"
+  },
+  "previous_projects/hsma_5/h5_workforce_turnover_drivers/index.qmd": {
+    "index.html": "2d089771"
+  },
+  "previous_projects/template.qmd": {
+    "template.html": "23a79587"
   }
 }

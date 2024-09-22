@@ -6,13 +6,14 @@ categories:
   - Automation
   - Inequalities
   - Carbon Emissions
+  - Health Equity Audits
 author:
   - name: Matt Eves
-    affiliation: Derbyshire Community Health Services NHS 
+    affiliation: Derbyshire Community Health Services NHS
   - name: Anya Gopfert
     affiliation: Torbay Council
   - name: Sally Brown
-    affiliation: West Sussex County Council 
+    affiliation: West Sussex County Council
 image: "bef68gj9.bmp"
 pub-info:
   links:
@@ -24,12 +25,12 @@ pub-info:
     icon: fa-brands fa-github
 ---
 
-There are three current significant health agendas to which this project broadly relates. 
+There are three current significant health agendas to which this project broadly relates.
 
-These are 
+These are
 
 1. The inequalities agenda
-2. The digital and transformation agenda, and 
+2. The digital and transformation agenda, and
 3. The Net Zero agenda.
 
 The aim of this project was to explore feasibility of considering the impact of a new clinic location on inequalities and carbon emissions, and any co-benefits or trade-offs between the two. Ultimately, the aim was to enable decision making to incorporate these two significant areas.
@@ -40,11 +41,11 @@ The team have achieved:
 
 2. The running of a number of variations to a logistic regression model to identify features predictive of someone not attending their appointment
 
-3. Quantifying an estimate for the patient travel carbon emissions associated with the current service design. 
+3. Quantifying an estimate for the patient travel carbon emissions associated with the current service design.
 
 They are intending to continue working together as a team to finish the project’s initial scope (e.g. inc. possible new clinic sites and model impact on unmet need / emissions) – potentially supported by code from another project, emphasising the benefit of open source.
 
-They have been successful in securing a funding from the Greener NHS Healthier Futures Action Fund joint bid. 
+They have been successful in securing a funding from the Greener NHS Healthier Futures Action Fund joint bid.
 
 {{< video https://www.youtube.com/watch?v=zYWte2obxDs&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=8 >}}
 

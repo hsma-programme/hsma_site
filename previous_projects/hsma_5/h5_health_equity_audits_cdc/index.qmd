@@ -5,6 +5,7 @@ categories:
   - Inequalities
   - Streamlit
   - Automation
+  - Health Equity Audits
 author:
   - name: Sarah Houston
     affiliation: UCL Partners
@@ -23,7 +24,7 @@ pub-info:
 
 Community diagnostic centres (CDCs) have been launched across England to tackle the diagnostic backlog and address healthcare inequalities. CDCs and commissioners struggle to identify their baseline of healthcare inequalities and monitor their impact going forwards. This leads to resourcing constraints on teams in the short term and risks minimising the CDC’s impact on healthcare inequalities in the long term. As these are emerging services, the quality of data collected by them to understand their impact is unclear. This impact can be estimated through a health equity audit, however this is usually and long and manual process.
 
-The aim of the project was to create an open source and shareable tool to: 
+The aim of the project was to create an open source and shareable tool to:
 
 - Perform a health equity audit to identify where the service may be having an impact on healthcare inequalities
 

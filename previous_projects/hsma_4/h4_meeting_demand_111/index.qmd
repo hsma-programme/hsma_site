@@ -4,14 +4,14 @@ categories:
   - Discrete Event Simulation
   - Plotly Dash
   - Network Analysis
-  - NHS 111 Service
+  - 111 Service
   - Primary Care
   - Emergency Departments
 author:
   - name: Richard Pilbery
     affiliation: Yorkshire Ambulance Service NHS Trust
   - name: Maddie Smith
-    affiliation: Devon CCG 
+    affiliation: Devon CCG
   - name: Jon Green
     affiliation: University of Plymouth
 image: ""

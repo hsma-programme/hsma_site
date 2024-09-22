@@ -4,14 +4,14 @@ categories:
   - Mapping
   - Travel Times
   - Streamlit
-  - Cardiac
+  - Cardiology
   - Location Optimisation
 author:
-  - name: Glenn Ubly 
+  - name: Glenn Ubly
     affiliation: NHS England Specialised Commissioning – South East Region
   - name: Atonia Drummond
     affiliation: NHS England and Improvement
-  - name: Janine James 
+  - name: Janine James
     affiliation: NHS England and Improvement
   - name: Victor Yu
     affiliation: The Strategy Unit

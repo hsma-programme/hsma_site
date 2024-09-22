@@ -1,5 +1,6 @@
 ---
 title: "HSMA Projects"
+toc-location: right
 listing:
     - id: hsma_5
       contents: "hsma_5/*/index.qmd"
@@ -15,7 +16,20 @@ listing:
       grid-columns: 2
       # template: ../html/previous_projects/listing.ejs
       categories: true
+    - id: hsma_3
+      contents: "hsma_3/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      # template: ../html/previous_projects/listing.ejs
+      categories: true
 ---
+
+Here you can find details of a range of previous HSMA projects.
+
+Use the categories on the right to filter projects by technique or service area.
+
+Click on the preview for each project to read the full details and watch a short talk from the HSMAs who undertook the project on their plans, successes and challenges.
 
 ## HSMA 5
 
@@ -26,4 +40,9 @@ listing:
 ## HSMA 4
 
 :::{#hsma_4}
+:::
+
+## HSMA 3
+
+:::{#hsma_3}
 :::
