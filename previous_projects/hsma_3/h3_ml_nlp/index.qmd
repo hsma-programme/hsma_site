@@ -1,0 +1,32 @@
+---
+title: "Exploring the use of Machine Learning and Natural Language Processing to teach a machine to predict whether a patient is likely to be imminently admitted to hospital based on GP data and clues in GP notes"
+categories:
+  - Natural Language Processing
+  - Primary Care
+  - Admissions
+  - Machine Learning
+author:
+  - name: Dr Adam Kwiatkowski
+    affiliation: GP and Clinical Director, Torridge Primary Care Network
+  - name: Prof Mona Nasser
+    affiliation: Associate Professor of Evidence Based Dentistry, Peninsula Dental School
+  - name: Imca Hensels-Pelling
+    affiliation: Information Analyst, Royal Devon and Exeter NHS Foundation Trust
+image: "x17ig2yr.bmp"
+pub-info:
+  links:
+  - name: Video
+    url: 
+    icon: fa-brands fa-youtube
+  - name: Code
+    url: 
+    icon: fa-brands fa-github
+  - name: Website
+    url: 
+    icon: fa-solid fa-globe
+---
+
+This exploratory project explored the use of Natural Language Processing methods to automate the extraction of key information from free-text patient notes in order to ascertain whether clues in notes could be used to predict an imminent admission to hospital. The team found certain important aspects that seemed to offer indications of an imminent admission, such as increased frequency and verbosity of patient notes, and the use of certain words. The team is now continuing to use these preliminary insights to develop a machine learning algorithm to try to predict an imminent admission for patients in Devon.
+
+{{< video https://www.youtube.com/watch?v=xlHuSYo4XAg&list=PLgHO2TgIJXdnAWY7tGGPQLWYAjn0tgG_A&index=2 >}}
+

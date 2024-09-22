@@ -1,0 +1,29 @@
+---
+title: "Use of Discrete Event Simulation to Tackle Long Waits and a Growing Backlog for Children Requiring Neuro Development Assessment (Autism and ADHD)"
+categories:
+  - Discrete Event Simulation
+  - Neurodiversity
+  - Mental Health
+  - Demand & Capacity
+  - Identifying Bottlenecks in Pathways
+  - Reducing Backlogs
+author:
+  - name: Irma Tanovic
+    affiliation: Oxford Health NHS Foundation Trust 
+image: "ur9vxl8p.bmp"
+pub-info:
+  links:
+  - name: Video
+    url: https://www.youtube.com/watch?v=IuD0tmKtjV4&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=13
+    icon: fa-brands fa-youtube
+---
+
+The aim of the project was to understand the current pathway to assessment of Autism and ADHD in children, identifying any bottlenecks. We wanted to know what change needed to take place in order to keep on top of ongoing demand levels and see patients within an acceptable time - what do we need to do to maintain a steady state and avoid a backlog from developing?
+
+In addition to maintaining a steady state, we wanted to understand how to eliminate the backlog that has developed as a result of the ongoing demand not being met. 
+
+The main bottlenecks were identified and the issue is not at the beginning of the pathway (getting the completed questionnaires back from parents/schools) like it has been suggested at the start of the project, but further down the pathway due to clinical staffing capacity. Furthermore, the developed model shows that recruiting just one extra clinician would result in having a steady state with the backlog not growing. The model also shows possible staffing requirements to remove existing backlog in 1-5 years in addition to keeping a steady state.
+
+The findings and the model demo have been presented to the stakeholders including service managers, clinical and operational leads, service heads and the Trust board, and discussions on plans for how the model is used to support any improvement work in the service is already taking place.
+
+{{< video https://www.youtube.com/watch?v=IuD0tmKtjV4&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=13 >}}

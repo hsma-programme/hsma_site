@@ -1,0 +1,37 @@
+---
+title: "Spatial Modelling of Violent Crime to Support Strategic Analysis"
+categories:
+  - Mapping
+  - Geostatistics
+  - QGIS
+author:
+  - name: Anupma Wadhera
+    affiliation: TBC
+  - name: Linda Wystemp 
+    affiliation: TBC
+  - name: Andrea Casajuana Massanet
+    affiliation: Counter Terrorism Policing 
+  - name: Helen Browne
+    affiliation: Devon and Cornwall Police 
+  - name: Alessia Rose
+    affiliation: Devon County Council
+image: "m6ij2sto.bmp"
+pub-info:
+  links:
+  - name: Video
+    url: https://www.youtube.com/watch?v=K0g2Iaw3blY&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=10
+    icon: fa-brands fa-youtube
+---
+
+The aim of this project was to use various crime data variables and spatial analysis to turn them into useful insights for inclusion in assessed intelligence reporting.
+
+The team chose to focus on violent crime offence data as they wanted to create our model using free and open source software. 
+
+They used QGIS and various Python libraries to explore the data. For the purpose of their model they obtained detailed geographic offence data uploaded by police forces in England and Wales.
+
+The model was able to take a crime indicator (e.g. violent and sexual offences) for a region in the UK, prepare the data, apply and compare map classification schemes and run various analysis techniques to identify spatial autocorrelation, LISA , identify hotspots, coldspots and outliers. The statistical output provided a level of confidence in the findings that they can incorporate into intelligence confidence reporting levels.
+
+The model will be shared with Commodity Threat Leads with the intention of using it internally to identify spatial trends in datasets that are restricted. Applying spatial analysis to these datasets will help identify regional variation and help quantify visual observations that will provide statistical certainty to any observed visual findings. The model will be proposed and applied to more restricted crime data in order to be used to draw out useful visualisations and insights to feed into intelligence reporting. 
+
+{{< video https://www.youtube.com/watch?v=K0g2Iaw3blY&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=10 >}}
+

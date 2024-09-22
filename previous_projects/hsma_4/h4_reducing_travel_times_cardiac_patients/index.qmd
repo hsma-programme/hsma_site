@@ -1,0 +1,48 @@
+---
+title: "Reducing Travel Times to Treatment for Cardiac Patients in the South East of England"
+categories:
+  - Mapping
+  - Travel Times
+  - Streamlit
+  - Cardiac
+  - Location Optimisation
+author:
+  - name: Glenn Ubly 
+    affiliation: NHS England Specialised Commissioning – South East Region
+  - name: Atonia Drummond
+    affiliation: NHS England and Improvement
+  - name: Janine James 
+    affiliation: NHS England and Improvement
+  - name: Victor Yu
+    affiliation: The Strategy Unit
+image: "7s1io79p.bmp"
+pub-info:
+  links:
+  - name: Video
+    url: https://www.youtube.com/watch?v=28yXjieiMEM&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=6
+    icon: fa-brands fa-youtube
+  - name: Code
+    url: https://github.com/GlennUbly/HSMA4_cardiac
+    icon: fa-brands fa-github
+  - name: Website
+    url: https://glennubly-hsma4-cardiac-introduction-f1fq51.streamlitapp.com/
+    icon: fa-solid fa-globe
+---
+
+The aim of the project was to employ geographical and statistical analysis of past and present travel times to understand the impact the flow of activity into London has on travel times for patients, whether referral pathways could be changed to minimise patient travel, and the extent to which additional sites would have a beneficial impact.
+
+Initial analysis was undertaken on a sample of cardiac procedures within the hospital spell level data. The analysis identified a particular gap in the accessibility of cardiac surgery for patients in the Kent & Medway area, where there would be a significant benefit for the local population in the provision of a new cardiac surgery site or sites. The methods used gave a quantified and visual view of the impact of the options, and indicated the optimal configurations with 1 or 2 additional sites.
+
+The team created a Streamlit application which allows a user to select from a list of possible new sites, and see the impact on travel times for Kent & Medway patients using maps, charts and a number of key travel time metrics.
+
+The South East Cardiac Network have reviewed the findings, and this work will form part of the evidence base for service planning in the region. More generally, there has been interest in applying the methods and tools to other services.
+
+{{< video https://www.youtube.com/watch?v=28yXjieiMEM&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=6 >}}
+
+```{=html}
+<iframe width="780" height="500" src="https://glennubly-hsma4-cardiac-introduction-f1fq51.streamlitapp.com/" title="App"></iframe>
+```
+
+```{=html}
+<iframe width="780" height="500" src="https://github.com/GlennUbly/HSMA4_cardiac" title="Code"></iframe>
+```

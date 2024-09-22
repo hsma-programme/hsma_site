@@ -1,0 +1,34 @@
+---
+title: "Predicting Non-Elective Admissions"
+categories:
+  - Machine Learning
+  - Non-elective Admissions
+  - Inpatient Admissions
+  - Natural Language Processing
+author:
+  - name: Stephen Ashmead
+    affiliation: Royal Devon University Healthcare NHS Foundation Trust
+  - name: Karim Kamara
+    affiliation: Royal Devon University Healthcare NHS Foundation Trust
+  - name: Jahangir Alam
+    affiliation: NHS North East London CSU
+image: "lb926cjj.bmp"
+---
+
+The project aim was to develop a predictive model to identify patients at high risk of admission and to provide explanatory feedback as to why the patients were at risk. There were three elements of the project:
+
+1. Using structured data to generate a predictive model
+
+2. Use unstructured data from patient notes to generate a predictive model
+
+3. To combine the two models to create an enhanced model
+
+Three models were developed using structured data – logistic regression, random forest and neural network. Logistic regression performed best.
+
+For the unstructured data, attempts to use more advanced Natural Language Processing techniques (such as neural networks and transformers) were unsuccessful due to limited computing power. However, a more basic model using a Term Frequency-Inverse Document Frequency matrix with a random forest showed some improvement on accuracy.
+
+Electronic health record data can accurately be used to predict whether a patient is at risk of non-elective admission. Administrative events are often better indicators than clinical measures, however EHR data is prone to several limitations and biases which can lead to counter-intuitive correlations. For analysis of unstructured data, greater computing power than I have access to is required to analyse the large quantities of patient notes, even when focusing on relatively short time frames.
+
+It will make a difference to patient care by allowing patients at risk of non-elective admission to receive preventative care, leading to better health outcomes for the individual patients and freeing up inpatient resources for other patients.
+
+

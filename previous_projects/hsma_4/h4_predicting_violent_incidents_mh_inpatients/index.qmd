@@ -1,0 +1,18 @@
+---
+title: "Predicting Violent Incidents on Mental Health Inpatient Units"
+categories:
+  - Machine Learning
+  - Mental Health
+  - Mental Health Inpatients
+author:
+  - name: Iain Waring
+    affiliation: Birmingham & Solihull Mental Health NHS Foundation Trust 
+image: "6s86lwll.bmp"
+---
+
+The aim of the project was to see if the occurrence of violent incidents on hospital wards could be reduced, if incidents could be pre-empted and interventions could be taken to try to prevent them from happening.
+
+The trust has a wealth of electronic information about service users, staff, incidents, and what happens on inpatient units. The plan was to combine this information into a dataset and use machine learning techniques to predict which of our wards were most likely to suffer from an incident the following day. A dashboard would highlight these wards to senior nursing staff, who could experiment with actions to reduce incidents.
+
+Discussions with key staff helped to identify which features from our systems would be the most helpful in predicting incidents.  A large dataset was constructed, and machine learning methods were used in an attempt to predict where incidents might happen. Unfortunately, the dataset did not prove to be informative enough to generate a working model – the predictions made were inaccurate and there was no way to apply them to the work environment.
+

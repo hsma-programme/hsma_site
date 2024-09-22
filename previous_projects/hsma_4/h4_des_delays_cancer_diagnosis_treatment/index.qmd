@@ -1,0 +1,32 @@
+---
+title: "Use Of Discrete Event Simulation (DES) to reduce delays in Cancer Diagnosis & Treatment"
+categories:
+  - Discrete Event Simulation
+  - Cancer
+  - Colorectal
+  - Identifying Bottlenecks in Pathways
+author:
+  - name: Angel Masih
+    affiliation: Gloucestershire Hospitals Foundation Trust
+  - name: James Page
+    affiliation: University Hospitals of Morecambe Bay NHS Trust
+  - name: Mahya Kaveh
+    affiliation: Dartford and Gravesham NHS Trust
+image: "cuep9jku.bmp"
+pub-info:
+  links:
+  - name: Video
+    url: https://www.youtube.com/watch?v=Wmpu4fpu0J4&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=2
+    icon: fa-brands fa-youtube
+---
+
+The project aim was to develop a Discrete Event Simulation (DES) model based on Colorectal Cancer pathway at Gloucester Royal Hospital to identify the key delays within the pathway and identifying feasible solutions.
+
+The team met with cancer service leads to discuss the scope of the project and discussed the patient pathway in detail. Three years of anonymised patient records were used to create the model. Delays for the pathway were split into patient & provider delays to focus only on provider delays.
+
+They used SimPy to create a DES model using the current colorectal patient pathway. They ran the simulation for 100 runs to get the average waiting time for each stage of the pathway to identify the stages that took the longest amount of time. The DES model showed us the key delay, which is diagnostic delays caused during investigative stages.
+
+The findings from the analysis will be presented to cancer leads to support reducing the waiting times for colorectal patients. The DES model helped to evidence key bottlenecks of the patient pathway and will help to discuss the prospect of how increased resource can help improve patient outcomes.  
+
+{{< video https://www.youtube.com/watch?v=Wmpu4fpu0J4&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=2 >}}
+

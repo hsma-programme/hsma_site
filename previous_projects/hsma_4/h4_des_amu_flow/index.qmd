@@ -1,0 +1,33 @@
+---
+title: "Using DES to Improve Flow through an Acute Medicine Assessment Pathway"
+categories:
+  - Discrete Event Simulation
+  - Emergency Departments
+  - Patient Flow
+  - Inpatients 
+author:
+  - name: Helen Young
+    affiliation: Nottingham University Hospitals NHS Trust
+  - name: Thomas Knight
+    affiliation: Sandwell and Birmingham NHS Trust
+image: "f1haee9r.bmp"
+pub-info:
+  links:
+  - name: Video
+    url: https://www.youtube.com/watch?v=TDTyBcVZDUU&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=9
+    icon: fa-brands fa-youtube
+---
+
+Nottingham University Hosptials has two major Acute Medicine Assessment areas (WB3 and AMRA), where patients can be reviewed before being sent to the most appropriate specialty base ward bed for their needs.
+
+WB3 and AMRA run at very high occupancy levels, and patients frequently wait in the Emergency Department (ED) for a WB3/AMRA bed for more than 6 hours – this is a known cause of delay-related harm. Stakeholders feel that a major constraint is patients waiting in WB3/AMRA who are ready to be moved to a ward bed. 
+
+The team wanted to investigate what the impact would be if patients were able to leave WB3/AMRA more quickly. What would this do to the backlog of queues in ED, and how would it affect waiting times there?
+
+A Discrete Event Simulation (DES) was made of the entire Acute Medicine assessment pathway. They then simulated several alternative scenarios in which patients leave WB3/AMRA more quickly after their period of assessment is completed – and were able to see the impact of this in the key metrics.
+
+If all patients left WB3/AMRA within four hours of their request for a ward bed, patients would never have to wait in ED for a WB3/AMRA bed for more than 6 hours. Even if all patients left WB3/AMRA within 16 hours of their request, this would still reduce the number of patients waiting more than 6 hours by 90% - substantially reducing the risk of delay-related harm
+
+We can now start to quantify the number of additional ward beds that would need to be freed up to support this improved flow, and bring these findings to discussions on how/where additional bed days could be released. 
+
+{{< video https://www.youtube.com/watch?v=TDTyBcVZDUU&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=9 >}}

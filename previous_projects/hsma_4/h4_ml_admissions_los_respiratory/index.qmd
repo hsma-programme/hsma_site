@@ -1,0 +1,27 @@
+---
+title: "Using Machine Learning to Predict Hospital Admissions and Length of Stay for Respiratory Conditions"
+categories:
+  - Machine Learning
+  - Respiratory
+  - Inpatient Admissions
+author:
+  - name: Andy McCann
+    affiliation: NHS Midlands and Lancashire Commissioning Support Unit 
+image: "ml9qqnl3.bmp"
+pub-info:
+  links:
+  - name: Video
+    url: https://www.youtube.com/watch?v=-0AGbib9Ig0&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=14
+    icon: fa-brands fa-youtube
+---
+
+The aim of the project was to use available Primary and Secondary Care patient history and demographic information to better predict the chance of admission for respiratory conditions and subsequent length of stay, in order to better target interventions. 
+
+Due to time and data constraints, the modelling is currently at an early stage, but has demonstrated some interesting preliminary findings and put the structure in place for further development.
+
+A Logistic Regression confirmed some expected factors but also revealed some surprises. An initial neural network with very little optimisation matches the Logistic Regression performance, with the potential to beat it when other features are included.
+
+The model needs to take other features, particularly more patient history, into account to improve performance and be extended to predict length of stay as well as admission. 
+
+{{< video https://www.youtube.com/watch?v=-0AGbib9Ig0&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=14 >}}
+

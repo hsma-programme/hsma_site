@@ -1,0 +1,27 @@
+---
+title: "Forecasting Demand and Length of Stay in the Emergency Department"
+categories:
+  - Machine Learning
+  - Forecasting
+  - Streamlit
+  - Paediatric
+  - Staffing Level Optimisation
+author:
+  - name: Lisa Sabir
+    affiliation: Sheffield Children’s Hospital 
+image: "7eufiwyz.bmp"
+pub-info:
+  links:
+  - name: Video
+    url: https://www.youtube.com/watch?v=a7MtCSbTg0I&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=7
+    icon: fa-brands fa-youtube
+---
+
+The project aimed to use forecasting and machine learning methods to predict the length of stay and arrivals to the Emergency Department (ED) at different times of day, days of the week and months of the year. Understanding this would allow the team to examine trends and predict future demand so they better plan workforce. 
+
+They have designed a web-based app where they can input the Sheffield Children’s hospital data and use it to explore trends in attendances and length of stay. This allows them to see patterns and suggest improvements, such as when it would be better for extra staffing. The web-page produces a “Forecast” demonstrating the attendances by hour/day/month/year as well as length of stay via interactive buttons. It is then able to give an estimate for a selected time to predict future demand. 
+
+They have completed the forecasting methods for this project and are now developing the machine learning model. The team hope to gain permission for this to be used on a wider scale so individual trusts can input their own data. 
+
+{{< video https://www.youtube.com/watch?v=a7MtCSbTg0I&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=7 >}}
+

@@ -1,0 +1,35 @@
+---
+title: "South East Regional Covid 19 Vaccination Demand & Capacity Modelling"
+categories:
+  - Forecasting
+  - Vaccination
+  - Prophet
+  - COVID-19
+  - Plotly Dash
+author:
+  - name: Charlene Black
+    affiliation: South Central and West Commissioning Support Unit
+  - name: Adonis Sithole
+    affiliation: South Central and West Commissioning Support Unit
+  - name: Edward Chick
+    affiliation: South Central and West Commissioning Support Unit
+  - name: Mayoor Dhokia
+    affiliation: Surrey and Borders Partnership NHS Trust
+image: "bk6maxsh.bmp"
+pub-info:
+  links:
+  - name: Video
+    url: https://www.youtube.com/watch?v=_AWTVeNqOwM&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=3
+    icon: fa-brands fa-youtube
+---
+
+The aim of the project was to create an easy to use model for predicting demand and capacity for Covid vaccinations. 
+
+During the project the team came up against many barriers, the biggest of which was getting access to the data. The other issue they had with getting the data was the limits imposed on the amount of data you could download in one go, meaning that it was a lengthy process.
+
+They modelled potential update scenarios and have started to work on this and have making great progress. They will use the previous vaccination data, along with the Winter 2022 vaccination data to strengthen the tool, so that following vaccination seasons it can be used more widely. They will look at other vaccinations it could be applied to, such as flu. 
+
+This will give users an easy to use tool to keep track of vaccinations and pick up problem areas quickly. It will save time and money on current methods and enable more people to use and understand the vaccination position 
+
+{{< video https://www.youtube.com/watch?v=_AWTVeNqOwM&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=3 >}}
+

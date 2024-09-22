@@ -1,0 +1,28 @@
+---
+title: "Generating a richer understanding of relationships in crime data in order to identify opportunities to safeguard individuals and families"
+categories:
+  - Network Analysis
+  - Police
+author:
+  - name: Jenna Thomas
+    affiliation: Strategic Analyst, Devon and Cornwall Police
+  - name: Charly Bartlett
+    affiliation: Analyst, Devon and Cornwall Police
+  - name: Neil Mitchell
+    affiliation: Business Intelligence Developer, Devon and Cornwall Police
+image: "6s1gmgrn.bmp"
+pub-info:
+  links:
+  - name: Video
+    url: https://www.youtube.com/watch?v=oSPxFaeDa5Q&list=PLgHO2TgIJXdnAWY7tGGPQLWYAjn0tgG_A&index=5
+    icon: fa-brands fa-youtube
+---
+
+This project used Network Analysis methods to identify the social relationships between groups of people who could be causing significant issues within their communities, and enable the police to consider pro-active interventions to target those who may be at risk of future offending because of their social links with offenders. The team developed a proof of concept initially that demonstrated they could use this type of analysis to identify “at risk” individuals in a matter of hours compared to over many months using traditional manual methods. The methods were then applied to identify a highly connected network of youths causing issues in a community within a Devon city.
+
+Fiona Bohan, Performance and Analysis Manager at Devon and Cornwall Police, had this to say about the work :
+
+“The need for Social Network Analysis is clear. Criminal and exploitative networks are a huge and costly issue for police, their partner agencies, and the community. SNA, using minimal resource, can identify children at current and future risk of exploitation, as well as those key players within the network who pose the greatest risk. By targeting and removing these key players, and concentrating limited early intervention resources on protecting those at risk in the future, there are potential significant savings both in terms of child harm and partnership spend. This proof of concept has highlighted the significant benefits of embedding this approach in force and, in my view, will play an important part in policing in the future.”
+
+{{< video https://www.youtube.com/watch?v=oSPxFaeDa5Q&list=PLgHO2TgIJXdnAWY7tGGPQLWYAjn0tgG_A&index=5 >}}
+
