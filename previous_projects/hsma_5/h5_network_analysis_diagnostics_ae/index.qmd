@@ -1,0 +1,28 @@
+---
+title: "Network Analysis of diagnostic procedures in A&E setting"
+categories:
+  - Network Analysis
+  - Plotly Dash
+  - Accident & Emergency
+  - Diagnostic Procedures
+  - ECDS Dataset
+author:
+  - name: Hamzah Shami
+    affiliation: NHS England
+image: "akzr6q9d.bmp"
+pub-info:
+  links:
+  - name: Code
+    url: https://github.com/HamzahJShami/HSMA5
+    icon: fa-brands fa-github
+---
+
+In A&E a patient can be given one or more diagnostic procedures. These can be as simple as the various blood test or more complicated procedures like an MRI test. The aim of this project was to look at the relationship between the different investigations. Hamzah pulled data from the NHS ECDS and created a series of graphs based by A&E provider.
+
+The aim of the project become to create a web tool that can provide insight in how diagnostic procedure are used in A&E departments across the country. Hamzah learnt a lot about graph analysis and the connection between clinical theory and analytical process. 
+
+Hamzah is now working on creating a web tool that allows users to explore the graphic visualisation as well as some analytics that accompany the graphs. 
+
+```{=html}
+<iframe width="780" height="500" src="https://github.com/HamzahJShami/HSMA5" title="Code"></iframe>
+```

@@ -1,0 +1,42 @@
+---
+title: "Creating a tool to automatically generate health equity audits for Community Diagnostic Centres"
+categories:
+  - Community Diagnostic Centres (CDCs)
+  - Inequalities
+  - Streamlit
+  - Automation
+author:
+  - name: Sarah Houston
+    affiliation: UCL Partners
+  - name: Deborah Newton
+    affiliation: Reading Borough Council
+image: "2d2d6s0i.bmp"
+pub-info:
+  links:
+  - name: Video
+    url: https://www.youtube.com/watch?v=tavZS5MmwOA
+    icon: fa-brands fa-youtube
+  - name: Code
+    url: https://github.com/SarahHoustonGH/Diagnostic_HealthEquityAudit
+    icon: fa-brands fa-github
+---
+
+Community diagnostic centres (CDCs) have been launched across England to tackle the diagnostic backlog and address healthcare inequalities. CDCs and commissioners struggle to identify their baseline of healthcare inequalities and monitor their impact going forwards. This leads to resourcing constraints on teams in the short term and risks minimising the CDC’s impact on healthcare inequalities in the long term. As these are emerging services, the quality of data collected by them to understand their impact is unclear. This impact can be estimated through a health equity audit, however this is usually and long and manual process.
+
+The aim of the project was to create an open source and shareable tool to: 
+
+- Perform a health equity audit to identify where the service may be having an impact on healthcare inequalities
+
+- Identify where data may be incomplete or poor quality, and automatically suggest evidence-based strategies to improve the data
+
+This has been achieved through development of Python code to process data and a Streamlit app to present data. This project involved developing a toolkit to explore inequalities for multiple sites. Through trialling this toolkit with dummy data for different sites we have developed metrics would be most suitable to identify different regions.
+
+The team would like to further develop the tool to make it more widely applicable and include more robust analysis of inequalities. They are planning to engage with local and national stakeholders of CDCs to demonstrate the tool and gather feedback. They are also planning to implement changes suggested by the Patient and Public Involvement Group (PenPEG).
+
+The tool itself, at a minimum, will support a local CDC to understand their local impact on healthcare inequalities and address areas of concern where relevant. It’s an example to demonstrate the power of open-source techniques and data in healthcare inequalities. If adopted by multiple regions, it would allow different regions to generate similar outputs which would allow for easier comparison and sharing of learning. The code developed could also be easily adapted and reused for other healthcare services beyond CDCs.
+
+{{< video https://www.youtube.com/watch?v=tavZS5MmwOA >}}
+
+```{=html}
+<iframe width="780" height="500" src="https://github.com/SarahHoustonGH/Diagnostic_HealthEquityAudit" title="Code"></iframe>
+```

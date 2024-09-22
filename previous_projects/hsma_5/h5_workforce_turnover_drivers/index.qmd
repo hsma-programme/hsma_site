@@ -1,0 +1,30 @@
+---
+title: "Investigating factors impacting NHS workforce retention"
+categories:
+  - Plotly Dash
+  - Staff Turnover
+  - Workforce
+  - Regression
+  - Machine Learning
+author:
+  - name: Marie Rogers
+    affiliation: NHS England
+  - name: Richard Pilbery
+    affiliation: Yorkshire Ambulance Service
+image: ""
+pub-info:
+  links:
+  - name: Video
+    url: https://www.youtube.com/watch?v=yYnkdsM5HHo&list=PLgHO2TgIJXdl1MvfkwCGJ6n8_1EYCSzex&index=2
+    icon: fa-brands fa-youtube
+  - name: Code
+    url: 
+    icon: fa-brands fa-github
+---
+
+
+{{< video https://www.youtube.com/watch?v=yYnkdsM5HHo&list=PLgHO2TgIJXdl1MvfkwCGJ6n8_1EYCSzex&index=2 >}}
+
+```{=html}
+<iframe width="780" height="500" src="https://github.com/marierrogers/HSMAproject2023" title="Code"></iframe>
+```

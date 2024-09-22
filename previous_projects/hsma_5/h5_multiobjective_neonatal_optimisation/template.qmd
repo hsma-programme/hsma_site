@@ -1,0 +1,20 @@
+---
+title: "Modelling the location of neonatal critical care units in North West England"
+categories:
+  - Mapping
+  - Location Optimization
+  - Discrete Event Simulation
+  - Streamlit
+  - Neonatal 
+author:
+  - name: Duncan Galletly
+    affiliation: North West Neonatal Operational Delivery Network
+image: ""
+pub-info:
+  links:
+  - name: Video
+    url: https://www.youtube.com/watch?v=Fsn_PTGCERI&list=PLgHO2TgIJXdl1MvfkwCGJ6n8_1EYCSzex&index=8
+---
+
+
+{{< video https://www.youtube.com/watch?v=Fsn_PTGCERI&list=PLgHO2TgIJXdl1MvfkwCGJ6n8_1EYCSzex&index=8 >}}

@@ -1,0 +1,40 @@
+---
+title: "Discrete Event Simulation to model elective surgery pathways"
+categories:
+  - Discrete Event Simulation
+  - Streamlit
+  - Elective Surgery
+  - Waiting Times
+  - Surgical
+author:
+  - name: Dominic Allen
+    affiliation: Guy’s and St Thomas’ NHS Foundation Trust
+image: "81ntpmry.bmp"
+pub-info:
+  links:
+  - name: Video
+    url: https://www.youtube.com/watch?v=prKoVH2DeyU&t=3s
+    icon: fa-brands fa-youtube
+  - name: Code
+    url: https://github.com/gasman-dom/gstt_hands_waitlist_st
+    icon: fa-brands fa-github
+  - name: Website
+    url: https://gstt-hands-waitlist.streamlit.app/
+    icon: fa-solid fa-globe
+---
+
+The aim of the project was to create a Discrete Event Simulation in SimPy to model elective surgery pathways, which could be used to model changes to a pathway and their impact on waiting times. This was accomplished and realised as an interactive webapp using Streamlit.
+
+The project is FOSS and is available for anyone to use in the future to model their own surgical pathways or other waiting lists. Future HSMA participants, and anyone else who is interested, will be able to modify this model into a format useful to their organisation.
+
+This will provide possible opportunities for the optimisation of surgical pathways, and also provide a ready-made format for future HSMA participants to create interactive SimPy-based webapps without having to “reinvent the wheel.”
+
+{{< video https://www.youtube.com/watch?v=prKoVH2DeyU&t=3s >}}
+
+```{=html}
+<iframe width="780" height="500" src="https://gstt-hands-waitlist.streamlit.app/" title="App"></iframe>
+```
+
+```{=html}
+<iframe width="780" height="500" src="https://github.com/gasman-dom/gstt_hands_waitlist_st" title="Code"></iframe>
+```

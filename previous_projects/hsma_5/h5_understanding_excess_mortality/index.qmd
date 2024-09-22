@@ -1,0 +1,35 @@
+---
+title: "Understanding Excess Mortality in Dorset"
+categories:
+  - Streamlit
+  - PCMD Dataset
+  - Forecasting
+author:
+  - name: Eleanor Jeram
+    affiliation: Public Health Dorset
+  - name: Lee Robertson
+    affiliation: Public Health Dorset
+  - name: Wilson Otitonaiye
+    affiliation: Public Health Dorset
+image: "l8j81ti4.bmp"
+pub-info:
+  links:
+  - name: Video
+    url: https://www.youtube.com/watch?v=e4wYE9tphVk
+    icon: fa-brands fa-youtube
+---
+
+The project was based on the Dorset ICS (Integrated Care Systems) Health Inequalities programme aim to improve access, enhance the experience of services for everyone. Through this and the ICP (Integrated Care Partnership) integrated care strategy supporting early intervention and prevention approaches, reducing the variation in how well people are supported with long-term conditions. This in turn reduces excess mortality.
+
+The aim of the project was to understand and build on the definition of excess mortality and how the baseline is measured. Identifying periods of unexpected mortality (increases and decreases) to understand factors which may be driving changes.
+
+The team learnt that the discrepancies of measuring expected mortality through five year rolling averages removes the impact of seasonality on mortality resulting in hidden trends; with seasonality patterns varying across different underlying causes. The output of the project will allow for differing definitions of expected mortality, providing a base line and forecast moving forward. In addition, different cohorts of the population are considered in line with the Public Health objectives and priorities.
+
+The team are hoping to further develop their StreamLit app to make sharing and access available to the wider team – building questions and bringing in wider subject matter expertise. 
+
+:::{.callout-tip}
+“HSMA was an invaluable opportunity, I was impressed by how much the three members of the team learnt and the development of advanced analytics and forecasting. The hands-on approach in the course has resulted in instant results in our understanding of excess mortality” 
+- Natasha Morris, Public Health Intelligence Team Leader
+:::
+
+{{< video https://www.youtube.com/watch?v=e4wYE9tphVk >}}

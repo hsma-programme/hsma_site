@@ -1,0 +1,37 @@
+---
+title: "Forecasting Demand – Investigating approaches to forecast clock starts"
+categories:
+  - Forecasting
+  - Clock Starts
+  - Demand
+  - Prophet
+  - ARIMA
+  - Machine Learning
+author:
+  - name: Jane Kirkpatrick
+    affiliation: NHS England
+  - name: Mathew Ojo
+    affiliation: NHS England
+  - name: Lyndsey Allen
+    affiliation: NHS North of England Commissioning Support Unit
+  - name: Luke Asante
+    affiliation: NHS North of England Commissioning Support Unit
+  - name: Evelyn Koon
+    affiliation: NHS England
+image: "43fcmhsi.bmp"
+pub-info:
+  links:
+  - name: Video
+    url: https://www.youtube.com/watch?v=Obzos_OfyEw
+    icon: fa-brands fa-youtube
+---
+
+Within the organisation (NHS England) forecasting for clock starts is currently done using scenario-based modelling in Excel. This limits how much data can be used to make forecasts, and the techniques that can be deployed. There was a desire to explore other forecasting methods to see if they could obtain more accurate forecasts, and also to valid the forecasts that are being made using the existing model. Understanding demand is important to manage wait lists, which is a high priority for the NHS, hence the interest in modelling clock starts.
+
+The aim of the project was to explore different ways of forecasting demand, evaluate their performance and offer suggestions as to how forecasting could be done in the future.
+
+The team carried out exploratory data analysis to understand differences between different data types and the differences in the patterns of demand for different subgroupings. They built a codebase that loaded the required data and ran model functions for Naïve, ARIMA, Prophet and a combination of Linear Regression and Random Forest. They evaluated the performance of these models to each other, and the modelling technique currently used. They also made some progress on rebuilding the current excel model in Python. 
+
+They found that while the more performant models that we used performed well (produced low error metrics), they generally didn’t perform as well as the model currently used within the organisation. This suggested that a helpful next step of the project might be to complete the work of translating the excel model into python and doing further work to understand if they can get more data to better understand the drivers of demand beyond just time series. 
+
+{{< video https://www.youtube.com/watch?v=Obzos_OfyEw >}}

@@ -1,0 +1,27 @@
+---
+title: "Using Machine Learning to estimate inequities in access to hospital procedures"
+categories:
+  - Inequalities
+  - Planned Admissions
+  - Machine Learning
+  - APC Dataset
+author:
+  - name: Benjamin Mouncer
+    affiliation: NHS & Norfolk County Council
+image: "t3xhyl8e.bmp"
+pub-info:
+  links:
+  - name: Video
+    url: https://www.youtube.com/watch?v=NXGYKKPntO8&list=PLgHO2TgIJXdl1MvfkwCGJ6n8_1EYCSzex&index=4
+    icon: fa-brands fa-youtube
+---
+
+The aim of this project was to determine on an ICB, LTLA and UTLA the overall level of disparity in accessing planned appointments in hospital. The team did this for each high deprivation LSOA calculating the true rate of planned hospital admissions.
+
+They learnt that estimating equity in planned admissions may be possible but not with a minimal set of public data and simple machine learning models.
+
+They put these findings into practice by building in a way to quantify the confidence interval of a machine learning model is essential to effectively use them in real world environments. They also found combining multiple years of data can work with low quality datasets. Of the datasets used the age distribution of an area was the most consistently predictive feature encountered.
+
+One avenue for progression with this project is the creation of synthetic data to have each person within an area as a row of data. Model complexity must increase to create viable models if they even exist. Other feature sets could be explored such as the emergency admissions, type of planned admissions and other variable synthesised from the HES APC dataset.
+
+{{< video https://www.youtube.com/watch?v=NXGYKKPntO8&list=PLgHO2TgIJXdl1MvfkwCGJ6n8_1EYCSzex&index=4 >}}

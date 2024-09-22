@@ -1,0 +1,27 @@
+---
+title: "Using Natural Language Processing to detect drug related content within free text "
+categories:
+  - Natural Language Processing
+  - Named Entity Recognition
+author:
+  - name: Lauren Szarvas
+    affiliation: TBC
+  - name: Holly Dale
+    affiliation: TBC
+  - name: Tom Haddock
+    affiliation: TBC
+image: "5r2xrx9d.bmp"
+pub-info:
+  links:
+  - name: Video
+    url: https://www.youtube.com/watch?v=7j8_DlMoaSc&t=22s
+    icon: fa-brands fa-youtube
+---
+
+Since the amount of data being collected and stored has increased significantly, datasets are often reviewed manually, particularly when free text fields are present. This project focussed specifically on the detection of drug-related content, following the announcement of the Governments 10-year drugs plan in December 2021. If successful, this could then be adapted and applied to further crime types at a later date.
+
+The aim was to create a model that would be able to make predictions on future datasets by classifying each piece of text into drug/non-drug related content, to prevent manual coding of the data. To achieve this, the team used a machine learning technique known as Natural Language Processing, to train various models on the structure of text and any patterns in language.
+
+The team created a model pipeline to automate this process end-to-end. Initial findings suggesting these techniques could be rather successful, however, it has only been possible to test this on dummy data at present. If this were to be implemented as a permanent solution, this could potentially be made available to the wider policing community through the development of a Streamlit app, which could greatly assist in reducing the amount of data and time taken to review each dataset manually.
+
+{{< video https://www.youtube.com/watch?v=7j8_DlMoaSc&t=22s >}}

@@ -1,0 +1,38 @@
+---
+title: ""
+categories:
+  - Discrete Event Simulation
+author:
+  - name: 
+    affiliation: 
+image: ""
+pub-info:
+  links:
+  - name: Video
+    url: 
+    icon: fa-brands fa-youtube
+  - name: Code
+    url: 
+    icon: fa-brands fa-github
+  - name: Website
+    url: 
+    icon: fa-solid fa-globe
+---
+
+The current Referral to Treatment waiting list is at its highest level in NHS history. Identifying methods for reducing the waiting list and waiting times would benefit patient care.
+
+The aim of the project was to look at what changes in capacity, the number of appointments, could be made to reduce the waiting list and waiting times for Rheumatology services in Dorset. This was done using Discrete Event Simulation (DES), which is a technique that models flow through a pathway and can show what happens if changes are made.
+
+During the project the team built a DES model to look at the Rheumatology pathway. They then built an app using Steamlit so that stakeholders can model the impact of capacity changes on the size of the waiting lists and the average waiting time for patients.
+
+They will be presenting the final model and app to stakeholders and getting feedback, adapting if required; then putting it on GitHub to be shared.
+
+{{< video https://www.youtube.com/watch?v=P6nQle5tgBM&t=1s >}}
+
+```{=html}
+<iframe width="780" height="500" src="" title="App"></iframe>
+```
+
+```{=html}
+<iframe width="780" height="500" src="" title="Code"></iframe>
+```

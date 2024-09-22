@@ -1,0 +1,32 @@
+---
+title: "Developing a tool to assess inequalities and demographic coverage of service locations"
+categories:
+  - Inequalities
+  - Streamlit
+  - Mapping
+  - Travel Times
+author:
+  - name: Alex Owens
+    affiliation: NHS Arden and Greater East Midlands CSU
+  - name: Phoebe Woodhead
+    affiliation: Wessex AHSN
+  - name: Sian Heath
+    affiliation: Nottingham University Hospitals NHS Trust
+image: "8p2z6i2v.bmp"
+pub-info:
+  links:
+  - name: Video
+    url: https://www.youtube.com/watch?v=7a1bx1NfyBA&t=3s
+    icon: fa-brands fa-youtube
+---
+
+This project hopes to empower NHS service providers with a tool that grants a deeper understanding of the population they serve and allows them to direct future service expansion to provide access to underserved groups.
+
+It will provide a nuanced demographic breakdown of the patient population, including age, ethnicity, and deprivation, offering crucial insights into the diversity of healthcare needs within the service area – with potential additions to allow providers to add new demographic information to better understand catchment by the conditions they look to treat.
+
+Undertaking this project gave us a deeper understanding of health modelling methodologies and their practical applications. The team learned to combine geospatial analysis, demographic data, and travel distance calculations to create a dynamic tool for use by NHS service providers.
+
+They will continue developing this tool, adding data sources that collaborating service providers hold, but are unable to publish alongside the open-source code, to better identify underserved groups with specific ailments to be treated. This will allow them to give more precise information to let their new service allocation tool pick more appropriate potential locations for new sites.
+They will be presenting the final model and app to stakeholders and getting feedback, adapting if required; then putting it on GitHub to be shared.
+
+{{< video https://www.youtube.com/watch?v=7a1bx1NfyBA&t=3s >}}
