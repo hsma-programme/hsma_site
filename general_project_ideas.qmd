@@ -1,0 +1,127 @@
+# General Project Ideas
+
+There are some common topics that come up again and again either within HSMA or across the wider health modelling sphere. 
+
+Adapting (and potentially extending) this work for your own organisation could be a good project option. 
+
+
+
+
+## 'What-if' analysis of pathways/pathway redesign work
+
+### Primary Methods
+
+Discrete Event Simulation; Streamlit
+
+### Description
+
+This sort of work can sometimes show that the desired performance is simply not possible within certain constraints placed on the system (e.g. current maximum resource) and can be used to make a strong business case for additional investment. 
+
+
+### Links and previous projects
+
+
+
+
+## Identifying and resolving bottlenecks in pathways
+
+### Primary Methods
+
+Discrete Event Simulation; Streamlit
+
+### Description
+
+This is very similar to the example given above, but with a slightly different focus - where a pathway is not working as intended and it is suspected that a bottleneck is occurring, 
+
+
+### Links and previous projects
+
+
+## Identifying the resource required to clear backlogs in pathways
+
+### Primary Methods
+
+Discrete Event Simulation; Streamlit
+
+
+### Links and previous projects
+
+
+
+## Non-attendance Prediction
+
+### Primary Methods
+
+Machine Learning; Explainable AI
+
+### Description
+
+Using a machine learning algorithm to predict the patients who are most likely to not attend their appointments is a popular use of machine learning.
+
+Low-cost, light-touch interventions like targeted text messages can be put in place to encourage attendance.
+
+You could also use explainable AI techniques to highlight the areas that the model considers the most important while making its predictions.
+
+By looking at the potential cost of each missed appointment
+
+### Considerations
+
+- Consider starting off with a single specialty/type of appointment. Factors influencing non-attendance may vary depending on the type of appointment involved.
+
+- Consider how you could get patient and public involvement in this sort of project; why do patients say they do not attend? What would they like putting in place to help with this?
+
+### Caveats
+
+- Ethics would need to be carefully considered; is your algorithm robust? By giving reminders to certain groups, are you disadvantaging those who you don't give reminders to by removing opportunities for them to receive timely care?
+
+- 
+
+
+### Links and previous projects
+
+
+
+## Automation and enhancement of highly time-consuming reports
+
+
+### Links and previous projects
+
+
+### Primary Methods
+
+General Python; Data Visualisation; Streamlit; Quarto
+
+
+## Identifying Inequalities in Service Access
+
+
+
+
+## Identifying the optimal locations of new services
+
+
+
+
+## Identifying the optimal service locations(s) to close to minimize the impact of equity of access
+
+
+
+
+
+
+## Predicting Length of Stay (LOS) to aid in bed capacity planning
+
+
+
+## Predicting the number of and likely specialty of patients imminently requiring inpatient beds
+
+
+
+
+
+
+## Conversion of Excel-based tools into code
+
+### Primary Methods
+
+General Python; Data Visualisation; Streamlit; Quarto
