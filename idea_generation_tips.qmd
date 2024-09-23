@@ -19,3 +19,18 @@ This interest will help sustain you through the more difficult moments of the pr
 5. Think about the stakeholders you have good relationships with. Could you reach out to them to have a chat about areas they may be interested in someone doing a deeper dive into?
 
 6. Talk to your manager - they may have more awareness of the key challenges facing the organisation at present.
+
+
+## Tips for scoping a good project
+
+- You ideally want projects that are not too time-critical to the organisation; remember that you may be working on this for 9 months (or more!).
+
+- Start small and focussed; you can always expand the scope of the project down the line, but consider limiting your initial project to a single service or even sub-service.
+    - Don't worry that your project is 'too simple'!
+
+- Consider the possible ethical issues with your project.
+    - This can be particularly tricky with machine learning projects. Refer back to the AI module - does it run into murky territory?
+    - Often predictions that are aggregated in some way are a safer option than those that are used to directly influence a patient's care. For example, predicting the number of patients who are likely to be admitted to each specialty in the next 6 hours can help with optimizing bed management - but using that prediction for an individual patient to alter their pathway or care is likely to not be ok.
+
+- Consider the data requirements for your proposed project. Do you need data that you know is already collected in some capacity, or would you need to collect brand new data?
+    - Is it a dataset you already have access to? If not, consider how you may be able to progress elements of the project while waiting for access to be granted. This part can often take longer than you expect.
