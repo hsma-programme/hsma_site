@@ -2,7 +2,6 @@
 title: "A Discrete Event Simulation Model to reduce Rheumatology waiting times in Dorset"
 categories:
   - Discrete Event Simulation
-  - Council
   - NHS
   - Rheumatology
   - Waiting Lists

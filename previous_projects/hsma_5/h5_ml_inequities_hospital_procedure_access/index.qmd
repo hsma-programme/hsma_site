@@ -5,6 +5,7 @@ categories:
   - Planned Admissions
   - Machine Learning
   - APC Dataset
+  - NHS
 author:
   - name: Benjamin Mouncer
     affiliation: NHS & Norfolk County Council

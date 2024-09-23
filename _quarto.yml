@@ -14,11 +14,15 @@ website:
             text: Projects by Cohort
           - href: previous_projects/projects_by_methods.qmd
             text: Projects by Method
+          - href: previous_projects/projects_by_organisation.qmd
+            text: Projects by Organisation
+          - href: previous_projects/projects_by_service_area.qmd
+            text: Projects by Service Area
       - text: "Project Ideas"
         menu:
         - href: idea_generation_tips.qmd
-          text: Project Idea Tips
-        - href: general_project_ideas.qmd
+          text: Tips for Coming Up with a Project Idea
+        - href: general_project_ideas/index.qmd
           text: General Project Ideas
       - href: project_design_template.qmd
         text: Project Design Template

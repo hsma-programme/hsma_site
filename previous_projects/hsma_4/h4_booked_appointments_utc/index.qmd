@@ -6,6 +6,7 @@ categories:
   - Emergency Departments
   - ECDS Dataset
   - Booked Appointments in Walk-in Services
+  - NHS
 author:
   - name: Alice Waterhouse
     affiliation: NHS England and Improvement
@@ -19,10 +20,10 @@ pub-info:
 
 The aim of the project was to examine in more detail the question of whether booked appointment times might reduce waiting times in Urgent Treatment Centres (UTC). This was done by considering a “generic” UTC – a kind of average over services of this type which were submitting high quality data to the Emergency Care Dataset.
 
-Data on the paths patients took through these services, how frequently patients arrived and the number of staff present were taken from this data and used to build a Discrete Event Simulation model. The modelled average time taken for initial assessment of the patient, treatment, and any investigations or tests was chosen to give the best fit to actual waiting times. The distribution of patient arrival times was then modified to simulate the introduction of additional booked appointments, leading to a more even spread of patient arrivals throughout the day. 
+Data on the paths patients took through these services, how frequently patients arrived and the number of staff present were taken from this data and used to build a Discrete Event Simulation model. The modelled average time taken for initial assessment of the patient, treatment, and any investigations or tests was chosen to give the best fit to actual waiting times. The distribution of patient arrival times was then modified to simulate the introduction of additional booked appointments, leading to a more even spread of patient arrivals throughout the day.
 
-The model showed a decrease in overall waiting times when higher percentages of patients booked a timeslot in advance. This will be used to better inform policy on the number of booked appointments needed to make a significant impact to waiting times. Further analysis is expected to shed light on the impact of different ways of prioritising patients according to both clinical need and whether they have booked in advance. 
+The model showed a decrease in overall waiting times when higher percentages of patients booked a timeslot in advance. This will be used to better inform policy on the number of booked appointments needed to make a significant impact to waiting times. Further analysis is expected to shed light on the impact of different ways of prioritising patients according to both clinical need and whether they have booked in advance.
 
-This is a great test case for the use of Discrete Event Simulation to inform policy and strategy at a national level. It demonstrates the impact that such modelling can have and creates opportunity for similar work in the future, ensuring that decision making is supported by high quality analytical insight. 
+This is a great test case for the use of Discrete Event Simulation to inform policy and strategy at a national level. It demonstrates the impact that such modelling can have and creates opportunity for similar work in the future, ensuring that decision making is supported by high quality analytical insight.
 
 {{< video https://www.youtube.com/watch?v=W1cK5vVukXc&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=6 >}}

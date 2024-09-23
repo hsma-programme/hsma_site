@@ -7,6 +7,7 @@ categories:
   - Patient Flow
   - Acute Care
   - Inter-service Interactions
+  - NHS
 author:
   - name: Hannah Perkins
     affiliation: University Hospitals Plymouth NHS Trust
@@ -20,7 +21,7 @@ pub-info:
 
 Hospitals across the country are struggling to provide patients with the care they need in a timely manner. Increasing waiting times in A&E departments, long waits for ambulances and growing waiting lists are all examples of these issues. A possible cause of these issues is the difficulty in discharging patients from acute hospital beds efficiently, due to lack of onward care capacity. Timely discharges are crucial to patient care, to get the right care in the right place at the right time.
 
-A previous PenCHORD project, IPACS, looked at understanding the capacity required in social and community care to facilitate timely flow out of acute hospitals. This project was based on IPACS, and extended the scope to include elective inpatient waiting lists and patients in the emergency department. 
+A previous PenCHORD project, IPACS, looked at understanding the capacity required in social and community care to facilitate timely flow out of acute hospitals. This project was based on IPACS, and extended the scope to include elective inpatient waiting lists and patients in the emergency department.
 
 The aim of the project was to model flow of patients into and out of an acute hospital site, with particular focus on how delays to complex discharges affect patients waiting to come into the hospital. The results from this project will help to articulate how the issues in discharging patients from an acute hospital bed affect emergency care performance (time spent in A&E and ambulance handover time) as well as waiting lists for elective inpatient care. A discrete event simulation was created to model patient flow through an acute facility and into community/social care.
 

@@ -6,6 +6,7 @@ categories:
   - Streamlit
   - Automation
   - Health Equity Audits
+  - NHS
 author:
   - name: Sarah Houston
     affiliation: UCL Partners

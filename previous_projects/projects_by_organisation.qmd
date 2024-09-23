@@ -1,0 +1,48 @@
+---
+title: "Projects by Methods"
+toc-location: right
+listing:
+    - id: nhs_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      categories: false
+      include:
+        categories: "NHS"
+      # template: ../html/previous_projects/listing.ejs
+    - id: police_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      categories: false
+      include:
+        categories: "Police"
+      # template: ../html/previous_projects/listing.ejs
+    - id: council_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      categories: false
+      include:
+        categories: "Council"
+      # template: ../html/previous_projects/listing.ejs
+---
+
+## NHS
+
+:::{#nhs_projects}
+:::
+
+## Police
+
+:::{#police_projects}
+:::
+
+
+## Council
+
+:::{#council_projects}
+:::

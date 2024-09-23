@@ -5,6 +5,7 @@ categories:
   - Mental Health
   - Improving Access to Psychological Therapies (IAPT)
   - Community Mental Health
+  - NHS
 author:
   - name: Katie Brown
     affiliation: Dorset HealthCare
@@ -24,11 +25,10 @@ pub-info:
 
 The aim of the project was to use Discrete Event Simulation (DES) to model the current wait list for High Intensity Cognitive Behavioural Therapy (HI-CBT). The team wanted to see if changing the allocation of therapist resources by running an evening face-to-face clinic, instead of an evening group, would improve overall wait times for therapy.
 
-Patients were created as entities within the model, and average % preferences for IESO (online therapy), group therapy, virtual or face-to-face 1-1 appointments were assigned. Along with whether the patient was a priority, preferred evening or face-to-face appointments, and average number of appointments offered. They used current and historic data of people waiting or seen for therapy, attendance rates, and meeting with the data lead and service managers within Steps 2 Wellbeing, in order to gain an accurate picture of the waiting and treatment pathway for patients. 
+Patients were created as entities within the model, and average % preferences for IESO (online therapy), group therapy, virtual or face-to-face 1-1 appointments were assigned. Along with whether the patient was a priority, preferred evening or face-to-face appointments, and average number of appointments offered. They used current and historic data of people waiting or seen for therapy, attendance rates, and meeting with the data lead and service managers within Steps 2 Wellbeing, in order to gain an accurate picture of the waiting and treatment pathway for patients.
 
-The model does confirm that the longest wait times appear to be for people waiting for face-to-face or evening 1-1 appointments. The model shows improvements in waiting times when an evening group is changed to a 1-1 face-to-face evening clinic. 
+The model does confirm that the longest wait times appear to be for people waiting for face-to-face or evening 1-1 appointments. The model shows improvements in waiting times when an evening group is changed to a 1-1 face-to-face evening clinic.
 
 The team is making changes to the model based on stakeholder feedback and will present to senior management within the service.
 
 {{< video https://www.youtube.com/watch?v=KPmxGzSuN0s&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=4 >}}
-

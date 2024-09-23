@@ -4,9 +4,10 @@ categories:
   - Discrete Event Simulation
   - Vaccination
   - COVID-19
+  - NHS
 author:
   - name: Dr Adam Kwiatkowski
-    affiliation: GP and Clinical Director, Torridge Primary Care Network 
+    affiliation: GP and Clinical Director, Torridge Primary Care Network
 image: "wjcl716l.bmp"
 pub-info:
   links:
@@ -18,9 +19,9 @@ pub-info:
     icon: fa-brands fa-github
 ---
 
-In winter 2020, vaccinations had recently been approved for use in the UK to protect people against the COVID-19 virus. Consequently, a mass vaccination programme was required to vaccinate most of the population of the country, which led to local GP surgeries having to pivot to deliver vaccinations for their communities at a scale and pace never seen before. 
+In winter 2020, vaccinations had recently been approved for use in the UK to protect people against the COVID-19 virus. Consequently, a mass vaccination programme was required to vaccinate most of the population of the country, which led to local GP surgeries having to pivot to deliver vaccinations for their communities at a scale and pace never seen before.
 
-This project was led by a HSMA who had never undertaken any coding work before but using his training from the HSMA programme he rapidly developed a Discrete Event Simulation model of the proposed pathway and resourcing for a vaccination service in North Devon. The model was able to predict not only the rate at which patients could be vaccinated with proposed resourcing, but also the potential risks of social distancing breaches in the waiting room and overflowing in the carpark. The model identified potential issues with the proposed plans, and was used to refine the plans to enable a safe but efficient delivery of the vaccinations in North Devon. 
+This project was led by a HSMA who had never undertaken any coding work before but using his training from the HSMA programme he rapidly developed a Discrete Event Simulation model of the proposed pathway and resourcing for a vaccination service in North Devon. The model was able to predict not only the rate at which patients could be vaccinated with proposed resourcing, but also the potential risks of social distancing breaches in the waiting room and overflowing in the carpark. The model identified potential issues with the proposed plans, and was used to refine the plans to enable a safe but efficient delivery of the vaccinations in North Devon.
 
 The HSMA also worked with the South West Academic Health Science Network (AHSN) to develop a generic version of the model that could be used for any future vaccination services, and has made the model available Free and Open Source for anyone to use anywhere in the world:
 

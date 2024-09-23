@@ -3,6 +3,7 @@ title: "Using Natural Language Processing to detect drug related content within 
 categories:
   - Natural Language Processing
   - Named Entity Recognition
+  - Police
 author:
   - name: Lauren Szarvas
     affiliation: TBC

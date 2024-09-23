@@ -4,6 +4,7 @@ categories:
   - Streamlit
   - PCMD Dataset
   - Forecasting
+  - Public Health
 author:
   - name: Eleanor Jeram
     affiliation: Public Health Dorset
@@ -25,10 +26,10 @@ The aim of the project was to understand and build on the definition of excess m
 
 The team learnt that the discrepancies of measuring expected mortality through five year rolling averages removes the impact of seasonality on mortality resulting in hidden trends; with seasonality patterns varying across different underlying causes. The output of the project will allow for differing definitions of expected mortality, providing a base line and forecast moving forward. In addition, different cohorts of the population are considered in line with the Public Health objectives and priorities.
 
-The team are hoping to further develop their StreamLit app to make sharing and access available to the wider team – building questions and bringing in wider subject matter expertise. 
+The team are hoping to further develop their StreamLit app to make sharing and access available to the wider team – building questions and bringing in wider subject matter expertise.
 
 :::{.callout-tip}
-“HSMA was an invaluable opportunity, I was impressed by how much the three members of the team learnt and the development of advanced analytics and forecasting. The hands-on approach in the course has resulted in instant results in our understanding of excess mortality” 
+“HSMA was an invaluable opportunity, I was impressed by how much the three members of the team learnt and the development of advanced analytics and forecasting. The hands-on approach in the course has resulted in instant results in our understanding of excess mortality”
 - Natasha Morris, Public Health Intelligence Team Leader
 :::
 

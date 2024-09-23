@@ -5,6 +5,7 @@ categories:
   - Non-elective Admissions
   - Inpatient Admissions
   - Natural Language Processing
+  - NHS
 author:
   - name: Stephen Ashmead
     affiliation: Royal Devon University Healthcare NHS Foundation Trust
@@ -30,5 +31,3 @@ For the unstructured data, attempts to use more advanced Natural Language Proces
 Electronic health record data can accurately be used to predict whether a patient is at risk of non-elective admission. Administrative events are often better indicators than clinical measures, however EHR data is prone to several limitations and biases which can lead to counter-intuitive correlations. For analysis of unstructured data, greater computing power than I have access to is required to analyse the large quantities of patient notes, even when focusing on relatively short time frames.
 
 It will make a difference to patient care by allowing patients at risk of non-elective admission to receive preventative care, leading to better health outcomes for the individual patients and freeing up inpatient resources for other patients.
-
-

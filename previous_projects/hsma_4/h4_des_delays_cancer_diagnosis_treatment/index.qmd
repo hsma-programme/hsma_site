@@ -5,6 +5,7 @@ categories:
   - Cancer
   - Colorectal
   - Identifying Bottlenecks in Pathways
+  - NHS
 author:
   - name: Angel Masih
     affiliation: Gloucestershire Hospitals Foundation Trust
@@ -26,7 +27,6 @@ The team met with cancer service leads to discuss the scope of the project and d
 
 They used SimPy to create a DES model using the current colorectal patient pathway. They ran the simulation for 100 runs to get the average waiting time for each stage of the pathway to identify the stages that took the longest amount of time. The DES model showed us the key delay, which is diagnostic delays caused during investigative stages.
 
-The findings from the analysis will be presented to cancer leads to support reducing the waiting times for colorectal patients. The DES model helped to evidence key bottlenecks of the patient pathway and will help to discuss the prospect of how increased resource can help improve patient outcomes.  
+The findings from the analysis will be presented to cancer leads to support reducing the waiting times for colorectal patients. The DES model helped to evidence key bottlenecks of the patient pathway and will help to discuss the prospect of how increased resource can help improve patient outcomes.
 
 {{< video https://www.youtube.com/watch?v=Wmpu4fpu0J4&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=2 >}}
-

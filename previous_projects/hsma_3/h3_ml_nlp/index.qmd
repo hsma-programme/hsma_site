@@ -5,6 +5,7 @@ categories:
   - Primary Care
   - Hospital Admissions
   - Machine Learning
+  - NHS
 author:
   - name: Dr Adam Kwiatkowski
     affiliation: GP and Clinical Director, Torridge Primary Care Network

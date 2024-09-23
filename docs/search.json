@@ -2,9 +2,9 @@
   {
     "objectID": "project_registration_process.html",
     "href": "project_registration_process.html",
-    "title": "Coming Soon!",
+    "title": "Project Registration Process",
     "section": "",
-    "text": "Coming Soon!"
+    "text": "HSMA projects must meet a few criteria\n\nThey must use a method we teach on the HSMA course\n\nthe method can be related to a method we teach - for example, if you wished to use a time series forecasting method we haven’t taught, this would be ok, but we may be able to provide less detailed support than for a technique we have taught\n\nIt must use free and open source methods\n\nOnce you have an idea of what you want your project to be, please post in the #new_project_airlock Slack channel with a brief description of any project you’d like to register as a HSMA project.\nThe team will then create you a channel on Slack to use for project discussions, and register your project on the current HSMA project register.\nYou don’t need to do anything more formal than that - you can start cracking on with your code and using the HSMA community for help.\n\n\n\n\n\n\nTip\n\n\n\nTake a look at the FAQs if you have any questions."
   },
   {
     "objectID": "previous_projects/template.html",
@@ -12,6 +12,34 @@
     "title": "",
     "section": "",
     "text": "The current Referral to Treatment waiting list is at its highest level in NHS history. Identifying methods for reducing the waiting list and waiting times would benefit patient care.\nThe aim of the project was to look at what changes in capacity, the number of appointments, could be made to reduce the waiting list and waiting times for Rheumatology services in Dorset. This was done using Discrete Event Simulation (DES), which is a technique that models flow through a pathway and can show what happens if changes are made.\nDuring the project the team built a DES model to look at the Rheumatology pathway. They then built an app using Steamlit so that stakeholders can model the impact of capacity changes on the size of the waiting lists and the average waiting time for patients.\nThey will be presenting the final model and app to stakeholders and getting feedback, adapting if required; then putting it on GitHub to be shared."
+  },
+  {
+    "objectID": "previous_projects/projects_by_organisation.html",
+    "href": "previous_projects/projects_by_organisation.html",
+    "title": "Projects by Methods",
+    "section": "",
+    "text": "Claire Rudler, Matt Smith, Imca Hensels-Pelling, Zoe Ficken\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr Adam Kwiatkowski\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr Adam Kwiatkowski, Prof Mona Nasser, Imca Hensels-Pelling\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdam Scull\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlice Waterhouse\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharlene Black, Adonis Sithole, Edward Chick, Mayoor Dhokia\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIrma Tanovic\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHelen Young, Thomas Knight\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKatie Brown, Hannah Carroll, Andrew Poole, Matthew Chapman\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAngel Masih, James Page, Mahya Kaveh\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShilpa Patel\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLisa Sabir\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRichard Pilbery, Maddie Smith, Jon Green\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAndy McCann\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMartina Fonseca, Xiaochen Ge\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStephen Ashmead, Karim Kamara, Jahangir Alam\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIain Waring\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGlenn Ubly, Atonia Drummond, Janine James, Victor Yu\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMatt Eves, Anya Gopfert, Sally Brown\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBecky Crofts, Kayleigh Haydock\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbby Dewhurst, Claire Davies, Krzysztof Cepa\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDominic Allen\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHannah Perkins\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJane Kirkpatrick, Mathew Ojo, Lyndsey Allen, Luke Asante, Evelyn Koon\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSarah Houston, Deborah Newton\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlex Owens, Phoebe Woodhead, Sian Heath\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBenjamin Mouncer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHamzah Shami\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarie Rogers, Richard Pilbery\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "previous_projects/projects_by_organisation.html#nhs",
+    "href": "previous_projects/projects_by_organisation.html#nhs",
+    "title": "Projects by Methods",
+    "section": "",
+    "text": "Claire Rudler, Matt Smith, Imca Hensels-Pelling, Zoe Ficken\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr Adam Kwiatkowski\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr Adam Kwiatkowski, Prof Mona Nasser, Imca Hensels-Pelling\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdam Scull\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlice Waterhouse\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCharlene Black, Adonis Sithole, Edward Chick, Mayoor Dhokia\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIrma Tanovic\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHelen Young, Thomas Knight\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKatie Brown, Hannah Carroll, Andrew Poole, Matthew Chapman\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAngel Masih, James Page, Mahya Kaveh\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShilpa Patel\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLisa Sabir\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRichard Pilbery, Maddie Smith, Jon Green\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAndy McCann\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMartina Fonseca, Xiaochen Ge\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nStephen Ashmead, Karim Kamara, Jahangir Alam\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIain Waring\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGlenn Ubly, Atonia Drummond, Janine James, Victor Yu\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMatt Eves, Anya Gopfert, Sally Brown\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBecky Crofts, Kayleigh Haydock\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbby Dewhurst, Claire Davies, Krzysztof Cepa\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDominic Allen\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHannah Perkins\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nJane Kirkpatrick, Mathew Ojo, Lyndsey Allen, Luke Asante, Evelyn Koon\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSarah Houston, Deborah Newton\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlex Owens, Phoebe Woodhead, Sian Heath\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBenjamin Mouncer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHamzah Shami\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMarie Rogers, Richard Pilbery\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "previous_projects/projects_by_organisation.html#police",
+    "href": "previous_projects/projects_by_organisation.html#police",
+    "title": "Projects by Methods",
+    "section": "Police",
+    "text": "Police\n\n\n\n\n\n\n\n\n\n\nWhat are they saying about us? An AI tool to determine the sentiment of tweets to police forces across the country, and what people are talking about\n\n\n\n\n\n\nMike Hill\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGenerating a richer understanding of relationships in crime data in order to identify opportunities to safeguard individuals and families\n\n\n\n\n\n\nJenna Thomas, Charly Bartlett, Neil Mitchell\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpatial Modelling of Violent Crime to Support Strategic Analysis\n\n\n\n\n\n\nAnupma Wadhera, Linda Wystemp, Andrea Casajuana Massanet, Helen Browne, Alessia Rose\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing Natural Language Processing to detect drug related content within free text\n\n\n\n\n\n\nLauren Szarvas, Holly Dale, Tom Haddock\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "previous_projects/projects_by_organisation.html#council",
+    "href": "previous_projects/projects_by_organisation.html#council",
+    "title": "Projects by Methods",
+    "section": "Council",
+    "text": "Council\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "previous_projects/index.html",
@@ -25,21 +53,21 @@
     "href": "previous_projects/index.html#hsma-5",
     "title": "HSMA Projects",
     "section": "HSMA 5",
-    "text": "HSMA 5\n\n\n\n\n\n\n\n\n\n\nUsing Discrete Event Simulation to model the bottlenecks in the Acute Medical Unit pathway\n\n\n\nDiscrete Event Simulation\n\n\nStreamlit\n\n\nAcute Medical Unit (AMU)\n\n\nEmergency Departments\n\n\nAcute Care\n\n\nHospitals\n\n\n\n\n\n\n\nBecky Crofts, Kayleigh Haydock\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Discrete Event Simulation Model to reduce Rheumatology waiting times in Dorset\n\n\n\nDiscrete Event Simulation\n\n\nCouncil\n\n\nNHS\n\n\nRheumatology\n\n\nWaiting Lists\n\n\n\n\n\n\n\nAbby Dewhurst, Claire Davies, Krzysztof Cepa\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscrete Event Simulation to model elective surgery pathways\n\n\n\nDiscrete Event Simulation\n\n\nStreamlit\n\n\nElective Surgery\n\n\nWaiting Times\n\n\nSurgical\n\n\nHospitals\n\n\n\n\n\n\n\nDominic Allen\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModelling the effect of complex discharge delays on acute performance\n\n\n\nDiscrete Event Simulation\n\n\nDischarge\n\n\nHospitals\n\n\nPatient Flow\n\n\nAcute Care\n\n\nInter-service Interactions\n\n\n\n\n\n\n\nHannah Perkins\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nForecasting Demand – Investigating approaches to forecast clock starts\n\n\n\nForecasting\n\n\nClock Starts\n\n\nDemand\n\n\nProphet\n\n\nARIMA\n\n\nMachine Learning\n\n\nWaiting Lists\n\n\n\n\n\n\n\nJane Kirkpatrick, Mathew Ojo, Lyndsey Allen, Luke Asante, Evelyn Koon\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating a tool to automatically generate health equity audits for Community Diagnostic Centres\n\n\n\nCommunity Diagnostic Centres (CDCs)\n\n\nInequalities\n\n\nStreamlit\n\n\nAutomation\n\n\nHealth Equity Audits\n\n\n\n\n\n\n\nSarah Houston, Deborah Newton\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDeveloping a tool to assess inequalities and demographic coverage of service locations\n\n\n\nInequalities\n\n\nStreamlit\n\n\nMapping\n\n\nTravel Times\n\n\n\n\n\n\n\nAlex Owens, Phoebe Woodhead, Sian Heath\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing Machine Learning to estimate inequities in access to hospital procedures\n\n\n\nInequalities\n\n\nPlanned Admissions\n\n\nMachine Learning\n\n\nAPC Dataset\n\n\n\n\n\n\n\nBenjamin Mouncer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNetwork Analysis of diagnostic procedures in A&E setting\n\n\n\nNetwork Analysis\n\n\nPlotly Dash\n\n\nAccident & Emergency\n\n\nDiagnostic Procedures\n\n\nECDS Dataset\n\n\n\n\n\n\n\nHamzah Shami\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing Natural Language Processing to detect drug related content within free text\n\n\n\nNatural Language Processing\n\n\nNamed Entity Recognition\n\n\n\n\n\n\n\nLauren Szarvas, Holly Dale, Tom Haddock\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUnderstanding Excess Mortality in Dorset\n\n\n\nStreamlit\n\n\nPCMD Dataset\n\n\nForecasting\n\n\n\n\n\n\n\nEleanor Jeram, Lee Robertson, Wilson Otitonaiye\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInvestigating factors impacting NHS workforce retention\n\n\n\nPlotly Dash\n\n\nStaff Turnover\n\n\nWorkforce\n\n\nRegression\n\n\nMachine Learning\n\n\n\n\n\n\n\nMarie Rogers, Richard Pilbery\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "HSMA 5\n\n\n\n\n\n\n\n\n\n\nUsing Discrete Event Simulation to model the bottlenecks in the Acute Medical Unit pathway\n\n\n\nDiscrete Event Simulation\n\n\nStreamlit\n\n\nAcute Medical Unit (AMU)\n\n\nEmergency Departments\n\n\nAcute Care\n\n\nHospitals\n\n\nNHS\n\n\n\n\n\n\n\nBecky Crofts, Kayleigh Haydock\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Discrete Event Simulation Model to reduce Rheumatology waiting times in Dorset\n\n\n\nDiscrete Event Simulation\n\n\nNHS\n\n\nRheumatology\n\n\nWaiting Lists\n\n\n\n\n\n\n\nAbby Dewhurst, Claire Davies, Krzysztof Cepa\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscrete Event Simulation to model elective surgery pathways\n\n\n\nDiscrete Event Simulation\n\n\nStreamlit\n\n\nElective Surgery\n\n\nWaiting Times\n\n\nSurgical\n\n\nHospitals\n\n\nNHS\n\n\n\n\n\n\n\nDominic Allen\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModelling the effect of complex discharge delays on acute performance\n\n\n\nDiscrete Event Simulation\n\n\nDischarge\n\n\nHospitals\n\n\nPatient Flow\n\n\nAcute Care\n\n\nInter-service Interactions\n\n\nNHS\n\n\n\n\n\n\n\nHannah Perkins\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nForecasting Demand – Investigating approaches to forecast clock starts\n\n\n\nForecasting\n\n\nClock Starts\n\n\nDemand\n\n\nProphet\n\n\nARIMA\n\n\nMachine Learning\n\n\nWaiting Lists\n\n\nNHS\n\n\n\n\n\n\n\nJane Kirkpatrick, Mathew Ojo, Lyndsey Allen, Luke Asante, Evelyn Koon\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating a tool to automatically generate health equity audits for Community Diagnostic Centres\n\n\n\nCommunity Diagnostic Centres (CDCs)\n\n\nInequalities\n\n\nStreamlit\n\n\nAutomation\n\n\nHealth Equity Audits\n\n\nNHS\n\n\n\n\n\n\n\nSarah Houston, Deborah Newton\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDeveloping a tool to assess inequalities and demographic coverage of service locations\n\n\n\nInequalities\n\n\nStreamlit\n\n\nMapping\n\n\nTravel Times\n\n\nNHS\n\n\n\n\n\n\n\nAlex Owens, Phoebe Woodhead, Sian Heath\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing Machine Learning to estimate inequities in access to hospital procedures\n\n\n\nInequalities\n\n\nPlanned Admissions\n\n\nMachine Learning\n\n\nAPC Dataset\n\n\nNHS\n\n\n\n\n\n\n\nBenjamin Mouncer\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModelling the location of neonatal critical care units in North West England\n\n\n\nMapping\n\n\nLocation Optimization\n\n\nDiscrete Event Simulation\n\n\nStreamlit\n\n\nNeonatal\n\n\n\n\n\n\n\nDuncan Galletly\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nNetwork Analysis of diagnostic procedures in A&E setting\n\n\n\nNetwork Analysis\n\n\nPlotly Dash\n\n\nAccident & Emergency\n\n\nDiagnostic Procedures\n\n\nECDS Dataset\n\n\nNHS\n\n\n\n\n\n\n\nHamzah Shami\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing Natural Language Processing to detect drug related content within free text\n\n\n\nNatural Language Processing\n\n\nNamed Entity Recognition\n\n\nPolice\n\n\n\n\n\n\n\nLauren Szarvas, Holly Dale, Tom Haddock\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUnderstanding Excess Mortality in Dorset\n\n\n\nStreamlit\n\n\nPCMD Dataset\n\n\nForecasting\n\n\nPublic Health\n\n\n\n\n\n\n\nEleanor Jeram, Lee Robertson, Wilson Otitonaiye\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nInvestigating factors impacting NHS workforce retention\n\n\n\nPlotly Dash\n\n\nStaff Turnover\n\n\nWorkforce\n\n\nRegression\n\n\nMachine Learning\n\n\nNHS\n\n\n\n\n\n\n\nMarie Rogers, Richard Pilbery\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "previous_projects/index.html#hsma-4",
     "href": "previous_projects/index.html#hsma-4",
     "title": "HSMA Projects",
     "section": "HSMA 4",
-    "text": "HSMA 4\n\n\n\n\n\n\n\n\n\n\nThe Effect of Booked Appointments on Waiting Times at Urgent Treatment Centres\n\n\n\nDiscrete Event Simulation\n\n\nUrgent Treatment Centres (UTC)\n\n\nEmergency Departments\n\n\nECDS Dataset\n\n\nBooked Appointments in Walk-in Services\n\n\n\n\n\n\n\nAlice Waterhouse\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSouth East Regional Covid 19 Vaccination Demand & Capacity Modelling\n\n\n\nForecasting\n\n\nVaccination\n\n\nProphet\n\n\nCOVID-19\n\n\nPlotly Dash\n\n\n\n\n\n\n\nCharlene Black, Adonis Sithole, Edward Chick, Mayoor Dhokia\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUse of Discrete Event Simulation to Tackle Long Waits and a Growing Backlog for Children Requiring Neuro Development Assessment (Autism and ADHD)\n\n\n\nDiscrete Event Simulation\n\n\nNeurodiversity\n\n\nMental Health\n\n\nDemand & Capacity\n\n\nIdentifying Bottlenecks in Pathways\n\n\nReducing Backlogs\n\n\n\n\n\n\n\nIrma Tanovic\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing DES to Improve Flow through an Acute Medicine Assessment Pathway\n\n\n\nDiscrete Event Simulation\n\n\nEmergency Departments\n\n\nPatient Flow\n\n\nInpatients\n\n\n\n\n\n\n\nHelen Young, Thomas Knight\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscrete Event Simulation of Cognitive Behavioural Therapy Pathway in an IAPT Service\n\n\n\nDiscrete Event Simulation\n\n\nMental Health\n\n\nImproving Access to Psychological Therapies (IAPT)\n\n\nCommunity Mental Health\n\n\n\n\n\n\n\nKatie Brown, Hannah Carroll, Andrew Poole, Matthew Chapman\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUse Of Discrete Event Simulation (DES) to reduce delays in Cancer Diagnosis & Treatment\n\n\n\nDiscrete Event Simulation\n\n\nCancer\n\n\nColorectal\n\n\nIdentifying Bottlenecks in Pathways\n\n\n\n\n\n\n\nAngel Masih, James Page, Mahya Kaveh\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscrete Event Simulation to Improve Flow and Performance in the Urgent Treatment Centre\n\n\n\nDiscrete Event Simulation\n\n\nUrgent Treatment Centres (UTC)\n\n\nEmergency Departments\n\n\nIdentifying Bottlenecks in Pathways\n\n\n\n\n\n\n\nShilpa Patel\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nForecasting Demand and Length of Stay in the Emergency Department\n\n\n\nMachine Learning\n\n\nForecasting\n\n\nStreamlit\n\n\nPaediatric\n\n\nLength of Stay\n\n\nEmergency Departments\n\n\nInpatients\n\n\nStaffing Level Optimisation\n\n\n\n\n\n\n\nLisa Sabir\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMeeting the demand of 111 for primary care services\n\n\n\nDiscrete Event Simulation\n\n\nPlotly Dash\n\n\nNetwork Analysis\n\n\n111 Service\n\n\nPrimary Care\n\n\nEmergency Departments\n\n\n\n\n\n\n\nRichard Pilbery, Maddie Smith, Jon Green\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing Machine Learning to Predict Hospital Admissions and Length of Stay for Respiratory Conditions\n\n\n\nMachine Learning\n\n\nRespiratory\n\n\nInpatient Admissions\n\n\n\n\n\n\n\nAndy McCann\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe role of Patient Initiated Follow-up (PIFU) and ‘Digital Outpatients’ in Supporting the Elective Recovery - Can We Better Size Potential for Clearing the Backlog?\n\n\n\nDiscrete Event Simulation\n\n\nPatient Initiated Follow-Up (PIFU)\n\n\nDigital Outpatients\n\n\nRheumatology\n\n\nReducing Backlogs\n\n\n\n\n\n\n\nMartina Fonseca, Xiaochen Ge\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting Non-Elective Admissions\n\n\n\nMachine Learning\n\n\nNon-elective Admissions\n\n\nInpatient Admissions\n\n\nNatural Language Processing\n\n\n\n\n\n\n\nStephen Ashmead, Karim Kamara, Jahangir Alam\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting Violent Incidents on Mental Health Inpatient Units\n\n\n\nMachine Learning\n\n\nMental Health\n\n\nMental Health Inpatients\n\n\n\n\n\n\n\nIain Waring\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReducing Travel Times to Treatment for Cardiac Patients in the South East of England\n\n\n\nMapping\n\n\nTravel Times\n\n\nStreamlit\n\n\nCardiology\n\n\nLocation Optimisation\n\n\n\n\n\n\n\nGlenn Ubly, Atonia Drummond, Janine James, Victor Yu\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDeveloping a Service Planning Decision Support Tool to Tackle Inequalities and Minimise Carbon Output\n\n\n\nNon-attendance Prediction\n\n\nMachine Learning\n\n\nAutomation\n\n\nInequalities\n\n\nCarbon Emissions\n\n\nHealth Equity Audits\n\n\n\n\n\n\n\nMatt Eves, Anya Gopfert, Sally Brown\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpatial Modelling of Violent Crime to Support Strategic Analysis\n\n\n\nMapping\n\n\nGeostatistics\n\n\nQGIS\n\n\nPolice\n\n\n\n\n\n\n\nAnupma Wadhera, Linda Wystemp, Andrea Casajuana Massanet, Helen Browne, Alessia Rose\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "HSMA 4\n\n\n\n\n\n\n\n\n\n\nThe Effect of Booked Appointments on Waiting Times at Urgent Treatment Centres\n\n\n\nDiscrete Event Simulation\n\n\nUrgent Treatment Centres (UTC)\n\n\nEmergency Departments\n\n\nECDS Dataset\n\n\nBooked Appointments in Walk-in Services\n\n\nNHS\n\n\n\n\n\n\n\nAlice Waterhouse\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSouth East Regional Covid 19 Vaccination Demand & Capacity Modelling\n\n\n\nForecasting\n\n\nVaccination\n\n\nProphet\n\n\nCOVID-19\n\n\nPlotly Dash\n\n\nNHS\n\n\n\n\n\n\n\nCharlene Black, Adonis Sithole, Edward Chick, Mayoor Dhokia\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUse of Discrete Event Simulation to Tackle Long Waits and a Growing Backlog for Children Requiring Neuro Development Assessment (Autism and ADHD)\n\n\n\nDiscrete Event Simulation\n\n\nNeurodiversity\n\n\nMental Health\n\n\nDemand & Capacity\n\n\nIdentifying Bottlenecks in Pathways\n\n\nReducing Backlogs\n\n\nNHS\n\n\n\n\n\n\n\nIrma Tanovic\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing DES to Improve Flow through an Acute Medicine Assessment Pathway\n\n\n\nDiscrete Event Simulation\n\n\nEmergency Departments\n\n\nPatient Flow\n\n\nInpatients\n\n\nNHS\n\n\n\n\n\n\n\nHelen Young, Thomas Knight\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscrete Event Simulation of Cognitive Behavioural Therapy Pathway in an IAPT Service\n\n\n\nDiscrete Event Simulation\n\n\nMental Health\n\n\nImproving Access to Psychological Therapies (IAPT)\n\n\nCommunity Mental Health\n\n\nNHS\n\n\n\n\n\n\n\nKatie Brown, Hannah Carroll, Andrew Poole, Matthew Chapman\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUse Of Discrete Event Simulation (DES) to reduce delays in Cancer Diagnosis & Treatment\n\n\n\nDiscrete Event Simulation\n\n\nCancer\n\n\nColorectal\n\n\nIdentifying Bottlenecks in Pathways\n\n\nNHS\n\n\n\n\n\n\n\nAngel Masih, James Page, Mahya Kaveh\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscrete Event Simulation to Improve Flow and Performance in the Urgent Treatment Centre\n\n\n\nDiscrete Event Simulation\n\n\nUrgent Treatment Centres (UTC)\n\n\nEmergency Departments\n\n\nIdentifying Bottlenecks in Pathways\n\n\nNHS\n\n\n\n\n\n\n\nShilpa Patel\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nForecasting Demand and Length of Stay in the Emergency Department\n\n\n\nMachine Learning\n\n\nForecasting\n\n\nStreamlit\n\n\nPaediatric\n\n\nLength of Stay\n\n\nEmergency Departments\n\n\nInpatients\n\n\nStaffing Level Optimisation\n\n\nNHS\n\n\n\n\n\n\n\nLisa Sabir\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMeeting the demand of 111 for primary care services\n\n\n\nDiscrete Event Simulation\n\n\nPlotly Dash\n\n\nNetwork Analysis\n\n\n111 Service\n\n\nPrimary Care\n\n\nEmergency Departments\n\n\nNHS\n\n\n\n\n\n\n\nRichard Pilbery, Maddie Smith, Jon Green\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing Machine Learning to Predict Hospital Admissions and Length of Stay for Respiratory Conditions\n\n\n\nMachine Learning\n\n\nRespiratory\n\n\nNHS\n\n\nInpatient Admissions\n\n\n\n\n\n\n\nAndy McCann\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nThe role of Patient Initiated Follow-up (PIFU) and ‘Digital Outpatients’ in Supporting the Elective Recovery - Can We Better Size Potential for Clearing the Backlog?\n\n\n\nDiscrete Event Simulation\n\n\nPatient Initiated Follow-Up (PIFU)\n\n\nDigital Outpatients\n\n\nRheumatology\n\n\nReducing Backlogs\n\n\nNHS\n\n\n\n\n\n\n\nMartina Fonseca, Xiaochen Ge\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting Non-Elective Admissions\n\n\n\nMachine Learning\n\n\nNon-elective Admissions\n\n\nInpatient Admissions\n\n\nNatural Language Processing\n\n\nNHS\n\n\n\n\n\n\n\nStephen Ashmead, Karim Kamara, Jahangir Alam\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting Violent Incidents on Mental Health Inpatient Units\n\n\n\nMachine Learning\n\n\nMental Health\n\n\nMental Health Inpatients\n\n\nNHS\n\n\n\n\n\n\n\nIain Waring\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReducing Travel Times to Treatment for Cardiac Patients in the South East of England\n\n\n\nMapping\n\n\nTravel Times\n\n\nStreamlit\n\n\nCardiology\n\n\nLocation Optimisation\n\n\nNHS\n\n\n\n\n\n\n\nGlenn Ubly, Atonia Drummond, Janine James, Victor Yu\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDeveloping a Service Planning Decision Support Tool to Tackle Inequalities and Minimise Carbon Output\n\n\n\nNon-attendance Prediction\n\n\nMachine Learning\n\n\nAutomation\n\n\nInequalities\n\n\nCarbon Emissions\n\n\nHealth Equity Audits\n\n\nNHS\n\n\n\n\n\n\n\nMatt Eves, Anya Gopfert, Sally Brown\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpatial Modelling of Violent Crime to Support Strategic Analysis\n\n\n\nMapping\n\n\nGeostatistics\n\n\nQGIS\n\n\nPolice\n\n\n\n\n\n\n\nAnupma Wadhera, Linda Wystemp, Andrea Casajuana Massanet, Helen Browne, Alessia Rose\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "previous_projects/index.html#hsma-3",
     "href": "previous_projects/index.html#hsma-3",
     "title": "HSMA Projects",
     "section": "HSMA 3",
-    "text": "HSMA 3\n\n\n\n\n\n\n\n\n\n\nWhat are they saying about us? An AI tool to determine the sentiment of tweets to police forces across the country, and what people are talking about\n\n\n\nSentiment Analysis\n\n\nNatural Language Processing (NLP)\n\n\nPolice\n\n\n\n\n\n\n\nMike Hill\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGenerating a richer understanding of relationships in crime data in order to identify opportunities to safeguard individuals and families\n\n\n\nNetwork Analysis\n\n\nPolice\n\n\n\n\n\n\n\nJenna Thomas, Charly Bartlett, Neil Mitchell\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModelling strategies to reduce the elective backlog in hip surgery\n\n\n\nDiscrete Event Simulation\n\n\nElective Surgery\n\n\nOrthopaedics\n\n\n\n\n\n\n\nClaire Rudler, Matt Smith, Imca Hensels-Pelling, Zoe Ficken\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDeveloping a generic vaccination service model for the COVID-19 pandemic and beyond\n\n\n\nDiscrete Event Simulation\n\n\nVaccination\n\n\nCOVID-19\n\n\n\n\n\n\n\nDr Adam Kwiatkowski\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExploring the use of Machine Learning and Natural Language Processing to teach a machine to predict whether a patient is likely to be imminently admitted to hospital based on GP data and clues in GP notes\n\n\n\nNatural Language Processing (NLP)\n\n\nPrimary Care\n\n\nHospital Admissions\n\n\nMachine Learning\n\n\n\n\n\n\n\nDr Adam Kwiatkowski, Prof Mona Nasser, Imca Hensels-Pelling\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSimulation modelling to test proposed models of pediatric critical care in South West England\n\n\n\nDiscrete Event Simulation\n\n\nPaediatric\n\n\nMapping\n\n\nLocation Optimization\n\n\n\n\n\n\n\nAdam Scull\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "HSMA 3\n\n\n\n\n\n\n\n\n\n\nWhat are they saying about us? An AI tool to determine the sentiment of tweets to police forces across the country, and what people are talking about\n\n\n\nSentiment Analysis\n\n\nNatural Language Processing (NLP)\n\n\nPolice\n\n\n\n\n\n\n\nMike Hill\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGenerating a richer understanding of relationships in crime data in order to identify opportunities to safeguard individuals and families\n\n\n\nNetwork Analysis\n\n\nPolice\n\n\n\n\n\n\n\nJenna Thomas, Charly Bartlett, Neil Mitchell\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModelling strategies to reduce the elective backlog in hip surgery\n\n\n\nDiscrete Event Simulation\n\n\nElective Surgery\n\n\nOrthopaedics\n\n\nNHS\n\n\n\n\n\n\n\nClaire Rudler, Matt Smith, Imca Hensels-Pelling, Zoe Ficken\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDeveloping a generic vaccination service model for the COVID-19 pandemic and beyond\n\n\n\nDiscrete Event Simulation\n\n\nVaccination\n\n\nCOVID-19\n\n\nNHS\n\n\n\n\n\n\n\nDr Adam Kwiatkowski\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nExploring the use of Machine Learning and Natural Language Processing to teach a machine to predict whether a patient is likely to be imminently admitted to hospital based on GP data and clues in GP notes\n\n\n\nNatural Language Processing (NLP)\n\n\nPrimary Care\n\n\nHospital Admissions\n\n\nMachine Learning\n\n\nNHS\n\n\n\n\n\n\n\nDr Adam Kwiatkowski, Prof Mona Nasser, Imca Hensels-Pelling\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSimulation modelling to test proposed models of pediatric critical care in South West England\n\n\n\nDiscrete Event Simulation\n\n\nPaediatric\n\n\nMapping\n\n\nLocation Optimization\n\n\nNHS\n\n\n\n\n\n\n\nAdam Scull\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "previous_projects/hsma_5/h5_understanding_excess_mortality/index.html",
@@ -168,102 +196,11 @@
     "text": "Welcome to the HSMA Project Handbook.\nThis book will contain tips, useful documents and inspiration for your HSMA project."
   },
   {
-    "objectID": "general_project_ideas.html",
-    "href": "general_project_ideas.html",
-    "title": "General Project Ideas",
+    "objectID": "general_project_ideas/index.html",
+    "href": "general_project_ideas/index.html",
+    "title": "Project Ideas",
     "section": "",
-    "text": "There are some common topics that come up again and again either within HSMA or across the wider health modelling sphere.\nAdapting (and potentially extending) this work for your own organisation could be a good project option.\n\n\n\n\nDiscrete Event Simulation; Streamlit\n\n\n\nThis sort of work can sometimes show that the desired performance is simply not possible within certain constraints placed on the system (e.g. current maximum resource) and can be used to make a strong business case for additional investment.\n\n\n\n\n\n\n\n\n\nDiscrete Event Simulation; Streamlit\n\n\n\nThis is very similar to the example given above, but with a slightly different focus - where a pathway is not working as intended and it is suspected that a bottleneck is occurring,\n\n\n\n\n\n\n\n\n\nDiscrete Event Simulation; Streamlit\n\n\n\n\n\n\n\n\n\nMachine Learning; Explainable AI\n\n\n\nUsing a machine learning algorithm to predict the patients who are most likely to not attend their appointments is a popular use of machine learning.\nLow-cost, light-touch interventions like targeted text messages can be put in place to encourage attendance.\nYou could also use explainable AI techniques to highlight the areas that the model considers the most important while making its predictions.\nBy looking at the potential cost of each missed appointment\n\n\n\n\nConsider starting off with a single specialty/type of appointment. Factors influencing non-attendance may vary depending on the type of appointment involved.\nConsider how you could get patient and public involvement in this sort of project; why do patients say they do not attend? What would they like putting in place to help with this?\n\n\n\n\n\nEthics would need to be carefully considered; is your algorithm robust? By giving reminders to certain groups, are you disadvantaging those who you don’t give reminders to by removing opportunities for them to receive timely care?\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGeneral Python; Data Visualisation; Streamlit; Quarto\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGeneral Python; Data Visualisation; Streamlit; Quarto"
-  },
-  {
-    "objectID": "general_project_ideas.html#what-if-analysis-of-pathwayspathway-redesign-work",
-    "href": "general_project_ideas.html#what-if-analysis-of-pathwayspathway-redesign-work",
-    "title": "General Project Ideas",
-    "section": "",
-    "text": "Discrete Event Simulation; Streamlit\n\n\n\nThis sort of work can sometimes show that the desired performance is simply not possible within certain constraints placed on the system (e.g. current maximum resource) and can be used to make a strong business case for additional investment."
-  },
-  {
-    "objectID": "general_project_ideas.html#identifying-and-resolving-bottlenecks-in-pathways",
-    "href": "general_project_ideas.html#identifying-and-resolving-bottlenecks-in-pathways",
-    "title": "General Project Ideas",
-    "section": "",
-    "text": "Discrete Event Simulation; Streamlit\n\n\n\nThis is very similar to the example given above, but with a slightly different focus - where a pathway is not working as intended and it is suspected that a bottleneck is occurring,"
-  },
-  {
-    "objectID": "general_project_ideas.html#identifying-the-resource-required-to-clear-backlogs-in-pathways",
-    "href": "general_project_ideas.html#identifying-the-resource-required-to-clear-backlogs-in-pathways",
-    "title": "General Project Ideas",
-    "section": "",
-    "text": "Discrete Event Simulation; Streamlit"
-  },
-  {
-    "objectID": "general_project_ideas.html#non-attendance-prediction",
-    "href": "general_project_ideas.html#non-attendance-prediction",
-    "title": "General Project Ideas",
-    "section": "",
-    "text": "Machine Learning; Explainable AI\n\n\n\nUsing a machine learning algorithm to predict the patients who are most likely to not attend their appointments is a popular use of machine learning.\nLow-cost, light-touch interventions like targeted text messages can be put in place to encourage attendance.\nYou could also use explainable AI techniques to highlight the areas that the model considers the most important while making its predictions.\nBy looking at the potential cost of each missed appointment\n\n\n\n\nConsider starting off with a single specialty/type of appointment. Factors influencing non-attendance may vary depending on the type of appointment involved.\nConsider how you could get patient and public involvement in this sort of project; why do patients say they do not attend? What would they like putting in place to help with this?\n\n\n\n\n\nEthics would need to be carefully considered; is your algorithm robust? By giving reminders to certain groups, are you disadvantaging those who you don’t give reminders to by removing opportunities for them to receive timely care?"
-  },
-  {
-    "objectID": "general_project_ideas.html#automation-and-enhancement-of-highly-time-consuming-reports",
-    "href": "general_project_ideas.html#automation-and-enhancement-of-highly-time-consuming-reports",
-    "title": "General Project Ideas",
-    "section": "",
-    "text": "General Python; Data Visualisation; Streamlit; Quarto"
-  },
-  {
-    "objectID": "general_project_ideas.html#conversion-of-excel-based-tools-into-code",
-    "href": "general_project_ideas.html#conversion-of-excel-based-tools-into-code",
-    "title": "General Project Ideas",
-    "section": "",
-    "text": "General Python; Data Visualisation; Streamlit; Quarto"
-  },
-  {
-    "objectID": "general_project_ideas/general_project_ideas/what_if_pathway.html",
-    "href": "general_project_ideas/general_project_ideas/what_if_pathway.html",
-    "title": "What-if analysis of pathways/pathway redesign work",
-    "section": "",
-    "text": "This sort of work can sometimes show that the desired performance is simply not possible within certain constraints placed on the system (e.g. current maximum resource) and can be used to make a strong business case for additional investment."
-  },
-  {
-    "objectID": "general_project_ideas/general_project_ideas/what_if_pathway.html#description",
-    "href": "general_project_ideas/general_project_ideas/what_if_pathway.html#description",
-    "title": "What-if analysis of pathways/pathway redesign work",
-    "section": "",
-    "text": "This sort of work can sometimes show that the desired performance is simply not possible within certain constraints placed on the system (e.g. current maximum resource) and can be used to make a strong business case for additional investment."
-  },
-  {
-    "objectID": "general_project_ideas/general_project_ideas/what_if_pathway.html#links-and-previous-projects",
-    "href": "general_project_ideas/general_project_ideas/what_if_pathway.html#links-and-previous-projects",
-    "title": "What-if analysis of pathways/pathway redesign work",
-    "section": "Links and previous projects",
-    "text": "Links and previous projects"
-  },
-  {
-    "objectID": "general_project_ideas/general_project_ideas/non_attendance_prediction.html",
-    "href": "general_project_ideas/general_project_ideas/non_attendance_prediction.html",
-    "title": "Non-attendance Prediction",
-    "section": "",
-    "text": "Description\nUsing a machine learning algorithm to predict the patients who are most likely to not attend their appointments is a popular use of machine learning.\nLow-cost, light-touch interventions like targeted text messages can be put in place to encourage attendance.\nYou could also use explainable AI techniques to highlight the areas that the model considers the most important while making its predictions.\nBy looking at the potential cost of each missed appointment\n\n\nConsiderations\n\nConsider starting off with a single specialty/type of appointment. Factors influencing non-attendance may vary depending on the type of appointment involved.\nConsider how you could get patient and public involvement in this sort of project; why do patients say they do not attend? What would they like putting in place to help with this?\n\n\n\nCaveats\n\nEthics would need to be carefully considered; is your algorithm robust? By giving reminders to certain groups, are you disadvantaging those who you don’t give reminders to by removing opportunities for them to receive timely care?\n\n\n\n\nLinks and previous projects"
-  },
-  {
-    "objectID": "general_project_ideas/general_project_ideas/identifying_resource_backlogs.html#links-and-previous-projects",
-    "href": "general_project_ideas/general_project_ideas/identifying_resource_backlogs.html#links-and-previous-projects",
-    "title": "Identifying the resource required to clear backlogs in pathways",
-    "section": "Links and previous projects",
-    "text": "Links and previous projects"
-  },
-  {
-    "objectID": "general_project_ideas/general_project_ideas/automation_enhancement_reports.html#links-and-previous-projects",
-    "href": "general_project_ideas/general_project_ideas/automation_enhancement_reports.html#links-and-previous-projects",
-    "title": "Automation and enhancement of highly time-consuming reports",
-    "section": "Links and previous projects",
-    "text": "Links and previous projects"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
-    "section": "",
-    "text": "About this site"
+    "text": "There are some common topics that come up again and again either within HSMA or across the wider health modelling sphere.\nAdapting (and potentially extending) this work for your own organisation could be a good project option.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nCategories\n\n\n\n\n\n\nAutomation and enhancement of highly time-consuming reports\n\n\nGeneral Python, Data Visualisation, Streamlit, Quarto\n\n\n\n\nConversion of Excel-based tools into code\n\n\nGeneral Python, Data Visualisation, Streamlit, Quarto\n\n\n\n\nIdentifying Inequalities in Service Access\n\n\nMapping, Travel Times\n\n\n\n\nIdentifying and resolving bottlenecks in pathways\n\n\nDiscrete Event Simulation, Streamlit\n\n\n\n\nIdentifying the resource required to clear backlogs in pathways\n\n\nDiscrete Event Simulation, Streamlit\n\n\n\n\nIdentifying the optimal locations of new services\n\n\nMapping, Travel Times, Location Optimization\n\n\n\n\nNon-attendance Prediction\n\n\nMachine Learning, Explainable AI\n\n\n\n\nPredicting the number of and likely specialty of patients imminently requiring inpatient beds\n\n\nMachine Learning\n\n\n\n\nPredicting Length of Stay (LOS) to aid in bed capacity planning\n\n\nMachine Learning, Explainable AI\n\n\n\n\nIdentifying the optimal service locations(s) to close to minimize the impact of equity of access\n\n\nMapping, Travel Times, Location Optimization\n\n\n\n\nWhat-if analysis of pathways/pathway redesign work\n\n\nDiscrete Event Simulation, Streamlit\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html",
@@ -287,25 +224,102 @@
     "text": "Links and previous projects"
   },
   {
-    "objectID": "general_project_ideas/general_project_ideas/predicing_number_specialty_inpatient_admissions.html",
-    "href": "general_project_ideas/general_project_ideas/predicing_number_specialty_inpatient_admissions.html",
-    "title": "Predicting the number of and likely specialty of patients imminently requiring inpatient beds",
+    "objectID": "faqs.html",
+    "href": "faqs.html",
+    "title": "FAQs",
     "section": "",
-    "text": "Predicting the number of and likely specialty of patients imminently requiring inpatient beds"
+    "text": "Projects have generally had a focus on one of these techniques: - Discrete Event Simulation - Mapping (often, but not always, involving calculation of travel times) - Location Optimization (Finding optimal combinations of sites) - Machine Learning (Classification or Regression Modelling) - Natural Language Processing - Agent-based Simulation\nProjects can and do use a mixture of these, too - e.g. bringing in elements of the geographic modelling module in a discrete event simulation.\nThe additional things that are more likely to just be a part of your project (though sometimes they can be a very significant part depending on the project!) are: - System Dynamics - Time-series Forecasting methods (e.g. ARIMA, Prophet) - Process Mining - Web Apps - Automation\nWe did previously teach network analysis as well, so you may see one or two topics crop up in that area; however, we’ve lost our network analysis expert from our wider team and removed this from the syllabus. For areas like this, or things like machine learning techniques or natural language processing techniques that we don’t explictly teach, we can generally still support projects in this area to some extent - we just may be able to provide less in-depth support on the techniques themselves if they’re not something we directly teach and have used ourselves, but there may be other people in the community who can help!\n\n\n\nWe generally recommend you begin your projects at the end of Phase 1 (end of October 2024). However, you can now register and begin projects early if you so wish! Can HSMAs do multiple smaller projects in the inception project phase, or is this discouraged? HSMAs can do as many or as few as they wish, and we’ve had HSMAs before that have done this. This is even easier now, as anyone can start and finish a project at any time they choose. Sometimes, it can be useful to have something else in your back pocket as you realise how long it’s going to take to get the data you need for a project… The only thing I would say to anyone is be cautious about being too ambitious with project ideas or numbers if you only have a day a week on this. A day a week for 9 months isn’t a huge amount of time - you are (generally) much better off carving off something useful and doable that you can build on, rather than trying to start big by trying to do too much.\n\n\n\nOnce you have an idea of what you want your project to be, please post in the #new_project_airlock Slack channel with a brief description of any project you’d like to register as a HSMA project.\nThe team will then create you a channel on Slack to use for project discussions, and register your project on the current HSMA project register.\nYou don’t need to do anything more formal than that - you can start cracking on with your code and using the HSMA community for help.\n\n\n\nDefinitely not!\nWe recognise that this generally isn’t possible.\nWhen we talk about free and open source for the project, we are interested in The code being made available The key outputs and findings being shared in some capacity - even if it’s not possible to share detailed outputs due to the sensitivity\nTo allow people to try running your project, it can be advisable to provide a sample dataset in your repository. This doesn’t have to match the reality of patterns seen in your organsation.\n\n\n\nIt’s absolutely fine for it to be very specialised towards your organisation - you may just want to consider giving a warning in your readme."
   },
   {
-    "objectID": "general_project_ideas/index.html",
-    "href": "general_project_ideas/index.html",
-    "title": "Project Ideas",
+    "objectID": "faqs.html#what-techniques-can-i-base-a-project-around",
+    "href": "faqs.html#what-techniques-can-i-base-a-project-around",
+    "title": "FAQs",
     "section": "",
-    "text": "Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nCategories\n\n\n\n\n\n\nAutomation and enhancement of highly time-consuming reports\n\n\nGeneral Python, Data Visualisation, Streamlit, Quarto\n\n\n\n\nConversion of Excel-based tools into code\n\n\nGeneral Python, Data Visualisation, Streamlit, Quarto\n\n\n\n\nIdentifying Inequalities in Service Access\n\n\nMapping, Travel Times\n\n\n\n\nIdentifying and resolving bottlenecks in pathways\n\n\nDiscrete Event Simulation, Streamlit\n\n\n\n\nIdentifying the resource required to clear backlogs in pathways\n\n\nDiscrete Event Simulation, Streamlit\n\n\n\n\nIdentifying the optimal locations of new services\n\n\nMapping, Travel Times, Location Optimization\n\n\n\n\nNon-attendance Prediction\n\n\nMachine Learning, Explainable AI\n\n\n\n\nPredicting the number of and likely specialty of patients imminently requiring inpatient beds\n\n\n \n\n\n\n\nPredicting Length of Stay (LOS) to aid in bed capacity planning\n\n\nMachine Learning, Explainable AI\n\n\n\n\nIdentifying the optimal service locations(s) to close to minimize the impact of equity of access\n\n\nMapping, Travel Times, Location Optimization\n\n\n\n\nWhat-if analysis of pathways/pathway redesign work\n\n\nDiscrete Event Simulation, Streamlit\n\n\n\n\n\nNo matching items"
+    "text": "Projects have generally had a focus on one of these techniques: - Discrete Event Simulation - Mapping (often, but not always, involving calculation of travel times) - Location Optimization (Finding optimal combinations of sites) - Machine Learning (Classification or Regression Modelling) - Natural Language Processing - Agent-based Simulation\nProjects can and do use a mixture of these, too - e.g. bringing in elements of the geographic modelling module in a discrete event simulation.\nThe additional things that are more likely to just be a part of your project (though sometimes they can be a very significant part depending on the project!) are: - System Dynamics - Time-series Forecasting methods (e.g. ARIMA, Prophet) - Process Mining - Web Apps - Automation\nWe did previously teach network analysis as well, so you may see one or two topics crop up in that area; however, we’ve lost our network analysis expert from our wider team and removed this from the syllabus. For areas like this, or things like machine learning techniques or natural language processing techniques that we don’t explictly teach, we can generally still support projects in this area to some extent - we just may be able to provide less in-depth support on the techniques themselves if they’re not something we directly teach and have used ourselves, but there may be other people in the community who can help!"
+  },
+  {
+    "objectID": "faqs.html#when-should-i-be-starting-my-project",
+    "href": "faqs.html#when-should-i-be-starting-my-project",
+    "title": "FAQs",
+    "section": "",
+    "text": "We generally recommend you begin your projects at the end of Phase 1 (end of October 2024). However, you can now register and begin projects early if you so wish! Can HSMAs do multiple smaller projects in the inception project phase, or is this discouraged? HSMAs can do as many or as few as they wish, and we’ve had HSMAs before that have done this. This is even easier now, as anyone can start and finish a project at any time they choose. Sometimes, it can be useful to have something else in your back pocket as you realise how long it’s going to take to get the data you need for a project… The only thing I would say to anyone is be cautious about being too ambitious with project ideas or numbers if you only have a day a week on this. A day a week for 9 months isn’t a huge amount of time - you are (generally) much better off carving off something useful and doable that you can build on, rather than trying to start big by trying to do too much."
+  },
+  {
+    "objectID": "faqs.html#what-steps-do-i-need-to-take-to-get-my-project-up-and-running",
+    "href": "faqs.html#what-steps-do-i-need-to-take-to-get-my-project-up-and-running",
+    "title": "FAQs",
+    "section": "",
+    "text": "Once you have an idea of what you want your project to be, please post in the #new_project_airlock Slack channel with a brief description of any project you’d like to register as a HSMA project.\nThe team will then create you a channel on Slack to use for project discussions, and register your project on the current HSMA project register.\nYou don’t need to do anything more formal than that - you can start cracking on with your code and using the HSMA community for help."
+  },
+  {
+    "objectID": "faqs.html#do-i-need-to-share-the-data-used-for-the-project",
+    "href": "faqs.html#do-i-need-to-share-the-data-used-for-the-project",
+    "title": "FAQs",
+    "section": "",
+    "text": "Definitely not!\nWe recognise that this generally isn’t possible.\nWhen we talk about free and open source for the project, we are interested in The code being made available The key outputs and findings being shared in some capacity - even if it’s not possible to share detailed outputs due to the sensitivity\nTo allow people to try running your project, it can be advisable to provide a sample dataset in your repository. This doesn’t have to match the reality of patterns seen in your organsation."
+  },
+  {
+    "objectID": "faqs.html#if-sharing-the-codemodel-do-i-need-to-make-this-generalisable-to-the-entire-population-or-is-it-ok-for-it-to-be-specialised-towards-my-organisation",
+    "href": "faqs.html#if-sharing-the-codemodel-do-i-need-to-make-this-generalisable-to-the-entire-population-or-is-it-ok-for-it-to-be-specialised-towards-my-organisation",
+    "title": "FAQs",
+    "section": "",
+    "text": "It’s absolutely fine for it to be very specialised towards your organisation - you may just want to consider giving a warning in your readme."
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
+  },
+  {
+    "objectID": "general_project_ideas/general_project_ideas/automation_enhancement_reports.html#links-and-previous-projects",
+    "href": "general_project_ideas/general_project_ideas/automation_enhancement_reports.html#links-and-previous-projects",
+    "title": "Automation and enhancement of highly time-consuming reports",
+    "section": "Links and previous projects",
+    "text": "Links and previous projects"
+  },
+  {
+    "objectID": "general_project_ideas/general_project_ideas/identifying_resource_backlogs.html#links-and-previous-projects",
+    "href": "general_project_ideas/general_project_ideas/identifying_resource_backlogs.html#links-and-previous-projects",
+    "title": "Identifying the resource required to clear backlogs in pathways",
+    "section": "Links and previous projects",
+    "text": "Links and previous projects"
+  },
+  {
+    "objectID": "general_project_ideas/general_project_ideas/non_attendance_prediction.html",
+    "href": "general_project_ideas/general_project_ideas/non_attendance_prediction.html",
+    "title": "Non-attendance Prediction",
+    "section": "",
+    "text": "Description\nUsing a machine learning algorithm to predict the patients who are most likely to not attend their appointments is a popular use of machine learning.\nLow-cost, light-touch interventions like targeted text messages can be put in place to encourage attendance.\nYou could also use explainable AI techniques to highlight the areas that the model considers the most important while making its predictions.\nBy looking at the potential cost of each missed appointment\n\n\nConsiderations\n\nConsider starting off with a single specialty/type of appointment. Factors influencing non-attendance may vary depending on the type of appointment involved.\nConsider how you could get patient and public involvement in this sort of project; why do patients say they do not attend? What would they like putting in place to help with this?\n\n\n\nCaveats\n\nEthics would need to be carefully considered; is your algorithm robust? By giving reminders to certain groups, are you disadvantaging those who you don’t give reminders to by removing opportunities for them to receive timely care?\n\n\n\n\nLinks and previous projects"
+  },
+  {
+    "objectID": "general_project_ideas/general_project_ideas/what_if_pathway.html",
+    "href": "general_project_ideas/general_project_ideas/what_if_pathway.html",
+    "title": "What-if analysis of pathways/pathway redesign work",
+    "section": "",
+    "text": "This sort of work can sometimes show that the desired performance is simply not possible within certain constraints placed on the system (e.g. current maximum resource) and can be used to make a strong business case for additional investment."
+  },
+  {
+    "objectID": "general_project_ideas/general_project_ideas/what_if_pathway.html#description",
+    "href": "general_project_ideas/general_project_ideas/what_if_pathway.html#description",
+    "title": "What-if analysis of pathways/pathway redesign work",
+    "section": "",
+    "text": "This sort of work can sometimes show that the desired performance is simply not possible within certain constraints placed on the system (e.g. current maximum resource) and can be used to make a strong business case for additional investment."
+  },
+  {
+    "objectID": "general_project_ideas/general_project_ideas/what_if_pathway.html#links-and-previous-projects",
+    "href": "general_project_ideas/general_project_ideas/what_if_pathway.html#links-and-previous-projects",
+    "title": "What-if analysis of pathways/pathway redesign work",
+    "section": "Links and previous projects",
+    "text": "Links and previous projects"
   },
   {
     "objectID": "idea_generation_tips.html",
     "href": "idea_generation_tips.html",
     "title": "Tips for Generating Project Ideas",
     "section": "",
-    "text": "Tips for Generating Project Ideas\nIf you are struggling to get started with project ideas, here are a couple of prompts to help.\n\nTake a look at the previous HSMA projects\nThink about the areas of the course you most enjoyed. While the needs of the organisation need to come first, it’s also helpful to consider the areas of the course you\n\n\nfound the most interesting\nfelt you understood\nwould like to work with more in the long run This interest will help sustain you through the more difficult moments of the project!\n\n\nThink about the area\nThink about the questions you have found yourself being asked in the past in your role that you didn’t feel you were able to answer. Have people asked you questions about the ideal staffing levels, the\nThink about the stakeholders you have good relationships with. Could you reach out to them to have a chat about areas they may be interested in someone doing a deeper dive into?"
+    "text": "Tips for Generating Project Ideas\nIf you are struggling to get started with project ideas, here are a couple of prompts to help.\n\nTake a look at the previous HSMA projects\nThink about the areas of the course you most enjoyed. While the needs of the organisation need to come first, it’s also helpful to consider the areas of the course you\n\n\nfound the most interesting\nfelt you broadly understood (don’t feel you have to be an expert yet - you will practice and develop your skills significantly over the next 9 months!)\nwould like to work with more in the long run\n\nThis interest will help sustain you through the more difficult moments of the project!\n\nThink about any areas you know to be struggling in your organisation at the moment. Are there services you know have particularly long waits? Are there areas people often mention as being a concern? Are there articles in the wider news about waits in a particular service in your organisation?\nThink about the questions you have found yourself being asked in the past in your role that you didn’t feel you were able to answer. Have people asked you questions about the ideal staffing levels, the future waits,\nThink about the stakeholders you have good relationships with. Could you reach out to them to have a chat about areas they may be interested in someone doing a deeper dive into?\nTalk to your manager - they may have more awareness of the key challenges facing the organisation at present."
   },
   {
     "objectID": "previous_projects/hsma_3/h3_ai_sentiment_tweet/index.html",
@@ -417,14 +431,14 @@
     "href": "previous_projects/projects_by_methods.html",
     "title": "Projects by Methods",
     "section": "",
-    "text": "Claire Rudler, Matt Smith, Imca Hensels-Pelling, Zoe Ficken\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr Adam Kwiatkowski\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdam Scull\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlice Waterhouse\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIrma Tanovic\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHelen Young, Thomas Knight\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKatie Brown, Hannah Carroll, Andrew Poole, Matthew Chapman\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAngel Masih, James Page, Mahya Kaveh\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShilpa Patel\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRichard Pilbery, Maddie Smith, Jon Green\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMartina Fonseca, Xiaochen Ge\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBecky Crofts, Kayleigh Haydock\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbby Dewhurst, Claire Davies, Krzysztof Cepa\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDominic Allen\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHannah Perkins\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Claire Rudler, Matt Smith, Imca Hensels-Pelling, Zoe Ficken\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr Adam Kwiatkowski\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdam Scull\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlice Waterhouse\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIrma Tanovic\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHelen Young, Thomas Knight\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKatie Brown, Hannah Carroll, Andrew Poole, Matthew Chapman\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAngel Masih, James Page, Mahya Kaveh\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShilpa Patel\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRichard Pilbery, Maddie Smith, Jon Green\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMartina Fonseca, Xiaochen Ge\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBecky Crofts, Kayleigh Haydock\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbby Dewhurst, Claire Davies, Krzysztof Cepa\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDominic Allen\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHannah Perkins\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDuncan Galletly\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "previous_projects/projects_by_methods.html#discrete-event-simulation",
     "href": "previous_projects/projects_by_methods.html#discrete-event-simulation",
     "title": "Projects by Methods",
     "section": "",
-    "text": "Claire Rudler, Matt Smith, Imca Hensels-Pelling, Zoe Ficken\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr Adam Kwiatkowski\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdam Scull\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlice Waterhouse\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIrma Tanovic\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHelen Young, Thomas Knight\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKatie Brown, Hannah Carroll, Andrew Poole, Matthew Chapman\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAngel Masih, James Page, Mahya Kaveh\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShilpa Patel\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRichard Pilbery, Maddie Smith, Jon Green\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMartina Fonseca, Xiaochen Ge\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBecky Crofts, Kayleigh Haydock\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbby Dewhurst, Claire Davies, Krzysztof Cepa\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDominic Allen\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHannah Perkins\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Claire Rudler, Matt Smith, Imca Hensels-Pelling, Zoe Ficken\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDr Adam Kwiatkowski\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAdam Scull\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAlice Waterhouse\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nIrma Tanovic\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHelen Young, Thomas Knight\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nKatie Brown, Hannah Carroll, Andrew Poole, Matthew Chapman\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAngel Masih, James Page, Mahya Kaveh\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShilpa Patel\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRichard Pilbery, Maddie Smith, Jon Green\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMartina Fonseca, Xiaochen Ge\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBecky Crofts, Kayleigh Haydock\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nAbby Dewhurst, Claire Davies, Krzysztof Cepa\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDominic Allen\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHannah Perkins\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDuncan Galletly\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "previous_projects/projects_by_methods.html#machine-learning",
@@ -445,7 +459,7 @@
     "href": "previous_projects/projects_by_methods.html#mapping-and-location-optimisation",
     "title": "Projects by Methods",
     "section": "Mapping and Location Optimisation",
-    "text": "Mapping and Location Optimisation\n\n\n\n\n\n\n\n\n\n\nSimulation modelling to test proposed models of pediatric critical care in South West England\n\n\n\n\n\n\nAdam Scull\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReducing Travel Times to Treatment for Cardiac Patients in the South East of England\n\n\n\n\n\n\nGlenn Ubly, Atonia Drummond, Janine James, Victor Yu\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpatial Modelling of Violent Crime to Support Strategic Analysis\n\n\n\n\n\n\nAnupma Wadhera, Linda Wystemp, Andrea Casajuana Massanet, Helen Browne, Alessia Rose\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDeveloping a tool to assess inequalities and demographic coverage of service locations\n\n\n\n\n\n\nAlex Owens, Phoebe Woodhead, Sian Heath\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Mapping and Location Optimisation\n\n\n\n\n\n\n\n\n\n\nSimulation modelling to test proposed models of pediatric critical care in South West England\n\n\n\n\n\n\nAdam Scull\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReducing Travel Times to Treatment for Cardiac Patients in the South East of England\n\n\n\n\n\n\nGlenn Ubly, Atonia Drummond, Janine James, Victor Yu\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpatial Modelling of Violent Crime to Support Strategic Analysis\n\n\n\n\n\n\nAnupma Wadhera, Linda Wystemp, Andrea Casajuana Massanet, Helen Browne, Alessia Rose\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDeveloping a tool to assess inequalities and demographic coverage of service locations\n\n\n\n\n\n\nAlex Owens, Phoebe Woodhead, Sian Heath\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModelling the location of neonatal critical care units in North West England\n\n\n\n\n\n\nDuncan Galletly\n\n\n\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "previous_projects/projects_by_methods.html#forecasting",
@@ -473,6 +487,90 @@
     "href": "previous_projects/projects_by_methods.html#projects-with-a-streamlit-interface",
     "title": "Projects by Methods",
     "section": "Projects with a Streamlit Interface",
-    "text": "Projects with a Streamlit Interface\n\n\n\n\n\n\n\n\n\n\nForecasting Demand and Length of Stay in the Emergency Department\n\n\n\n\n\n\nLisa Sabir\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReducing Travel Times to Treatment for Cardiac Patients in the South East of England\n\n\n\n\n\n\nGlenn Ubly, Atonia Drummond, Janine James, Victor Yu\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing Discrete Event Simulation to model the bottlenecks in the Acute Medical Unit pathway\n\n\n\n\n\n\nBecky Crofts, Kayleigh Haydock\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscrete Event Simulation to model elective surgery pathways\n\n\n\n\n\n\nDominic Allen\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating a tool to automatically generate health equity audits for Community Diagnostic Centres\n\n\n\n\n\n\nSarah Houston, Deborah Newton\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDeveloping a tool to assess inequalities and demographic coverage of service locations\n\n\n\n\n\n\nAlex Owens, Phoebe Woodhead, Sian Heath\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUnderstanding Excess Mortality in Dorset\n\n\n\n\n\n\nEleanor Jeram, Lee Robertson, Wilson Otitonaiye\n\n\n\n\n\n\n\n\nNo matching items"
+    "text": "Projects with a Streamlit Interface\n\n\n\n\n\n\n\n\n\n\nForecasting Demand and Length of Stay in the Emergency Department\n\n\n\n\n\n\nLisa Sabir\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nReducing Travel Times to Treatment for Cardiac Patients in the South East of England\n\n\n\n\n\n\nGlenn Ubly, Atonia Drummond, Janine James, Victor Yu\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing Discrete Event Simulation to model the bottlenecks in the Acute Medical Unit pathway\n\n\n\n\n\n\nBecky Crofts, Kayleigh Haydock\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscrete Event Simulation to model elective surgery pathways\n\n\n\n\n\n\nDominic Allen\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating a tool to automatically generate health equity audits for Community Diagnostic Centres\n\n\n\n\n\n\nSarah Houston, Deborah Newton\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDeveloping a tool to assess inequalities and demographic coverage of service locations\n\n\n\n\n\n\nAlex Owens, Phoebe Woodhead, Sian Heath\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nModelling the location of neonatal critical care units in North West England\n\n\n\n\n\n\nDuncan Galletly\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUnderstanding Excess Mortality in Dorset\n\n\n\n\n\n\nEleanor Jeram, Lee Robertson, Wilson Otitonaiye\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "previous_projects/projects_by_service_area.html",
+    "href": "previous_projects/projects_by_service_area.html",
+    "title": "Projects by Methods",
+    "section": "",
+    "text": "Alice Waterhouse\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHelen Young, Thomas Knight\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShilpa Patel\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLisa Sabir\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRichard Pilbery, Maddie Smith, Jon Green\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBecky Crofts, Kayleigh Haydock\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHamzah Shami\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "previous_projects/projects_by_service_area.html#emergency-departments",
+    "href": "previous_projects/projects_by_service_area.html#emergency-departments",
+    "title": "Projects by Methods",
+    "section": "",
+    "text": "Alice Waterhouse\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHelen Young, Thomas Knight\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nShilpa Patel\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nLisa Sabir\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nRichard Pilbery, Maddie Smith, Jon Green\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nBecky Crofts, Kayleigh Haydock\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nHamzah Shami\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "previous_projects/projects_by_service_area.html#mental-health",
+    "href": "previous_projects/projects_by_service_area.html#mental-health",
+    "title": "Projects by Methods",
+    "section": "Mental Health",
+    "text": "Mental Health\n\n\n\n\n\n\n\n\n\n\nUse of Discrete Event Simulation to Tackle Long Waits and a Growing Backlog for Children Requiring Neuro Development Assessment (Autism and ADHD)\n\n\n\n\n\n\nIrma Tanovic\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscrete Event Simulation of Cognitive Behavioural Therapy Pathway in an IAPT Service\n\n\n\n\n\n\nKatie Brown, Hannah Carroll, Andrew Poole, Matthew Chapman\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nPredicting Violent Incidents on Mental Health Inpatient Units\n\n\n\n\n\n\nIain Waring\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "previous_projects/projects_by_service_area.html#elective-surgery",
+    "href": "previous_projects/projects_by_service_area.html#elective-surgery",
+    "title": "Projects by Methods",
+    "section": "Elective Surgery",
+    "text": "Elective Surgery\n\n\n\n\n\n\n\n\n\n\nModelling strategies to reduce the elective backlog in hip surgery\n\n\n\n\n\n\nClaire Rudler, Matt Smith, Imca Hensels-Pelling, Zoe Ficken\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDiscrete Event Simulation to model elective surgery pathways\n\n\n\n\n\n\nDominic Allen\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "previous_projects/projects_by_service_area.html#primary-care-and-111",
+    "href": "previous_projects/projects_by_service_area.html#primary-care-and-111",
+    "title": "Projects by Methods",
+    "section": "Primary Care and 111",
+    "text": "Primary Care and 111\n\n\n\n\n\n\n\n\n\n\nExploring the use of Machine Learning and Natural Language Processing to teach a machine to predict whether a patient is likely to be imminently admitted to hospital based on GP data and clues in GP notes\n\n\n\n\n\n\nDr Adam Kwiatkowski, Prof Mona Nasser, Imca Hensels-Pelling\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nMeeting the demand of 111 for primary care services\n\n\n\n\n\n\nRichard Pilbery, Maddie Smith, Jon Green\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "previous_projects/projects_by_service_area.html#workforce",
+    "href": "previous_projects/projects_by_service_area.html#workforce",
+    "title": "Projects by Methods",
+    "section": "Workforce",
+    "text": "Workforce\n\n\n\n\n\n\n\n\n\n\nInvestigating factors impacting NHS workforce retention\n\n\n\n\n\n\nMarie Rogers, Richard Pilbery\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "previous_projects/projects_by_service_area.html#vaccination",
+    "href": "previous_projects/projects_by_service_area.html#vaccination",
+    "title": "Projects by Methods",
+    "section": "Vaccination",
+    "text": "Vaccination\n\n\n\n\n\n\n\n\n\n\nDeveloping a generic vaccination service model for the COVID-19 pandemic and beyond\n\n\n\n\n\n\nDr Adam Kwiatkowski\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSouth East Regional Covid 19 Vaccination Demand & Capacity Modelling\n\n\n\n\n\n\nCharlene Black, Adonis Sithole, Edward Chick, Mayoor Dhokia\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "previous_projects/projects_by_service_area.html#inequalities",
+    "href": "previous_projects/projects_by_service_area.html#inequalities",
+    "title": "Projects by Methods",
+    "section": "Inequalities",
+    "text": "Inequalities\n\n\n\n\n\n\n\n\n\n\nDeveloping a Service Planning Decision Support Tool to Tackle Inequalities and Minimise Carbon Output\n\n\n\n\n\n\nMatt Eves, Anya Gopfert, Sally Brown\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nCreating a tool to automatically generate health equity audits for Community Diagnostic Centres\n\n\n\n\n\n\nSarah Houston, Deborah Newton\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nDeveloping a tool to assess inequalities and demographic coverage of service locations\n\n\n\n\n\n\nAlex Owens, Phoebe Woodhead, Sian Heath\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing Machine Learning to estimate inequities in access to hospital procedures\n\n\n\n\n\n\nBenjamin Mouncer\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "previous_projects/projects_by_service_area.html#public-health",
+    "href": "previous_projects/projects_by_service_area.html#public-health",
+    "title": "Projects by Methods",
+    "section": "Public Health",
+    "text": "Public Health\n\n\n\n\n\n\n\n\n\n\nUnderstanding Excess Mortality in Dorset\n\n\n\n\n\n\nEleanor Jeram, Lee Robertson, Wilson Otitonaiye\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "previous_projects/projects_by_service_area.html#police",
+    "href": "previous_projects/projects_by_service_area.html#police",
+    "title": "Projects by Methods",
+    "section": "Police",
+    "text": "Police\n\n\n\n\n\n\n\n\n\n\nWhat are they saying about us? An AI tool to determine the sentiment of tweets to police forces across the country, and what people are talking about\n\n\n\n\n\n\nMike Hill\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nGenerating a richer understanding of relationships in crime data in order to identify opportunities to safeguard individuals and families\n\n\n\n\n\n\nJenna Thomas, Charly Bartlett, Neil Mitchell\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nSpatial Modelling of Violent Crime to Support Strategic Analysis\n\n\n\n\n\n\nAnupma Wadhera, Linda Wystemp, Andrea Casajuana Massanet, Helen Browne, Alessia Rose\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nUsing Natural Language Processing to detect drug related content within free text\n\n\n\n\n\n\nLauren Szarvas, Holly Dale, Tom Haddock\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "previous_projects/projects_by_service_area.html#service-areas",
+    "href": "previous_projects/projects_by_service_area.html#service-areas",
+    "title": "Projects by Methods",
+    "section": "Service Areas",
+    "text": "Service Areas\n\nRheumatology\n\n\n\n\n\n\n\n\n\n\nThe role of Patient Initiated Follow-up (PIFU) and ‘Digital Outpatients’ in Supporting the Elective Recovery - Can We Better Size Potential for Clearing the Backlog?\n\n\n\n\n\n\nMartina Fonseca, Xiaochen Ge\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nA Discrete Event Simulation Model to reduce Rheumatology waiting times in Dorset\n\n\n\n\n\n\nAbby Dewhurst, Claire Davies, Krzysztof Cepa\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nNeonatal\n\n\n\n\n\n\n\n\n\n\nModelling the location of neonatal critical care units in North West England\n\n\n\n\n\n\nDuncan Galletly\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nRespiratory\n\n\n\n\n\n\n\n\n\n\nUsing Machine Learning to Predict Hospital Admissions and Length of Stay for Respiratory Conditions\n\n\n\n\n\n\nAndy McCann\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nPaediatric\n\n\n\n\n\n\n\n\n\n\nSimulation modelling to test proposed models of pediatric critical care in South West England\n\n\n\n\n\n\nAdam Scull\n\n\n\n\n\n\n\n\n\n\n\n\n\n\nForecasting Demand and Length of Stay in the Emergency Department\n\n\n\n\n\n\nLisa Sabir\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nCancer\n\n\n\n\n\n\n\n\n\n\nUse Of Discrete Event Simulation (DES) to reduce delays in Cancer Diagnosis & Treatment\n\n\n\n\n\n\nAngel Masih, James Page, Mahya Kaveh\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nCardiac\n\n\n\n\n\n\n\n\n\n\nReducing Travel Times to Treatment for Cardiac Patients in the South East of England\n\n\n\n\n\n\nGlenn Ubly, Atonia Drummond, Janine James, Victor Yu\n\n\n\n\n\n\n\n\nNo matching items\n\n\n\n\nOrthopaedics\n\n\n\n\n\n\n\n\n\n\nModelling strategies to reduce the elective backlog in hip surgery\n\n\n\n\n\n\nClaire Rudler, Matt Smith, Imca Hensels-Pelling, Zoe Ficken\n\n\n\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "project_design_template.html",
+    "href": "project_design_template.html",
+    "title": "Project Design Template",
+    "section": "",
+    "text": "Coming soon!"
   }
 ]

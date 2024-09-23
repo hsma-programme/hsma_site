@@ -5,6 +5,7 @@ categories:
   - Paediatric
   - Mapping
   - Location Optimization
+  - NHS
 author:
   - name: Adam Scull
     affiliation: Transformation Intelligence Manager, NHS England and NHS Improvement
@@ -19,4 +20,3 @@ pub-info:
 This project used a combination of Discrete Event Simulation and Geographic Modelling approaches to determine where Level 2 Pediatric Critical Care Units should be located in South West England to bring care closer to home. The project demonstrated the clear need for units outside of Bristol to better serve the population in the South West, and was able to identify proposed locations for such sites. The HSMA who led this project is now mentoring a project in the fourth round of the programme, to help spread the skills and knowledge he acquired during the programme.
 
 {{< video https://www.youtube.com/watch?v=eOqujR64JkQ&list=PLgHO2TgIJXdnAWY7tGGPQLWYAjn0tgG_A&index=1 >}}
-

@@ -4,13 +4,14 @@ categories:
   - Discrete Event Simulation
   - Elective Surgery
   - Orthopaedics
+  - NHS
 author:
   - name: Claire Rudler
     affiliation: NHS Devon CCG
   - name: Matt Smith
     affiliation: Information Analyst, NHS Devon CCG
   - name: Imca Hensels-Pelling
-    affiliation: Information Analyst, Royal Devon and Exeter NHS Foundation Trust 
+    affiliation: Information Analyst, Royal Devon and Exeter NHS Foundation Trust
   - name: Zoe Ficken
     affiliation: Senior Information Analyst, Royal Devon and Exeter NHS Foundation Trust
 image: "8vopju20.bmp"
@@ -24,4 +25,3 @@ pub-info:
 This project used Discrete Event Simulation to model the hip surgery patient pathway in Exeter to understand the potential impact of various strategies to reduce the backlog for hip surgery. The work represented a collaboration between the CCG and the acute provider and fed into their long-term planning to support decision-making.
 
 {{< video https://www.youtube.com/watch?v=VLituG9Sbc0&list=PLgHO2TgIJXdnAWY7tGGPQLWYAjn0tgG_A&index=4 >}}
-
