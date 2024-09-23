@@ -1,0 +1,12 @@
+---
+title: Identifying and resolving bottlenecks in pathways
+categories:
+    - Discrete Event Simulation
+    - Streamlit
+---
+
+## Description
+
+This is very similar to the example given above, but with a slightly different focus - where a pathway is not working as intended and it is suspected that a bottleneck is occurring, discrete event simulation can be used to verify this assumption and show the impact on changes to the pathway design or resourcing, preventing costly and potentially incorrect changes being undertaken in the live system unnecessarily.
+
+## Links and previous projects

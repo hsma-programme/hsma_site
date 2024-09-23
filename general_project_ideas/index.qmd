@@ -1,0 +1,19 @@
+---
+title: "Project Ideas"
+toc-location: right
+listing:
+    - id: project_ideas
+      contents: "general_project_ideas/*.qmd"
+      sort: "date desc"
+      type: table
+      fields: [title, categories]
+      categories: true
+---
+
+There are some common topics that come up again and again either within HSMA or across the wider health modelling sphere.
+
+Adapting (and potentially extending) this work for your own organisation could be a good project option.
+
+
+:::{#project_ideas}
+:::

@@ -133,5 +133,59 @@
   },
   "previous_projects/template.qmd": {
     "template.html": "23a79587"
+  },
+  "general_project_ideas/index.qmd": {
+    "index.html": "be4785d7"
+  },
+  "general_project_ideas/general_project_ideas/automation_enhancement_reports.qmd": {
+    "automation_enhancement_reports.html": "80be33a9"
+  },
+  "general_project_ideas/general_project_ideas/converting_excel_tool_code.qmd": {
+    "converting_excel_tool_code.html": "e9cc9c10"
+  },
+  "general_project_ideas/general_project_ideas/identifying_inequalities_service_access.qmd": {
+    "identifying_inequalities_service_access.html": "b37a0686"
+  },
+  "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.qmd": {
+    "identifying_resolving_bottlenecks.html": "e6b5837a"
+  },
+  "general_project_ideas/general_project_ideas/identifying_resource_backlogs.qmd": {
+    "identifying_resource_backlogs.html": "b609bb30"
+  },
+  "general_project_ideas/general_project_ideas/non_attendance_prediction.qmd": {
+    "non_attendance_prediction.html": "8669bf4b"
+  },
+  "general_project_ideas/general_project_ideas/predicing_number_specialty_inpatient_admissions.qmd": {
+    "predicing_number_specialty_inpatient_admissions.html": "bc97eef5"
+  },
+  "general_project_ideas/general_project_ideas/predicting_los_capacity_planning.qmd": {
+    "predicting_los_capacity_planning.html": "95602bb0"
+  },
+  "general_project_ideas/general_project_ideas/what_if_pathway.qmd": {
+    "what_if_pathway.html": "076efbda"
+  },
+  "general_project_ideas.qmd": {
+    "general_project_ideas.html": "763816fb"
+  },
+  "idea_generation_tips.qmd": {
+    "idea_generation_tips.html": "c6561584"
+  },
+  "project_design_template.qmd": {
+    "project_design_template.html": "e23e7363"
+  },
+  "project_registration_process.qmd": {
+    "project_registration_process.html": "ba132c44"
+  },
+  "faqs.qmd": {
+    "faqs.html": "80bb800e"
+  },
+  "general_project_ideas/general_project_ideas/new_service_location_optimization.qmd": {
+    "new_service_location_optimization.html": "53898e9a"
+  },
+  "general_project_ideas/general_project_ideas/service_closure_location_optimisation.qmd": {
+    "service_closure_location_optimisation.html": "9c2652c5"
+  },
+  "previous_projects/projects_by_methods.qmd": {
+    "projects_by_methods.html": "a113b80c"
   }
 }

@@ -1,0 +1,31 @@
+---
+title: Non-attendance Prediction
+categories:
+    - Machine Learning
+    - Explainable AI
+---
+
+### Description
+
+Using a machine learning algorithm to predict the patients who are most likely to not attend their appointments is a popular use of machine learning.
+
+Low-cost, light-touch interventions like targeted text messages can be put in place to encourage attendance.
+
+You could also use explainable AI techniques to highlight the areas that the model considers the most important while making its predictions.
+
+By looking at the potential cost of each missed appointment
+
+### Considerations
+
+- Consider starting off with a single specialty/type of appointment. Factors influencing non-attendance may vary depending on the type of appointment involved.
+
+- Consider how you could get patient and public involvement in this sort of project; why do patients say they do not attend? What would they like putting in place to help with this?
+
+### Caveats
+
+- Ethics would need to be carefully considered; is your algorithm robust? By giving reminders to certain groups, are you disadvantaging those who you don't give reminders to by removing opportunities for them to receive timely care?
+
+-
+
+
+### Links and previous projects

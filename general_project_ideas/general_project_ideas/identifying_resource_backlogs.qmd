@@ -1,0 +1,10 @@
+---
+title: Identifying the resource required to clear backlogs in pathways
+categories:
+    - Discrete Event Simulation
+    - Streamlit
+---
+
+## Description
+
+## Links and previous projects

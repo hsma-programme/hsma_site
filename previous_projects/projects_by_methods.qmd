@@ -1,0 +1,122 @@
+---
+title: "Projects by Methods"
+toc-location: right
+listing:
+    - id: des_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      categories: false
+      include:
+        categories: "Discrete Event Simulation"
+      # template: ../html/previous_projects/listing.ejs
+    - id: network_analysis_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      categories: false
+      include:
+        categories: "Network Analysis"
+      # template: ../html/previous_projects/listing.ejs
+    - id: reporting_automation_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      categories: false
+      include:
+        categories: "Automation"
+      # template: ../html/previous_projects/listing.ejs
+    - id: mapping_location_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      categories: false
+      include:
+        categories: "{Location Optimisation,Location Optimization,Mapping,Travel Times,QGIS,Geostatistics}*"
+      # template: ../html/previous_projects/listing.ejs
+    - id: forecasting_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      categories: false
+      include:
+        categories: "{Forecasting,Prophet}*"
+      # template: ../html/previous_projects/listing.ejs
+    - id: nlp_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      categories: false
+      include:
+        categories: "{Natural Language Processing,Natural Language Processing (NLP),Named Entity Recognition}*"
+      # template: ../html/previous_projects/listing.ejs
+    - id: ml_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      categories: false
+      include:
+        categories: "{Machine Learning}*"
+      # template: ../html/previous_projects/listing.ejs
+    - id: streamlit_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      categories: false
+      include:
+        categories: "{Streamlit}*"
+      # template: ../html/previous_projects/listing.ejs
+---
+
+## Discrete Event Simulation
+
+:::{#des_projects}
+:::
+
+## Machine learning
+
+:::{#ml_projects}
+:::
+
+
+## Natural Language Processing
+
+:::{#nlp_projects}
+:::
+
+## Mapping and Location Optimisation
+
+:::{#mapping_location_projects}
+:::
+
+## Forecasting
+
+:::{#forecasting_projects}
+:::
+
+
+## Reporting Automation Projects
+
+:::{#reporting_automation_projects}
+:::
+
+## Network Analysis
+
+:::{#network_analysis_projects}
+:::
+
+
+---
+
+## Projects with a Streamlit Interface
+
+:::{#streamlit_projects}
+:::

@@ -8,8 +8,25 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - href: previous_projects/index.qmd
-        text: Projects
+      - text: "Projects"
+        menu:
+          - href: previous_projects/index.qmd
+            text: Projects by Cohort
+          - href: previous_projects/projects_by_methods.qmd
+            text: Projects by Method
+      - text: "Project Ideas"
+        menu:
+        - href: idea_generation_tips.qmd
+          text: Project Idea Tips
+        - href: general_project_ideas.qmd
+          text: General Project Ideas
+      - href: project_design_template.qmd
+        text: Project Design Template
+      - href: project_registration_process.qmd
+        text: Registering a Project
+      - href: faqs.qmd
+        text: "FAQs"
+
 
 format:
   html:

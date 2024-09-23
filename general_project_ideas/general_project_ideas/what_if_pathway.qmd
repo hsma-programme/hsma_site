@@ -1,0 +1,13 @@
+---
+title: What-if analysis of pathways/pathway redesign work
+categories:
+    - Discrete Event Simulation
+    - Streamlit
+---
+
+## Description
+
+This sort of work can sometimes show that the desired performance is simply not possible within certain constraints placed on the system (e.g. current maximum resource) and can be used to make a strong business case for additional investment.
+
+
+## Links and previous projects

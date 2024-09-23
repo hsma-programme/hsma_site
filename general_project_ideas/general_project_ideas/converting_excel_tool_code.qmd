@@ -1,0 +1,10 @@
+---
+title: Conversion of Excel-based tools into code
+categories:
+    - General Python
+    - Data Visualisation
+    - Streamlit
+    - Quarto
+---
+
+## Description

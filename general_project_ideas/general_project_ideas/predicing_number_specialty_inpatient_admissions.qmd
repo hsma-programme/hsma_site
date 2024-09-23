@@ -1,0 +1,5 @@
+---
+title: Predicting the number of and likely specialty of patients imminently requiring inpatient beds
+categories:
+    - Machine Learning
+---

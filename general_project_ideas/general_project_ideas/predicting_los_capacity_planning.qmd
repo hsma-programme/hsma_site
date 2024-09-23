@@ -1,0 +1,6 @@
+---
+title: Predicting Length of Stay (LOS) to aid in bed capacity planning
+categories:
+    - Machine Learning
+    - Explainable AI
+---
