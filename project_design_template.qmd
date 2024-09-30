@@ -2,6 +2,16 @@
 title: Project Design Template
 ---
 
-Coming soon!
+For those of you who would find a template useful to start thinking through some key aspects of their projects, one is provided on this page.
 
-This will contain an OPTIONAL template designed to help you firm up the ideas around your project.
+The template is entirely optional - please feel free to use it, not use it, only fill in the fields you find useful for you, add fields, etc.
+
+It is indended to serve as a good prompt to start thinking about some of the things that might come up.
+
+```{=html}
+<iframe width="780" height="500" src="https://docs.google.com/document/d/1BuiFnpwr7PvaBDqJwvpuJpYgpxBczVkByJkPPrKd7f8/edit?usp=sharing" title="HSMA Project Template"></iframe>
+```
+
+[Link](https://docs.google.com/document/d/1BuiFnpwr7PvaBDqJwvpuJpYgpxBczVkByJkPPrKd7f8/edit?usp=sharing)
+
+Some examples of filled in templates for real HSMA projects can be found [here](https://hsma-workspace.slack.com/archives/C078UQMP2QH/p1727684798692199) if you are a member of the HSMA Slack community.
