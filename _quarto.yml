@@ -27,7 +27,7 @@ website:
       - href: project_registration_process.qmd
         text: Registering a Project
       - href: project_design_template.qmd
-        text: Optional Registration Template
+        text: Optional Design Template
       - href: faqs.qmd
         text: "FAQs"
 

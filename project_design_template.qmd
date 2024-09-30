@@ -11,10 +11,19 @@ The template is entirely optional - please feel free to use it, not use it, only
 
 It is indended to serve as a good prompt to start thinking about some of the things that might come up.
 
+[Click Here to Open the Template in Google Documents](https://docs.google.com/document/d/1BuiFnpwr7PvaBDqJwvpuJpYgpxBczVkByJkPPrKd7f8/edit?usp=sharing)
+
+You will need to take a copy of the document to be able to edit it.
+
+:::{.callout-tip}
+
+Some examples of filled in templates for real HSMA projects can be found [here](https://hsma-workspace.slack.com/archives/C078UQMP2QH/p1727684798692199) if you are a member of the HSMA Slack community.
+
+:::
+
+
+You can take a look at the template document below, but will need to open it via the [link](https://docs.google.com/document/d/1BuiFnpwr7PvaBDqJwvpuJpYgpxBczVkByJkPPrKd7f8/edit?usp=sharing) to be able to take your own copy.
+
 ```{=html}
 <iframe width="1200" height="500" src="https://docs.google.com/document/d/1BuiFnpwr7PvaBDqJwvpuJpYgpxBczVkByJkPPrKd7f8/edit?usp=sharing" title="HSMA Project Template"></iframe>
 ```
-
-[Link](https://docs.google.com/document/d/1BuiFnpwr7PvaBDqJwvpuJpYgpxBczVkByJkPPrKd7f8/edit?usp=sharing)
-
-Some examples of filled in templates for real HSMA projects can be found [here](https://hsma-workspace.slack.com/archives/C078UQMP2QH/p1727684798692199) if you are a member of the HSMA Slack community.
