@@ -1,5 +1,8 @@
 ---
 title: Project Design Template
+format:
+  html:
+    page-layout: full
 ---
 
 For those of you who would find a template useful to start thinking through some key aspects of their projects, one is provided on this page.
@@ -9,7 +12,7 @@ The template is entirely optional - please feel free to use it, not use it, only
 It is indended to serve as a good prompt to start thinking about some of the things that might come up.
 
 ```{=html}
-<iframe width="780" height="500" src="https://docs.google.com/document/d/1BuiFnpwr7PvaBDqJwvpuJpYgpxBczVkByJkPPrKd7f8/edit?usp=sharing" title="HSMA Project Template"></iframe>
+<iframe width="1200" height="500" src="https://docs.google.com/document/d/1BuiFnpwr7PvaBDqJwvpuJpYgpxBczVkByJkPPrKd7f8/edit?usp=sharing" title="HSMA Project Template"></iframe>
 ```
 
 [Link](https://docs.google.com/document/d/1BuiFnpwr7PvaBDqJwvpuJpYgpxBczVkByJkPPrKd7f8/edit?usp=sharing)
