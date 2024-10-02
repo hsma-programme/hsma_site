@@ -1,0 +1,15 @@
+---
+title: Which factors are driving increasing demand for community nursing? A qualitative System Dynamics approach
+categories:
+  - System Dynamics
+  - Community Nursing
+author:
+  - name: Dr Daniel Chalk
+    affiliation: PenCHORD
+---
+
+> "Demand for district nursing services is increasing significantly. With increasing economic pressures, services are struggling to meet increases in demand, and are looking to become more proactive in planning for future demand. Traditional quantitative forecasting methods have limited use, because of the complexity of inter-linking factors that potentially drive demand for community services.
+
+> Qualitative system dynamics approaches can be useful to model the complex interplay of causal factors leading to an effect, such as increased demand for services, and identify particular areas of concern for future focus. We ran a facilitated qualitative system dynamics workshop with representatives working across community nursing services in Cornwall. The generated models identified 7 key areas of concern that could be significantly contributing to demand for district nursing services."
+
+<https://www.magonlinelibrary.com/doi/abs/10.12968/bjcn.2017.22.1.675?journalCode=bjcn>

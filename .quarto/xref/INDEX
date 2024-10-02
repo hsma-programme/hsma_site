@@ -196,5 +196,32 @@
   },
   "previous_projects/projects_by_organisation.qmd": {
     "projects_by_organisation.html": "09137c17"
+  },
+  "general_project_ideas/general_project_ideas/predicting_number_specialty_inpatient_admissions.qmd": {
+    "predicting_number_specialty_inpatient_admissions.html": "95d92ee3"
+  },
+  "non_hsma_projects/dc_abs_polypharmacy/index.qmd": {
+    "index.html": "96ebcc84"
+  },
+  "non_hsma_projects/dc_factors_influencing_ambulance_demand/index.qmd": {
+    "index.html": "fd0b20b0"
+  },
+  "non_hsma_projects/dc_factors_influencing_community_nursing/index.qmd": {
+    "index.html": "403f936d"
+  },
+  "non_hsma_projects/dc_impact_miu_closure_travel_time/index.qmd": {
+    "index.html": "3cf8b702"
+  },
+  "non_hsma_projects/dc_mibc_pathway/index.qmd": {
+    "index.html": "e647f521"
+  },
+  "non_hsma_projects/dc_predicting_eol_care_needs/index.qmd": {
+    "index.html": "7d0b2620"
+  },
+  "non_hsma_projects/index.qmd": {
+    "index.html": "aa570b4b"
+  },
+  "non_hsma_projects/ma_kp_al_stroke/index.qmd": {
+    "index.html": "27a552f5"
   }
 }

@@ -1,0 +1,21 @@
+---
+title: The impact of minor injury unit closures on travel time and attendances
+categories:
+  - Minor Injury Units
+  - Emergency Departments
+  - Travel Times 
+  - Geographic Modelling
+author:
+  - name: Dr Daniel Chalk
+    affiliation: PenCHORD
+---
+
+This is another model that was built prior to PenCHORD becoming a fully FOSS team, so code is not available. 
+
+> "Geographic modelling techniques provide a means of optimising the location of services, or understanding the potential impact of geographic service reconfigurations. In response to commissioner queries, we assessed the potential impact on patient travel time and attendances of the closure of four minor injury units (MIUs) in a locality of South West England." 
+
+> "The model used the attendance records of 90 252 minor injury unit patients to calculate car travel time data to the units in the locality. We then built a geographic model of the existing configuration of MIUs... and used ‘what if’ analysis to determine the potential impact of the proposed closures." 
+
+> "The model predicted that if the four MIUs were closed, there would be only a trivial increase in average travel time across all patients, but a significant increase of around 20 minutes per patient for those whose nearest unit was closed. The model also predicted that the closure of one of the MIUs could lead to significant increased demand at the walk-in centre located at the acute hospital. Using these results, the local commissioners decided to close only three of the four units.""
+
+<https://www.magonlinelibrary.com/doi/abs/10.12968/bjhc.2015.21.5.241>

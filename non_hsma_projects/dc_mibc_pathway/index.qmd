@@ -1,0 +1,13 @@
+---
+title: Reducing delays in the diagnosis and treatment of muscle-invasive bladder cancer using simulation modelling
+categories:
+  - Discrete Event Simulation
+  - Cancer
+author:
+  - name: Dr Daniel Chalk
+    affiliation: PenCHORD
+---
+
+This model comes from the pre-FOSS period of PenCHORD, being built in Simul8, but the approach and potential impact is worth reading up on.
+
+<https://journals.sagepub.com/doi/abs/10.1177/2051415818794089?journalCode=urob>

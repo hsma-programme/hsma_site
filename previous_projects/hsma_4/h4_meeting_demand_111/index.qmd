@@ -23,6 +23,8 @@ pub-info:
     icon: fa-brands fa-youtube
 ---
 
-
+This was an attempt to model the impact of enforcing timely primary care interventions when 111 calls are undertaken. 
 
 {{< video https://www.youtube.com/watch?v=cg5Bp3O02io&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=1 >}}
+
+More information: <https://arc-swp.nihr.ac.uk/publications/modelling-nhs-111-demand-for-primary-care-services-a-discrete-event-simulation/>

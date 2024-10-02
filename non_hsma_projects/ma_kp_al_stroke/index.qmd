@@ -1,0 +1,30 @@
+---
+title: What would other emergency stroke teams do? Using explainable machine learning to understand variation in thrombolysis practice
+categories:
+  - Machine Learning
+  - Explainable AI
+  - Monte Carlo Simulation Model
+author:
+  - name: Mike Allen
+    affiliation: PenCHORD
+  - name: Anna Laws
+    affiliation: PenCHORD
+  - name: Kerry Pearn
+    affiliation: PenCHORD
+---
+
+The multi-year SAMueL and SAMueL-2 projects have looked at between-hospital variation in the use of thrombolysis across hospitals. 
+
+Using XGBoost machine learning models and SHAP values to provide explainability, they have been able to look at how patient features and hospitals affect the likelihood of receiving thrombolysis.
+
+<https://arc-swp.nihr.ac.uk/publications/what-would-other-emergency-stroke-teams-do-using-explainable-machine-learning-to-understand-variation-in-thrombolysis-practice-2/>
+
+Clinical pathway simulation (using Monte Carlo simulation methods) could then be applied to look at the potential changes in hospital pathways on the percentage of people being thrombolysed.
+
+![](https://www.ahajournals.org/cms/10.1161/STROKEAHA.121.038454/asset/4f8fd50d-9cc6-4269-977e-6c60e1d89387/assets/graphic/strokeaha.121.038454.fig06.jpg)
+
+<https://arc-swp.nihr.ac.uk/publications/clinical-pathway-simulation-thrombolysis-acute-stroke/>
+
+<https://www.ahajournals.org/doi/10.1161/STROKEAHA.121.038454>
+
+<https://samuel-book.github.io/samuel-1/introduction/intro.html>

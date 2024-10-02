@@ -31,6 +31,8 @@ website:
           text: Tips for Coming Up with a Project Idea
         - href: general_project_ideas/index.qmd
           text: General Project Ideas
+        - href: non_hsma_projects/index.qmd
+          text: Non-HSMA Projects 
       - href: project_registration_process.qmd
         text: Registering a Project
       - href: project_design_template.qmd

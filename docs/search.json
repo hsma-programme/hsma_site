@@ -189,6 +189,34 @@
     "text": "This project used Network Analysis methods to identify the social relationships between groups of people who could be causing significant issues within their communities, and enable the police to consider pro-active interventions to target those who may be at risk of future offending because of their social links with offenders. The team developed a proof of concept initially that demonstrated they could use this type of analysis to identify “at risk” individuals in a matter of hours compared to over many months using traditional manual methods. The methods were then applied to identify a highly connected network of youths causing issues in a community within a Devon city.\nFiona Bohan, Performance and Analysis Manager at Devon and Cornwall Police, had this to say about the work :\n“The need for Social Network Analysis is clear. Criminal and exploitative networks are a huge and costly issue for police, their partner agencies, and the community. SNA, using minimal resource, can identify children at current and future risk of exploitation, as well as those key players within the network who pose the greatest risk. By targeting and removing these key players, and concentrating limited early intervention resources on protecting those at risk in the future, there are potential significant savings both in terms of child harm and partnership spend. This proof of concept has highlighted the significant benefits of embedding this approach in force and, in my view, will play an important part in policing in the future.”"
   },
   {
+    "objectID": "non_hsma_projects/ma_kp_al_stroke/index.html",
+    "href": "non_hsma_projects/ma_kp_al_stroke/index.html",
+    "title": "What would other emergency stroke teams do? Using explainable machine learning to understand variation in thrombolysis practice",
+    "section": "",
+    "text": "The multi-year SAMueL and SAMueL-2 projects have looked at between-hospital variation in the use of thrombolysis across hospitals.\nUsing XGBoost machine learning models and SHAP values to provide explainability, they have been able to look at how patient features and hospitals affect the likelihood of receiving thrombolysis.\nhttps://arc-swp.nihr.ac.uk/publications/what-would-other-emergency-stroke-teams-do-using-explainable-machine-learning-to-understand-variation-in-thrombolysis-practice-2/\nClinical pathway simulation (using Monte Carlo simulation methods) could then be applied to look at the potential changes in hospital pathways on the percentage of people being thrombolysed.\n\nhttps://arc-swp.nihr.ac.uk/publications/clinical-pathway-simulation-thrombolysis-acute-stroke/\nhttps://www.ahajournals.org/doi/10.1161/STROKEAHA.121.038454\nhttps://samuel-book.github.io/samuel-1/introduction/intro.html"
+  },
+  {
+    "objectID": "non_hsma_projects/dc_predicting_eol_care_needs/index.html",
+    "href": "non_hsma_projects/dc_predicting_eol_care_needs/index.html",
+    "title": "Which factors are driving increasing demand for community nursing? A qualitative System Dynamics approach",
+    "section": "",
+    "text": "“Demand for district nursing services is increasing significantly. With increasing economic pressures, services are struggling to meet increases in demand, and are looking to become more proactive in planning for future demand. Traditional quantitative forecasting methods have limited use, because of the complexity of inter-linking factors that potentially drive demand for community services.\n\n\nQualitative system dynamics approaches can be useful to model the complex interplay of causal factors leading to an effect, such as increased demand for services, and identify particular areas of concern for future focus. We ran a facilitated qualitative system dynamics workshop with representatives working across community nursing services in Cornwall. The generated models identified 7 key areas of concern that could be significantly contributing to demand for district nursing services.”\n\nhttps://www.magonlinelibrary.com/doi/abs/10.12968/bjcn.2017.22.1.675?journalCode=bjcn"
+  },
+  {
+    "objectID": "non_hsma_projects/dc_impact_miu_closure_travel_time/index.html",
+    "href": "non_hsma_projects/dc_impact_miu_closure_travel_time/index.html",
+    "title": "The impact of minor injury unit closures on travel time and attendances",
+    "section": "",
+    "text": "This is another model that was built prior to PenCHORD becoming a fully FOSS team, so code is not available.\n\n“Geographic modelling techniques provide a means of optimising the location of services, or understanding the potential impact of geographic service reconfigurations. In response to commissioner queries, we assessed the potential impact on patient travel time and attendances of the closure of four minor injury units (MIUs) in a locality of South West England.”\n\n\n“The model used the attendance records of 90 252 minor injury unit patients to calculate car travel time data to the units in the locality. We then built a geographic model of the existing configuration of MIUs… and used ‘what if’ analysis to determine the potential impact of the proposed closures.”\n\n\n“The model predicted that if the four MIUs were closed, there would be only a trivial increase in average travel time across all patients, but a significant increase of around 20 minutes per patient for those whose nearest unit was closed. The model also predicted that the closure of one of the MIUs could lead to significant increased demand at the walk-in centre located at the acute hospital. Using these results, the local commissioners decided to close only three of the four units.””\n\nhttps://www.magonlinelibrary.com/doi/abs/10.12968/bjhc.2015.21.5.241"
+  },
+  {
+    "objectID": "non_hsma_projects/dc_factors_influencing_ambulance_demand/index.html",
+    "href": "non_hsma_projects/dc_factors_influencing_ambulance_demand/index.html",
+    "title": "Modelling palliative and end-of-life resource requirements during COVID-19 - implications for quality care",
+    "section": "",
+    "text": "This model predicted ‘staff’ (community nurse time, care assistant time, palliative care specialists) and ‘stuff’ (medicine bundles, syringe pumps) required to meet resources for end of life care.\nhttps://bmjopen.bmj.com/content/11/5/e043795.full?ijkey=eru0iTTZCABzfpF&keytype=ref\nThe model code can be seen here:\nhttps://colab.research.google.com/drive/1K0-xsqG_uIpoWhw86tjOUM55OcFfhq_2"
+  },
+  {
     "objectID": "index.html",
     "href": "index.html",
     "title": "HSMA Project Handbook",
@@ -200,28 +228,28 @@
     "href": "general_project_ideas/index.html",
     "title": "Project Ideas",
     "section": "",
-    "text": "There are some common topics that come up again and again either within HSMA or across the wider health modelling sphere.\nAdapting (and potentially extending) this work for your own organisation could be a good project option.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nCategories\n\n\n\n\n\n\nAutomation and enhancement of highly time-consuming reports\n\n\nGeneral Python, Data Visualisation, Streamlit, Quarto\n\n\n\n\nConversion of Excel-based tools into code\n\n\nGeneral Python, Data Visualisation, Streamlit, Quarto\n\n\n\n\nIdentifying Inequalities in Service Access\n\n\nMapping, Travel Times\n\n\n\n\nIdentifying and resolving bottlenecks in pathways\n\n\nDiscrete Event Simulation, Streamlit\n\n\n\n\nIdentifying the resource required to clear backlogs in pathways\n\n\nDiscrete Event Simulation, Streamlit\n\n\n\n\nIdentifying the optimal locations of new services\n\n\nMapping, Travel Times, Location Optimization\n\n\n\n\nPredicting the number of and likely specialty of patients imminently requiring inpatient beds\n\n\nMachine Learning\n\n\n\n\nPredicting Length of Stay (LOS) to aid in bed capacity planning\n\n\nMachine Learning, Explainable AI\n\n\n\n\nIdentifying the optimal service locations(s) to close to minimize the impact of equity of access\n\n\nMapping, Travel Times, Location Optimization\n\n\n\n\nWhat-if analysis of pathways/pathway redesign work\n\n\nDiscrete Event Simulation, Streamlit\n\n\n\n\n\nNo matching items"
+    "text": "There are some common topics that come up again and again either within HSMA or across the wider health modelling sphere.\nAdapting (and potentially extending) this work for your own organisation could be a good project option.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nCategories\n\n\n\n\n\n\nAutomation and enhancement of highly time-consuming reports\n\n\nGeneral Python, Data Visualisation, Streamlit, Quarto\n\n\n\n\nConversion of Excel-based tools into code\n\n\nGeneral Python, Data Visualisation, Streamlit, Quarto\n\n\n\n\nIdentifying Inequalities in Service Access\n\n\nMapping, Travel Times\n\n\n\n\nIdentifying and resolving bottlenecks in pathways\n\n\nDiscrete Event Simulation, Streamlit\n\n\n\n\nIdentifying the resource required to clear backlogs in pathways\n\n\nDiscrete Event Simulation, Streamlit\n\n\n\n\nIdentifying the optimal locations of new services\n\n\nMapping, Travel Times, Location Optimization\n\n\n\n\nPredicting the number of and likely specialty of patients imminently requiring inpatient beds\n\n\nMachine Learning\n\n\n\n\nPredicting Length of Stay (LOS) to aid in bed capacity planning\n\n\nMachine Learning, Explainable AI\n\n\n\n\n \n\n\n \n\n\n\n\nIdentifying the optimal service locations(s) to close to minimize the impact of equity of access\n\n\nMapping, Travel Times, Location Optimization\n\n\n\n\nWhat-if analysis of pathways/pathway redesign work\n\n\nDiscrete Event Simulation, Streamlit\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "general_project_ideas/general_project_ideas/identifying_resource_backlogs.html#links-and-previous-projects",
-    "href": "general_project_ideas/general_project_ideas/identifying_resource_backlogs.html#links-and-previous-projects",
-    "title": "Identifying the resource required to clear backlogs in pathways",
-    "section": "Links and previous projects",
-    "text": "Links and previous projects"
-  },
-  {
-    "objectID": "general_project_ideas/general_project_ideas/automation_enhancement_reports.html#links-and-previous-projects",
-    "href": "general_project_ideas/general_project_ideas/automation_enhancement_reports.html#links-and-previous-projects",
-    "title": "Automation and enhancement of highly time-consuming reports",
-    "section": "Links and previous projects",
-    "text": "Links and previous projects"
-  },
-  {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html",
+    "href": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html",
+    "title": "Identifying and resolving bottlenecks in pathways",
     "section": "",
-    "text": "About this site"
+    "text": "This is very similar to the example given above, but with a slightly different focus - where a pathway is not working as intended and it is suspected that a bottleneck is occurring, discrete event simulation can be used to verify this assumption and show the impact on changes to the pathway design or resourcing, preventing costly and potentially incorrect changes being undertaken in the live system unnecessarily."
+  },
+  {
+    "objectID": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html#description",
+    "href": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html#description",
+    "title": "Identifying and resolving bottlenecks in pathways",
+    "section": "",
+    "text": "This is very similar to the example given above, but with a slightly different focus - where a pathway is not working as intended and it is suspected that a bottleneck is occurring, discrete event simulation can be used to verify this assumption and show the impact on changes to the pathway design or resourcing, preventing costly and potentially incorrect changes being undertaken in the live system unnecessarily."
+  },
+  {
+    "objectID": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html#links-and-previous-projects",
+    "href": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html#links-and-previous-projects",
+    "title": "Identifying and resolving bottlenecks in pathways",
+    "section": "Links and previous projects",
+    "text": "Links and previous projects"
   },
   {
     "objectID": "faqs.html",
@@ -266,23 +294,23 @@
     "text": "It’s absolutely fine for it to be very specialised towards your organisation - you may just want to consider giving a warning in your readme."
   },
   {
-    "objectID": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html",
-    "href": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html",
-    "title": "Identifying and resolving bottlenecks in pathways",
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
     "section": "",
-    "text": "This is very similar to the example given above, but with a slightly different focus - where a pathway is not working as intended and it is suspected that a bottleneck is occurring, discrete event simulation can be used to verify this assumption and show the impact on changes to the pathway design or resourcing, preventing costly and potentially incorrect changes being undertaken in the live system unnecessarily."
+    "text": "About this site"
   },
   {
-    "objectID": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html#description",
-    "href": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html#description",
-    "title": "Identifying and resolving bottlenecks in pathways",
-    "section": "",
-    "text": "This is very similar to the example given above, but with a slightly different focus - where a pathway is not working as intended and it is suspected that a bottleneck is occurring, discrete event simulation can be used to verify this assumption and show the impact on changes to the pathway design or resourcing, preventing costly and potentially incorrect changes being undertaken in the live system unnecessarily."
+    "objectID": "general_project_ideas/general_project_ideas/automation_enhancement_reports.html#links-and-previous-projects",
+    "href": "general_project_ideas/general_project_ideas/automation_enhancement_reports.html#links-and-previous-projects",
+    "title": "Automation and enhancement of highly time-consuming reports",
+    "section": "Links and previous projects",
+    "text": "Links and previous projects"
   },
   {
-    "objectID": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html#links-and-previous-projects",
-    "href": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html#links-and-previous-projects",
-    "title": "Identifying and resolving bottlenecks in pathways",
+    "objectID": "general_project_ideas/general_project_ideas/identifying_resource_backlogs.html#links-and-previous-projects",
+    "href": "general_project_ideas/general_project_ideas/identifying_resource_backlogs.html#links-and-previous-projects",
+    "title": "Identifying the resource required to clear backlogs in pathways",
     "section": "Links and previous projects",
     "text": "Links and previous projects"
   },
@@ -320,6 +348,34 @@
     "title": "Tips for Generating Project Ideas",
     "section": "",
     "text": "You ideally want projects that are not too time-critical to the organisation; remember that you may be working on this for 9 months (or more!).\nStart small and focussed; you can always expand the scope of the project down the line, but consider limiting your initial project to a single service or even sub-service.\n\nDon’t worry that your project is ‘too simple’!\n\nConsider the possible ethical issues with your project.\n\nThis can be particularly tricky with machine learning projects. Refer back to the AI module - does it run into murky territory?\nOften predictions that are aggregated in some way are a safer option than those that are used to directly influence a patient’s care. For example, predicting the number of patients who are likely to be admitted to each specialty in the next 6 hours can help with optimizing bed management - but using that prediction for an individual patient to alter their pathway or care is likely to not be ok.\n\nConsider the data requirements for your proposed project. Do you need data that you know is already collected in some capacity, or would you need to collect brand new data?\n\nIs it a dataset you already have access to? If not, consider how you may be able to progress elements of the project while waiting for access to be granted. This part can often take longer than you expect."
+  },
+  {
+    "objectID": "non_hsma_projects/dc_abs_polypharmacy/index.html",
+    "href": "non_hsma_projects/dc_abs_polypharmacy/index.html",
+    "title": "Can Agent Based Simulation be used as a tool to support polypharmacy prescribing practice?",
+    "section": "",
+    "text": "This model looked at how agent-based simulation could be used to understand the interaction between different factors affecting the decisions of those with type 2 diabetes and asthma to not take all of their medicines as prescribed.\nhttps://www.ncbi.nlm.nih.gov/pmc/articles/PMC8990111/"
+  },
+  {
+    "objectID": "non_hsma_projects/dc_factors_influencing_community_nursing/index.html",
+    "href": "non_hsma_projects/dc_factors_influencing_community_nursing/index.html",
+    "title": "Modelling palliative and end-of-life resource requirements during COVID-19 - implications for quality care",
+    "section": "",
+    "text": "This model predicted ‘staff’ (community nurse time, care assistant time, palliative care specialists) and ‘stuff’ (medicine bundles, syringe pumps) required to meet resources for end of life care.\nhttps://bmjopen.bmj.com/content/11/5/e043795.full?ijkey=eru0iTTZCABzfpF&keytype=ref\nThe model code can be seen here:\nhttps://colab.research.google.com/drive/1K0-xsqG_uIpoWhw86tjOUM55OcFfhq_2"
+  },
+  {
+    "objectID": "non_hsma_projects/dc_mibc_pathway/index.html",
+    "href": "non_hsma_projects/dc_mibc_pathway/index.html",
+    "title": "Reducing delays in the diagnosis and treatment of muscle-invasive bladder cancer using simulation modelling",
+    "section": "",
+    "text": "This model comes from the pre-FOSS period of PenCHORD, being built in Simul8, but the approach and potential impact is worth reading up on.\nhttps://journals.sagepub.com/doi/abs/10.1177/2051415818794089?journalCode=urob"
+  },
+  {
+    "objectID": "non_hsma_projects/index.html",
+    "href": "non_hsma_projects/index.html",
+    "title": "Non-HSMA Projects",
+    "section": "",
+    "text": "Looking at projects undertaken by teams more widely across the NHS and academia could give you additional inspiration for your own proejct.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nCategories\n\n\n\n\n\n\nCan Agent Based Simulation be used as a tool to support polypharmacy prescribing practice?\n\n\nDiscrete Event Simulation, Prescribing\n\n\n\n\nModelling palliative and end-of-life resource requirements during COVID-19 - implications for quality care\n\n\nDiscrete Event Simulation, End of Life Care, Resource Predictions, Staffing Predictions\n\n\n\n\nModelling palliative and end-of-life resource requirements during COVID-19 - implications for quality care\n\n\nDiscrete Event Simulation, End of Life Care, Resource Predictions, Staffing Predictions\n\n\n\n\nThe impact of minor injury unit closures on travel time and attendances\n\n\nMinor Injury Units, Emergency Departments, Travel Times, Geographic Modelling\n\n\n\n\nReducing delays in the diagnosis and treatment of muscle-invasive bladder cancer using simulation modelling\n\n\nDiscrete Event Simulation, Cancer\n\n\n\n\nWhich factors are driving increasing demand for community nursing? A qualitative System Dynamics approach\n\n\nSystem Dynamics, Community Nursing\n\n\n\n\nWhat would other emergency stroke teams do? Using explainable machine learning to understand variation in thrombolysis practice\n\n\nMachine Learning, Explainable AI, Monte Carlo Simulation Model\n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "previous_projects/hsma_3/h3_ai_sentiment_tweet/index.html",
@@ -369,6 +425,13 @@
     "title": "Discrete Event Simulation to Improve Flow and Performance in the Urgent Treatment Centre",
     "section": "",
     "text": "The primary aim of the project was to improve Urgent Treatment Care (UTC) performance by developing a model which would help the Emergency Department (ED) team with the allocation of staff and rooms to match patient flow. The team wanted to understand what further staff and resources would be required for any variations in patient attendance. The ED team wanted to understand how changes in the patient pathway would reduce bottlenecks, for example, what would be the impact of front-loading diagnostics.\nInitially, a discrete event simulation model was developed to show how patients currently flow through UTC. After an initial model had been developed, it was used to test the proposed alternative pathways for diagnostics. It was also used to model different numbers of staff and rooms. The model made it easy to understand the impact of changes to the existing provision and what would be most cost-effective.\nThe ED department was redesigned based on the model findings, which identified a need for additional rooms leading to reconfiguration of the space. It started a review of staffing rotas to see how they could be better aligned to findings from the analysis and future staffing rotas are designed to align with what the model identified was needed to meet the 95% target."
+  },
+  {
+    "objectID": "previous_projects/hsma_4/h4_meeting_demand_111/index.html",
+    "href": "previous_projects/hsma_4/h4_meeting_demand_111/index.html",
+    "title": "Meeting the demand of 111 for primary care services",
+    "section": "",
+    "text": "This was an attempt to model the impact of enforcing timely primary care interventions when 111 calls are undertaken.\n\nMore information: https://arc-swp.nihr.ac.uk/publications/modelling-nhs-111-demand-for-primary-care-services-a-discrete-event-simulation/"
   },
   {
     "objectID": "previous_projects/hsma_4/h4_pifu_digital_outpatients_elective_recovery/index.html",

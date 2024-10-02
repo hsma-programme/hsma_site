@@ -1,0 +1,19 @@
+---
+title: Modelling palliative and end-of-life resource requirements during COVID-19 - implications for quality care
+categories:
+  - Discrete Event Simulation
+  - End of Life Care
+  - Resource Predictions
+  - Staffing Predictions
+author:
+  - name: Dr Daniel Chalk
+    affiliation: PenCHORD
+---
+
+This model predicted 'staff' (community nurse time, care assistant time, palliative care specialists) and 'stuff' (medicine bundles, syringe pumps) required to meet resources for end of life care.  
+
+<https://bmjopen.bmj.com/content/11/5/e043795.full?ijkey=eru0iTTZCABzfpF&keytype=ref>
+
+The model code can be seen here:
+
+<https://colab.research.google.com/drive/1K0-xsqG_uIpoWhw86tjOUM55OcFfhq_2>

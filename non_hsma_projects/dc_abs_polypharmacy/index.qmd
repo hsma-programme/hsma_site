@@ -1,0 +1,13 @@
+---
+title: Can Agent Based Simulation be used as a tool to support polypharmacy prescribing practice?
+categories:
+  - Discrete Event Simulation
+  - Prescribing
+author:
+  - name: Dr Daniel Chalk
+    affiliation: PenCHORD
+---
+
+This model looked at how agent-based simulation could be used to understand the interaction between different factors affecting the decisions of those with type 2 diabetes and asthma to not take all of their medicines as prescribed.
+
+<https://www.ncbi.nlm.nih.gov/pmc/articles/PMC8990111/>
