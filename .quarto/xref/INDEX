@@ -223,5 +223,26 @@
   },
   "non_hsma_projects/ma_kp_al_stroke/index.qmd": {
     "index.html": "27a552f5"
+  },
+  "non_hsma_projects/ah_modelling_step_down_pathways/index.qmd": {
+    "index.html": "e9369020"
+  },
+  "non_hsma_projects/ma_arranging_maternity_care/index.qmd": {
+    "index.html": "5414fc9e"
+  },
+  "non_hsma_projects/ma_dialysis_outpatients/index.qmd": {
+    "index.html": "c67ffddd"
+  },
+  "non_hsma_projects/mp_reducing_mh_assessment_queues/index.qmd": {
+    "index.html": "8b3ebb60"
+  },
+  "non_hsma_projects/ma_predicting_performance_neonatal_network/index.qmd": {
+    "index.html": "866548eb"
+  },
+  "non_hsma_projects/zk_ehr_to_inpatient_prediction/index.qmd": {
+    "index.html": "1b32e2f5"
+  },
+  "non_hsma_projects/tm_ambulance_demand_prediction/index.qmd": {
+    "index.html": "12abc260"
   }
 }

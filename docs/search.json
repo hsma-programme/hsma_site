@@ -189,11 +189,32 @@
     "text": "This project used Network Analysis methods to identify the social relationships between groups of people who could be causing significant issues within their communities, and enable the police to consider pro-active interventions to target those who may be at risk of future offending because of their social links with offenders. The team developed a proof of concept initially that demonstrated they could use this type of analysis to identify “at risk” individuals in a matter of hours compared to over many months using traditional manual methods. The methods were then applied to identify a highly connected network of youths causing issues in a community within a Devon city.\nFiona Bohan, Performance and Analysis Manager at Devon and Cornwall Police, had this to say about the work :\n“The need for Social Network Analysis is clear. Criminal and exploitative networks are a huge and costly issue for police, their partner agencies, and the community. SNA, using minimal resource, can identify children at current and future risk of exploitation, as well as those key players within the network who pose the greatest risk. By targeting and removing these key players, and concentrating limited early intervention resources on protecting those at risk in the future, there are potential significant savings both in terms of child harm and partnership spend. This proof of concept has highlighted the significant benefits of embedding this approach in force and, in my view, will play an important part in policing in the future.”"
   },
   {
+    "objectID": "non_hsma_projects/zk_ehr_to_inpatient_prediction/index.html",
+    "href": "non_hsma_projects/zk_ehr_to_inpatient_prediction/index.html",
+    "title": "Turning hospital EHR data into predictions of emergency demand for beds",
+    "section": "",
+    "text": "This work looks at predicting the beds required across different specialties in hospitals on a short-term basis.\nThe output brings together\n\npatients on the ward with a decision to admit\npatients currently in the hospital who are predicted to need a bed in the next 8 hours\npatients expected to arrive at the hospital who are predicted to need a bed in the next 8 hours\n\n\nThis work has been pulled together into a package.\nhttps://github.com/zmek/patientflow"
+  },
+  {
+    "objectID": "non_hsma_projects/mp_reducing_mh_assessment_queues/index.html",
+    "href": "non_hsma_projects/mp_reducing_mh_assessment_queues/index.html",
+    "title": "Reducing Queues for Community Mental Health Assessments in Devon by Simulating Queue-sharing Scenarios",
+    "section": "",
+    "text": "In this project, a community mental health pathway was simulated to explore the impact of\n\nreserving a certain proportion of appointments for people with higher severity\n‘pooling’ clinics together to allow patients to choose from one of several possible clinics for their assessment appointment\n\nhttps://arc-swp.nihr.ac.uk/wp/wp-content/uploads/2021/02/BITE-16-Mental-Health-v4-1.pdf"
+  },
+  {
     "objectID": "non_hsma_projects/ma_kp_al_stroke/index.html",
     "href": "non_hsma_projects/ma_kp_al_stroke/index.html",
     "title": "What would other emergency stroke teams do? Using explainable machine learning to understand variation in thrombolysis practice",
     "section": "",
     "text": "The multi-year SAMueL and SAMueL-2 projects have looked at between-hospital variation in the use of thrombolysis across hospitals.\nUsing XGBoost machine learning models and SHAP values to provide explainability, they have been able to look at how patient features and hospitals affect the likelihood of receiving thrombolysis.\nhttps://arc-swp.nihr.ac.uk/publications/what-would-other-emergency-stroke-teams-do-using-explainable-machine-learning-to-understand-variation-in-thrombolysis-practice-2/\nClinical pathway simulation (using Monte Carlo simulation methods) could then be applied to look at the potential changes in hospital pathways on the percentage of people being thrombolysed.\n\nhttps://arc-swp.nihr.ac.uk/publications/clinical-pathway-simulation-thrombolysis-acute-stroke/\nhttps://www.ahajournals.org/doi/10.1161/STROKEAHA.121.038454\nhttps://samuel-book.github.io/samuel-1/introduction/intro.html"
+  },
+  {
+    "objectID": "non_hsma_projects/ma_arranging_maternity_care/index.html",
+    "href": "non_hsma_projects/ma_arranging_maternity_care/index.html",
+    "title": "Improving Hospital Discharge Flow",
+    "section": "",
+    "text": "In this project, models of step-down pathways were created to explore the impact of different scenarios on reducing delays further upstream.\nhttps://www.theorsociety.com/common/Uploaded%20files/Simulation-Workshop/SW23/doiorg1036819sw23013.pdf"
   },
   {
     "objectID": "non_hsma_projects/dc_predicting_eol_care_needs/index.html",
@@ -212,44 +233,72 @@
   {
     "objectID": "non_hsma_projects/dc_factors_influencing_ambulance_demand/index.html",
     "href": "non_hsma_projects/dc_factors_influencing_ambulance_demand/index.html",
-    "title": "Modelling palliative and end-of-life resource requirements during COVID-19 - implications for quality care",
+    "title": "Which factors most influence demand for ambulances in South West England?",
     "section": "",
-    "text": "This model predicted ‘staff’ (community nurse time, care assistant time, palliative care specialists) and ‘stuff’ (medicine bundles, syringe pumps) required to meet resources for end of life care.\nhttps://bmjopen.bmj.com/content/11/5/e043795.full?ijkey=eru0iTTZCABzfpF&keytype=ref\nThe model code can be seen here:\nhttps://colab.research.google.com/drive/1K0-xsqG_uIpoWhw86tjOUM55OcFfhq_2"
+    "text": "This model used system dynamics to “simulate the factors that influence a call being made for an ambulance.”\n\n“We compared predicted ambulance demand over 12 months in the base case model with scenarios in which each influencing factor was removed in turn.\n\n\nThe model predicts that the prevalence of regular falls among older people most influences the level of demand for ambulances. The model also predicts that the number of users of adult mental health services could be a significant contributor to ambulance demand.”\n\nhttps://www.magonlinelibrary.com/doi/abs/10.12968/jpar.2016.8.7.356"
   },
   {
-    "objectID": "index.html",
-    "href": "index.html",
-    "title": "HSMA Project Handbook",
+    "objectID": "non_hsma_projects/ah_modelling_step_down_pathways/index.html",
+    "href": "non_hsma_projects/ah_modelling_step_down_pathways/index.html",
+    "title": "Improving Hospital Discharge Flow",
     "section": "",
-    "text": "Welcome to the HSMA Project Handbook.\nThis book will contain tips, useful documents and inspiration for your HSMA project."
+    "text": "In this project, models of step-down pathways were created to explore the impact of different scenarios on reducing delays further upstream.\nhttps://www.theorsociety.com/common/Uploaded%20files/Simulation-Workshop/SW23/doiorg1036819sw23013.pdf"
   },
   {
-    "objectID": "general_project_ideas/index.html",
-    "href": "general_project_ideas/index.html",
-    "title": "Project Ideas",
+    "objectID": "idea_generation_tips.html",
+    "href": "idea_generation_tips.html",
+    "title": "Tips for Generating Project Ideas",
     "section": "",
-    "text": "There are some common topics that come up again and again either within HSMA or across the wider health modelling sphere.\nAdapting (and potentially extending) this work for your own organisation could be a good project option.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nCategories\n\n\n\n\n\n\nAutomation and enhancement of highly time-consuming reports\n\n\nGeneral Python, Data Visualisation, Streamlit, Quarto\n\n\n\n\nConversion of Excel-based tools into code\n\n\nGeneral Python, Data Visualisation, Streamlit, Quarto\n\n\n\n\nIdentifying Inequalities in Service Access\n\n\nMapping, Travel Times\n\n\n\n\nIdentifying and resolving bottlenecks in pathways\n\n\nDiscrete Event Simulation, Streamlit\n\n\n\n\nIdentifying the resource required to clear backlogs in pathways\n\n\nDiscrete Event Simulation, Streamlit\n\n\n\n\nIdentifying the optimal locations of new services\n\n\nMapping, Travel Times, Location Optimization\n\n\n\n\nPredicting the number of and likely specialty of patients imminently requiring inpatient beds\n\n\nMachine Learning\n\n\n\n\nPredicting Length of Stay (LOS) to aid in bed capacity planning\n\n\nMachine Learning, Explainable AI\n\n\n\n\n \n\n\n \n\n\n\n\nIdentifying the optimal service locations(s) to close to minimize the impact of equity of access\n\n\nMapping, Travel Times, Location Optimization\n\n\n\n\nWhat-if analysis of pathways/pathway redesign work\n\n\nDiscrete Event Simulation, Streamlit\n\n\n\n\n\nNo matching items"
+    "text": "If you are struggling to get started with project ideas, here are a couple of prompts to help.\n\nTake a look at the previous HSMA projects\nThink about the areas of the course you most enjoyed. While the needs of the organisation need to come first, it’s also helpful to consider the areas of the course you\n\n\nfound the most interesting\nfelt you broadly understood (don’t feel you have to be an expert yet - you will practice and develop your skills significantly over the next 9 months!)\nwould like to work with more in the long run in your career/begin to specialise in\n\nThis interest will help sustain you through the more difficult moments of the project!\n\nThink about any areas you know to be struggling in your organisation at the moment. Are there services you know have particularly long waits? Are there areas people often mention as being a concern? Are there articles in the wider news about waits in a particular service in your organisation?\nThink about the questions you have found yourself being asked in the past in your role that you didn’t feel you were able to answer. Have people asked you questions about the ideal staffing levels, the future waits,\nThink about the stakeholders you have good relationships with. Could you reach out to them to have a chat about areas they may be interested in someone doing a deeper dive into?\nTalk to your manager - they may have more awareness of the key challenges facing the organisation at present.\n\n\n\n\nYou ideally want projects that are not too time-critical to the organisation; remember that you may be working on this for 9 months (or more!).\nStart small and focussed; you can always expand the scope of the project down the line, but consider limiting your initial project to a single service or even sub-service.\n\nDon’t worry that your project is ‘too simple’!\n\nConsider the possible ethical issues with your project.\n\nThis can be particularly tricky with machine learning projects. Refer back to the AI module - does it run into murky territory?\nOften predictions that are aggregated in some way are a safer option than those that are used to directly influence a patient’s care. For example, predicting the number of patients who are likely to be admitted to each specialty in the next 6 hours can help with optimizing bed management - but using that prediction for an individual patient to alter their pathway or care is likely to not be ok.\n\nConsider the data requirements for your proposed project. Do you need data that you know is already collected in some capacity, or would you need to collect brand new data?\n\nIs it a dataset you already have access to? If not, consider how you may be able to progress elements of the project while waiting for access to be granted. This part can often take longer than you expect."
   },
   {
-    "objectID": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html",
-    "href": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html",
-    "title": "Identifying and resolving bottlenecks in pathways",
+    "objectID": "idea_generation_tips.html#tips-for-scoping-a-good-project",
+    "href": "idea_generation_tips.html#tips-for-scoping-a-good-project",
+    "title": "Tips for Generating Project Ideas",
     "section": "",
-    "text": "This is very similar to the example given above, but with a slightly different focus - where a pathway is not working as intended and it is suspected that a bottleneck is occurring, discrete event simulation can be used to verify this assumption and show the impact on changes to the pathway design or resourcing, preventing costly and potentially incorrect changes being undertaken in the live system unnecessarily."
+    "text": "You ideally want projects that are not too time-critical to the organisation; remember that you may be working on this for 9 months (or more!).\nStart small and focussed; you can always expand the scope of the project down the line, but consider limiting your initial project to a single service or even sub-service.\n\nDon’t worry that your project is ‘too simple’!\n\nConsider the possible ethical issues with your project.\n\nThis can be particularly tricky with machine learning projects. Refer back to the AI module - does it run into murky territory?\nOften predictions that are aggregated in some way are a safer option than those that are used to directly influence a patient’s care. For example, predicting the number of patients who are likely to be admitted to each specialty in the next 6 hours can help with optimizing bed management - but using that prediction for an individual patient to alter their pathway or care is likely to not be ok.\n\nConsider the data requirements for your proposed project. Do you need data that you know is already collected in some capacity, or would you need to collect brand new data?\n\nIs it a dataset you already have access to? If not, consider how you may be able to progress elements of the project while waiting for access to be granted. This part can often take longer than you expect."
   },
   {
-    "objectID": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html#description",
-    "href": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html#description",
-    "title": "Identifying and resolving bottlenecks in pathways",
+    "objectID": "general_project_ideas/general_project_ideas/what_if_pathway.html",
+    "href": "general_project_ideas/general_project_ideas/what_if_pathway.html",
+    "title": "What-if analysis of pathways/pathway redesign work",
     "section": "",
-    "text": "This is very similar to the example given above, but with a slightly different focus - where a pathway is not working as intended and it is suspected that a bottleneck is occurring, discrete event simulation can be used to verify this assumption and show the impact on changes to the pathway design or resourcing, preventing costly and potentially incorrect changes being undertaken in the live system unnecessarily."
+    "text": "This sort of work can sometimes show that the desired performance is simply not possible within certain constraints placed on the system (e.g. current maximum resource) and can be used to make a strong business case for additional investment."
   },
   {
-    "objectID": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html#links-and-previous-projects",
-    "href": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html#links-and-previous-projects",
-    "title": "Identifying and resolving bottlenecks in pathways",
+    "objectID": "general_project_ideas/general_project_ideas/what_if_pathway.html#description",
+    "href": "general_project_ideas/general_project_ideas/what_if_pathway.html#description",
+    "title": "What-if analysis of pathways/pathway redesign work",
+    "section": "",
+    "text": "This sort of work can sometimes show that the desired performance is simply not possible within certain constraints placed on the system (e.g. current maximum resource) and can be used to make a strong business case for additional investment."
+  },
+  {
+    "objectID": "general_project_ideas/general_project_ideas/what_if_pathway.html#links-and-previous-projects",
+    "href": "general_project_ideas/general_project_ideas/what_if_pathway.html#links-and-previous-projects",
+    "title": "What-if analysis of pathways/pathway redesign work",
     "section": "Links and previous projects",
     "text": "Links and previous projects"
+  },
+  {
+    "objectID": "general_project_ideas/general_project_ideas/identifying_resource_backlogs.html#links-and-previous-projects",
+    "href": "general_project_ideas/general_project_ideas/identifying_resource_backlogs.html#links-and-previous-projects",
+    "title": "Identifying the resource required to clear backlogs in pathways",
+    "section": "Links and previous projects",
+    "text": "Links and previous projects"
+  },
+  {
+    "objectID": "general_project_ideas/general_project_ideas/automation_enhancement_reports.html#links-and-previous-projects",
+    "href": "general_project_ideas/general_project_ideas/automation_enhancement_reports.html#links-and-previous-projects",
+    "title": "Automation and enhancement of highly time-consuming reports",
+    "section": "Links and previous projects",
+    "text": "Links and previous projects"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   },
   {
     "objectID": "faqs.html",
@@ -294,60 +343,39 @@
     "text": "It’s absolutely fine for it to be very specialised towards your organisation - you may just want to consider giving a warning in your readme."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html",
+    "href": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html",
+    "title": "Identifying and resolving bottlenecks in pathways",
     "section": "",
-    "text": "About this site"
+    "text": "This is very similar to the example given above, but with a slightly different focus - where a pathway is not working as intended and it is suspected that a bottleneck is occurring, discrete event simulation can be used to verify this assumption and show the impact on changes to the pathway design or resourcing, preventing costly and potentially incorrect changes being undertaken in the live system unnecessarily."
   },
   {
-    "objectID": "general_project_ideas/general_project_ideas/automation_enhancement_reports.html#links-and-previous-projects",
-    "href": "general_project_ideas/general_project_ideas/automation_enhancement_reports.html#links-and-previous-projects",
-    "title": "Automation and enhancement of highly time-consuming reports",
+    "objectID": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html#description",
+    "href": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html#description",
+    "title": "Identifying and resolving bottlenecks in pathways",
+    "section": "",
+    "text": "This is very similar to the example given above, but with a slightly different focus - where a pathway is not working as intended and it is suspected that a bottleneck is occurring, discrete event simulation can be used to verify this assumption and show the impact on changes to the pathway design or resourcing, preventing costly and potentially incorrect changes being undertaken in the live system unnecessarily."
+  },
+  {
+    "objectID": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html#links-and-previous-projects",
+    "href": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html#links-and-previous-projects",
+    "title": "Identifying and resolving bottlenecks in pathways",
     "section": "Links and previous projects",
     "text": "Links and previous projects"
   },
   {
-    "objectID": "general_project_ideas/general_project_ideas/identifying_resource_backlogs.html#links-and-previous-projects",
-    "href": "general_project_ideas/general_project_ideas/identifying_resource_backlogs.html#links-and-previous-projects",
-    "title": "Identifying the resource required to clear backlogs in pathways",
-    "section": "Links and previous projects",
-    "text": "Links and previous projects"
-  },
-  {
-    "objectID": "general_project_ideas/general_project_ideas/what_if_pathway.html",
-    "href": "general_project_ideas/general_project_ideas/what_if_pathway.html",
-    "title": "What-if analysis of pathways/pathway redesign work",
+    "objectID": "general_project_ideas/index.html",
+    "href": "general_project_ideas/index.html",
+    "title": "Project Ideas",
     "section": "",
-    "text": "This sort of work can sometimes show that the desired performance is simply not possible within certain constraints placed on the system (e.g. current maximum resource) and can be used to make a strong business case for additional investment."
+    "text": "There are some common topics that come up again and again either within HSMA or across the wider health modelling sphere.\nAdapting (and potentially extending) this work for your own organisation could be a good project option.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nCategories\n\n\n\n\n\n\nAutomation and enhancement of highly time-consuming reports\n\n\nGeneral Python, Data Visualisation, Streamlit, Quarto\n\n\n\n\nConversion of Excel-based tools into code\n\n\nGeneral Python, Data Visualisation, Streamlit, Quarto\n\n\n\n\nIdentifying Inequalities in Service Access\n\n\nMapping, Travel Times\n\n\n\n\nIdentifying and resolving bottlenecks in pathways\n\n\nDiscrete Event Simulation, Streamlit\n\n\n\n\nIdentifying the resource required to clear backlogs in pathways\n\n\nDiscrete Event Simulation, Streamlit\n\n\n\n\nIdentifying the optimal locations of new services\n\n\nMapping, Travel Times, Location Optimization\n\n\n\n\nPredicting the number of and likely specialty of patients imminently requiring inpatient beds\n\n\nMachine Learning\n\n\n\n\nPredicting Length of Stay (LOS) to aid in bed capacity planning\n\n\nMachine Learning, Explainable AI\n\n\n\n\n \n\n\n \n\n\n\n\nIdentifying the optimal service locations(s) to close to minimize the impact of equity of access\n\n\nMapping, Travel Times, Location Optimization\n\n\n\n\nWhat-if analysis of pathways/pathway redesign work\n\n\nDiscrete Event Simulation, Streamlit\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "general_project_ideas/general_project_ideas/what_if_pathway.html#description",
-    "href": "general_project_ideas/general_project_ideas/what_if_pathway.html#description",
-    "title": "What-if analysis of pathways/pathway redesign work",
+    "objectID": "index.html",
+    "href": "index.html",
+    "title": "HSMA Project Handbook",
     "section": "",
-    "text": "This sort of work can sometimes show that the desired performance is simply not possible within certain constraints placed on the system (e.g. current maximum resource) and can be used to make a strong business case for additional investment."
-  },
-  {
-    "objectID": "general_project_ideas/general_project_ideas/what_if_pathway.html#links-and-previous-projects",
-    "href": "general_project_ideas/general_project_ideas/what_if_pathway.html#links-and-previous-projects",
-    "title": "What-if analysis of pathways/pathway redesign work",
-    "section": "Links and previous projects",
-    "text": "Links and previous projects"
-  },
-  {
-    "objectID": "idea_generation_tips.html",
-    "href": "idea_generation_tips.html",
-    "title": "Tips for Generating Project Ideas",
-    "section": "",
-    "text": "If you are struggling to get started with project ideas, here are a couple of prompts to help.\n\nTake a look at the previous HSMA projects\nThink about the areas of the course you most enjoyed. While the needs of the organisation need to come first, it’s also helpful to consider the areas of the course you\n\n\nfound the most interesting\nfelt you broadly understood (don’t feel you have to be an expert yet - you will practice and develop your skills significantly over the next 9 months!)\nwould like to work with more in the long run in your career/begin to specialise in\n\nThis interest will help sustain you through the more difficult moments of the project!\n\nThink about any areas you know to be struggling in your organisation at the moment. Are there services you know have particularly long waits? Are there areas people often mention as being a concern? Are there articles in the wider news about waits in a particular service in your organisation?\nThink about the questions you have found yourself being asked in the past in your role that you didn’t feel you were able to answer. Have people asked you questions about the ideal staffing levels, the future waits,\nThink about the stakeholders you have good relationships with. Could you reach out to them to have a chat about areas they may be interested in someone doing a deeper dive into?\nTalk to your manager - they may have more awareness of the key challenges facing the organisation at present.\n\n\n\n\nYou ideally want projects that are not too time-critical to the organisation; remember that you may be working on this for 9 months (or more!).\nStart small and focussed; you can always expand the scope of the project down the line, but consider limiting your initial project to a single service or even sub-service.\n\nDon’t worry that your project is ‘too simple’!\n\nConsider the possible ethical issues with your project.\n\nThis can be particularly tricky with machine learning projects. Refer back to the AI module - does it run into murky territory?\nOften predictions that are aggregated in some way are a safer option than those that are used to directly influence a patient’s care. For example, predicting the number of patients who are likely to be admitted to each specialty in the next 6 hours can help with optimizing bed management - but using that prediction for an individual patient to alter their pathway or care is likely to not be ok.\n\nConsider the data requirements for your proposed project. Do you need data that you know is already collected in some capacity, or would you need to collect brand new data?\n\nIs it a dataset you already have access to? If not, consider how you may be able to progress elements of the project while waiting for access to be granted. This part can often take longer than you expect."
-  },
-  {
-    "objectID": "idea_generation_tips.html#tips-for-scoping-a-good-project",
-    "href": "idea_generation_tips.html#tips-for-scoping-a-good-project",
-    "title": "Tips for Generating Project Ideas",
-    "section": "",
-    "text": "You ideally want projects that are not too time-critical to the organisation; remember that you may be working on this for 9 months (or more!).\nStart small and focussed; you can always expand the scope of the project down the line, but consider limiting your initial project to a single service or even sub-service.\n\nDon’t worry that your project is ‘too simple’!\n\nConsider the possible ethical issues with your project.\n\nThis can be particularly tricky with machine learning projects. Refer back to the AI module - does it run into murky territory?\nOften predictions that are aggregated in some way are a safer option than those that are used to directly influence a patient’s care. For example, predicting the number of patients who are likely to be admitted to each specialty in the next 6 hours can help with optimizing bed management - but using that prediction for an individual patient to alter their pathway or care is likely to not be ok.\n\nConsider the data requirements for your proposed project. Do you need data that you know is already collected in some capacity, or would you need to collect brand new data?\n\nIs it a dataset you already have access to? If not, consider how you may be able to progress elements of the project while waiting for access to be granted. This part can often take longer than you expect."
+    "text": "Welcome to the HSMA Project Handbook.\nThis book will contain tips, useful documents and inspiration for your HSMA project."
   },
   {
     "objectID": "non_hsma_projects/dc_abs_polypharmacy/index.html",
@@ -359,9 +387,9 @@
   {
     "objectID": "non_hsma_projects/dc_factors_influencing_community_nursing/index.html",
     "href": "non_hsma_projects/dc_factors_influencing_community_nursing/index.html",
-    "title": "Modelling palliative and end-of-life resource requirements during COVID-19 - implications for quality care",
+    "title": "How can consultant-led childbirth care at time of delivery be maximised?",
     "section": "",
-    "text": "This model predicted ‘staff’ (community nurse time, care assistant time, palliative care specialists) and ‘stuff’ (medicine bundles, syringe pumps) required to meet resources for end of life care.\nhttps://bmjopen.bmj.com/content/11/5/e043795.full?ijkey=eru0iTTZCABzfpF&keytype=ref\nThe model code can be seen here:\nhttps://colab.research.google.com/drive/1K0-xsqG_uIpoWhw86tjOUM55OcFfhq_2"
+    "text": "“The objective of this work was to examine the feasibility of consolidation of birth centres, from the perspectives of birth centre size and travel times for mothers.”\n\nCentres with &gt;6000 admissions per year can sustain the continuous presence of a consultant.\n\n“Currently, with 161 birth centres, 17% of women attend a birth centre with at least 6000 admissions per year. We estimate that 95% of women have a travel time of 30 min or less. An example scenario, with 100 birth centres, could provide 75% of care in birth centres with at least 6000 admissions per year, with 95% of women travelling 35 min or less to their closest birth centre.”\n\n\n“While it seems unrealistic to have all births in birth centres with at least 6000 admissions per year, it appears realistic to increase the percentage of mothers attending this type of birth centre from 17% to about 75% while maintaining reasonable travel times.”\n\nhttps://bmjopen.bmj.com/content/10/7/e034830"
   },
   {
     "objectID": "non_hsma_projects/dc_mibc_pathway/index.html",
@@ -375,7 +403,28 @@
     "href": "non_hsma_projects/index.html",
     "title": "Non-HSMA Projects",
     "section": "",
-    "text": "Looking at projects undertaken by teams more widely across the NHS and academia could give you additional inspiration for your own proejct.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nCategories\n\n\n\n\n\n\nCan Agent Based Simulation be used as a tool to support polypharmacy prescribing practice?\n\n\nDiscrete Event Simulation, Prescribing\n\n\n\n\nModelling palliative and end-of-life resource requirements during COVID-19 - implications for quality care\n\n\nDiscrete Event Simulation, End of Life Care, Resource Predictions, Staffing Predictions\n\n\n\n\nModelling palliative and end-of-life resource requirements during COVID-19 - implications for quality care\n\n\nDiscrete Event Simulation, End of Life Care, Resource Predictions, Staffing Predictions\n\n\n\n\nThe impact of minor injury unit closures on travel time and attendances\n\n\nMinor Injury Units, Emergency Departments, Travel Times, Geographic Modelling\n\n\n\n\nReducing delays in the diagnosis and treatment of muscle-invasive bladder cancer using simulation modelling\n\n\nDiscrete Event Simulation, Cancer\n\n\n\n\nWhich factors are driving increasing demand for community nursing? A qualitative System Dynamics approach\n\n\nSystem Dynamics, Community Nursing\n\n\n\n\nWhat would other emergency stroke teams do? Using explainable machine learning to understand variation in thrombolysis practice\n\n\nMachine Learning, Explainable AI, Monte Carlo Simulation Model\n\n\n\n\n\nNo matching items"
+    "text": "Looking at projects undertaken by teams more widely across the NHS and academia could give you additional inspiration for your own proejct.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nCategories\n\n\n\n\n\n\nImproving Hospital Discharge Flow\n\n\nDiscrete Time Simulation, Hospital Discharge\n\n\n\n\nCan Agent Based Simulation be used as a tool to support polypharmacy prescribing practice?\n\n\nDiscrete Event Simulation, Prescribing\n\n\n\n\nWhich factors most influence demand for ambulances in South West England?\n\n\nSystem Dynamics, Ambulance Services\n\n\n\n\nHow can consultant-led childbirth care at time of delivery be maximised?\n\n\nGeographic Modelling, Location Optimization, Multi-objective Geographic Optimization, Genetic Algorithm, Maternity\n\n\n\n\nThe impact of minor injury unit closures on travel time and attendances\n\n\nMinor Injury Units, Emergency Departments, Travel Times, Geographic Modelling\n\n\n\n\nReducing delays in the diagnosis and treatment of muscle-invasive bladder cancer using simulation modelling\n\n\nDiscrete Event Simulation, Cancer\n\n\n\n\nWhich factors are driving increasing demand for community nursing? A qualitative System Dynamics approach\n\n\nSystem Dynamics, Community Nursing\n\n\n\n\nImproving Hospital Discharge Flow\n\n\nDiscrete Time Simulation, Hospital Discharge\n\n\n\n\nImproving Hospital Discharge Flow\n\n\nDiscrete Time Simulation, Hospital Discharge\n\n\n\n\nWhat would other emergency stroke teams do? Using explainable machine learning to understand variation in thrombolysis practice\n\n\nMachine Learning, Explainable AI, Monte Carlo Simulation Model\n\n\n\n\nImproving the design and organisation of neonatal care networks – a computer simulation study\n\n\nDiscrete Event Simulation, Neonatal care, Maternity, Staffing Guidelines, Cost Analysis\n\n\n\n\nReducing Queues for Community Mental Health Assessments in Devon by Simulating Queue-sharing Scenarios\n\n\nDiscrete Event Simulation, Community Mental Health, Appointment Scheduling\n\n\n\n\nPredicting Ambulance Call, Incident and Response data by hour or by day over a 6 week to 1 year forecast horizon\n\n\nForecasting, Ambulance Services, Staff Scheduling\n\n\n\n\nTurning hospital EHR data into predictions of emergency demand for beds\n\n\nMachine Learning, Bed Capacity, Emergency Department, Admissions\n\n\n\n\n\nNo matching items"
+  },
+  {
+    "objectID": "non_hsma_projects/ma_dialysis_outpatients/index.html",
+    "href": "non_hsma_projects/ma_dialysis_outpatients/index.html",
+    "title": "Improving Hospital Discharge Flow",
+    "section": "",
+    "text": "In this project, models of step-down pathways were created to explore the impact of different scenarios on reducing delays further upstream.\nhttps://www.theorsociety.com/common/Uploaded%20files/Simulation-Workshop/SW23/doiorg1036819sw23013.pdf"
+  },
+  {
+    "objectID": "non_hsma_projects/ma_predicting_performance_neonatal_network/index.html",
+    "href": "non_hsma_projects/ma_predicting_performance_neonatal_network/index.html",
+    "title": "Improving the design and organisation of neonatal care networks – a computer simulation study",
+    "section": "",
+    "text": "The aim of this project was “To develop a computer model that could mimic the performance of a neonatal network and predict the effect of altering network configuration on neonatal unit workloads, ability to meet nurse staffing guidelines, and distance from the parents’ home location to the point of care… to provide a model to assist in planning of capacity, location and type of neonatal services.”\n\nThe model was able to explore the cost of staffing per infant when meeting the guidance 85% and 95% of the time.\nThey also explored the potential benefits of using wider network staffing capacity to meet peaks of demand more cost-effectively, as well as the “number and distance of transfers, average travel distances for parents, and numbers of parents with an infant over 50 km from home.”\nhttps://pubmed.ncbi.nlm.nih.gov/25996022/"
+  },
+  {
+    "objectID": "non_hsma_projects/tm_ambulance_demand_prediction/index.html",
+    "href": "non_hsma_projects/tm_ambulance_demand_prediction/index.html",
+    "title": "Predicting Ambulance Call, Incident and Response data by hour or by day over a 6 week to 1 year forecast horizon",
+    "section": "",
+    "text": "This proejct involved building a forecasting model for the South West Ambulance Services Trust.\nWhat was created was “a bespoke forecasting model, capable of predicting Call, Incident and Response data by hour for a period of up to 6 weeks or daily over 365 days. The Forecasting & Capacity Planning Team at SWASFT then used Python and SQL computer modelling software to convert the forecast models into useable rota patterns. The project has resulted in a fully automated, accurate and safe demand-led resourcing model.”\nThe work used an ensemble of different time series forecasts with a proven ability to match real-world patterns.\nhttps://arc-swp.nihr.ac.uk/news/data-science-ambulance-demand/\nThe code is available here: https://github.com/TomMonks/swast-benchmarking"
   },
   {
     "objectID": "previous_projects/hsma_3/h3_ai_sentiment_tweet/index.html",

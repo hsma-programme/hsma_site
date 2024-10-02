@@ -1,19 +1,24 @@
 ---
-title: Modelling palliative and end-of-life resource requirements during COVID-19 - implications for quality care
+title: How can consultant-led childbirth care at time of delivery be maximised?
 categories:
-  - Discrete Event Simulation
-  - End of Life Care
-  - Resource Predictions
-  - Staffing Predictions
+  - Geographic Modelling
+  - Location Optimization
+  - Multi-objective Geographic Optimization
+  - Genetic Algorithm
+  - Maternity
 author:
-  - name: Dr Daniel Chalk
+  - name: Dr Michael Allen
+    affiliation: PenCHORD
+  - name: Prof Martin Pitt
     affiliation: PenCHORD
 ---
 
-This model predicted 'staff' (community nurse time, care assistant time, palliative care specialists) and 'stuff' (medicine bundles, syringe pumps) required to meet resources for end of life care.  
+> "The objective of this work was to examine the feasibility of consolidation of birth centres, from the perspectives of birth centre size and travel times for mothers."
 
-<https://bmjopen.bmj.com/content/11/5/e043795.full?ijkey=eru0iTTZCABzfpF&keytype=ref>
+Centres with >6000 admissions per year can sustain the continuous presence of a consultant. 
 
-The model code can be seen here:
+> "Currently, with 161 birth centres, 17% of women attend a birth centre with at least 6000 admissions per year. We estimate that 95% of women have a travel time of 30 min or less. An example scenario, with 100 birth centres, could provide 75% of care in birth centres with at least 6000 admissions per year, with 95% of women travelling 35 min or less to their closest birth centre."
 
-<https://colab.research.google.com/drive/1K0-xsqG_uIpoWhw86tjOUM55OcFfhq_2>
+> "While it seems unrealistic to have all births in birth centres with at least 6000 admissions per year, it appears realistic to increase the percentage of mothers attending this type of birth centre from 17% to about 75% while maintaining reasonable travel times."
+
+<https://bmjopen.bmj.com/content/10/7/e034830>

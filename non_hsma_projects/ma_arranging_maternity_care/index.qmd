@@ -1,0 +1,21 @@
+---
+title: Improving Hospital Discharge Flow
+categories:
+  - Discrete Time Simulation
+  - Hospital Discharge
+author:
+  - name: Dr Alison Harper
+    affiliation: PenCHORD/UoE Business School
+  - name: Prof Martin Pitt
+    affiliation: PenCHORD
+  - name: Dr. Zehra Önen-Dumlu
+    affiliation: PenCHORD
+  - name: Prof. Christos Vasilakis 
+    affiliation: PenCHORD
+  - name: Dr. Richard Wood
+    affiliation: PenCHORD
+---
+
+In this project, models of step-down pathways were created to explore the impact of different scenarios on reducing delays further upstream. 
+
+<https://www.theorsociety.com/common/Uploaded%20files/Simulation-Workshop/SW23/doiorg1036819sw23013.pdf>
