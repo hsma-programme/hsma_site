@@ -4,6 +4,13 @@ project:
 
 website:
   title: "HSMA Project Handbook"
+  google-analytics:
+    tracking-id: "G-MBWDD0MCCS"
+    anonymize-ip: true
+  cookie-consent:
+    type: express
+    style: simple
+    palette: dark
   navbar:
     left:
       - href: index.qmd
@@ -34,6 +41,8 @@ website:
 
 format:
   html:
-    theme: cosmo
+    theme:
+      light: flatly
+      dark: darkly
     css: styles.css
     toc: true

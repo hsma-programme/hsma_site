@@ -200,28 +200,28 @@
     "href": "general_project_ideas/index.html",
     "title": "Project Ideas",
     "section": "",
-    "text": "There are some common topics that come up again and again either within HSMA or across the wider health modelling sphere.\nAdapting (and potentially extending) this work for your own organisation could be a good project option.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nCategories\n\n\n\n\n\n\nAutomation and enhancement of highly time-consuming reports\n\n\nGeneral Python, Data Visualisation, Streamlit, Quarto\n\n\n\n\nConversion of Excel-based tools into code\n\n\nGeneral Python, Data Visualisation, Streamlit, Quarto\n\n\n\n\nIdentifying Inequalities in Service Access\n\n\nMapping, Travel Times\n\n\n\n\nIdentifying and resolving bottlenecks in pathways\n\n\nDiscrete Event Simulation, Streamlit\n\n\n\n\nIdentifying the resource required to clear backlogs in pathways\n\n\nDiscrete Event Simulation, Streamlit\n\n\n\n\nIdentifying the optimal locations of new services\n\n\nMapping, Travel Times, Location Optimization\n\n\n\n\nNon-attendance Prediction\n\n\nMachine Learning, Explainable AI\n\n\n\n\nPredicting the number of and likely specialty of patients imminently requiring inpatient beds\n\n\nMachine Learning\n\n\n\n\nPredicting Length of Stay (LOS) to aid in bed capacity planning\n\n\nMachine Learning, Explainable AI\n\n\n\n\nIdentifying the optimal service locations(s) to close to minimize the impact of equity of access\n\n\nMapping, Travel Times, Location Optimization\n\n\n\n\nWhat-if analysis of pathways/pathway redesign work\n\n\nDiscrete Event Simulation, Streamlit\n\n\n\n\n\nNo matching items"
+    "text": "There are some common topics that come up again and again either within HSMA or across the wider health modelling sphere.\nAdapting (and potentially extending) this work for your own organisation could be a good project option.\n\n\n   \n     \n     \n       Order By\n       Default\n         \n          Title\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nCategories\n\n\n\n\n\n\nAutomation and enhancement of highly time-consuming reports\n\n\nGeneral Python, Data Visualisation, Streamlit, Quarto\n\n\n\n\nConversion of Excel-based tools into code\n\n\nGeneral Python, Data Visualisation, Streamlit, Quarto\n\n\n\n\nIdentifying Inequalities in Service Access\n\n\nMapping, Travel Times\n\n\n\n\nIdentifying and resolving bottlenecks in pathways\n\n\nDiscrete Event Simulation, Streamlit\n\n\n\n\nIdentifying the resource required to clear backlogs in pathways\n\n\nDiscrete Event Simulation, Streamlit\n\n\n\n\nIdentifying the optimal locations of new services\n\n\nMapping, Travel Times, Location Optimization\n\n\n\n\nPredicting the number of and likely specialty of patients imminently requiring inpatient beds\n\n\nMachine Learning\n\n\n\n\nPredicting Length of Stay (LOS) to aid in bed capacity planning\n\n\nMachine Learning, Explainable AI\n\n\n\n\nIdentifying the optimal service locations(s) to close to minimize the impact of equity of access\n\n\nMapping, Travel Times, Location Optimization\n\n\n\n\nWhat-if analysis of pathways/pathway redesign work\n\n\nDiscrete Event Simulation, Streamlit\n\n\n\n\n\nNo matching items"
   },
   {
-    "objectID": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html",
-    "href": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html",
-    "title": "Identifying and resolving bottlenecks in pathways",
-    "section": "",
-    "text": "This is very similar to the example given above, but with a slightly different focus - where a pathway is not working as intended and it is suspected that a bottleneck is occurring, discrete event simulation can be used to verify this assumption and show the impact on changes to the pathway design or resourcing, preventing costly and potentially incorrect changes being undertaken in the live system unnecessarily."
-  },
-  {
-    "objectID": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html#description",
-    "href": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html#description",
-    "title": "Identifying and resolving bottlenecks in pathways",
-    "section": "",
-    "text": "This is very similar to the example given above, but with a slightly different focus - where a pathway is not working as intended and it is suspected that a bottleneck is occurring, discrete event simulation can be used to verify this assumption and show the impact on changes to the pathway design or resourcing, preventing costly and potentially incorrect changes being undertaken in the live system unnecessarily."
-  },
-  {
-    "objectID": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html#links-and-previous-projects",
-    "href": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html#links-and-previous-projects",
-    "title": "Identifying and resolving bottlenecks in pathways",
+    "objectID": "general_project_ideas/general_project_ideas/identifying_resource_backlogs.html#links-and-previous-projects",
+    "href": "general_project_ideas/general_project_ideas/identifying_resource_backlogs.html#links-and-previous-projects",
+    "title": "Identifying the resource required to clear backlogs in pathways",
     "section": "Links and previous projects",
     "text": "Links and previous projects"
+  },
+  {
+    "objectID": "general_project_ideas/general_project_ideas/automation_enhancement_reports.html#links-and-previous-projects",
+    "href": "general_project_ideas/general_project_ideas/automation_enhancement_reports.html#links-and-previous-projects",
+    "title": "Automation and enhancement of highly time-consuming reports",
+    "section": "Links and previous projects",
+    "text": "Links and previous projects"
+  },
+  {
+    "objectID": "about.html",
+    "href": "about.html",
+    "title": "About",
+    "section": "",
+    "text": "About this site"
   },
   {
     "objectID": "faqs.html",
@@ -266,32 +266,25 @@
     "text": "It’s absolutely fine for it to be very specialised towards your organisation - you may just want to consider giving a warning in your readme."
   },
   {
-    "objectID": "about.html",
-    "href": "about.html",
-    "title": "About",
+    "objectID": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html",
+    "href": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html",
+    "title": "Identifying and resolving bottlenecks in pathways",
     "section": "",
-    "text": "About this site"
+    "text": "This is very similar to the example given above, but with a slightly different focus - where a pathway is not working as intended and it is suspected that a bottleneck is occurring, discrete event simulation can be used to verify this assumption and show the impact on changes to the pathway design or resourcing, preventing costly and potentially incorrect changes being undertaken in the live system unnecessarily."
   },
   {
-    "objectID": "general_project_ideas/general_project_ideas/automation_enhancement_reports.html#links-and-previous-projects",
-    "href": "general_project_ideas/general_project_ideas/automation_enhancement_reports.html#links-and-previous-projects",
-    "title": "Automation and enhancement of highly time-consuming reports",
+    "objectID": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html#description",
+    "href": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html#description",
+    "title": "Identifying and resolving bottlenecks in pathways",
+    "section": "",
+    "text": "This is very similar to the example given above, but with a slightly different focus - where a pathway is not working as intended and it is suspected that a bottleneck is occurring, discrete event simulation can be used to verify this assumption and show the impact on changes to the pathway design or resourcing, preventing costly and potentially incorrect changes being undertaken in the live system unnecessarily."
+  },
+  {
+    "objectID": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html#links-and-previous-projects",
+    "href": "general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html#links-and-previous-projects",
+    "title": "Identifying and resolving bottlenecks in pathways",
     "section": "Links and previous projects",
     "text": "Links and previous projects"
-  },
-  {
-    "objectID": "general_project_ideas/general_project_ideas/identifying_resource_backlogs.html#links-and-previous-projects",
-    "href": "general_project_ideas/general_project_ideas/identifying_resource_backlogs.html#links-and-previous-projects",
-    "title": "Identifying the resource required to clear backlogs in pathways",
-    "section": "Links and previous projects",
-    "text": "Links and previous projects"
-  },
-  {
-    "objectID": "general_project_ideas/general_project_ideas/non_attendance_prediction.html",
-    "href": "general_project_ideas/general_project_ideas/non_attendance_prediction.html",
-    "title": "Non-attendance Prediction",
-    "section": "",
-    "text": "Description\nUsing a machine learning algorithm to predict the patients who are most likely to not attend their appointments is a popular use of machine learning.\nLow-cost, light-touch interventions like targeted text messages can be put in place to encourage attendance.\nYou could also use explainable AI techniques to highlight the areas that the model considers the most important while making its predictions.\nBy looking at the potential cost of each missed appointment\n\n\nConsiderations\n\nConsider starting off with a single specialty/type of appointment. Factors influencing non-attendance may vary depending on the type of appointment involved.\nConsider how you could get patient and public involvement in this sort of project; why do patients say they do not attend? What would they like putting in place to help with this?\n\n\n\nCaveats\n\nEthics would need to be carefully considered; is your algorithm robust? By giving reminders to certain groups, are you disadvantaging those who you don’t give reminders to by removing opportunities for them to receive timely care?\n\n\n\n\nLinks and previous projects"
   },
   {
     "objectID": "general_project_ideas/general_project_ideas/what_if_pathway.html",
