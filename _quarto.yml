@@ -15,7 +15,7 @@ website:
     left:
       - href: index.qmd
         text: Home
-      - text: "Projects"
+      - text: "Past HSMA Projects"
         menu:
           - href: previous_projects/index.qmd
             text: Projects by Cohort
