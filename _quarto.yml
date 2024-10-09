@@ -37,6 +37,8 @@ website:
         text: Registering a Project
       - href: project_design_template.qmd
         text: Optional Design Template
+      - href: phase_2_overview.qmd
+        text: Phase 2 Details
       - href: faqs.qmd
         text: "FAQs"
 

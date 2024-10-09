@@ -1,0 +1,49 @@
+---
+title: "Phase 2 Overview"
+format: html
+---
+
+## HSMA Forums
+
+Each month in Phase 2, we will have a 2 hour "HSMA Forum" (dates should be in your calendars already, but are also available in the session dates bookmark in this channel).  The first HSMA Forum will be 19th November 1000 - 1200.  All HSMAs working on a project should come along to these forums to share updates on your progress, discuss issues and share ideas.  HSMA Forums are also open to alumni working on projects!
+
+At some HSMA Forums, we may ask a project group to present an update of their work to the entire group where we feel there would be benefit in wider sharing.
+
+## Peer Support Groups
+
+We are keeping Peer Support Groups in place in Phase 2.  You will retain access to your group should you wish to use each other for support.
+
+We are planning for you to work in your groups at HSMA Forums to discuss your project progress.
+    - if the number of projects is too low, or there are some groups with only a small number of participants, we'll look to group PSGs together during forums
+
+Points are also available throughout Phase 2 for excellence in project work.
+
+## The HSMA Conference
+
+At the end of Phase 2, you will present your projects at the HSMA Conference (24th June 2025) to an audience of staff working in health, social care, policing and academia.  There will also be awards for excellent project work at this event, and we plan to unveil the champion Peer Support Group here too.
+
+## Working on your projects
+
+Outside of the forums and the final event, when and how you work on your projects is up to you - these are your projects and you lead them.  You should be allocating a day a week to your project work - anything less than this, and you will likely struggle to progress sufficiently.
+
+We generally recommend that you dedicate a whole day to it each week (rather than half days or less across the week) as you will likely find it more difficult to focus without doing this, but the decision is yours.
+
+## HSMA Sessions in Phase 2
+
+To clarify, other than the forums, the final events, and some masterclasses (of which we'll announce details as and when we write them (Sammi's list is lengthy)) there will be no formal HSMA sessions in Phase 2.
+
+## Making Use of Slack in Phase 2
+
+We therefore encourage you to make regular use of the Slack community for support, including :
+- Posting regular updates on your projects in your project channels (this is important for us to track progress, but also for you to keep track of things).
+- Asking for help on your project in your project channels (and making use of your Peer Support Group).  The mentoring support you will receive is intended to help guide you, make suggestions and offer ideas.
+
+:::{.callout-note}
+Note - that we don't offer thorough code reviews of your work (though if you have snippets of code about which you want some advice you can post a code snippet) - we would strongly encourage you to use others in your project team (if you have others in your team) to help with this wherever possible.
+:::
+
+## Tracking Impact
+
+Please post updates in PIMS (<https://penchord.streamlit.app/>) when impact happens
+
+Please also use PIMS to tell us about anything else you've done in your daily work using your new skills!
