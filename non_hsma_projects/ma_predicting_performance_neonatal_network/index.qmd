@@ -7,11 +7,7 @@ categories:
   - Staffing Guidelines
   - Cost Analysis
 author:
-  - name: Dr Alison Harper
-    affiliation: PenCHORD/UoE Business School
-  - name: Prof Martin Pitt
-    affiliation: PenCHORD
-  - name: Dr. Richard Wood
+  - name: Dr Mike Allen
     affiliation: PenCHORD
 ---
 
@@ -22,3 +18,8 @@ The model was able to explore the cost of staffing per infant when meeting the g
 They also explored the potential benefits of using wider network staffing capacity to meet peaks of demand more cost-effectively, as well as the "number and distance of transfers, average travel distances for parents, and numbers of parents with an infant over 50 km from home."
 
 <https://pubmed.ncbi.nlm.nih.gov/25996022/>
+
+
+:::{.callout-note}
+This is an older project from before the PenCHORD team used FOSS approaches for simulation modelling.
+:::
