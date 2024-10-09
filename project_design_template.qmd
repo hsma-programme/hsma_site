@@ -1,5 +1,5 @@
 ---
-title: Project Design Template
+title: Optional Project Design Template
 format:
   html:
     page-layout: full

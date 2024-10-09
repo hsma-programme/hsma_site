@@ -1,21 +1,13 @@
 ---
-title: Improving Hospital Discharge Flow
+title: Modelling the use of consultant-led care at maternity centres
 categories:
   - Discrete Time Simulation
   - Hospital Discharge
 author:
-  - name: Dr Alison Harper
-    affiliation: PenCHORD/UoE Business School
-  - name: Prof Martin Pitt
-    affiliation: PenCHORD
-  - name: Dr. Zehra Önen-Dumlu
-    affiliation: PenCHORD
-  - name: Prof. Christos Vasilakis 
-    affiliation: PenCHORD
-  - name: Dr. Richard Wood
+  - name: Dr Mike Allen
     affiliation: PenCHORD
 ---
 
-In this project, models of step-down pathways were created to explore the impact of different scenarios on reducing delays further upstream. 
+In this project, the team looked at how to balance travel times to birthing centres with the need to have over 6000 admissions a year to support a constant consultant presence at the centre.
 
-<https://www.theorsociety.com/common/Uploaded%20files/Simulation-Workshop/SW23/doiorg1036819sw23013.pdf>
+<https://bmjopen.bmj.com/content/10/7/e034830>

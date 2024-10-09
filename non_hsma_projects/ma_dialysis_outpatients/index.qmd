@@ -1,21 +1,21 @@
 ---
 title: Improving Hospital Discharge Flow
 categories:
-  - Discrete Time Simulation
-  - Hospital Discharge
+  - Travel Time
+  - Monte-Carlo Modelling
 author:
-  - name: Dr Alison Harper
-    affiliation: PenCHORD/UoE Business School
-  - name: Prof Martin Pitt
+  - name: Dr Mike Allen
     affiliation: PenCHORD
-  - name: Dr. Zehra Önen-Dumlu
-    affiliation: PenCHORD
-  - name: Prof. Christos Vasilakis 
-    affiliation: PenCHORD
-  - name: Dr. Richard Wood
+  - name: Dr Tom Monks
     affiliation: PenCHORD
 ---
 
-In this project, models of step-down pathways were created to explore the impact of different scenarios on reducing delays further upstream. 
+In this project, the number of ambulances required for patient transport of covid-positive patients during the pandemic was explored.
 
-<https://www.theorsociety.com/common/Uploaded%20files/Simulation-Workshop/SW23/doiorg1036819sw23013.pdf>
+It modelled the likely number of covid-positive dialysis patients in the region during different phases of the pandemic.
+
+The model showed that by relaxing travel policies slightly to allow transport of two covid-positive patients in the same vehicle, the number of driver hours required per day would reduce by 40-60%.
+
+<https://arc-swp.nihr.ac.uk/publications/a-simulation-modelling-toolkit-for-organising-outpatient-dialysis-services-during-the-covid-19-pandemic/>
+
+<https://journals.plos.org/plosone/article?id=10.1371/journal.pone.0237628>
