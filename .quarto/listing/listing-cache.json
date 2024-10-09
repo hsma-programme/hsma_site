@@ -1,5 +1,8 @@
 {
   "listingMap": {
+    "current_projects\\index.qmd": [
+      "current_projects/*.qmd"
+    ],
     "general_project_ideas\\index.qmd": [
       "general_project_ideas/*.qmd"
     ],

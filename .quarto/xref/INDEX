@@ -244,5 +244,23 @@
   },
   "non_hsma_projects/tm_ambulance_demand_prediction/index.qmd": {
     "index.html": "12abc260"
+  },
+  "current_projects/current_projects/1100_daa.qmd": {
+    "1100_daa.html": "d0108ead"
+  },
+  "current_projects/current_projects/4100_waiting_list_equity.qmd": {
+    "4100_waiting_list_equity.html": "3eab6c4b"
+  },
+  "current_projects/current_projects/5101_eye_clinic_demand.qmd": {
+    "5101_eye_clinic_demand.html": "04081c61"
+  },
+  "current_projects/current_projects/5102_ssi_ml.qmd": {
+    "5102_ssi_ml.html": "28f1678f"
+  },
+  "current_projects/current_projects/6000_core20plus5.qmd": {
+    "6000_core20plus5.html": "8103e2ef"
+  },
+  "current_projects/index.qmd": {
+    "index.html": "6f1562ba"
   }
 }

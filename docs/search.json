@@ -4,7 +4,7 @@
     "href": "project_registration_process.html",
     "title": "Project Registration Process",
     "section": "",
-    "text": "HSMA projects must meet a few criteria\n\nThey must use a method we teach on the HSMA course\n\nthe method can be related to a method we teach - for example, if you wished to use a time series forecasting method we haven’t taught, this would be ok, but we may be able to provide less detailed support than for a technique we have taught\n\nIt must use free and open source methods\nIt must be in the area of health, social care, policing,\n\nOnce you have an idea of what you want your project to be, please post in the #new_project_airlock Slack channel with a brief description of any project you’d like to register as a HSMA project.\nThe team will then create you a channel on Slack to use for project discussions, and register your project on the current HSMA project register.\nYou don’t need to do anything more formal than that - you can start cracking on with your code and using the HSMA community for help.\n\n\n\n\n\n\nTip\n\n\n\nTake a look at the FAQs if you have any questions."
+    "text": "Once you have an idea of what you want your project to be, please post in the #new_project_airlock Slack channel with a brief description of any project you’d like to register as a HSMA project.\nThe team will then create you a channel on Slack to use for project discussions, and register your project on the current HSMA project register.\nYou don’t need to do anything more formal than that - you can start cracking on with your code and using the HSMA community for help.\n\n\n\n\n\n\nNote\n\n\n\nWhile we provide a project design template, this is entirely optional and is only designed to guide your thinking. If you have filled it out, it is helpful for us if you submit it along with your brief project description in the #new_project_airlock - but you do not have to fill in every field, or even fill it in at all if you don’t find it helpful!!\n\n\n\n\n\n\n\n\nNote\n\n\n\nHSMA projects must meet a few criteria\n\nThey must use a method we teach on the HSMA course\n\nthe method can be related to a method we teach - for example, if you wished to use a time series forecasting method we haven’t taught, this would be ok, but we may be able to provide less detailed support than for a technique we have taught\n\nIt must use free and open source methods\nIt must be in the area of health, social care, policing,\n\n\n\n\n\n\n\n\n\nTip\n\n\n\nTake a look at the FAQs if you have any questions."
   },
   {
     "objectID": "previous_projects/template.html",
@@ -292,6 +292,13 @@
     "title": "Automation and enhancement of highly time-consuming reports",
     "section": "Links and previous projects",
     "text": "Links and previous projects"
+  },
+  {
+    "objectID": "current_projects/index.html",
+    "href": "current_projects/index.html",
+    "title": "Project Ideas",
+    "section": "",
+    "text": "Order By\n       Default\n         \n          Title\n        \n         \n          Author\n        \n     \n  \n    \n      \n      \n    \n\n\n\n\n\nTitle\n\n\nCategories\n\n\nAuthor\n\n\n\n\n\n\nGeographic modelling of resource utilisation at Devon Air Ambulance\n\n\nGeographic Modelling, Forecasting, Streamlit, DES\n\n\nActive \n\n\n\n\nAutomating and scaling waiting list equity analysis at a trust level\n\n\nStreamlit, General Python\n\n\nActive \n\n\n\n\nModelling resourcing scenarios to meet increases in demand on a Devon eye clinic\n\n\nDiscrete Event Simulation\n\n\nActive \n\n\n\n\nUsing Machine Learning to predict whether a patient might develop a SSI (Surgical Site Infection)c\n\n\nMachine Learning\n\n\nActive \n\n\n\n\nCore20PLUS5 - Using ML and Explainable AI to predict and understand mental health appointment DNAs to reduce inequalities\n\n\nMachine Learning, Geographic Modelling\n\n\nActive \n\n\n\n\n\nNo matching items"
   },
   {
     "objectID": "about.html",
@@ -683,6 +690,6 @@
     "href": "project_design_template.html",
     "title": "Project Design Template",
     "section": "",
-    "text": "For those of you who would find a template useful to start thinking through some key aspects of their projects, one is provided on this page.\nThe template is entirely optional - please feel free to use it, not use it, only fill in the fields you find useful for you, add fields, etc.\nIt is indended to serve as a good prompt to start thinking about some of the things that might come up.\nClick Here to Open the Template in Google Documents\nYou will need to take a copy of the document to be able to edit it.\n\n\n\n\n\n\nTip\n\n\n\nSome examples of filled in templates for real HSMA projects can be found here if you are a member of the HSMA Slack community.\n\n\nYou can take a look at the template document below, but will need to open it via the link to be able to take your own copy."
+    "text": "For those of you who would find a template useful to start thinking through some key aspects of their projects, one is provided on this page.\nIt is indended to serve as a good prompt to start thinking about some of the things that might come up.\n\n\n\n\n\n\nWarning\n\n\n\nUse of this template is entirely optional!\n\n\nClick Here to Open the Template in Google Documents\n\n\n\n\n\n\nTip\n\n\n\nYou will need to take a copy of the document to be able to edit it.\n\n\n\n\n\n\n\n\n\nNote\n\n\n\nThe template is entirely optional - please feel free to use it, not use it, only fill in the fields you find useful for you, add fields, etc.\nIf you do fill it out, it is helpful for us if you submit it along with your brief project description in the #new_project_airlock - but you do not have to fill in every field, or even fill it in at all if you don’t find it helpful!!\n\n\n\n\n\n\n\n\nTip\n\n\n\nSome examples of filled in templates for real HSMA projects can be found here if you are a member of the HSMA Slack community.\n\n\nYou can take a look at the template document below, but will need to open it via the link to be able to take your own copy."
   }
 ]
