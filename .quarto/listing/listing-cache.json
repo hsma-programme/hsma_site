@@ -1,14 +1,5 @@
 {
   "listingMap": {
-    "current_projects\\index.qmd": [
-      "current_projects/*.qmd"
-    ],
-    "general_project_ideas\\index.qmd": [
-      "general_project_ideas/*.qmd"
-    ],
-    "non_hsma_projects\\index.qmd": [
-      "/*/index.qmd"
-    ],
     "previous_projects\\index.qmd": [
       "hsma_5/*/index.qmd",
       "hsma_4/*/index.qmd",

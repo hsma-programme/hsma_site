@@ -78,50 +78,6 @@
     ]
   },
   {
-    "listing": "/current_projects/index.html",
-    "items": [
-      "/current_projects/current_projects/1100_daa.html",
-      "/current_projects/current_projects/4100_waiting_list_equity.html",
-      "/current_projects/current_projects/5101_eye_clinic_demand.html",
-      "/current_projects/current_projects/5102_ssi_ml.html",
-      "/current_projects/current_projects/6000_core20plus5.html"
-    ]
-  },
-  {
-    "listing": "/general_project_ideas/index.html",
-    "items": [
-      "/general_project_ideas/general_project_ideas/automation_enhancement_reports.html",
-      "/general_project_ideas/general_project_ideas/converting_excel_tool_code.html",
-      "/general_project_ideas/general_project_ideas/identifying_inequalities_service_access.html",
-      "/general_project_ideas/general_project_ideas/identifying_resolving_bottlenecks.html",
-      "/general_project_ideas/general_project_ideas/identifying_resource_backlogs.html",
-      "/general_project_ideas/general_project_ideas/new_service_location_optimization.html",
-      "/general_project_ideas/general_project_ideas/predicing_number_specialty_inpatient_admissions.html",
-      "/general_project_ideas/general_project_ideas/predicting_los_capacity_planning.html",
-      "/general_project_ideas/general_project_ideas/predicting_number_specialty_inpatient_admissions.html",
-      "/general_project_ideas/general_project_ideas/service_closure_location_optimisation.html",
-      "/general_project_ideas/general_project_ideas/what_if_pathway.html"
-    ]
-  },
-  {
-    "listing": "/non_hsma_projects/index.html",
-    "items": [
-      "/non_hsma_projects/ah_modelling_step_down_pathways/index.html",
-      "/non_hsma_projects/dc_abs_polypharmacy/index.html",
-      "/non_hsma_projects/dc_factors_influencing_ambulance_demand/index.html",
-      "/non_hsma_projects/dc_factors_influencing_community_nursing/index.html",
-      "/non_hsma_projects/dc_impact_miu_closure_travel_time/index.html",
-      "/non_hsma_projects/dc_mibc_pathway/index.html",
-      "/non_hsma_projects/dc_predicting_eol_care_needs/index.html",
-      "/non_hsma_projects/ma_dialysis_outpatients/index.html",
-      "/non_hsma_projects/ma_kp_al_stroke/index.html",
-      "/non_hsma_projects/ma_predicting_performance_neonatal_network/index.html",
-      "/non_hsma_projects/mp_reducing_mh_assessment_queues/index.html",
-      "/non_hsma_projects/tm_ambulance_demand_prediction/index.html",
-      "/non_hsma_projects/zk_ehr_to_inpatient_prediction/index.html"
-    ]
-  },
-  {
     "listing": "/previous_projects/projects_by_methods.html",
     "items": [
       "/previous_projects/hsma_3/h3_elective_backlog_hip/index.html",
