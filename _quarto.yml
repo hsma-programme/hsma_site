@@ -3,10 +3,10 @@ project:
   output-dir: docs
 
 website:
-  title: "HSMA Project Handbook"
-  google-analytics:
-    tracking-id: "G-MBWDD0MCCS"
-    anonymize-ip: true
+  title: "HSMA Website"
+  # google-analytics:
+  #   tracking-id: "G-MBWDD0MCCS"
+  #   anonymize-ip: true
   cookie-consent:
     type: express
     style: simple
@@ -25,23 +25,6 @@ website:
             text: Projects by Organisation
           - href: previous_projects/projects_by_service_area.qmd
             text: Projects by Service Area
-      - text: "Project Ideas"
-        menu:
-        - href: idea_generation_tips.qmd
-          text: Tips for Coming Up with a Project Idea
-        - href: general_project_ideas/index.qmd
-          text: General Project Ideas
-        - href: non_hsma_projects/index.qmd
-          text: Non-HSMA Projects
-      - href: project_registration_process.qmd
-        text: Registering a Project
-      - href: project_design_template.qmd
-        text: Optional Design Template
-      - href: phase_2_overview.qmd
-        text: Phase 2 Details
-      - href: faqs.qmd
-        text: "FAQs"
-
 
 format:
   html:

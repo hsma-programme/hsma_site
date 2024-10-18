@@ -1,7 +1,0 @@
----
-title: Identifying the optimal service locations(s) to close to minimize the impact of equity of access
-categories:
-    - Mapping
-    - Travel Times
-    - Location Optimization
----
