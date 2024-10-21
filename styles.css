@@ -5,6 +5,7 @@
 
 .quarto-title-banner h1, .quarto-title-banner .h1, .quarto-title-banner h2, .quarto-title-banner .h2 {
     color: #fff;
+    text-shadow: -1px 1px 1px rgb(41, 33, 33);
   }
 
 .quarto-title-banner {
