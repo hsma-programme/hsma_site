@@ -203,7 +203,7 @@ cookieconsent.run({
 
 
 
-<p>Here is some text about the project</p>
+<p>Here is some text about the</p>
 <p>If there is a Youtube video associated with this project, please replace the link below with a Youtube link. If there is not one present, remove the whole line that starts with</p>
 
 </main> <!-- /main -->
@@ -299,7 +299,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp("https:\/\/hsma-programme\.github\.io\/hsma_site\/");
+      var filterRegex = new RegExp('/' + window.location.host + '/');
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
