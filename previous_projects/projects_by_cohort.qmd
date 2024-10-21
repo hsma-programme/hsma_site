@@ -1,6 +1,7 @@
 ---
-title: "HSMA Projects"
+title: "HSMA Projects by Cohort"
 toc-location: right
+title-block-banner: banner.png
 listing:
     - id: hsma_5
       contents: "hsma_5/*/index.qmd"

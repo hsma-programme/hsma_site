@@ -1,6 +1,7 @@
 ---
 title: "Projects by Methods"
 toc-location: right
+title-block-banner: banner.png
 listing:
     - id: des_projects
       contents: "*/*/index.qmd"

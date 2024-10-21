@@ -1,6 +1,7 @@
 ---
 title: "Projects by Methods"
 toc-location: right
+title-block-banner: banner.png
 toc-expand: 2
 listing:
     - id: emergency_department_projects
