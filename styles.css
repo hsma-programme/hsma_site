@@ -19,3 +19,18 @@
     color: #fff;
     background-color: rgb(56, 59, 59);
   }
+
+.abstract {
+  color: rgb(56, 59, 59);
+  background-color: #e4e2e2;
+  border: solid 1px;
+  padding: .25em .75em;
+  border-radius: .25rem;
+  font-size: .85em;
+  font-weight: 500;
+  opacity: 0.7;  
+}
+
+#title-block-header .abstract {
+  margin-block-start: 3rem;
+}
