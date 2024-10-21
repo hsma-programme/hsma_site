@@ -19,13 +19,9 @@ pub-info:
     url: https://www.youtube.com/watch?v=yYnkdsM5HHo&list=PLgHO2TgIJXdl1MvfkwCGJ6n8_1EYCSzex&index=2
     icon: fa-brands fa-youtube
   - name: Code
-    url:
+    url: https://github.com/marierrogers/HSMAproject2023
     icon: fa-brands fa-github
 ---
 
 
 {{< video https://www.youtube.com/watch?v=yYnkdsM5HHo&list=PLgHO2TgIJXdl1MvfkwCGJ6n8_1EYCSzex&index=2 >}}
-
-```{=html}
-<iframe width="780" height="500" src="https://github.com/marierrogers/HSMAproject2023" title="Code"></iframe>
-```

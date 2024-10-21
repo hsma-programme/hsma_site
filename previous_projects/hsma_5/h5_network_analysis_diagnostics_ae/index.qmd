@@ -23,7 +23,3 @@ In A&E a patient can be given one or more diagnostic procedures. These can be as
 The aim of the project become to create a web tool that can provide insight in how diagnostic procedure are used in A&E departments across the country. Hamzah learnt a lot about graph analysis and the connection between clinical theory and analytical process.
 
 Hamzah is now working on creating a web tool that allows users to explore the graphic visualisation as well as some analytics that accompany the graphs.
-
-```{=html}
-<iframe width="780" height="500" src="https://github.com/HamzahJShami/HSMA5" title="Code"></iframe>
-```

@@ -13,6 +13,20 @@
     ],
     "previous_projects\\projects_by_service_area.qmd": [
       "*/*/index.qmd"
+    ],
+    "previous_projects/projects_by_methods.qmd": [
+      "*/*/index.qmd"
+    ],
+    "previous_projects/projects_by_service_area.qmd": [
+      "*/*/index.qmd"
+    ],
+    "previous_projects/index.qmd": [
+      "hsma_5/*/index.qmd",
+      "hsma_4/*/index.qmd",
+      "hsma_3/*/index.qmd"
+    ],
+    "previous_projects/projects_by_organisation.qmd": [
+      "*/*/index.qmd"
     ]
   }
 }
