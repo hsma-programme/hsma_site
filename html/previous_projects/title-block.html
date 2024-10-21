@@ -19,6 +19,14 @@
             </div>
             $endif$
 
+            $if(pub-info.abstract)$
+            <br/>
+            <div class="abstract">
+                <b>30 Second Summary</b>
+                $pub-info.abstract$
+            </div>
+            $endif$
+
             $if(categories)$
             $if(quarto-template-params.title-block-categories)$
             <div class="quarto-categories">
@@ -29,6 +37,7 @@
             $endif$
             $endif$
         </div>
+
     </div>
 
     $if(pub-info)$

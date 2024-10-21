@@ -17,7 +17,7 @@ image: "cd4dqcnc.bmp"
 title-block-banner: ../../banner.png
 pub-info:
   abstract: |
-    In this project, a simulated version of the acute medical pathway in a trust was created, along with an interactive tool allowing parameters such as the staffing levels to be changed to explore the optimum way to allow for risk-free testing of staffing and resource changes.
+    In this project, a computer simulation of the acute medical pathway in a Devon trust was created, along with an interactive tool allowing parameters such as the staffing levels to be changed. This allowed staff to explore the optimum levels of resourcing, enabling risk-free testing of staffing and resource changes before committing to these changes in the real-world.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=_3j0xC_yCKQ
