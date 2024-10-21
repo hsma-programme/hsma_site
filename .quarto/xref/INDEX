@@ -268,5 +268,14 @@
   },
   "phase_2_overview.qmd": {
     "phase_2_overview.html": "5c2860dc"
+  },
+  "previous_projects/hsma_5/h5_test_project/index.qmd": {
+    "index.html": "ba961cfd"
+  },
+  "previous_projects/template_full.qmd": {
+    "template_full.html": "374dfc06"
+  },
+  "previous_projects/template_reduced.qmd": {
+    "template_reduced.html": "bfa14b5b"
   }
 }
