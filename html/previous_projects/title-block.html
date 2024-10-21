@@ -41,9 +41,11 @@
         $if(pub-info.links)$
         <ul class="project-links">
             $for(pub-info.links)$
+            $if(pub-info.links.url)$
             <li class="project-link">
                 <a href="$pub-info.links.url$"><i class="$pub-info.links.icon$"></i> $pub-info.links.name$</a>
             </li>
+            $endif$
             $endfor$
         </ul>
         $endif$
