@@ -22,14 +22,14 @@ website:
         text: Home
       - text: "Past HSMA Projects"
         menu:
-          - href: previous_projects/index.qmd
-            text: Projects by Cohort
           - href: previous_projects/projects_by_methods.qmd
             text: Projects by Method
-          - href: previous_projects/projects_by_organisation.qmd
-            text: Projects by Organisation
           - href: previous_projects/projects_by_service_area.qmd
             text: Projects by Service Area
+          - href: previous_projects/index.qmd
+            text: Projects by Cohort
+          - href: previous_projects/projects_by_organisation.qmd
+            text: Projects by Organisation
 
 format:
   html:
