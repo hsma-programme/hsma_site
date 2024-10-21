@@ -27,6 +27,11 @@
     ],
     "previous_projects/projects_by_organisation.qmd": [
       "*/*/index.qmd"
+    ],
+    "previous_projects/projects_by_cohort.qmd": [
+      "hsma_5/*/index.qmd",
+      "hsma_4/*/index.qmd",
+      "hsma_3/*/index.qmd"
     ]
   }
 }

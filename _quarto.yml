@@ -3,8 +3,7 @@ project:
   output-dir: docs
 
 website:
-  title: |
-    ![](/resources/hsma_logo_transparent_background_wide_black.png){height=50}
+  title: HSMA
   # google-analytics:
   #   tracking-id: "G-MBWDD0MCCS"
   #   anonymize-ip: true
@@ -18,9 +17,11 @@ website:
     The views expressed in this publication are those of the author(s) and not necessarily those of the National Institute for Health and Care Research
     or the Department of Health and Social Care.*
   navbar:
+    logo: /resources/hsma_logo_transparent_background_wide_black.png
+    title: false
     left:
       - href: index.qmd
-        text: Home
+        text: Welcome
       - text: "Past HSMA Projects"
         menu:
           - href: previous_projects/projects_by_methods.qmd
@@ -39,7 +40,7 @@ format:
       - darkly
       - theme-dark.scss
       - resources/fonts/css/lexend.css
-    # css: styles.css
+    css: styles.css
     toc: true
     title-block-banner: resources/banner.png
     mainfont: Lexend

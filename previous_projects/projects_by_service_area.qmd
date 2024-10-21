@@ -1,5 +1,5 @@
 ---
-title: "Projects by Methods"
+title: "Projects by Service Area"
 toc-location: right
 title-block-banner: banner.png
 toc-expand: 2
