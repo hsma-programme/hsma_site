@@ -3,6 +3,18 @@
   max-height: 50px;
 }
 
-.em {
-    size: 5px
+.quarto-title-banner h1, .quarto-title-banner .h1, .quarto-title-banner h2, .quarto-title-banner .h2 {
+    color: #fff;
+  }
+
+.quarto-title-banner {
+    color: #fff;
 }
+
+.quarto-title .quarto-categories .quarto-category {
+    font-size: .85em;
+    font-weight: 600;
+    opacity: 1;
+    color: #fff;
+    background-color: rgb(56, 59, 59);
+  }
