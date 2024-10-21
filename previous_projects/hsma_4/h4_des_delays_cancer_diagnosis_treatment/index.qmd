@@ -14,6 +14,7 @@ author:
   - name: Mahya Kaveh
     affiliation: Dartford and Gravesham NHS Trust
 image: "cuep9jku.bmp"
+title-block-banner: ../../banner.png
 pub-info:
   links:
   - name: Video

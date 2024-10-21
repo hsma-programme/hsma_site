@@ -13,6 +13,7 @@ author:
   - name: Wilson Otitonaiye
     affiliation: Public Health Dorset
 image: "l8j81ti4.bmp"
+title-block-banner: ../../banner.png
 pub-info:
   links:
   - name: Video

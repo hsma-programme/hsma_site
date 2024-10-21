@@ -1,5 +1,6 @@
 ---
 title: "HSMA Website"
+title-block-banner: resources/banner.png
 ---
 
 Welcome to the website of the HSMA Programme.

@@ -14,6 +14,7 @@ author:
   - name: Imca Hensels-Pelling
     affiliation: Information Analyst, Royal Devon and Exeter NHS Foundation Trust
 image: "x17ig2yr.bmp"
+title-block-banner: ../../banner.png
 pub-info:
   links:
   - name: Video

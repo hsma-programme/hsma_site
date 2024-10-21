@@ -12,6 +12,7 @@ author:
   - name: Tom Haddock
     affiliation: TBC
 image: "5r2xrx9d.bmp"
+title-block-banner: ../../banner.png
 pub-info:
   links:
   - name: Video

@@ -13,6 +13,7 @@ author:
   - name: Krzysztof Cepa
     affiliation: Dorset Intelligence and Insight Service (NHS Dorset)
 image: "Abby Dewhurst.jpg"
+title-block-banner: ../../banner.png
 pub-info:
   links:
   - name: Video

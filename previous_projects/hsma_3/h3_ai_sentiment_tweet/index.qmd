@@ -8,6 +8,7 @@ author:
   - name: Mike Hill 
     affiliation: Analyst, Avon and Somerset Constabulary
 image: "3tk0xiyz.bmp"
+title-block-banner: ../../banner.png
 pub-info:
   links:
   - name: Video

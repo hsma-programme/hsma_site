@@ -11,6 +11,7 @@ author:
   - name: Neil Mitchell
     affiliation: Business Intelligence Developer, Devon and Cornwall Police
 image: "6s1gmgrn.bmp"
+title-block-banner: ../../banner.png
 pub-info:
   links:
   - name: Video

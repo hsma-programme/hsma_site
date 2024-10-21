@@ -11,6 +11,7 @@ author:
   - name: Hamzah Shami
     affiliation: NHS England
 image: "akzr6q9d.bmp"
+title-block-banner: ../../banner.png
 pub-info:
   links:
   - name: Code

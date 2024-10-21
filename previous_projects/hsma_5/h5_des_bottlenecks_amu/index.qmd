@@ -14,7 +14,10 @@ author:
   - name: Kayleigh Haydock
     affiliation: Royal Devon University Healthcare (RDUH) NHS Foundation Trust
 image: "cd4dqcnc.bmp"
+title-block-banner: ../../banner.png
 pub-info:
+  abstract: |
+    In this project, a simulated version of the acute medical pathway in a trust was created, along with an interactive tool allowing parameters such as the staffing levels to be changed to explore the optimum way to allow for risk-free testing of staffing and resource changes.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=_3j0xC_yCKQ

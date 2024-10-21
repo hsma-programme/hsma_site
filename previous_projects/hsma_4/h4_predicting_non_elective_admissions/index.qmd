@@ -14,6 +14,7 @@ author:
   - name: Jahangir Alam
     affiliation: NHS North East London CSU
 image: "lb926cjj.bmp"
+title-block-banner: ../../banner.png
 ---
 
 The project aim was to develop a predictive model to identify patients at high risk of admission and to provide explanatory feedback as to why the patients were at risk. There were three elements of the project:

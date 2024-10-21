@@ -16,6 +16,7 @@ author:
   - name: Sally Brown
     affiliation: West Sussex County Council
 image: "bef68gj9.bmp"
+title-block-banner: ../../banner.png
 pub-info:
   links:
   - name: Video

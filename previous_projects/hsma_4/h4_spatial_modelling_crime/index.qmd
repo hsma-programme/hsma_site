@@ -17,6 +17,7 @@ author:
   - name: Alessia Rose
     affiliation: Devon County Council
 image: "m6ij2sto.bmp"
+title-block-banner: ../../banner.png
 pub-info:
   links:
   - name: Video

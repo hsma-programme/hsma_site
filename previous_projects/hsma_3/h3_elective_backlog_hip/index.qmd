@@ -15,6 +15,7 @@ author:
   - name: Zoe Ficken
     affiliation: Senior Information Analyst, Royal Devon and Exeter NHS Foundation Trust
 image: "8vopju20.bmp"
+title-block-banner: ../../banner.png
 pub-info:
   links:
   - name: Video

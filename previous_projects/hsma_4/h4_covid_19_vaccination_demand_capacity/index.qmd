@@ -17,6 +17,7 @@ author:
   - name: Mayoor Dhokia
     affiliation: Surrey and Borders Partnership NHS Trust
 image: "bk6maxsh.bmp"
+title-block-banner: ../../banner.png
 pub-info:
   links:
   - name: Video

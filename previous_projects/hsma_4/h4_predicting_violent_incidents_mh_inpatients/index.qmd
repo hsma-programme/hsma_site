@@ -9,6 +9,7 @@ author:
   - name: Iain Waring
     affiliation: Birmingham & Solihull Mental Health NHS Foundation Trust
 image: "6s86lwll.bmp"
+title-block-banner: ../../banner.png
 ---
 
 The aim of the project was to see if the occurrence of violent incidents on hospital wards could be reduced, if incidents could be pre-empted and interventions could be taken to try to prevent them from happening.

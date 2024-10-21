@@ -16,6 +16,7 @@ author:
   - name: Jon Green
     affiliation: University of Plymouth
 image: "Abby Dewhurst.jpg"
+title-block-banner: ../../banner.png
 pub-info:
   links:
   - name: Video

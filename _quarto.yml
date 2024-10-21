@@ -42,5 +42,5 @@ format:
       - resources/fonts/css/lexend.css
     css: styles.css
     toc: true
-    title-block-banner: resources/banner.png
+    title-block-banner: https://raw.githubusercontent.com/hsma-programme/hsma_site/refs/heads/main/resources/banner.png
     mainfont: Lexend

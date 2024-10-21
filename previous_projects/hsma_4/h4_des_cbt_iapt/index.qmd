@@ -16,6 +16,7 @@ author:
   - name: Matthew Chapman
     affiliation: Dorset HealthCare
 image: "il32v884.bmp"
+title-block-banner: ../../banner.png
 pub-info:
   links:
   - name: Video

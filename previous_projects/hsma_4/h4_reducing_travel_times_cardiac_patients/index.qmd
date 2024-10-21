@@ -17,6 +17,7 @@ author:
   - name: Victor Yu
     affiliation: The Strategy Unit
 image: "7s1io79p.bmp"
+title-block-banner: ../../banner.png
 pub-info:
   links:
   - name: Video

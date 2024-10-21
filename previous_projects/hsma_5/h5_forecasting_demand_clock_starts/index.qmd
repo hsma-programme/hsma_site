@@ -21,6 +21,7 @@ author:
   - name: Evelyn Koon
     affiliation: NHS England
 image: "43fcmhsi.bmp"
+title-block-banner: ../../banner.png
 pub-info:
   links:
   - name: Video

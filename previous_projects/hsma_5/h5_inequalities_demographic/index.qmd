@@ -14,6 +14,7 @@ author:
   - name: Sian Heath
     affiliation: Nottingham University Hospitals NHS Trust
 image: "8p2z6i2v.bmp"
+title-block-banner: ../../banner.png
 pub-info:
   links:
   - name: Video
