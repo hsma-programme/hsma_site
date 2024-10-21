@@ -284,7 +284,7 @@
     "href": "previous_projects/template.html",
     "title": "",
     "section": "",
-    "text": "The current Referral to Treatment waiting list is at its highest level in NHS history. Identifying methods for reducing the waiting list and waiting times would benefit patient care.\nThe aim of the project was to look at what changes in capacity, the number of appointments, could be made to reduce the waiting list and waiting times for Rheumatology services in Dorset. This was done using Discrete Event Simulation (DES), which is a technique that models flow through a pathway and can show what happens if changes are made.\nDuring the project the team built a DES model to look at the Rheumatology pathway. They then built an app using Steamlit so that stakeholders can model the impact of capacity changes on the size of the waiting lists and the average waiting time for patients.\nThey will be presenting the final model and app to stakeholders and getting feedback, adapting if required; then putting it on GitHub to be shared."
+    "text": "Here is some text about the project\nIf there is a Youtube video associated with this project, please replace the link below with a Youtube link. If there is not one present, remove the whole line that starts with"
   },
   {
     "objectID": "previous_projects/hsma_4/h4_des_delays_cancer_diagnosis_treatment/index.html",
