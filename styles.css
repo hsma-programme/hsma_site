@@ -34,3 +34,29 @@
 #title-block-header .abstract {
   margin-block-start: 3rem;
 }
+
+.nav-footer {
+  max-width: 100%;
+  display: flex;
+  flex-wrap: nowrap;
+  font-size: 0.75rem;
+}
+
+.nav-footer-left {
+  flex: 0 0 15%;
+  min-width: 250px;
+  max-width: 300px;
+  padding: 1rem 1rem;
+}
+
+.nav-footer-center {
+  flex: 0 0 84%;
+  text-align: right;
+  padding: 1rem 1rem;
+  
+}
+
+.nav-footer-right {
+  flex: 0 0 1%;
+  padding: 1rem 1rem;
+}
