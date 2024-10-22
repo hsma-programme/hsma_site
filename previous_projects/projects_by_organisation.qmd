@@ -2,6 +2,7 @@
 title: "Projects by Organisation Type"
 toc-location: right
 title-block-banner: banner.png
+include-back-link: false
 listing:
     - id: nhs_projects
       contents: "*/*/index.qmd"

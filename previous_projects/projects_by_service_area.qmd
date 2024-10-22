@@ -3,6 +3,7 @@ title: "Projects by Service Area"
 toc-location: right
 title-block-banner: banner.png
 toc-expand: 2
+include-back-link: false
 listing:
     - id: emergency_department_projects
       contents: "*/*/index.qmd"

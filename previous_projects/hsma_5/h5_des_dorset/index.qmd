@@ -15,6 +15,7 @@ author:
 image: "Abby Dewhurst.jpg"
 title-block-banner: ../../banner.png
 pub-info:
+  abstract:
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=P6nQle5tgBM&t=1s
