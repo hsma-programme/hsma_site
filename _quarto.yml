@@ -21,6 +21,15 @@ website:
   navbar:
     logo: /resources/hsma_logo_transparent_background_wide_black.png
     title: false
+    tools:
+      - icon: youtube
+        href: https://www.youtube.com/@hsma
+      - icon: github
+        menu:
+          - text: View the HSMA Github
+            href:  https://github.com/hsma-programme
+          - text: View the code for this website 
+            href:  https://github.com/hsma-programme/hsma_site
     left:
       - href: index.qmd
         text: Welcome

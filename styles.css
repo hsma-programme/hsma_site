@@ -60,3 +60,19 @@
   flex: 0 0 1%;
   padding: 1rem 1rem;
 }
+
+@media (min-width: 992px) {
+  .navbar-nav.navbar-nav-scroll {
+    --bs-scroll-height: 100vh;
+  }
+
+.navbar .dropdown-menu {
+    left: auto !important;
+    right: 0 !important;
+  }
+
+.navbar .dropdown-menu-end {
+    right: auto !important;
+    left: 0 !important;
+  }
+}
