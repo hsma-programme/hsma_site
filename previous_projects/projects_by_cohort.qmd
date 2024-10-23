@@ -10,21 +10,27 @@ listing:
       type: grid
       grid-columns: 2
       categories: true
-      # template: ../html/previous_projects/listing.ejs
+      template: ../html/previous_projects/listing.ejs
+      template-params:
+        ncols: 2
     - id: hsma_4
       contents: "hsma_4/*/index.qmd"
       sort: "date desc"
       type: grid
       grid-columns: 2
-      # template: ../html/previous_projects/listing.ejs
+      template: ../html/previous_projects/listing.ejs
       categories: true
+      template-params:
+        ncols: 2
     - id: hsma_3
       contents: "hsma_3/*/index.qmd"
       sort: "date desc"
       type: grid
       grid-columns: 2
-      # template: ../html/previous_projects/listing.ejs
+      template: ../html/previous_projects/listing.ejs
       categories: true
+      template-params:
+        ncols: 2
 ---
 
 Here you can find details of a range of previous HSMA projects.

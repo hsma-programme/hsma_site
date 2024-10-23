@@ -1,0 +1,6 @@
+```{=html}
+<% const cols = templateParams.ncols; %>
+
+:::{.list .grid .quarto-listing-cols-<%=cols%>} <% for (const item of items) { %> <% partial('listing.ejs', { item }) %> <% } %> :::
+
+```

@@ -1,0 +1,20 @@
+```{=html}
+<div class="research project-list">
+<ul class="list">
+    <% for (const item of items) { %>
+        <li class="project" <%=metadataAttrs(item) %>>
+
+            <% if(item.categories) { %>
+            <div class="project-categories">
+                <% for (const cat of item.categories) { %>
+                    <div class="project-category"><a href="#category=<%= cat %>">
+                            <%= cat %>
+                        </a></div>
+                    <% } %>
+            </div>
+            <% } %>
+
+        <% } %>
+</ul>
+</div>
+```
