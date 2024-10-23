@@ -11,10 +11,9 @@ website:
     type: express
     style: simple
     palette: dark
-  page-footer: 
-    left: |
-      ![](/resources/nihr_logo.png){width=250px}
+  page-footer:
     center: |
+      ![](/resources/nihr_logo.png){width=250px}<br/><br/>
       *This report is independent research supported by the National Institute for Health and Care Research Applied Research Collaboration South West Peninsula.
       The views expressed in this publication are those of the author(s) and not necessarily those of the National Institute for Health and Care Research
       or the Department of Health and Social Care.*
@@ -28,7 +27,7 @@ website:
         menu:
           - text: View the HSMA Github
             href:  https://github.com/hsma-programme
-          - text: View the code for this website 
+          - text: View the code for this website
             href:  https://github.com/hsma-programme/hsma_site
     left:
       - href: index.qmd
