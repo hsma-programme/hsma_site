@@ -29,6 +29,8 @@ website:
             href:  https://github.com/hsma-programme
           - text: View the code for this website
             href:  https://github.com/hsma-programme/hsma_site
+      - icon: envelope
+        href: mailto:penchord@exeter.ac.uk?subject=Contact%20from%20HSMA%20website
     left:
       - href: index.qmd
         text: Welcome
