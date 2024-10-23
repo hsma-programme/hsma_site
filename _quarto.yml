@@ -4,9 +4,9 @@ project:
 
 website:
   title: HSMA
-  # google-analytics:
-  #   tracking-id: "G-MBWDD0MCCS"
-  #   anonymize-ip: true
+  google-analytics:
+    tracking-id: "G-9D93EVJKF5"
+    anonymize-ip: true
   cookie-consent:
     type: express
     style: simple
