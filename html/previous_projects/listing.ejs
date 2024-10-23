@@ -29,7 +29,17 @@
             </div>
             <% } %>
 
-          </div>
+            <!-- <% if(item.author) { %>
+              <% if(item.author.affiliation) { %>
+              <div class="listing-author">
+                <% for (const authorfield of item.author.affiliation) { %>
+                  <%- authorfield %>
+                <% } %>
+              </div>
+              <% } %>
+            <% } %> -->
+
+          </div> 
 
           
             <div class="project-details-listing">
@@ -42,6 +52,9 @@
                     <% } %>
             </div>
           </div>
+        
+        
+        
         <% } %>
 </div>
 ```
