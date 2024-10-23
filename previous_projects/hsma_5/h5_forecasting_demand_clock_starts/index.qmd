@@ -9,6 +9,10 @@ categories:
   - Machine Learning
   - Waiting Lists
   - NHS
+techniques:
+  - Forecasting
+  - Prophet
+  - ARIMA
 author:
   - name: Jane Kirkpatrick
     affiliation: NHS England

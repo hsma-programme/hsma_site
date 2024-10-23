@@ -2,14 +2,16 @@
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     <% for (const item of items) { %>
-      <div class="card border-2 rounded-3" <%= metadataAttrs(item) %>>            
+      <div class="custom-grid-card border-2 rounded-3" <%= metadataAttrs(item) %>>            
+            <div class="main-card-content">
             <% if(item['image']) { %>
             <a href="<%- item.path %>">
-              <img src="<%- item.image %>" alt="<%- item.title %>" class="card-img-top"/>
+              <img class="card-img" src="<%- item.image %>" alt="<%- item.title %>" class="card-img-top"/>
             </a>
             <% } %>
             
-            <div class="project-content listing-pub-info">
+            
+            <div class="project-content listing-title">
                 <h5 class="no-anchor card-title listing-title"><%= item['title'] %></h5>
             </div>
 
@@ -19,34 +21,25 @@
               <% } %>
               <% } %>
 
-            <% if(item.categories) { %>
+            <% if(item.techniques) { %>
             <div class="quarto-categories">
-                <% for (const cat of item.categories) { %>
+                <% for (const cat of item.techniques) { %>
                             <button class="category-button"><%= cat %></button>
                     <% } %>
             </div>
             <% } %>
 
+          </div>
+
+          
             <div class="project-details-listing">
-                <!-- <ul class="project-links"> -->
-                    <!-- <li class="project-link details">
-                        <a href="<%- item.path %>" class="listing-name">
-                            <i class="fa-solid fa-circle-info"></i> Full details »
-                        </a>
-                    </li> -->
                     <% if (item['pub-info']) { %>
                       <% if (item['pub-info'].links) { %>
                           <% for (const link of item['pub-info'].links) { %>
-                      <!-- <li class="project-link">
-                          <a href="<%- link.url %>">
-                              <i class="<%- link.icon %>"></i> <%= link.name %>
-                          </a>
-                      </li> -->
                       <button class="project-link-listing-button"><a href="<%- link.url %>"><i class="<%- link.icon %>"></i> <%= link.name %> </a></button>
                           <% } %>
                         <% } %>
                     <% } %>
-                <!-- </ul> -->
             </div>
           </div>
         <% } %>

@@ -5,6 +5,8 @@ categories:
   - NHS
   - Rheumatology
   - Waiting Lists
+techniques:
+  - Discrete Event Simulation
 author:
   - name: Abby Dewhurst
     affiliation: Dorset Intelligence and Insight Service (NHS Dorset)

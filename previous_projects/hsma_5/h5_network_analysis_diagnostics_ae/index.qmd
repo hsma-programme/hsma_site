@@ -7,6 +7,9 @@ categories:
   - Diagnostic Procedures
   - ECDS Dataset
   - NHS
+techniques:
+  - Network Analysis
+  - Plotly Dash
 author:
   - name: Hamzah Shami
     affiliation: NHS England

@@ -6,6 +6,8 @@ categories:
   - Machine Learning
   - APC Dataset
   - NHS
+techniques:
+    - Machine Learning
 author:
   - name: Benjamin Mouncer
     affiliation: NHS & Norfolk County Council

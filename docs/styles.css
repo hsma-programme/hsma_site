@@ -122,8 +122,8 @@
 
 .project-link-listing-button {
   background-color: #8a0000;  /* Grey background */
-  color: rgb(189, 189, 189);               /* Off-White text */
-  border: 2px solid rgb(138, 138, 138);    /* Off-White border */
+  color: rgb(218, 218, 218);               /* Off-White text */
+  border: 2px solid rgb(211, 210, 210);    /* Off-White border */
   padding: 5px 5px;         /* Padding for better clickability */
   margin: 2px 0px; 
   font-size: 11px;            /* Font size */
@@ -136,4 +136,74 @@
 .listing-abstract {
   font-size: .85em;
   font-weight: 200;
+  padding: 1rem 1rem;
+}
+
+.listing-title {
+  padding: 0.5rem 0.5rem;
+}
+
+.quarto-categories {
+  padding: 0.5rem 0.5rem;
+}
+
+.project-details-listing {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.project-link-listing-button {
+  flex: 1 1 0;
+  min-width: 50px;
+  text-align: center;
+}
+.project-link-listing-button a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 8px 12px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.custom-grid-card {
+  flex: 1 1 auto;
+  -webkit-flex: 1 1 auto;
+  padding: var(--bs-card-spacer-y) var(--bs-card-spacer-x);
+  color: var(--bs-card-color);
+  height: 100% !important;
+  --bs-card-title-spacer-y: 0.5rem;
+  --bs-card-title-color: ;
+  --bs-card-subtitle-color: ;
+  --bs-card-border-width: 1px;
+  --bs-card-border-color: rgba(0, 0, 0, 0.175);
+  --bs-card-border-radius: 0.25rem;
+  --bs-card-box-shadow: ;
+  --bs-card-inner-border-radius: calc(0.25rem - 1px);
+  --bs-card-cap-padding-y: 0.5rem;
+  --bs-card-cap-padding-x: 1rem;
+  --bs-card-cap-bg: rgba(52, 58, 64, 0.25);
+  --bs-card-cap-color: ;
+  --bs-card-height: ;
+  --bs-card-color: ;
+  --bs-card-bg: #2d2d2d;
+  --bs-card-img-overlay-padding: 1rem;
+  --bs-card-group-margin: 0.75rem;
+  position: relative;
+  display: flex;
+  display: -webkit-flex;
+  flex-direction: column;
+  -webkit-flex-direction: column;
+  min-width: 0;
+  height: var(--bs-card-height);
+  color: var(--bs-body-color);
+  word-wrap: break-word;
+  background-color: var(--bs-card-bg);
+  background-clip: border-box;
+  border: var(--bs-card-border-width) solid var(--bs-card-border-color);
+  border-radius: var(--bs-card-border-radius);
+}
+
+.main-card-content {
+  flex: 1;
 }

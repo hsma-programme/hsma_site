@@ -6,6 +6,11 @@ categories:
   - Discrete Event Simulation
   - Streamlit
   - Neonatal
+techniques:
+  - Mapping
+  - Location Optimization
+  - Discrete Event Simulation
+  - Streamlit
 author:
   - name: Duncan Galletly
     affiliation: North West Neonatal Operational Delivery Network

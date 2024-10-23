@@ -4,6 +4,9 @@ categories:
   - Natural Language Processing
   - Named Entity Recognition
   - Police
+techniques:
+  - Natural Language Processing
+  - Named Entity Recognition
 author:
   - name: Lauren Szarvas
     affiliation: TBC

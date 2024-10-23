@@ -8,6 +8,9 @@ categories:
   - Acute Care
   - Hospitals
   - NHS
+techniques:
+  - Discrete Event Simulation
+  - Streamlit
 author:
   - name: Becky Crofts
     affiliation: Royal Devon University Healthcare (RDUH) NHS Foundation Trust

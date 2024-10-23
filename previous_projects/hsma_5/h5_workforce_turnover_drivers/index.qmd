@@ -7,6 +7,10 @@ categories:
   - Regression
   - Machine Learning
   - NHS
+techniques:
+  - Plotly Dash
+  - Regression
+  - Machine Learning
 author:
   - name: Marie Rogers
     affiliation: NHS England

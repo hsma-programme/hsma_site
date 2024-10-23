@@ -8,6 +8,9 @@ categories:
   - Surgical
   - Hospitals
   - NHS
+techniques:
+    - Discrete Event Simulation
+    - Streamlit
 author:
   - name: Dominic Allen
     affiliation: Guy’s and St Thomas’ NHS Foundation Trust

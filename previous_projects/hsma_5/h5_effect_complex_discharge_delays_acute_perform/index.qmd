@@ -8,6 +8,8 @@ categories:
   - Acute Care
   - Inter-service Interactions
   - NHS
+techniques:
+  - Discrete Event Simulation
 author:
   - name: Hannah Perkins
     affiliation: University Hospitals Plymouth NHS Trust

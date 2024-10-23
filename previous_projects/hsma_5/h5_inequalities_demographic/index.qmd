@@ -6,6 +6,10 @@ categories:
   - Mapping
   - Travel Times
   - NHS
+techniques:
+  - Streamlit
+  - Mapping
+  - Travel Times
 author:
   - name: Alex Owens
     affiliation: NHS Arden and Greater East Midlands CSU
