@@ -43,6 +43,7 @@
 
           
             <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="<%- item.path %>"><i class="fa fa-info-circle"></i> Details </a></button>
                     <% if (item['pub-info']) { %>
                       <% if (item['pub-info'].links) { %>
                           <% for (const link of item['pub-info'].links) { %>
