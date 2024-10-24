@@ -111,7 +111,7 @@
   color: rgb(189, 189, 189);               /* Off-White text */
   border: 2px solid rgb(138, 138, 138);    /* Off-White border */
   padding: 5px 5px;         /* Padding for better clickability */
-  margin: 2px 0px; 
+  margin: 2px 0px;
   font-size: 11px;            /* Font size */
   font-weight: bold;          /* Bold text */
   text-align: center;         /* Center the text */
@@ -125,7 +125,7 @@
   color: rgb(218, 218, 218);               /* Off-White text */
   border: 2px solid rgb(218, 218, 218);    /* Off-White border */
   padding: 5px 5px;         /* Padding for better clickability */
-  margin: 2px 0px; 
+  margin: 2px 0px;
   font-size: 11px;            /* Font size */
   font-weight: bold;          /* Bold text */
   text-align: center;         /* Center the text */
@@ -146,6 +146,17 @@
 .quarto-categories {
   padding: 0.5rem 0.5rem;
 }
+
+
+.listing-organisations {
+  font-size: .8em;
+  text-transform: uppercase;
+  color: #6c757d;
+  padding: 0.5rem 0.5rem;
+  font-weight: 500;
+}
+
+
 
 .project-details-listing {
   display: flex;
