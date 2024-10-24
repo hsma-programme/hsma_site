@@ -280,5 +280,50 @@
   },
   "previous_projects/projects_by_cohort.qmd": {
     "projects_by_cohort.html": "b9ab5cbe"
+  },
+  "previous_projects/hsma_5/h5_5002_nlp_drug_content/index.qmd": {
+    "index.html": "03d89fa9"
+  },
+  "previous_projects/hsma_5/h5_5003_des_bottlenecks_amu/index.qmd": {
+    "index.html": "531c7c38"
+  },
+  "previous_projects/hsma_5/h5_5004_effect_complex_discharge_delays_acute_perform/index.qmd": {
+    "index.html": "fe91d9e5"
+  },
+  "previous_projects/hsma_5/h5_5005_des_elective_surgery_pathways/index.qmd": {
+    "index.html": "0388ca0b"
+  },
+  "previous_projects/hsma_5/h5_5006_ml_inequities_hospital_procedure_access/index.qmd": {
+    "index.html": "eb73dd67"
+  },
+  "previous_projects/hsma_5/h5_5008_multiobjective_neonatal_optimisation/index.qmd": {
+    "index.html": "7d914134"
+  },
+  "previous_projects/hsma_5/h5_5009_network_analysis_diagnostics_ae/index.qmd": {
+    "index.html": "e147a2fa"
+  },
+  "previous_projects/hsma_5/h5_5010_health_equity_audits_cdc/index.qmd": {
+    "index.html": "7f1a6a38"
+  },
+  "previous_projects/hsma_5/h5_5012_forecasting_demand_clock_starts/index.qmd": {
+    "index.html": "a075c50e"
+  },
+  "previous_projects/hsma_5/h5_5013_understanding_excess_mortality/index.qmd": {
+    "index.html": "ba77e324"
+  },
+  "previous_projects/hsma_5/h5_5014_workforce_turnover_drivers/index.qmd": {
+    "index.html": "f6bb9bb9"
+  },
+  "previous_projects/hsma_5/h5_5015_des_dorset/index.qmd": {
+    "index.html": "d61adc5f"
+  },
+  "previous_projects/hsma_5/h5_5016_inequalities_demographic/index.qmd": {
+    "index.html": "5a471211"
+  },
+  "previous_projects/hsma_5/h5_5006__ml_inequities_hospital_procedure_access/index.qmd": {
+    "index.html": "4905e09d"
+  },
+  "previous_projects/hsma_5/h5_5015_des_dorset_rheumatology/index.qmd": {
+    "index.html": "07d863fa"
   }
 }
