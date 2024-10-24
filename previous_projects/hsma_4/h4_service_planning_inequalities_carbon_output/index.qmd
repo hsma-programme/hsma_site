@@ -8,6 +8,9 @@ categories:
   - Carbon Emissions
   - Health Equity Audits
   - NHS
+techniques:
+  - Machine Learning
+  - Automation
 author:
   - name: Matt Eves
     affiliation: Derbyshire Community Health Services NHS

@@ -5,6 +5,10 @@ categories:
   - Geostatistics
   - QGIS
   - Police
+techniques:
+  - Mapping
+  - Geostatistics
+  - QGIS
 author:
   - name: Anupma Wadhera
     affiliation: TBC

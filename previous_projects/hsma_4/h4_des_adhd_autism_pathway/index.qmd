@@ -8,6 +8,8 @@ categories:
   - Identifying Bottlenecks in Pathways
   - Reducing Backlogs
   - NHS
+techniques:
+  - Discrete Event Simulation
 author:
   - name: Irma Tanovic
     affiliation: Oxford Health NHS Foundation Trust

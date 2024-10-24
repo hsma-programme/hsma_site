@@ -6,6 +6,8 @@ categories:
   - Patient Flow
   - Inpatients
   - NHS
+techniques:
+  - Discrete Event Simulation
 author:
   - name: Helen Young
     affiliation: Nottingham University Hospitals NHS Trust

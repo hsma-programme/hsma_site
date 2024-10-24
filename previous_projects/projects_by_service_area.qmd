@@ -13,7 +13,7 @@ listing:
       categories: false
       include:
         categories: "{Emergency Departments,Accident & Emergency*}"
-      # template: ../html/previous_projects/listing.ejs
+      template: ../html/previous_projects/listing.ejs
     - id: rheumatology_projects
       contents: "*/*/index.qmd"
       sort: "date desc"
@@ -22,7 +22,7 @@ listing:
       categories: false
       include:
         categories: "Rheumatology"
-      # template: ../html/previous_projects/listing.ejs
+      template: ../html/previous_projects/listing.ejs
     - id: mental_health_projects
       contents: "*/*/index.qmd"
       sort: "date desc"
@@ -31,7 +31,7 @@ listing:
       categories: false
       include:
         categories: "Mental Health"
-      # template: ../html/previous_projects/listing.ejs
+      template: ../html/previous_projects/listing.ejs
     - id: workforce_projects
       contents: "*/*/index.qmd"
       sort: "date desc"
@@ -40,7 +40,7 @@ listing:
       categories: false
       include:
         categories: "Workforce"
-      # template: ../html/previous_projects/listing.ejs
+      template: ../html/previous_projects/listing.ejs
     - id: neonatal_projects
       contents: "*/*/index.qmd"
       sort: "date desc"
@@ -49,7 +49,7 @@ listing:
       categories: false
       include:
         categories: "Neonatal"
-      # template: ../html/previous_projects/listing.ejs
+      template: ../html/previous_projects/listing.ejs
     - id: respiratory_projects
       contents: "*/*/index.qmd"
       sort: "date desc"
@@ -58,7 +58,7 @@ listing:
       categories: false
       include:
         categories: "Respiratory"
-      # template: ../html/previous_projects/listing.ejs
+      template: ../html/previous_projects/listing.ejs
     - id: vaccination_projects
       contents: "*/*/index.qmd"
       sort: "date desc"
@@ -67,7 +67,7 @@ listing:
       categories: false
       include:
         categories: "Vaccination"
-      # template: ../html/previous_projects/listing.ejs
+      template: ../html/previous_projects/listing.ejs
     - id: paediatric_projects
       contents: "*/*/index.qmd"
       sort: "date desc"
@@ -76,7 +76,7 @@ listing:
       categories: false
       include:
         categories: "Paediatric"
-      # template: ../html/previous_projects/listing.ejs
+      template: ../html/previous_projects/listing.ejs
     - id: elective_surgery_projects
       contents: "*/*/index.qmd"
       sort: "date desc"
@@ -85,7 +85,7 @@ listing:
       categories: false
       include:
         categories: "Elective Surgery"
-      # template: ../html/previous_projects/listing.ejs
+      template: ../html/previous_projects/listing.ejs
     - id: cancer_projects
       contents: "*/*/index.qmd"
       sort: "date desc"
@@ -94,7 +94,7 @@ listing:
       categories: false
       include:
         categories: "Cancer"
-      # template: ../html/previous_projects/listing.ejs
+      template: ../html/previous_projects/listing.ejs
     - id: primary_care_projects
       contents: "*/*/index.qmd"
       sort: "date desc"
@@ -111,7 +111,7 @@ listing:
       categories: false
       include:
         categories: "{Police}*"
-      # template: ../html/previous_projects/listing.ejs
+      template: ../html/previous_projects/listing.ejs
     - id: cardiac_projects
       contents: "*/*/index.qmd"
       sort: "date desc"
@@ -120,7 +120,7 @@ listing:
       categories: false
       include:
         categories: "{Cardiac,Cardiology}*"
-      # template: ../html/previous_projects/listing.ejs
+      template: ../html/previous_projects/listing.ejs
     - id: orthopaedic_projects
       contents: "*/*/index.qmd"
       sort: "date desc"
@@ -129,7 +129,7 @@ listing:
       categories: false
       include:
         categories: "{Orthopaedic,Orthopaedics}*"
-      # template: ../html/previous_projects/listing.ejs
+      template: ../html/previous_projects/listing.ejs
     - id: inequalities_projects
       contents: "*/*/index.qmd"
       sort: "date desc"
@@ -138,7 +138,7 @@ listing:
       categories: false
       include:
         categories: "{Inequalities,Health Equity}*"
-      # template: ../html/previous_projects/listing.ejs
+      template: ../html/previous_projects/listing.ejs
     - id: public_health_projects
       contents: "*/*/index.qmd"
       sort: "date desc"
@@ -147,7 +147,7 @@ listing:
       categories: false
       include:
         categories: "{Public Health}*"
-      # template: ../html/previous_projects/listing.ejs
+      template: ../html/previous_projects/listing.ejs
 ---
 
 ## Emergency Departments

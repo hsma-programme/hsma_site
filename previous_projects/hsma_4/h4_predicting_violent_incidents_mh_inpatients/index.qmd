@@ -5,6 +5,8 @@ categories:
   - Mental Health
   - Mental Health Inpatients
   - NHS
+techniques:
+  - Machine Learning
 author:
   - name: Iain Waring
     affiliation: Birmingham & Solihull Mental Health NHS Foundation Trust

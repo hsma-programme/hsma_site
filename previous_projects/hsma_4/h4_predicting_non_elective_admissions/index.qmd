@@ -6,6 +6,9 @@ categories:
   - Inpatient Admissions
   - Natural Language Processing
   - NHS
+techniques:
+  - Machine Learning
+  - Natural Language Processing
 author:
   - name: Stephen Ashmead
     affiliation: Royal Devon University Healthcare NHS Foundation Trust

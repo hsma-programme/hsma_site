@@ -6,6 +6,8 @@ categories:
   - Emergency Departments
   - Identifying Bottlenecks in Pathways
   - NHS
+techniques:
+  - Discrete Event Simulation
 author:
   - name: Shilpa Patel
     affiliation: University College Hospital Trust

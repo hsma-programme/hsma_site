@@ -7,6 +7,8 @@ categories:
   - ECDS Dataset
   - Booked Appointments in Walk-in Services
   - NHS
+techniques:
+  - Discrete Event Simulation
 author:
   - name: Alice Waterhouse
     affiliation: NHS England and Improvement

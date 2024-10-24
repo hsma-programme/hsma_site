@@ -5,6 +5,8 @@ categories:
   - Respiratory
   - NHS
   - Inpatient Admissions
+techniques:
+  - Machine Learning
 author:
   - name: Andy McCann
     affiliation: NHS Midlands and Lancashire Commissioning Support Unit

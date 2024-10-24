@@ -6,6 +6,8 @@ categories:
   - Colorectal
   - Identifying Bottlenecks in Pathways
   - NHS
+techniques:
+  - Discrete Event Simulation
 author:
   - name: Angel Masih
     affiliation: Gloucestershire Hospitals Foundation Trust

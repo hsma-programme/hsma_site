@@ -8,6 +8,10 @@ categories:
   - Primary Care
   - Emergency Departments
   - NHS
+techniques:
+  - Discrete Event Simulation
+  - Plotly Dash
+  - Network Analysis
 author:
   - name: Richard Pilbery
     affiliation: Yorkshire Ambulance Service NHS Trust
@@ -26,6 +30,15 @@ pub-info:
   - name: Video
     url: https://www.youtube.com/watch?v=cg5Bp3O02io&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=1
     icon: fa-brands fa-youtube
+  - name: Article
+    url: https://arc-swp.nihr.ac.uk/publications/modelling-nhs-111-demand-for-primary-care-services-a-discrete-event-simulation/
+    icon: fa-solid fa-newspaper
+  - name: Paper
+    url: https://bmjopen.bmj.com/content/13/9/e076203
+    icon: fa-solid fa-file-contract
+  - name: Code
+    url: https://github.com/RichardPilbery/MOOOD-study
+    icon: fa-brands fa-github
 ---
 
 This was an attempt to model the impact of enforcing timely primary care interventions when 111 calls are undertaken.

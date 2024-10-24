@@ -10,6 +10,10 @@ categories:
   - Inpatients
   - Staffing Level Optimisation
   - NHS
+techniques:
+  - Machine Learning
+  - Forecasting
+  - Streamlit
 author:
   - name: Lisa Sabir
     affiliation: Sheffield Children’s Hospital

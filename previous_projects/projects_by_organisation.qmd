@@ -12,7 +12,7 @@ listing:
       categories: false
       include:
         categories: "NHS"
-      # template: ../html/previous_projects/listing.ejs
+      template: ../html/previous_projects/listing.ejs
     - id: police_projects
       contents: "*/*/index.qmd"
       sort: "date desc"
@@ -21,7 +21,7 @@ listing:
       categories: false
       include:
         categories: "Police"
-      # template: ../html/previous_projects/listing.ejs
+      template: ../html/previous_projects/listing.ejs
     - id: council_projects
       contents: "*/*/index.qmd"
       sort: "date desc"
@@ -30,7 +30,7 @@ listing:
       categories: false
       include:
         categories: "Council"
-      # template: ../html/previous_projects/listing.ejs
+      template: ../html/previous_projects/listing.ejs
 ---
 
 ## NHS

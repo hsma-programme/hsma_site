@@ -6,6 +6,8 @@ categories:
   - Improving Access to Psychological Therapies (IAPT)
   - Community Mental Health
   - NHS
+techniques:
+  - Discrete Event Simulation
 author:
   - name: Katie Brown
     affiliation: Dorset HealthCare

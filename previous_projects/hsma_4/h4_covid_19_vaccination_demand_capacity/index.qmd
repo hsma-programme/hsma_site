@@ -7,6 +7,10 @@ categories:
   - COVID-19
   - Plotly Dash
   - NHS
+techniques:
+  - Forecasting
+  - Prophet
+  - Plotly Dash
 author:
   - name: Charlene Black
     affiliation: South Central and West Commissioning Support Unit

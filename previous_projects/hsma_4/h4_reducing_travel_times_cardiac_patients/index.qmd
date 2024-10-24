@@ -7,6 +7,11 @@ categories:
   - Cardiology
   - Location Optimisation
   - NHS
+techniques:
+  - Mapping
+  - Travel Times
+  - Streamlit
+  - Location Optimisation
 author:
   - name: Glenn Ubly
     affiliation: NHS England Specialised Commissioning – South East Region
