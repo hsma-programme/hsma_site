@@ -13,6 +13,9 @@ author:
     affiliation: Royal Devon University Healthcare NHS Foundation Trust
   - name: Jahangir Alam
     affiliation: NHS North East London CSU
+organisations:
+  - Royal Devon University Healthcare NHS Foundation Trust
+  - NHS North East London CSU
 image: "lb926cjj.bmp"
 title-block-banner: ../../banner.png
 ---

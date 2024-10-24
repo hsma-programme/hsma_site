@@ -14,6 +14,8 @@ techniques:
 author:
   - name: Dominic Allen
     affiliation: Guy’s and St Thomas’ NHS Foundation Trust
+organisations:
+  - Guy’s and St Thomas’ NHS Foundation Trust
 image: "81ntpmry.bmp"
 title-block-banner: ../../banner.png
 pub-info:

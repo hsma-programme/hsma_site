@@ -8,6 +8,8 @@ categories:
 author:
   - name: Andy McCann
     affiliation: NHS Midlands and Lancashire Commissioning Support Unit
+organisations:
+  - NHS Midlands and Lancashire Commissioning Support Unit
 image: "ml9qqnl3.bmp"
 title-block-banner: ../../banner.png
 pub-info:

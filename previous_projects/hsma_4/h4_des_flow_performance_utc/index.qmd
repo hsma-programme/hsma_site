@@ -9,6 +9,8 @@ categories:
 author:
   - name: Shilpa Patel
     affiliation: University College Hospital Trust
+organisations:
+  - University College Hospital Trust
 image: "kfbt6ekn.bmp"
 title-block-banner: ../../banner.png
 pub-info:

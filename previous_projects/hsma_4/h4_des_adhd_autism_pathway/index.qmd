@@ -11,6 +11,8 @@ categories:
 author:
   - name: Irma Tanovic
     affiliation: Oxford Health NHS Foundation Trust
+organisations:
+  - Oxford Health NHS Foundation Trust
 image: "ur9vxl8p.bmp"
 title-block-banner: ../../banner.png
 pub-info:

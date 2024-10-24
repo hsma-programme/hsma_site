@@ -16,6 +16,9 @@ author:
     affiliation: Senior Information Analyst, Royal Devon and Exeter NHS Foundation Trust
 image: "8vopju20.bmp"
 title-block-banner: ../../banner.png
+organisations:
+  - NHS Devon CCG
+  - Royal Devon and Exeter NHS Foundation Trust
 pub-info:
   links:
   - name: Video

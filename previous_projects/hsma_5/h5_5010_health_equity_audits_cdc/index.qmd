@@ -7,7 +7,7 @@ categories:
   - Automation
   - Health Equity Audits
   - NHS
-techniques: 
+techniques:
   - Streamlit
   - Automation
 author:
@@ -15,6 +15,9 @@ author:
     affiliation: UCL Partners
   - name: Deborah Newton
     affiliation: Reading Borough Council
+organisations:
+  - UCL Partners
+  - Reading Borough Council
 image: "2d2d6s0i.bmp"
 title-block-banner: ../../banner.png
 pub-info:

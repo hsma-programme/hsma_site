@@ -14,6 +14,9 @@ author:
     affiliation: BCP Council
   - name: Krzysztof Cepa
     affiliation: Dorset Intelligence and Insight Service (NHS Dorset)
+organisations:
+  - Dorset Intelligence and Insight Service (NHS Dorset)
+  - BCP Council
 image: "Abby Dewhurst.jpg"
 title-block-banner: ../../banner.png
 pub-info:

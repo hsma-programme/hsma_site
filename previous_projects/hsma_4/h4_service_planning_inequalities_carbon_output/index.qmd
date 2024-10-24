@@ -15,6 +15,10 @@ author:
     affiliation: Torbay Council
   - name: Sally Brown
     affiliation: West Sussex County Council
+organisations:
+  - Derbyshire Community Health Services NHS
+  - Torbay Council
+  - West Sussex County Council
 image: "bef68gj9.bmp"
 title-block-banner: ../../banner.png
 pub-info:

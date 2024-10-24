@@ -16,6 +16,10 @@ author:
     affiliation: Devon and Cornwall Police
   - name: Alessia Rose
     affiliation: Devon County Council
+organisations:
+  - Counter Terrorism Policing
+  - Devon and Cornwall Police
+  - Devon County Council
 image: "m6ij2sto.bmp"
 title-block-banner: ../../banner.png
 pub-info:

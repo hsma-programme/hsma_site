@@ -12,6 +12,8 @@ author:
     affiliation: NHS England and Improvement
   - name: Xiaochen Ge
     affiliation: NHS England and Improvement
+organisations:
+  - NHS England and Improvement
 image: "wxsssb6m.bmp"
 title-block-banner: ../../banner.png
 pub-info:

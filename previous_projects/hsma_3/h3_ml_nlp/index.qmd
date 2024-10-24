@@ -12,7 +12,11 @@ author:
   - name: Prof Mona Nasser
     affiliation: Associate Professor of Evidence Based Dentistry, Peninsula Dental School
   - name: Imca Hensels-Pelling
-    affiliation: Information Analyst, Royal Devon and Exeter NHS Foundation Trust
+    affiliation: Information Analyst, Royal Devon and Exeter NHS Foundation
+organisations:
+  - Torridge Primary Care Network
+  - Peninsula Dental School
+  - Royal Devon and Exeter NHS Foundation
 image: "x17ig2yr.bmp"
 title-block-banner: ../../banner.png
 pub-info:

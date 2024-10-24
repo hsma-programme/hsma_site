@@ -9,11 +9,11 @@ techniques:
   - Named Entity Recognition
 author:
   - name: Lauren Szarvas
-    affiliation: TBC
+    affiliation: Bedfordshire Police
   - name: Holly Dale
-    affiliation: TBC
+    affiliation: Derbyshire Police
   - name: Tom Haddock
-    affiliation: TBC
+    affiliation: Greater Manchester Police
 image: "5r2xrx9d.bmp"
 title-block-banner: ../../banner.png
 pub-info:

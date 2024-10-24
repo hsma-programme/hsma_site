@@ -12,6 +12,8 @@ author:
     affiliation: Business Intelligence Developer, Devon and Cornwall Police
 image: "6s1gmgrn.bmp"
 title-block-banner: ../../banner.png
+organisations:
+  - Devon and Cornwall Police
 pub-info:
   links:
   - name: Video
@@ -26,4 +28,3 @@ Fiona Bohan, Performance and Analysis Manager at Devon and Cornwall Police, had 
 “The need for Social Network Analysis is clear. Criminal and exploitative networks are a huge and costly issue for police, their partner agencies, and the community. SNA, using minimal resource, can identify children at current and future risk of exploitation, as well as those key players within the network who pose the greatest risk. By targeting and removing these key players, and concentrating limited early intervention resources on protecting those at risk in the future, there are potential significant savings both in terms of child harm and partnership spend. This proof of concept has highlighted the significant benefits of embedding this approach in force and, in my view, will play an important part in policing in the future.”
 
 {{< video https://www.youtube.com/watch?v=oSPxFaeDa5Q&list=PLgHO2TgIJXdnAWY7tGGPQLWYAjn0tgG_A&index=5 >}}
-

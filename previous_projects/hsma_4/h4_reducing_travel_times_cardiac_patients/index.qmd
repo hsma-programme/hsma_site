@@ -16,6 +16,10 @@ author:
     affiliation: NHS England and Improvement
   - name: Victor Yu
     affiliation: The Strategy Unit
+organisations:
+  - NHS England Specialised Commissioning – South East Region
+  - NHS England and Improvement
+  - The Strategy Unit
 image: "7s1io79p.bmp"
 title-block-banner: ../../banner.png
 pub-info:

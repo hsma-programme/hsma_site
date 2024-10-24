@@ -16,9 +16,13 @@ author:
     affiliation: NHS England
   - name: Richard Pilbery
     affiliation: Yorkshire Ambulance Service
+organisations:
+  - NHS England
+  - Yorkshire Ambulance Service
 image: "f1haee9r.bmp"
 title-block-banner: ../../banner.png
 pub-info:
+  abstract: This project aimed to work out which factors are the biggest drivers of staff turnover using regression modelling on staff workforce figures as well as other local factors such as employment. This was turned into a dashboard for internal use. However, it was concluded that the currently available data only acccounted for 13% of the variation in turnover seen; more data on other factors is required to explain the patterns seen.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=yYnkdsM5HHo&list=PLgHO2TgIJXdl1MvfkwCGJ6n8_1EYCSzex&index=2

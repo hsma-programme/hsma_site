@@ -13,6 +13,8 @@ techniques:
 author:
   - name: Hamzah Shami
     affiliation: NHS England
+organisations:
+  - NHS England
 image: "akzr6q9d.bmp"
 title-block-banner: ../../banner.png
 pub-info:

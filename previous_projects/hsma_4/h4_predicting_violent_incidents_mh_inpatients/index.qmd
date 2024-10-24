@@ -8,6 +8,8 @@ categories:
 author:
   - name: Iain Waring
     affiliation: Birmingham & Solihull Mental Health NHS Foundation Trust
+organisations:
+  - Birmingham & Solihull Mental Health NHS Foundation Trust
 image: "6s86lwll.bmp"
 title-block-banner: ../../banner.png
 ---

@@ -11,6 +11,9 @@ author:
     affiliation: Nottingham University Hospitals NHS Trust
   - name: Thomas Knight
     affiliation: Sandwell and Birmingham NHS Trust
+organisations:
+  - Nottingham University Hospitals NHS Trust
+  - Sandwell and Birmingham NHS Trust
 image: "f1haee9r.bmp"
 title-block-banner: ../../banner.png
 pub-info:

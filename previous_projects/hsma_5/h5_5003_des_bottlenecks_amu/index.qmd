@@ -16,6 +16,8 @@ author:
     affiliation: Royal Devon University Healthcare (RDUH) NHS Foundation Trust
   - name: Kayleigh Haydock
     affiliation: Royal Devon University Healthcare (RDUH) NHS Foundation Trust
+organisations:
+  - Royal Devon University Healthcare (RDUH) NHS Foundation Trust
 image: "cd4dqcnc.bmp"
 title-block-banner: ../../banner.png
 pub-info:

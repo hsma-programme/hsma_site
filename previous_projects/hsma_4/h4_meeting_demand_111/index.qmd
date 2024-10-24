@@ -15,6 +15,10 @@ author:
     affiliation: Devon CCG
   - name: Jon Green
     affiliation: University of Plymouth
+organisations:
+  - Yorkshire Ambulance Service NHS Trust
+  - Devon CCG
+  - University of Plymouth
 image: "Abby Dewhurst.jpg"
 title-block-banner: ../../banner.png
 pub-info:
@@ -24,7 +28,7 @@ pub-info:
     icon: fa-brands fa-youtube
 ---
 
-This was an attempt to model the impact of enforcing timely primary care interventions when 111 calls are undertaken. 
+This was an attempt to model the impact of enforcing timely primary care interventions when 111 calls are undertaken.
 
 {{< video https://www.youtube.com/watch?v=cg5Bp3O02io&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=1 >}}
 

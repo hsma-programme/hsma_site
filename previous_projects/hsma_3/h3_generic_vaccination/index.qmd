@@ -10,6 +10,8 @@ author:
     affiliation: GP and Clinical Director, Torridge Primary Care Network
 image: "wjcl716l.bmp"
 title-block-banner: ../../banner.png
+organisations:
+  - Torridge Primary Care Network
 pub-info:
   links:
   - name: Video

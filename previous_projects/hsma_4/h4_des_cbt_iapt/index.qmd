@@ -15,6 +15,9 @@ author:
     affiliation: NHS Dorset
   - name: Matthew Chapman
     affiliation: Dorset HealthCare
+organisations:
+  - Dorset HealthCare
+  - NHS Dorset
 image: "il32v884.bmp"
 title-block-banner: ../../banner.png
 pub-info:

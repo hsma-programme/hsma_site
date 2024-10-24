@@ -13,6 +13,10 @@ author:
     affiliation: University Hospitals of Morecambe Bay NHS Trust
   - name: Mahya Kaveh
     affiliation: Dartford and Gravesham NHS Trust
+organisations:
+  - Gloucestershire Hospitals Foundation Trust
+  - University Hospitals of Morecambe Bay NHS Trust
+  - Dartford and Gravesham NHS Trust
 image: "cuep9jku.bmp"
 title-block-banner: ../../banner.png
 pub-info:

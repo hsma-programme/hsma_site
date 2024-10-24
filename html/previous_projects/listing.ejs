@@ -2,24 +2,23 @@
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     <% for (const item of items) { %>
-      <div class="custom-grid-card border-2 rounded-3" <%= metadataAttrs(item) %>>            
+      <div class="custom-grid-card border-2 rounded-3" <%= metadataAttrs(item) %>>
             <div class="main-card-content">
             <% if(item['image']) { %>
             <a href="<%- item.path %>">
               <img class="card-img" src="<%- item.image %>" alt="<%- item.title %>" class="card-img-top"/>
             </a>
             <% } %>
-            
-            
+
+
             <div class="project-content listing-title">
                 <h5 class="no-anchor card-title listing-title"><%= item['title'] %></h5>
             </div>
 
-            <% if (item['pub-info']) { %>
-            <% if(item['pub-info'].abstract) { %>
+            <% if (item['pub-info'] && item['pub-info'].abstract) { %>
               <p class="listing-abstract"><%= item['pub-info'].abstract %></p>
-              <% } %>
-              <% } %>
+                <% } else { %> <p class="listing-abstract"><%= item.description %></p>
+                <% } %>
 
             <% if(item.techniques) { %>
             <div class="quarto-categories">
@@ -29,19 +28,17 @@
             </div>
             <% } %>
 
-            <!-- <% if(item.author) { %>
-              <% if(item.author.affiliation) { %>
-              <div class="listing-author">
-                <% for (const authorfield of item.author.affiliation) { %>
-                  <%- authorfield %>
+            <% if(item.organisations) { %>
+              <div class="listing-organisations">
+                <% for (const org of item.organisations) { %>
+                <%= org %></br>
                 <% } %>
               </div>
-              <% } %>
-            <% } %> -->
+            <% } %>
 
-          </div> 
+          </div>
 
-          
+
             <div class="project-details-listing">
               <button class="project-link-listing-button"><a href="<%- item.path %>"><i class="fa fa-info-circle"></i> Details </a></button>
                     <% if (item['pub-info']) { %>
@@ -53,9 +50,9 @@
                     <% } %>
             </div>
           </div>
-        
-        
-        
+
+
+
         <% } %>
 </div>
 ```

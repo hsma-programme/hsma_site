@@ -14,6 +14,8 @@ techniques:
 author:
   - name: Duncan Galletly
     affiliation: North West Neonatal Operational Delivery Network
+organisations:
+  - North West Neonatal Operational Delivery Network
 image: "m6ij2sto.bmp"
 title-block-banner: ../../banner.png
 pub-info:

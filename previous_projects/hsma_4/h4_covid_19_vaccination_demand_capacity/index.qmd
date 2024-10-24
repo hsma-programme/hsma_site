@@ -16,6 +16,9 @@ author:
     affiliation: South Central and West Commissioning Support Unit
   - name: Mayoor Dhokia
     affiliation: Surrey and Borders Partnership NHS Trust
+organisations:
+   - South Central and West Commissioning Support Unit
+   - Surrey and Borders Partnership NHS Trust
 image: "bk6maxsh.bmp"
 title-block-banner: ../../banner.png
 pub-info:

@@ -13,6 +13,8 @@ techniques:
 author:
   - name: Hannah Perkins
     affiliation: University Hospitals Plymouth NHS Trust
+organisations:
+  - University Hospitals Plymouth NHS Trust
 image: "il8e1h81.bmp"
 title-block-banner: ../../banner.png
 pub-info:

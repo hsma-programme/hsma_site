@@ -17,6 +17,10 @@ author:
     affiliation: Wessex AHSN
   - name: Sian Heath
     affiliation: Nottingham University Hospitals NHS Trust
+organisations:
+  - NHS Arden and Greater East Midlands CSU
+  - Wessex AHSN
+  - Nottingham University Hospitals NHS Trust
 image: "8p2z6i2v.bmp"
 title-block-banner: ../../banner.png
 pub-info:

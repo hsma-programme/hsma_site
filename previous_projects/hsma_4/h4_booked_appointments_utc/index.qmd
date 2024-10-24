@@ -10,6 +10,8 @@ categories:
 author:
   - name: Alice Waterhouse
     affiliation: NHS England and Improvement
+organisations:
+  - NHS England and Improvement
 image: "ultnzucw.bmp"
 title-block-banner: ../../banner.png
 pub-info:
