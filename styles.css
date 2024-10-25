@@ -220,3 +220,39 @@
 .main-card-content {
   flex: 1;
 }
+
+.session-content.session-listing-title {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 0.5rem 1rem;
+}
+
+.session-content.session-listing-title h5.session-listing-title {
+  margin: 0;
+  display: inline-block;
+}
+
+.session-content.session-listing-title .session-duration-button {
+  display: inline-block;
+  margin-left: 10px; /* Adds some space between the title and the button */
+  background-color: #202020;  /* Grey background */
+  color: rgb(189, 189, 189);               /* Off-White text */
+  border: 2px solid rgb(138, 138, 138);    /* Off-White border */
+  padding: 5px 5px;         /* Padding for better clickability */
+  margin: 2px 0px;
+  font-size: 11px;            /* Font size */
+  font-weight: bold;          /* Bold text */
+  text-align: center;         /* Center the text */
+  text-decoration: none;      /* Remove underline from text */
+  cursor: none;               /* Normal cursor on hover */
+  border-radius: 5px;         /* Rounded corners */
+}
+
+.listing-session-lead {
+  font-size: .8em;
+  text-transform: uppercase;
+  color: #6c757d;
+  padding: 0.5rem 1rem;
+  font-weight: 500;
+}
