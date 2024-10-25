@@ -3,6 +3,7 @@ title: "HSMA Books"
 toc: false
 title-block-banner: ../banner.png
 include-back-link: false
+page-layout: full
 listing:
     - id: books
       contents: "book_details/*.qmd"

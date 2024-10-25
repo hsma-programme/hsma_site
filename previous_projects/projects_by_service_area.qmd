@@ -4,6 +4,11 @@ toc-location: right
 title-block-banner: banner.png
 toc-expand: 2
 include-back-link: false
+grid:
+  sidebar-width: 0px
+  body-width: 1100px
+  margin-width: 300px
+  gutter-width: 1.5rem
 listing:
     - id: emergency_department_projects
       contents: "*/*/index.qmd"
