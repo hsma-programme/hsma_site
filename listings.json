@@ -75,6 +75,16 @@
     ]
   },
   {
+    "listing": "/hsma_content/books/books.html",
+    "items": [
+      "/hsma_content/books/book_details/book_introduction_to_python.html",
+      "/hsma_content/books/book_details/book_des.html",
+      "/hsma_content/books/book_details/book_geographic_modelling.html",
+      "/hsma_content/books/book_details/book_machine_leaning.html",
+      "/hsma_content/books/book_details/book_streamlit.html"
+    ]
+  },
+  {
     "listing": "/previous_projects/projects_by_methods.html",
     "items": [
       "/previous_projects/hsma_3/h3_elective_backlog_hip/index.html",
