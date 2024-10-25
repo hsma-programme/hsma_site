@@ -1,0 +1,20 @@
+---
+title: "Module 1: Introduction to Operational Research, Data Science and Programming		"
+title-block-banner: ../../banner.png
+image: "1_intro_or_ds_python.jpeg"
+hours: 36
+pub-info:
+  abstract: |
+    This module serves as an introduction to the fields of operational research and data science, as well as ensuring you have the tools setup and all of the Python knowledge you need to be able to access the later sessions delivered on the course.
+
+    <br/><br/>It covers
+    <br/>&#x2022; How the HSMA course is structured
+    <br/>&#x2022; Why we should use Free and Open Source (FOSS) software
+    <br/>&#x2022; What Operational Research and Data Science are
+    <br/>&#x2022; The conceptual modelling process
+    <br/>&#x2022; The concepts underpinning coding, such as conditional logic, the object oriented paradigm, and more
+    <br/>&#x2022; How to set up the VSCode Integrated Development Environment (IDE) for Python Programming
+    <br/>&#x2022; How to set up environments for package management throughout the HSMA course using Anaconda or the built-in environment features of VSCode
+    <br/>&#x2022; How to write code using the Python programming language
+
+---

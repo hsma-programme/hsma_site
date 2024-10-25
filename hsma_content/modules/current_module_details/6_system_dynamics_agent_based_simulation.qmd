@@ -1,0 +1,8 @@
+---
+title: "Module 6: Modelling Behaviour and System Dynamics"
+title-block-banner: ../../banner.png
+image: "6_system.jpg"
+hours: 12
+pub-info:
+  abstract:
+---

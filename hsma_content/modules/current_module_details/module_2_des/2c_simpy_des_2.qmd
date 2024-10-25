@@ -1,0 +1,22 @@
+---
+title: "2C: SimPy for Discrete Event Simulation - Part 2"
+title-block-banner: ../../../banner.png
+hours: 3
+image: ""
+session-lead: Dr Daniel Chalk
+pub-info:
+  abstract:
+  links:
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1y7S7bjJtdLQCquzzZ2vjYzRx9-RwXE-SWgWf88fLc4o/edit?usp=sharing
+    icon: fa-solid fa-person-chalkboard
+  - name: Video
+    url: https://www.youtube.com/watch?v=FBVBKtVkayA
+    icon: fa-brands fa-youtube
+  - name: Repository
+    url: https://github.com/hsma-programme/h6_simpy_part_2
+    icon: fa-brands fa-github
+  - name: Book
+    url: https://hsma-programme.github.io/hsma6_des_book/model_warm_up.html
+    icon: fa-solid fa-book
+---

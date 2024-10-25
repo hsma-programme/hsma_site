@@ -1,0 +1,46 @@
+```{=html}
+<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(600px, 950px)); gap: 40px;">
+
+  <% for (const item of items) { %>
+    <div class="custom-grid-card border-2 rounded-3" <%= metadataAttrs(item) %>>
+          <div class="main-card-content">
+
+
+              <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title"><%= item['title'] %></h5>
+            </div>
+
+            <% if (item['pub-info'] && item['pub-info'].abstract) { %>
+              <p class="listing-abstract"><%= item['pub-info'].abstract %></p>
+
+                <% } %>
+
+                <div class="quarto-categories">
+                              <button class="category-button"><%= item.hours %> hours</button>
+              </div>
+
+              <% if(item['session-lead']) { %>
+                <div class="listing-organisations">
+                  Session Lead: <%= item['session-lead'] %></br>
+                </div>
+              <% } %>
+
+              </div>
+
+
+                <div class="project-details-listing">
+                  <% if (item['pub-info']) { %>
+                    <% if (item['pub-info'].links) { %>
+                        <% for (const link of item['pub-info'].links) { %>
+                    <button class="project-link-listing-button"><a href="<%- link.url %>"><i class="<%- link.icon %>"></i> <%= link.name %> </a></button>
+                        <% } %>
+                      <% } %>
+                  <% } %>
+                </div>
+
+              </div>
+
+            <% } %>
+          </div>
+
+```

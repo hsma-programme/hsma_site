@@ -1,0 +1,8 @@
+---
+title: "Module 5: Natural Language Processing	"
+title-block-banner: ../../banner.png
+image: "nlp.jpg"
+hours: 9
+pub-info:
+  abstract:
+---

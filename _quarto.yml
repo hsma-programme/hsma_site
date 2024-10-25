@@ -48,6 +48,8 @@ website:
         menu:
           - href: hsma_content/books/books.qmd
             text: HSMA Books
+          - href: hsma_content/modules/modules.qmd
+            text: HSMA Modules
 
 
 format:

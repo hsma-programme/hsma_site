@@ -40,6 +40,12 @@
     ],
     "hsma_content\\books\\books.qmd": [
       "book_details/*.qmd"
+    ],
+    "hsma_content\\modules\\modules.qmd": [
+      "current_module_details/*.qmd"
+    ],
+    "hsma_content\\modules\\current_module_details\\2_des.qmd": [
+      "module_2_des/*.qmd"
     ]
   }
 }

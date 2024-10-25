@@ -1,0 +1,25 @@
+---
+title: "2B: SimPy for Discrete Event Simulation - Part 1"
+title-block-banner: ../../../banner.png
+hours: 3
+image: ""
+session-lead: Dr Daniel Chalk
+pub-info:
+  abstract: |
+     In this session, we look at how we can use the SimPy Python package (which is built around generator functions) to build Discrete Event Simulations in Python.
+     <br/><br/>
+     We start with a very simple model in which patients arrive, are seen by a nurse, and then leave, before building up to multi-step models and models with branching pathways. We then explore how to record results from our simulation and explore the impact of changing the level of resources available or the distribution of inter-arrival times and activity durations.
+  links:
+  - name: Slides
+    url: https://docs.google.com/presentation/d/15bQX0yxfDgjNVJSQORNzBCWVvbKI_LaTcbtYVKsvYcU/edit?usp=sharing
+    icon: fa-solid fa-person-chalkboard
+  - name: Video
+    url: https://www.youtube.com/watch?v=nHgyJ6i0TGs
+    icon: fa-brands fa-youtube
+  - name: Repository
+    url: https://github.com/hsma-programme/h6_simpy_part_1
+    icon: fa-brands fa-github
+  - name: Book
+    url: https://hsma-programme.github.io/hsma6_des_book/intro_to_simpy.html
+    icon: fa-solid fa-book
+---

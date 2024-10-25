@@ -1,0 +1,39 @@
+---
+title: "HSMA Modules"
+toc: false
+title-block-banner: ../banner.png
+include-back-link: false
+page-layout: full
+grid:
+  sidebar-width: 0px
+  body-width: 1100px
+  margin-width: 300px
+  gutter-width: 1.5rem
+listing:
+    - id: modules
+      contents: "current_module_details/*.qmd"
+      sort: "date"
+      type: grid
+      grid-columns: 2
+      categories: false
+      template: ../../html/modules/module_listing.ejs
+---
+
+The slides, exercises and content from the HSMA session is freely available for everyone to access!
+
+Click into the module you are interested in to find a full list of the sessions within that module, including links to the session recording, the slides, and the code-based exercises and solutions.
+
+
+:::{.callout-note}
+Modules are listed in the order they are delivered on the course, but while module 1 is essential for all other modules, most of the remaining modules can be consumed independently.
+
+The only exceptions are
+
+- deploying reproducible reports online in module 8 (an optional exercise) relies on github content from session 7A
+- natural language processing in module 5, which benefits from completing module 4 (machine learning) first
+
+:::
+
+
+:::{#modules}
+:::

@@ -1,0 +1,38 @@
+```{=html}
+<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(450px, 450px)); gap: 20px;">
+
+  <% for (const item of items) { %>
+    <div class="custom-grid-card border-2 rounded-3" <%= metadataAttrs(item) %>>
+          <div class="main-card-content">
+            <% if(item['image']) { %>
+              <a href="<%- item.link %>" target="_blank">
+                <img class="card-img" src="<%- item.image %>" alt="<%- item.title %>" class="card-img-top"/>
+              </a>
+              <% } %>
+
+              <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title"><%= item['title'] %></h5>
+            </div>
+
+            <div class="quarto-categories">
+              <button class="category-button"><%= item.hours %> hours</button>
+            </div>
+
+            <% if (item['pub-info'] && item['pub-info'].abstract) { %>
+              <p class="listing-abstract"><%= item['pub-info'].abstract %></p>
+
+                <% } %>
+
+              </div>
+
+
+                <div class="project-details-listing">
+                  <button class="project-link-listing-button"><a href="<%- item.path %>"><i class="fa fa-info-circle"></i> Details </a></button>
+                </div>
+
+              </div>
+
+            <% } %>
+          </div>
+
+```

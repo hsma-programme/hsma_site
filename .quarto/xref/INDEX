@@ -343,5 +343,68 @@
   },
   "hsma_content/books/book_details/book_streamlit.qmd": {
     "book_streamlit.html": "5fb689e3"
+  },
+  "hsma_content/modules/current_module_details/1_intro_or_ds_python.qmd": {
+    "1_intro_or_ds_python.html": "fb73f3b3"
+  },
+  "hsma_content/modules/current_module_details/2_des.qmd": {
+    "2_des.html": "167dc054"
+  },
+  "hsma_content/modules/current_module_details/3_geographic_modelling_visualisation.qmd": {
+    "3_geographic_modelling_visualisation.html": "a42fbdb9"
+  },
+  "hsma_content/modules/current_module_details/4_machine_learning.qmd": {
+    "4_machine_learning.html": "92f804b9"
+  },
+  "hsma_content/modules/current_module_details/5_natural_language_processing.qmd": {
+    "5_natural_language_processing.html": "3ba9311a"
+  },
+  "hsma_content/modules/current_module_details/6_system_dynamics_agent_based_simulation.qmd": {
+    "6_system_dynamics_agent_based_simulation.html": "b422bd13"
+  },
+  "hsma_content/modules/current_module_details/7_git_and_web_development.qmd": {
+    "7_git_and_web_development.html": "d5c8d57c"
+  },
+  "hsma_content/modules/current_module_details/8_modern_analytics.qmd": {
+    "8_modern_analytics.html": "eebb8a11"
+  },
+  "hsma_content/modules/current_module_details/module_1_or_ds_python/1a_hsma_induction_welcome_to_hsma.qmd": {
+    "1a_hsma_induction_welcome_to_hsma.html": "627a264b"
+  },
+  "hsma_content/modules/current_module_details/module_1_or_ds_python/1b_introduction_to_or_ds.qmd": {
+    "1b_introduction_to_or_ds.html": "d67cde19"
+  },
+  "hsma_content/modules/current_module_details/module_1_or_ds_python/1c_principles_of_programming.qmd": {
+    "1c_principles_of_programming.html": "0fc50e30"
+  },
+  "hsma_content/modules/current_module_details/module_1_or_ds_python/1d_ides_python_parlance.qmd": {
+    "1d_ides_python_parlance.html": "4469ac1a"
+  },
+  "hsma_content/modules/current_module_details/module_1_or_ds_python/1e_python_1.qmd": {
+    "1e_python_1.html": "3b694efb"
+  },
+  "hsma_content/modules/current_module_details/module_1_or_ds_python/1f_python_2.qmd": {
+    "1f_python_2.html": "4ac1d76a"
+  },
+  "hsma_content/modules/current_module_details/module_1_or_ds_python/1g_python_3.qmd": {
+    "1g_python_3.html": "120cd18f"
+  },
+  "hsma_content/modules/current_module_details/module_2_des/2a_introduction_des.qmd": {
+    "2a_introduction_des.html": "20e7df90"
+  },
+  "hsma_content/modules/current_module_details/module_2_des/2b_simpy_des_1.qmd": {
+    "2b_simpy_des_1.html": "7d2d9fec"
+  },
+  "hsma_content/modules/current_module_details/module_2_des/2c_simpy_des_2.qmd": {
+    "2c_simpy_des_2.html": "2fd5a653"
+  },
+  "hsma_content/modules/modules.qmd": {
+    "modules.html": "3cfe2f96"
+  },
+  "hsma_content/des_playground.qmd": {
+    "des_playground.html": "f12b0f69"
+  },
+  "hsma_content/reinforcement_learning_game.qmd": {
+    "reinforcement_learning_game.html": "57a499e1"
   }
 }

@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>HSMA - HSMA Books</title>
+<title>HSMA - HSMA Modules</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -73,20 +73,20 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-books .list');
+    const listingTargetEl = window.document.querySelector('#listing-modules .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
       return; 
     }
 
     const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-date','listing-pub-info','listing-link','listing-image','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-title-block-banner','listing-image','listing-hours','listing-pub-info','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-page-layout','listing-listing',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-date","listing-pub-info","listing-link","listing-image","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-title-block-banner","listing-image","listing-hours","listing-pub-info","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-page-layout","listing-listing"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-books'] = new List('listing-books', options);
+    window['quarto-listings']['listing-modules'] = new List('listing-modules', options);
 
     if (window['quarto-listing-loaded']) {
       window['quarto-listing-loaded']();
@@ -255,7 +255,7 @@ window.Quarto = {
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page">
-      <h1 class="title">HSMA Books</h1>
+      <h1 class="title">HSMA Modules</h1>
                       </div>
   </div>
     
@@ -279,30 +279,58 @@ window.Quarto = {
 
 
 
-<p>To accompany the HSMA course, we have written several eBooks.</p>
-<p>These are freely available to all - please share them with anyone you think would find them useful!</p>
-<div id="listing-books" class="quarto-listing quarto-listing-container-custom">
-<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(350px, 450px)); gap: 20px;">
+<p>The slides, exercises and content from the HSMA session is freely available for everyone to access!</p>
+<p>Click into the module you are interested in to find a full list of the sessions within that module, including links to the session recording, the slides, and the code-based exercises and solutions.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Modules are listed in the order they are delivered on the course, but while module 1 is essential for all other modules, most of the remaining modules can be consumed independently.</p>
+<p>The only exceptions are</p>
+<ul>
+<li>deploying reproducible reports online in module 8 (an optional exercise) relies on github content from session 7A</li>
+<li>natural language processing in module 5, which benefits from completing module 4 (machine learning) first</li>
+</ul>
+</div>
+</div>
+<div id="listing-modules" class="quarto-listing quarto-listing-container-custom">
+<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(450px, 450px)); gap: 20px;">
 
   
-    <div class="custom-grid-card border-2 rounded-3" data-index="0" data-listing-date-sort="1704067200000" data-listing-file-modified-sort="1729849709007" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+    <div class="custom-grid-card border-2 rounded-3" data-index="0" data-listing-file-modified-sort="1729855200425" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
           <div class="main-card-content">
             
-              <a href="https://hsma-programme.github.io/hsma6_intro_to_python_book/" target="_blank">
-                <img class="card-img" src="../../hsma_content/books/book_details/python_cover_image.jpeg" alt="The HSMA Introduction to Python">
+              <a href="" target="_blank">
+                <img class="card-img" src="../../hsma_content/modules/current_module_details/1_intro_or_ds_python.jpeg" alt="Module 1: Introduction to Operational Research, Data Science and Programming">
               </a>
               
 
               <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">The HSMA Introduction to Python</h5>
+                <h5 class="no-anchor card-title listing-title">Module 1: Introduction to Operational Research, Data Science and Programming</h5>
+            </div>
+
+            <div class="quarto-categories">
+              <button class="category-button">36 hours</button>
             </div>
 
             
-              <p class="listing-abstract">Are you an absolute beginner in the Python programming language? Or even brand new to programming in general? Worry not! Our Python Programming book will take you from "hello world" through to being a whizz with data types, functions, and even the dreaded object oriented programming.
-<br><br>
-Covering data types, lists, dictionaries, loops, conditional logic, using and writing functions, importing packages, and handling errors, this book will unlock a world of additional techniques for you and is an important starting point before moving on to the other books in the HSMA set.
-<br><br>
-We also take a brief look at handling data in the popular, industry-standard numpy and pandas packages, as well as a quick introduction to creating static and interactive graphs, making sure you're equipped with the key knowledge a budding data scientist or operational researcher needs!
+              <p class="listing-abstract">This module serves as an introduction to the fields of operational research and data science, as well as ensuring you have the tools setup and all of the Python knowledge you need to be able to access the later sessions delivered on the course.
+
+<br><br>It covers
+<br>• How the HSMA course is structured
+<br>• Why we should use Free and Open Source (FOSS) software
+<br>• What Operational Research and Data Science are
+<br>• The conceptual modelling process
+<br>• The concepts underpinning coding, such as conditional logic, the object oriented paradigm, and more
+<br>• How to set up the VSCode Integrated Development Environment (IDE) for Python Programming
+<br>• How to set up environments for package management throughout the HSMA course using Anaconda or the built-in environment features of VSCode
+<br>• How to write code using the Python programming language
 </p>
 
                 
@@ -310,135 +338,196 @@ We also take a brief look at handling data in the popular, industry-standard num
               </div>
 
                 <div class="project-details-listing">
-                          
-                          <button class="project-link-listing-button"><a href="https://hsma-programme.github.io/hsma6_intro_to_python_book/" target="_blank"><i class="fa-solid fa-book"></i> Free eBook </a></button>
-                            
+                  <button class="project-link-listing-button"><a href="../../hsma_content/modules/current_module_details/1_intro_or_ds_python.html"><i class="fa fa-info-circle"></i> Details </a></button>
                 </div>
 
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="1" data-listing-date-sort="1706745600000" data-listing-file-modified-sort="1729849527029" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+    <div class="custom-grid-card border-2 rounded-3" data-index="1" data-listing-file-modified-sort="1729855820985" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
           <div class="main-card-content">
             
-              <a href="https://hsma-programme.github.io/hsma6_des_book/" target="_blank">
-                <img class="card-img" src="../../hsma_content/books/book_details/des_cover_image.jpeg" alt="The Little Book of Discrete Event Simulation">
+              <a href="" target="_blank">
+                <img class="card-img" src="../../hsma_content/modules/current_module_details/2_des.jpeg" alt="Module 2: Modelling Pathway and Queuing Problems">
               </a>
               
 
               <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">The Little Book of Discrete Event Simulation</h5>
+                <h5 class="no-anchor card-title listing-title">Module 2: Modelling Pathway and Queuing Problems</h5>
+            </div>
+
+            <div class="quarto-categories">
+              <button class="category-button">9 hours</button>
             </div>
 
             
-              <p class="listing-abstract">Discrete Event Simulation is a powerful technique for tackling queueing problems in your organisation - of which you might have more than you think! Learn how to create a simulated version of your diagnosis pathways, walk-in clinics, emergency departments and more in this book.
-<br><br>
-Covering the key concepts of discrete event simulation in beginner-friendly terms before moving on to coding your own simulations in Python using the SimPy package, you'll be identifying bottlenecks and testing out changes to resourcing and pathway designs in no time.
-</p>
-
-                
 
               </div>
 
                 <div class="project-details-listing">
-                          
-                          <button class="project-link-listing-button"><a href="https://hsma-programme.github.io/hsma6_des_book/" target="_blank"><i class="fa-solid fa-book"></i> Free eBook </a></button>
-                            
+                  <button class="project-link-listing-button"><a href="../../hsma_content/modules/current_module_details/2_des.html"><i class="fa fa-info-circle"></i> Details </a></button>
                 </div>
 
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="2" data-listing-date-sort="1709251200000" data-listing-file-modified-sort="1729849254673" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+    <div class="custom-grid-card border-2 rounded-3" data-index="2" data-listing-file-modified-sort="1729854981117" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
           <div class="main-card-content">
             
-              <a href="https://hsma-programme.github.io/hsma6_geographic_optimisation_and_visualisation_book/intro.html" target="_blank">
-                <img class="card-img" src="../../hsma_content/books/book_details/geographic_cover_image.jpeg" alt="The HSMA Book of Geographic Modelling and Visualisation">
+              <a href="" target="_blank">
+                <img class="card-img" src="../../hsma_content/modules/current_module_details/3_geographic.jpeg" alt="Module 3: Geographic Modelling and Visualisation">
               </a>
               
 
               <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">The HSMA Book of Geographic Modelling and Visualisation</h5>
+                <h5 class="no-anchor card-title listing-title">Module 3: Geographic Modelling and Visualisation</h5>
+            </div>
+
+            <div class="quarto-categories">
+              <button class="category-button">12 hours</button>
             </div>
 
             
-              <p class="listing-abstract">Anybody have a map? We do! This book takes you through a range of key geographical concepts, as well as how to build maps in both the free point-and-click tool QGIS and in the Python programming language. We also take a dive into the world of optimisation problems, learning how to find the optimum solution to the question "where should I place my services?" - taking a brief detour to the world of travel times on our way.
-</p>
-
-                
 
               </div>
 
                 <div class="project-details-listing">
-                          
-                          <button class="project-link-listing-button"><a href="https://hsma-programme.github.io/hsma6_geographic_optimisation_and_visualisation_book/intro.html" target="_blank"><i class="fa-solid fa-book"></i> Free eBook </a></button>
-                            
+                  <button class="project-link-listing-button"><a href="../../hsma_content/modules/current_module_details/3_geographic_modelling_visualisation.html"><i class="fa fa-info-circle"></i> Details </a></button>
                 </div>
 
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="3" data-listing-date-sort="1711926000000" data-listing-file-modified-sort="1729849808690" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+    <div class="custom-grid-card border-2 rounded-3" data-index="3" data-listing-file-modified-sort="1729855110325" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
           <div class="main-card-content">
             
-              <a href="https://hsma-programme.github.io/h6_module4_notebooks/" target="_blank">
-                <img class="card-img" src="../../hsma_content/books/book_details/machine_learning_cover_image.jpeg" alt="The HSMA Collection of Machine Learning Notebooks">
+              <a href="" target="_blank">
+                <img class="card-img" src="../../hsma_content/modules/current_module_details/4_ml.jpeg" alt="Module 4: Machine Learning">
               </a>
               
 
               <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">The HSMA Collection of Machine Learning Notebooks</h5>
+                <h5 class="no-anchor card-title listing-title">Module 4: Machine Learning</h5>
+            </div>
+
+            <div class="quarto-categories">
+              <button class="category-button">30 hours</button>
             </div>
 
             
-              <p class="listing-abstract">Got lots of data and a suspicion that there's a pattern in there somewhere? Machine learning is here to save the day! While we don't have a book here, what we do have is a collection of the guided code examples from across the machine learning module of HSMA. These notebooks talk through the how and why of each step, as well as giving you a huge library of code snippets to use when building your own machine learning projects.
-
-This book takes you through the key concepts in machine learning before we take a tour through a series of powerful supervised machine learning algorithms, including logistic regression, decision trees, random forests and boosted trees - covering both the conceptual basis for each of these, and how to write Python code with the sklearn package to make use of them with your own data and evaluate how well they're performing. We also take a look at neural networks with tensorflow package.
-<br><br>
-To round this set of notebooks off, we take a dive into how you can calibrate and optimise your models, as well as taking a look at what's going on under the hood with explainable techniques like PDP, ICE and SHAP plots.
-</p>
-
-                
 
               </div>
 
                 <div class="project-details-listing">
-                          
-                          <button class="project-link-listing-button"><a href="https://hsma-programme.github.io/h6_module4_notebooks/" target="_blank"><i class="fa-solid fa-book"></i> Free eBook </a></button>
-                            
+                  <button class="project-link-listing-button"><a href="../../hsma_content/modules/current_module_details/4_machine_learning.html"><i class="fa fa-info-circle"></i> Details </a></button>
                 </div>
 
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="4" data-listing-date-sort="1714518000000" data-listing-file-modified-sort="1729850069901" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
+    <div class="custom-grid-card border-2 rounded-3" data-index="4" data-listing-file-modified-sort="1729856613483" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
           <div class="main-card-content">
             
-              <a href="https://bergam0t.github.io/streamlit_book/" target="_blank">
-                <img class="card-img" src="../../hsma_content/books/book_details/streamlit_cover_image.jpeg" alt="The HSMA Book of Streamlit">
+              <a href="" target="_blank">
+                <img class="card-img" src="../../hsma_content/modules/current_module_details/nlp.jpg" alt="Module 5: Natural Language Processing">
               </a>
               
 
               <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">The HSMA Book of Streamlit</h5>
+                <h5 class="no-anchor card-title listing-title">Module 5: Natural Language Processing</h5>
+            </div>
+
+            <div class="quarto-categories">
+              <button class="category-button">9 hours</button>
             </div>
 
             
-              <p class="listing-abstract">It's all well and good having an amazing bit of Python code - but how can you go about sharing that with the people in your organisation who don't use Python? In this book, we introduce the fantastic Streamlit package - a beginner-friendly web development framework that will have you creating interactive data apps in minutes, not weeks.
-<br><br>
-Covering everything from 'Hello Streamlit!' to deploying your app on a free web hosting service, this book is great for beginners to the world of web development.
-<br><br>
-For the more seasoned Streamlit user, you will find a handy reference guide for a range of techniques, including multi-page apps, adding download buttons, partial reruns, custom styling, caching, session state, the stlite framework for browser-based code execution, and more.
-</p>
-
-                
 
               </div>
 
                 <div class="project-details-listing">
-                          
-                          <button class="project-link-listing-button"><a href="https://bergam0t.github.io/streamlit_book/" target="_blank"><i class="fa-solid fa-book"></i> Free eBook </a></button>
-                            
+                  <button class="project-link-listing-button"><a href="../../hsma_content/modules/current_module_details/5_natural_language_processing.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                </div>
+
+              </div>
+
+            
+    <div class="custom-grid-card border-2 rounded-3" data-index="5" data-listing-file-modified-sort="1729856615619" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+          <div class="main-card-content">
+            
+              <a href="" target="_blank">
+                <img class="card-img" src="../../hsma_content/modules/current_module_details/6_system.jpg" alt="Module 6: Modelling Behaviour and System Dynamics">
+              </a>
+              
+
+              <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Module 6: Modelling Behaviour and System Dynamics</h5>
+            </div>
+
+            <div class="quarto-categories">
+              <button class="category-button">12 hours</button>
+            </div>
+
+            
+
+              </div>
+
+                <div class="project-details-listing">
+                  <button class="project-link-listing-button"><a href="../../hsma_content/modules/current_module_details/6_system_dynamics_agent_based_simulation.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                </div>
+
+              </div>
+
+            
+    <div class="custom-grid-card border-2 rounded-3" data-index="6" data-listing-file-modified-sort="1729856617745" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+          <div class="main-card-content">
+            
+              <a href="" target="_blank">
+                <img class="card-img" src="../../hsma_content/modules/current_module_details/7_collab.jpg" alt="Module 7: Open Source Collaborative Development and Web Development">
+              </a>
+              
+
+              <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Module 7: Open Source Collaborative Development and Web Development</h5>
+            </div>
+
+            <div class="quarto-categories">
+              <button class="category-button">18 hours</button>
+            </div>
+
+            
+
+              </div>
+
+                <div class="project-details-listing">
+                  <button class="project-link-listing-button"><a href="../../hsma_content/modules/current_module_details/7_git_and_web_development.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                </div>
+
+              </div>
+
+            
+    <div class="custom-grid-card border-2 rounded-3" data-index="7" data-listing-file-modified-sort="1729856588185" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+          <div class="main-card-content">
+            
+              <a href="" target="_blank">
+                <img class="card-img" src="../../hsma_content/modules/current_module_details" alt="Module 8: Modern Analytics">
+              </a>
+              
+
+              <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Module 8: Modern Analytics</h5>
+            </div>
+
+            <div class="quarto-categories">
+              <button class="category-button">12 hours</button>
+            </div>
+
+            
+
+              </div>
+
+                <div class="project-details-listing">
+                  <button class="project-link-listing-button"><a href="../../hsma_content/modules/current_module_details/8_modern_analytics.html"><i class="fa fa-info-circle"></i> Details </a></button>
                 </div>
 
               </div>

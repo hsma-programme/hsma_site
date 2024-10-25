@@ -204,5 +204,26 @@
       "/hsma_content/books/book_details/book_machine_leaning.html",
       "/hsma_content/books/book_details/book_streamlit.html"
     ]
+  },
+  {
+    "listing": "/hsma_content/modules/modules.html",
+    "items": [
+      "/hsma_content/modules/current_module_details/1_intro_or_ds_python.html",
+      "/hsma_content/modules/current_module_details/2_des.html",
+      "/hsma_content/modules/current_module_details/3_geographic_modelling_visualisation.html",
+      "/hsma_content/modules/current_module_details/4_machine_learning.html",
+      "/hsma_content/modules/current_module_details/5_natural_language_processing.html",
+      "/hsma_content/modules/current_module_details/6_system_dynamics_agent_based_simulation.html",
+      "/hsma_content/modules/current_module_details/7_git_and_web_development.html",
+      "/hsma_content/modules/current_module_details/8_modern_analytics.html"
+    ]
+  },
+  {
+    "listing": "/hsma_content/modules/current_module_details/2_des.html",
+    "items": [
+      "/hsma_content/modules/current_module_details/module_2_des/2a_introduction_des.html",
+      "/hsma_content/modules/current_module_details/module_2_des/2b_simpy_des_1.html",
+      "/hsma_content/modules/current_module_details/module_2_des/2c_simpy_des_2.html"
+    ]
   }
 ]

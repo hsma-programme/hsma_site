@@ -1,0 +1,8 @@
+---
+title: "Module 8: Modern Analytics"
+title-block-banner: ../../banner.png
+image: ""
+hours: 12
+pub-info:
+  abstract:
+---
