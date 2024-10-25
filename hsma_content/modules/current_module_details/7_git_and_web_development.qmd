@@ -1,7 +1,7 @@
 ---
 title: "Module 7: Open Source Collaborative Development and Web Development"
 title-block-banner: ../../banner.png
-image: "7_collab.jpg"
+image: "7_collab.jpeg"
 hours: 18
 pub-info:
   abstract:

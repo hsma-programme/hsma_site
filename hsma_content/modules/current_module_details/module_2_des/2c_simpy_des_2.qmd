@@ -5,7 +5,20 @@ hours: 3
 image: ""
 session-lead: Dr Daniel Chalk
 pub-info:
-  abstract:
+  abstract: |
+     In this session, we look at some more advanced DES concepts and how we can incorporate them in our SimPy models.
+     <br/><br/>
+     This includes
+     <br/>&#x2022; warm up periods
+     <br/>&#x2022; priority-based queuing
+     <br/>&#x2022; resource unavailability
+     <br/>&#x2022; Lognormal distributions
+     <br/>&#x2022; reneging
+     <br/>&#x2022; balking
+     <br/>&#x2022; jockeying
+     <br/><br/>
+     This content is also covered in part 3 of the HSMA little book of DES.
+
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/1y7S7bjJtdLQCquzzZ2vjYzRx9-RwXE-SWgWf88fLc4o/edit?usp=sharing

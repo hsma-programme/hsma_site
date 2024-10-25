@@ -5,28 +5,22 @@
     <div class="custom-grid-card border-2 rounded-3" <%= metadataAttrs(item) %>>
           <div class="main-card-content">
 
+              <div class="session-content session-listing-title">
+                <h5 class="no-anchor card-title session-listing-title"><%= item['title'] %></h5> <button class="session-duration-button"><%= item.hours %> hours</button>
+              </div>
 
-              <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title"><%= item['title'] %></h5>
-            </div>
+            <% if(item['session-lead']) { %>
+              <div class="listing-session-lead">
+                Session Lead: <%= item['session-lead'] %></br>
+              </div>
+            <% } %>
 
             <% if (item['pub-info'] && item['pub-info'].abstract) { %>
               <p class="listing-abstract"><%= item['pub-info'].abstract %></p>
 
                 <% } %>
 
-                <div class="quarto-categories">
-                              <button class="category-button"><%= item.hours %> hours</button>
               </div>
-
-              <% if(item['session-lead']) { %>
-                <div class="listing-organisations">
-                  Session Lead: <%= item['session-lead'] %></br>
-                </div>
-              <% } %>
-
-              </div>
-
 
                 <div class="project-details-listing">
                   <% if (item['pub-info']) { %>

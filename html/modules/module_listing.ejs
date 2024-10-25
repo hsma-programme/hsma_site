@@ -5,7 +5,7 @@
     <div class="custom-grid-card border-2 rounded-3" <%= metadataAttrs(item) %>>
           <div class="main-card-content">
             <% if(item['image']) { %>
-              <a href="<%- item.link %>" target="_blank">
+              <a href="<%- item.path %>">
                 <img class="card-img" src="<%- item.image %>" alt="<%- item.title %>" class="card-img-top"/>
               </a>
               <% } %>
