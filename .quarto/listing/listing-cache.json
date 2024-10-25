@@ -37,6 +37,9 @@
       "hsma_5/*/index.qmd",
       "hsma_4/*/index.qmd",
       "hsma_3/*/index.qmd"
+    ],
+    "hsma_content\\books\\books.qmd": [
+      "book_details/*.qmd"
     ]
   }
 }

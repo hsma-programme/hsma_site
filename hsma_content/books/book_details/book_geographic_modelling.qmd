@@ -1,0 +1,11 @@
+---
+title: "The HSMA Book of Geographic Modelling and Visualisation"
+date: 2024-03-01
+pub-info:
+    abstract: |
+        Anybody have a map? We do! This book takes you through a range of key geographical concepts, as well as how to build maps in both the free point-and-click tool QGIS and in the Python programming language. We also take a dive into the world of optimisation problems, learning how to find the optimum solution to the question "where should I place my services?" - taking a brief detour to the world of travel times on our way.
+link: https://hsma-programme.github.io/hsma6_geographic_optimisation_and_visualisation_book/intro.html
+image: "geographic_cover_image.jpeg"
+---
+
+https://hsma-programme.github.io/hsma6_geographic_optimisation_and_visualisation_book/intro.html

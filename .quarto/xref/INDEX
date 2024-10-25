@@ -325,5 +325,23 @@
   },
   "previous_projects/hsma_5/h5_5015_des_dorset_rheumatology/index.qmd": {
     "index.html": "07d863fa"
+  },
+  "hsma_content/books/books.qmd": {
+    "books.html": "a57754f9"
+  },
+  "hsma_content/books/book_details/book_des.qmd": {
+    "book_des.html": "a1089668"
+  },
+  "hsma_content/books/book_details/book_geographic_modelling.qmd": {
+    "book_geographic_modelling.html": "c574142d"
+  },
+  "hsma_content/books/book_details/book_introduction_to_python.qmd": {
+    "book_introduction_to_python.html": "be1c7fdc"
+  },
+  "hsma_content/books/book_details/book_machine_leaning.qmd": {
+    "book_machine_leaning.html": "b8e960bb"
+  },
+  "hsma_content/books/book_details/book_streamlit.qmd": {
+    "book_streamlit.html": "5fb689e3"
   }
 }

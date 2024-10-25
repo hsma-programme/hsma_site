@@ -1,0 +1,13 @@
+---
+title: "The HSMA Introduction to Python"
+date: 2024-01-01
+pub-info:
+    abstract: |
+        Are you an absolute beginner in the Python programming language? Or even brand new to programming in general? Worry not! Our Python Programming book will take you from "hello world" through to being a whizz with data types, functions, and even the dreaded object oriented programming.
+        <br/><br/>
+        Covering data types, lists, dictionaries, loops, conditional logic, using and writing functions, importing packages, and handling errors, this book will unlock a world of additional techniques for you and is an important starting point before moving on to the other books in the HSMA set.
+        <br/><br/>
+        We also take a brief look at handling data in the popular, industry-standard numpy and pandas packages, as well as a quick introduction to creating static and interactive graphs, making sure you're equipped with the key knowledge a budding data scientist or operational researcher needs!
+link: https://hsma-programme.github.io/hsma6_intro_to_python_book/
+image: "python_cover_image.jpeg"
+---

@@ -1,0 +1,21 @@
+---
+title: "The HSMA Book of Streamlit"
+date: 2024-05-01
+pub-info:
+    abstract: |
+      It's all well and good having an amazing bit of Python code - but how can you go about sharing that with the people in your organisation who don't use Python? In this book, we introduce the fantastic Streamlit package - a beginner-friendly web development framework that will have you creating interactive data apps in minutes, not weeks.
+      <br/><br/>
+      Covering everything from 'Hello Streamlit!' to deploying your app on a free web hosting service, this book is great for beginners to the world of web development.
+      <br/><br/>
+      For the more seasoned Streamlit user, you will find a handy reference guide for a range of techniques, including multi-page apps, adding download buttons, partial reruns, custom styling, caching, session state, the stlite framework for browser-based code execution, and more.
+link: https://bergam0t.github.io/streamlit_book/
+image: "streamlit_cover_image.jpeg"
+---
+
+:::{.column-page}
+
+```{=html}
+<iframe width="1280" height="800" src="https://bergam0t.github.io/streamlit_book/" title="Streamlit Book"></iframe>
+```
+
+:::

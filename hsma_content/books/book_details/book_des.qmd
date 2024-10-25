@@ -1,0 +1,11 @@
+---
+title: "The Little Book of Discrete Event Simulation"
+date: 2024-02-01
+pub-info:
+    abstract: |
+        Discrete Event Simulation is a powerful technique for tackling queueing problems in your organisation - of which you might have more than you think! Learn how to create a simulated version of your diagnosis pathways, walk-in clinics, emergency departments and more in this book.
+        <br/><br/>
+        Covering the key concepts of discrete event simulation in beginner-friendly terms before moving on to coding your own simulations in Python using the SimPy package, you'll be identifying bottlenecks and testing out changes to resourcing and pathway designs in no time.
+link: https://hsma-programme.github.io/hsma6_des_book/
+image: "des_cover_image.jpeg"
+---

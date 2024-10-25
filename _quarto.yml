@@ -44,6 +44,10 @@ website:
             text: Projects by Method
           - href: previous_projects/projects_by_cohort.qmd
             text: Projects by Cohort
+      - text: "HSMA Content"
+        menu:
+          - href: hsma_content/books/books.qmd
+            text: HSMA Books
 
 
 format:
@@ -54,7 +58,7 @@ format:
       - resources/fonts/css/lexend.css
     css: styles.css
     toc: true
-    title-block-banner: https://raw.githubusercontent.com/hsma-programme/hsma_site/refs/heads/main/resources/banner.png
+    title-block-banner: /resources/banner.png
     mainfont: Lexend
     include-in-header:
       - text: |

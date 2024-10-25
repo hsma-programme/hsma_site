@@ -1,0 +1,21 @@
+---
+title: "HSMA Books"
+toc: false
+title-block-banner: ../banner.png
+include-back-link: false
+listing:
+    - id: books
+      contents: "book_details/*.qmd"
+      sort: "date"
+      type: grid
+      grid-columns: 2
+      categories: false
+      template: ../../html/books/listing.ejs
+---
+
+To accompany the HSMA course, we have written several eBooks.
+
+These are freely available to all - please share them with anyone you think would find them useful!
+
+:::{#books}
+:::

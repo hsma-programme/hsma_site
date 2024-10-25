@@ -1,0 +1,13 @@
+---
+title: "The HSMA Collection of Machine Learning Notebooks"
+date: 2024-04-01
+pub-info:
+    abstract: |
+        Got lots of data and a suspicion that there's a pattern in there somewhere? Machine learning is here to save the day! While we don't have a book here, what we do have is a collection of the guided code examples from across the machine learning module of HSMA. These notebooks talk through the how and why of each step, as well as giving you a huge library of code snippets to use when building your own machine learning projects.
+
+        This book takes you through the key concepts in machine learning before we take a tour through a series of powerful supervised machine learning algorithms, including logistic regression, decision trees, random forests and boosted trees - covering both the conceptual basis for each of these, and how to write Python code with the sklearn package to make use of them with your own data and evaluate how well they're performing. We also take a look at neural networks with tensorflow package.
+        <br/><br/>
+        To round this set of notebooks off, we take a dive into how you can calibrate and optimise your models, as well as taking a look at what's going on under the hood with explainable techniques like PDP, ICE and SHAP plots.
+link: https://hsma-programme.github.io/h6_module4_notebooks/
+image: "machine_learning_cover_image.jpeg"
+---

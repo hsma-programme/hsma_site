@@ -161,6 +161,7 @@
 .project-details-listing {
   display: flex;
   flex-wrap: wrap;
+  margin: 0px;
 }
 
 .project-link-listing-button {
@@ -172,7 +173,8 @@
   display: block;
   width: 100%;
   height: 100%;
-  padding: 8px 0px;
+  padding: 8px 8px;
+  margin: 0px 0px;
   text-decoration: none;
   color: inherit;
 }

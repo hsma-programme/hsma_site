@@ -194,5 +194,15 @@
       "/previous_projects/hsma_3/h3_ml_nlp/index.html",
       "/previous_projects/hsma_3/h3_simulation_paediatric_critical_care/index.html"
     ]
+  },
+  {
+    "listing": "/hsma_content/books/books.html",
+    "items": [
+      "/hsma_content/books/book_details/book_introduction_to_python.html",
+      "/hsma_content/books/book_details/book_des.html",
+      "/hsma_content/books/book_details/book_geographic_modelling.html",
+      "/hsma_content/books/book_details/book_machine_leaning.html",
+      "/hsma_content/books/book_details/book_streamlit.html"
+    ]
   }
 ]
