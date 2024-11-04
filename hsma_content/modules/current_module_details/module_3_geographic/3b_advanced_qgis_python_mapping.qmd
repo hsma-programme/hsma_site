@@ -1,0 +1,31 @@
+---
+title: "3B: QGIS - Part 2 and Creating Static Maps in Python with geopandas and matplotlib"
+title-block-banner: ../../../banner.png
+hours: 3
+image: ""
+session-lead: Sammi Rosser
+pub-info:
+  abstract: |
+    In this session, we continue to develop our QGIS skills, looking at how we can create choropleths in QGIS and then prepare our maps for printing or exporting, adding legends and titles for our end users.
+    <br/><br/>
+    We then move over to Python, introducing the geopandas package for importing and manipulating spatial data. We then visualise both point and choropleth data using a combination of geopandas and the matplotlib library, enhancing our maps and exploring how we can use features of Python like loops or faceted maps to produce multiple maps from a dataset in a quick and reproducible manner. 
+  links:
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1LLwK5dx8Ne6GeFRT2DyPnT2AmpcWRKyt767Nis_lYkU/edit?usp=sharing
+    icon: fa-solid fa-person-chalkboard
+  - name: Bonus Slides - Inset Maps in Python
+    url: https://docs.google.com/presentation/d/1nJ5Qmh7K5CXttRn_4eN5UzcVY5FBXqNiQCXW7BoDQ5s/edit?usp=sharing
+    icon: fa-solid fa-person-chalkboard
+  - name: Video - Choropleths and print layouts in QGIS
+    url: https://youtu.be/eHJzQn9mI2E?si=d4iMKftV272MIKQD
+    icon: fa-brands fa-youtube
+  - name: Video - Geopandas and plotting static maps in Python with matplotlib
+    url: https://youtu.be/7w366aEAGAs?si=GE0nhQAa6I2NhoGZ
+    icon: fa-brands fa-youtube
+  - name: Repository
+    url: https://github.com/hsma-programme/h6_3a_intro_geographic_problems_and_qgis
+    icon: fa-brands fa-github
+  - name: Book
+    url: https://hsma-programme.github.io/hsma6_geographic_optimisation_and_visualisation_book/
+    icon: fa-solid fa-book
+---

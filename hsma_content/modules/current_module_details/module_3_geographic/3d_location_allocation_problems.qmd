@@ -1,0 +1,26 @@
+---
+title: "3D: Location Allocation Problems"
+title-block-banner: ../../../banner.png
+hours: 3
+image: ""
+session-lead: Sammi Rosser
+pub-info:
+  abstract: |
+    In this session we talk about how you would tackle a problem where you need to most efficiently place a certain number of sites to minimise the travel time, population-weighted travel time, or distance for a population across a region. We construct and carry out the p-median location allocation problem in Python, using our mapping skills and travel time matrices from the previous sessions in this module. 
+  links:
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1E4WPW5RbMMUwn5i-jTLm4zug5bwnIGh18U2CNc6fZqE/edit?usp=sharing
+    icon: fa-solid fa-person-chalkboard
+  - name: Bonus Slides - Advanced Facility Location Concepts, including Evolutionary Algorithms
+    url: https://docs.google.com/presentation/d/1YLGLE3DnzCVv9OnAimtM7iueAsXy_edXrL67D6DbbyA/edit?usp=sharing
+    icon: fa-solid fa-person-chalkboard
+  - name: Video
+    url: https://youtu.be/UJdv0HIuG6s?si=9tf750W9j7ohWmW3
+    icon: fa-brands fa-youtube
+  - name: Repository
+    url: https://github.com/hsma-programme/h6_3d_facility_location_problems
+    icon: fa-brands fa-github
+  - name: Book
+    url: https://hsma-programme.github.io/hsma6_geographic_optimisation_and_visualisation_book/
+    icon: fa-solid fa-book
+---

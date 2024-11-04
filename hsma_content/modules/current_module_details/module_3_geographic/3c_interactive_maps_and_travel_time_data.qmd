@@ -1,0 +1,31 @@
+---
+title: "3C: Interactive Maps in Python with folium, visualising  travel time data in Python, and obtaining travel time data with routingpy"
+title-block-banner: ../../../banner.png
+hours: 3
+image: ""
+session-lead: Sammi Rosser
+pub-info:
+  abstract: |
+    In this session, we take a look at creating interactive point and choropleth maps in Python using the folium package.
+    <br/><br/>
+    We also take a look at how we would visualise travel time data with a choropleth, and how we can use the routingpy Python package to pull travel time data for our own combinations of source and destination points at scale for free. 
+  links:
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1Xj9jYaJ_FH7ko84DGJ2M1l4DWfJ-W5wmY906UkUEgRg/edit?usp=sharing
+    icon: fa-solid fa-person-chalkboard
+  - name: Bonus Slides - Isochrones
+    url: https://docs.google.com/presentation/d/1WnSsaT_0cNFp4W4Q0YVlXCTzyLcPVIvt3VMtwTrU9O4/edit?usp=sharing
+    icon: fa-solid fa-person-chalkboard
+  - name: Video - Interactive Maps in Python with Folium
+    url: https://youtu.be/_14heKZ9YjA?si=8bZrWm6u4FZOV5NL
+    icon: fa-brands fa-youtube
+  - name: Video - Travel Time Data in Python
+    url: https://youtu.be/_KD7gOMPFgY?si=7zluxwHkHX1QBg9A
+    icon: fa-brands fa-youtube
+  - name: Repository
+    url: https://github.com/hsma-programme/h6_3a_intro_geographic_problems_and_qgis
+    icon: fa-brands fa-github
+  - name: Book
+    url: https://hsma-programme.github.io/hsma6_geographic_optimisation_and_visualisation_book/
+    icon: fa-solid fa-book
+---

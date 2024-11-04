@@ -1,0 +1,25 @@
+---
+title: "3A: Introduction to Geospatial Problems in Health & Geographic Visualisation using QGIS - Part 1"
+title-block-banner: ../../../banner.png
+hours: 3
+image: ""
+session-lead: Sammi Rosser
+pub-info:
+  abstract: |
+    In this session, we introduce some key concepts of geographic modelling and visualisation. This includes concepts such as projections, coordinate reference systems, and areas of geographic organisation within the UK such as Output Areas. 
+    <br/><br/>
+    We also begin our exploration of the free and open source geographic visualisation software package QGIS, covering how to load in point data that is stored as a .csv file and add colours, labels and more to start telling a story with geographic data.
+  links:
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1wlSArF-bGbrpJKYnOZ5ta0JN4pCC8gq1blZftgetvkA/edit#slide=id.g2a2a0c48e6a_0_56
+    icon: fa-solid fa-person-chalkboard
+  - name: Video
+    url: https://youtu.be/t-5KKMr3El4?si=V-kmDq9HLHzPJHQ-
+    icon: fa-brands fa-youtube
+  - name: Repository
+    url: https://github.com/hsma-programme/h6_3a_intro_geographic_problems_and_qgis
+    icon: fa-brands fa-github
+  - name: Book
+    url: https://hsma-programme.github.io/hsma6_geographic_optimisation_and_visualisation_book/
+    icon: fa-solid fa-book
+---
