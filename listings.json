@@ -75,28 +75,20 @@
     ]
   },
   {
-    "listing": "/hsma_content/modules/current_module_details/1_intro_or_ds_python.html",
+    "listing": "/hsma_content/modules/current_module_details/3_geographic_modelling_visualisation.html",
     "items": [
-      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1a_hsma_induction_welcome_to_hsma.html",
-      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1b_introduction_to_or_ds.html",
-      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1c_principles_of_programming.html",
-      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1d_ides_python_parlance.html",
-      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1e_python_1.html",
-      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1f_python_2.html",
-      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1g_python_3.html"
+      "/hsma_content/modules/current_module_details/module_3_geographic/3a_intro_geographic_qgis.html",
+      "/hsma_content/modules/current_module_details/module_3_geographic/3b_advanced_qgis_python_mapping.html",
+      "/hsma_content/modules/current_module_details/module_3_geographic/3c_interactive_maps_and_travel_time_data.html",
+      "/hsma_content/modules/current_module_details/module_3_geographic/3d_location_allocation_problems.html"
     ]
   },
   {
-    "listing": "/hsma_content/modules/modules.html",
+    "listing": "/hsma_content/modules/current_module_details/2_des.html",
     "items": [
-      "/hsma_content/modules/current_module_details/1_intro_or_ds_python.html",
-      "/hsma_content/modules/current_module_details/2_des.html",
-      "/hsma_content/modules/current_module_details/3_geographic_modelling_visualisation.html",
-      "/hsma_content/modules/current_module_details/4_machine_learning.html",
-      "/hsma_content/modules/current_module_details/5_natural_language_processing.html",
-      "/hsma_content/modules/current_module_details/6_system_dynamics_agent_based_simulation.html",
-      "/hsma_content/modules/current_module_details/7_git_and_web_development.html",
-      "/hsma_content/modules/current_module_details/8_modern_analytics.html"
+      "/hsma_content/modules/current_module_details/module_2_des/2a_introduction_des.html",
+      "/hsma_content/modules/current_module_details/module_2_des/2b_simpy_des_1.html",
+      "/hsma_content/modules/current_module_details/module_2_des/2c_simpy_des_2.html"
     ]
   },
   {
@@ -115,20 +107,28 @@
     ]
   },
   {
-    "listing": "/hsma_content/modules/current_module_details/2_des.html",
+    "listing": "/hsma_content/modules/modules.html",
     "items": [
-      "/hsma_content/modules/current_module_details/module_2_des/2a_introduction_des.html",
-      "/hsma_content/modules/current_module_details/module_2_des/2b_simpy_des_1.html",
-      "/hsma_content/modules/current_module_details/module_2_des/2c_simpy_des_2.html"
+      "/hsma_content/modules/current_module_details/1_intro_or_ds_python.html",
+      "/hsma_content/modules/current_module_details/2_des.html",
+      "/hsma_content/modules/current_module_details/3_geographic_modelling_visualisation.html",
+      "/hsma_content/modules/current_module_details/4_machine_learning.html",
+      "/hsma_content/modules/current_module_details/5_natural_language_processing.html",
+      "/hsma_content/modules/current_module_details/6_system_dynamics_agent_based_simulation.html",
+      "/hsma_content/modules/current_module_details/7_git_and_web_development.html",
+      "/hsma_content/modules/current_module_details/8_modern_analytics.html"
     ]
   },
   {
-    "listing": "/hsma_content/modules/current_module_details/3_geographic_modelling_visualisation.html",
+    "listing": "/hsma_content/modules/current_module_details/1_intro_or_ds_python.html",
     "items": [
-      "/hsma_content/modules/current_module_details/module_3_geographic/3a_intro_geographic_qgis.html",
-      "/hsma_content/modules/current_module_details/module_3_geographic/3b_advanced_qgis_python_mapping.html",
-      "/hsma_content/modules/current_module_details/module_3_geographic/3c_interactive_maps_and_travel_time_data.html",
-      "/hsma_content/modules/current_module_details/module_3_geographic/3d_location_allocation_problems.html"
+      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1a_hsma_induction_welcome_to_hsma.html",
+      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1b_introduction_to_or_ds.html",
+      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1c_principles_of_programming.html",
+      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1d_ides_python_parlance.html",
+      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1e_python_1.html",
+      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1f_python_2.html",
+      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1g_python_3.html"
     ]
   },
   {
