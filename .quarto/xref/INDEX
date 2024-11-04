@@ -406,5 +406,8 @@
   },
   "hsma_content/reinforcement_learning_game.qmd": {
     "reinforcement_learning_game.html": "57a499e1"
+  },
+  "previous_projects/useful_quarto_snippets.qmd": {
+    "useful_quarto_snippets.html": "041970b0"
   }
 }

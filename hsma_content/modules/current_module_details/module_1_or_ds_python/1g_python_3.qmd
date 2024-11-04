@@ -11,7 +11,7 @@ pub-info:
     We also take a look at using the MatPlotLib library to generate graphs.
     <br/><br/>
     This content is also covered in the following parts of the HSMA 'Intro to Python' book:
-    <br/>&#x2022; Objuect-Oriented Python
+    <br/>&#x2022; Object-Oriented Python
     <br/>&#x2022; Graphs (including bonus content on other plotting libraries)
   links:
   - name: Slides
