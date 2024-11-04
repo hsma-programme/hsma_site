@@ -1,5 +1,5 @@
 ---
-title: "4A: Introduction to AI and Machine Learning"
+title: "4J: Optimising Machine Learning Models"
 title-block-banner: ../../../banner.png
 hours: 3
 image: ""
@@ -9,6 +9,7 @@ pub-info:
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/1t6eS93gkFfGMlfJ86cVShAZ2vOhmP08TFVp8rcgTGyQ/edit?usp=sharing
+    icon: fa-solid fa-person-chalkboard
   - name: Slides (Reference Version - Code Only)
     url: https://docs.google.com/presentation/d/1BBCc5TVEhfAY98I6JLKrsObLLeVseAsxYZSrgve20uI/edit?usp=sharing
     icon: fa-solid fa-person-chalkboard
