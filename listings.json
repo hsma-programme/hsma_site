@@ -75,6 +75,18 @@
     ]
   },
   {
+    "listing": "/hsma_content/modules/current_module_details/1_intro_or_ds_python.html",
+    "items": [
+      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1a_hsma_induction_welcome_to_hsma.html",
+      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1b_introduction_to_or_ds.html",
+      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1c_principles_of_programming.html",
+      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1d_ides_python_parlance.html",
+      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1e_python_1.html",
+      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1f_python_2.html",
+      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1g_python_3.html"
+    ]
+  },
+  {
     "listing": "/hsma_content/modules/modules.html",
     "items": [
       "/hsma_content/modules/current_module_details/1_intro_or_ds_python.html",

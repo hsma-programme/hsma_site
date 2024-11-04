@@ -30,6 +30,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
+<script src="../../../site_libs/quarto-listing/list.min.js"></script>
+<script src="../../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../../site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="../../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
@@ -68,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-1_or_ds_python .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-title-block-banner','listing-hours','listing-image','listing-session-lead','listing-pub-info','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-title-block-banner","listing-hours","listing-image","listing-session-lead","listing-pub-info","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-1_or_ds_python'] = new List('listing-1_or_ds_python', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-9D93EVJKF5"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -104,6 +135,35 @@ background-size: cover;
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="../../../styles.css">
 </head>
@@ -194,13 +254,13 @@ background-size: cover;
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
+    <div class="quarto-title column-page">
       <h1 class="title">Module 1: Introduction to Operational Research, Data Science and Programming</h1>
                       </div>
   </div>
     
   
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-page">
 
       
     
@@ -208,14 +268,14 @@ background-size: cover;
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
         
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
 
@@ -224,7 +284,338 @@ background-size: cover;
 
 
 
-</main> <!-- /main -->
+
+<div class="quarto-listing quarto-listing-container-custom" id="listing-1_or_ds_python">
+<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(600px, 950px)); gap: 40px;">
+
+  
+    <div class="custom-grid-card border-2 rounded-3" data-index="0" data-listing-file-modified-sort="1730750232588" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+          <div class="main-card-content">
+
+              <div class="session-content session-listing-title">
+                <h5 class="no-anchor card-title session-listing-title">1A: Welcome to HSMA</h5> <button class="session-duration-button">6 hours</button>
+              </div>
+
+            
+              <div class="listing-session-lead">
+                Session Lead: Dr Daniel Chalk<br>
+              </div>
+            
+
+            
+              <p class="listing-abstract">In this session, we introduce the HSMA programme and your trainers.
+<br><br>
+We take a look at some myths about programming and some reccomendations for how you might approach your programming journey.
+<br><br>
+We explore why the programme has a commitment to open-source software and why this matters, particularly for organisations like the NHS.
+</p>
+
+                
+
+              </div>
+
+                <div class="project-details-listing">
+                  
+                    
+                        
+                    <button class="project-link-listing-button"><a href=""><i class="fa-solid fa-person-chalkboard"></i> Slides </a></button>
+                        
+                    <button class="project-link-listing-button"><a href="https://youtu.be/gIUzgz7CeMw?si=Ik7vXXKsoEJeOShS"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                        
+                    <button class="project-link-listing-button"><a href="https://github.com/hsma-programme/h6_1a_welcome_to_hsma"><i class="fa-brands fa-github"></i> Repository </a></button>
+                        
+                    <button class="project-link-listing-button"><a href=""><i class="fa-solid fa-book"></i> Book </a></button>
+                        
+                      
+                  
+                </div>
+
+              </div>
+
+            
+    <div class="custom-grid-card border-2 rounded-3" data-index="1" data-listing-file-modified-sort="1730750232588" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+          <div class="main-card-content">
+
+              <div class="session-content session-listing-title">
+                <h5 class="no-anchor card-title session-listing-title">1B: Introduction to Operational Research and Data Science</h5> <button class="session-duration-button">3 hours</button>
+              </div>
+
+            
+              <div class="listing-session-lead">
+                Session Lead: Dr Daniel Chalk<br>
+              </div>
+            
+
+            
+              <p class="listing-abstract">In this session, we introduce the fields of operational research and data science. We explore why modelling is beneficial and get a brief overview of some of the techniques that will be tackled on the course.
+<br><br>
+We also take a look at the process of conceptual modelling and some of the key steps you would need to undertake in your own modelling projects, such as process mapping and stakeholder analysis.
+<br><br>
+We also start to explore the concepts of variability and probability distributions.
+<br><br>
+Finally, we take a look at the idea of model validation.
+</p>
+
+                
+
+              </div>
+
+                <div class="project-details-listing">
+                  
+                    
+                        
+                    <button class="project-link-listing-button"><a href="https://docs.google.com/presentation/d/1_De2E0Uk8ypX1waygPtG15vEPPNCl34BQwnLyFurlWg/edit?usp=sharing"><i class="fa-solid fa-person-chalkboard"></i> Slides </a></button>
+                        
+                    <button class="project-link-listing-button"><a href="https://youtu.be/aftDNqfMe1w?si=dsIBoeFSpshXiCGm"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                        
+                    <button class="project-link-listing-button"><a href="https://github.com/hsma-programme/h6_1b_intro_or_ds"><i class="fa-brands fa-github"></i> Repository </a></button>
+                        
+                    <button class="project-link-listing-button"><a href=""><i class="fa-solid fa-book"></i> Book </a></button>
+                        
+                      
+                  
+                </div>
+
+              </div>
+
+            
+    <div class="custom-grid-card border-2 rounded-3" data-index="2" data-listing-file-modified-sort="1730750232588" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+          <div class="main-card-content">
+
+              <div class="session-content session-listing-title">
+                <h5 class="no-anchor card-title session-listing-title">1C: Principles of Programming</h5> <button class="session-duration-button">3 hours</button>
+              </div>
+
+            
+              <div class="listing-session-lead">
+                Session Lead: Dr Daniel Chalk<br>
+              </div>
+            
+
+            
+              <p class="listing-abstract">In this no-code session, we start to explore some of the key terminology and concepts that will be useful for your programming journey.
+<br><br>
+This includes
+<br>• variables
+<br>• conditional logic
+<br>• for loops
+<br>• while loops
+<br>• functions
+<br>• object-oriented programming
+</p>
+
+                
+
+              </div>
+
+                <div class="project-details-listing">
+                  
+                    
+                        
+                    <button class="project-link-listing-button"><a href="https://docs.google.com/presentation/d/1TXAZUL9hEGvyvbso3UegJgPcjrKQPAirDmEjph_kApA/edit?usp=sharing"><i class="fa-solid fa-person-chalkboard"></i> Slides </a></button>
+                        
+                    <button class="project-link-listing-button"><a href="https://youtu.be/aftDNqfMe1w?si=XL5HSxzyVutefxor&amp;t=9049"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                        
+                    <button class="project-link-listing-button"><a href="https://github.com/hsma-programme/1c_principles_of_programming"><i class="fa-brands fa-github"></i> Repository </a></button>
+                        
+                    <button class="project-link-listing-button"><a href=""><i class="fa-solid fa-book"></i> Book </a></button>
+                        
+                      
+                  
+                </div>
+
+              </div>
+
+            
+    <div class="custom-grid-card border-2 rounded-3" data-index="3" data-listing-file-modified-sort="1730750232588" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+          <div class="main-card-content">
+
+              <div class="session-content session-listing-title">
+                <h5 class="no-anchor card-title session-listing-title">1D: Hello World! Introduction to the IDEs and Python Parlance</h5> <button class="session-duration-button">6 hours</button>
+              </div>
+
+            
+              <div class="listing-session-lead">
+                Session Lead: Dr Daniel Chalk<br>
+              </div>
+            
+
+            
+              <p class="listing-abstract">In this session, we introduce VSCode and demonstrate how to set up VSCode for Python coding on the HSMA course and beyond.
+<br><br>
+We also demonstrate Jupyter Notebooks and Google CoLab.
+<br><br>
+Finally, we spend some time talking about installing Python packages and working with virtual environments using the Anaconda distribution.
+</p>
+
+                
+
+              </div>
+
+                <div class="project-details-listing">
+                  
+                    
+                        
+                    <button class="project-link-listing-button"><a href="https://docs.google.com/presentation/d/1We3qn3Sh5nNYc0BkwtOPQrm0xKFoNrbSElCfW6K1PbQ/edit?usp=sharing"><i class="fa-solid fa-person-chalkboard"></i> Slides </a></button>
+                        
+                    <button class="project-link-listing-button"><a href="https://youtu.be/0jV0jtIE3_U?si=ZariYBl79d48jOWQ"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                        
+                    <button class="project-link-listing-button"><a href="https://github.com/hsma-programme/h6_1d_hello_world"><i class="fa-brands fa-github"></i> Repository </a></button>
+                        
+                    <button class="project-link-listing-button"><a href=""><i class="fa-solid fa-book"></i> Book </a></button>
+                        
+                      
+                  
+                </div>
+
+              </div>
+
+            
+    <div class="custom-grid-card border-2 rounded-3" data-index="4" data-listing-file-modified-sort="1730750232588" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+          <div class="main-card-content">
+
+              <div class="session-content session-listing-title">
+                <h5 class="no-anchor card-title session-listing-title">1E: Python Programming - Part 1</h5> <button class="session-duration-button">6 hours</button>
+              </div>
+
+            
+              <div class="listing-session-lead">
+                Session Lead: Dr Daniel Chalk<br>
+              </div>
+            
+
+            
+              <p class="listing-abstract">In this session, we introduce some of the fundamental building blocks of Python coding, exploring outputs and inputs, mathematical operations, conditional logic, loops, variables, lists and dictionaries and more.
+<br><br>
+This content is also covered in the following parts of the HSMA 'Intro to Python' book:
+<br>• Your First Steps in Python
+<br>• Your Next Python Skills
+<br>• Loops, Lists and Dictionaries
+<br>• An Introduction to Libraries
+</p>
+
+                
+
+              </div>
+
+                <div class="project-details-listing">
+                  
+                    
+                        
+                    <button class="project-link-listing-button"><a href="https://docs.google.com/presentation/d/1n6fDITAvNas78FJwQPA65ifnhMtnjcyK-af1aX8majA/edit?usp=sharing"><i class="fa-solid fa-person-chalkboard"></i> Slides </a></button>
+                        
+                    <button class="project-link-listing-button"><a href="https://youtu.be/Ey3yUaKkZKY?si=Iwfs4mP03NQ03bE1"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                        
+                    <button class="project-link-listing-button"><a href="https://github.com/hsma-programme/h6_1e_python_part_1"><i class="fa-brands fa-github"></i> Repository </a></button>
+                        
+                    <button class="project-link-listing-button"><a href="https://hsma-programme.github.io/hsma6_intro_to_python_book/intro_to_python.html"><i class="fa-solid fa-book"></i> Book </a></button>
+                        
+                      
+                  
+                </div>
+
+              </div>
+
+            
+    <div class="custom-grid-card border-2 rounded-3" data-index="5" data-listing-file-modified-sort="1730750232588" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+          <div class="main-card-content">
+
+              <div class="session-content session-listing-title">
+                <h5 class="no-anchor card-title session-listing-title">1F: Python Programming - Part 2</h5> <button class="session-duration-button">6 hours</button>
+              </div>
+
+            
+              <div class="listing-session-lead">
+                Session Lead: Dr Daniel Chalk<br>
+              </div>
+            
+
+            
+              <p class="listing-abstract">In this session, we talk about writing functions in Python, exception handling and working with .csv files.
+<br><br>
+We also introduce two of the most important libraries for data science - NumPy and Pandas.
+<br><br>
+This content is also covered in the following parts of the HSMA 'Intro to Python' book:
+<br>• Functions, Files and Error Handling
+<br>• Numpy
+<br>• Pandas
+</p>
+
+                
+
+              </div>
+
+                <div class="project-details-listing">
+                  
+                    
+                        
+                    <button class="project-link-listing-button"><a href="https://docs.google.com/presentation/d/1XSt5dXEiaOoPryq4r2dPJzMQnNQSa-imG3Fe7gr-sSs/edit?usp=sharing"><i class="fa-solid fa-person-chalkboard"></i> Slides </a></button>
+                        
+                    <button class="project-link-listing-button"><a href="https://youtu.be/QuhUeysnTgY?si=I8TcvCSXOOwS-AmY"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                        
+                    <button class="project-link-listing-button"><a href="https://github.com/hsma-programme/h6_1f_python_part_2"><i class="fa-brands fa-github"></i> Repository </a></button>
+                        
+                    <button class="project-link-listing-button"><a href="https://hsma-programme.github.io/hsma6_intro_to_python_book/intro_to_python.html"><i class="fa-solid fa-book"></i> Book </a></button>
+                        
+                      
+                  
+                </div>
+
+              </div>
+
+            
+    <div class="custom-grid-card border-2 rounded-3" data-index="6" data-listing-file-modified-sort="1730750232588" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+          <div class="main-card-content">
+
+              <div class="session-content session-listing-title">
+                <h5 class="no-anchor card-title session-listing-title">1G: Python Programming - Part 3</h5> <button class="session-duration-button">6 hours</button>
+              </div>
+
+            
+              <div class="listing-session-lead">
+                Session Lead: Dr Daniel Chalk<br>
+              </div>
+            
+
+            
+              <p class="listing-abstract">In this video we'll be looking at Object Oriented Programming in Python.
+<br><br>
+We also take a look at using the MatPlotLib library to generate graphs.
+<br><br>
+This content is also covered in the following parts of the HSMA 'Intro to Python' book:
+<br>• Object-Oriented Python
+<br>• Graphs (including bonus content on other plotting libraries)
+</p>
+
+                
+
+              </div>
+
+                <div class="project-details-listing">
+                  
+                    
+                        
+                    <button class="project-link-listing-button"><a href="https://docs.google.com/presentation/d/1e7ObbZmRNcm_lqxR_tFvwV78YV2SzBGSwWRweGiezYg/edit?usp=sharing"><i class="fa-solid fa-person-chalkboard"></i> Slides </a></button>
+                        
+                    <button class="project-link-listing-button"><a href="https://youtu.be/RvU3MBEd280?si=2h5aY5zFjXU9uNy4"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                        
+                    <button class="project-link-listing-button"><a href="https://github.com/hsma-programme/h6_1g_python_part_3"><i class="fa-brands fa-github"></i> Repository </a></button>
+                        
+                    <button class="project-link-listing-button"><a href="https://hsma-programme.github.io/hsma6_intro_to_python_book/intro_to_python.html"><i class="fa-solid fa-book"></i> Book </a></button>
+                        
+                      
+                  
+                </div>
+
+              </div>
+
+            
+          </div>
+
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
