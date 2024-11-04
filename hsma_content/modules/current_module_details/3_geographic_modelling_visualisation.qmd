@@ -4,5 +4,5 @@ title-block-banner: ../../banner.png
 hours: 12
 image: "3_geographic.jpeg"
 pub-info:
-  abstract:
+  abstract: 
 ---

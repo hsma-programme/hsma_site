@@ -26,4 +26,19 @@ pub-info:
   - name: Book
     url: https://hsma-programme.github.io/hsma6_intro_to_python_book/intro_to_python.html
     icon: fa-solid fa-book
+  - name: Exercise 1 Solution Video
+    url: https://youtu.be/GdNqEM6aUEs?si=Brzf8ENgiqTTD4gN
+    icon: fa-solid fa-video
+  - name: Exercise 2 Solution Video
+    url: https://youtu.be/RwS_o3K3jGo?si=mtc0d7-cNOcdrsvh
+    icon: fa-solid fa-video
+  - name: Exercise 3 Solution Video
+    url: https://youtu.be/AnMgH4uI1s4?si=gY3ToY2pL8f0jQ2k
+    icon: fa-solid fa-video
+  - name: Exercise 4 Solution Video
+    url: https://youtu.be/5-yaFZ-NA2I?si=dZ5AF-fBrDhf14EU
+    icon: fa-solid fa-video
+  - name: Exercise 5 Solution Video
+    url: https://youtu.be/bM1S1jkGKA0?si=Pwm93Nu43wjb7_VB
+    icon: fa-solid fa-video
 ---
