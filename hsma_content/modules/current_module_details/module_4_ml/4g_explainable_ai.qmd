@@ -1,0 +1,37 @@
+---
+title: "4G: Explainable AI"
+title-block-banner: ../../../banner.png
+hours: 3
+image: ""
+session-lead: Sammi Rosser
+pub-info:
+  abstract: 
+  links:
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1fzvwWTaYCVy7oDTZ__fTDhx89XibyUY-Pa4oUXTpeH4/edit?usp=sharing
+    icon: fa-solid fa-person-chalkboard
+  - name: Video - Introduction
+    url: https://youtu.be/33ZN1orqjKk?si=ymx5EVtiCe14R9FG
+    icon: fa-brands fa-youtube
+  - name: Video - Feature Importance in Logistic Regression & Odds/Log Odds/Probability
+    url: https://youtu.be/B_meJuMbMr4?si=3mUu2AwxvVcqiQai
+    icon: fa-brands fa-youtube
+  - name: Video - Feature Importance with MDI + PFI
+    url: https://youtu.be/qhVkmPV0QBg?si=YWfWQi6ppPKTZZAq
+    icon: fa-brands fa-youtube
+  - name: Video - Partial Dependence Plots and Individual Conditional Expectation Plots
+    url: https://youtu.be/iP07GkeyPpA?si=X-ETnoAnEUIgnyTc
+    icon: fa-brands fa-youtube
+  - name: Video - Explainable AI with SHAP
+    url: https://youtu.be/A4MH0GNfxZA?si=zjruoRz2OwYhmjaP
+    icon: fa-brands fa-youtube
+  - name: Video - Prediction Uncertainty
+    url: https://youtu.be/AUnKMEe3ub4?si=_vgwc49gav4Amycb
+    icon: fa-brands fa-youtube
+  - name: Repository
+    url: https://github.com/hsma-programme/h6_4g_explainable_ai
+    icon: fa-brands fa-github
+  - name: Book
+    url: https://hsma-programme.github.io/h6_module4_notebooks/4g_logistic_regression_titanic_feature_importance_prediction_uncertainty.html
+    icon: fa-solid fa-book
+---

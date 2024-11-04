@@ -1,0 +1,24 @@
+---
+title: "4A: Introduction to AI and Machine Learning"
+title-block-banner: ../../../banner.png
+hours: 3
+image: ""
+session-lead: Sammi Rosser
+pub-info:
+  abstract: 
+  links:
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1t6eS93gkFfGMlfJ86cVShAZ2vOhmP08TFVp8rcgTGyQ/edit?usp=sharing
+  - name: Slides (Reference Version - Code Only)
+    url: https://docs.google.com/presentation/d/1BBCc5TVEhfAY98I6JLKrsObLLeVseAsxYZSrgve20uI/edit?usp=sharing
+    icon: fa-solid fa-person-chalkboard
+  - name: Video
+    url: https://youtu.be/LYP1H7X-aeg?si=jgSbXvlSueT6b4B_
+    icon: fa-brands fa-youtube
+  - name: Repository
+    url: https://github.com/hsma-programme/h6_4j_model_optimisation
+    icon: fa-brands fa-github
+  - name: Book
+    url: https://hsma-programme.github.io/h6_module4_notebooks/4j_auto_ml.html
+    icon: fa-solid fa-book
+---

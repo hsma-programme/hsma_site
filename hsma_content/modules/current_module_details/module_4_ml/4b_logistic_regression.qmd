@@ -1,0 +1,22 @@
+---
+title: "4B: Logistic Regression - Who Would Survive the Titanic?"
+title-block-banner: ../../../banner.png
+hours: 3
+image: ""
+session-lead: Dr Daniel Chalk
+pub-info:
+  abstract: 
+  links:
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1MdLRe4-089MsEWttK9OgFvgBX8EqJ6LFCRC72zyz1jI/edit?usp=sharing
+    icon: fa-solid fa-person-chalkboard
+  - name: Video
+    url: https://youtu.be/0Cw6LK-MO_w?si=m5__3gw2pQPXFlsj
+    icon: fa-brands fa-youtube
+  - name: Repository
+    url: https://github.com/hsma-programme/h6_4b_log_reg_titanic
+    icon: fa-brands fa-github
+  - name: Book
+    url: https://hsma-programme.github.io/h6_module4_notebooks/4b_log_reg_tutorial_1.html
+    icon: fa-solid fa-book
+---

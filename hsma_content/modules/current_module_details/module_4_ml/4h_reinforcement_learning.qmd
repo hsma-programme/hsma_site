@@ -1,0 +1,25 @@
+---
+title: "4A: Introduction to AI and Machine Learning"
+title-block-banner: ../../../banner.png
+hours: 3
+image: ""
+session-lead: Dr Daniel Chalk
+pub-info:
+  abstract: 
+  links:
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1Sok1fWn_y15XLRLQoOq2pKiTX6TG3LDgNkSKhFq6us0/edit?usp=sharing
+    icon: fa-solid fa-person-chalkboard
+  - name: Video
+    url: https://youtu.be/ebFmAiUQkuY?si=uVXkqBO6-8ZIspPW
+    icon: fa-brands fa-youtube
+  - name: Repository
+    url: 
+    icon: fa-brands fa-github
+  - name: Book
+    url: 
+    icon: fa-solid fa-book
+  - name: Game
+    url: https://bergam0t.github.io/ReinforcementLearningGame/
+    icon: fa-solid fa-gamepad
+---

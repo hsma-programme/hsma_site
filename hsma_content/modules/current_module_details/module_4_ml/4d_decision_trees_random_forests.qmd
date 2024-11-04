@@ -1,0 +1,25 @@
+---
+title: "4D: Decision Trees and Random Forests"
+title-block-banner: ../../../banner.png
+hours: 3
+image: ""
+session-lead: Sammi Rosser
+pub-info:
+  abstract: 
+  links:
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1LgVvgLzm4dxCdDCusjWWC_SBrtXhhCPchHXK4oI0kWU/edit?usp=sharing
+    icon: fa-solid fa-person-chalkboard
+  - name: Video - Decision Trees
+    url: https://youtu.be/fzgtDKCLGHI?si=81-Lqz0A110nUrEG
+    icon: fa-brands fa-youtube
+  - name: Video - Random Forests, F1 score and confusion matrices
+    url: https://youtu.be/jqvn_OXbIfg?si=KyLxfT1VuBYAJwtH
+    icon: fa-brands fa-youtube
+  - name: Repository
+    url: https://github.com/hsma-programme/h6_4d_decision_trees_random_forests
+    icon: fa-brands fa-github
+  - name: Book
+    url: https://hsma-programme.github.io/h6_module4_notebooks/4d_decision_tree_titanic.html
+    icon: fa-solid fa-book
+---

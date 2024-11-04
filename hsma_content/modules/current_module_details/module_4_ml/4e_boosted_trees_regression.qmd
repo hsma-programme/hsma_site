@@ -1,0 +1,28 @@
+---
+title: "4E: Boosted Trees for Classification, and Tackling Regression (Numeric Prediction) Problems with Machine Learning"
+title-block-banner: ../../../banner.png
+hours: 3
+image: ""
+session-lead: Sammi Rosser
+pub-info:
+  abstract: 
+  links:
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1c89f4ZRU6kQPybWpoO5v_lphAqqnPPfPEAkfVli85iM/edit?usp=sharing
+    icon: fa-solid fa-person-chalkboard
+  - name: Video - Boosted Trees for Classification Problems
+    url: https://youtu.be/o9WB1ncskzU?si=BukxZinGDZt4YFwa
+    icon: fa-brands fa-youtube
+  - name: Video - Predicting Numeric Values with Tree-based Algorithms, and Data Prep for ML with OneHot encoding
+    url: https://youtu.be/udlOEtFWYFc?si=PdrNFmmu0NkFgllt
+    icon: fa-brands fa-youtube
+  - name: Repository
+    url: https://github.com/hsma-programme/h6_4e_boosted_trees
+    icon: fa-brands fa-github
+  - name: Book - Classification with Boosted Trees
+    url: https://hsma-programme.github.io/h6_module4_notebooks/4e_boosting_titanic.html
+    icon: fa-solid fa-book
+  - name: Book - Regression (Numeric Prediction)
+    url: https://hsma-programme.github.io/h6_module4_notebooks/4e_tree_based_models_regression.html
+    icon: fa-solid fa-book
+---

@@ -1,0 +1,22 @@
+---
+title: "4C: Ethics in AI"
+title-block-banner: ../../../banner.png
+hours: 3
+image: ""
+session-lead: Dr Daniel Chalk
+pub-info:
+  abstract: 
+  links:
+  - name: Slides
+    url: https://docs.google.com/presentation/d/16Qwx0cUdGjtqqD7WQ-4kAWHBdJvBFHMch_AwPUwrp1M/edit?usp=sharing
+    icon: fa-solid fa-person-chalkboard
+  - name: Video
+    url: https://youtu.be/fzgtDKCLGHI?si=81-Lqz0A110nUrEG
+    icon: fa-brands fa-youtube
+  - name: Repository
+    url: https://github.com/hsma-programme/h6_4c_ethics_in_ai
+    icon: fa-brands fa-github
+  - name: Book
+    url:
+    icon: fa-solid fa-book
+---

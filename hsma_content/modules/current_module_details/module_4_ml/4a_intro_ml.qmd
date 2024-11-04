@@ -1,0 +1,22 @@
+---
+title: "4A: Introduction to AI and Machine Learning"
+title-block-banner: ../../../banner.png
+hours: 3
+image: ""
+session-lead: Dr Daniel Chalk
+pub-info:
+  abstract: 
+  links:
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1EcO71B5kEvaSkvKQeGnuO2g4Ss4RKhrphR3gE8vv-Gk/edit?usp=sharing
+    icon: fa-solid fa-person-chalkboard
+  - name: Video
+    url: https://youtu.be/g3RmQombgEA?si=8-3uGYYSBvYTYiXp
+    icon: fa-brands fa-youtube
+  - name: Repository
+    url: https://github.com/hsma-programme/h6_4a_introduction_ai_ml
+    icon: fa-brands fa-github
+  - name: Book
+    url: 
+    icon: fa-solid fa-book
+---
