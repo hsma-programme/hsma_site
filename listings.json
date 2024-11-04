@@ -108,6 +108,15 @@
     ]
   },
   {
+    "listing": "/hsma_content/modules/current_module_details/3_geographic_modelling_visualisation.html",
+    "items": [
+      "/hsma_content/modules/current_module_details/module_3_geographic/3a_intro_geographic_qgis.html",
+      "/hsma_content/modules/current_module_details/module_3_geographic/3b_advanced_qgis_python_mapping.html",
+      "/hsma_content/modules/current_module_details/module_3_geographic/3c_interactive_maps_and_travel_time_data.html",
+      "/hsma_content/modules/current_module_details/module_3_geographic/3d_location_allocation_problems.html"
+    ]
+  },
+  {
     "listing": "/hsma_content/books/books.html",
     "items": [
       "/hsma_content/books/book_details/book_introduction_to_python.html",
