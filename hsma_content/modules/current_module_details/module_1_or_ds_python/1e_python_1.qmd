@@ -1,0 +1,29 @@
+---
+title: "1E: Python Programming - Part 1"
+title-block-banner: ../../../banner.png
+hours: 6
+image: ""
+session-lead: Dr Daniel Chalk
+pub-info:
+  abstract: |
+    In this session, we introduce some of the fundamental building blocks of Python coding, exploring outputs and inputs, mathematical operations, conditional logic, loops, variables, lists and dictionaries and more.
+    <br/><br/>
+    This content is also covered in the following parts of the HSMA 'Intro to Python' book:
+    <br/>&#x2022; Your First Steps in Python
+    <br/>&#x2022; Your Next Python Skills
+    <br/>&#x2022; Loops, Lists and Dictionaries
+    <br/>&#x2022; An Introduction to Libraries
+  links:
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1n6fDITAvNas78FJwQPA65ifnhMtnjcyK-af1aX8majA/edit?usp=sharing
+    icon: fa-solid fa-person-chalkboard
+  - name: Video
+    url: https://youtu.be/Ey3yUaKkZKY?si=Iwfs4mP03NQ03bE1
+    icon: fa-brands fa-youtube
+  - name: Repository
+    url: https://github.com/hsma-programme/h6_1e_python_part_1
+    icon: fa-brands fa-github
+  - name: Book
+    url: https://hsma-programme.github.io/hsma6_intro_to_python_book/intro_to_python.html
+    icon: fa-solid fa-book
+---

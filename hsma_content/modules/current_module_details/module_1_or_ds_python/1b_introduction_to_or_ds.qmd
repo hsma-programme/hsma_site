@@ -1,0 +1,29 @@
+---
+title: "1B: Introduction to Operational Research and Data Science"
+title-block-banner: ../../../banner.png
+hours: 3
+image: ""
+session-lead: Dr Daniel Chalk
+pub-info:
+  abstract: |
+    In this session, we introduce the fields of operational research and data science. We explore why modelling is beneficial and get a brief overview of some of the techniques that will be tackled on the course.
+    <br/><br/>
+    We also take a look at the process of conceptual modelling and some of the key steps you would need to undertake in your own modelling projects, such as process mapping and stakeholder analysis.
+    <br/><br/>
+    We also start to explore the concepts of variability and probability distributions.
+    <br/><br/>
+    Finally, we take a look at the idea of model validation. 
+  links:
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1_De2E0Uk8ypX1waygPtG15vEPPNCl34BQwnLyFurlWg/edit?usp=sharing
+    icon: fa-solid fa-person-chalkboard
+  - name: Video
+    url: https://youtu.be/aftDNqfMe1w?si=dsIBoeFSpshXiCGm
+    icon: fa-brands fa-youtube
+  - name: Repository
+    url: https://github.com/hsma-programme/h6_1b_intro_or_ds
+    icon: fa-brands fa-github
+  - name: Book
+    url: 
+    icon: fa-solid fa-book
+---

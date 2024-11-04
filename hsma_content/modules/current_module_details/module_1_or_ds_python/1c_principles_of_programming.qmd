@@ -1,0 +1,31 @@
+---
+title: "1C: Principles of Programming"
+title-block-banner: ../../../banner.png
+hours: 3
+image: ""
+session-lead: Dr Daniel Chalk
+pub-info:
+  abstract: |
+    In this no-code session, we start to explore some of the key terminology and concepts that will be useful for your programming journey.
+    <br/><br/>
+    This includes
+    <br/>&#x2022; variables
+    <br/>&#x2022; conditional logic
+    <br/>&#x2022; for loops
+    <br/>&#x2022; while loops
+    <br/>&#x2022; functions
+    <br/>&#x2022; object-oriented programming
+  links:
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1TXAZUL9hEGvyvbso3UegJgPcjrKQPAirDmEjph_kApA/edit?usp=sharing
+    icon: fa-solid fa-person-chalkboard
+  - name: Video
+    url: https://youtu.be/aftDNqfMe1w?si=XL5HSxzyVutefxor&t=9049
+    icon: fa-brands fa-youtube
+  - name: Repository
+    url: https://github.com/hsma-programme/1c_principles_of_programming
+    icon: fa-brands fa-github
+  - name: Book
+    url: 
+    icon: fa-solid fa-book
+---

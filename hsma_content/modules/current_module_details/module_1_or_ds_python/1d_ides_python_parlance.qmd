@@ -1,0 +1,27 @@
+---
+title: "1D: Hello World! Introduction to the IDEs and Python Parlance"
+title-block-banner: ../../../banner.png
+hours: 6
+image: ""
+session-lead: Dr Daniel Chalk
+pub-info:
+  abstract: |
+    In this session, we introduce VSCode and demonstrate how to set up VSCode for Python coding on the HSMA course and beyond. 
+    <br/><br/>
+    We also demonstrate Jupyter Notebooks and Google CoLab. 
+    <br/><br/>
+    Finally, we spend some time talking about installing Python packages and working with virtual environments using the Anaconda distribution.
+  links:
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1We3qn3Sh5nNYc0BkwtOPQrm0xKFoNrbSElCfW6K1PbQ/edit?usp=sharing
+    icon: fa-solid fa-person-chalkboard
+  - name: Video
+    url: https://youtu.be/0jV0jtIE3_U?si=ZariYBl79d48jOWQ
+    icon: fa-brands fa-youtube
+  - name: Repository
+    url: https://github.com/hsma-programme/h6_1d_hello_world
+    icon: fa-brands fa-github
+  - name: Book
+    url: 
+    icon: fa-solid fa-book
+---

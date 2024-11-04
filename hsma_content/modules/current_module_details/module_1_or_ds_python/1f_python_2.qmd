@@ -1,0 +1,30 @@
+---
+title: "1F: Python Programming - Part 2"
+title-block-banner: ../../../banner.png
+hours: 6
+image: ""
+session-lead: Dr Daniel Chalk
+pub-info:
+  abstract: |
+    In this session, we talk about writing functions in Python, exception handling and working with .csv files. 
+    <br/><br/>
+    We also introduce two of the most important libraries for data science - NumPy and Pandas.
+    <br/><br/>
+    This content is also covered in the following parts of the HSMA 'Intro to Python' book:
+    <br/>&#x2022; Functions, Files and Error Handling
+    <br/>&#x2022; Numpy
+    <br/>&#x2022; Pandas
+  links:
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1XSt5dXEiaOoPryq4r2dPJzMQnNQSa-imG3Fe7gr-sSs/edit?usp=sharing
+    icon: fa-solid fa-person-chalkboard
+  - name: Video
+    url: https://youtu.be/QuhUeysnTgY?si=I8TcvCSXOOwS-AmY
+    icon: fa-brands fa-youtube
+  - name: Repository
+    url: https://github.com/hsma-programme/h6_1f_python_part_2
+    icon: fa-brands fa-github
+  - name: Book
+    url: https://hsma-programme.github.io/hsma6_intro_to_python_book/intro_to_python.html
+    icon: fa-solid fa-book
+---

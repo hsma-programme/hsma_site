@@ -1,0 +1,29 @@
+---
+title: "1G: Python Programming - Part 3"
+title-block-banner: ../../../banner.png
+hours: 6
+image: ""
+session-lead: Dr Daniel Chalk
+pub-info:
+  abstract: |
+    In this video we'll be looking at Object Oriented Programming in Python.
+    <br/><br/>
+    We also take a look at using the MatPlotLib library to generate graphs.
+    <br/><br/>
+    This content is also covered in the following parts of the HSMA 'Intro to Python' book:
+    <br/>&#x2022; Objuect-Oriented Python
+    <br/>&#x2022; Graphs (including bonus content on other plotting libraries)
+  links:
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1e7ObbZmRNcm_lqxR_tFvwV78YV2SzBGSwWRweGiezYg/edit?usp=sharing
+    icon: fa-solid fa-person-chalkboard
+  - name: Video
+    url: https://youtu.be/RvU3MBEd280?si=2h5aY5zFjXU9uNy4
+    icon: fa-brands fa-youtube
+  - name: Repository
+    url: https://github.com/hsma-programme/h6_1g_python_part_3
+    icon: fa-brands fa-github
+  - name: Book
+    url: https://hsma-programme.github.io/hsma6_intro_to_python_book/intro_to_python.html
+    icon: fa-solid fa-book
+---
