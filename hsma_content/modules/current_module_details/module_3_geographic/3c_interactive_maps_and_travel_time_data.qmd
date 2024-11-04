@@ -19,8 +19,11 @@ pub-info:
   - name: Video - Interactive Maps in Python with Folium
     url: https://youtu.be/_14heKZ9YjA?si=8bZrWm6u4FZOV5NL
     icon: fa-brands fa-youtube
-  - name: Video - Travel Time Data in Python
+  - name: Video - Visualising Travel Time Data in Python
     url: https://youtu.be/_KD7gOMPFgY?si=7zluxwHkHX1QBg9A
+    icon: fa-brands fa-youtube
+  - name: Video - Using routingpy to Obtain Travel Time Data in Python
+    url: https://youtu.be/Zd8mQIXNq-o?si=edAAImNl6p8i6zCS
     icon: fa-brands fa-youtube
   - name: Repository
     url: https://github.com/hsma-programme/h6_3a_intro_geographic_problems_and_qgis
