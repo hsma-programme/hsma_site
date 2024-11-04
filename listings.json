@@ -100,6 +100,21 @@
     ]
   },
   {
+    "listing": "/hsma_content/modules/current_module_details/4_machine_learning.html",
+    "items": [
+      "/hsma_content/modules/current_module_details/module_4_ml/4a_intro_ml.html",
+      "/hsma_content/modules/current_module_details/module_4_ml/4b_logistic_regression.html",
+      "/hsma_content/modules/current_module_details/module_4_ml/4c_ethics_in_ai.html",
+      "/hsma_content/modules/current_module_details/module_4_ml/4d_decision_trees_random_forests.html",
+      "/hsma_content/modules/current_module_details/module_4_ml/4e_boosted_trees_regression.html",
+      "/hsma_content/modules/current_module_details/module_4_ml/4f_neural_networks.html",
+      "/hsma_content/modules/current_module_details/module_4_ml/4g_explainable_ai.html",
+      "/hsma_content/modules/current_module_details/module_4_ml/4h_reinforcement_learning.html",
+      "/hsma_content/modules/current_module_details/module_4_ml/4i_synthetic_data.html",
+      "/hsma_content/modules/current_module_details/module_4_ml/4j_optimising_ml_models.html"
+    ]
+  },
+  {
     "listing": "/hsma_content/modules/current_module_details/2_des.html",
     "items": [
       "/hsma_content/modules/current_module_details/module_2_des/2a_introduction_des.html",
