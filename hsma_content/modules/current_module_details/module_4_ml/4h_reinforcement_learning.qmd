@@ -1,5 +1,5 @@
 ---
-title: "4A: Introduction to AI and Machine Learning"
+title: "4H: Reinforcement Learning"
 title-block-banner: ../../../banner.png
 hours: 3
 image: ""
