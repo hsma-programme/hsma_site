@@ -15,6 +15,15 @@
                 <h5 class="no-anchor card-title listing-title"><%= item['title'] %></h5>
             </div>
 
+            <% if(item['status']) { %>
+            <div class="project-status-active">
+              <%- item['status'] %>
+            </div> <% } else { %>
+              <div class="project-status-complete">
+                Complete
+              </div>
+            <% } %>
+
             <% if (item['pub-info'] && item['pub-info'].abstract) { %>
               <p class="listing-abstract"><%= item['pub-info'].abstract %></p>
                 <% } else { %> <p class="listing-abstract"><%= item.description %></p>
@@ -23,8 +32,10 @@
             <% if(item.techniques) { %>
             <div class="quarto-categories">
                 <% for (const cat of item.techniques) { %>
-                            <button class="category-button"><%= cat %></button>
+                  <% if(cat) { %>
+                      <button class="category-button"><%= cat %></button>
                     <% } %>
+                  <% } %>
             </div>
             <% } %>
 
@@ -44,8 +55,10 @@
                     <% if (item['pub-info']) { %>
                       <% if (item['pub-info'].links) { %>
                           <% for (const link of item['pub-info'].links) { %>
+                            <% if (link.url) { %>
                       <button class="project-link-listing-button"><a href="<%- link.url %>"><i class="<%- link.icon %>"></i> <%= link.name %> </a></button>
                           <% } %>
+                        <% } %>
                         <% } %>
                     <% } %>
             </div>

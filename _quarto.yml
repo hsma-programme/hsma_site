@@ -34,7 +34,7 @@ website:
     left:
       - href: index.qmd
         text: Welcome
-      - text: "Past HSMA Projects"
+      - text: "HSMA Projects"
         menu:
           - href: previous_projects/projects_by_service_area.qmd
             text: Projects by Service Area

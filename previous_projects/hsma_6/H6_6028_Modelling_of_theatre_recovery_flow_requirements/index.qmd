@@ -1,0 +1,34 @@
+---
+title: "Modelling of theatre recovery flow requirements"
+techniques:
+  -
+areas:
+  -
+categories:
+  - Discrete Event Simulation
+  - Machine learning
+  - Agent based simulation
+author:
+  - name: Matt Lavis
+    affiliation: University of Plymouth
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+Here is some text about the project

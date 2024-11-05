@@ -15,6 +15,7 @@ listing:
       sort: "date desc"
       type: grid
       grid-columns: 2
+      page-size: 1000
       categories: false
       include:
         categories: "{Emergency Departments,Accident & Emergency*}"
@@ -24,6 +25,7 @@ listing:
       sort: "date desc"
       type: grid
       grid-columns: 2
+      page-size: 1000
       categories: false
       include:
         categories: "Rheumatology"
@@ -33,6 +35,7 @@ listing:
       sort: "date desc"
       type: grid
       grid-columns: 2
+      page-size: 1000
       categories: false
       include:
         categories: "Mental Health"
@@ -42,6 +45,7 @@ listing:
       sort: "date desc"
       type: grid
       grid-columns: 2
+      page-size: 1000
       categories: false
       include:
         categories: "Workforce"
@@ -51,6 +55,7 @@ listing:
       sort: "date desc"
       type: grid
       grid-columns: 2
+      page-size: 1000
       categories: false
       include:
         categories: "Neonatal"
@@ -60,6 +65,7 @@ listing:
       sort: "date desc"
       type: grid
       grid-columns: 2
+      page-size: 1000
       categories: false
       include:
         categories: "Respiratory"
@@ -69,6 +75,7 @@ listing:
       sort: "date desc"
       type: grid
       grid-columns: 2
+      page-size: 1000
       categories: false
       include:
         categories: "Vaccination"
@@ -78,6 +85,7 @@ listing:
       sort: "date desc"
       type: grid
       grid-columns: 2
+      page-size: 1000
       categories: false
       include:
         categories: "Paediatric"
@@ -87,6 +95,7 @@ listing:
       sort: "date desc"
       type: grid
       grid-columns: 2
+      page-size: 1000
       categories: false
       include:
         categories: "Elective Surgery"
@@ -96,6 +105,7 @@ listing:
       sort: "date desc"
       type: grid
       grid-columns: 2
+      page-size: 1000
       categories: false
       include:
         categories: "Cancer"
@@ -105,6 +115,7 @@ listing:
       sort: "date desc"
       type: grid
       grid-columns: 2
+      page-size: 1000
       categories: false
       include:
         categories: "{Primary Care,111 Service}*"
@@ -113,6 +124,7 @@ listing:
       sort: "date desc"
       type: grid
       grid-columns: 2
+      page-size: 1000
       categories: false
       include:
         categories: "{Police}*"
@@ -122,6 +134,7 @@ listing:
       sort: "date desc"
       type: grid
       grid-columns: 2
+      page-size: 1000
       categories: false
       include:
         categories: "{Cardiac,Cardiology}*"
@@ -131,6 +144,7 @@ listing:
       sort: "date desc"
       type: grid
       grid-columns: 2
+      page-size: 1000
       categories: false
       include:
         categories: "{Orthopaedic,Orthopaedics}*"
@@ -140,6 +154,7 @@ listing:
       sort: "date desc"
       type: grid
       grid-columns: 2
+      page-size: 1000
       categories: false
       include:
         categories: "{Inequalities,Health Equity}*"
@@ -149,6 +164,7 @@ listing:
       sort: "date desc"
       type: grid
       grid-columns: 2
+      page-size: 1000
       categories: false
       include:
         categories: "{Public Health}*"
