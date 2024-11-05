@@ -32,8 +32,10 @@
             <% if(item.techniques) { %>
             <div class="quarto-categories">
                 <% for (const cat of item.techniques) { %>
-                            <button class="category-button"><%= cat %></button>
+                  <% if(cat) { %>
+                      <button class="category-button"><%= cat %></button>
                     <% } %>
+                  <% } %>
             </div>
             <% } %>
 
@@ -53,8 +55,10 @@
                     <% if (item['pub-info']) { %>
                       <% if (item['pub-info'].links) { %>
                           <% for (const link of item['pub-info'].links) { %>
+                            <% if (link.url) { %>
                       <button class="project-link-listing-button"><a href="<%- link.url %>"><i class="<%- link.icon %>"></i> <%= link.name %> </a></button>
                           <% } %>
+                        <% } %>
                         <% } %>
                     <% } %>
             </div>
