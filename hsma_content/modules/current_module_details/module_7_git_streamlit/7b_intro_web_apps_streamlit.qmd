@@ -18,7 +18,7 @@ pub-info:
   - name: Repository
     url: https://github.com/hsma-programme/h6_7b_web_apps_1
     icon: fa-brands fa-github
-  - name: Open the Repository in Github Codespaces
+  - name: Open in Github Codespaces
     url: https://codespaces.new/hsma-programme/h6_7b_web_apps_1?quickstart=1
     icon: fa-solid fa-computer
   - name: Book
