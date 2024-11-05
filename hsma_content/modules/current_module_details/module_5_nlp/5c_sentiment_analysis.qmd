@@ -1,0 +1,25 @@
+---
+title: "5C: Sentiment Analysis"
+title-block-banner: ../../../banner.png
+hours: 3
+image: ""
+session-lead: Dr Daniel Chalk
+pub-info:
+  abstract: |
+    In this session we explore the process of sentiment analysis with neural networks, making use of TensorFlow and the Keras API to attempt to classify whether text is positive or negative. 
+    <br/><br/>
+    We look at how to process our raw text data ready for use in the process, train these models, and then save our trained model for use on unseen data. 
+  links:
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1k2gQkA6Qa0TKm47Hh6tM7heTpYh6w2wF27ImQC_BeXk/edit?usp=sharing
+    icon: fa-solid fa-person-chalkboard
+  - name: Video
+    url: https://youtu.be/c74tpYU1opw?si=ePfHhqXek9DUnxEN
+    icon: fa-brands fa-youtube
+  - name: Repository
+    url: https://github.com/hsma-programme/h6_5c_sentiment_analysis
+    icon: fa-brands fa-github
+  - name: Book
+    url: 
+    icon: fa-solid fa-book
+---

@@ -1,0 +1,25 @@
+---
+title: "5D: Named Entity Recognition"
+title-block-banner: ../../../banner.png
+hours: 3
+image: ""
+session-lead: Dr Daniel Chalk
+pub-info:
+  abstract: |
+    In this session, HSMAs worked in groups to tackle a question of their choosing on some data of their choosing using Natural Language Processing techniques, undertaking miniature projects and practicing those all-important skills needed to tackle their own projects in Phase 2.  
+    <br/><br/>
+    The recording contains the brief for the day, as well as 10 presentations of project plans after the initial hour, and 10 presentations of project outputs at the end of the day.
+  links:
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1f2kxuEwh3aaWbeEQzKJdHmR06Wenb782dGBLv6i-BxU/edit?usp=sharing
+    icon: fa-solid fa-person-chalkboard
+  - name: Video
+    url: https://youtu.be/yfiDyURsRMA?si=Ca5wbnepAEqFQoVn
+    icon: fa-brands fa-youtube
+  - name: Repository
+    url: 
+    icon: fa-brands fa-github
+  - name: Book
+    url: 
+    icon: fa-solid fa-book
+---
