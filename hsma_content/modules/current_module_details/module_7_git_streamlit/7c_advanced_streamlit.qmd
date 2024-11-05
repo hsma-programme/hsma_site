@@ -1,0 +1,27 @@
+---
+title: "7C Python Web Apps with Streamlit - Discrete Event Simulation and Advanced Streamlit"
+title-block-banner: ../../../banner.png
+hours: 6
+image: ""
+session-lead: Sammi Rosser
+pub-info:
+  abstract: |
+    Today we're going to start looking at building web apps entirely in Python using the fantastic Streamlit framework.
+    <br/><br/>
+  links:
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1eDOkFTfRAR54xeci9eo7muBYV62I_-dk_8eT3d9PnfQ/edit?usp=sharing
+    icon: fa-solid fa-person-chalkboard
+  - name: Video
+    url: https://youtu.be/1lSkHzOQ03E?si=OelQmc7oveRc6WKE
+    icon: fa-brands fa-youtube
+  - name: Repository
+    url: https://github.com/hsma-programme/h6_7c_web_apps_2
+    icon: fa-brands fa-github
+  - name: Open the Repository in Github Codespaces
+    url: https://codespaces.new/hsma-programme/h6_7c_web_apps_2?quickstart=1
+    icon: fa-solid fa-computer
+  - name: Book
+    url: https://bergam0t.github.io/streamlit_book/
+    icon: fa-solid fa-book
+---
