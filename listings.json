@@ -159,6 +159,14 @@
     ]
   },
   {
+    "listing": "/hsma_content/modules/current_module_details/6_system_dynamics_agent_based_simulation.html",
+    "items": [
+      "/hsma_content/modules/current_module_details/module_6_sd_abs/6a_system_dynamics.html",
+      "/hsma_content/modules/current_module_details/module_6_sd_abs/6b_abs.html",
+      "/hsma_content/modules/current_module_details/module_6_sd_abs/6c_abs_mesa.html"
+    ]
+  },
+  {
     "listing": "/hsma_content/modules/current_module_details/1_intro_or_ds_python.html",
     "items": [
       "/hsma_content/modules/current_module_details/module_1_or_ds_python/1a_hsma_induction_welcome_to_hsma.html",
@@ -213,6 +221,23 @@
       "/hsma_content/modules/current_module_details/module_3_geographic/3b_advanced_qgis_python_mapping.html",
       "/hsma_content/modules/current_module_details/module_3_geographic/3c_interactive_maps_and_travel_time_data.html",
       "/hsma_content/modules/current_module_details/module_3_geographic/3d_location_allocation_problems.html"
+    ]
+  },
+  {
+    "listing": "/hsma_content/modules/current_module_details/7_git_and_web_development.html",
+    "items": [
+      "/hsma_content/modules/current_module_details/module_7_git_streamlit/7a_version_control_git.html",
+      "/hsma_content/modules/current_module_details/module_7_git_streamlit/7b_intro_web_apps_streamlit.html",
+      "/hsma_content/modules/current_module_details/module_7_git_streamlit/7c_advanced_streamlit.html"
+    ]
+  },
+  {
+    "listing": "/hsma_content/modules/current_module_details/5_natural_language_processing.html",
+    "items": [
+      "/hsma_content/modules/current_module_details/module_5_nlp/5a_intro_nlp.html",
+      "/hsma_content/modules/current_module_details/module_5_nlp/5b_ner.html",
+      "/hsma_content/modules/current_module_details/module_5_nlp/5c_sentiment_analysis.html",
+      "/hsma_content/modules/current_module_details/module_5_nlp/5d_nlp_hackathon.html"
     ]
   },
   {
