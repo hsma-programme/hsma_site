@@ -156,7 +156,21 @@
   font-weight: 500;
 }
 
+.project-status-active {
+  font-size: .8em;
+  text-transform: uppercase;
+  color: #558661;
+  padding: 0.1rem 1rem;
+  font-weight: 500;
+}
 
+.project-status-complete {
+  font-size: .8em;
+  text-transform: uppercase;
+  color: #5d635b;
+  padding: 0.1rem 1rem;
+  font-weight: 500;
+}
 
 .project-details-listing {
   display: flex;
