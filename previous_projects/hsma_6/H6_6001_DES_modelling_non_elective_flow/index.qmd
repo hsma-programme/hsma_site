@@ -1,0 +1,41 @@
+---
+title: "Discrete Event Simulation modelling of non elective flow"
+techniques:
+  -
+areas:
+  -
+categories:
+  - Discrete Event Simulation
+  - streamlit
+author:
+  - name: Helena Robinson
+    affiliation: Countess of Chester Hospital NHS FOundation Trust
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url: https://github.com/helenajr/Non-Elective-Flow-Simulation
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+Poor patient flow is leading to (very) long waits for admission in Emergency Departments. This means there is poor performance against all the key ED wait metrics for the hospital and more importantly, there is evidence that long waits for admission in ED are associated with poorer outcomes for patients.
+
+The two main strategies employed to tackle this problem is increasing the number of beds (by creation of escalation beds) and trying to decrease discharge delays (reducing length of stay). Additionally, with Same Day Emergency Care (SDEC) facility it is unclear how the number of people admitted through this facility impacts the waits of those in ED.
+
+Given x beds, how far does admitted length of stay have to reduce to meet particular waiting time targets for those queuing in ED? (Evidence based target)
+If we open 15 beds but keep admitted length of stay the same, what is the impact on ED waiting times and the various targets? (Evidence for a particular management strategy)
+What is the optimum number of people to stream from ED to SDEC to minimise ED waits? (Evidence for a particular management strategy)
+
+This project plans to create Discrete Event Simulation model(s), using HSMA training, to provide evidence for the questions above. Also hoping to create a friendly user interface that stakeholders can try out scenarios and help understand how the model works.

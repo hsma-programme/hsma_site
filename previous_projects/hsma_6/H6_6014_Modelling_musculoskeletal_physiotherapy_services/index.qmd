@@ -1,0 +1,40 @@
+---
+title: "Modelling Musculoskeletal Physiotherapy services across Exeter, Mid and East Devon"
+techniques:
+  -
+areas:
+  -
+categories:
+  - Geographic modelling
+  - Discrete Event Simulation
+  - Streamlit
+author:
+  - name: Martin Greenslade
+    affiliation: Royal Devon University Healthcare NHS Foundation Trust
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+This project aims to explore the demand for and access to Musculoskeletal Physiotherapy services across Exeter, Mid and East Devon.
+
+Using Geographic Modelling to demonstrate variation in demand and access times for Musculoskeletal Physiotherapy services across Exeter, Mid & East Devon.
+
+Using DES to model how placement of resources (staffing) can reduce variation.
+
+To construct a Streamlit App from the above as a tool for ongoing service development and review.

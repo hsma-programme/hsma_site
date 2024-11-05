@@ -1,0 +1,35 @@
+---
+title: "Intelligent Pathway Management"
+techniques:
+  -
+areas:
+  -
+categories:
+  - Process Mining
+  - Unsupervised learning
+  - Discrete Event Simulation
+  - Streamlit
+author:
+  - name: Portia Eze
+    affiliation: Kings College Hospital
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+Here is some text about the project

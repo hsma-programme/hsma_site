@@ -409,5 +409,206 @@
   },
   "previous_projects/useful_quarto_snippets.qmd": {
     "useful_quarto_snippets.html": "041970b0"
+  },
+  "hsma_content/modules/current_module_details/module_3_geographic/3a_intro_geographic_qgis.qmd": {
+    "3a_intro_geographic_qgis.html": "644de6ea"
+  },
+  "hsma_content/modules/current_module_details/module_3_geographic/3b_advanced_qgis_python_mapping.qmd": {
+    "3b_advanced_qgis_python_mapping.html": "5ba1412d"
+  },
+  "hsma_content/modules/current_module_details/module_3_geographic/3c_interactive_maps_and_travel_time_data.qmd": {
+    "3c_interactive_maps_and_travel_time_data.html": "54ac1b71"
+  },
+  "hsma_content/modules/current_module_details/module_3_geographic/3d_location_allocation_problems.qmd": {
+    "3d_location_allocation_problems.html": "cd2b5a82"
+  },
+  "hsma_content/modules/current_module_details/module_4_ml/4a_intro_ml.qmd": {
+    "4a_intro_ml.html": "3940662a"
+  },
+  "hsma_content/modules/current_module_details/module_4_ml/4b_logistic_regression.qmd": {
+    "4b_logistic_regression.html": "c6c8f4fd"
+  },
+  "hsma_content/modules/current_module_details/module_4_ml/4c_ethics_in_ai.qmd": {
+    "4c_ethics_in_ai.html": "1c6e684c"
+  },
+  "hsma_content/modules/current_module_details/module_4_ml/4d_decision_trees_random_forests.qmd": {
+    "4d_decision_trees_random_forests.html": "a6b23740"
+  },
+  "hsma_content/modules/current_module_details/module_4_ml/4e_boosted_trees_regression.qmd": {
+    "4e_boosted_trees_regression.html": "70feaf83"
+  },
+  "hsma_content/modules/current_module_details/module_4_ml/4f_neural_networks.qmd": {
+    "4f_neural_networks.html": "9d6426cb"
+  },
+  "hsma_content/modules/current_module_details/module_4_ml/4g_explainable_ai.qmd": {
+    "4g_explainable_ai.html": "e34b3df6"
+  },
+  "hsma_content/modules/current_module_details/module_4_ml/4h_reinforcement_learning.qmd": {
+    "4h_reinforcement_learning.html": "2b9289b5"
+  },
+  "hsma_content/modules/current_module_details/module_4_ml/4i_synthetic_data.qmd": {
+    "4i_synthetic_data.html": "63a478e3"
+  },
+  "hsma_content/modules/current_module_details/module_4_ml/4j_optimising_ml_models.qmd": {
+    "4j_optimising_ml_models.html": "57c60cf7"
+  },
+  "hsma_content/modules/current_module_details/module_5_nlp/5a_intro_nlp.qmd": {
+    "5a_intro_nlp.html": "4b4f9094"
+  },
+  "hsma_content/modules/current_module_details/module_5_nlp/5b_ner.qmd": {
+    "5b_ner.html": "3b3bcd6d"
+  },
+  "hsma_content/modules/current_module_details/module_5_nlp/5c_sentiment_analysis.qmd": {
+    "5c_sentiment_analysis.html": "91160b7d"
+  },
+  "hsma_content/modules/current_module_details/module_5_nlp/5d_nlp_hackathon.qmd": {
+    "5d_nlp_hackathon.html": "5c2243f5"
+  },
+  "hsma_content/modules/current_module_details/module_6_sd_abs/6a_system_dynamics.qmd": {
+    "6a_system_dynamics.html": "77c0d0b5"
+  },
+  "hsma_content/modules/current_module_details/module_6_sd_abs/6b_abs.qmd": {
+    "6b_abs.html": "d102413a"
+  },
+  "hsma_content/modules/current_module_details/module_6_sd_abs/6c_abs_mesa.qmd": {
+    "6c_abs_mesa.html": "baa9a628"
+  },
+  "hsma_content/modules/current_module_details/module_7_git_streamlit/7a_version_control_git.qmd": {
+    "7a_version_control_git.html": "d90844b8"
+  },
+  "hsma_content/modules/current_module_details/module_7_git_streamlit/7b_intro_web_apps_streamlit.qmd": {
+    "7b_intro_web_apps_streamlit.html": "9f9801cf"
+  },
+  "hsma_content/modules/current_module_details/module_7_git_streamlit/7c_advanced_streamlit.qmd": {
+    "7c_advanced_streamlit.html": "88247868"
+  },
+  "hsma_content/modules/current_module_details/module_8_modern_analytics/8a_reproducibility_quarto_xlsxwriter.qmd": {
+    "8a_reproducibility_quarto_xlsxwriter.html": "f92f4676"
+  },
+  "hsma_content/modules/current_module_details/module_8_modern_analytics/8b_forecasting.qmd": {
+    "8b_forecasting.html": "4f378627"
+  },
+  "previous_projects/hsma_6/H6_6000_Mental_Health_DNA/index.qmd": {
+    "index.html": "f5170c5a"
+  },
+  "previous_projects/hsma_6/H6_6001_DES_modelling_non_elective_flow/index.qmd": {
+    "index.html": "0ceee250"
+  },
+  "previous_projects/hsma_6/H6_6002_GM_healthcare_worker_vaccination_uptake/index.qmd": {
+    "index.html": "866dea16"
+  },
+  "previous_projects/hsma_6/H6_6003_DESmond_62_day_prostate_cancer_pathway/index.qmd": {
+    "index.html": "eb07c038"
+  },
+  "previous_projects/hsma_6/H6_6004_DES_orthopaedic_theatre_capacity_optimisation/index.qmd": {
+    "index.html": "b5ca847a"
+  },
+  "previous_projects/hsma_6/H6_6005_Improving_ambulance_care/index.qmd": {
+    "index.html": "06a75f2d"
+  },
+  "previous_projects/hsma_6/H6_6006_DES_childrens_ADHD_diagnosis_and_treatment/index.qmd": {
+    "index.html": "3d5d3ba0"
+  },
+  "previous_projects/hsma_6/H6_6007_Modelling_eye_injection_pathways/index.qmd": {
+    "index.html": "63e6393c"
+  },
+  "previous_projects/hsma_6/H6_6008_Modelling_the_impact_of_111_and_GP_access/index.qmd": {
+    "index.html": "70dfe987"
+  },
+  "previous_projects/hsma_6/H6_6009_ML_to_predict_future_fraility/index.qmd": {
+    "index.html": "f8d6d6e9"
+  },
+  "previous_projects/hsma_6/H6_6010_Understanding_drivers_of_increased_length_of_stay/index.qmd": {
+    "index.html": "3dcdc55a"
+  },
+  "previous_projects/hsma_6/H6_6011_Forecasting_modelling_for_A&E_attendance/index.qmd": {
+    "index.html": "482eefb5"
+  },
+  "previous_projects/hsma_6/H6_6012_Using_classification_modelling_to investigate_changes_in_ HRG/index.qmd": {
+    "index.html": "56adb7c1"
+  },
+  "previous_projects/hsma_6/H6_6013_Forecasting_acute_bed_occupancy/index.qmd": {
+    "index.html": "5e7fc313"
+  },
+  "previous_projects/hsma_6/H6_6014_Modelling_musculoskeletal_physiotherapy_services/index.qmd": {
+    "index.html": "cc8c313c"
+  },
+  "previous_projects/hsma_6/H6_6015_Forecasting_the_supply_of_medical_doctors/index.qmd": {
+    "index.html": "f8cab13f"
+  },
+  "previous_projects/hsma_6/H6_6016_Optimising_the_location_of_breast_cancer_diagnostic_services/index.qmd": {
+    "index.html": "55ef7be7"
+  },
+  "previous_projects/hsma_6/H6_6017_Referral_to  treatment_waiting_times_for_Neurosurgical_patients/index.qmd": {
+    "index.html": "43ceb024"
+  },
+  "previous_projects/hsma_6/H6_6018_predicting_risk_of_injurious_falls/index.qmd": {
+    "index.html": "97d0cc7e"
+  },
+  "previous_projects/hsma_6/H6_6019_clinical_coding_automation/index.qmd": {
+    "index.html": "9003fa5b"
+  },
+  "previous_projects/hsma_6/H6_6020_modelling_111_option_2_call_centre/index.qmd": {
+    "index.html": "2136cb63"
+  },
+  "previous_projects/hsma_6/H6_6021_predicting_future_demand_renal_replacement_therapy/index.qmd": {
+    "index.html": "7d72e034"
+  },
+  "previous_projects/hsma_6/H6_6022_Intelligent_pathway_management/index.qmd": {
+    "index.html": "c93173fa"
+  },
+  "previous_projects/hsma_6/H6_6023_predicting_gestational_diabetes_using_ML/index.qmd": {
+    "index.html": "6e7b50de"
+  },
+  "previous_projects/hsma_6/H6_6024_Streamlit_app_ for _theographs_of_patient_journeys/index.qmd": {
+    "index.html": "796b5595"
+  },
+  "previous_projects/hsma_6/H6_6025_Modelling_delays_in_breast_head_neck_cancer_pathways/index.qmd": {
+    "index.html": "baf7e533"
+  },
+  "previous_projects/hsma_6/H6_6026_Modelling_secondary_care_psychological_/index.qmd": {
+    "index.html": "7be8372e"
+  },
+  "previous_projects/hsma_6/H6_6027_Pharmacy_clinical_priortisation_tool/index.qmd": {
+    "index.html": "b5f776c5"
+  },
+  "previous_projects/hsma_6/H6_6028_Modelling_of_theatre_recovery_flow_requirements/index.qmd": {
+    "index.html": "35c6d318"
+  },
+  "previous_projects/hsma_6/H6_6029_ML_to_identify_possible_outpatient_DNAs/index.qmd": {
+    "index.html": "854630f0"
+  },
+  "previous_projects/hsma_6/H6_6030_Exploring_factors_that_impact_opiate_cessation/index.qmd": {
+    "index.html": "eb38d89f"
+  },
+  "previous_projects/hsma_6/H6_6031_ABS_to_understand_criminal_adoption_new_technologies/index.qmd": {
+    "index.html": "23165bed"
+  },
+  "previous_projects/hsma_6/H6_6032_Identifying_unpaid_carers/index.qmd": {
+    "index.html": "4a3b3cd6"
+  },
+  "previous_projects/hsma_6/H6_6033_111_downstream_forecasting/index.qmd": {
+    "index.html": "c98ea7f0"
+  },
+  "previous_projects/hsma_6/H6_6034_Forcasting_blood_donation_sesion_capacity/index.qmd": {
+    "index.html": "03e3105d"
+  },
+  "previous_projects/hsma_6/H6_6035_web_app_to_recommend_appropriate_tech_enabled_care/index.qmd": {
+    "index.html": "edd7aebd"
+  },
+  "previous_projects/hsma_6/H6_6036_Forcasting_demand_RDUH_breast_care_services/index.qmd": {
+    "index.html": "b84722bc"
+  },
+  "previous_projects/hsma_6/H6_6037_mapping_health_inequalities/index.qmd": {
+    "index.html": "a55a4995"
+  },
+  "previous_projects/hsma_6/H6_6038_Ml__identifying_deteminants_prostate_cancers/index.qmd": {
+    "index.html": "34fa1db7"
+  },
+  "previous_projects/hsma_6/H6_6039_NLP_to_automate_classification_congenital_anomaly/index.qmd": {
+    "index.html": "fde1edda"
+  },
+  "previous_projects/hsma_6/H6_6040_benefit_of_MECC_using_ABS/index.qmd": {
+    "index.html": "6e0894c8"
   }
 }

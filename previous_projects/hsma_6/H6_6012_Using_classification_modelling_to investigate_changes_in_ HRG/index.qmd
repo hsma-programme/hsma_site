@@ -1,0 +1,33 @@
+---
+title: "Using classification modelling technques to investigate changes in Healthcare Resources Group (HRG) coding over time"
+techniques:
+  -
+areas:
+  -
+categories:
+  - Machine learning
+  - Explainable AI
+author:
+  - name: Chris Todd
+    affiliation: NHS England
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+Here is some text about the project
