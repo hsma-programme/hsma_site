@@ -26,8 +26,10 @@
                   <% if (item['pub-info']) { %>
                     <% if (item['pub-info'].links) { %>
                         <% for (const link of item['pub-info'].links) { %>
+                          <% if (link) { %>
                     <button class="session-link-listing-button"><a href="<%- link.url %>"><i class="<%- link.icon %>"></i> <%= link.name %> </a></button>
-                        <% } %>
+                    <% } %>    
+                    <% } %>
                       <% } %>
                   <% } %>
                 </div>
