@@ -14,6 +14,7 @@ listing:
       sort: "date desc"
       type: grid
       grid-columns: 2
+      page-size: 1000
       categories: false
       include:
         categories: "Discrete Event Simulation"
@@ -23,6 +24,7 @@ listing:
       sort: "date desc"
       type: grid
       grid-columns: 2
+      page-size: 1000
       categories: false
       include:
         categories: "Network Analysis"
@@ -32,6 +34,7 @@ listing:
       sort: "date desc"
       type: grid
       grid-columns: 2
+      page-size: 1000
       categories: false
       include:
         categories: "Automation"
@@ -41,6 +44,7 @@ listing:
       sort: "date desc"
       type: grid
       grid-columns: 2
+      page-size: 1000
       categories: false
       include:
         categories: "{Location Optimisation,Location Optimization,Mapping,Travel Times,QGIS,Geostatistics}*"
@@ -50,6 +54,7 @@ listing:
       sort: "date desc"
       type: grid
       grid-columns: 2
+      page-size: 1000
       categories: false
       include:
         categories: "{Forecasting,Prophet}*"
@@ -59,6 +64,7 @@ listing:
       sort: "date desc"
       type: grid
       grid-columns: 2
+      page-size: 1000
       categories: false
       include:
         categories: "{Natural Language Processing,Natural Language Processing (NLP),Named Entity Recognition}*"
@@ -68,6 +74,7 @@ listing:
       sort: "date desc"
       type: grid
       grid-columns: 2
+      page-size: 1000
       categories: false
       include:
         categories: "{Machine Learning}*"
@@ -77,6 +84,7 @@ listing:
       sort: "date desc"
       type: grid
       grid-columns: 2
+      page-size: 1000
       categories: false
       include:
         categories: "{Streamlit}*"

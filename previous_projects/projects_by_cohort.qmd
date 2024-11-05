@@ -14,6 +14,7 @@ listing:
       sort: "date desc"
       type: grid
       grid-columns: 2
+      page-size: 1000
       categories: true
       template: ../html/previous_projects/listing.ejs
       template-params:
@@ -23,6 +24,7 @@ listing:
       sort: "date desc"
       type: grid
       grid-columns: 2
+      page-size: 1000
       categories: true
       template: ../html/previous_projects/listing.ejs
       template-params:
@@ -32,6 +34,7 @@ listing:
       sort: "date desc"
       type: grid
       grid-columns: 2
+      page-size: 1000
       template: ../html/previous_projects/listing.ejs
       categories: true
       template-params:
@@ -41,6 +44,7 @@ listing:
       sort: "date desc"
       type: grid
       grid-columns: 2
+      page-size: 1000
       template: ../html/previous_projects/listing.ejs
       categories: true
       template-params:
