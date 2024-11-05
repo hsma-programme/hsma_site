@@ -2,7 +2,15 @@
 title: "Module 5: Natural Language Processing	"
 title-block-banner: ../../banner.png
 image: "5_nlp.jpeg"
-hours: 9
+hours: 15
 pub-info:
   abstract:
+listing:
+    - id: 5_nlp
+      contents: "module_5_nlp/*.qmd"
+      sort: "date"
+      type: grid
+      grid-columns: 2
+      categories: false
+      template: ../../../html/modules/session_listing.ejs
 ---
