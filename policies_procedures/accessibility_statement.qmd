@@ -1,0 +1,20 @@
+---
+title: Accessibility Statement
+---
+
+## Feedback and contact information
+
+If you wish to report any accessibility challenges in using this website, or if you require any information on this website in a different format like accessible PDF, large print, easy read, audio recording or braille, please contact:
+
+email: [penarc@exeter.ac.uk](mailto:penarc@exeter.ac.uk)
+
+call: 01392 726055
+
+We’ll consider your request and get back to you in 30 days. If you do not receive a response, please contact the NIHR Service Desk for assistance.
+
+
+## Enforcement procedure
+
+If you do not receive a response to the above request, please contact the NIHR Service Desk for further escalation.
+
+The Equality and Human Rights Commission (EHRC) is responsible for enforcing the Public Sector Bodies (Websites and Mobile Applications) (No. 2) Accessibility Regulations 2018 (the ‘accessibility regulations’). If you’re not happy with how we respond to your complaint, contact the Equality Advisory and Support Service (EASS).

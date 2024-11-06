@@ -80,6 +80,9 @@
     ],
     "previous_projects\\projects_in_progress.qmd": [
       "*/*/index.qmd"
+    ],
+    "previous_projects\\completed_projects.qmd": [
+      "*/*/index.qmd"
     ]
   }
 }

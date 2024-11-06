@@ -35,3 +35,11 @@ The start date for round 7 of the programme has not yet been set, but if you are
 Recordings of the course, as well as all of our course materials, are offered **free of charge** to anyone, anywhere in the world, for personal use and adaptation.
 
 Head over to our [books](hsma_content/books/books.qmd) or our [HSMA 6 content recordings](hsma_content/modules/modules.qmd) to work through this year's course at your own pace - for free!
+
+## Our Projects
+
+While HSMA involves a large training element, the main focus of the programme is to support participants to undertake their own projects in their organisations.
+
+On the website you can find more out about our [projects that are currently in progress](previous_projects/projects_in_progress.qmd) or [projects that have previously been undertaken](previous_projects/completed_projects.qmd).
+
+You can also view projects [by method](previous_projects/projects_by_methods.qmd), [by area of application](previous_projects/projects_by_service_area.qmd), [by HSMA cohort](previous_projects/projects_by_cohort.qmd) or [by service](previous_projects/projects_by_organisation.qmd).
