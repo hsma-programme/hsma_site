@@ -68,6 +68,18 @@
     ],
     "hsma_content\\modules\\current_module_details\\4_machine_learning.qmd": [
       "module_4_ml/*.qmd"
+    ],
+    "hsma_content\\modules\\current_module_details\\5_natural_language_processing.qmd": [
+      "module_5_nlp/*.qmd"
+    ],
+    "hsma_content\\modules\\current_module_details\\6_system_dynamics_agent_based_simulation.qmd": [
+      "module_6_sd_abs/*.qmd"
+    ],
+    "hsma_content\\modules\\current_module_details\\7_git_and_web_development.qmd": [
+      "module_7_git_streamlit/*.qmd"
+    ],
+    "previous_projects\\projects_in_progress.qmd": [
+      "*/*/index.qmd"
     ]
   }
 }

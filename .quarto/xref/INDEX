@@ -610,5 +610,38 @@
   },
   "previous_projects/hsma_6/H6_6040_benefit_of_MECC_using_ABS/index.qmd": {
     "index.html": "6e0894c8"
+  },
+  "about-hsma.qmd": {
+    "about-hsma.html": "081be287"
+  },
+  "staff/guest_lecturer_profiles/kp.qmd": {
+    "kp.html": "e04bb1e3"
+  },
+  "staff/guest_lecturer_profiles/ma.qmd": {
+    "ma.html": "3e2f1ca8"
+  },
+  "staff/guest_lecturer_profiles/sm.qmd": {
+    "sm.html": "9de680de"
+  },
+  "staff/guest_lecturer_profiles/tm.qmd": {
+    "tm.html": "4674d7ed"
+  },
+  "staff/main_staff_profiles/dc.qmd": {
+    "dc.html": "95973b6b"
+  },
+  "staff/main_staff_profiles/jp.qmd": {
+    "jp.html": "cb5b627c"
+  },
+  "staff/main_staff_profiles/sr.qmd": {
+    "sr.html": "d527ad3c"
+  },
+  "staff/previous_staff_profiles/ec.qmd": {
+    "ec.html": "2dec5e13"
+  },
+  "staff/staff.qmd": {
+    "staff.html": "5c42c210"
+  },
+  "previous_projects/projects_in_progress.qmd": {
+    "projects_in_progress.html": "7fd48dba"
   }
 }
