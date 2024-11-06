@@ -1,5 +1,5 @@
 ---
-title: "Module 4: Machine Learning	"
+title: "Module 4: Machine Learning"
 title-block-banner: ../../banner.png
 hours: 30
 image: "4_ml.jpeg"

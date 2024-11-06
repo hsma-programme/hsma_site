@@ -1,5 +1,5 @@
 ---
-title: "Module 5: Natural Language Processing	"
+title: "Module 5: Natural Language Processing"
 title-block-banner: ../../banner.png
 image: "5_nlp.jpeg"
 hours: 15

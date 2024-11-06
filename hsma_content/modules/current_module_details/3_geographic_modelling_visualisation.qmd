@@ -1,5 +1,5 @@
 ---
-title: "Module 3: Geographic Modelling and Visualisation	"
+title: "Module 3: Geographic Modelling and Visualisation"
 title-block-banner: ../../banner.png
 hours: 12
 image: "3_geographic.jpeg"

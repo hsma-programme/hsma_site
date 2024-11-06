@@ -1,5 +1,5 @@
 ---
-title: "Module 1: Introduction to Operational Research, Data Science and Programming		"
+title: "Module 1: Introduction to Operational Research, Data Science and Programming"
 title-block-banner: ../../banner.png
 image: "1_intro_or_ds_python.jpeg"
 hours: 36
