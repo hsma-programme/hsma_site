@@ -5,6 +5,7 @@ image: "7_collab.jpeg"
 hours: 18
 pub-info:
   abstract:
+page-layout: full
 listing:
     - id: 7_git_streamlit
       contents: "module_7_git_streamlit/*.qmd"

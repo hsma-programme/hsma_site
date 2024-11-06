@@ -5,6 +5,7 @@ image: "5_nlp.jpeg"
 hours: 15
 pub-info:
   abstract:
+page-layout: full
 listing:
     - id: 5_nlp
       contents: "module_5_nlp/*.qmd"

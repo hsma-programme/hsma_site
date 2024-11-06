@@ -5,6 +5,7 @@ image: "6_system.jpeg"
 hours: 12
 pub-info:
   abstract:
+page-layout: full
 listing:
     - id: 6_sd_abs
       contents: "module_6_sd_abs/*.qmd"
