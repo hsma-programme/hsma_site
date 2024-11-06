@@ -1,0 +1,43 @@
+---
+title: About the HSMA Programme
+title-block-banner: resources/banner.png
+page-layout: full
+toc: false
+---
+
+## What is the HSMA Programme?
+
+Operational Research and Data Science approaches – such as Machine Learning – can play a vital role in supporting the delivery of health, social care and policing services. Increasingly, such skills are proving to be important components of the analytical function of organisations in these sectors.
+
+In 2016, [NIHR PenARC](https://arc-swp.nihr.ac.uk/) launched the Health Service Modelling Associates (HSMA) Programme - an innovative and now entirely online training and mentoring programme in which staff working in health, social care and policing organisations are released for a day a week for a year to work on a modelling, simulation or data science project that addresses an issue of importance for their organisation.
+
+HSMA projects have led to
+
+- [£multi-million investments in mental health and urgent care services](https://arc-swp.nihr.ac.uk/news/torbay-hospital-mental-health-facility/)
+- [the establishment of brand new modelling and Data Science roles within NHS organisations](https://arc-swp.nihr.ac.uk/news/ground-breaking-role-for-operational-research-in-nhs-decision-making/)
+- [support for the COVID-19 mass vaccination programme](https://arc-swp.nihr.ac.uk/news/hsma-covid-vaccination-model)
+- significant career progression for the analysts involved
+
+The programme was recently hailed as a flagship national example of the capacity building work of the NIHR Applied Research Collaborations.
+
+[Read more about some of the stories of our past and present HSMAs](https://arc-swp.nihr.ac.uk/news/data-science-capacity-building/).
+
+## How does it work?
+
+The HSMA Programme is split into two phases.
+
+In Phase 1 (6 months), participants are taught a huge range of skills in Operational Research and Data Science via live online lectures and group exercises, including:
+
+- Programming in Python and R (no prior knowledge of programming required)
+- Discrete Event Simulation to model pathway and queuing problems
+- System Dynamics to model whole systems
+- Geographic Modelling and Visualisation methods to model location issues
+- Agent Based Simulation to model behaviour
+- Artificial Intelligence (AI) approaches, such as Machine Learning to teach machines to make decisions, and Natural Language Processing to extract information from free text data
+- Free and Open Source Software (FOSS) development methods and tools
+
+At any point during the programme a HSMA can register a project. By registering a project, the HSMA will receive a dedicated Slack channel that can be used to develop the project proposal, invite collaborators from the HSMA community, post updates of progress and ask for support. Phase 2 (9 months), will allow current HSMAs to undertake their Inception Project - first modelling or data science project - with access to a community of experts and regular drop in sessions for support.
+
+:::{.callout-important appearance="minimal"}
+We will only be able to register and support projects that are related to the modelling and data science areas taught within the HSMA programme and are in the areas of health, social care and policing.
+:::
