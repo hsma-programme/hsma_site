@@ -1,10 +1,37 @@
 ---
-title: "Welcome to the Home of the HSMA Programme!"
+title: "![Welcome](resources/Chalky%20HSMA-07-wide.png){height=300px}"
+pagetitle: Welcome
 title-block-banner: resources/banner.png
+page-layout: full
+grid:
+    body-width: 900px
+    gutter-width: 1.5rem
+toc: false
 ---
 
-Welcome to the website of the HSMA Programme.
+```{=html}
+<style>
+body {
+	text-align: center;
+}
+</style>
+```
 
-This site is under construction - for all needs other than reviewing past HSMA projects, head to the old site.
+Welcome to the website of the Health Service Modelling Associates (HSMA) Programme.
 
-<https://sites.google.com/nihr.ac.uk/hsma/home>
+HSMA is a course teaching **data science** and **operational research** techniques to participants from across healthcare, policing, social care and other public sector services in England.
+
+Starting from learning the basics of Python and progressing through simulation modelling, machine learning, website development and more, participants are empowered to enhance the use of data within their organisations.
+
+:::{.callout-important appearance="minimal"}
+We are currently in the middle of round 6 of the HSMA programme, supporting over 50 projects across various sectors.
+
+The start date for round 7 of the programme has not yet been set, but if you are interested in being kept up to date with our plans via our mailing list, please [drop us an email](mailto:penchord@exeter.ac.uk?subject=Add%20Me%20to%20the%20HSMA%20Mailing%20List%2C%20Please!&body=Please%20add%20me%20to%20the%20HSMA%20mailing%20list.%0A%0A**This%20is%20an%20automatically%20generated%20email%20from%20a%20link%20on%20the%20HSMA%20website**).
+
+:::
+
+## Our Materials
+
+Recordings of the course, as well as all of our course materials, are offered **free of charge** to anyone, anywhere in the world, for personal use and adaptation.
+
+Head over to our [books](hsma_content/books/books.qmd) or our [HSMA 6 content recordings](hsma_content/modules/modules.qmd) to work through this year's course at your own pace - for free!
