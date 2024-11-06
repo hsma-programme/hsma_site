@@ -5,12 +5,12 @@ image: "2_des.jpeg"
 hours: 9
 pub-info:
   abstract: |
-    This module serves as an introduction to modelling pathway problems with discrete event simulation (DES). 
-    
+    This module serves as an introduction to modelling pathway problems with discrete event simulation (DES).
+
     <br/><br/>It covers
     <br/>&#x2022; What DES is and where it may be useful
     <br/>&#x2022; The key terminology associated with DES (e.g. resources, entities, sinks)
-    <br/>&#x2022; How to simplify a real-world pathway modelling problem into a conceptual model 
+    <br/>&#x2022; How to simplify a real-world pathway modelling problem into a conceptual model
     <br/>&#x2022; Python generator functions
     <br/>&#x2022; The features of the SimPy package
     <br/>&#x2022; How to write simple simulations in Python with SimPy
@@ -19,6 +19,12 @@ pub-info:
     <br/>&#x2022; How to build in more complex features to your pathway models, including warm-up periods, priority-based queuing, resource unavailability, Lognormal distributions, reneging, balking, and jockeying
 
 page-layout: full
+grid:
+  sidebar-width: 0px
+  body-width: 1100px
+  margin-width: 300px
+  gutter-width: 1.5rem
+
 listing:
     - id: 2_des
       contents: "module_2_des/*.qmd"

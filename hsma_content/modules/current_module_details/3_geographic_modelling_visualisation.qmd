@@ -4,8 +4,15 @@ title-block-banner: ../../banner.png
 hours: 12
 image: "3_geographic.jpeg"
 pub-info:
-  abstract: 
+  abstract:
+
 page-layout: full
+grid:
+  sidebar-width: 0px
+  body-width: 1100px
+  margin-width: 300px
+  gutter-width: 1.5rem
+
 listing:
     - id: 3_geographic
       contents: "module_3_geographic/*.qmd"

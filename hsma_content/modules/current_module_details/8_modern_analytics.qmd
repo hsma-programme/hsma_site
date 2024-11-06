@@ -6,6 +6,11 @@ hours: 12
 pub-info:
   abstract:
 page-layout: full
+grid:
+  sidebar-width: 0px
+  body-width: 1100px
+  margin-width: 300px
+  gutter-width: 1.5rem
 ---
 
 Coming Soon!

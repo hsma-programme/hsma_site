@@ -5,7 +5,14 @@ image: "7_collab.jpeg"
 hours: 18
 pub-info:
   abstract:
+
 page-layout: full
+grid:
+  sidebar-width: 0px
+  body-width: 1100px
+  margin-width: 300px
+  gutter-width: 1.5rem
+
 listing:
     - id: 7_git_streamlit
       contents: "module_7_git_streamlit/*.qmd"

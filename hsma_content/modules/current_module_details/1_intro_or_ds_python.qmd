@@ -16,7 +16,14 @@ pub-info:
     <br/>&#x2022; How to set up the VSCode Integrated Development Environment (IDE) for Python Programming
     <br/>&#x2022; How to set up environments for package management throughout the HSMA course using Anaconda or the built-in environment features of VSCode
     <br/>&#x2022; How to write code using the Python programming language
+
 page-layout: full
+grid:
+  sidebar-width: 0px
+  body-width: 1100px
+  margin-width: 300px
+  gutter-width: 1.5rem
+
 listing:
     - id: 1_or_ds_python
       contents: "module_1_or_ds_python/*.qmd"
