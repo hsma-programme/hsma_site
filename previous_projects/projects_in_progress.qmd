@@ -1,0 +1,27 @@
+---
+title: "Projects in Progress"
+title-block-banner: banner.png
+toc: false
+include-back-link: false
+grid:
+  sidebar-width: 0px
+  body-width: 1100px
+  margin-width: 300px
+  gutter-width: 1.5rem
+listing:
+    - id: in_progress
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        status: "{Active}"
+      template: ../html/previous_projects/listing.ejs
+---
+
+## Projects In Progress
+
+:::{#in_progress}
+:::

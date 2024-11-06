@@ -1,0 +1,28 @@
+---
+title: "Completed Projects"
+toc: false
+title-block-banner: banner.png
+include-back-link: false
+grid:
+  sidebar-width: 0px
+  body-width: 1100px
+  margin-width: 300px
+  gutter-width: 1.5rem
+listing:
+
+    - id: complete
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      exclude:
+        status: "{Active}"
+      template: ../html/previous_projects/listing.ejs
+---
+
+## Completed Projects
+
+:::{#complete}
+:::
