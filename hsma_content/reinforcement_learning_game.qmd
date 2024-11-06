@@ -1,0 +1,54 @@
+---
+title: Reinforcement Learning Game
+title-block-banner: banner.png
+include-back-link: false
+page-layout: full
+grid:
+  sidebar-width: 0px
+  body-width: 1100px
+  margin-width: 300px
+  gutter-width: 1.5rem
+---
+
+```{=html}
+<style>
+body {
+	text-align: center;
+}
+
+a {
+	color: rgb(255, 255, 255);
+	text-decoration: underline;
+	-webkit-text-decoration: underline;
+	-moz-text-decoration: underline;
+	-ms-text-decoration: underline;
+	-o-text-decoration: underline;
+  padding: 2px
+}
+
+.custom-button:hover a {
+  background-color: white;    /* White background on hover */
+  color: #3d3d3d;              /* Grey text on hover */
+  border-color: #3498db;      /* Blue border on hover */
+}
+</style>
+```
+
+Reinforcement learning is a powerful technique within machine learning.
+
+Originally built for introducing people to reinforcement learning as part of the HSMA programme, this web application is freely available for you to use and adapt.
+
+```{=html}
+<div class="project-link-buttons">
+    <ul class="project-links">
+        <button class="custom-button"><a href="https://bergam0t.github.io/ReinforcementLearningGame/"><i class="fa-solid fa-globe"></i><span style="padding-left: 10px;">Open the Game in a New Tab</span></a></button>
+        <button class="custom-button"><a href="https://github.com/Bergam0t/ReinforcementLearningGame"><i class="fa-brands fa-github"></i><span style="padding-left: 10px;">View the Code</span></a></button>
+    </ul>
+</div>
+```
+
+Try it out below!
+
+```{=html}
+<iframe width="1280" height="700" src="https://bergam0t.github.io/ReinforcementLearningGame/" title="HSMA Reinforcement Learning Game"></iframe>
+```

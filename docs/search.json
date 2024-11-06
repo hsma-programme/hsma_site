@@ -1104,5 +1104,19 @@
     "title": "",
     "section": "Our Projects",
     "text": "Our Projects\nWhile HSMA involves a large training element, the main focus of the programme is to support participants to undertake their own projects in their organisations.\nOn the website you can find more out about our projects that are currently in progress or projects that have previously been undertaken.\nYou can also view projects by method, by area of application, by HSMA cohort or by service."
+  },
+  {
+    "objectID": "hsma_content/des_playground.html",
+    "href": "hsma_content/des_playground.html",
+    "title": "The Discrete Event Simulation Playground",
+    "section": "",
+    "text": "Discrete Event Simulation is a powerful tool for improving pathways, of which there are a lot in healthcare services.\nOriginally built for introducing people to Discrete Event Simulation at our open day, this web application is freely available for you to use and adapt.\n\n    \n        Open the Playground in a New Tab\n        View the Code\n    \n\nTry it out below!\n\n\n\n\n\n\nNote that the website will not work in Firefox due to browser restrictions. It has been confirmed to work in Chrome, Edge and Safari."
+  },
+  {
+    "objectID": "hsma_content/reinforcement_learning_game.html",
+    "href": "hsma_content/reinforcement_learning_game.html",
+    "title": "Reinforcement Learning Game",
+    "section": "",
+    "text": "Reinforcement learning is a powerful technique within machine learning.\nOriginally built for introducing people to reinforcement learning as part of the HSMA programme, this web application is freely available for you to use and adapt.\n\n    \n        Open the Game in a New Tab\n        View the Code\n    \n\nTry it out below!"
   }
 ]

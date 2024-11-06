@@ -1,0 +1,61 @@
+---
+title: The Discrete Event Simulation Playground
+title-block-banner: banner.png
+include-back-link: false
+page-layout: full
+grid:
+  sidebar-width: 0px
+  body-width: 1100px
+  margin-width: 300px
+  gutter-width: 1.5rem
+---
+
+```{=html}
+<style>
+
+body {
+	text-align: center;
+}
+
+a {
+	color: rgb(255, 255, 255);
+	text-decoration: underline;
+	-webkit-text-decoration: underline;
+	-moz-text-decoration: underline;
+	-ms-text-decoration: underline;
+	-o-text-decoration: underline;
+  padding: 2px
+}
+
+.custom-button:hover a {
+  background-color: white;    /* White background on hover */
+  color: #3d3d3d;              /* Grey text on hover */
+  border-color: #3498db;      /* Blue border on hover */
+}
+
+</style>
+```
+
+Discrete Event Simulation is a powerful tool for improving pathways, of which there are a lot in healthcare services.
+
+Originally built for introducing people to Discrete Event Simulation at our open day, this web application is freely available for you to use and adapt.
+
+```{=html}
+<div class="project-link-buttons">
+    <ul class="project-links">
+        <button class="custom-button"><a href="https://hsma-programme.github.io/Teaching_DES_Concepts_Streamlit/"><i class="fa-solid fa-globe"></i><span style="padding-left: 10px;">Open the Playground in a New Tab</span></a></button>
+        <button class="custom-button"><a href="https://github.com/hsma-programme/Teaching_DES_Concepts_Streamlit"><i class="fa-brands fa-github"></i><span style="padding-left: 10px;">View the Code</span></a></button>
+    </ul>
+</div>
+```
+
+Try it out below!
+
+:::{.callout-important appearance="minimal"}
+Note that the website will not work in Firefox due to browser restrictions.
+It has been confirmed to work in Chrome, Edge and Safari.
+:::
+
+```{=html}
+<iframe width="1280" height="900" src="https://hsma-programme.github.io/Teaching_DES_Concepts_Streamlit/" title="HSMA DES Playground"></iframe>
+```

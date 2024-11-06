@@ -66,6 +66,13 @@ website:
       - href: hsma_content/modules/modules.qmd
         text: HSMA Modules
 
+      - text: "Other Resources"
+        menu:
+          - href: hsma_content/des_playground.qmd
+            text: The DES Playground
+          - href: hsma_content/reinforcement_learning_game.qmd
+            text: Reinforcement Learning Game
+
 
 format:
   html:
