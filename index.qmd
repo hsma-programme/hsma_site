@@ -156,7 +156,7 @@ HSMA is a course teaching and supporting the application of **data science** and
             <li class="splide__slide" data-splide-interval="14000">
 				<img src="resources/lecture_examples/quarto_dashboard.png" alt="">
                 <div class="hsma_caption">
-                Aligning with the NHS's focus on reproducible analytical pipelines, HSMA's focus on Python and dedicated content on reproducible outputs with Quarto and other tools can help individuals to get rid of repetitive, manual process; reduce mistakes; and free up time for doing more advanced work.
+                Aligning with the NHS's focus on reproducible analytical pipelines, HSMA's use of Python and dedicated content on reproducible outputs with Quarto and other tools can help individuals to get rid of repetitive, manual process; reduce mistakes; and free up time for doing more advanced work.
                 </div>
 			</li>
             <li class="splide__slide" data-splide-interval="12000">
