@@ -255,7 +255,8 @@ body {
 .splide__optional-button-container {
   margin-bottom: 1rem;
   margin-top: 1rem;
-  text-align: left;
+  text-align: right;
+  font-size: 1rem;
 }
 
 .splide__toggle a {
@@ -293,6 +294,12 @@ body {
 <p>Welcome to the website of the Health Service Modelling Associates (HSMA) Programme.</p>
 <p>HSMA is a course teaching and supporting the application of <strong>data science</strong> and <strong>operational research</strong> techniques, taking on participants from across healthcare, policing, social care and other public sector services in England.</p>
 <section id="image-carousel" class="splide" aria-label="Beautiful Images">
+<div class="splide__optional-button-container">
+  <button class="splide__toggle" type="button">
+    <a class="splide__toggle__play"><i class="fa-solid fa-play"></i><span style="padding-left: 10px;">Resume Slideshow</span></a>
+        <a class="splide__toggle__pause"><i class="fa-solid fa-pause"></i><span style="padding-left: 10px;">Pause Slideshow</span></a>
+  </button>
+  </div>
   <div class="splide__track">
         <ul class="splide__list">
             <li class="splide__slide">
@@ -308,7 +315,7 @@ body {
                 </div>
             </li>
             <li class="splide__slide" data-splide-interval="12000">
-                <img src="resources/lecture_examples/des_playground.png" alt="">
+                <img src="resources/lecture_examples/chrome_0RAC8nIgdm.gif" alt="">
                 <div class="hsma_caption">
                 With bespoke resources created to help break down complex topics for beginner audiences, HSMA can help you to understand and communicate the power of operational research and data science techniques in your organisations - and start doing the work yourself.
                 </div>
@@ -386,7 +393,7 @@ body {
                 </div>
             </li>
             <li class="splide__slide" data-splide-interval="12000">
-                <img src="resources/lecture_examples/reinforcement_learning.png" alt="">
+                <img src="resources/lecture_examples/chrome_p6pReINw8Y.gif" alt="">
                 <div class="hsma_caption">
                 With bespoke games, countless references to the 1980's, classic games and musicals, and even a bout of swordfighting to teach sentiment analysis, HSMA is designed to be a fun, friendly introduction to complex topics.
                 </div>
@@ -394,12 +401,7 @@ body {
         </ul>
   </div>
 
-<div class="splide__optional-button-container">
-  <button class="splide__toggle" type="button">
-    <a class="splide__toggle__play"><i class="fa-solid fa-play"></i></a>
-        <a class="splide__toggle__pause"><i class="fa-solid fa-pause"></i></a>
-  </button>
-  </div>
+
 
 </section>
 <div class="callout callout-style-simple callout-important no-icon">
