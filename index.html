@@ -246,10 +246,70 @@ background-size: cover;
 body {
     text-align: center;
 }
+
+.splide__slide img {
+  width: 60%;
+  height: auto;
+}
+
+.splide__optional-button-container {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.splide__toggle a {
+    color: #fff;
+}
+
+.splide__toggle {
+    border: none;
+}
 </style>
+
+<script src=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js "></script>
+
+<link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+
+<script>
+  document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '#image-carousel' , {
+        type    : 'loop',
+        autoplay: 'play',
+        perPage : 1,
+        interval: 4000,
+        pauseOnHover : false,
+        pauseOnFocus : false,
+        resetProgress: false
+    } ).mount();
+} );
+</script>
+
 <p>Welcome to the website of the Health Service Modelling Associates (HSMA) Programme.</p>
-<p>HSMA is a course teaching <strong>data science</strong> and <strong>operational research</strong> techniques to participants from across healthcare, policing, social care and other public sector services in England.</p>
-<p>Starting from learning the basics of Python and progressing through simulation modelling, machine learning, website development and more, participants are empowered to enhance the use of data within their organisations.</p>
+<p>HSMA is a course teaching and supporting the application of <strong>data science</strong> and <strong>operational research</strong> techniques, taking on participants from across healthcare, policing, social care and other public sector services in England.</p>
+<section id="image-carousel" class="splide" aria-label="Beautiful Images">
+  <div class="splide__track">
+        <ul class="splide__list">
+            <li class="splide__slide">
+                <img src="resources/photos/thoCeZ5Q.jpeg" alt="">
+            </li>
+            <li class="splide__slide">
+                <img src="resources/photos/5GlqPNuw.jpeg" alt="">
+            </li>
+            <li class="splide__slide">
+                <img src="resources/photos/xm0N3zPk.jpeg" alt="">
+            </li>
+        </ul>
+  </div>
+
+<div class="splide__optional-button-container">
+  <button class="splide__toggle" type="button">
+    <a class="splide__toggle__play"><i class="fa-solid fa-play"></i></a>
+        <a class="splide__toggle__pause"><i class="fa-solid fa-pause"></i></a>
+  </button>
+  </div>
+
+</section>
 <div class="callout callout-style-simple callout-important no-icon">
 <div class="callout-body d-flex">
 <div class="callout-icon-container">
@@ -261,6 +321,25 @@ body {
 </div>
 </div>
 </div>
+<section id="how-does-the-programme-work" class="level2">
+<h2 class="anchored" data-anchor-id="how-does-the-programme-work">How Does the Programme Work?</h2>
+<p>HSMA is a 15-month programme with two distinct phases.</p>
+<div class="columns">
+<div class="column" style="width:45%;">
+<section id="phase-1" class="level3">
+<h3 class="anchored" data-anchor-id="phase-1">PHASE 1</h3>
+<p>A 6 month training phase in which participants learn the Python programming language, before progressing through simulation modelling, machine learning, website development and more</p>
+</section>
+</div><div class="column" style="width:10%;">
+<!-- empty column to create gap -->
+</div><div class="column" style="width:45%;">
+<section id="phase-2" class="level3">
+<h3 class="anchored" data-anchor-id="phase-2">PHASE 2</h3>
+<p>A 9 month project phase in which participants are supported to produce their own project using the new skills they have learned, applying operational research and data science techniques to a real problem within their organisation</p>
+</section>
+</div>
+</div>
+</section>
 <section id="our-materials" class="level2">
 <h2 class="anchored" data-anchor-id="our-materials">Our Materials</h2>
 <p>Recordings of the course, as well as all of our course materials, are offered <strong>free of charge</strong> to anyone, anywhere in the world, for personal use and adaptation.</p>
