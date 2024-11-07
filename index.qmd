@@ -34,6 +34,12 @@ body {
     font-weight: 200;
 }
 
+h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: center;
+}
+
 .splide__toggle {
     border: none;
 }
@@ -193,16 +199,23 @@ The start date for round 7 of the programme has not yet been set, but if you are
 
 :::
 
+```{=html}
+<br/><br/><br/>
+```
+
 ## How Does the Programme Work?
 
-HSMA is a 15-month programme with two distinct phases.
+The full HSMA experience is a live, 15-month programme with two distinct phases.
 
 :::: {.columns}
 
 ::: {.column width="45%"}
+
 ### PHASE 1
 
-A 6 month training phase in which participants learn the Python programming language, before progressing through simulation modelling, machine learning, website development and more
+A 6 month training phase in which participants learn the Python programming language, before progressing through simulation modelling, machine learning, website development and more.
+
+Participants are released from their usual role for one day a week, joining the HSMA trainers online for live lectures and group work.
 
 :::
 
@@ -213,14 +226,24 @@ A 6 month training phase in which participants learn the Python programming lang
 ::: {.column width="45%"}
 ### PHASE 2
 
-A 9 month project phase in which participants are supported to produce their own project using the new skills they have learned, applying operational research and data science techniques to a real problem within their organisation
+A 9 month project phase in which participants are supported to produce their own project using the new skills they have learned, applying operational research and data science techniques to a real problem within their organisation.
+
+Participants are expected to spend at least one day a week working on their project during this phase.
 :::
 
 ::::
 
+```{=html}
+<br/><br/><br/>
+```
+
 ## Our Materials
 
-Head over to our [books](hsma_content/books/books.qmd) or our [HSMA 6 content recordings](hsma_content/modules/modules.qmd) to work through this year's course at your own pace - for free!
+Whether you are an alumni, current participant, or someone who is looking to learn data science and operational research on your own, head over to our [books](hsma_content/books/books.qmd) or our [HSMA 6 content recordings](hsma_content/modules/modules.qmd) to work through this year's course at your own pace.
+
+```{=html}
+<br/><br/><br/>
+```
 
 ## Our Projects
 

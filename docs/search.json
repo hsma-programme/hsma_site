@@ -186,7 +186,7 @@
     "href": "index.html",
     "title": "",
     "section": "",
-    "text": "Welcome to the website of the Health Service Modelling Associates (HSMA) Programme."
+    "text": "The Health Service Modelling Associates (HSMA) Programme teaches public sector analysts, clinicians and managers how to use data science and operational research techniques, as well as supporting them to apply these techniques in their organisations.\nThe full HSMA course experience is provided free of charge to people working in health, social care and policing organisations in England.\nRecordings of previous course sessions, as well as all of our course materials and code, are offered free of charge to anyone, anywhere in the world for personal use and adaptation."
   },
   {
     "objectID": "previous_projects/hsma_3/h3_ai_sentiment_tweet/index.html",
@@ -984,7 +984,7 @@
     "href": "index.html#our-materials",
     "title": "",
     "section": "Our Materials",
-    "text": "Our Materials\nHead over to our books or our HSMA 6 content recordings to work through this year’s course at your own pace - for free!"
+    "text": "Our Materials\nWhether you are an alumni, current participant, or someone who is looking to learn data science and operational research on your own, head over to our books or our HSMA 6 content recordings to work through this year’s course at your own pace."
   },
   {
     "objectID": "about-hsma.html",
@@ -1124,7 +1124,7 @@
     "href": "index.html#how-does-the-programme-work",
     "title": "",
     "section": "How Does the Programme Work?",
-    "text": "How Does the Programme Work?\nHSMA is a 15-month programme with two distinct phases.\n\n\n\nPHASE 1\nA 6 month training phase in which participants learn the Python programming language, before progressing through simulation modelling, machine learning, website development and more\n\n\n\n\n\nPHASE 2\nA 9 month project phase in which participants are supported to produce their own project using the new skills they have learned, applying operational research and data science techniques to a real problem within their organisation"
+    "text": "How Does the Programme Work?\nThe full HSMA experience is a live, 15-month programme with two distinct phases.\n\n\n\nPHASE 1\nA 6 month training phase in which participants learn the Python programming language, before progressing through simulation modelling, machine learning, website development and more.\nParticipants are released from their usual role for one day a week, joining the HSMA trainers online for live lectures and group work.\n\n\n\n\n\nPHASE 2\nA 9 month project phase in which participants are supported to produce their own project using the new skills they have learned, applying operational research and data science techniques to a real problem within their organisation.\nParticipants are expected to spend at least one day a week working on their project during this phase."
   },
   {
     "objectID": "index.html#what-is-hsma",
