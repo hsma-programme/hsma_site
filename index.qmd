@@ -14,14 +14,77 @@ toc: false
 body {
 	text-align: center;
 }
+
+.splide__slide img {
+  width: 60%;
+  height: auto;
+}
+
+.splide__optional-button-container {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-align: left;
+}
+
+.splide__toggle a {
+    color: #fff;
+}
+
+.splide__toggle {
+    border: none;
+}
 </style>
+
+<script src=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js "></script>
+
+<link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+
+<script>
+  document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '#image-carousel' , {
+        type    : 'loop',
+        autoplay: 'play',
+        perPage : 1,
+        interval: 4000,
+        pauseOnHover : false,
+        pauseOnFocus : false,
+        resetProgress: false
+    } ).mount();
+} );
+</script>
+
 ```
 
 Welcome to the website of the Health Service Modelling Associates (HSMA) Programme.
 
-HSMA is a course teaching **data science** and **operational research** techniques to participants from across healthcare, policing, social care and other public sector services in England.
+HSMA is a course teaching and supporting the application of **data science** and **operational research** techniques, taking on participants from across healthcare, policing, social care and other public sector services in England.
 
-Starting from learning the basics of Python and progressing through simulation modelling, machine learning, website development and more, participants are empowered to enhance the use of data within their organisations.
+
+```{=html}
+<section id="image-carousel" class="splide" aria-label="Beautiful Images">
+  <div class="splide__track">
+		<ul class="splide__list">
+			<li class="splide__slide">
+				<img src="resources/photos/thoCeZ5Q.jpeg" alt="">
+			</li>
+            <li class="splide__slide">
+				<img src="resources/photos/5GlqPNuw.jpeg" alt="">
+			</li>
+			<li class="splide__slide">
+				<img src="resources/photos/xm0N3zPk.jpeg" alt="">
+			</li>
+		</ul>
+  </div>
+
+<div class="splide__optional-button-container">
+  <button class="splide__toggle" type="button">
+    <a class="splide__toggle__play"><i class="fa-solid fa-play" ></i></a>
+        <a class="splide__toggle__pause"><i class="fa-solid fa-pause" ></i></a>
+  </button>
+  </div>
+
+</section>
+```
 
 :::{.callout-important appearance="minimal"}
 We are currently in the middle of round 6 of the HSMA programme, supporting over 50 projects across various sectors.
@@ -29,6 +92,31 @@ We are currently in the middle of round 6 of the HSMA programme, supporting over
 The start date for round 7 of the programme has not yet been set, but if you are interested in being kept up to date with our plans via our mailing list, please [drop us an email](mailto:penchord@exeter.ac.uk?subject=Add%20Me%20to%20the%20HSMA%20Mailing%20List%2C%20Please!&body=Please%20add%20me%20to%20the%20HSMA%20mailing%20list.%0A%0A**This%20is%20an%20automatically%20generated%20email%20from%20a%20link%20on%20the%20HSMA%20website**).
 
 :::
+
+## How Does the Programme Work?
+
+HSMA is a 15-month programme with two distinct phases.
+
+:::: {.columns}
+
+::: {.column width="45%"}
+### PHASE 1
+
+A 6 month training phase in which participants learn the Python programming language, before progressing through simulation modelling, machine learning, website development and more
+
+:::
+
+::: {.column width="10%"}
+<!-- empty column to create gap -->
+:::
+
+::: {.column width="45%"}
+### PHASE 2
+
+A 9 month project phase in which participants are supported to produce their own project using the new skills they have learned, applying operational research and data science techniques to a real problem within their organisation
+:::
+
+::::
 
 ## Our Materials
 

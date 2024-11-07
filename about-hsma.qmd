@@ -22,7 +22,14 @@ The programme was recently hailed as a flagship national example of the capacity
 
 [Read more about some of the stories of our past and present HSMAs](https://arc-swp.nihr.ac.uk/news/data-science-capacity-building/).
 
+
 ## How does it work?
+
+The best introduction to our programme can be found in the following video from our most recent open day.
+
+{{< video https://www.youtube.com/watch?v=4huQ2FM16pk >}}
+
+However, to summarise:
 
 The HSMA Programme is split into two phases.
 
