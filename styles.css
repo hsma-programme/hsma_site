@@ -12,6 +12,10 @@
     color: #fff;
 }
 
+p {
+  font-weight: 200;
+}
+
 a {
   color:  #5ae0f3;
   padding: 0.1rem 0.1rem;
