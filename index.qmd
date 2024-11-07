@@ -48,6 +48,14 @@ h2 {
     padding: 30px 40px;
     font-weight:200;
 }
+
+.callout-title-container {
+    font-size: 24px
+}
+
+.callout-body p {
+    font-size: 16px
+}
 </style>
 
 <script src=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js "></script>
@@ -195,12 +203,14 @@ Recordings of previous course sessions, as well as all of our course materials a
 :::{.callout-important appearance="minimal"}
 We are currently in the middle of round 6 of the HSMA programme, supporting over 50 projects across various sectors.
 
-The start date for round 7 of the programme has not yet been set, but if you are interested in being kept up to date with our plans via our mailing list, please [drop us an email](mailto:penchord@exeter.ac.uk?subject=Add%20Me%20to%20the%20HSMA%20Mailing%20List%2C%20Please!&body=Please%20add%20me%20to%20the%20HSMA%20mailing%20list.%0A%0A**This%20is%20an%20automatically%20generated%20email%20from%20a%20link%20on%20the%20HSMA%20website**).
+The start date for round 7 of the programme has not yet been set.
+
+If you are interested in being kept up to date with our plans for the next round of HSMA via our mailing list, please [drop us an email](mailto:penchord@exeter.ac.uk?subject=Add%20Me%20to%20the%20HSMA%20Mailing%20List%2C%20Please!&body=Please%20add%20me%20to%20the%20HSMA%20mailing%20list.%0A%0A**This%20is%20an%20automatically%20generated%20email%20from%20a%20link%20on%20the%20HSMA%20website**).
 
 :::
 
 ```{=html}
-<br/><br/><br/>
+<br/><br/>
 ```
 
 ## How Does the Programme Work?
@@ -211,11 +221,17 @@ The full HSMA experience is a live, 15-month programme with two distinct phases.
 
 ::: {.column width="45%"}
 
-### PHASE 1
+:::{.callout-note appearance="minimal"}
 
+### PHASE 1
+```{=html}
+<br/>
+```
 A 6 month training phase in which participants learn the Python programming language, before progressing through simulation modelling, machine learning, website development and more.
 
 Participants are released from their usual role for one day a week, joining the HSMA trainers online for live lectures and group work.
+
+:::
 
 :::
 
@@ -224,17 +240,24 @@ Participants are released from their usual role for one day a week, joining the 
 :::
 
 ::: {.column width="45%"}
-### PHASE 2
 
+:::{.callout-note appearance="minimal"}
+
+### PHASE 2
+```{=html}
+<br/>
+```
 A 9 month project phase in which participants are supported to produce their own project using the new skills they have learned, applying operational research and data science techniques to a real problem within their organisation.
 
 Participants are expected to spend at least one day a week working on their project during this phase.
 :::
 
+:::
+
 ::::
 
 ```{=html}
-<br/><br/><br/>
+<br/><br/>
 ```
 
 ## Our Materials
@@ -242,7 +265,7 @@ Participants are expected to spend at least one day a week working on their proj
 Whether you are an alumni, current participant, or someone who is looking to learn data science and operational research on your own, head over to our [books](hsma_content/books/books.qmd) or our [HSMA 6 content recordings](hsma_content/modules/modules.qmd) to work through this year's course at your own pace.
 
 ```{=html}
-<br/><br/><br/>
+<br/><br/>
 ```
 
 ## Our Projects
