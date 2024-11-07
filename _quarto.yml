@@ -24,7 +24,7 @@ website:
       <br/>
       [Concerns and Complaints](policies_procedures/concerns_and_complaints.qmd)
   navbar:
-    logo: /resources/hsma_logo_transparent_background_wide_black.png
+    logo: "/resources/Chalky HSMA-07-wide white logo.png"
     title: false
     tools:
       - icon: youtube
