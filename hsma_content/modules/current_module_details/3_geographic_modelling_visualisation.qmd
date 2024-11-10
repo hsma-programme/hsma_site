@@ -5,29 +5,29 @@ hours: 12
 image: "3_geographic.jpeg"
 pub-info:
   abstract: |
-  This module serves as an introduction to creating maps and solving geographical problems in Python.
-  <br/><br/>
-  The module begins with an overview of key geographic concepts, including projections, coordinate reference systems, and levels of geographic data in use within the UK.
-  <br/><br/>
-  It then moves on to the usage of the free program QGIS, allowing maps to be made in a powerful point-and-click tool without making use of code. In QGIS, we cover
-  <br/>&#x2022; Loading in geographic data stored in a range of formats, including geoJSON, geopackages, shapefiles, and csv files
-  <br/>&#x2022; Displaying point data
-  <br/>&#x2022; Displaying area data (creation of choropleths)]
-  <br/>&#x2022; Enhancing QGIS maps with labels, custom colour groups, icons, and more
-  <br/>&#x2022; Creating custom print layouts to display one or multiple QGIS maps along with titles, text and legends
-  <br/><br/>
-  The next part of the module covers working with geographic data in Python. 
-  <br/>&#x2022; Loading in geographic data (e.g. geoJSON, geopackages, shapefiles) with the geopandas package
-  <br/>&#x2022; Converting pandas dataframes into geopandas dataframes
-  <br/>&#x2022; Visualising point data and area data in static maps using matplotlib
-  <br/>&#x2022; Customising and polishing static matplotlib maps 
-  <br/>&#x2022; Visualising point data and area data in static maps using folium
-  <br/>&#x2022; Working with and visualising travel time matrices
-  <br/>&#x2022; Obtaining travel time data for multiple modes of transport from free APIs using the routingpy package 
-  <br/>&#x2022; Obtaining and visualising isochrone data
-  <br/><br/>
-  The module ends with an exploration of how to solve geographic optimisation problems - placing a number of sites in a way that minimises and objective like average travel time or distance - in Python. The module gives code examples for brute force solutions, but touches on more the more advanced evolutionary and genetic algorithm approaches and the value of multiobjective optimisation. 
-  <br/><br/>
+    This module serves as an introduction to creating maps and solving geographical problems in Python.
+    <br/><br/>
+    The module begins with an overview of key geographic concepts, including projections, coordinate reference systems, and levels of geographic data in use within the UK.
+    <br/><br/>
+    It then moves on to the usage of the free program QGIS, allowing maps to be made in a powerful point-and-click tool without making use of code. In QGIS, we cover
+    <br/>&#x2022; Loading in geographic data stored in a range of formats, including geoJSON, geopackages, shapefiles, and csv files
+    <br/>&#x2022; Displaying point data
+    <br/>&#x2022; Displaying area data (creation of choropleths)]
+    <br/>&#x2022; Enhancing QGIS maps with labels, custom colour groups, icons, and more
+    <br/>&#x2022; Creating custom print layouts to display one or multiple QGIS maps along with titles, text and legends
+    <br/><br/>
+    The next part of the module covers working with geographic data in Python. 
+    <br/>&#x2022; Loading in geographic data (e.g. geoJSON, geopackages, shapefiles) with the geopandas package
+    <br/>&#x2022; Converting pandas dataframes into geopandas dataframes
+    <br/>&#x2022; Visualising point data and area data in static maps using matplotlib
+    <br/>&#x2022; Customising and polishing static matplotlib maps 
+    <br/>&#x2022; Visualising point data and area data in static maps using folium
+    <br/>&#x2022; Working with and visualising travel time matrices
+    <br/>&#x2022; Obtaining travel time data for multiple modes of transport from free APIs using the routingpy package 
+    <br/>&#x2022; Obtaining and visualising isochrone data
+    <br/><br/>
+    The module ends with an exploration of how to solve geographic optimisation problems - placing a number of sites in a way that minimises and objective like average travel time or distance - in Python. The module gives code examples for brute force solutions, but touches on more the more advanced evolutionary and genetic algorithm approaches and the value of multiobjective optimisation. 
+    <br/><br/>
 
 page-layout: full
 grid:
