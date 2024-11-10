@@ -8,7 +8,7 @@ pub-info:
   abstract: |
     Today we're going to be looking at the crucial importance of version control, and how we can use Git - a distributed version control system - to allow us to this.  
     <br/><br/>
-    We'll also look at how we can use Git interaction with GitHub to publish and work with repositories hosted online.  
+    We'll also look at how we can use Git with GitHub to publish and work with repositories hosted online.  
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/1_v4BGRnG2CoMPgoBARdztc2dl-yciiu1dQ1qhtp3avk/edit?usp=sharing

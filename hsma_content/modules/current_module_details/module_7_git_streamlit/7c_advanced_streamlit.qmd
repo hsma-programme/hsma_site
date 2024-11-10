@@ -6,7 +6,21 @@ image: ""
 session-lead: Sammi Rosser
 pub-info:
   abstract: |
-    Today we're going to start looking at building web apps entirely in Python using the fantastic Streamlit framework.
+    Today we're going to explore some more advanced features of  the Streamlit framework, as well as deploying our app on Streamlit's free hosting - the Streamlit community cloud.
+    <br/><br/>
+    In this second Streamlit session, we cover
+    <br/>&#x2022; how to create a interactive app frontend for a simple discrete event simulation (DES) script
+    <br/>&#x2022; creating a sidebar for our inputs or other Streamlit elements
+    <br/>&#x2022; preventing functions from running until a button is clicked
+    <br/>&#x2022; separating your app code from your other code
+    <br/>&#x2022; splitting your app into multiple pages
+    <br/>&#x2022; setting custom app colours and other simple theming parameters with the config.toml file
+    <br/>&#x2022; adding a logo to your app
+    <br/>&#x2022; using custom css for advanced theming, including changing fonts
+    <br/>&#x2022; caching data and other reusable elements with the caching decorators to speed up your app and reduce memory usage
+    <br/>&#x2022; using session state and callbacks to persist data across pages and runs
+    <br/>&#x2022; setting up parts of your app to rerun independently with the fragment decorator
+    <br/>&#x2022; deploying an app to the Streamlit community cloud
     <br/><br/>
   links:
   - name: Slides

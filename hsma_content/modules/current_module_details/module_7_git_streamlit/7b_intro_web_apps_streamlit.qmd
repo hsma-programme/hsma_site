@@ -8,6 +8,17 @@ pub-info:
   abstract: |
     Today we're going to start looking at building web apps entirely in Python using the fantastic Streamlit framework.
     <br/><br/>
+    In this first session, we cover
+    <br/>&#x2022; how to run a Streamlit app locally
+    <br/>&#x2022; the simple building blocks of Streamlit apps, like titles, text, images, videos, metric cards, and information boxes
+    <br/>&#x2022; how to obtain and use input from the user in a range of ways, such as text inputs, date pickers, numeric range sliders, dropdowns, and more
+    <br/>&#x2022; displaying and editing dataframes 
+    <br/>&#x2022; displaying static and interactive graphs and maps 
+    <br/>&#x2022; laying out your dashboard with columns, tabs, expanders
+    <br/>&#x2022; allowing the user to upload files
+    <br/>&#x2022; creating download buttons for charts, maps and dataframes
+    <br/>&#x2022; the history of web frameworks (slides only)
+    <br/><br/>
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/1F3Fnn8OF-m02NClaHICvM5LDWrkV20np-bhnBfpKOvA/edit?usp=sharing
