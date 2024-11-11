@@ -35,20 +35,6 @@
     "text": "Our Projects\nWhile HSMA involves a large training element, the main focus of the programme is to support participants to undertake their own projects in their organisations.\nOn the website you can find more out about our projects that are currently in progress or projects that have previously been undertaken.\nYou can also view projects by method, by area of application, by HSMA cohort or by service."
   },
   {
-    "objectID": "previous_projects/hsma_6/H6_6029_ML_to_identify_possible_outpatient_DNAs/index.html",
-    "href": "previous_projects/hsma_6/H6_6029_ML_to_identify_possible_outpatient_DNAs/index.html",
-    "title": "Machine learning to identify possible outpatient DNAs",
-    "section": "",
-    "text": "Here is some text about the project"
-  },
-  {
-    "objectID": "previous_projects/hsma_6/H6_6037_mapping_health_inequalities/index.html",
-    "href": "previous_projects/hsma_6/H6_6037_mapping_health_inequalities/index.html",
-    "title": "Mapping health inequalities, depreviation, ethnicities and crime across the UK",
-    "section": "",
-    "text": "Here is some text about the project"
-  },
-  {
     "objectID": "previous_projects/hsma_6/H6_6013_Forecasting_acute_bed_occupancy/index.html",
     "href": "previous_projects/hsma_6/H6_6013_Forecasting_acute_bed_occupancy/index.html",
     "title": "Forecasting acute bed occupancy, and simulating short term demand and capacity for acute beds",
@@ -56,53 +42,11 @@
     "text": "The aim of this project is to develop a tool to perform time series forecasting on bed occupancy based on historical data, incorporating variables like seasonality and growth. To build a web-based application that enables end users to simulate acute bed model, with the ability to include variables like closed beds, additional capacity, community availability etc, in turn aiding decision making.\nThe problem: Current bed occupancy forecast is done on Excel based on historical monthly averages High level position but lacking in flexibility Daily bed model is manually tweaked, and unable to simulate possible outcome\nUsing Machine learning and discrete event simulation the aim is for the project to predict values close to actual measures. For the user to utilise the web app on a day to day basis and find it a reliable tool for decision making."
   },
   {
-    "objectID": "previous_projects/hsma_6/H6_6031_ABS_to_understand_criminal_adoption_new_technologies/index.html",
-    "href": "previous_projects/hsma_6/H6_6031_ABS_to_understand_criminal_adoption_new_technologies/index.html",
-    "title": "Using Agent Based Simulation to understand criminal adoption of new technologies",
-    "section": "",
-    "text": "Here is some text about the project"
-  },
-  {
-    "objectID": "previous_projects/hsma_6/H6_6028_Modelling_of_theatre_recovery_flow_requirements/index.html",
-    "href": "previous_projects/hsma_6/H6_6028_Modelling_of_theatre_recovery_flow_requirements/index.html",
-    "title": "Modelling of theatre recovery flow requirements",
-    "section": "",
-    "text": "Here is some text about the project"
-  },
-  {
-    "objectID": "previous_projects/hsma_6/H6_6039_NLP_to_automate_classification_congenital_anomaly/index.html",
-    "href": "previous_projects/hsma_6/H6_6039_NLP_to_automate_classification_congenital_anomaly/index.html",
-    "title": "Applying Natural Language Processing to automate the extraction and classificiation of congenital anomaly diagnoses from free text and genetic data",
-    "section": "",
-    "text": "Here is some text about the project"
-  },
-  {
-    "objectID": "previous_projects/hsma_6/H6_6016_Optimising_the_location_of_breast_cancer_diagnostic_services/index.html",
-    "href": "previous_projects/hsma_6/H6_6016_Optimising_the_location_of_breast_cancer_diagnostic_services/index.html",
-    "title": "Optimising the location of Breast Cancer diagnostic services within RDUH",
-    "section": "",
-    "text": "Here is some text about the project"
-  },
-  {
     "objectID": "previous_projects/hsma_6/H6_6015_Forecasting_the_supply_of_medical_doctors/index.html",
     "href": "previous_projects/hsma_6/H6_6015_Forecasting_the_supply_of_medical_doctors/index.html",
     "title": "Forecasting the supply of medical doctors",
     "section": "",
     "text": "The problem: Not enough medical doctors by region and we need to establish the gap between what we have and what we need.\nThe Aim: Forecast medical doctors required by region, taking into account relevant factors for example, trainees coming in, population etc.\nThe Output: To plot a graph to show our current supply and what we demand. Bonus would be to be able to simulate outcome of demand, if input is amended to reflect different scenarios i.e. number of trainees decreases or population ill health increases etc"
-  },
-  {
-    "objectID": "previous_projects/hsma_6/H6_6035_web_app_to_recommend_appropriate_tech_enabled_care/index.html",
-    "href": "previous_projects/hsma_6/H6_6035_web_app_to_recommend_appropriate_tech_enabled_care/index.html",
-    "title": "Developing a web app to recommend appropriate technology enabled care",
-    "section": "",
-    "text": "Here is some text about the project"
-  },
-  {
-    "objectID": "previous_projects/hsma_6/H6_6036_Forcasting_demand_RDUH_breast_care_services/index.html",
-    "href": "previous_projects/hsma_6/H6_6036_Forcasting_demand_RDUH_breast_care_services/index.html",
-    "title": "Forecasting demand in RDUH breast care services and the impact of urban development",
-    "section": "",
-    "text": "Here is some text about the project"
   },
   {
     "objectID": "previous_projects/hsma_6/H6_6008_Modelling_the_impact_of_111_and_GP_access/index.html",
@@ -147,39 +91,11 @@
     "text": "This project is using Discrete Event Simulation to model the children’s ADHD diagnostic and treatment pathway. The model will be used to identify delays and potential strategies to reduce waiting lists and waiting times for children accessing treatment.\nThe current assessment process is lengthy, proposing a new pathway that would include undertaking some of the diagnostic testing before undertaking a more comprehensive testing so that there is more confidence that patients who have assessments have ADHD.\nThe model will capture the changes to the pathway to assess the potential impact of these changes on waiting times and will also capture formal diagnosis and medication titration aspects of the pathway. The model may be extended to look at further 1:1 and group session appointments."
   },
   {
-    "objectID": "previous_projects/hsma_6/H6_6038_Ml__identifying_deteminants_prostate_cancers/index.html",
-    "href": "previous_projects/hsma_6/H6_6038_Ml__identifying_deteminants_prostate_cancers/index.html",
-    "title": "Evaluating the use of machine learning calssifiers for the identification of the determinants of stage at diagnosis of prostate cancers using registry data",
-    "section": "",
-    "text": "Here is some text about the project"
-  },
-  {
     "objectID": "previous_projects/hsma_6/H6_6005_Improving_ambulance_care/index.html",
     "href": "previous_projects/hsma_6/H6_6005_Improving_ambulance_care/index.html",
     "title": "Improving ambulance care via fast feedback from Quality Care Indicators",
     "section": "",
     "text": "Our aim is to improve Ambulance Clinical Quality Indicators (ACQI) data quality and rapidly provide feedback from all ACQI records. There is potential for this tool to be shared with other Ambulance Trusts using the same or similar data collection techniques. This would be achieved with a tool that can analyse free text fields to complete missing data, capture the sentiment of clinical notes, categorise the type of incident and assess if the treatment given was appropriate. It could be utilised as a backup process to manually reviewing data should there be a resourcing issue within the team. It will also evidence if any changes could be made to the clinical records to improve data capture.\nWe would like to consider how the free text could be searched to find positive and negative statements that impact if a record passes or fails a measure within each ACQI. In addition, creating a tool that would predict any changes to the ‘rules’ and their impact on the scores."
-  },
-  {
-    "objectID": "previous_projects/hsma_6/H6_6024_Streamlit_app_ for _theographs_of_patient_journeys/index.html",
-    "href": "previous_projects/hsma_6/H6_6024_Streamlit_app_ for _theographs_of_patient_journeys/index.html",
-    "title": "Developing a streamlit app for creating Theographs of patient journeys",
-    "section": "",
-    "text": "Here is some text about the project"
-  },
-  {
-    "objectID": "previous_projects/hsma_6/H6_6030_Exploring_factors_that_impact_opiate_cessation/index.html",
-    "href": "previous_projects/hsma_6/H6_6030_Exploring_factors_that_impact_opiate_cessation/index.html",
-    "title": "Exploring factors that impact Opiate Cessation using explainable machine learning",
-    "section": "",
-    "text": "Here is some text about the project"
-  },
-  {
-    "objectID": "previous_projects/hsma_6/H6_6026_Modelling_secondary_care_psychological_/index.html",
-    "href": "previous_projects/hsma_6/H6_6026_Modelling_secondary_care_psychological_/index.html",
-    "title": "Modelling secondary care psychological therapy flow",
-    "section": "",
-    "text": "Here is some text about the project"
   },
   {
     "objectID": "previous_projects/hsma_5/h5_5015_des_dorset_rheumatology/index.html",
@@ -770,13 +686,6 @@
     "text": "Atrial fibrillation (AF) is a common cardiac arrhythmia which increases the risk of stroke. Anticoagulation is very effective in reducing stroke risk but can increase the risk of bleeding, a much feared consequence of anticoagulation is bleeding on the brain. National and international guidance states that anticoagulation should not be withheld because of falls as the benefits still outweigh the risks but many clinicians choose not to prescribe these medications to people who fall or those at risk of falls because they don’t believe the evidence supports this recommendation.\nThe initial stage aims of this project is to explore if machine learning techniques can be used to develop a model that can predict injurious falls in older people with AF and determine what features are important.\nThe longer term aim of this project is to ascertain whether a tool could be developed to personalise anticoagulant treatment based on falls risk to help clinicians and patients make more informed treatment decisions."
   },
   {
-    "objectID": "previous_projects/hsma_6/H6_6012_Using_classification_modelling_to investigate_changes_in_ HRG/index.html",
-    "href": "previous_projects/hsma_6/H6_6012_Using_classification_modelling_to investigate_changes_in_ HRG/index.html",
-    "title": "Using classification modelling technques to investigate changes in Healthcare Resources Group (HRG) coding over time",
-    "section": "",
-    "text": "Here is some text about the project"
-  },
-  {
     "objectID": "previous_projects/hsma_6/H6_6007_Modelling_eye_injection_pathways/index.html",
     "href": "previous_projects/hsma_6/H6_6007_Modelling_eye_injection_pathways/index.html",
     "title": "Modelling eye injection pathways",
@@ -798,20 +707,6 @@
     "text": "At present we’re missing the 62 day target from referral to treatment of prostate cancer. The pathway involves numerous activities such as triaging, imaging, biopsies as well as multiple decisions along the way. The smooth running of the pathway relies upon having the necessary resources allocated each of these events e.g. biopsy clinics, access to imaging etc.\nThe system is reactive- it can take months before it’s apparent the targets have not been met, and even longer to reallocate resources appropriately.\nWe want to develop a system which can anticipate the demand for resources, dependant on the number of referrals and resources allocated. The aim is to create a Discrete Event Simulation model to model the current pathway. To feed live data into the model in order to predict where bottlenecks occur and if the pathway will breach the 62 day target. Make use of forecasting methods to predicts what changes are needed in resource allocation in order to ensure the 62 day target is met.\nThe project outcome is a simulation model with an interactive, web app based interface and a dashboard which illustrates key metrics of the 2 week wait pathway"
   },
   {
-    "objectID": "previous_projects/hsma_6/H6_6025_Modelling_delays_in_breast_head_neck_cancer_pathways/index.html",
-    "href": "previous_projects/hsma_6/H6_6025_Modelling_delays_in_breast_head_neck_cancer_pathways/index.html",
-    "title": "Modelling delays in breast, head and neck cancer pathways",
-    "section": "",
-    "text": "Here is some text about the project"
-  },
-  {
-    "objectID": "previous_projects/hsma_6/H6_6022_Intelligent_pathway_management/index.html",
-    "href": "previous_projects/hsma_6/H6_6022_Intelligent_pathway_management/index.html",
-    "title": "Intelligent Pathway Management",
-    "section": "",
-    "text": "Here is some text about the project"
-  },
-  {
     "objectID": "previous_projects/hsma_6/H6_6001_DES_modelling_non_elective_flow/index.html",
     "href": "previous_projects/hsma_6/H6_6001_DES_modelling_non_elective_flow/index.html",
     "title": "Discrete Event Simulation modelling of non elective flow",
@@ -826,32 +721,11 @@
     "text": "There is low uptake of Healthcare Workers for COVID and Flu, which is in many Trusts decreasing with each season.\nTrusts and regions, as well as NHS England policy teams would benefit from identifying patterns among healthcare workers: staff uptake, gender, ethnicity, deprivation, frontline status, age group, eligibility (in another cohort other than healthcare worker status).\nUsing a mixed-method approach. Geographic modelling of healthcare worker uptake by Trust, ICB and region, and boosted tree modelling of the data to capture patterns in the data and reduces bias and variance. Regression modelling would also be useful to produce data tables to present to stakeholders (e.g. odds ratios for logistic regression)."
   },
   {
-    "objectID": "previous_projects/hsma_6/H6_6032_Identifying_unpaid_carers/index.html",
-    "href": "previous_projects/hsma_6/H6_6032_Identifying_unpaid_carers/index.html",
-    "title": "Identifying unpaid carers in Norfolk",
-    "section": "",
-    "text": "Here is some text about the project"
-  },
-  {
     "objectID": "previous_projects/hsma_6/H6_6000_Mental_Health_DNA/index.html",
     "href": "previous_projects/hsma_6/H6_6000_Mental_Health_DNA/index.html",
     "title": "Using Machine Learning and Explainable AI to predict and understand mental health appointment DNAs to reduce inequalities",
     "section": "",
     "text": "As a provider of Mental Health Services for SMI, Lancashire & South Cumbria NHS Foundation Trust is committed to helping to deliver the aims of Core20Plus5. Core20PLUS5 is a national NHS England approach to inform action to reduce healthcare inequalities at both national and system level.\nThe aim of this HSMA project is to use machine learning to help understand whether there is a correlation between failed attendance of mental health outpatient appointments and deprivation, or whether this could be being influenced by other factors (features) such as age, ethnicity, the distance travelled to get to those appointments etc.\nWith constantly growing waiting lists. anything we can do to reduce non-attendance can have a significant impact on these.\nThe project idea is to develop a Machine learning model to investigate whether there is a relationship between travel distance and method and appointment attendance. The project will also use explainable AI to help users understand what the results mean."
-  },
-  {
-    "objectID": "previous_projects/hsma_6/H6_6021_predicting_future_demand_renal_replacement_therapy/index.html",
-    "href": "previous_projects/hsma_6/H6_6021_predicting_future_demand_renal_replacement_therapy/index.html",
-    "title": "Predicting the future demand for Renal replacement therapy",
-    "section": "",
-    "text": "Here is some text about the project"
-  },
-  {
-    "objectID": "previous_projects/hsma_6/H6_6027_Pharmacy_clinical_priortisation_tool/index.html",
-    "href": "previous_projects/hsma_6/H6_6027_Pharmacy_clinical_priortisation_tool/index.html",
-    "title": "Pharmacy Clinical prioritisation tool",
-    "section": "",
-    "text": "Here is some text about the project"
   },
   {
     "objectID": "previous_projects/hsma_6/H6_6014_Modelling_musculoskeletal_physiotherapy_services/index.html",
@@ -868,39 +742,11 @@
     "text": "We operate 2 separate 111 call centres for mental health patients (for both Norfolk and Suffolk). These are both set up in different ways (one fully staffed with ‘qualified’ B6s, the other with junior staff who escalate to qualified staff when needed), but both are struggling with their performance.\nMany callers abandon their calls before they can be reached and there are serious concerns about clinical safety. A piece of work is underway to transform these services, and a piece of demand and capacity analysis is required to ensure the best possible staffing model is in place, both in terms of structure and resource levels.\nThe aim of this project is to build a DES model to compare both staffing approaches and identify the level of resources required to safely staff the service. Further aims would be to build a useful helper tool to ensure planned rosters are safe, users could input current rosters again a forecasted level of calls and the model would show the potential effects of this."
   },
   {
-    "objectID": "previous_projects/hsma_6/H6_6033_111_downstream_forecasting/index.html",
-    "href": "previous_projects/hsma_6/H6_6033_111_downstream_forecasting/index.html",
-    "title": "111 Downstream forecasting",
-    "section": "",
-    "text": "Here is some text about the project"
-  },
-  {
-    "objectID": "previous_projects/hsma_6/H6_6034_Forcasting_blood_donation_sesion_capacity/index.html",
-    "href": "previous_projects/hsma_6/H6_6034_Forcasting_blood_donation_sesion_capacity/index.html",
-    "title": "Forecasting blood donation session capacity",
-    "section": "",
-    "text": "Here is some text about the project"
-  },
-  {
-    "objectID": "previous_projects/hsma_6/H6_6040_benefit_of_MECC_using_ABS/index.html",
-    "href": "previous_projects/hsma_6/H6_6040_benefit_of_MECC_using_ABS/index.html",
-    "title": "Modelling the benefit of MECC (Making Every Contact Count) Training using agent based simulation",
-    "section": "",
-    "text": "Here is some text about the project"
-  },
-  {
     "objectID": "previous_projects/hsma_6/H6_6019_clinical_coding_automation/index.html",
     "href": "previous_projects/hsma_6/H6_6019_clinical_coding_automation/index.html",
     "title": "Clinical coding automation using Natural Language Processing",
     "section": "",
     "text": "The aim of this project is to use Natural Language Processing (NLP) to predict ICD-10 or OPCS-4 codes from doctor/patient notes, automating a task currently done manually by the clinical coding team.\nInitially, we’ll predict 3-character ICD-10 chapters, with the goal of eventually predicting full 4-character codes. Collaborating with a provider that has access to these notes, this project will streamline coding and improve accuracy."
-  },
-  {
-    "objectID": "previous_projects/hsma_6/H6_6023_predicting_gestational_diabetes_using_ML/index.html",
-    "href": "previous_projects/hsma_6/H6_6023_predicting_gestational_diabetes_using_ML/index.html",
-    "title": "Predicting Gestational Diabeted and other maternity-related conditions using machine learning",
-    "section": "",
-    "text": "Here is some text about the project"
   },
   {
     "objectID": "previous_projects/completed_projects.html",
