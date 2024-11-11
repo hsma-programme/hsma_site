@@ -26,7 +26,7 @@ pub-info:
     url: https://youtu.be/Zd8mQIXNq-o?si=edAAImNl6p8i6zCS
     icon: fa-brands fa-youtube
   - name: Repository
-    url: https://github.com/hsma-programme/h6_3a_intro_geographic_problems_and_qgis
+    url: https://github.com/hsma-programme/h6_3c_interactive_plots_travel
     icon: fa-brands fa-github
   - name: Book
     url: https://hsma-programme.github.io/hsma6_geographic_optimisation_and_visualisation_book/
