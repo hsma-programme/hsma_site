@@ -31,4 +31,4 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
-Here is some text about the project
+
