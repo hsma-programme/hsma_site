@@ -119,6 +119,7 @@ listing:
       categories: false
       include:
         categories: "{Primary Care,111 Service}*"
+      template: ../html/previous_projects/listing.ejs
     - id: policing_projects
       contents: "*/*/index.qmd"
       sort: "date desc"
