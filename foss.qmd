@@ -1,0 +1,25 @@
+---
+title: The HSMA Commitment to Free and Open Source Software (FOSS)
+---
+
+## Why do we use only Free and Open Source (FOSS) approaches?
+
+Whilst Free and Open Source (FOSS) approaches have the obvious benefit of removing any financial barriers to obtaining software, this isn’t the primary reason why we use them. Rather, Free and Open Source software and development encourages a) transparency and b) collaboration.
+
+a) Transparency: It is important to remember that the kind of models that you will build as part of the programme (and hopefully beyond) will make a real difference to people’s lives. People have the right to understand (or at least be able to interrogate) why a model has made a prediction that has led to changes that affect them.
+
+b) Collaboration: We believe that the very best solutions arise as a result of collaboration, where we look for common solutions and can share good practice. Free and Open Source development removes barriers and allows people to collaborate across organisations and sectors for mutual benefits.
+
+## My IT department is concerned about installing open source software. What is your advice?
+
+Many IT departments are not used to installing non-proprietary software and may have concerns, such as security or support concerns. All software used on the programme is highly reputable and widely used across the world for Data Science. The National Cyber Security Centre (NCSC) does not consider the security risks of open-source coding to be significant, and instead actually helps to promote good security practices (<https://www.ncsc.gov.uk/collection/developers-collection>). The NCSC has also published guidance on how to develop in a secure way : <https://www.ncsc.gov.uk/collection/developers-collection/principles/protect-your-code-repository>.
+
+Central NHS organisations are now heavily promoting and encouraging the use of Free and Open Source (FOSS) technologies and ways of working as the NHS moves its analytical capabilities into the wider world of Data Science and modelling. Those interested in finding out more should check out: 
+
+- The NHS England Open Source Programme at <https://www.england.nhs.uk/digitaltechnology/open-source> 
+
+- The NHS-X Blog on what it means to be an “open source organisation” at: <https://healthtech.blog.gov.uk/2019/04/23/what-does-it-mean-for-nhsx-to-be-an-open-source-organisation> 
+
+- The NHS-R community, which has helped to establish R as a routinely used open-source analytical tool in the NHS: <https://nhsrcommunity.com/about> 
+
+It is also important to highlight that all software has potential vulnerabilities, including the proprietary software that you already have installed. Therefore, good software security practices should be maintained regardless of the software you are using.

@@ -38,13 +38,17 @@ website:
       - icon: envelope
         href: mailto:penchord@exeter.ac.uk?subject=Contact%20from%20HSMA%20website
     right:
-      # - href: index.qmd
-        # text: Welcome
+       - href: index.qmd
+         text: Welcome
 
       - text: "About"
         menu:
           - href: about-hsma.qmd
             text: The HSMA Programme
+          - href: faqs.qmd
+            text: Frequently Asked Questions
+          - href: foss.qmd
+            text: HSMA & Open Source Software
 
       - text: "HSMA Projects"
         menu:
