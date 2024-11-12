@@ -1,11 +1,16 @@
 ---
 title: "Modelling delays in breast, head and neck cancer pathways"
 techniques:
-  -
+  - Discrete Event Simulation (DES)
 areas:
-  -
+  - Cancer
+  - Women's Health
+  - Waiting Times
 categories:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
+  - Cancer
+  - Women's Health
+  - Waiting Times
 author:
   - name: Michael Baser
     affiliation: NHS England
@@ -29,4 +34,9 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
+Breast cancer and head and neck cancer are two common cancer sites, where the main clinical pathway is surgery, followed by adjuvant radiotherapy or chemotherapy. Clinical feedback has reported large waits after surgery and often before the point of referral to e.g. the radiotherapy department.
 
+Our project is using Discrete Event Simulation to model the post-diagnosis pathway for breast and head and neck cancer. The model will be used to identify mid-pathway delays and treatment variation across England with the aim to report on two clinically important steps in the clinical pathway:
+
+1. time from neoadjuvant SACT to surgery or radiotherapy (RT)
+2. time from surgery to first adjuvant treatment (either RT or SACT)

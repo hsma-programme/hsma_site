@@ -1,12 +1,14 @@
 ---
 title: "Predicting the risk of injurious falls in older people with atrial fibrillation"
 techniques:
-  -
-areas:
-  -
-categories:
-  - Machine learning
+  - Machine Learning
   - Explainable AI
+areas:
+  - Older Adults
+categories:
+  - Machine Learning
+  - Explainable AI
+  - Older Adults
 author:
   - name: Anneka Mitchell
     affiliation: University Hospitals Plymouth NHS Trust / University of Exeter
@@ -31,6 +33,7 @@ pub-info:
 ---
 
 Atrial fibrillation (AF) is a common cardiac arrhythmia which increases the risk of stroke.
+
 Anticoagulation is very effective in reducing stroke risk but can increase the risk of bleeding, a much feared consequence of anticoagulation is bleeding on the brain. National and international guidance states that anticoagulation should not be withheld because of falls as the benefits still outweigh the risks but many clinicians choose not to prescribe these medications to people who fall or those at risk of falls because they don’t believe the evidence supports this recommendation.
 
 The initial stage aims of this project is to explore if machine learning techniques can be used to develop a model that can predict injurious falls in older people with AF and determine what features are important.

@@ -1,13 +1,16 @@
 ---
 title: "Exploring factors that impact Opiate Cessation using explainable machine learning"
 techniques:
-  -
-areas:
-  -
-categories:
-  - Machine learning
+  - Machine Learning
   - Explainable AI
-  - Geographic Modelling
+  - Causal Analysis
+areas:
+  - Opiates
+categories:
+  - Machine Learning
+  - Explainable AI
+  - Causal Analysis
+  - Opiates
 author:
   - name: Richard Lee
     affiliation: North of England Commissioning Support Unit (NECSU)
@@ -31,4 +34,6 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
+Many patients prescribed opiate medication for acute pain relief end up taking the medication for many years, leading to adverse events, dependence and tolerance. There is currently a drive to reduce the numbers of patients on long term opiate prescriptions.
 
+The aim of this project is to develop a machine learning model that predicts the likelihood of successful opiate cessation with an aim of exploring the driving factors behind successful or unsuccessful cessation.

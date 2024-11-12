@@ -1,13 +1,16 @@
 ---
 title: "Intelligent Pathway Management"
 techniques:
-  -
+  - Process Mining
+  - Unsupervised learning
+  - Discrete Event Simulation (DES)
+  - Streamlit
 areas:
-  -
+  - Patient Pathways
 categories:
   - Process Mining
   - Unsupervised learning
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
   - Streamlit
 author:
   - name: Portia Eze
@@ -32,4 +35,10 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
+The aim of the project is to use data science techniques to quantify the impact of deviations from the "Best Case Scenario" in a patient pathway, this could be diagnostics, surgical or pre-operative assessment.
 
+1. Process Mining – analysis is done into the number of deviations from a best-case scenario patient pathway.
+2. An unsupervised learning model is used to determine the relationship between these deviations, and the level of patient risk.
+3. The relationships identified in step 2 are validated.
+4. The End product will be a live reporting suite in Streamlit, presenting statistics in relation to the newly identified measures, plus risk stratification of the patient population.
+5. Simulation to identify whether risk profile changes as the pathway changes

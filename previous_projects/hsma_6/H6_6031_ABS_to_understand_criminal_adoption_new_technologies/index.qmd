@@ -1,11 +1,12 @@
 ---
 title: "Using Agent Based Simulation to understand criminal adoption of new technologies"
 techniques:
-  -
+  - Agent Based Simulation (ABS)
 areas:
-  -
+  - Police
 categories:
-  - Agent Based Simulation
+  - Agent Based Simulation (ABS)
+  - Police
 author:
   - name: David Lewis
     affiliation:
@@ -29,4 +30,8 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
+I work in a field that researches the use of technology by criminals. Often, we want to understand how the use and behaviours for a new technology might develop, or have developed in a criminal population.  This project aims to test how agent based modelling could be used to investigate this problem.
 
+The inputs to the model will be a mixture of consumer behaviour theory, criminology and domain knowledge.
+
+The project will aim to develop a documented general methodology pattern for developing digital behaviour models that can be applied to specific use cases and static and interactive methods to present findings.

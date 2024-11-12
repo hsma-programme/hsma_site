@@ -1,13 +1,16 @@
 ---
 title: "Modelling of theatre recovery flow requirements"
 techniques:
-  -
+  - Discrete Event Simulation (DES)
+  - Machine Learning
+  - Agent Based Simulation (ABS)
 areas:
-  -
+  - Surgical
+  - Staffing Level Optimisation
 categories:
-  - Discrete Event Simulation
-  - Machine learning
-  - Agent based simulation
+  - Discrete Event Simulation (DES)
+  - Machine Learning
+  - Agent Based Simulation (ABS)
 author:
   - name: Matt Lavis
     affiliation: University of Plymouth
@@ -31,4 +34,15 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
+Staffing levels within the recovery environment are not well defined or understood. There is minimal to no literature around minimal staffing requirements within the NHS and the recovery department. Type and length of operation, patient variables and anaesthetic risk are all factors in the length of stay and turnover of patients within recovery. This problems lends itself to a queue of people leaving theatres for a recovery. However, each patient also seem to act like an autonomous agent but this will be up for discussion at the start of this project.
 
+Current system/strategy: Currently patient flow is logged via time stamps within a database system along with some patient attributes, but linking these together does not exist. With DES/ABS we have a method of queuing analysis from the many operations across the many theatres and the requirements from a recovery staff point of view.
+
+Key questions in this project include:
+Given type of surgery (keyhole, laparotomy, joint or part replacement), ASA score (score 1-5), length of anaesthetic (in time), type of anaesthesia (local, sedation or general).
+
+1. Can we predict an approximate length of stay in recovery from the variables?
+2. Staffing requirements?
+3. Are the above variables the important factors for patient stay?
+
+The project goal is to provide a better understanding of workload planning for recovery staff.

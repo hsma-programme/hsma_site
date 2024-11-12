@@ -1,11 +1,12 @@
 ---
 title: "Forecasting the supply of medical doctors"
 techniques:
-  -
+  - Forecasting
 areas:
-  -
+  - Workforce
 categories:
   - Forecasting
+  - Workforce
 author:
   - name: Sara Fundu
     affiliation: The Royal College of Pathologists
@@ -34,4 +35,5 @@ The problem: Not enough medical doctors by region and we need to establish the g
 The Aim: Forecast medical doctors required by region, taking into account relevant factors for example, trainees coming in, population etc.
 
 The Output: To plot a graph to show our current supply and what we demand.
+
 Bonus would be to be able to simulate outcome of demand, if input is amended to reflect different scenarios i.e. number of trainees decreases or population ill health increases etc

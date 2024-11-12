@@ -1,11 +1,20 @@
 ---
 title: "Identifying unpaid carers in Norfolk"
 techniques:
-  -
+  - Geographic Modelling
+  - Mapping
+  - Regression
+  - Geostatistics
 areas:
-  -
+  - Unpaid Carers
+  - Council
 categories:
-  - Geographic modelling
+  - Geographic Modelling
+  - Mapping
+  - Regression
+  - Geostatistics
+  - Unpaid Carers
+  - Council
 author:
   - name: Elli Kontostoli
     affiliation: Norfolk County Council
@@ -29,4 +38,8 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
+There are thousands of unpaid carers. Among many other risks, unpaid carers are likely to experience poor mental health, loneliness and isolation. Supporting the mental and physical health and well-being of carers is essential. The organization wants to introduce them to communities services, social groups or something that they can talk to and get help with the difficulties of taking care of somebody.
 
+The aim of this project is to identify places that carers live and to show how many we will capture by placing services.
+
+The project will begin with geographic modelling/mapping to show locations. It may then continue on to modelling to predict high unpaid carers or areas with older population and unpaid carers.

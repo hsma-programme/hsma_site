@@ -1,11 +1,12 @@
 ---
 title: "Clinical coding automation using Natural Language Processing"
 techniques:
-  -
+  - Natural Language Processing (NLP)
 areas:
-  -
+  - Clinical Coding
 categories:
-  - Natural Lanaguage Processing
+  - Natural Language Processing (NLP)
+  - Clinical Coding
 author:
   - name: Sid Kumar
     affiliation: South West London ICB

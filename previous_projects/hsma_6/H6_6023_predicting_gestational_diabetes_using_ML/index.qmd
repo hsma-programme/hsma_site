@@ -1,12 +1,18 @@
 ---
-title: "Predicting Gestational Diabeted and other maternity-related conditions using machine learning"
+title: "Predicting Gestational Diabetes and other maternity-related conditions using machine learning"
 techniques:
-  -
+  - Machine Learning
+  - Streamlit
 areas:
-  -
+  - Diabetes
+  - Maternity
+  - Women's Health
 categories:
   - Machine Learning
   - Streamlit
+  - Diabetes
+  - Maternity
+  - Women's Health
 author:
   - name: Rochelle Francis-Reid
     affiliation: Epsom and St Helier University Hospitals NHS Trust
@@ -30,4 +36,12 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
+Maternity-related conditions, such as gestational diabetes, can have significant impacts on the health of both the mother and baby if not identified early. Current approaches often detect these conditions after symptoms appear, potentially delaying important interventions. This project aims to use machine learning to predict the likelihood of developing gestational diabetes and other related conditions early in pregnancy, allowing for timely interventions and personalised care.
 
+The aim of this project is to develop a machine learning model that predicts the likelihood of gestational diabetes and other maternity-related conditions based on patient data. The model will serve as a decision support tool for clinicians to provide proactive and personalised care, improving health outcomes for mothers and babies.
+
+The project will generate :
+
+- A machine learning predictive model.
+- An interactive web app or interface for clinicians to input patient data and receive predictions.
+- Reports outlining the model's predictions, accuracy, and effectiveness.

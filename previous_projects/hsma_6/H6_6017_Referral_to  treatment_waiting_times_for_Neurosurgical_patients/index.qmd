@@ -1,11 +1,20 @@
 ---
 title: "Referral to treatment waiting times for Neurosurgical patients"
 techniques:
-  -
+  - Discrete Event Simulation (DES)
+  - Streamlit
 areas:
-  -
+  - Surgical
+  - Neurology
+  - Waiting Lists
+  - Waiting Times
 categories:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
+  - Streamlit
+  - Surgical
+  - Neurology
+  - Waiting Lists
+  - Waiting Times
 author:
   - name: Andrew Sharrock
     affiliation: The Walton Centre NHS Foundation Trust
@@ -29,6 +38,9 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
-This project will aim to model the pathway for Neurosurgical patients, and to explore, based on current waiting times, will the waiting list grow or reduce, and how long will patients wait for treatment.
+This project will aim to model the pathway for Neurosurgical patients, and to explore, based on current waiting times,
+
+- will the waiting list grow or reduce
+- how long patients may wait for treatment
 
 The aim is to add user interaction, to see how an increase/reduction in capacity affects waiting times. Also to be able to see how many patients are waiting over 52 weeks at each month end.

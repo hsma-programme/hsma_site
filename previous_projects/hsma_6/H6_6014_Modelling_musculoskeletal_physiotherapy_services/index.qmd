@@ -1,13 +1,16 @@
 ---
 title: "Modelling Musculoskeletal Physiotherapy services across Exeter, Mid and East Devon"
 techniques:
-  -
-areas:
-  -
-categories:
-  - Geographic modelling
-  - Discrete Event Simulation
+  - Mapping
+  - Discrete Event Simulation (DES)
   - Streamlit
+areas:
+  - Physiotherapy
+categories:
+  - Mapping
+  - Discrete Event Simulation (DES)
+  - Streamlit
+  - Physiotherapy
 author:
   - name: Martin Greenslade
     affiliation: Royal Devon University Healthcare NHS Foundation Trust

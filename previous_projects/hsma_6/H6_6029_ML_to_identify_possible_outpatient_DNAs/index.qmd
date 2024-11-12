@@ -1,12 +1,16 @@
 ---
 title: "Machine learning to identify possible outpatient DNAs"
 techniques:
-  -
+  - Machine Learning
+  - Discrete Event Simulation (DES)
 areas:
-  -
+  - Non-attendance Prediction
+  - Outpatients
 categories:
-  - Machine leanring
-  - Discrete Event Simulation
+  - Machine Learning
+  - Discrete Event Simulation (DES)
+  - Non-attendance Prediction
+  - Outpatients
 author:
   - name: Steph Kerr
     affiliation: Chesterfield Royal Hospital NHS Foundation TRust
@@ -30,4 +34,12 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
+This project will use Machine Learning approaches to identify possible outpatient DNAs
 
+The project aims to train a machine learning model to identify patients with upcoming appointments who are most likely to DNA (did not attend), to prioritise additional support from outpatient booking team, e.g.
+
+- Extra text reminders
+- Phone call with opportunity to rebook
+- Phone call to ask if patient requires public transport information, travel plan, or support to get to appointment
+
+As a possible extra, the project may use discrete event simulation (DES) to demonstrate impact on clinic utilisation and waiting times if DNA rates are reduced

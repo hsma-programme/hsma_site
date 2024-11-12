@@ -1,14 +1,22 @@
 ---
 title: "Modelling 111 option 2 call centre"
 techniques:
-  -
-areas:
-  -
-categories:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
   - Forecasting
   - Streamlit
   - Quarto
+areas:
+  - 111 Service
+  - Telephone-based Services
+  - Staffing Level Optimisation
+categories:
+  - Discrete Event Simulation (DES)
+  - Forecasting
+  - Streamlit
+  - Quarto
+  - 111 Service
+  - Telephone-based Services
+  - Staffing Level Optimisation
 author:
   - name: Richard Hall
     affiliation: Norfolk and Suffolk NHS Foundation Trust
