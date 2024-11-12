@@ -1,0 +1,33 @@
+---
+title: "Machine learning to identify possible outpatient DNAs"
+techniques:
+  -
+areas:
+  -
+categories:
+  - Machine leanring
+  - Discrete Event Simulation
+author:
+  - name: Steph Kerr
+    affiliation: Chesterfield Royal Hospital NHS Foundation TRust
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+Here is some text about the project

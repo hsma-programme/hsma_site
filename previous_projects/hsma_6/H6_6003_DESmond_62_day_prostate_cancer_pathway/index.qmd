@@ -1,0 +1,38 @@
+---
+title: ""
+techniques:
+  -
+areas:
+  -
+categories:
+  -
+author:
+  - name:
+    affiliation:
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+At present we’re missing the 62 day target from referral to treatment of prostate cancer. The pathway involves numerous activities such as triaging, imaging, biopsies as well as multiple decisions along the way. The smooth running of the pathway relies upon having the necessary resources allocated each of these events e.g. biopsy clinics, access to imaging etc.
+
+The system is reactive- it can take months before it’s apparent the targets have not been met, and even longer to reallocate resources appropriately.
+
+We want to develop a system which can anticipate the demand for resources, dependant on the number of referrals and resources allocated. The aim is to create a Discrete Event Simulation model to model the current pathway. To feed live data into the model in order to predict where bottlenecks occur and if the pathway will breach the 62 day target. Make use of forecasting methods to predicts what changes are needed in resource allocation in order to ensure the 62 day target is met.
+
+The project outcome is a simulation model with an interactive, web app based interface and a dashboard which illustrates key metrics of the 2 week wait pathway

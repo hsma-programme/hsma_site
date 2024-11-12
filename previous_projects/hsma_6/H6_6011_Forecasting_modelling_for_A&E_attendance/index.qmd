@@ -1,0 +1,38 @@
+---
+title: "Forecastubf modelling for A&E attendance"
+techniques:
+  -
+areas:
+  -
+categories:
+  - Forecasting
+author:
+  - name: Yu Qiao
+    affiliation: Liverpool University Hospital Foundation Trust
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+The aim of this project is to forecast future A&E attendances 6 weeks in advance, accounting for seasonal patterns.
+
+NHS A&E is under pressure nationwide for a long-time and often we do not know what lies ahead of us to manage the limited resources available and understand when interventions and helps are needed. This is in addition to seasonal pressures.
+Currently A&E has a challenging time looking ahead and manage staffing level needed to match the demand. Furthermore, this can help staff to assess if an escalation process is needed when the abnormal events occur.
+A&E is known for its unpredictability in demand that varies with seasonal trend, location, population, weather and various of other factors.
+
+The project will use Time Series Forecasting methods and a Repeatable Analytical Pipeline for Deployment.

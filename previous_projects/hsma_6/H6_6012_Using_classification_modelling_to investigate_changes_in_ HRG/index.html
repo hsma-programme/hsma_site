@@ -126,6 +126,10 @@ background-size: cover;
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../index.html"> 
+<span class="menu-text">Welcome</span></a>
+  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">About</span>
@@ -134,6 +138,14 @@ background-size: cover;
         <li>
     <a class="dropdown-item" href="../../../about-hsma.html">
  <span class="dropdown-text">The HSMA Programme</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../faqs.html">
+ <span class="dropdown-text">Frequently Asked Questions</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../foss.html">
+ <span class="dropdown-text">HSMA &amp; Open Source Software</span></a>
   </li>  
     </ul>
   </li>
@@ -233,7 +245,7 @@ background-size: cover;
             
             
                                     <div class="quarto-categories">
-                                <div class="quarto-category">Machine learning</div>
+                                <div class="quarto-category">Machine Learning</div>
                                 <div class="quarto-category">Explainable AI</div>
                             </div>
                                 </div>
@@ -278,6 +290,15 @@ background-size: cover;
 
 
 
+<p>The Medium-Term Activity Projections (MTAP) model produces a set of baseline activity and price-weighted contact projections to 2040/41 for NHS England for some types of activity. As part of the MTAP project, we want to provide insight into the cost pressure based on this projected activity. Modelling the absolute cost is not possible, so one widely used approach to modelling cost pressure is using cost or price ‘weights’ for distinct and specific activity types. Changes in the ratios of different activity types are captured by the sum of the weighted activity.</p>
+<p>Healthcare Resource Group (HRG) codes are used in the NHS to categorise types of inpatient activity by assigning one of around 3,000 5-digit codes. The first 4 digits indicate the primary treatment or reason for care, e.g.&nbsp;primary hip replacement, and the 5th digit capturing complexity and comorbidities through the recording of secondary diagnoses. However, in recent years there has been a huge increase in the recording of secondary diagnoses with the introduction of Electronic Patient Records (EPR), but there is a hypothesis that this change does not represent a real increase in patient co-morbidity, and ‘coding creep’ is present.</p>
+<p>To deal with this, National Cost Collection (previously known as Reference Costs) data is used to look at the relationship over time between the proportion of activity in each complexity category (the 5th character of the HRG) and the change in the average relative cost of each HRG. The hypothesis is that if increases in the proportion of more complex patients are real, then this should not lead to a reduction in the average relative cost of those HRG.</p>
+<p>This research project proposes to identify whether the key factors influencing the complexity and comorbidity categorisation (CCC) have changed over time by:</p>
+<ol type="1">
+<li><p>Training a classification model to predict CCCs, using secondary diagnoses in the patient records as input features. The model will be trained on data for a given year, e.g.&nbsp;2016/17, and the model performance for other time periods (e.g.&nbsp;2022/23) will be compared. A significant change in performance may indicate that the factors influencing CCC have changed. If the 2016/17 performance gradually decreases over time as the use of EPR have been increasing, it could support the coding drift hypothesis.</p></li>
+<li><p>Using explainable AI methods to identify the key factors driving classification in two time periods to assess if there has been a significant change.</p></li>
+<li><p>Use classification modelling approach to identify the key factors driving the prediction of HRG CCC and actual costs using National Cost Collection data over a given time period. If the HRG codes are reflective of reality, features should have similar relative importance in each model.</p></li>
+</ol>
 
 
 

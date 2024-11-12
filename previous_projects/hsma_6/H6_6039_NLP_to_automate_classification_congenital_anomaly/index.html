@@ -126,6 +126,10 @@ background-size: cover;
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../../index.html"> 
+<span class="menu-text">Welcome</span></a>
+  </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
  <span class="menu-text">About</span>
@@ -134,6 +138,14 @@ background-size: cover;
         <li>
     <a class="dropdown-item" href="../../../about-hsma.html">
  <span class="dropdown-text">The HSMA Programme</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../faqs.html">
+ <span class="dropdown-text">Frequently Asked Questions</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../../foss.html">
+ <span class="dropdown-text">HSMA &amp; Open Source Software</span></a>
   </li>  
     </ul>
   </li>
@@ -233,8 +245,10 @@ background-size: cover;
             
             
                                     <div class="quarto-categories">
-                                <div class="quarto-category">Natural Language Processing</div>
+                                <div class="quarto-category">Natural Language Processing (NLP)</div>
                                 <div class="quarto-category">Streamlit</div>
+                                <div class="quarto-category">Congenital Anomilies</div>
+                                <div class="quarto-category">Genetic Data</div>
                             </div>
                                 </div>
 
@@ -278,6 +292,13 @@ background-size: cover;
 
 
 
+<p>Congenital anomaly diagnoses can be submitted to the National Congenital Anomaly and Rare Diseases Services (NCARDRS) under an unspecific and uninformative ICD10 code of Q87.8. Q87.8 is broadly defined as ‘Other specified congenital malformation syndromes, not elsewhere classified’, with diagnosis detail submitted in free text data. As a result, classification of these diagnoses into more specific syndromes is currently handled manually by reviewing free text fields from data submissions from hospitals such as discharge letters. This manual review is time consuming and risks human error, duplication of effort, and poor standardisation of rules/methods applied for extraction and classification.</p>
+<p>Additionally, diagnoses submitted from discharge letters are only ‘probable’ or ‘suspected’ and therefore need to be validated via genetic testing data. However, there currently is no defined method of data linkage between the discharge letters and genetic data which means diagnoses cannot be confirmed. Providing accurate data on congenital anomaly diagnoses which have been validated by genetic testing data is crucial for disease surveillance reporting.</p>
+<p>The aims of this project are:</p>
+<ol type="1">
+<li>To use Natural Language Processing (NLP) to automate and standardise the extraction and classification of suspected ICD10 Q87.8 congenital anomaly diagnoses from free text.</li>
+<li>To use genetic data to validate these suspected diagnoses, which will include defining a data linkage method between the two datasets.</li>
+</ol>
 
 
 
