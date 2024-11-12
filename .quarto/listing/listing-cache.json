@@ -54,6 +54,34 @@
     ],
     "previous_projects\\projects_by_service_type_location.qmd": [
       "*/*/index.qmd"
+    ],
+    "previous_projects/projects_by_methods.qmd": [
+      "*/*/index.qmd"
+    ],
+    "previous_projects/projects_by_service_type_location.qmd": [
+      "*/*/index.qmd"
+    ],
+    "previous_projects/projects_by_service_area.qmd": [
+      "*/*/index.qmd"
+    ],
+    "previous_projects/projects_by_cohort.qmd": [
+      "hsma_alumni/*/index.qmd",
+      "hsma_6/*/index.qmd",
+      "hsma_5/*/index.qmd",
+      "hsma_4/*/index.qmd",
+      "hsma_3/*/index.qmd"
+    ],
+    "previous_projects/projects_by_organisation.qmd": [
+      "*/*/index.qmd"
+    ],
+    "previous_projects/completed_projects.qmd": [
+      "*/*/index.qmd"
+    ],
+    "previous_projects/projects_in_progress.qmd": [
+      "*/*/index.qmd"
+    ],
+    "hsma_content/reinforcement_learning_game.qmd": [
+      "module_4_ml/4h_reinforcement_learning.qmd"
     ]
   }
 }
