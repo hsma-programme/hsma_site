@@ -1,7 +1,30 @@
-/* css styles */
-.navbar-logo {
-  max-height: 50px;
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+
+  .navbar-logo {
+    max-height: 30px;
+  }
+
+ }
+
+
+
+/* Other devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+
+  .navbar-logo {
+    max-height: 50px;
+  }
+
 }
+
+@media (min-width: 992px) {
+  .navbar-nav.navbar-nav-scroll {
+    --bs-scroll-height: 100vh;
+  }
+
+
 
 .quarto-title-banner h1, .quarto-title-banner .h1, .quarto-title-banner h2, .quarto-title-banner .h2 {
     color: #fff;
@@ -67,11 +90,6 @@ a {
   flex: 0 0 1%;
 }
 
-@media (min-width: 992px) {
-  .navbar-nav.navbar-nav-scroll {
-    --bs-scroll-height: 100vh;
-  }
-
 .navbar .dropdown-menu {
     left: auto !important;
     right: 0 !important;
@@ -96,8 +114,6 @@ a {
   border-radius: 5px;         /* Rounded corners */
   transition: all 0.3s ease;  /* Smooth transition for hover effects */
 }
-
-
 
 /* Hover effect */
 .custom-button:hover {
