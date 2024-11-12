@@ -58,7 +58,7 @@ listing:
       page-size: 1000
       categories: false
       include:
-        categories: "{Primary Care (GPs)}*"
+        categories: "{Primary Care (GPs),Primary Care (GP)}*"
       template: ../html/previous_projects/listing.ejs
     - id: telephone_and_111_projects
       contents: "*/*/index.qmd"
@@ -225,7 +225,7 @@ listing:
 
 ### Same-Day Emergency Care (SDEC)
 
-:::{#spec_projects}
+:::{#sdec_projects}
 :::
 
 ### Urgent Treatment Centres (UTCs)
