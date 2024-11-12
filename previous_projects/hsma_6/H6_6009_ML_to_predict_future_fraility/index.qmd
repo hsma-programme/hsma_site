@@ -10,6 +10,8 @@ categories:
 author:
   - name: Emil Frances-Chi
     affiliation: NHS West Yorkshire ICB - Wakefield
+organisations:
+  - NHS West Yorkshire ICB - Wakefield
 image: "../placeholder.png"
 title-block-banner: ../../banner.png
 status: Active

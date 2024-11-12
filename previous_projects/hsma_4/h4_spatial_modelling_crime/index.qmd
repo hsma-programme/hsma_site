@@ -9,6 +9,9 @@ techniques:
   - Mapping
   - Geostatistics
   - QGIS
+areas:
+  - Police
+  - Crime
 author:
   - name: Anupma Wadhera
     affiliation: TBC

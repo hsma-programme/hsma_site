@@ -18,6 +18,8 @@ categories:
 author:
   - name: Heath McDonald
     affiliation: Lancashire and South Cumbria NHS Foundation Trust
+organisations:
+  - Lancashire and South Cumbria NHS Foundation Trust
 image: "../placeholder.png"
 title-block-banner: ../../banner.png
 status: Active

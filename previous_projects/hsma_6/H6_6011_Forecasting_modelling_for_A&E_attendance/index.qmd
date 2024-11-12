@@ -12,6 +12,8 @@ categories:
 author:
   - name: Yu Qiao
     affiliation: Liverpool University Hospital Foundation Trust
+organisations:
+  - Liverpool University Hospital Foundation Trust
 image: "../placeholder.png"
 title-block-banner: ../../banner.png
 status: Active

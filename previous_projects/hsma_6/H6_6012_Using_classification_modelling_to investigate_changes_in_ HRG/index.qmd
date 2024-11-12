@@ -12,6 +12,8 @@ categories:
 author:
   - name: Chris Todd
     affiliation: NHS England
+organisations:
+  - NHS England
 image: "../placeholder.png"
 title-block-banner: ../../banner.png
 status: Active

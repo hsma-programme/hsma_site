@@ -13,7 +13,6 @@ techniques:
   - Plotly Dash
 areas:
   - Vaccination
-  - Prophet
   - COVID-19
 author:
   - name: Charlene Black

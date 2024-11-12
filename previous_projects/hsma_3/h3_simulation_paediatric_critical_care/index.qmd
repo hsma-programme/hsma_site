@@ -6,11 +6,15 @@ techniques:
   - Location Optimization
 areas:
   - Paediatric
+  - Intensive Care Units & Intensive Therapy Units (ICU & ITU)
+  - Inpatients
 categories:
   - Discrete Event Simulation (DES)
   - Paediatric
   - Mapping
   - Location Optimization
+  - Inpatients
+  - Intensive Care Units & Intensive Therapy Units (ICU & ITU)
   - NHS
 author:
   - name: Adam Scull

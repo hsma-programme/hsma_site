@@ -14,6 +14,8 @@ categories:
 author:
   - name: Phil King
     affiliation: South Central Ambulance Service
+organisations:
+  - South Central Ambulance Service
 image: "../placeholder.png"
 title-block-banner: ../../banner.png
 status: Active

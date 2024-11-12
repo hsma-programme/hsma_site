@@ -14,6 +14,8 @@ categories:
 author:
   - name: Luke Herbert
     affiliation: Surrey and Sussex Healthcare NHS Trust
+organisations:
+  - Surrey and Sussex Healthcare NHS Trust
 image: "../placeholder.png"
 title-block-banner: ../../banner.png
 status: Active

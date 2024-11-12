@@ -14,6 +14,8 @@ categories:
 author:
   - name: Sarah Blincko
     affiliation: NHS England
+organisations:
+  - NHS England
 image: "../placeholder.png"
 title-block-banner: ../../banner.png
 status: Active

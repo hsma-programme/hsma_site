@@ -16,7 +16,9 @@ categories:
   - Same-day Emergency Care
 author:
   - name: Helena Robinson
-    affiliation: Countess of Chester Hospital NHS FOundation Trust
+    affiliation: Countess of Chester Hospital NHS Foundation Trust
+organisations:
+  - Countess of Chester Hospital NHS Foundation Trust
 image: "../placeholder.png"
 title-block-banner: ../../banner.png
 status: Active

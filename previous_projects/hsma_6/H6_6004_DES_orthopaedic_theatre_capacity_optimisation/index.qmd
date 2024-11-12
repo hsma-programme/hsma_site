@@ -16,6 +16,8 @@ categories:
 author:
   - name: Rebecca Marshall
     affiliation: University Hospitals Coventry and Warwickshire Trust
+organisations:
+  - University Hospitals Coventry and Warwickshire Trust
 image: "../placeholder.png"
 title-block-banner: ../../banner.png
 status: Active
