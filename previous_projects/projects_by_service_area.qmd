@@ -37,11 +37,11 @@ listing:
       grid-columns: 2
       page-size: 1000
       categories: false
+      template: ../html/previous_projects/listing.ejs
       include:
         categories: "{Mental Health,Community Mental Health}"
       exclude:
         categories: "{Mental Health Inpatients,Neurodiversity,NHS Talking Therapies (Formerly IAPT)}"
-      template: ../html/previous_projects/listing.ejs
     - id: workforce_projects
       contents: "*/*/index.qmd"
       sort: "date desc"
@@ -292,7 +292,7 @@ listing:
       page-size: 1000
       categories: false
       include:
-        categories: "{Smoking;Weight Management}*"
+        categories: "{Smoking,Weight Management}*"
       template: ../html/previous_projects/listing.ejs
     - id: physiotherapy_projects
       contents: "*/*/index.qmd"
