@@ -17,7 +17,7 @@ listing:
       page-size: 1000
       categories: false
       include:
-        categories: "Discrete Event Simulation"
+        categories: "Discrete Event Simulation (DES)"
       template: ../html/previous_projects/listing.ejs
     - id: network_analysis_projects
       contents: "*/*/index.qmd"
@@ -37,7 +37,7 @@ listing:
       page-size: 1000
       categories: false
       include:
-        categories: "Automation"
+        categories: "{Automation,Reproducible Analytical Pipelines (RAP),Quarto}"
       template: ../html/previous_projects/listing.ejs
     - id: mapping_location_projects
       contents: "*/*/index.qmd"
@@ -57,7 +57,7 @@ listing:
       page-size: 1000
       categories: false
       include:
-        categories: "{Forecasting,Prophet}*"
+        categories: "{Forecasting,Prophet,ARIMA}*"
       template: ../html/previous_projects/listing.ejs
     - id: nlp_projects
       contents: "*/*/index.qmd"
@@ -67,7 +67,7 @@ listing:
       page-size: 1000
       categories: false
       include:
-        categories: "{Natural Language Processing,Natural Language Processing (NLP),Named Entity Recognition}*"
+        categories: "{Natural Language Processing,Natural Language Processing (NLP),Named Entity Recognition, Sentiment Analysis}*"
       template: ../html/previous_projects/listing.ejs
     - id: ml_projects
       contents: "*/*/index.qmd"
@@ -77,7 +77,7 @@ listing:
       page-size: 1000
       categories: false
       include:
-        categories: "{Machine Learning}*"
+        categories: "{Machine Learning, Explainable AI,Unsupervised Learning}*"
       template: ../html/previous_projects/listing.ejs
     - id: streamlit_projects
       contents: "*/*/index.qmd"
@@ -88,6 +88,26 @@ listing:
       categories: false
       include:
         categories: "{Streamlit}*"
+      template: ../html/previous_projects/listing.ejs
+    - id: abs_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Agent Based Simulation (ABS)}*"
+      template: ../html/previous_projects/listing.ejs
+    - id: sd_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{System Dynamics}*"
       template: ../html/previous_projects/listing.ejs
 ---
 
@@ -128,6 +148,13 @@ listing:
 :::{#network_analysis_projects}
 :::
 
+## Agent-Based Simulation (ABS)
+:::{#abs_projects}
+:::
+
+## System Dynamics
+:::{#sd_projects}
+:::
 
 ---
 
