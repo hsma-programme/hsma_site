@@ -8,6 +8,9 @@ categories:
 techniques:
   - Streamlit
   - Forecasting
+areas:
+  - PCMD Dataset
+  - Public Health
 author:
   - name: Eleanor Jeram
     affiliation: Public Health Dorset

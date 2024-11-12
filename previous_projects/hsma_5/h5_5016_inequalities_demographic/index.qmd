@@ -6,10 +6,14 @@ categories:
   - Mapping
   - Travel Times
   - NHS
+  - Demographics
 techniques:
   - Streamlit
   - Mapping
   - Travel Times
+areas:
+  - Inequalities
+  - Demographics
 author:
   - name: Alex Owens
     affiliation: NHS Arden and Greater East Midlands CSU

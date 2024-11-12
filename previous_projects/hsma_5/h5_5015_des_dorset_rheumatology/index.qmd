@@ -1,12 +1,15 @@
 ---
 title: "A Discrete Event Simulation Model to reduce Rheumatology waiting times in Dorset"
 categories:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
   - NHS
   - Rheumatology
   - Waiting Lists
 techniques:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
+areas:
+  - Rheumatology
+  - Waiting Lists
 author:
   - name: Abby Dewhurst
     affiliation: Dorset Intelligence and Insight Service (NHS Dorset)

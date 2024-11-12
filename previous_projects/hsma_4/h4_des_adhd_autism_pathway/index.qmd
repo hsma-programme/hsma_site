@@ -1,15 +1,21 @@
 ---
 title: "Use of Discrete Event Simulation to Tackle Long Waits and a Growing Backlog for Children Requiring Neuro Development Assessment (Autism and ADHD)"
 categories:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
   - Neurodiversity
+  - Paediatric
   - Mental Health
   - Demand & Capacity
-  - Identifying Bottlenecks in Pathways
   - Reducing Backlogs
   - NHS
 techniques:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
+areas:
+  - Neurodiversity
+  - Paediatric
+  - Mental Health
+  - Demand & Capacity
+  - Reducing Backlogs
 author:
   - name: Irma Tanovic
     affiliation: Oxford Health NHS Foundation Trust

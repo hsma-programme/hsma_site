@@ -1,13 +1,16 @@
 ---
 title: "Discrete Event Simulation of Cognitive Behavioural Therapy Pathway in an IAPT Service"
 categories:
-  - Discrete Event Simulation
-  - Mental Health
-  - Improving Access to Psychological Therapies (IAPT)
+  - Discrete Event Simulation (DES)
+  - NHS Talking Therapies (Formerly IAPT)
   - Community Mental Health
   - NHS
 techniques:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
+areas:
+  - Mental Health
+  - NHS Talking Therapies (Formerly IAPT)
+  - Community Mental Health
 author:
   - name: Katie Brown
     affiliation: Dorset HealthCare

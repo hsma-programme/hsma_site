@@ -1,13 +1,17 @@
 ---
 title: "Discrete Event Simulation to Improve Flow and Performance in the Urgent Treatment Centre"
 categories:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
   - Urgent Treatment Centres (UTC)
   - Emergency Departments
   - Identifying Bottlenecks in Pathways
   - NHS
 techniques:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
+areas:
+  - Urgent Treatment Centres (UTC)
+  - Emergency Departments
+  - Identifying Bottlenecks in Pathways
 author:
   - name: Shilpa Patel
     affiliation: University College Hospital Trust

@@ -1,7 +1,7 @@
 ---
 title: "Modelling the effect of complex discharge delays on acute performance"
 categories:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
   - Discharge
   - Hospitals
   - Patient Flow
@@ -9,7 +9,13 @@ categories:
   - Inter-service Interactions
   - NHS
 techniques:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
+areas:
+  - Discharge
+  - Hospitals
+  - Patient Flow
+  - Acute Care
+  - Inter-service Interactions
 author:
   - name: Hannah Perkins
     affiliation: University Hospitals Plymouth NHS Trust

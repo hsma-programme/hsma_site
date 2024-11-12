@@ -11,6 +11,10 @@ techniques:
   - Forecasting
   - Prophet
   - Plotly Dash
+areas:
+  - Vaccination
+  - Prophet
+  - COVID-19
 author:
   - name: Charlene Black
     affiliation: South Central and West Commissioning Support Unit

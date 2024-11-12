@@ -4,6 +4,7 @@ categories:
   - Non-attendance Prediction
   - Machine Learning
   - Automation
+  - Reproducible Analytical Pipelines (RAP)
   - Inequalities
   - Carbon Emissions
   - Health Equity Audits
@@ -11,6 +12,11 @@ categories:
 techniques:
   - Machine Learning
   - Automation
+  - Reproducible Analytical Pipelines (RAP)
+areas:
+  - Carbon Emissions
+  - Health Equity Audits
+  - Non-attendance Prediction
 author:
   - name: Matt Eves
     affiliation: Derbyshire Community Health Services NHS

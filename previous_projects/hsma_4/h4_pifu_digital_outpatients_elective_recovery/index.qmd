@@ -1,14 +1,19 @@
 ---
 title: "The role of Patient Initiated Follow-up (PIFU) and ‘Digital Outpatients’ in Supporting the Elective Recovery - Can We Better Size Potential for Clearing the Backlog?"
 categories:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
   - Patient Initiated Follow-Up (PIFU)
   - Digital Outpatients
   - Rheumatology
   - Reducing Backlogs
   - NHS
 techniques:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
+areas:
+  - Patient Initiated Follow-Up (PIFU)
+  - Digital Outpatients
+  - Rheumatology
+  - Reducing Backlogs
 author:
   - name: Martina Fonseca
     affiliation: NHS England and Improvement

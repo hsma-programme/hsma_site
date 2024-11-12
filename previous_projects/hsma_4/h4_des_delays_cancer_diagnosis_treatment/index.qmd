@@ -1,13 +1,17 @@
 ---
 title: "Use Of Discrete Event Simulation (DES) to reduce delays in Cancer Diagnosis & Treatment"
 categories:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
   - Cancer
   - Colorectal
   - Identifying Bottlenecks in Pathways
   - NHS
 techniques:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
+areas:
+  - Cancer
+  - Colorectal
+  - Identifying Bottlenecks in Pathways
 author:
   - name: Angel Masih
     affiliation: Gloucestershire Hospitals Foundation Trust

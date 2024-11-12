@@ -10,6 +10,10 @@ categories:
 techniques:
   - Network Analysis
   - Plotly Dash
+areas:
+  - Emergency Departments
+  - Diagnostic Procedures
+  - ECDS Dataset
 author:
   - name: Hamzah Shami
     affiliation: NHS England

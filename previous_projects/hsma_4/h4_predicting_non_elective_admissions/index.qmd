@@ -4,11 +4,14 @@ categories:
   - Machine Learning
   - Non-elective Admissions
   - Inpatient Admissions
-  - Natural Language Processing
+  - Natural Language Processing (NLP)
   - NHS
 techniques:
   - Machine Learning
-  - Natural Language Processing
+  - Natural Language Processing (NLP)
+areas:
+  - Non-elective Admissions
+  - Inpatient Admissions
 author:
   - name: Stephen Ashmead
     affiliation: Royal Devon University Healthcare NHS Foundation Trust

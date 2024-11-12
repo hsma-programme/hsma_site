@@ -7,9 +7,15 @@ categories:
   - Automation
   - Health Equity Audits
   - NHS
+  - Reproducible Analytical Pipelines (RAP)
 techniques:
   - Streamlit
   - Automation
+  - Reproducible Analytical Pipelines (RAP)
+areas:
+  - Health Equity Audits
+  - Community Diagnostic Centres (CDCs)
+  - Inequalities
 author:
   - name: Sarah Houston
     affiliation: UCL Partners

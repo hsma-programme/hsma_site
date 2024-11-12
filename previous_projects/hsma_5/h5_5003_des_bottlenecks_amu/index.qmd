@@ -1,7 +1,7 @@
 ---
 title: "Using Discrete Event Simulation to model the bottlenecks in the Acute Medical Unit pathway"
 categories:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
   - Streamlit
   - Acute Medical Unit (AMU)
   - Emergency Departments
@@ -9,8 +9,13 @@ categories:
   - Hospitals
   - NHS
 techniques:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
   - Streamlit
+areas:
+  - Acute Medical Unit (AMU)
+  - Emergency Departments
+  - Acute Care
+  - Hospitals
 author:
   - name: Becky Crofts
     affiliation: Royal Devon University Healthcare (RDUH) NHS Foundation Trust

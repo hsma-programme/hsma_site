@@ -1,14 +1,19 @@
 ---
 title: "The Effect of Booked Appointments on Waiting Times at Urgent Treatment Centres"
 categories:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
   - Urgent Treatment Centres (UTC)
   - Emergency Departments
   - ECDS Dataset
   - Booked Appointments in Walk-in Services
   - NHS
 techniques:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
+areas:
+  - Urgent Treatment Centres (UTC)
+  - Emergency Departments
+  - ECDS Dataset
+  - Booked Appointments in Walk-in Services
 author:
   - name: Alice Waterhouse
     affiliation: NHS England and Improvement

@@ -12,6 +12,8 @@ techniques:
   - Travel Times
   - Streamlit
   - Location Optimisation
+areas:
+  - Cardiology
 author:
   - name: Glenn Ubly
     affiliation: NHS England Specialised Commissioning – South East Region

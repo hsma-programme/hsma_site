@@ -1,12 +1,14 @@
 ---
 title: "Using Natural Language Processing to detect drug related content within free text "
 categories:
-  - Natural Language Processing
+  -Natural Language Processing (NLP)
   - Named Entity Recognition
   - Police
 techniques:
-  - Natural Language Processing
+  -Natural Language Processing (NLP)
   - Named Entity Recognition
+areas:
+  - Police
 author:
   - name: Lauren Szarvas
     affiliation: Bedfordshire Police

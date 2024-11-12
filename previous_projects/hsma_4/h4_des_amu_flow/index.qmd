@@ -1,13 +1,17 @@
 ---
 title: "Using DES to Improve Flow through an Acute Medicine Assessment Pathway"
 categories:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
   - Emergency Departments
   - Patient Flow
   - Inpatients
   - NHS
 techniques:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
+areas:
+  - Emergency Departments
+  - Patient Flow
+  - Inpatients
 author:
   - name: Helen Young
     affiliation: Nottingham University Hospitals NHS Trust

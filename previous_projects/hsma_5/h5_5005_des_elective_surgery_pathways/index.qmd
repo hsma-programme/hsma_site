@@ -1,7 +1,7 @@
 ---
 title: "Discrete Event Simulation to model elective surgery pathways"
 categories:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
   - Streamlit
   - Elective Surgery
   - Waiting Times
@@ -9,8 +9,13 @@ categories:
   - Hospitals
   - NHS
 techniques:
-    - Discrete Event Simulation
-    - Streamlit
+  - Discrete Event Simulation (DES)
+  - Streamlit
+areas:
+  - Elective Surgery
+  - Waiting Times
+  - Surgical
+  - Hospitals
 author:
   - name: Dominic Allen
     affiliation: Guy’s and St Thomas’ NHS Foundation Trust

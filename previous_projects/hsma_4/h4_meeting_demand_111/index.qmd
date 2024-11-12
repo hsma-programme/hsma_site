@@ -1,17 +1,23 @@
 ---
 title: "Meeting the demand of 111 for primary care services"
 categories:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
   - Plotly Dash
   - Network Analysis
   - 111 Service
-  - Primary Care
+  - Primary Care (GP)
   - Emergency Departments
   - NHS
+  - Telephone-based Services
 techniques:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
   - Plotly Dash
   - Network Analysis
+  - Telephone-based Services
+areas:
+  - 111 Service
+  - Primary Care (GP)
+  - Emergency Departments
 author:
   - name: Richard Pilbery
     affiliation: Yorkshire Ambulance Service NHS Trust

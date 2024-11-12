@@ -3,13 +3,17 @@ title: "Modelling the location of neonatal critical care units in North West Eng
 categories:
   - Mapping
   - Location Optimization
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
   - Streamlit
   - Neonatal
 techniques:
   - Mapping
   - Location Optimization
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
+areas:
+  - Neonatal
+  - Inpatients
+  - Hospitals
 author:
   - name: Duncan Galletly
     affiliation: North West Neonatal Operational Delivery Network

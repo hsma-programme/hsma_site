@@ -11,6 +11,9 @@ techniques:
   - Plotly Dash
   - Regression
   - Machine Learning
+areas:
+  - Staff Turnover
+  - Workforce
 author:
   - name: Marie Rogers
     affiliation: NHS England

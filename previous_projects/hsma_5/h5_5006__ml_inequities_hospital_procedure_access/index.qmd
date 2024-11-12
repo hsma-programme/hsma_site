@@ -7,7 +7,11 @@ categories:
   - APC Dataset
   - NHS
 techniques:
-    - Machine Learning
+  - Machine Learning
+areas:
+  - Inequalities
+  - Planned Admissions
+  - APC Dataset
 author:
   - name: Benjamin Mouncer
     affiliation: NHS & Norfolk County Council

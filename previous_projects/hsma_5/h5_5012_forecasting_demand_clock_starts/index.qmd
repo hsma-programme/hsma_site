@@ -3,7 +3,7 @@ title: "Forecasting Demand – Investigating approaches to forecast clock starts
 categories:
   - Forecasting
   - Clock Starts
-  - Demand
+  - Demand & Capacity
   - Prophet
   - ARIMA
   - Machine Learning
@@ -13,6 +13,10 @@ techniques:
   - Forecasting
   - Prophet
   - ARIMA
+areas:
+  - Clock Starts
+  - Demand & Capacity
+  - Waiting Lists
 author:
   - name: Jane Kirkpatrick
     affiliation: NHS England
