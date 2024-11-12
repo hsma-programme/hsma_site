@@ -39,6 +39,16 @@
             </div>
             <% } %>
 
+            <% if(item.areas) { %>
+              <div class="quarto-categories">
+                  <% for (const cat of item.areas) { %>
+                    <% if(cat) { %>
+                        <button class="area-button"><%= cat %></button>
+                      <% } %>
+                    <% } %>
+              </div>
+              <% } %>
+
             <% if(item.organisations) { %>
               <div class="listing-organisations">
                 <% for (const org of item.organisations) { %>
