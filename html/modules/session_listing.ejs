@@ -1,5 +1,5 @@
 ```{=html}
-<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(600px, 950px)); gap: 40px;">
+<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1250px)); gap: 40px;">
 
   <% for (const item of items) { %>
     <div class="custom-grid-card border-2 rounded-3" <%= metadataAttrs(item) %>>
@@ -28,7 +28,7 @@
                         <% for (const link of item['pub-info'].links) { %>
                           <% if (link.url) { %>
                     <button class="session-link-listing-button"><a href="<%- link.url %>"><i class="<%- link.icon %>"></i> <%= link.name %> </a></button>
-                    <% } %>    
+                    <% } %>
                     <% } %>
                       <% } %>
                   <% } %>
