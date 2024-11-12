@@ -130,7 +130,7 @@ listing:
       page-size: 1000
       categories: false
       include:
-        categories: "{Police}*"
+        categories: "{Police,Crime}*"
       template: ../html/previous_projects/listing.ejs
     - id: cardiac_projects
       contents: "*/*/index.qmd"
@@ -284,65 +284,6 @@ listing:
       template: ../html/previous_projects/listing.ejs
 ---
 
-## Emergency Departments
-
-:::{#emergency_department_projects}
-:::
-
-## Elective Surgery
-
-:::{#elective_surgery_projects}
-:::
-
-## Primary Care and 111
-
-:::{#primary_care_projects}
-:::
-
-## Workforce
-
-:::{#workforce_projects}
-:::
-
-## Vaccination
-
-:::{#vaccination_projects}
-:::
-
-## Inequalities
-
-:::{#inequalities_projects}
-:::
-
-## Public Health
-
-:::{#public_health_projects}
-:::
-
-
-## Police
-
-:::{#policing_projects}
-:::
-
-## Patient Groups
-
-### Children (Paediatrics)
-
-:::{#paediatric_projects}
-:::
-
-
-### Older Adults
-
-:::{#older_adult_projects}
-:::
-
-### Women's health
-
-:::{#womens_health_projects}
-:::
-
 ## Mental Health
 
 ### General Mental Health Projects
@@ -359,7 +300,6 @@ listing:
 
 :::{#mh_inpatients_projects}
 :::
-
 
 
 ## Diseases
@@ -381,9 +321,7 @@ listing:
 :::
 
 
-## Service Areas
-
-
+## Medical Specialties
 
 ### Cardiac
 
@@ -436,4 +374,66 @@ listing:
 ### Urology
 
 :::{#urology_projects}
+:::
+
+## Non-NHS Project Areas
+
+## Public Health
+
+:::{#public_health_projects}
+:::
+
+
+## Police
+
+:::{#policing_projects}
+:::
+
+## Patient Groups
+
+### Children (Paediatrics)
+
+:::{#paediatric_projects}
+:::
+
+### Older Adults
+
+:::{#older_adult_projects}
+:::
+
+### Women's health
+
+:::{#womens_health_projects}
+:::
+
+## Additional Categories
+
+### Emergency Departments
+
+:::{#emergency_department_projects}
+:::
+
+### Elective Surgery
+
+:::{#elective_surgery_projects}
+:::
+
+### Primary Care and 111
+
+:::{#primary_care_projects}
+:::
+
+### Workforce
+
+:::{#workforce_projects}
+:::
+
+### Vaccination
+
+:::{#vaccination_projects}
+:::
+
+### Inequalities
+
+:::{#inequalities_projects}
 :::
