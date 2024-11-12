@@ -1,7 +1,12 @@
 ---
 title: "Developing a generic vaccination service model for the COVID-19 pandemic and beyond"
+techniques:
+  - Discrete Event Simulation (DES)
+areas:
+  - Vaccination
+  - COVID-19
 categories:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
   - Vaccination
   - COVID-19
   - NHS

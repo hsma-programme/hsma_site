@@ -1,5 +1,10 @@
 ---
 title: "What are they saying about us? An AI tool to determine the sentiment of tweets to police forces across the country, and what people are talking about"
+techniques:
+  - Sentiment Analysis
+  - Natural Language Processing (NLP)
+areas:
+  - Police
 categories:
   - Sentiment Analysis
   - Natural Language Processing (NLP)

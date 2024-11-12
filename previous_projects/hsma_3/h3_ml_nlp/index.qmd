@@ -1,9 +1,17 @@
 ---
 title: "Exploring the use of Machine Learning and Natural Language Processing to teach a machine to predict whether a patient is likely to be imminently admitted to hospital based on GP data and clues in GP notes"
+techniques:
+  - Natural Language Processing (NLP)
+  - Machine Learning
+areas:
+  - Inpatient Admissions
+  - Primary Care (GP)
+  - Hospitals
 categories:
   - Natural Language Processing (NLP)
-  - Primary Care
-  - Hospital Admissions
+  - Primary Care (GP)
+  - Inpatient Admissions
+  - Hospitals
   - Machine Learning
   - NHS
 author:

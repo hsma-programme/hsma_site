@@ -1,7 +1,12 @@
 ---
 title: "Modelling strategies to reduce the elective backlog in hip surgery"
+techniques:
+  - Discrete Event Simulation (DES)
+areas:
+  - Elective Surgery
+  - Orthopaedics
 categories:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
   - Elective Surgery
   - Orthopaedics
   - NHS

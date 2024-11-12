@@ -1,5 +1,10 @@
 ---
 title: "Generating a richer understanding of relationships in crime data in order to identify opportunities to safeguard individuals and families"
+techniques:
+  - Network Analysis
+areas:
+  - Police
+  - Crime
 categories:
   - Network Analysis
   - Police

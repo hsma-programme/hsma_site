@@ -1,18 +1,24 @@
 ---
 title: "Simulation modelling to test proposed models of pediatric critical care in South West England"
+techniques:
+  - Discrete Event Simulation (DES)
+  - Mapping
+  - Location Optimization
+areas:
+  - Paediatric
 categories:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
   - Paediatric
   - Mapping
   - Location Optimization
   - NHS
 author:
   - name: Adam Scull
-    affiliation: Transformation Intelligence Manager, NHS England and Improvement
-organisations:
-  - NHS England and Improvement
+    affiliation: Transformation Intelligence Manager, NHS England and NHS Improvement
 image: "rqvzjk78.bmp"
 title-block-banner: ../../banner.png
+organisations:
+  - NHS England and Improvement
 pub-info:
   links:
   - name: Video
