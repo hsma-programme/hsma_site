@@ -38,7 +38,9 @@ listing:
       page-size: 1000
       categories: false
       include:
-        categories: "Mental Health"
+        categories: "{Mental Health, Community Mental Health}"
+      exclude:
+        categories: "{Mental Health Inpatients, Neurodiversity}"
       template: ../html/previous_projects/listing.ejs
     - id: workforce_projects
       contents: "*/*/index.qmd"
@@ -170,16 +172,61 @@ listing:
       include:
         categories: "{Public Health}*"
       template: ../html/previous_projects/listing.ejs
+    - id: urology_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Urology}*"
+      template: ../html/previous_projects/listing.ejs
+    - id: colorectal_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Colorectal}*"
+      template: ../html/previous_projects/listing.ejs
+    - id: diabetes_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Diabetes}*"
+      template: ../html/previous_projects/listing.ejs
+    - id: neurodiversity_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Neurodiversity}*"
+      template: ../html/previous_projects/listing.ejs
+    - id: mh_inpatients_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Mental Health Inpatients}*"
+      template: ../html/previous_projects/listing.ejs
 ---
 
 ## Emergency Departments
 
 :::{#emergency_department_projects}
-:::
-
-## Mental Health
-
-:::{#mental_health_projects}
 :::
 
 ## Elective Surgery
@@ -218,23 +265,63 @@ listing:
 :::{#policing_projects}
 :::
 
+## Mental Health
+
+### General Mental Health Projects
+
+:::{#mental_health_projects}
+:::
+
+### Neurodiversity
+
+:::{#neurodiversity_projects}
+:::
+
+### Mental Health Inpatients
+
+:::{#mh_inpatients_projects}
+:::
+
+## Diseases
+
+### Diabetes
+
+:::{#diabetes_projects}
+:::
+
+
+### Cancer
+
+:::{#cancer_projects}
+:::
+
+
 
 
 ## Service Areas
 
-### Rheumatology
 
-:::{#rheumatology_projects}
+
+### Cardiac
+
+:::{#cardiac_projects}
 :::
+
+### Colorectal
+
+:::{#colorectal_projects}
+:::
+
 
 ### Neonatal
 
 :::{#neonatal_projects}
 :::
 
-### Respiratory
 
-:::{#respiratory_projects}
+### Orthopaedics
+
+:::{#orthopaedic_projects}
 :::
 
 ### Paediatric
@@ -242,17 +329,17 @@ listing:
 :::{#paediatric_projects}
 :::
 
-### Cancer
+### Respiratory
 
-:::{#cancer_projects}
+:::{#respiratory_projects}
 :::
 
-### Cardiac
+### Rheumatology
 
-:::{#cardiac_projects}
+:::{#rheumatology_projects}
 :::
 
-### Orthopaedics
+### Urology
 
-:::{#orthopaedic_projects}
+:::{#urology_projects}
 :::
