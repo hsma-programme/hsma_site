@@ -6,8 +6,10 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Hannah Trebilcock">
+<meta name="author" content="Richard Pilbery">
 
-<title>Module 2: Modelling Pathway and Queuing Problems – HSMA</title>
+<title>Geographic modelling of resource utlitisation at Devon Air Ambulance – HSMA</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +32,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
-<script src="../../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../../site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="../../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
@@ -70,35 +70,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-2_des .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-title-block-banner','listing-hours','listing-image','listing-session-lead','listing-pub-info','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
-      
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-title-block-banner","listing-hours","listing-image","listing-session-lead","listing-pub-info","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-2_des'] = new List('listing-2_des', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-9D93EVJKF5"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -135,40 +106,11 @@ background-size: cover;
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -287,212 +229,87 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">Module 2: Modelling Pathway and Queuing Problems</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page">
+<header id="title-block-header" class="quarto-title-block projects default toc-left page-columns page-full">
+    <div class="quarto-title-banner page-columns page-full">
 
-      
-    
-      
+                <div class="project-link-buttons">
+            <ul class="project-links">
+                                                                                <button class="custom-button"><a href="https://github.com/RichardPilbery/DAA_DES"><i class="fa-brands fa-github"></i> Code</a></button>
+                                                                                                            </ul>
+        </div>
+        
+                <div class="back-nav"><a href="javascript:history.back()">← Back to HSMA projects</a></div>
+        
+        <div class="quarto-title column-body">
+            <h1 class="title">Geographic modelling of resource utlitisation at Devon Air Ambulance</h1>
+
+            
+            
+            
+                                    <div class="quarto-categories">
+                                <div class="quarto-category">Geographic modelling</div>
+                                <div class="quarto-category">Forecasting</div>
+                                <div class="quarto-category">Discrete Event Simulation (DES)</div>
+                                <div class="quarto-category">Patient Transport</div>
+                                <div class="quarto-category">Waiting Times</div>
+                                <div class="quarto-category">Air Ambulance</div>
+                                <div class="quarto-category">Ambulance</div>
+                            </div>
+                                </div>
+
     </div>
+
+    <div class="quarto-title-meta-author">
+      <div class="quarto-title-meta-heading">Authors</div>
+      <div class="quarto-title-meta-heading">Affiliations</div>
+      
+        <div class="quarto-title-meta-contents">
+        <p class="author">Hannah Trebilcock </p>
+      </div>
+      <div class="quarto-title-meta-contents">
+            <p class="affiliation">
+                Devon Air Ambulance
+              </p>
+          </div>
+        <div class="quarto-title-meta-contents">
+        <p class="author">Richard Pilbery </p>
+      </div>
+      <div class="quarto-title-meta-contents">
+            <p class="affiliation">
+                Yorkshire Ambulance Service
+              </p>
+          </div>
+      </div>
+
+    <div class="quarto-title-meta">
+
+          
+      
+        
+      </div>
+      
+
     
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+</header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
+<p>A geographical modelling project on the utilisation of resources at Devon Air Ambulance, modelling current demand and conducting what if scenarios to optimise service delivery &amp; provide an evidence base for operational decision making.</p>
 
 
 
-
-
-<div class="quarto-listing quarto-listing-container-custom" id="listing-2_des">
-<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(600px, 950px)); gap: 40px;">
-
-  
-    <div class="custom-grid-card border-2 rounded-3" data-index="0" data-listing-file-modified-sort="1731428899499" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-          <div class="main-card-content">
-
-              <div class="session-content session-listing-title">
-                <h5 class="no-anchor card-title session-listing-title">2A: Introduction to Discrete Event Simulation</h5> <button class="session-duration-button">3 hours</button>
-              </div>
-
-            
-              <div class="listing-session-lead">
-                Session Lead: Dr Daniel Chalk<br>
-              </div>
-            
-
-            
-              <p class="listing-abstract">In this session, we explore how we can model pathway and queuing problems using a modelling method known as Discrete Event Simulation.
-<br><br>
-We explore how Discrete Event Simulations work, covering the terminology and concepts you will need to understand before you start designing your own simulation models.
-<br><br>
-This content is also covered in part 1 of the HSMA little book of DES.
-</p>
-
-                
-
-              </div>
-
-                <div class="project-details-listing">
-                  
-                    
-                        
-                          
-                    <button class="session-link-listing-button"><a href="https://docs.google.com/presentation/d/1HO0wXTocHRZgeuLadkGvqf5yC8BEmQzTcgo8QHOd0yY/edit?usp=sharing"><i class="fa-solid fa-person-chalkboard"></i> Slides </a></button>
-                        
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://www.youtube.com/watch?v=TxdvJQxuSx4"><i class="fa-brands fa-youtube"></i> Video </a></button>
-                        
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://github.com/hsma-programme/h6_2a_intro_to_des"><i class="fa-brands fa-github"></i> Repository </a></button>
-                        
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://hsma-programme.github.io/hsma6_des_book/intro_to_des_concepts.html"><i class="fa-solid fa-book"></i> Book </a></button>
-                        
-                    
-                      
-                  
-                </div>
-
-              </div>
-
-            
-    <div class="custom-grid-card border-2 rounded-3" data-index="1" data-listing-file-modified-sort="1731428899499" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-          <div class="main-card-content">
-
-              <div class="session-content session-listing-title">
-                <h5 class="no-anchor card-title session-listing-title">2B: SimPy for Discrete Event Simulation - Part 1</h5> <button class="session-duration-button">3 hours</button>
-              </div>
-
-            
-              <div class="listing-session-lead">
-                Session Lead: Dr Daniel Chalk<br>
-              </div>
-            
-
-            
-              <p class="listing-abstract">In this session, we look at how we can use the SimPy Python package (which is built around generator functions) to build Discrete Event Simulations in Python.
-<br><br>
-We start with a very simple model in which patients arrive, are seen by a nurse, and then leave, before building up to multi-step models and models with branching pathways. We then explore how to record results from our simulation and explore the impact of changing the level of resources available or the distribution of inter-arrival times and activity durations.
-<br><br>
-This content is also covered in part 2 of the HSMA little book of DES.
-</p>
-
-                
-
-              </div>
-
-                <div class="project-details-listing">
-                  
-                    
-                        
-                          
-                    <button class="session-link-listing-button"><a href="https://docs.google.com/presentation/d/15bQX0yxfDgjNVJSQORNzBCWVvbKI_LaTcbtYVKsvYcU/edit?usp=sharing"><i class="fa-solid fa-person-chalkboard"></i> Slides </a></button>
-                        
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://www.youtube.com/watch?v=nHgyJ6i0TGs"><i class="fa-brands fa-youtube"></i> Video </a></button>
-                        
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://github.com/hsma-programme/h6_simpy_part_1"><i class="fa-brands fa-github"></i> Repository </a></button>
-                        
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://hsma-programme.github.io/hsma6_des_book/intro_to_simpy.html"><i class="fa-solid fa-book"></i> Book </a></button>
-                        
-                    
-                      
-                  
-                </div>
-
-              </div>
-
-            
-    <div class="custom-grid-card border-2 rounded-3" data-index="2" data-listing-file-modified-sort="1731428899499" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-          <div class="main-card-content">
-
-              <div class="session-content session-listing-title">
-                <h5 class="no-anchor card-title session-listing-title">2C: SimPy for Discrete Event Simulation - Part 2</h5> <button class="session-duration-button">3 hours</button>
-              </div>
-
-            
-              <div class="listing-session-lead">
-                Session Lead: Dr Daniel Chalk<br>
-              </div>
-            
-
-            
-              <p class="listing-abstract">In this session, we look at some more advanced DES concepts and how we can incorporate them in our SimPy models.
-<br><br>
-This includes
-<br>• warm up periods
-<br>• priority-based queuing
-<br>• resource unavailability
-<br>• Lognormal distributions
-<br>• reneging
-<br>• balking
-<br>• jockeying
-<br><br>
-This content is also covered in part 3 of the HSMA little book of DES.
-</p>
-
-                
-
-              </div>
-
-                <div class="project-details-listing">
-                  
-                    
-                        
-                          
-                    <button class="session-link-listing-button"><a href="https://docs.google.com/presentation/d/1y7S7bjJtdLQCquzzZ2vjYzRx9-RwXE-SWgWf88fLc4o/edit?usp=sharing"><i class="fa-solid fa-person-chalkboard"></i> Slides </a></button>
-                        
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://www.youtube.com/watch?v=FBVBKtVkayA"><i class="fa-brands fa-youtube"></i> Video </a></button>
-                        
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://github.com/hsma-programme/h6_simpy_part_2"><i class="fa-brands fa-github"></i> Repository </a></button>
-                        
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://hsma-programme.github.io/hsma6_des_book/model_warm_up.html"><i class="fa-solid fa-book"></i> Book </a></button>
-                        
-                    
-                      
-                  
-                </div>
-
-              </div>
-
-            
-          </div>
-
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {

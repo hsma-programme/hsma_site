@@ -2,6 +2,12 @@
   {
     "listing": "/previous_projects/projects_by_cohort.html",
     "items": [
+      "/previous_projects/hsma_alumni/H1_1100_Geographic_modelling_of_resource_utilisation_at_DAA/index.html",
+      "/previous_projects/hsma_alumni/H4_4100_Automating_and_scaling_waiting_list_equity_analysis_at_trust_level_/index.html",
+      "/previous_projects/hsma_alumni/H4_4101_SIMPACT_Simulation_of_medical_patient_admission_and_care_throughput/index.html",
+      "/previous_projects/hsma_alumni/H5_5100_Extra_funding_allocation_inequality_tool/index.html",
+      "/previous_projects/hsma_alumni/H5_5101_Modelling_resourcing_scenarios_to_meet_increases_in_demand_Devon_eye_clinic/index.html",
+      "/previous_projects/hsma_alumni/H5_5102_Using_ML_to predict_whether_patient_might_develop_SSI/index.html",
       "/previous_projects/hsma_6/H6_6000_core20plus50_ml_explainable_ai_mental_health_dnas/index.html",
       "/previous_projects/hsma_6/H6_6001_DES_modelling_non_elective_flow/index.html",
       "/previous_projects/hsma_6/H6_6002_GM_healthcare_worker_vaccination_uptake/index.html",
@@ -149,7 +155,13 @@
       "/previous_projects/hsma_6/H6_6050_DES_pathway_community_diagnostic_centres/index.html",
       "/previous_projects/hsma_6/H6_6051_ABS_influences_access_hospice_care/index.html",
       "/previous_projects/hsma_6/H6_6052_GM_specialist_palliative_end_of_life_care/index.html",
-      "/previous_projects/hsma_6/H6_6053_pathologies_requiring_ITU_admission/index.html"
+      "/previous_projects/hsma_6/H6_6053_pathologies_requiring_ITU_admission/index.html",
+      "/previous_projects/hsma_alumni/H1_1100_Geographic_modelling_of_resource_utilisation_at_DAA/index.html",
+      "/previous_projects/hsma_alumni/H4_4100_Automating_and_scaling_waiting_list_equity_analysis_at_trust_level_/index.html",
+      "/previous_projects/hsma_alumni/H4_4101_SIMPACT_Simulation_of_medical_patient_admission_and_care_throughput/index.html",
+      "/previous_projects/hsma_alumni/H5_5100_Extra_funding_allocation_inequality_tool/index.html",
+      "/previous_projects/hsma_alumni/H5_5101_Modelling_resourcing_scenarios_to_meet_increases_in_demand_Devon_eye_clinic/index.html",
+      "/previous_projects/hsma_alumni/H5_5102_Using_ML_to predict_whether_patient_might_develop_SSI/index.html"
     ]
   },
   {
@@ -190,12 +202,16 @@
       "/previous_projects/hsma_6/H6_6036_Forcasting_demand_RDUH_breast_care_services/index.html",
       "/previous_projects/hsma_6/H6_6042_DS_delay_pathway_neurodiversity_diagnosis/index.html",
       "/previous_projects/hsma_6/H6_6050_DES_pathway_community_diagnostic_centres/index.html",
+      "/previous_projects/hsma_alumni/H1_1100_Geographic_modelling_of_resource_utilisation_at_DAA/index.html",
+      "/previous_projects/hsma_alumni/H4_4101_SIMPACT_Simulation_of_medical_patient_admission_and_care_throughput/index.html",
+      "/previous_projects/hsma_alumni/H5_5101_Modelling_resourcing_scenarios_to_meet_increases_in_demand_Devon_eye_clinic/index.html",
       "/previous_projects/hsma_3/h3_crime_data_safeguarding_network/index.html",
       "/previous_projects/hsma_5/h5_5009_network_analysis_diagnostics_ae/index.html",
       "/previous_projects/hsma_4/h4_service_planning_inequalities_carbon_output/index.html",
       "/previous_projects/hsma_5/h5_5010_health_equity_audits_cdc/index.html",
       "/previous_projects/hsma_6/H6_6011_Forecasting_modelling_for_A&E_attendance/index.html",
       "/previous_projects/hsma_6/H6_6053_pathologies_requiring_ITU_admission/index.html",
+      "/previous_projects/hsma_alumni/H4_4100_Automating_and_scaling_waiting_list_equity_analysis_at_trust_level_/index.html",
       "/previous_projects/hsma_4/h4_reducing_travel_times_cardiac_patients/index.html",
       "/previous_projects/hsma_4/h4_spatial_modelling_crime/index.html",
       "/previous_projects/hsma_5/h5_5016_inequalities_demographic/index.html",
@@ -239,9 +255,11 @@
       "/previous_projects/hsma_6/H6_6046_Proactive_Patient_attendance_prediction/index.html",
       "/previous_projects/hsma_6/H6_6048_Concurrent_treatment_areas_RTT_pathway/index.html",
       "/previous_projects/hsma_6/H6_6049_ML_appointments_pathway/index.html",
+      "/previous_projects/hsma_alumni/H5_5102_Using_ML_to predict_whether_patient_might_develop_SSI/index.html",
       "/previous_projects/hsma_6/H6_6024_Streamlit_app_for_theographs_of_patient_journeys/index.html",
       "/previous_projects/hsma_6/H6_6035_web_app_to_recommend_appropriate_tech_enabled_care/index.html",
       "/previous_projects/hsma_6/H6_6040_benefit_of_MECC_using_ABS/index.html",
+      "/previous_projects/hsma_alumni/H5_5100_Extra_funding_allocation_inequality_tool/index.html",
       "/previous_projects/hsma_6/H6_6031_ABS_to_understand_criminal_adoption_new_technologies/index.html"
     ]
   },
@@ -366,12 +384,14 @@
       "/previous_projects/hsma_4/h4_predicting_non_elective_admissions/index.html",
       "/previous_projects/hsma_6/H6_6010_Understanding_drivers_of_increased_length_of_stay/index.html",
       "/previous_projects/hsma_6/H6_6013_Forecasting_acute_bed_occupancy/index.html",
+      "/previous_projects/hsma_alumni/H4_4101_SIMPACT_Simulation_of_medical_patient_admission_and_care_throughput/index.html",
       "/previous_projects/hsma_5/h5_5010_health_equity_audits_cdc/index.html",
       "/previous_projects/hsma_6/H6_6050_DES_pathway_community_diagnostic_centres/index.html",
       "/previous_projects/hsma_4/h4_pifu_digital_outpatients_elective_recovery/index.html",
       "/previous_projects/hsma_6/H6_6029_ML_to_identify_possible_outpatient_DNAs/index.html",
       "/previous_projects/hsma_6/H6_6046_Proactive_Patient_attendance_prediction/index.html",
       "/previous_projects/hsma_6/H6_6005_Improving_ambulance_care/index.html",
+      "/previous_projects/hsma_alumni/H1_1100_Geographic_modelling_of_resource_utilisation_at_DAA/index.html",
       "/previous_projects/hsma_6/H6_6027_Pharmacy_clinical_priortisation_tool/index.html",
       "/previous_projects/hsma_6/H6_6034_Forcasting_blood_donation_sesion_capacity/index.html"
     ]
@@ -427,6 +447,8 @@
       "/previous_projects/hsma_5/h5_5010_health_equity_audits_cdc/index.html",
       "/previous_projects/hsma_5/h5_5016_inequalities_demographic/index.html",
       "/previous_projects/hsma_6/H6_6048_Concurrent_treatment_areas_RTT_pathway/index.html",
+      "/previous_projects/hsma_alumni/H4_4100_Automating_and_scaling_waiting_list_equity_analysis_at_trust_level_/index.html",
+      "/previous_projects/hsma_alumni/H5_5100_Extra_funding_allocation_inequality_tool/index.html",
       "/previous_projects/hsma_5/h5_5013_understanding_excess_mortality/index.html",
       "/previous_projects/hsma_6/H6_6041_patients_risk_integrated_neighbourhood_teams/index.html",
       "/previous_projects/hsma_6/H6_6023_predicting_gestational_diabetes_using_ML/index.html",
