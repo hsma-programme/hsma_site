@@ -709,5 +709,26 @@
   },
   "previous_projects/hsma_6/H6_6053_pathologies_requiring_ITU_admission/index.qmd": {
     "index.html": "ab9ee45a"
+  },
+  "previous_projects/hsma_alumni/H1_1100_Geographic_modelling_of_resource_utilisation_at_DAA/index.qmd": {
+    "index.html": "830a4f48"
+  },
+  "previous_projects/hsma_alumni/H4_4100_Automating_and_scaling_waiting_list_equity_analysis_at_trust_level_/index.qmd": {
+    "index.html": "13faa10b"
+  },
+  "previous_projects/hsma_alumni/H4_4101_SIMPACT_Simulation_of_medical_patient_admission_and_care_throughput/index.qmd": {
+    "index.html": "0c68b407"
+  },
+  "previous_projects/hsma_alumni/H5_5100_Extra_funding_allocation_inequality_tool/index.qmd": {
+    "index.html": "2337fa75"
+  },
+  "previous_projects/hsma_alumni/H5_5101_Modelling_resourcing_scenarios_to_meet_increases_in_demand_Devon_eye_clinic/index.qmd": {
+    "index.html": "d2fb978f"
+  },
+  "previous_projects/hsma_alumni/H5_5102_Using_ML_to predict_whether_patient_might_develop_SSI/index.qmd": {
+    "index.html": "fcf2eb2d"
+  },
+  "previous_projects/projects_by_service_type_location.qmd": {
+    "projects_by_service_type_location.html": "11ea83ed"
   }
 }

@@ -275,3 +275,38 @@ While HSMA involves a large training element, the main focus of the programme is
 On the website you can find more out about our [projects that are currently in progress](previous_projects/projects_in_progress.qmd) or [projects that have previously been undertaken](previous_projects/completed_projects.qmd).
 
 You can also view projects [by method](previous_projects/projects_by_methods.qmd), [by area of application](previous_projects/projects_by_service_area.qmd), [by HSMA cohort](previous_projects/projects_by_cohort.qmd) or [by service](previous_projects/projects_by_organisation.qmd).
+
+```{=html}
+<br/><br/>
+```
+
+
+## Support and Accreditation
+
+:::: {.columns}
+
+::: {.column width="35%"}
+
+![](resources/Apha-Logo.svg){height=200}
+
+:::
+
+::: {.column width="10%"}
+
+:::
+
+::: {.column width="55%"}
+
+```{=html}
+<br/><br/>
+```
+
+HSMA is supported by the [NHS Digital Academy](https://www.england.nhs.uk/digitaltechnology/nhs-digital-academy/) and is accredited by the [Association of Professional Healthcare Analysts (AphA)](https://www.aphanalysts.org/)
+
+:::
+
+::::
+
+```{=html}
+<br/><br/>
+```

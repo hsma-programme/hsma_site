@@ -166,6 +166,7 @@ a {
 
 .listing-title {
   padding: 0.5rem 0.5rem;
+  text-transform: capitalize;
 }
 
 .quarto-categories {
