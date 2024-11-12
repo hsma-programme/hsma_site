@@ -6,6 +6,10 @@
     max-height: 30px;
   }
 
+  .columns {
+
+  }
+
  }
 
 
@@ -19,12 +23,10 @@
 
 }
 
-@media (min-width: 992px) {
-  .navbar-nav.navbar-nav-scroll {
-    --bs-scroll-height: 100vh;
-  }
 
-
+.navbar-nav.navbar-nav-scroll {
+  --bs-scroll-height: 100vh;
+}
 
 .quarto-title-banner h1, .quarto-title-banner .h1, .quarto-title-banner h2, .quarto-title-banner .h2 {
     color: #fff;
