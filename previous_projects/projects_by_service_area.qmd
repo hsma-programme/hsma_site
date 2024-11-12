@@ -1,5 +1,5 @@
 ---
-title: "Projects by Service Area"
+title: "Projects by Area"
 toc-location: right
 title-block-banner: banner.png
 toc-expand: 2
@@ -171,6 +171,8 @@ listing:
       categories: false
       include:
         categories: "{Public Health}*"
+      exclude:
+        categories: "{Vaccination,Smoking,Weight Management}*"
       template: ../html/previous_projects/listing.ejs
     - id: urology_projects
       contents: "*/*/index.qmd"
@@ -282,6 +284,34 @@ listing:
       include:
         categories: "{Women's Health}*"
       template: ../html/previous_projects/listing.ejs
+    - id: smoking_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Smoking;Weight Management}*"
+      template: ../html/previous_projects/listing.ejs
+    - id: physiotherapy_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Physiotherapy}*"
+    - id: council_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Council}*"
 ---
 
 ## Mental Health
@@ -320,6 +350,23 @@ listing:
 :::{#covid19_projects}
 :::
 
+## Public Health
+
+### Smoking and Weight Management
+
+:::{#smoking_projects}
+:::
+
+### Vaccination
+
+:::{#vaccination_projects}
+:::
+
+### Other Public Health
+
+:::{#public_health_projects}
+:::
+
 
 ## Medical Specialties
 
@@ -355,6 +402,12 @@ listing:
 :::{#orthopaedic_projects}
 :::
 
+### Physiotherapy
+
+:::{#physiotherapy_projects}
+:::
+
+
 ### Renal
 
 :::{#renal_projects}
@@ -378,15 +431,14 @@ listing:
 
 ## Non-NHS Project Areas
 
-## Public Health
-
-:::{#public_health_projects}
-:::
-
-
 ## Police
 
 :::{#policing_projects}
+:::
+
+## Council
+
+:::{#council_projects}
 :::
 
 ## Patient Groups
@@ -406,32 +458,12 @@ listing:
 :::{#womens_health_projects}
 :::
 
-## Additional Categories
 
-### Emergency Departments
-
-:::{#emergency_department_projects}
-:::
-
-### Elective Surgery
-
-:::{#elective_surgery_projects}
-:::
-
-### Primary Care and 111
-
-:::{#primary_care_projects}
-:::
-
-### Workforce
+## Workforce
 
 :::{#workforce_projects}
 :::
 
-### Vaccination
-
-:::{#vaccination_projects}
-:::
 
 ### Inequalities
 

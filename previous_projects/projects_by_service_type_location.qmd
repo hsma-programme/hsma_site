@@ -1,0 +1,181 @@
+---
+title: "Projects by Area"
+toc-location: right
+title-block-banner: banner.png
+toc-expand: 2
+include-back-link: false
+grid:
+  sidebar-width: 0px
+  body-width: 1100px
+  margin-width: 300px
+  gutter-width: 1.5rem
+listing:
+    - id: emergency_department_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Emergency Departments,Accident & Emergency*}"
+      template: ../html/previous_projects/listing.ejs
+    - id: amu_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Acute Medical Unit (AMU)}*"
+      template: ../html/previous_projects/listing.ejs
+    - id: sdec_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Same-day Emergency Care}*"
+      template: ../html/previous_projects/listing.ejs
+    - id: utc_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Urgent Treatment Centres (UTC)}*"
+      template: ../html/previous_projects/listing.ejs
+    - id: primary_care_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Primary Care (GPs)}*"
+      template: ../html/previous_projects/listing.ejs
+    - id: telephone_and_111_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Telephone-based Services,111 Service}*"
+      template: ../html/previous_projects/listing.ejs
+    - id: community_mh_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Community Mental Health}*"
+      template: ../html/previous_projects/listing.ejs
+    - id: inpatient_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Inpatients,Inpatient Admissions}*"
+      template: ../html/previous_projects/listing.ejs
+    - id: icu_itu_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Intensive Care Units & Intensive Therapy Units (ICU/ITU)}*"
+      template: ../html/previous_projects/listing.ejs
+    - id: cdc_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Community Diagnostic Centres (CDCs)}*"
+      template: ../html/previous_projects/listing.ejs
+    - id: digital_outpatient_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Digital Outpatients}*"
+      template: ../html/previous_projects/listing.ejs
+---
+
+## Community
+
+### Primary Care (GPs)
+
+:::{#primary_care_projects}
+:::
+
+### Telephone-based Services (including NHS 111)
+
+:::{#telephone_and_111_projects}
+:::
+
+### Community Mental Health
+
+:::{#community_mh_projects}
+:::
+
+### Community Diagnostic Centres (CDCs)
+
+:::{#cdc_projects}
+:::
+
+
+### Digital Outpatients
+
+:::{#digital_outpatient_projects}
+:::
+
+
+## Hospitals
+
+### Urgent Treatment Centres (UTCs)
+
+:::{#utc_projects}
+:::
+
+
+### Same-Day Emergency Care (SDEC)
+
+:::{#spec_projects}
+:::
+
+
+### Acute Medical Unit (AMU)
+
+:::{#amu_projects}
+:::
+
+### Inpatients
+
+:::{#inpatient_projects}
+:::
+
+### Intensive Care Units & Intensive Therapy Units (ICU/ITU)
+
+:::{#icu_itu_projects}
+:::
