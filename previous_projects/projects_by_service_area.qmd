@@ -10,16 +10,6 @@ grid:
   margin-width: 300px
   gutter-width: 1.5rem
 listing:
-    - id: emergency_department_projects
-      contents: "*/*/index.qmd"
-      sort: "date desc"
-      type: grid
-      grid-columns: 2
-      page-size: 1000
-      categories: false
-      include:
-        categories: "{Emergency Departments,Accident & Emergency*}"
-      template: ../html/previous_projects/listing.ejs
     - id: rheumatology_projects
       contents: "*/*/index.qmd"
       sort: "date desc"
@@ -454,12 +444,12 @@ listing:
 
 ## Non-NHS Project Areas
 
-## Police
+### Police
 
 :::{#policing_projects}
 :::
 
-## Council
+### Council
 
 :::{#council_projects}
 :::
@@ -496,3 +486,5 @@ listing:
 
 :::{#inequalities_projects}
 :::
+
+---
