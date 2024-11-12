@@ -1,0 +1,33 @@
+---
+title: "Using Machine Learning to predict whether a patient might develop a SSI (Surgical Site Infection)"
+techniques:
+  - Machine Learning
+areas:
+  - Surgical
+categories:
+  - Machine Learning
+  - Surgical
+author:
+  - name: Becky Sillitoe
+    affiliation: Walton Centre NHS Foundation Trust
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+More information coming soon!

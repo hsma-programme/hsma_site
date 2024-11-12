@@ -1,0 +1,45 @@
+---
+title: "Geographic modelling of resource utlitisation at Devon Air Ambulance"
+techniques:
+  - Geographic modelling
+  - Forecasting
+  - Discrete Event Simulation (DES)
+areas:
+  - Ambulance
+  - Air Ambulance
+  - Patient Transport
+  - Waiting Times
+categories:
+  - Geographic modelling
+  - Forecasting
+  - Discrete Event Simulation (DES)
+  - Patient Transport
+  - Waiting Times
+  - Air Ambulance
+  - Ambulance
+author:
+  - name: Hannah Trebilcock
+    affiliation: Devon Air Ambulance
+  - name: Richard Pilbery
+    affiliation: Yorkshire Ambulance Service
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url: https://github.com/RichardPilbery/DAA_DES
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+ A geographical modelling project on the utilisation of resources at Devon Air Ambulance, modelling current demand and conducting what if scenarios to optimise service delivery & provide an evidence base for operational decision making.

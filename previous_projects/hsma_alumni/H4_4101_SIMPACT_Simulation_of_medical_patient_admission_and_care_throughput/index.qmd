@@ -1,0 +1,33 @@
+---
+title: "SIMPACT: Simulation of Medical Patient Admission and Care Throughput"
+techniques:
+  - Discrete Event Simulation (DES)
+areas:
+  - Inpatients
+categories:
+  - Discrete Event Simulation (DES)
+  - Inpatients
+author:
+  - name: Thomas Knight
+    affiliation: Manchester University NHS Foundation Trust
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+More information coming soon!

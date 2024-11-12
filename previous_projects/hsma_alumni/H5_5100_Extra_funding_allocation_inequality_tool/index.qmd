@@ -1,0 +1,35 @@
+---
+title: "eFIT: Extra funding allocation - inequality tool"
+techniques:
+  - Streamlit
+areas:
+  - Inequalities
+  - Costs
+categories:
+  - Streamlit
+  - Costs
+  - Inequalities
+author:
+  - name: Peter Saiu
+    affiliation: NHS England
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url: https://github.com/pete4nhs/eFIT-tool
+    icon: fa-brands fa-github
+  - name: Website
+    url: https://www.heec.co.uk/resources/extra-funding-allocation-inequality-tool-efit/
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+More information coming soon!

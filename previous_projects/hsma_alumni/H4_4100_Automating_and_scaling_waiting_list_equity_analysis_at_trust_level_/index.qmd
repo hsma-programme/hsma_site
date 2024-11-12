@@ -1,0 +1,39 @@
+---
+title: "Automating and scaling waiting list equity analysis at a trust level"
+techniques:
+  - Streamlit
+  - Automation
+  - Reproducible Analytical Pipelines (RAP)
+areas:
+  - Waiting Lists
+  - Inequalities
+categories:
+  - Streamlit
+  - Automation
+  - Waiting Lists
+  - Inequalities
+  - Reproducible Analytical Pipelines (RAP)
+author:
+  - name: Matt Eves
+    affiliation: Derbyshire Community Health Services NHS Foundation Trust
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+More information coming soon!
