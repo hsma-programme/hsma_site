@@ -73,34 +73,6 @@ ul.task-list li input[type="checkbox"] {
 <script>
 
   window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-emergency_department_projects .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-date-format','listing-title-block-banner','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-title','listing-categories','listing-techniques','listing-areas','listing-author','listing-organisations','listing-image','listing-pub-info','listing-path','listing-outputHref','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count','listing-status',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
-      
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-date-format","listing-title-block-banner","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-title","listing-categories","listing-techniques","listing-areas","listing-author","listing-organisations","listing-image","listing-pub-info","listing-path","listing-outputHref","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count","listing-status"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-emergency_department_projects'] = new List('listing-emergency_department_projects', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
     const listingTargetEl = window.document.querySelector('#listing-rheumatology_projects .list');
     if (!listingTargetEl) {
       // No listing discovered, do not attach.
@@ -1193,9 +1165,11 @@ window.Quarto = {
   <li><a href="#rheumatology" id="toc-rheumatology" class="nav-link" data-scroll-target="#rheumatology">Rheumatology</a></li>
   <li><a href="#urology" id="toc-urology" class="nav-link" data-scroll-target="#urology">Urology</a></li>
   </ul></li>
-  <li><a href="#non-nhs-project-areas" id="toc-non-nhs-project-areas" class="nav-link" data-scroll-target="#non-nhs-project-areas">Non-NHS Project Areas</a></li>
+  <li><a href="#non-nhs-project-areas" id="toc-non-nhs-project-areas" class="nav-link" data-scroll-target="#non-nhs-project-areas">Non-NHS Project Areas</a>
+  <ul class="collapse">
   <li><a href="#police" id="toc-police" class="nav-link" data-scroll-target="#police">Police</a></li>
   <li><a href="#council" id="toc-council" class="nav-link" data-scroll-target="#council">Council</a></li>
+  </ul></li>
   <li><a href="#patient-groups" id="toc-patient-groups" class="nav-link" data-scroll-target="#patient-groups">Patient Groups</a>
   <ul class="collapse">
   <li><a href="#children-paediatrics" id="toc-children-paediatrics" class="nav-link" data-scroll-target="#children-paediatrics">Children (Paediatrics)</a></li>
@@ -1221,7 +1195,7 @@ window.Quarto = {
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Discrete Event Simulation (DES),Neurodiversity,Paediatric,Mental Health,Demand &amp; Capacity,Reducing Backlogs,NHS" data-listing-file-modified-sort="1731429795676" data-listing-reading-time-sort="2" data-listing-word-count-sort="231">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Discrete Event Simulation (DES),Neurodiversity,Paediatric,Mental Health,Demand &amp; Capacity,Reducing Backlogs,NHS" data-listing-file-modified-sort="1731429910476" data-listing-reading-time-sort="2" data-listing-word-count-sort="231">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_4/h4_des_adhd_autism_pathway/index.html">
@@ -1303,7 +1277,7 @@ window.Quarto = {
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Discrete Event Simulation (DES),Neurodiversity,Streamlit,Paediatric,Waiting Lists,Waiting Times" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Discrete Event Simulation (DES),Neurodiversity,Streamlit,Paediatric,Waiting Lists,Waiting Times" data-listing-file-modified-sort="1731429910512" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6006_DES_childrens_ADHD_diagnosis_and_treatment/index.html">
@@ -1382,7 +1356,7 @@ window.Quarto = {
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="Discrete Event Simulation (DES),Natural Language Processing (NLP),Geographic Modelling,Machine Learning,Patient Pathways,Neurodiversity,Paediatric,Waiting Lists,Waiting Times" data-listing-file-modified-sort="1731429795716" data-listing-reading-time-sort="1" data-listing-word-count-sort="108">
+      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="Discrete Event Simulation (DES),Natural Language Processing (NLP),Geographic Modelling,Machine Learning,Patient Pathways,Neurodiversity,Paediatric,Waiting Lists,Waiting Times" data-listing-file-modified-sort="1731429910516" data-listing-reading-time-sort="1" data-listing-word-count-sort="108">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6042_DS_delay_pathway_neurodiversity_diagnosis/index.html">
@@ -1485,7 +1459,7 @@ No matching items
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Machine Learning,Mental Health,Mental Health Inpatients,NHS" data-listing-file-modified-sort="1731429795688" data-listing-reading-time-sort="1" data-listing-word-count-sort="178">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Machine Learning,Mental Health,Mental Health Inpatients,NHS" data-listing-file-modified-sort="1731429910492" data-listing-reading-time-sort="1" data-listing-word-count-sort="178">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_4/h4_predicting_violent_incidents_mh_inpatients/index.html">
@@ -1559,7 +1533,7 @@ No matching items
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Discrete Event Simulation (DES),NHS Talking Therapies (Formerly IAPT),Community Mental Health,NHS" data-listing-file-modified-sort="1731429795680" data-listing-reading-time-sort="2" data-listing-word-count-sort="203">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Discrete Event Simulation (DES),NHS Talking Therapies (Formerly IAPT),Community Mental Health,NHS" data-listing-file-modified-sort="1731429910480" data-listing-reading-time-sort="2" data-listing-word-count-sort="203">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_4/h4_des_cbt_iapt/index.html">
@@ -1635,7 +1609,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Discrete Event Simulation (DES),NHS Talking Therapies (Formerly IAPT),Mental Health,Community Mental Health,Waiting Times" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="1" data-listing-word-count-sort="128">
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Discrete Event Simulation (DES),NHS Talking Therapies (Formerly IAPT),Mental Health,Community Mental Health,Waiting Times" data-listing-file-modified-sort="1731429910512" data-listing-reading-time-sort="1" data-listing-word-count-sort="128">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6026_Modelling_secondary_care_psychological_therapy_flow/index.html">
@@ -1738,7 +1712,7 @@ No matching items
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Machine Learning,Streamlit,Diabetes,Maternity,Women" s="" health'="" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Machine Learning,Streamlit,Diabetes,Maternity,Women" s="" health'="" data-listing-file-modified-sort="1731429910512" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6023_predicting_gestational_diabetes_using_ML/index.html">
@@ -1825,7 +1799,7 @@ No matching items
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Discrete Event Simulation (DES),Cancer,Colorectal,Identifying Bottlenecks in Pathways,NHS" data-listing-file-modified-sort="1731429795680" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Discrete Event Simulation (DES),Cancer,Colorectal,Identifying Bottlenecks in Pathways,NHS" data-listing-file-modified-sort="1731429910480" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_4/h4_des_delays_cancer_diagnosis_treatment/index.html">
@@ -1903,7 +1877,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Discrete Event Simulation (DES),Streamlit,2-week Wait,Cancer,Waiting Times" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="1" data-listing-word-count-sort="190">
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Discrete Event Simulation (DES),Streamlit,2-week Wait,Cancer,Waiting Times" data-listing-file-modified-sort="1731429910512" data-listing-reading-time-sort="1" data-listing-word-count-sort="190">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6003_DESmond_62_day_prostate_cancer_pathway/index.html">
@@ -1974,7 +1948,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="Geographic Modelling,Travel Times,Cancer,Women" s="" health'="" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="2" data-listing-word-count-sort="300">
+      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="Geographic Modelling,Travel Times,Cancer,Women" s="" health'="" data-listing-file-modified-sort="1731429910512" data-listing-reading-time-sort="2" data-listing-word-count-sort="300">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6016_Optimising_the_location_of_breast_cancer_diagnostic_services/index.html">
@@ -2045,7 +2019,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="3" data-categories="Discrete Event Simulation (DES),Cancer,Women" s="" health,waiting="" times'="" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="1" data-listing-word-count-sort="111">
+      <div class="custom-grid-card border-2 rounded-3" data-index="3" data-categories="Discrete Event Simulation (DES),Cancer,Women" s="" health,waiting="" times'="" data-listing-file-modified-sort="1731429910512" data-listing-reading-time-sort="1" data-listing-word-count-sort="111">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6025_Modelling_delays_in_breast_head_neck_cancer_pathways/index.html">
@@ -2116,7 +2090,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="4" data-categories="Discrete Event Simulation (DES),Forecasting,Streamlit,Cancer,2-week Wait" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="2" data-listing-word-count-sort="261">
+      <div class="custom-grid-card border-2 rounded-3" data-index="4" data-categories="Discrete Event Simulation (DES),Forecasting,Streamlit,Cancer,2-week Wait" data-listing-file-modified-sort="1731429910516" data-listing-reading-time-sort="2" data-listing-word-count-sort="261">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6036_Forcasting_demand_RDUH_breast_care_services/index.html">
@@ -2191,7 +2165,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="5" data-categories="Machine Learning,Explainable AI,Cancer,Urology" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="1" data-listing-word-count-sort="104">
+      <div class="custom-grid-card border-2 rounded-3" data-index="5" data-categories="Machine Learning,Explainable AI,Cancer,Urology" data-listing-file-modified-sort="1731429910516" data-listing-reading-time-sort="1" data-listing-word-count-sort="104">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6038_Ml_identifying_deteminants_prostate_cancers/index.html">
@@ -2262,7 +2236,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="6" data-categories="Machine Learning,Natural Language Processing (NLP),Streamlit,Urology,Cancer,Surgical" data-listing-file-modified-sort="1731429795716" data-listing-reading-time-sort="1" data-listing-word-count-sort="91">
+      <div class="custom-grid-card border-2 rounded-3" data-index="6" data-categories="Machine Learning,Natural Language Processing (NLP),Streamlit,Urology,Cancer,Surgical" data-listing-file-modified-sort="1731429910516" data-listing-reading-time-sort="1" data-listing-word-count-sort="91">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6047_RALPulator/index.html">
@@ -2355,7 +2329,7 @@ No matching items
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Discrete Event Simulation (DES),Vaccination,COVID-19,NHS" data-listing-file-modified-sort="1731429795672" data-listing-reading-time-sort="2" data-listing-word-count-sort="317">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Discrete Event Simulation (DES),Vaccination,COVID-19,NHS" data-listing-file-modified-sort="1731429910472" data-listing-reading-time-sort="2" data-listing-word-count-sort="317">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_3/h3_generic_vaccination/index.html">
@@ -2429,7 +2403,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Forecasting,Vaccination,Prophet,COVID-19,Plotly Dash,NHS" data-listing-file-modified-sort="1731429795676" data-listing-reading-time-sort="1" data-listing-word-count-sort="172">
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Forecasting,Vaccination,Prophet,COVID-19,Plotly Dash,NHS" data-listing-file-modified-sort="1731429910476" data-listing-reading-time-sort="1" data-listing-word-count-sort="172">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_4/h4_covid_19_vaccination_demand_capacity/index.html">
@@ -2513,7 +2487,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="Geographic Modelling,Machine Learning,Vaccination,COVID-19,Workforce" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="1" data-listing-word-count-sort="107">
+      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="Geographic Modelling,Machine Learning,Vaccination,COVID-19,Workforce" data-listing-file-modified-sort="1731429910512" data-listing-reading-time-sort="1" data-listing-word-count-sort="107">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6002_GM_healthcare_worker_vaccination_uptake/index.html">
@@ -2604,7 +2578,7 @@ No matching items
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Agent Based Simulation (MECC),Streamlit,Making Every Contact Count (MECC),Public Health,Smoking" data-listing-file-modified-sort="1731429795716" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Agent Based Simulation (MECC),Streamlit,Making Every Contact Count (MECC),Public Health,Smoking" data-listing-file-modified-sort="1731429910516" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6040_benefit_of_MECC_using_ABS/index.html">
@@ -2679,7 +2653,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Machine Learning,Explainable AI,Causal Analysis,Smoking,Public Health,Council" data-listing-file-modified-sort="1731429795716" data-listing-reading-time-sort="1" data-listing-word-count-sort="182">
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Machine Learning,Explainable AI,Causal Analysis,Smoking,Public Health,Council" data-listing-file-modified-sort="1731429910516" data-listing-reading-time-sort="1" data-listing-word-count-sort="182">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6043_smoking_cessation_success/index.html">
@@ -2770,7 +2744,7 @@ No matching items
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Discrete Event Simulation (DES),Vaccination,COVID-19,NHS" data-listing-file-modified-sort="1731429795672" data-listing-reading-time-sort="2" data-listing-word-count-sort="317">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Discrete Event Simulation (DES),Vaccination,COVID-19,NHS" data-listing-file-modified-sort="1731429910472" data-listing-reading-time-sort="2" data-listing-word-count-sort="317">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_3/h3_generic_vaccination/index.html">
@@ -2844,7 +2818,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Forecasting,Vaccination,Prophet,COVID-19,Plotly Dash,NHS" data-listing-file-modified-sort="1731429795676" data-listing-reading-time-sort="1" data-listing-word-count-sort="172">
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Forecasting,Vaccination,Prophet,COVID-19,Plotly Dash,NHS" data-listing-file-modified-sort="1731429910476" data-listing-reading-time-sort="1" data-listing-word-count-sort="172">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_4/h4_covid_19_vaccination_demand_capacity/index.html">
@@ -2928,7 +2902,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="Geographic Modelling,Machine Learning,Vaccination,COVID-19,Workforce" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="1" data-listing-word-count-sort="107">
+      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="Geographic Modelling,Machine Learning,Vaccination,COVID-19,Workforce" data-listing-file-modified-sort="1731429910512" data-listing-reading-time-sort="1" data-listing-word-count-sort="107">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6002_GM_healthcare_worker_vaccination_uptake/index.html">
@@ -3015,7 +2989,7 @@ No matching items
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Streamlit,PCMD Dataset,Forecasting,Public Health" data-listing-file-modified-sort="1731429795708" data-listing-reading-time-sort="2" data-listing-word-count-sort="250">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Streamlit,PCMD Dataset,Forecasting,Public Health" data-listing-file-modified-sort="1731429910508" data-listing-reading-time-sort="2" data-listing-word-count-sort="250">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_5/h5_5013_understanding_excess_mortality/index.html">
@@ -3089,7 +3063,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Machine Learning,Explainable AI,Streamlit,Geographical Modelling,Demographics,Public Health" data-listing-file-modified-sort="1731429795716" data-listing-reading-time-sort="2" data-listing-word-count-sort="246">
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Machine Learning,Explainable AI,Streamlit,Geographical Modelling,Demographics,Public Health" data-listing-file-modified-sort="1731429910516" data-listing-reading-time-sort="2" data-listing-word-count-sort="246">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6041_patients_risk_integrated_neighbourhood_teams/index.html">
@@ -3184,7 +3158,7 @@ No matching items
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Mapping,Travel Times,Streamlit,Cardiology,Location Optimisation,NHS" data-listing-file-modified-sort="1731429795692" data-listing-reading-time-sort="2" data-listing-word-count-sort="230">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Mapping,Travel Times,Streamlit,Cardiology,Location Optimisation,NHS" data-listing-file-modified-sort="1731429910492" data-listing-reading-time-sort="2" data-listing-word-count-sort="230">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_4/h4_reducing_travel_times_cardiac_patients/index.html">
@@ -3286,7 +3260,7 @@ No matching items
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Discrete Event Simulation (DES),Cancer,Colorectal,Identifying Bottlenecks in Pathways,NHS" data-listing-file-modified-sort="1731429795680" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Discrete Event Simulation (DES),Cancer,Colorectal,Identifying Bottlenecks in Pathways,NHS" data-listing-file-modified-sort="1731429910480" data-listing-reading-time-sort="1" data-listing-word-count-sort="191">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_4/h4_des_delays_cancer_diagnosis_treatment/index.html">
@@ -3376,7 +3350,7 @@ No matching items
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Machine Learning,Streamlit,Diabetes,Maternity,Women" s="" health'="" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Machine Learning,Streamlit,Diabetes,Maternity,Women" s="" health'="" data-listing-file-modified-sort="1731429910512" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6023_predicting_gestational_diabetes_using_ML/index.html">
@@ -3463,7 +3437,7 @@ No matching items
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Mapping,Location Optimization,Discrete Event Simulation (DES),Streamlit,Neonatal" data-listing-file-modified-sort="1731429795704" data-listing-reading-time-sort="1" data-listing-word-count-sort="132">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Mapping,Location Optimization,Discrete Event Simulation (DES),Streamlit,Neonatal" data-listing-file-modified-sort="1731429910504" data-listing-reading-time-sort="1" data-listing-word-count-sort="132">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_5/h5_5008_multiobjective_neonatal_optimisation/index.html">
@@ -3557,7 +3531,7 @@ No matching items
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Discrete Event Simulation (DES),Streamlit,Surgical,Neurology,Waiting Lists,Waiting Times" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="1" data-listing-word-count-sort="67">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Discrete Event Simulation (DES),Streamlit,Surgical,Neurology,Waiting Lists,Waiting Times" data-listing-file-modified-sort="1731429910512" data-listing-reading-time-sort="1" data-listing-word-count-sort="67">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6017_Referral_to  treatment_waiting_times_for_Neurosurgical_patients/index.html">
@@ -3648,7 +3622,7 @@ No matching items
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Discrete Event Simulation (DES),Elective Surgery,Orthopaedics,NHS" data-listing-file-modified-sort="1731429795672" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Discrete Event Simulation (DES),Elective Surgery,Orthopaedics,NHS" data-listing-file-modified-sort="1731429910472" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_3/h3_elective_backlog_hip/index.html">
@@ -3732,7 +3706,7 @@ No matching items
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Mapping,Discrete Event Simulation (DES),Streamlit,Physiotherapy" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="1" data-listing-word-count-sort="67">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Mapping,Discrete Event Simulation (DES),Streamlit,Physiotherapy" data-listing-file-modified-sort="1731429910512" data-listing-reading-time-sort="1" data-listing-word-count-sort="67">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6014_Modelling_musculoskeletal_physiotherapy_services/index.html">
@@ -3815,7 +3789,7 @@ No matching items
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Forecasting,Renal,Dialysis" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="1" data-listing-word-count-sort="102">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Forecasting,Renal,Dialysis" data-listing-file-modified-sort="1731429910512" data-listing-reading-time-sort="1" data-listing-word-count-sort="102">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6021_predicting_future_demand_renal_replacement_therapy/index.html">
@@ -3894,7 +3868,7 @@ No matching items
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Machine Learning,Respiratory,NHS,Inpatient Admissions" data-listing-file-modified-sort="1731429795684" data-listing-reading-time-sort="1" data-listing-word-count-sort="133">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Machine Learning,Respiratory,NHS,Inpatient Admissions" data-listing-file-modified-sort="1731429910484" data-listing-reading-time-sort="1" data-listing-word-count-sort="133">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_4/h4_ml_admissions_los_respiratory/index.html">
@@ -3976,7 +3950,7 @@ No matching items
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Discrete Event Simulation (DES),Patient Initiated Follow-Up (PIFU),Digital Outpatients,Rheumatology,Reducing Backlogs,NHS" data-listing-file-modified-sort="1731429795684" data-listing-reading-time-sort="2" data-listing-word-count-sort="242">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Discrete Event Simulation (DES),Patient Initiated Follow-Up (PIFU),Digital Outpatients,Rheumatology,Reducing Backlogs,NHS" data-listing-file-modified-sort="1731429910484" data-listing-reading-time-sort="2" data-listing-word-count-sort="242">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_4/h4_pifu_digital_outpatients_elective_recovery/index.html">
@@ -4058,7 +4032,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Discrete Event Simulation (DES),NHS,Rheumatology,Waiting Lists" data-listing-file-modified-sort="1731429795708" data-listing-reading-time-sort="1" data-listing-word-count-sort="160">
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Discrete Event Simulation (DES),NHS,Rheumatology,Waiting Lists" data-listing-file-modified-sort="1731429910512" data-listing-reading-time-sort="1" data-listing-word-count-sort="160">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_5/h5_5015_des_dorset_rheumatology/index.html">
@@ -4142,7 +4116,7 @@ No matching items
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Machine Learning,Explainable AI,Cancer,Urology" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="1" data-listing-word-count-sort="104">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Machine Learning,Explainable AI,Cancer,Urology" data-listing-file-modified-sort="1731429910516" data-listing-reading-time-sort="1" data-listing-word-count-sort="104">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6038_Ml_identifying_deteminants_prostate_cancers/index.html">
@@ -4213,7 +4187,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Machine Learning,Natural Language Processing (NLP),Streamlit,Urology,Cancer,Surgical" data-listing-file-modified-sort="1731429795716" data-listing-reading-time-sort="1" data-listing-word-count-sort="91">
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Machine Learning,Natural Language Processing (NLP),Streamlit,Urology,Cancer,Surgical" data-listing-file-modified-sort="1731429910516" data-listing-reading-time-sort="1" data-listing-word-count-sort="91">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6047_RALPulator/index.html">
@@ -4304,14 +4278,13 @@ No matching items
 </section>
 <section id="non-nhs-project-areas" class="level2">
 <h2 class="anchored" data-anchor-id="non-nhs-project-areas">Non-NHS Project Areas</h2>
-</section>
-<section id="police" class="level2">
-<h2 class="anchored" data-anchor-id="police">Police</h2>
+<section id="police" class="level3">
+<h3 class="anchored" data-anchor-id="police">Police</h3>
 <div id="listing-policing_projects" class="quarto-listing quarto-listing-container-custom">
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Sentiment Analysis,Natural Language Processing (NLP),Police" data-listing-file-modified-sort="1731429795672" data-listing-reading-time-sort="1" data-listing-word-count-sort="100">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Sentiment Analysis,Natural Language Processing (NLP),Police" data-listing-file-modified-sort="1731429910472" data-listing-reading-time-sort="1" data-listing-word-count-sort="100">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_3/h3_ai_sentiment_tweet/index.html">
@@ -4381,7 +4354,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Network Analysis,Police" data-listing-file-modified-sort="1731429795672" data-listing-reading-time-sort="2" data-listing-word-count-sort="246">
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Network Analysis,Police" data-listing-file-modified-sort="1731429910472" data-listing-reading-time-sort="2" data-listing-word-count-sort="246">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_3/h3_crime_data_safeguarding_network/index.html">
@@ -4451,7 +4424,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="Mapping,Geostatistics,QGIS,Police" data-listing-file-modified-sort="1731429795692" data-listing-reading-time-sort="2" data-listing-word-count-sort="225">
+      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="Mapping,Geostatistics,QGIS,Police" data-listing-file-modified-sort="1731429910492" data-listing-reading-time-sort="2" data-listing-word-count-sort="225">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_4/h4_spatial_modelling_crime/index.html">
@@ -4521,7 +4494,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="3" data-categories="Natural Language Processing (NLP),Named Entity Recognition,Police" data-listing-file-modified-sort="1731429795696" data-listing-reading-time-sort="2" data-listing-word-count-sort="207">
+      <div class="custom-grid-card border-2 rounded-3" data-index="3" data-categories="Natural Language Processing (NLP),Named Entity Recognition,Police" data-listing-file-modified-sort="1731429910496" data-listing-reading-time-sort="2" data-listing-word-count-sort="207">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_5/h5_5002_nlp_drug_content/index.html">
@@ -4595,7 +4568,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="4" data-categories="Agent Based Simulation (ABS),Police" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="1" data-listing-word-count-sort="100">
+      <div class="custom-grid-card border-2 rounded-3" data-index="4" data-categories="Agent Based Simulation (ABS),Police" data-listing-file-modified-sort="1731429910516" data-listing-reading-time-sort="1" data-listing-word-count-sort="100">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6031_ABS_to_understand_criminal_adoption_new_technologies/index.html">
@@ -4658,7 +4631,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="5" data-categories="Mapping,Inequalities,Geographic Modelling,Demographics,Crime,Police" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="1" data-listing-word-count-sort="44">
+      <div class="custom-grid-card border-2 rounded-3" data-index="5" data-categories="Mapping,Inequalities,Geographic Modelling,Demographics,Crime,Police" data-listing-file-modified-sort="1731429910516" data-listing-reading-time-sort="1" data-listing-word-count-sort="44">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6037_mapping_health_inequalities/index.html">
@@ -4743,13 +4716,13 @@ No matching items
 </div>
 </div>
 </section>
-<section id="council" class="level2">
-<h2 class="anchored" data-anchor-id="council">Council</h2>
+<section id="council" class="level3">
+<h3 class="anchored" data-anchor-id="council">Council</h3>
 <div id="listing-council_projects" class="quarto-listing quarto-listing-container-custom">
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Geographic Modelling,Mapping,Regression,Geostatistics,Unpaid Carers,Council" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="1" data-listing-word-count-sort="114">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Geographic Modelling,Mapping,Regression,Geostatistics,Unpaid Carers,Council" data-listing-file-modified-sort="1731429910516" data-listing-reading-time-sort="1" data-listing-word-count-sort="114">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6032_Identifying_unpaid_carers/index.html">
@@ -4828,7 +4801,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Machine Learning,Explainable AI,Causal Analysis,Smoking,Public Health,Council" data-listing-file-modified-sort="1731429795716" data-listing-reading-time-sort="1" data-listing-word-count-sort="182">
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Machine Learning,Explainable AI,Causal Analysis,Smoking,Public Health,Council" data-listing-file-modified-sort="1731429910516" data-listing-reading-time-sort="1" data-listing-word-count-sort="182">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6043_smoking_cessation_success/index.html">
@@ -4914,6 +4887,7 @@ No matching items
 </div>
 <hr>
 </section>
+</section>
 <section id="patient-groups" class="level2">
 <h2 class="anchored" data-anchor-id="patient-groups">Patient Groups</h2>
 <section id="children-paediatrics" class="level3">
@@ -4922,7 +4896,7 @@ No matching items
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Discrete Event Simulation (DES),Paediatric,Mapping,Location Optimization,NHS" data-listing-file-modified-sort="1731429795676" data-listing-reading-time-sort="1" data-listing-word-count-sort="98">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Discrete Event Simulation (DES),Paediatric,Mapping,Location Optimization,NHS" data-listing-file-modified-sort="1731429910476" data-listing-reading-time-sort="1" data-listing-word-count-sort="98">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_3/h3_simulation_paediatric_critical_care/index.html">
@@ -4996,7 +4970,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Discrete Event Simulation (DES),Neurodiversity,Paediatric,Mental Health,Demand &amp; Capacity,Reducing Backlogs,NHS" data-listing-file-modified-sort="1731429795676" data-listing-reading-time-sort="2" data-listing-word-count-sort="231">
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Discrete Event Simulation (DES),Neurodiversity,Paediatric,Mental Health,Demand &amp; Capacity,Reducing Backlogs,NHS" data-listing-file-modified-sort="1731429910476" data-listing-reading-time-sort="2" data-listing-word-count-sort="231">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_4/h4_des_adhd_autism_pathway/index.html">
@@ -5078,7 +5052,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="Machine Learning,Forecasting,Streamlit,Paediatric,Length of Stay,Emergency Departments,Inpatients,Staffing Level Optimisation,NHS" data-listing-file-modified-sort="1731429795684" data-listing-reading-time-sort="1" data-listing-word-count-sort="177">
+      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="Machine Learning,Forecasting,Streamlit,Paediatric,Length of Stay,Emergency Departments,Inpatients,Staffing Level Optimisation,NHS" data-listing-file-modified-sort="1731429910484" data-listing-reading-time-sort="1" data-listing-word-count-sort="177">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_4/h4_forecasting_los_ed/index.html">
@@ -5168,7 +5142,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="3" data-categories="Discrete Event Simulation (DES),Neurodiversity,Streamlit,Paediatric,Waiting Lists,Waiting Times" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
+      <div class="custom-grid-card border-2 rounded-3" data-index="3" data-categories="Discrete Event Simulation (DES),Neurodiversity,Streamlit,Paediatric,Waiting Lists,Waiting Times" data-listing-file-modified-sort="1731429910512" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6006_DES_childrens_ADHD_diagnosis_and_treatment/index.html">
@@ -5247,7 +5221,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="4" data-categories="Discrete Event Simulation (DES),Natural Language Processing (NLP),Geographic Modelling,Machine Learning,Patient Pathways,Neurodiversity,Paediatric,Waiting Lists,Waiting Times" data-listing-file-modified-sort="1731429795716" data-listing-reading-time-sort="1" data-listing-word-count-sort="108">
+      <div class="custom-grid-card border-2 rounded-3" data-index="4" data-categories="Discrete Event Simulation (DES),Natural Language Processing (NLP),Geographic Modelling,Machine Learning,Patient Pathways,Neurodiversity,Paediatric,Waiting Lists,Waiting Times" data-listing-file-modified-sort="1731429910516" data-listing-reading-time-sort="1" data-listing-word-count-sort="108">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6042_DS_delay_pathway_neurodiversity_diagnosis/index.html">
@@ -5350,7 +5324,7 @@ No matching items
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Machine Learning,Explainable AI,Older Adults" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="1" data-listing-word-count-sort="157">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Machine Learning,Explainable AI,Older Adults" data-listing-file-modified-sort="1731429910512" data-listing-reading-time-sort="1" data-listing-word-count-sort="157">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6018_predicting_risk_of_injurious_falls/index.html">
@@ -5429,7 +5403,7 @@ No matching items
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Geographic Modelling,Travel Times,Cancer,Women" s="" health'="" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="2" data-listing-word-count-sort="300">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Geographic Modelling,Travel Times,Cancer,Women" s="" health'="" data-listing-file-modified-sort="1731429910512" data-listing-reading-time-sort="2" data-listing-word-count-sort="300">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6016_Optimising_the_location_of_breast_cancer_diagnostic_services/index.html">
@@ -5500,7 +5474,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Machine Learning,Streamlit,Diabetes,Maternity,Women" s="" health'="" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Machine Learning,Streamlit,Diabetes,Maternity,Women" s="" health'="" data-listing-file-modified-sort="1731429910512" data-listing-reading-time-sort="1" data-listing-word-count-sort="147">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6023_predicting_gestational_diabetes_using_ML/index.html">
@@ -5575,7 +5549,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="Discrete Event Simulation (DES),Cancer,Women" s="" health,waiting="" times'="" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="1" data-listing-word-count-sort="111">
+      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="Discrete Event Simulation (DES),Cancer,Women" s="" health,waiting="" times'="" data-listing-file-modified-sort="1731429910512" data-listing-reading-time-sort="1" data-listing-word-count-sort="111">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6025_Modelling_delays_in_breast_head_neck_cancer_pathways/index.html">
@@ -5660,7 +5634,7 @@ No matching items
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Plotly Dash,Staff Turnover,Workforce,Regression,Machine Learning,NHS" data-listing-file-modified-sort="1731429795708" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Plotly Dash,Staff Turnover,Workforce,Regression,Machine Learning,NHS" data-listing-file-modified-sort="1731429910512" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_5/h5_5014_workforce_turnover_drivers/index.html">
@@ -5745,7 +5719,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Geographic Modelling,Machine Learning,Vaccination,COVID-19,Workforce" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="1" data-listing-word-count-sort="107">
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Geographic Modelling,Machine Learning,Vaccination,COVID-19,Workforce" data-listing-file-modified-sort="1731429910512" data-listing-reading-time-sort="1" data-listing-word-count-sort="107">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6002_GM_healthcare_worker_vaccination_uptake/index.html">
@@ -5820,7 +5794,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="Forecasting,Workforce" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
+      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="Forecasting,Workforce" data-listing-file-modified-sort="1731429910512" data-listing-reading-time-sort="1" data-listing-word-count-sort="85">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6015_Forecasting_the_supply_of_medical_doctors/index.html">
@@ -5896,7 +5870,7 @@ No matching items
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Non-attendance Prediction,Machine Learning,Automation,Reproducible Analytical Pipelines (RAP),Inequalities,Carbon Emissions,Health Equity Audits,NHS" data-listing-file-modified-sort="1731429795692" data-listing-reading-time-sort="1" data-listing-word-count-sort="199">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Non-attendance Prediction,Machine Learning,Automation,Reproducible Analytical Pipelines (RAP),Inequalities,Carbon Emissions,Health Equity Audits,NHS" data-listing-file-modified-sort="1731429910492" data-listing-reading-time-sort="1" data-listing-word-count-sort="199">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_4/h4_service_planning_inequalities_carbon_output/index.html">
@@ -5986,7 +5960,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Inequalities,Planned Admissions,Machine Learning,APC Dataset,NHS" data-listing-file-modified-sort="1731429795700" data-listing-reading-time-sort="1" data-listing-word-count-sort="190">
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Inequalities,Planned Admissions,Machine Learning,APC Dataset,NHS" data-listing-file-modified-sort="1731429910500" data-listing-reading-time-sort="1" data-listing-word-count-sort="190">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_5/h5_5006__ml_inequities_hospital_procedure_access/index.html">
@@ -6060,7 +6034,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="Community Diagnostic Centres (CDCs),Inequalities,Streamlit,Automation,Health Equity Audits,NHS,Reproducible Analytical Pipelines (RAP)" data-listing-file-modified-sort="1731429795704" data-listing-reading-time-sort="2" data-listing-word-count-sort="341">
+      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="Community Diagnostic Centres (CDCs),Inequalities,Streamlit,Automation,Health Equity Audits,NHS,Reproducible Analytical Pipelines (RAP)" data-listing-file-modified-sort="1731429910508" data-listing-reading-time-sort="2" data-listing-word-count-sort="341">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_5/h5_5010_health_equity_audits_cdc/index.html">
@@ -6148,7 +6122,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="3" data-categories="Inequalities,Streamlit,Mapping,Travel Times,NHS,Demographics" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="2" data-listing-word-count-sort="209">
+      <div class="custom-grid-card border-2 rounded-3" data-index="3" data-categories="Inequalities,Streamlit,Mapping,Travel Times,NHS,Demographics" data-listing-file-modified-sort="1731429910512" data-listing-reading-time-sort="2" data-listing-word-count-sort="209">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_5/h5_5016_inequalities_demographic/index.html">
@@ -6230,7 +6204,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="4" data-categories="Mapping,Inequalities,Geographic Modelling,Demographics,Crime,Police" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="1" data-listing-word-count-sort="44">
+      <div class="custom-grid-card border-2 rounded-3" data-index="4" data-categories="Mapping,Inequalities,Geographic Modelling,Demographics,Crime,Police" data-listing-file-modified-sort="1731429910516" data-listing-reading-time-sort="1" data-listing-word-count-sort="44">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6037_mapping_health_inequalities/index.html">
@@ -6309,7 +6283,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="5" data-categories="Machine Learning,Streamlit,Inequalities,Patient Pathways" data-listing-file-modified-sort="1731429795716" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
+      <div class="custom-grid-card border-2 rounded-3" data-index="5" data-categories="Machine Learning,Streamlit,Inequalities,Patient Pathways" data-listing-file-modified-sort="1731429910516" data-listing-reading-time-sort="1" data-listing-word-count-sort="48">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6048_Concurrent_treatment_areas_RTT_pathway/index.html">
@@ -6380,7 +6354,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="6" data-categories="Streamlit,Automation,Waiting Lists,Inequalities,Reproducible Analytical Pipelines (RAP)" data-listing-file-modified-sort="1731429795716" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
+      <div class="custom-grid-card border-2 rounded-3" data-index="6" data-categories="Streamlit,Automation,Waiting Lists,Inequalities,Reproducible Analytical Pipelines (RAP)" data-listing-file-modified-sort="1731429910516" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_alumni/H4_4100_Automating_and_scaling_waiting_list_equity_analysis_at_trust_level_/index.html">
@@ -6455,7 +6429,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="7" data-categories="Streamlit,Costs,Inequalities" data-listing-file-modified-sort="1731429795716" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
+      <div class="custom-grid-card border-2 rounded-3" data-index="7" data-categories="Streamlit,Costs,Inequalities" data-listing-file-modified-sort="1731429910516" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_alumni/H5_5100_Extra_funding_allocation_inequality_tool/index.html">
@@ -6531,829 +6505,17 @@ No matching items
 No matching items
 </div>
 </div>
+<hr>
 
 
 
 </section>
 
-<div class="quarto-listing quarto-listing-container-custom" id="listing-emergency_department_projects">
+<div class="quarto-listing quarto-listing-container-custom" id="listing-elective_surgery_projects">
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Discrete Event Simulation (DES),Urgent Treatment Centres (UTC),Emergency Departments,ECDS Dataset,Booked Appointments in Walk-in Services,NHS" data-listing-file-modified-sort="1731429795676" data-listing-reading-time-sort="2" data-listing-word-count-sort="267">
-            <div class="main-card-content">
-            
-            <a href="../previous_projects/hsma_4/h4_booked_appointments_utc/index.html">
-              <img class="card-img" src="../previous_projects/hsma_4/h4_booked_appointments_utc/ultnzucw.bmp" alt="The Effect of Booked Appointments on Waiting Times at Urgent Treatment Centres">
-            </a>
-            
-
-            <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">The Effect of Booked Appointments on Waiting Times at Urgent Treatment Centres</h5>
-            </div>
-
-            
-              <div class="project-status-complete">
-                Complete
-              </div>
-            
-
-             <p class="listing-abstract">The aim of the project was to examine in more detail the question of whether booked appointment times might reduce waiting times in Urgent Treatment Centres (UTC). This was…</p>
-                
-
-            
-              <div class="quarto-categories">
-                  
-                    
-                        <button class="area-button">Urgent Treatment Centres (UTC)</button>
-                      
-                    
-                    
-                        <button class="area-button">Emergency Departments</button>
-                      
-                    
-                    
-                        <button class="area-button">ECDS Dataset</button>
-                      
-                    
-                    
-                        <button class="area-button">Booked Appointments in Walk-in Services</button>
-                      
-                    
-              </div>
-              
-
-            
-            <div class="quarto-categories">
-                
-                  
-                      <button class="category-button">Discrete Event Simulation (DES)</button>
-                    
-                  
-            </div>
-            
-
-            
-              <div class="listing-organisations">
-                
-                • NHS England and Improvement<br>
-                
-              </div>
-            
-
-          </div>
-
-            <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../previous_projects/hsma_4/h4_booked_appointments_utc/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
-                    
-                      
-                          
-                            
-                      <button class="project-link-listing-button"><a href="https://www.youtube.com/watch?v=W1cK5vVukXc&amp;list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&amp;index=6"><i class="fa-brands fa-youtube"></i> Video </a></button>
-                          
-                        
-                        
-                    
-            </div>
-          </div>
-
-        
-      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Discrete Event Simulation (DES),Emergency Departments,Patient Flow,Inpatients,NHS" data-listing-file-modified-sort="1731429795680" data-listing-reading-time-sort="2" data-listing-word-count-sort="278">
-            <div class="main-card-content">
-            
-            <a href="../previous_projects/hsma_4/h4_des_amu_flow/index.html">
-              <img class="card-img" src="../previous_projects/hsma_4/h4_des_amu_flow/f1haee9r.bmp" alt="Using DES to Improve Flow through an Acute Medicine Assessment Pathway">
-            </a>
-            
-
-            <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">Using DES to Improve Flow through an Acute Medicine Assessment Pathway</h5>
-            </div>
-
-            
-              <div class="project-status-complete">
-                Complete
-              </div>
-            
-
-             <p class="listing-abstract">Nottingham University Hosptials has two major Acute Medicine Assessment areas (WB3 and AMRA), where patients can be reviewed before being sent to the most appropriate…</p>
-                
-
-            
-              <div class="quarto-categories">
-                  
-                    
-                        <button class="area-button">Emergency Departments</button>
-                      
-                    
-                    
-                        <button class="area-button">Patient Flow</button>
-                      
-                    
-                    
-                        <button class="area-button">Inpatients</button>
-                      
-                    
-              </div>
-              
-
-            
-            <div class="quarto-categories">
-                
-                  
-                      <button class="category-button">Discrete Event Simulation (DES)</button>
-                    
-                  
-            </div>
-            
-
-            
-              <div class="listing-organisations">
-                
-                • Nottingham University Hospitals NHS Trust<br>
-                
-                • Sandwell and Birmingham NHS Trust<br>
-                
-              </div>
-            
-
-          </div>
-
-            <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../previous_projects/hsma_4/h4_des_amu_flow/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
-                    
-                      
-                          
-                            
-                      <button class="project-link-listing-button"><a href="https://www.youtube.com/watch?v=TDTyBcVZDUU&amp;list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&amp;index=9"><i class="fa-brands fa-youtube"></i> Video </a></button>
-                          
-                        
-                        
-                    
-            </div>
-          </div>
-
-        
-      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="Discrete Event Simulation (DES),Urgent Treatment Centres (UTC),Emergency Departments,Identifying Bottlenecks in Pathways,NHS" data-listing-file-modified-sort="1731429795680" data-listing-reading-time-sort="2" data-listing-word-count-sort="212">
-            <div class="main-card-content">
-            
-            <a href="../previous_projects/hsma_4/h4_des_flow_performance_utc/index.html">
-              <img class="card-img" src="../previous_projects/hsma_4/h4_des_flow_performance_utc/kfbt6ekn.bmp" alt="Discrete Event Simulation to Improve Flow and Performance in the Urgent Treatment Centre">
-            </a>
-            
-
-            <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">Discrete Event Simulation to Improve Flow and Performance in the Urgent Treatment Centre</h5>
-            </div>
-
-            
-              <div class="project-status-complete">
-                Complete
-              </div>
-            
-
-             <p class="listing-abstract">The primary aim of the project was to improve Urgent Treatment Care (UTC) performance by developing a model which would help the Emergency Department (ED) team with the…</p>
-                
-
-            
-              <div class="quarto-categories">
-                  
-                    
-                        <button class="area-button">Urgent Treatment Centres (UTC)</button>
-                      
-                    
-                    
-                        <button class="area-button">Emergency Departments</button>
-                      
-                    
-                    
-                        <button class="area-button">Identifying Bottlenecks in Pathways</button>
-                      
-                    
-              </div>
-              
-
-            
-            <div class="quarto-categories">
-                
-                  
-                      <button class="category-button">Discrete Event Simulation (DES)</button>
-                    
-                  
-            </div>
-            
-
-            
-              <div class="listing-organisations">
-                
-                • University College Hospital Trust<br>
-                
-              </div>
-            
-
-          </div>
-
-            <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../previous_projects/hsma_4/h4_des_flow_performance_utc/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
-                    
-                      
-                          
-                            
-                      <button class="project-link-listing-button"><a href="https://www.youtube.com/watch?v=3JO8_70hHdA&amp;list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&amp;index=11"><i class="fa-brands fa-youtube"></i> Video </a></button>
-                          
-                        
-                        
-                    
-            </div>
-          </div>
-
-        
-      <div class="custom-grid-card border-2 rounded-3" data-index="3" data-categories="Machine Learning,Forecasting,Streamlit,Paediatric,Length of Stay,Emergency Departments,Inpatients,Staffing Level Optimisation,NHS" data-listing-file-modified-sort="1731429795684" data-listing-reading-time-sort="1" data-listing-word-count-sort="177">
-            <div class="main-card-content">
-            
-            <a href="../previous_projects/hsma_4/h4_forecasting_los_ed/index.html">
-              <img class="card-img" src="../previous_projects/hsma_4/h4_forecasting_los_ed/7eufiwyz.bmp" alt="Forecasting Demand and Length of Stay in the Emergency Department">
-            </a>
-            
-
-            <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">Forecasting Demand and Length of Stay in the Emergency Department</h5>
-            </div>
-
-            
-              <div class="project-status-complete">
-                Complete
-              </div>
-            
-
-             <p class="listing-abstract">The project aimed to use forecasting and machine learning methods to predict the length of stay and arrivals to the Emergency Department (ED) at different times of day, days…</p>
-                
-
-            
-              <div class="quarto-categories">
-                  
-                    
-                        <button class="area-button">Paediatric</button>
-                      
-                    
-                    
-                        <button class="area-button">Length of Stay</button>
-                      
-                    
-                    
-                        <button class="area-button">Emergency Departments</button>
-                      
-                    
-                    
-                        <button class="area-button">Inpatients</button>
-                      
-                    
-                    
-                        <button class="area-button">Staffing Level Optimisation</button>
-                      
-                    
-              </div>
-              
-
-            
-            <div class="quarto-categories">
-                
-                  
-                      <button class="category-button">Machine Learning</button>
-                    
-                  
-                  
-                      <button class="category-button">Forecasting</button>
-                    
-                  
-                  
-                      <button class="category-button">Streamlit</button>
-                    
-                  
-            </div>
-            
-
-            
-              <div class="listing-organisations">
-                
-                • Sheffield Children’s Hospital<br>
-                
-              </div>
-            
-
-          </div>
-
-            <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../previous_projects/hsma_4/h4_forecasting_los_ed/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
-                    
-                      
-                          
-                            
-                      <button class="project-link-listing-button"><a href="https://www.youtube.com/watch?v=a7MtCSbTg0I&amp;list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&amp;index=7"><i class="fa-brands fa-youtube"></i> Video </a></button>
-                          
-                        
-                        
-                    
-            </div>
-          </div>
-
-        
-      <div class="custom-grid-card border-2 rounded-3" data-index="4" data-categories="Discrete Event Simulation (DES),Plotly Dash,Network Analysis,111 Service,Primary Care (GP),Emergency Departments,NHS,Telephone-based Services" data-listing-file-modified-sort="1731429795684" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
-            <div class="main-card-content">
-            
-            <a href="../previous_projects/hsma_4/h4_meeting_demand_111/index.html">
-              <img class="card-img" src="../previous_projects/hsma_4/h4_meeting_demand_111/Abby Dewhurst.jpg" alt="Meeting the demand of 111 for primary care services">
-            </a>
-            
-
-            <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">Meeting the demand of 111 for primary care services</h5>
-            </div>
-
-            
-              <div class="project-status-complete">
-                Complete
-              </div>
-            
-
-             <p class="listing-abstract">This was an attempt to model the impact of enforcing timely primary care interventions when 111 calls are undertaken.</p>
-                
-
-            
-              <div class="quarto-categories">
-                  
-                    
-                        <button class="area-button">111 Service</button>
-                      
-                    
-                    
-                        <button class="area-button">Primary Care (GP)</button>
-                      
-                    
-                    
-                        <button class="area-button">Emergency Departments</button>
-                      
-                    
-              </div>
-              
-
-            
-            <div class="quarto-categories">
-                
-                  
-                      <button class="category-button">Discrete Event Simulation (DES)</button>
-                    
-                  
-                  
-                      <button class="category-button">Plotly Dash</button>
-                    
-                  
-                  
-                      <button class="category-button">Network Analysis</button>
-                    
-                  
-                  
-                      <button class="category-button">Telephone-based Services</button>
-                    
-                  
-            </div>
-            
-
-            
-              <div class="listing-organisations">
-                
-                • Yorkshire Ambulance Service NHS Trust<br>
-                
-                • Devon CCG<br>
-                
-                • University of Plymouth<br>
-                
-              </div>
-            
-
-          </div>
-
-            <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../previous_projects/hsma_4/h4_meeting_demand_111/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
-                    
-                      
-                          
-                            
-                      <button class="project-link-listing-button"><a href="https://www.youtube.com/watch?v=cg5Bp3O02io&amp;list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&amp;index=1"><i class="fa-brands fa-youtube"></i> Video </a></button>
-                          
-                        
-                            
-                      <button class="project-link-listing-button"><a href="https://arc-swp.nihr.ac.uk/publications/modelling-nhs-111-demand-for-primary-care-services-a-discrete-event-simulation/"><i class="fa-solid fa-newspaper"></i> Article </a></button>
-                          
-                        
-                            
-                      <button class="project-link-listing-button"><a href="https://bmjopen.bmj.com/content/13/9/e076203"><i class="fa-solid fa-file-contract"></i> Paper </a></button>
-                          
-                        
-                            
-                      <button class="project-link-listing-button"><a href="https://github.com/RichardPilbery/MOOOD-study"><i class="fa-brands fa-github"></i> Code </a></button>
-                          
-                        
-                        
-                    
-            </div>
-          </div>
-
-        
-      <div class="custom-grid-card border-2 rounded-3" data-index="5" data-categories="Discrete Event Simulation (DES),Streamlit,Acute Medical Unit (AMU),Emergency Departments,Acute Care,Hospitals,NHS" data-listing-file-modified-sort="1731429795696" data-listing-reading-time-sort="2" data-listing-word-count-sort="228">
-            <div class="main-card-content">
-            
-            <a href="../previous_projects/hsma_5/h5_5003_des_bottlenecks_amu/index.html">
-              <img class="card-img" src="../previous_projects/hsma_5/h5_5003_des_bottlenecks_amu/cd4dqcnc.bmp" alt="Using Discrete Event Simulation to model the bottlenecks in the Acute Medical Unit pathway">
-            </a>
-            
-
-            <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">Using Discrete Event Simulation to model the bottlenecks in the Acute Medical Unit pathway</h5>
-            </div>
-
-            
-              <div class="project-status-complete">
-                Complete
-              </div>
-            
-
-            
-              <p class="listing-abstract">In this project, a computer simulation of the acute medical pathway in a Devon trust was created, along with an interactive tool allowing parameters such as the staffing levels to be changed. This allowed staff to explore the optimum levels of resourcing, enabling risk-free testing of staffing and resource changes before committing to these changes in the real-world.
-</p>
-                
-
-            
-              <div class="quarto-categories">
-                  
-                    
-                        <button class="area-button">Acute Medical Unit (AMU)</button>
-                      
-                    
-                    
-                        <button class="area-button">Emergency Departments</button>
-                      
-                    
-                    
-                        <button class="area-button">Acute Care</button>
-                      
-                    
-                    
-                        <button class="area-button">Hospitals</button>
-                      
-                    
-              </div>
-              
-
-            
-            <div class="quarto-categories">
-                
-                  
-                      <button class="category-button">Discrete Event Simulation (DES)</button>
-                    
-                  
-                  
-                      <button class="category-button">Streamlit</button>
-                    
-                  
-            </div>
-            
-
-            
-              <div class="listing-organisations">
-                
-                • Royal Devon University Healthcare (RDUH) NHS Foundation Trust<br>
-                
-              </div>
-            
-
-          </div>
-
-            <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../previous_projects/hsma_5/h5_5003_des_bottlenecks_amu/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
-                    
-                      
-                          
-                            
-                      <button class="project-link-listing-button"><a href="https://www.youtube.com/watch?v=_3j0xC_yCKQ"><i class="fa-brands fa-youtube"></i> Video </a></button>
-                          
-                        
-                            
-                      <button class="project-link-listing-button"><a href="https://github.com/BeckyCrofts/amu_modelling"><i class="fa-brands fa-github"></i> Code </a></button>
-                          
-                        
-                        
-                    
-            </div>
-          </div>
-
-        
-      <div class="custom-grid-card border-2 rounded-3" data-index="6" data-categories="Network Analysis,Plotly Dash,Emergency Departments,Diagnostic Procedures,ECDS Dataset,NHS" data-listing-file-modified-sort="1731429795704" data-listing-reading-time-sort="1" data-listing-word-count-sort="129">
-            <div class="main-card-content">
-            
-            <a href="../previous_projects/hsma_5/h5_5009_network_analysis_diagnostics_ae/index.html">
-              <img class="card-img" src="../previous_projects/hsma_5/h5_5009_network_analysis_diagnostics_ae/akzr6q9d.bmp" alt="Network Analysis of diagnostic procedures in A&amp;E setting">
-            </a>
-            
-
-            <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">Network Analysis of diagnostic procedures in A&amp;E setting</h5>
-            </div>
-
-            
-              <div class="project-status-complete">
-                Complete
-              </div>
-            
-
-             <p class="listing-abstract">In A&amp;E a patient can be given one or more diagnostic procedures. These can be as simple as the various blood test or more complicated procedures like an MRI test. The aim of…</p>
-                
-
-            
-              <div class="quarto-categories">
-                  
-                    
-                        <button class="area-button">Emergency Departments</button>
-                      
-                    
-                    
-                        <button class="area-button">Diagnostic Procedures</button>
-                      
-                    
-                    
-                        <button class="area-button">ECDS Dataset</button>
-                      
-                    
-              </div>
-              
-
-            
-            <div class="quarto-categories">
-                
-                  
-                      <button class="category-button">Network Analysis</button>
-                    
-                  
-                  
-                      <button class="category-button">Plotly Dash</button>
-                    
-                  
-            </div>
-            
-
-            
-              <div class="listing-organisations">
-                
-                • NHS England<br>
-                
-              </div>
-            
-
-          </div>
-
-            <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../previous_projects/hsma_5/h5_5009_network_analysis_diagnostics_ae/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
-                    
-                      
-                          
-                            
-                      <button class="project-link-listing-button"><a href="https://github.com/HamzahJShami/HSMA5"><i class="fa-brands fa-github"></i> Code </a></button>
-                          
-                        
-                        
-                    
-            </div>
-          </div>
-
-        
-      <div class="custom-grid-card border-2 rounded-3" data-index="7" data-categories="Discrete Event Simulation (DES),Streamlit,Patient Flow,Emergency Departments,Same-day Emergency Care" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="2" data-listing-word-count-sort="234">
-            <div class="main-card-content">
-            
-            <a href="../previous_projects/hsma_6/H6_6001_DES_modelling_non_elective_flow/index.html">
-              <img class="card-img" src="../previous_projects/hsma_6/placeholder.png" alt="Discrete Event Simulation modelling of Non-elective flow">
-            </a>
-            
-
-            <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">Discrete Event Simulation modelling of Non-elective flow</h5>
-            </div>
-
-            
-            <div class="project-status-active">
-              Active
-            </div> 
-
-             <p class="listing-abstract">Poor patient flow is leading to (very) long waits for admission in Emergency Departments. This means there is poor performance against all the key ED wait metrics for the…</p>
-                
-
-            
-              <div class="quarto-categories">
-                  
-                    
-                        <button class="area-button">Patient Flow</button>
-                      
-                    
-                    
-                        <button class="area-button">Non-elective Admissions</button>
-                      
-                    
-                    
-                        <button class="area-button">Emergency Departments</button>
-                      
-                    
-                    
-                        <button class="area-button">Same-day Emergency Care</button>
-                      
-                    
-              </div>
-              
-
-            
-            <div class="quarto-categories">
-                
-                  
-                      <button class="category-button">Discrete Event Simulation (DES)</button>
-                    
-                  
-                  
-                      <button class="category-button">Streamlit</button>
-                    
-                  
-            </div>
-            
-
-            
-
-          </div>
-
-            <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../previous_projects/hsma_6/H6_6001_DES_modelling_non_elective_flow/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
-                    
-                      
-                          
-                            
-                        
-                            
-                      <button class="project-link-listing-button"><a href="https://github.com/helenajr/Non-Elective-Flow-Simulation"><i class="fa-brands fa-github"></i> Code </a></button>
-                          
-                        
-                            
-                        
-                            
-                        
-                        
-                    
-            </div>
-          </div>
-
-        
-      <div class="custom-grid-card border-2 rounded-3" data-index="8" data-categories="Discrete Event Simulation (DES),111 Service,Emergency Departments,General Practice (GP)" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
-            <div class="main-card-content">
-            
-            <a href="../previous_projects/hsma_6/H6_6008_Modelling_the_impact_of_111_and_GP_access/index.html">
-              <img class="card-img" src="../previous_projects/hsma_6/placeholder.png" alt="Modelling the impact of 111 and GP access on Emergency Departments">
-            </a>
-            
-
-            <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">Modelling the impact of 111 and GP access on Emergency Departments</h5>
-            </div>
-
-            
-            <div class="project-status-active">
-              Active
-            </div> 
-
-             <p class="listing-abstract">This project will use Discrete Event Simulation to model patients’ navigation of GP vs 111 services and assess the knock-on effect for Emergency Departments.</p>
-                
-
-            
-              <div class="quarto-categories">
-                  
-                    
-                        <button class="area-button">111 Service</button>
-                      
-                    
-                    
-                        <button class="area-button">Emergency Departments</button>
-                      
-                    
-                    
-                        <button class="area-button">General Practice (GP)</button>
-                      
-                    
-              </div>
-              
-
-            
-            <div class="quarto-categories">
-                
-                  
-                      <button class="category-button">Discrete Event Simulation (DES)</button>
-                    
-                  
-            </div>
-            
-
-            
-
-          </div>
-
-            <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../previous_projects/hsma_6/H6_6008_Modelling_the_impact_of_111_and_GP_access/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
-                    
-                      
-                          
-                            
-                        
-                            
-                        
-                            
-                        
-                            
-                        
-                        
-                    
-            </div>
-          </div>
-
-        
-      <div class="custom-grid-card border-2 rounded-3" data-index="9" data-categories="Forecasting,Reproducible Analytical Pipelines (RAP),Emergency Departments" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="1" data-listing-word-count-sort="127">
-            <div class="main-card-content">
-            
-            <a href="../previous_projects/hsma_6/H6_6011_Forecasting_modelling_for_A&amp;E_attendance/index.html">
-              <img class="card-img" src="../previous_projects/hsma_6/placeholder.png" alt="Forecasing modelling for A&amp;E attendance">
-            </a>
-            
-
-            <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">Forecasing modelling for A&amp;E attendance</h5>
-            </div>
-
-            
-            <div class="project-status-active">
-              Active
-            </div> 
-
-             <p class="listing-abstract">The aim of this project is to forecast future A&amp;E attendances 6 weeks in advance, accounting for seasonal patterns.</p>
-                
-
-            
-              <div class="quarto-categories">
-                  
-                    
-                        <button class="area-button">Emergency Departments</button>
-                      
-                    
-              </div>
-              
-
-            
-            <div class="quarto-categories">
-                
-                  
-                      <button class="category-button">Forecasting</button>
-                    
-                  
-                  
-                      <button class="category-button">Reproducible Analytical Pipelines (RAP)</button>
-                    
-                  
-            </div>
-            
-
-            
-
-          </div>
-
-            <div class="project-details-listing">
-              <button class="project-link-listing-button"><a href="../previous_projects/hsma_6/H6_6011_Forecasting_modelling_for_A&amp;E_attendance/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
-                    
-                      
-                          
-                            
-                        
-                            
-                        
-                            
-                        
-                            
-                        
-                        
-                    
-            </div>
-          </div>
-
-        
-</div>
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div><div class="quarto-listing quarto-listing-container-custom" id="listing-elective_surgery_projects">
-<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
-
-    
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Discrete Event Simulation (DES),Elective Surgery,Orthopaedics,NHS" data-listing-file-modified-sort="1731429795672" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Discrete Event Simulation (DES),Elective Surgery,Orthopaedics,NHS" data-listing-file-modified-sort="1731429910472" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_3/h3_elective_backlog_hip/index.html">
@@ -7425,7 +6587,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Discrete Event Simulation (DES),Streamlit,Elective Surgery,Waiting Times,Surgical,Hospitals,NHS" data-listing-file-modified-sort="1731429795700" data-listing-reading-time-sort="1" data-listing-word-count-sort="134">
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Discrete Event Simulation (DES),Streamlit,Elective Surgery,Waiting Times,Surgical,Hospitals,NHS" data-listing-file-modified-sort="1731429910500" data-listing-reading-time-sort="1" data-listing-word-count-sort="134">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_5/h5_5005_des_elective_surgery_pathways/index.html">
@@ -7523,7 +6685,7 @@ No matching items
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Natural Language Processing (NLP),Primary Care (GP),Inpatient Admissions,Hospitals,Machine Learning,NHS" data-listing-file-modified-sort="1731429795672" data-listing-reading-time-sort="1" data-listing-word-count-sort="100">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="Natural Language Processing (NLP),Primary Care (GP),Inpatient Admissions,Hospitals,Machine Learning,NHS" data-listing-file-modified-sort="1731429910472" data-listing-reading-time-sort="1" data-listing-word-count-sort="100">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_3/h3_ml_nlp/index.html">
@@ -7607,7 +6769,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Discrete Event Simulation (DES),Plotly Dash,Network Analysis,111 Service,Primary Care (GP),Emergency Departments,NHS,Telephone-based Services" data-listing-file-modified-sort="1731429795684" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="Discrete Event Simulation (DES),Plotly Dash,Network Analysis,111 Service,Primary Care (GP),Emergency Departments,NHS,Telephone-based Services" data-listing-file-modified-sort="1731429910484" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_4/h4_meeting_demand_111/index.html">
@@ -7709,7 +6871,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="Discrete Event Simulation (DES),111 Service,Emergency Departments,General Practice (GP)" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
+      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="Discrete Event Simulation (DES),111 Service,Emergency Departments,General Practice (GP)" data-listing-file-modified-sort="1731429910512" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6008_Modelling_the_impact_of_111_and_GP_access/index.html">
@@ -7780,7 +6942,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="3" data-categories="Discrete Event Simulation (DES),Forecasting,Streamlit,Quarto,111 Service,Telephone-based Services,Staffing Level Optimisation" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="1" data-listing-word-count-sort="168">
+      <div class="custom-grid-card border-2 rounded-3" data-index="3" data-categories="Discrete Event Simulation (DES),Forecasting,Streamlit,Quarto,111 Service,Telephone-based Services,Staffing Level Optimisation" data-listing-file-modified-sort="1731429910512" data-listing-reading-time-sort="1" data-listing-word-count-sort="168">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6020_modelling_111_option_2_call_centre/index.html">
@@ -7863,7 +7025,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="4" data-categories="Machine Learning,Forecasting,Discrete Event Simulation (DES),111 Service,Telephone-based Services" data-listing-file-modified-sort="1731429795712" data-listing-reading-time-sort="1" data-listing-word-count-sort="149">
+      <div class="custom-grid-card border-2 rounded-3" data-index="4" data-categories="Machine Learning,Forecasting,Discrete Event Simulation (DES),111 Service,Telephone-based Services" data-listing-file-modified-sort="1731429910516" data-listing-reading-time-sort="1" data-listing-word-count-sort="149">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6033_111_downstream_forecasting/index.html">
@@ -7938,7 +7100,7 @@ No matching items
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="5" data-categories="Machine Learning,Unsupervised Learning,Primary Care (GPs)" data-listing-file-modified-sort="1731429795716" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
+      <div class="custom-grid-card border-2 rounded-3" data-index="5" data-categories="Machine Learning,Unsupervised Learning,Primary Care (GPs)" data-listing-file-modified-sort="1731429910516" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_6/H6_6044_Population_segmentation_GP_registered_Dorset/index.html">
