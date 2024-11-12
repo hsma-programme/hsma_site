@@ -120,7 +120,52 @@ listing:
       include:
         categories: "{Digital Outpatients}*"
       template: ../html/previous_projects/listing.ejs
+    - id: outpatient_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Outpatients}*"
+      template: ../html/previous_projects/listing.ejs
+    - id: ambulance_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Ambulance}*"
+      template: ../html/previous_projects/listing.ejs
+    - id: pharmacy_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Pharmacy}*"
+      template: ../html/previous_projects/listing.ejs
+    - id: blood_and_transplant_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Blood & Transplant}*"
+      template: ../html/previous_projects/listing.ejs
 ---
+
+## Ambulance
+
+:::{#ambulance_projects}
+:::
 
 ## Community
 
@@ -153,21 +198,14 @@ listing:
 
 ## Hospitals
 
-### Urgent Treatment Centres (UTCs)
-
-:::{#utc_projects}
-:::
-
-
-### Same-Day Emergency Care (SDEC)
-
-:::{#spec_projects}
-:::
-
-
 ### Acute Medical Unit (AMU)
 
 :::{#amu_projects}
+:::
+
+### Accident & Emergency / Emergency Departments (A&E/ED)
+
+:::{#emergency_department_projects}
 :::
 
 ### Inpatients
@@ -178,4 +216,32 @@ listing:
 ### Intensive Care Units & Intensive Therapy Units (ICU/ITU)
 
 :::{#icu_itu_projects}
+:::
+
+### Outpatients
+
+:::{#outpatient_projects}
+:::
+
+### Same-Day Emergency Care (SDEC)
+
+:::{#spec_projects}
+:::
+
+### Urgent Treatment Centres (UTCs)
+
+:::{#utc_projects}
+:::
+
+
+## Supporting
+
+### NHS Blood & Transplant
+
+:::{#blood_and_transplant_projects}
+:::
+
+### Pharmacy
+
+:::{#pharmacy_projects}
 :::

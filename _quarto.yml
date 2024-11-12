@@ -53,9 +53,9 @@ website:
       - text: "HSMA Projects"
         menu:
           - href: previous_projects/projects_by_service_area.qmd
-            text: Projects by Area
+            text: Projects by Area of Care
           - href: previous_projects/projects_by_service_type_location.qmd
-            text: Projects by Care Location
+            text: Projects by Care Delivery Location
           # - href: previous_projects/projects_by_organisation.qmd
           #   text: Projects by Organisation Type
           - href: previous_projects/projects_by_methods.qmd

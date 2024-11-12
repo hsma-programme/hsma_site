@@ -38,9 +38,9 @@ listing:
       page-size: 1000
       categories: false
       include:
-        categories: "{Mental Health, Community Mental Health}"
+        categories: "{Mental Health,Community Mental Health}"
       exclude:
-        categories: "{Mental Health Inpatients, Neurodiversity}"
+        categories: "{Mental Health Inpatients,Neurodiversity,NHS Talking Therapies (Formerly IAPT)}"
       template: ../html/previous_projects/listing.ejs
     - id: workforce_projects
       contents: "*/*/index.qmd"
@@ -312,14 +312,18 @@ listing:
       categories: false
       include:
         categories: "{Council}*"
+    - id: iapt_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{NHS Talking Therapies (Formerly IAPT)}*"
 ---
 
 ## Mental Health
-
-### General Mental Health Projects
-
-:::{#mental_health_projects}
-:::
 
 ### Neurodiversity
 
@@ -331,6 +335,17 @@ listing:
 :::{#mh_inpatients_projects}
 :::
 
+### NHS Talking Therapies (Formerly IAPT)
+
+:::{#iapt_projects}
+:::
+
+### Other Mental Health Projects
+
+:::{#mental_health_projects}
+:::
+
+---
 
 ## Diseases
 
@@ -350,6 +365,8 @@ listing:
 :::{#covid19_projects}
 :::
 
+---
+
 ## Public Health
 
 ### Smoking and Weight Management
@@ -367,6 +384,7 @@ listing:
 :::{#public_health_projects}
 :::
 
+---
 
 ## Medical Specialties
 
@@ -429,6 +447,8 @@ listing:
 :::{#urology_projects}
 :::
 
+---
+
 ## Non-NHS Project Areas
 
 ## Police
@@ -440,6 +460,8 @@ listing:
 
 :::{#council_projects}
 :::
+
+---
 
 ## Patient Groups
 
@@ -458,14 +480,16 @@ listing:
 :::{#womens_health_projects}
 :::
 
+---
 
 ## Workforce
 
 :::{#workforce_projects}
 :::
 
+---
 
-### Inequalities
+## Inequalities
 
 :::{#inequalities_projects}
 :::
