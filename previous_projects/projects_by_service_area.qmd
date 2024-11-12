@@ -442,20 +442,6 @@ listing:
 
 ---
 
-## Non-NHS Project Areas
-
-### Police
-
-:::{#policing_projects}
-:::
-
-### Council
-
-:::{#council_projects}
-:::
-
----
-
 ## Patient Groups
 
 ### Children (Paediatrics)
@@ -485,6 +471,20 @@ listing:
 ## Inequalities
 
 :::{#inequalities_projects}
+:::
+
+---
+
+## Non-NHS Project Areas
+
+### Police
+
+:::{#policing_projects}
+:::
+
+### Council
+
+:::{#council_projects}
 :::
 
 ---
