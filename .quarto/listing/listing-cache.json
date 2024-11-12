@@ -82,6 +82,9 @@
     ],
     "hsma_content/reinforcement_learning_game.qmd": [
       "module_4_ml/4h_reinforcement_learning.qmd"
+    ],
+    "hsma_content/books/books.qmd": [
+      "book_details/*.qmd"
     ]
   }
 }
