@@ -1,0 +1,45 @@
+---
+title: "RALPulator : Predicting Robotic-assisted laparoscopic prostatectomy (RALP) operative times from patient letters"
+techniques:
+  - Machine Learning
+  - Natural Language Processing (NLP)
+  - Streamlit
+areas:
+  - Urology
+  - Cancer
+  - Surgical
+categories:
+  - Machine Learning
+  - Natural Language Processing (NLP)
+  - Streamlit
+  - Urology
+  - Cancer
+  - Surgical
+author:
+  - name: Jake Wilson
+    affiliation: Great Western Hospital
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url: https://ralpulator.streamlit.app/
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+This project is building an app that reads in patient letters ahead of surgery, uses Natural Language Processing techniques to extract key information from the text, and then feeds all of that into a Machine Learning model which then predicts how long the Robotic-assisted laparoscopic prostatectomy (RALP) surgery is going to take.
+
+A first version of the app has been developed and deployed, and is available here: <https://ralpulator.streamlit.app/>
+
+Jake is presenting the work to the National Urological Conference in November 2024, and has been invited to present in Perth, Australia in March 2025.

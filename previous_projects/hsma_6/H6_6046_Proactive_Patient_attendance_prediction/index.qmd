@@ -1,0 +1,43 @@
+---
+title: "Proactive Patient Attendance Prediction: Enhancing Healthcare Efficiency through Attendance Forecasting"
+techniques:
+  - Machine Learning
+areas:
+  - Non-attendance Prediction
+  - Outpatients
+categories:
+  - Machine Learning
+  - Non-attendance Prediction
+  - Outpatients
+author:
+  - name: Peter Andrews
+    affiliation: Barts Health NHS Trust
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+Every month ~ 12% of outpatient appointments are not attended at Barts Health NHS Trust. This equates to over 10 thousand hours of clinical input, space and equipment that is not being used optimally to progress patients’ treatments or manage ongoing care.
+
+If a patient does not attend, they could be placed back on a waiting list for an extended period which increases the risk of further deterioration or more severe progression of their condition that may result in them needing emergency care. The deterioration of the patient could have long term impacts on their future health.
+
+This project will develop :
+
+- Machine learning model to forecast non-attendance
+- Patient contact capture tool
+- Integration of machine learning model into enterprise level reports

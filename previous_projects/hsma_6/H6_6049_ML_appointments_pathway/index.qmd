@@ -1,0 +1,42 @@
+---
+title: "Using machine learning to identify factors that increase number of appointments per pathway"
+techniques:
+  - Explainable AI
+  - Patient Pathways
+  - Casual Analysis
+areas:
+  - Patient Pathways
+  - EPP Dataset
+  - Waiting Times
+categories:
+  - Machine Learning
+  - Explainable AI
+  - Patient Pathways
+  - Waiting Times
+  - Casual Analysis
+author:
+  - name: Sarah Mole
+    affiliation: NHS England
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+The new EPP data set combines data to create the most complete version of elective pathway activity we have ever had.  At the moment we don’t know why some people/pathways have more appointments than others, but one theory is that long waiting times result in sicker patients which results in more total appointments.
+
+This project plans to use Machine Learning methods to try to unpick this.

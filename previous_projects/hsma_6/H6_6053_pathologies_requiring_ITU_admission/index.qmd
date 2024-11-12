@@ -1,0 +1,48 @@
+---
+title: "Analysis and prediction of seasonality in pathologies requiring ITU admission"
+techniques:
+  - Machine Learning
+  - Forecasting
+  - Streamlit
+  - Quarto
+areas:
+  - Physiotherapy
+  - Intensive Care Units & Intensive Therapy Units (ICU/ITU)
+  - Staffing Level Optimisation
+  - Seasonal Patterns
+categories:
+  - Machine Learning
+  - Forecasting
+  - Streamlit
+  - Quarto
+  - Intensive Care Units & Intensive Therapy Units (ICU/ITU)
+  - Staffing Level Optimisation
+  - Seasonal Patterns
+author:
+  - name: Tanya Higgs
+    affiliation: East Kent Hospitals Foundation Trust
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+Anecdotally, many intensive care clinicians know that admission causes follow specific patterns, for example we see more cardiac arrests in summer, more pancreatitis in summer and winter. However there is little to no evidence documenting this. I would like to see if I can build a model that will show if there are waves of specific pathologies based on data that we hold. If this can be demonstrated I would like to use Machine Learning to attempt to predict the numbers of patients we may see and over what time periods.
+
+Once this is complete, I can then extrapolate the types of patients that require more intervention from physiotherapy and potentially use this to inform staffing and annual leave allowance, or inform when we take students or run clinical competency sessions.
+
+The project will aim to develop interactive dashboards and / or reports to display waves of admission to ITU.

@@ -1,0 +1,49 @@
+---
+title: "Discrete Event Simulation model to support the flow of patients through Community Diagnostic Centres"
+techniques:
+  - Discrete Event Simulation (DES)
+  - Streamlit
+  - Forecasting
+areas:
+  - Community Diagnostic Centres (CDCs)
+  - Demographics
+  - Patient Flow
+categories:
+  - Discrete Event Simulation (DES)
+  - Streamlit
+  - Community Diagnostic Centres (CDCs)
+  - Forecasting
+  - Demographics
+  - Patient Flow
+author:
+  - name: Martin Bloyce
+    affiliation: NHS England
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+Community Diagnostic Centres (CDCs) are a relatively new implementation in the NHS, with the intention of improving patient flow and reducing waits for diagnostic tests, by ring-fencing the diagnostic process.
+
+These have been relatively successful so far, with the actual diagnostic part of the process being sped up significantly through CDCs.  However, providers need to make bids to implement CDCs and prove value.  As the NHS is in a period of significant financial pressure, it is possible these decisions could come under further scrutiny.
+
+The aim of this project is to create a DES model which identifies the bottlenecks in the process and allows the user to model different scenarios with the intention of seeing which investments may have the largest impact on improving flow.
+
+There are also further parts of the process outside of the actual CDC setting: the referral to diagnosis time, and diagnosis to result time.  We aim to include this in the analysis to accurately reflect the whole of the patient’s experience of the process.
+
+A stretch goal for the project is to build in future demand requirements based on increasing and changing population in the region.

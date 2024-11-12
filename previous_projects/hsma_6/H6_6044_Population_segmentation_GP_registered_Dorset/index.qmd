@@ -1,0 +1,39 @@
+---
+title: "Population segmentation of GP-registered population in Dorset"
+techniques:
+  - Machine Learning
+  - Unsupervised Learning
+areas:
+  - Primary Care (GPs)
+categories:
+  - Machine Learning
+  - Unsupervised Learning
+  - Primary Care (GPs)
+author:
+  - name: Rhianna O'Connor
+    affiliation: Dorset Council
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+The aim of this project is to create a machine learning-based population segmentation model for the GP-registered Dorset population using multiple characteristics including primary and secondary healthcare utilisation.
+
+We want to identify population segments based on care needs to inform service design.
+
+This has the potential to provide enhanced patient understanding leading to improved resource allocation.

@@ -1,0 +1,38 @@
+---
+title: "Geographical mapping in specialist palliative and end of life care"
+techniques:
+  - Mapping
+  - Geographic Modelling
+areas:
+  - End-of-life Care & Hospices
+  - Demographics
+categories:
+  - Geographic Modelling
+  - Mapping
+  - Demographics
+author:
+  - name: Helen Cameron
+    affiliation: Ashgate Hospice
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+Using national health and census data, the aim of this project is to use geographic mapping to show if we are caring for a fair representation of our population. The two populations to be mapped would be based on the same characteristics to include cancer/non-cancer status, protected characteristics such as gender, sexual orientation, religion, ethnicity.
+
+This would help us to understand our population and could be used to support funding for specific geographical areas or targeting referrals from underrepresented groups.

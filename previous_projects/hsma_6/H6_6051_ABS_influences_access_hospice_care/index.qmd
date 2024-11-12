@@ -1,0 +1,34 @@
+---
+title: "Agent Based Simulation modelling influences on access to hospice care"
+techniques:
+  -
+areas:
+  -
+categories:
+  - Agent based simulation
+author:
+  - name: Helen Cameron
+    affiliation: Ashgate Hospice
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+Not everyone eligible for hospice care is offered, or accepts it.  There is research relating to all potential agents in the decision to access hospice care where healthcare professionals can be disinclined to refer until late in a patient's presentation and patients (& carers) are not wanting to discuss, or not being aware of, their options.  The system is influenced by multiple beliefs/assumptions about what hospice care is, and when referral might be appropriate, although earlier access to services provides better outcomes in the patient's care as well as the experiences of patients and carers.
+
+The aim of this project is to use Agent Based Simulation approaches to explore referrers, patients (& possibly carers) motivations about accessing hospice care.  Any findings from this project would be relevant to any hospice providers.

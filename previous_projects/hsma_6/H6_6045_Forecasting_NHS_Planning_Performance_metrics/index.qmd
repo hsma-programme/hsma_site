@@ -1,0 +1,35 @@
+---
+title: "Forecasting NHS planning and performance metrics"
+techniques:
+  - Forecasting
+areas:
+  - NHS
+categories:
+  - Forecasting
+  - NHS
+author:
+  - name: Sam Wheeler
+    affiliation: Bath and North East Somerset, Swindon and Wiltshire ICB
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+The ICB leads on development of Operational Planning submissions to NHS England on an annual basis. This involves development trajectories against various activity and performance metrics, usually covering the next 12 months (e.g. ICB-level A&E attendances).  Analysts are often asked to forecast these measures forward based on historic information. The system’s approach to this is often very basic and crude and, partly because of this, organisations often use their own, different approaches which are often open to manipulation.
+
+The aim of this project is to develop an approach to forecasting the main NHS Planning performance and activity metrics, which is more robust than existing, crude techniques and can form the basis of System Planning. To develop an approach that, given it’s more robust, will be consistently adopting across our system to aid decision makers with both planning but also operational management at system level.
