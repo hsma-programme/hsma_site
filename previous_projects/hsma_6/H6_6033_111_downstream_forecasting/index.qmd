@@ -1,13 +1,18 @@
 ---
 title: "111 Downstream forecasting"
 techniques:
-  -
-areas:
-  -
-categories:
-  - Machine learning
+  - Machine Learning
   - Forecasting
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
+areas:
+  - 111 Service
+  - Telephone-based Services
+categories:
+  - Machine Learning
+  - Forecasting
+  - Discrete Event Simulation (DES)
+  - 111 Service
+  - Telephone-based Services
 author:
   - name: Dominic Rowney
     affiliation: North of England Commissioning Support Unit (NECSU)
@@ -31,4 +36,6 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
+The aim of this project is to develop a model that, based on incoming 111 calls, predicts the likely place, time and volume of downstream activity due to these calls.  This will deployed as a secure API that allows users to pass cumulative daily 111 figures and receive downstream predictions of likely activity by location, time and type.
 
+There is an existing UEC webapp that takes in values from various APIs and supplies the values to strategic and operational decision makers across various areas. In the North East there is 111 call data that comes in weekly that is patient level and has things like disposition / complaint / time, this is linkable to other datasets to allow to outcome such as admission post attending A&E.  There is also a near live feed which gives 5-15 minute values for the (cumulative) number of 111 calls in a day.

@@ -1,0 +1,54 @@
+---
+title: "Identifying which patients are most at risk for an outcome across integrated neighbourhood teams"
+techniques:
+  - Machine Learning
+  - Explainable AI
+  - Streamlit
+  - Geographical Modelling
+areas:
+  - Demographics
+  - Public Health
+categories:
+  - Machine Learning
+  - Explainable AI
+  - Streamlit
+  - Geographical Modelling
+  - Demographics
+  - Public Health
+author:
+  - name: Rachel Christie
+    affiliation: North West London ICB
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+Population health management often use population segmentation to categorise the population according to health status, health care needs and priorities. This approach recognises that groups of people share characteristics that influence the way they interact with health and care services.
+
+However, generic population segments may not break down the population into specific enough areas in order to identify which populations are most at risk of an outcome and, therefore, who to target for intervention and where the biggest gains in intervention could be made. Identifying which patient characteristics carry the biggest risk most often comes from clinical expertise and is not data-driven.  When data is considered, there is often “too much” data to look into, requiring expertise on where to start. Additionally, different geographies want to know who is most at risk in their patch and often want to be able to view the data at their geography or for their primary care network.
+
+There is a need for a way to identify which patient characteristics carry the biggest risk for an outcome across different geographies.
+
+The aim of this project is to create a tool to identify which patient groups are most at risk for an outcome at different geographies. The outcomes will align in the NWL INT outcomes which include:
+
+- Emergency admissions due to fall in over 65s
+- Not being vaccinated
+- Not taking up screening
+- Emergency admissions for ambulatory care sensitive conditions
+
+Machine Learning and Explainable AI approaches will be used to build the tool and outputs.

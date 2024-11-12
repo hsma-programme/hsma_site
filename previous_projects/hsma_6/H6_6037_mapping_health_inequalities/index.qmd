@@ -1,11 +1,20 @@
 ---
 title: "Mapping health inequalities, depreviation, ethnicities and crime across the UK"
 techniques:
-  -
+  - Geographic Modelling
+  - Mapping
 areas:
-  -
+  - Inequalities
+  - Crime
+  - Police
+  - Demographics
 categories:
-  - Geographic modelling
+  - Mapping
+  - Inequalities
+  - Geographic Modelling
+  - Demographics
+  - Crime
+  - Police
 author:
   - name: Abhinav Jindal
     affiliation: NIHR Clinical Research Network
@@ -29,4 +38,4 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
-
+The aim of the project is to use ONS data around ethnicities of population, health index England, Deprivation data from QOF, and overlay the same with crime statistics at a geographical scale to try and prove a relationship and the hypothesis of a link.

@@ -1,11 +1,17 @@
 ---
 title: "Modelling the benefit of MECC (Making Every Contact Count) Training using agent based simulation"
 techniques:
-  -
+  - Agent Based Simulation (MECC)
+  - Streamlit
 areas:
-  -
+  - Making Every Contact Count (MECC)
+  - Population Health
 categories:
-  -
+  - Agent Based Simulation (MECC)
+  - Streamlit
+  - Making Every Contact Count (MECC)
+  - Public Health
+  - Smoking
 author:
   - name: Dominic Rowney
     affiliation: North of England Commissioning Support Unit (NECSU)
@@ -19,14 +25,16 @@ pub-info:
     url:
     icon: fa-brands fa-youtube
   - name: Code
-    url:
+    url: https://github.com/DomRowney/Project_Toy_MECC
     icon: fa-brands fa-github
   - name: Website
-    url:
+    url: https://projecttoymecc-d4sef5gik3tiusylxpigdw.streamlit.app/mesa_abs_two_types_mecc
     icon: fa-solid fa-globe
   - name: Paper
     url:
     icon: fa-solid fa-file-contract
 ---
 
+Making Every Contact Count (MECC) is an e-learning programme in which health and social care staff are encouraged to use various interactions with patients to open conversations about healthy lifestyles and wellbeing.
 
+The aim of this project is to use Agent Based Simulation to model the behavioural dynamics and success rates on lifestyle factors (such as smoking, drinking, exercise) of MECC interventions, and thereby try to understand the potential impact of MECC training.

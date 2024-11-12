@@ -1,0 +1,55 @@
+---
+title: "Using Data Science techniques to address delays in the pathway for Neurodiversity Diagnoses in Children and Young People in Devon"
+techniques:
+  - Discrete Event Simulation (DES)
+  - Natural Language Processing (NLP)
+  - Geographic Modelling
+  - Machine Learning
+areas:
+  - Neurodiversity
+  - Paediatric
+  - Waiting Lists
+  - Waiting Times
+  - Patient Pathways
+categories:
+  - Discrete Event Simulation (DES)
+  - Natural Language Processing (NLP)
+  - Geographic Modelling
+  - Machine Learning
+  - Patient Pathways
+  - Neurodiversity
+  - Paediatric
+  - Waiting Lists
+  - Waiting Times
+author:
+  - name: Chris Meredith
+  - affiliation: Devon Partnership Trust
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+Currently, across multiple healthcare providers in Devon, around 6,000 children have been waiting more than 52 weeks for a neurodiversity diagnosis.  These diagnoses can unlock a number of measures otherwise unavailable to the children to help support their education and independence.
+
+The project will aim to reduce the current waiting list, as well as introduce analytic tools that aim to streamline the current process and keep referral times low.
+
+Approaches used will include:
+
+- DES modelling of current pathway, adjustable where resources may be applied
+- NLP to sort applications and referrals, combined with machine learning algorithm generation to automatically suggest pathway options
+- Geographic modelling to identify inequalities related to location

@@ -1,13 +1,14 @@
 ---
 title: "Developing a web app to recommend appropriate technology enabled care"
 techniques:
-  -
-areas:
-  -
-categories:
   - Streamlit
   - Python
-  - Economic modelling
+areas:
+  - Older Adults
+  - Costs
+categories:
+  - Streamlit
+  - Costs
 author:
   - name: Radia Woodbridge
     affiliation: Torbay and South Devon NHS Foundation Trust
@@ -31,4 +32,19 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
+The growing importance of Technology Enabled Care (TEC) in today's health and social care environment, especially with the increasing aging population and the need for cost-effective solutions to enhance quality of life, has led professionals to incorporate TEC in the individuals’ health and care assessment. TEC devices like personal alarms, sensors, fall detectors, remote health monitoring, and other assistive technologies are used to support individuals, particularly older adults, people with disabilities, or those with health conditions, in maintaining independence and ensuring safety in their daily lives.
 
+Technology enabled care can increase choice in maintaining independence, stay connected with family and friends and enhance social and mental activity.
+
+However, many professionals, carers and individuals are unfamiliar with the wide range of TEC options available, making it difficult to choose the right equipment.  In addition, information about TEC equipment is scattered across different platforms making it difficult to access comprehensive, up-to-date guidance in one place.
+
+The aim of this project is to develop a web app that will :
+
+- Serve as a one-stop platform providing details, user friendly guidance on TEC equipment.
+- The app would be useful for Torbay and South devon Trust’s health and social care professionals, carers, and individuals who need support with TEC equipment, creating a bridge between technology and users who want to remain independent and safe in their homes.
+- The app can provide a platform to keep users updated with the latest innovations.
+- The app will empower users with comprehensive guides on TEC equipment, enabling them to make confident choices that enhance personal safety and independence
+- Health and social care professionals will have access to a reliable resource to recommend the right TEC solutions for patients, enhancing their ability to deliver personalised care.
+- By encouraging the use of TEC, the app contributes to reducing the burden on health and social care systems and cares, enabling more people to remain safely at home.
+
+Future, further extension of this project will include exploring predicting cost savings and change on staff capacity based on TEC usage.

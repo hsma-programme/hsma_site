@@ -1,0 +1,41 @@
+---
+title: "Evaluating the use of machine learning calssifiers for the identification of the determinants of stage at diagnosis of prostate cancers using registry data"
+techniques:
+  - Machine Learning
+  - Explainable AI
+areas:
+  - Cancer
+  - Urology
+categories:
+  - Machine Learning
+  - Explainable AI
+  - Cancer
+  - Urology
+author:
+  - name: Alex Brokenshire
+    affiliation: National Disease Registration Service, NHS England
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+This project will use a selection of ML methods to try to classify whether a given patient is diagnosed at an early or late stage of prostate cancer using a selection of registry fields (+ whatever else is identified as relevant from a gentle lit review and what can be acquired from data) as features.
+
+How well the best model produced using each approach performs in testing will be assessed, and an outline explaining how their weightings 'explain' these predictions will be produced.
+
+This a 'methods comparison' project in a specific domain that's of interest to the organisation at the moment, given the [uptick in diagnoses](https://digital.nhs.uk/data-and-information/publications/statistical/cancer-registration-statistics/england-2022).

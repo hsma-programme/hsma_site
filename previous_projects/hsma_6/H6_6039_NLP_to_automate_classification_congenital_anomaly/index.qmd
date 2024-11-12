@@ -1,12 +1,16 @@
 ---
 title: "Applying Natural Language Processing to automate the extraction and classificiation of congenital anomaly diagnoses from free text and genetic data"
 techniques:
-  -
-areas:
-  -
-categories:
-  - Natural Language Processing
+  - Natural Language Processing (NLP)
   - Streamlit
+areas:
+  - Congenital Anomilies
+  - Genetic Data
+categories:
+  - Natural Language Processing (NLP)
+  - Streamlit
+  - Congenital Anomilies
+  - Genetic Data
 author:
   - name: Charlotte Eversfield
     affiliation: National Disease Registration Service, NHS England
@@ -30,4 +34,11 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
+Congenital anomaly diagnoses can be submitted to the National Congenital Anomaly and Rare Diseases Services (NCARDRS) under an unspecific and uninformative ICD10 code of Q87.8. Q87.8 is broadly defined as ‘Other specified congenital malformation syndromes, not elsewhere classified’, with diagnosis detail submitted in free text data. As a result, classification of these diagnoses into more specific syndromes is currently handled manually by reviewing free text fields from data submissions from hospitals such as discharge letters. This manual review is time consuming and risks human error, duplication of effort, and poor standardisation of rules/methods applied for extraction and classification.
 
+Additionally, diagnoses submitted from discharge letters are only ‘probable’ or ‘suspected’ and therefore need to be validated via genetic testing data. However, there currently is no defined method of data linkage between the discharge letters and genetic data which means diagnoses cannot be confirmed. Providing accurate data on congenital anomaly diagnoses which have been validated by genetic testing data is crucial for disease surveillance reporting.
+
+The aims of this project are:
+
+1.	To use Natural Language Processing (NLP) to automate and standardise the extraction and classification of suspected ICD10 Q87.8 congenital anomaly diagnoses from free text.
+2.	To use genetic data to validate these suspected diagnoses, which will include defining a data linkage method between the two datasets.

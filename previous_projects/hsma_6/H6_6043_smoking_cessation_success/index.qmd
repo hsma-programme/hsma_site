@@ -1,0 +1,49 @@
+---
+title: "Predictive modelling for smoking cessation success"
+techniques:
+  - Machine Learning
+  - Explainable AI
+  - Causal Analysis
+areas:
+  - Smoking
+  - Public Health
+  - Council
+categories:
+  - Machine Learning
+  - Explainable AI
+  - Causal Analysis
+  - Smoking
+  - Public Health
+  - Council
+author:
+  - name: Ryan Hutchings
+    affiliation: Dorset Council
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+Smoking is a leading cause of preventable diseases and deaths worldwide. Despite numerous public health campaigns and interventions, smoking cessation remains a significant challenge. Understanding the factors that contribute to successful smoking cessation can help in designing more effective interventions.
+
+Certain pathways may suit individuals needs differently and thus have different likelihoods of success. This model will help to show which demographics and pathways are most effective at achieving a successful quit.
+
+The primary goal of this project is to develop a predictive model that identifies individuals likely to stop smoking based on their demographics and/or behaviours. Additionally, the project aims to uncover key predictors that can possibly influence smoking cessation, providing insights into the traits and behaviours that contribute to quitting smoking and which pathways offer better results for people.
+
+Several machine learning algorithms will be considered, including logistic regression, decision trees, random forests, and neural networks. Each algorithm will be evaluated for its predictive accuracy and interpretability.
+
+Depending on the complexity of the data to be used, we will also consider employing ensembled methods to leverage the power of different models on one dataset.

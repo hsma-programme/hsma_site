@@ -1,11 +1,16 @@
 ---
 title: "Forecasting blood donation session capacity"
 techniques:
-  -
+  - Machine Learning
+  - Streamlit
 areas:
-  -
+  - Blood & Transplant
+  - Non-attendance Prediction
 categories:
-  - Machine learning
+  - Machine Learning
+  - Streamlit
+  - Blood & Transplant
+  - Non-attendance Prediction
 author:
   - name: Sam Plimmer
     affiliation: NHS Blood and Transplant
@@ -29,4 +34,9 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
+Blood donation sessions have limits of how many people will be able to attend a session.  Bookings for sessions often don’t convert into actual donations due to cancellations, non-attendance and medical rejections.  These missed collections represent a lost opportunity to successfully bring someone in to donate.
 
+The aim of this project is to:
+
+1.	Develop a Machine Learning-based predictive tool to assess, of the current bookings made for a session, what proportion of these are likely to take place, and if there is room for additional capacity
+2.	Build a web based app that demonstrates the above and allows users to review current available capacity at each session
