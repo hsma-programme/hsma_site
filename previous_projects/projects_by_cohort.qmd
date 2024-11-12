@@ -69,7 +69,7 @@ Click on the preview for each project to read the full details and watch a short
 
 ## Alumni Projects
 
-:::{.callout-important appearange="minimal"}
+:::{.callout-important appearance="minimal"}
 HSMA alumni can now register a project at any point and receive support from HSMA staff, mentors and alumni.  This section contains projects registered by alumni of earlier rounds of the programme.
 :::
 
@@ -78,7 +78,7 @@ HSMA alumni can now register a project at any point and receive support from HSM
 
 ## HSMA 6
 
-:::{.callout-important appearange="minimal"}
+:::{.callout-important appearance="minimal"}
 Our current cohort of students entered the project phase of the programme in October 2024.
 :::
 
