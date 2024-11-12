@@ -98,7 +98,7 @@ listing:
       page-size: 1000
       categories: false
       include:
-        categories: "{Intensive Care Units & Intensive Therapy Units (ICU/ITU)}*"
+        categories: "{Intensive Care Units & Intensive Therapy Units (ICU & ITU)}*"
       template: ../html/previous_projects/listing.ejs
     - id: cdc_projects
       contents: "*/*/index.qmd"
@@ -213,7 +213,7 @@ listing:
 :::{#inpatient_projects}
 :::
 
-### Intensive Care Units & Intensive Therapy Units (ICU/ITU)
+### Intensive Care Units & Intensive Therapy Units (ICU & ITU)
 
 :::{#icu_itu_projects}
 :::
@@ -234,7 +234,7 @@ listing:
 :::
 
 
-## Supporting
+## Supporting Services
 
 ### NHS Blood & Transplant
 

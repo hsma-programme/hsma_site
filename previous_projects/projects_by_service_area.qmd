@@ -1,5 +1,5 @@
 ---
-title: "Projects by Area"
+title: "Projects by Area of Care"
 toc-location: right
 title-block-banner: banner.png
 toc-expand: 2

@@ -7,7 +7,7 @@ techniques:
   - Quarto
 areas:
   - Physiotherapy
-  - Intensive Care Units & Intensive Therapy Units (ICU/ITU)
+  - Intensive Care Units & Intensive Therapy Units (ICU & ITU)
   - Staffing Level Optimisation
   - Seasonal Patterns
 categories:
@@ -15,7 +15,7 @@ categories:
   - Forecasting
   - Streamlit
   - Quarto
-  - Intensive Care Units & Intensive Therapy Units (ICU/ITU)
+  - Intensive Care Units & Intensive Therapy Units (ICU & ITU)
   - Staffing Level Optimisation
   - Seasonal Patterns
 author:
