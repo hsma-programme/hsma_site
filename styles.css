@@ -7,8 +7,22 @@
   }
 
   .columns {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    align-content: center;
+    gap: 10px;
+  }
+
+  .column {
+    flex: 0 1;
+    min-width: 300px;
+    margin: 10px;
+    max-width: 100%;
 
   }
+
 
  }
 
@@ -22,7 +36,6 @@
   }
 
 }
-
 
 .navbar-nav.navbar-nav-scroll {
   --bs-scroll-height: 100vh;
