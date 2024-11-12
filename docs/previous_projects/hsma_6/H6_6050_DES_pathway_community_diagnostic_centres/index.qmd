@@ -1,0 +1,33 @@
+---
+title: "Discrete Event Simulation model to support the flow of patients through Community Diagnostic Centres"
+techniques:
+  -
+areas:
+  -
+categories:
+  - Discrete event simulation
+  - Streamlit
+author:
+  - name: Martin Bloyce
+    affiliation: NHS England
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+Here is some text about the project

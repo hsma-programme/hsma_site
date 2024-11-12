@@ -1,0 +1,33 @@
+---
+title: "Modelling the benefit of MECC (Making Every Contact Count) Training using agent based simulation"
+techniques:
+  -
+areas:
+  -
+categories:
+  - Agent based simulation
+  - Streamlit
+author:
+  - name: Dominic Rowney
+    affiliation: North of England Commissioning Support Unit (NECSU)
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+Here is some text about the project

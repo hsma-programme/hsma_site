@@ -1,0 +1,32 @@
+---
+title: "Agent Based Simulation modelling influences on access to hospice care"
+techniques:
+  -
+areas:
+  -
+categories:
+  - Agent based simulation
+author:
+  - name: Helen Cameron
+    affiliation: Ashgate Hospice
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+Here is some text about the project

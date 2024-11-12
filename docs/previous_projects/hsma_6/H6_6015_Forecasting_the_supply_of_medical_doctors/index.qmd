@@ -1,0 +1,37 @@
+---
+title: "Forecasting the supply of medical doctors"
+techniques:
+  -
+areas:
+  -
+categories:
+  - Forecasting
+author:
+  - name: Sara Fundu
+    affiliation: The Royal College of Pathologists
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+The problem: Not enough medical doctors by region and we need to establish the gap between what we have and what we need.
+
+The Aim: Forecast medical doctors required by region, taking into account relevant factors for example, trainees coming in, population etc.
+
+The Output: To plot a graph to show our current supply and what we demand.
+Bonus would be to be able to simulate outcome of demand, if input is amended to reflect different scenarios i.e. number of trainees decreases or population ill health increases etc

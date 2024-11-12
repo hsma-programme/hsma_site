@@ -1,0 +1,44 @@
+---
+title: "Understaning drivers of increased length of stay"
+techniques:
+  -
+areas:
+  -
+categories:
+  - Casual Analysis
+  - Machine Leanring
+  - Synthetic data
+  - Streamlit
+  - System Dynamics
+author:
+  - name: Jake Kealey
+    affiliation: North Central London ICB
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+NCL has observed a consistent increase in long Length of Stay (LoS) over the past 5 years. Increasing length of stay means a higher capacity is needed for the same demand which causes system strain.
+Stakeholders are interested in understanding why length of stay has increased within NCL so that that can introduce appropriate measures to reduce it.
+
+This project proposes to develop a causal model that can be used to identify relations between admission features, operations and length of stay. The model will be used to understand site level drivers to estimate the potential impact of proposed interventions.
+
+Key Aims:
+To build a qualitative model of the drivers of Length of Stay in acute providers in NCL
+Build a quantitative model(s) of LoS
+Model changes in LoS in response to interventions (stretching)

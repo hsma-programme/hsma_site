@@ -1,0 +1,36 @@
+---
+title: "Discrete Event Simulation modelling of childrens ADHD diagnosis and treatment"
+techniques:
+  -
+areas:
+  -
+categories:
+  -
+author:
+  - name: Heath McDonald
+    affiliation: Lancashire and South Cumbria NHS Foundation Trust
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+This project is using Discrete Event Simulation to model the children's ADHD diagnostic and treatment pathway. The model will be used to identify delays and potential strategies to reduce waiting lists and waiting times for children accessing treatment.
+
+The current assessment process is lengthy, proposing a new pathway that would include undertaking some of the diagnostic testing before undertaking a more comprehensive testing so that there is more confidence that patients who have assessments have ADHD.
+
+The model will capture the changes to the pathway to assess the potential impact of these changes on waiting times and will also capture formal diagnosis and medication titration aspects of the pathway. The model may be extended to look at further 1:1 and group session appointments.

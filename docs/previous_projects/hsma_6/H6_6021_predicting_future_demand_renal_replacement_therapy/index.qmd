@@ -1,0 +1,37 @@
+---
+title: "Predicting the future demand for Renal replacement therapy"
+techniques:
+  -
+areas:
+  -
+categories:
+  - Forecasting
+author:
+  - name: Sandhya Radha Krishnakumar
+    affiliation: NHS England
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+The problem: Kidney disease is projected to be the fifth leading cause of premature deaths globally by 2040. With people living longer and having more comorbidities, the demand for dialysis and transplants is rising and exceeding capacity. In England, the system is at full capacity for in-centre dialysis, requiring immediate action and a long-term strategy to optimise care.
+
+The result: Incorporate forecasting techniques to predict the future demand based on population prediction (data available in ONF and prevalence data available in QOF).
+
+The aim: To develop a model to help tackle this demand - either increasing home dialysis or introducing a new dialysis centre
+

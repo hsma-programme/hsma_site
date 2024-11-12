@@ -1,0 +1,33 @@
+---
+title: "Applying Natural Language Processing to automate the extraction and classificiation of congenital anomaly diagnoses from free text and genetic data"
+techniques:
+  -
+areas:
+  -
+categories:
+  - Natural Language Processing
+  - Streamlit
+author:
+  - name: Charlotte Eversfield
+    affiliation: National Disease Registration Service, NHS England
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+Here is some text about the project
