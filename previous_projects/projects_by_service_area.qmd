@@ -222,6 +222,56 @@ listing:
       include:
         categories: "{Mental Health Inpatients}*"
       template: ../html/previous_projects/listing.ejs
+    - id: maternity_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Maternity}*"
+      template: ../html/previous_projects/listing.ejs
+    - id: renal_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Renal}*"
+      template: ../html/previous_projects/listing.ejs
+    - id: covid19_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{COVID-19}*"
+      template: ../html/previous_projects/listing.ejs
+    - id: older_adult_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Older Adults}*"
+      template: ../html/previous_projects/listing.ejs
+    - id: neurology_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Neurology}*"
+      template: ../html/previous_projects/listing.ejs
 ---
 
 ## Emergency Departments
@@ -265,6 +315,20 @@ listing:
 :::{#policing_projects}
 :::
 
+## Age Groups
+
+### Paediatric
+
+:::{#paediatric_projects}
+:::
+
+
+### Older Adults
+
+:::{#paediatric_projects}
+:::
+
+
 ## Mental Health
 
 ### General Mental Health Projects
@@ -282,6 +346,8 @@ listing:
 :::{#mh_inpatients_projects}
 :::
 
+
+
 ## Diseases
 
 ### Diabetes
@@ -295,7 +361,10 @@ listing:
 :::{#cancer_projects}
 :::
 
+### COVID-19
 
+:::{#covid19_projects}
+:::
 
 
 ## Service Areas
@@ -313,9 +382,19 @@ listing:
 :::
 
 
+### Maternity
+
+:::{#maternity_projects}
+:::
+
 ### Neonatal
 
 :::{#neonatal_projects}
+:::
+
+### Neurology
+
+:::{#neurology_projects}
 :::
 
 
@@ -324,10 +403,11 @@ listing:
 :::{#orthopaedic_projects}
 :::
 
-### Paediatric
+### Renal
 
-:::{#paediatric_projects}
+:::{#renal_projects}
 :::
+
 
 ### Respiratory
 
