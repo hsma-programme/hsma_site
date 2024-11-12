@@ -1,14 +1,22 @@
 ---
 title: "Forecasting acute bed occupancy, and simulating short term demand and capacity for acute beds"
 techniques:
-  -
+  - Forecasting
+  - Machine Learning
+  - Discrete Event Simulation (DES)
+  - Streamlit
 areas:
-  -
+  - Length of Stay
+  - Inpatients
+  - Bed Occupancy
 categories:
   - Forecasting
-  - Machine learning
-  - Discrete Event Simulation
+  - Machine Learning
+  - Discrete Event Simulation (DES)
   - Streamlit
+  - Length of Stay
+  - Inpatients
+  - Bed Occupancy
 author:
   - name: Rey Tan
     affiliation: Royal United Hospitals Bath NHS Foundation Trust
@@ -35,8 +43,9 @@ pub-info:
 The aim of this project is to develop a tool to perform time series forecasting on bed occupancy based on historical data, incorporating variables like seasonality and growth. To build a web-based application that enables end users to simulate acute bed model, with the ability to include variables like closed beds, additional capacity, community availability etc, in turn aiding decision making.
 
 The problem:
-Current bed occupancy forecast is done on Excel based on historical monthly averages
-High level position but lacking in flexibility
-Daily bed model is manually tweaked, and unable to simulate possible outcome
+
+- Current bed occupancy forecast is done on Excel based on historical monthly averages
+- High level position but lacking in flexibility
+- Daily bed model is manually tweaked, and unable to simulate possible outcome
 
 Using Machine learning and discrete event simulation the aim is for the project to predict values close to actual measures. For the user to utilise the web app on a day to day basis and find it a reliable tool for decision making.

@@ -1,13 +1,16 @@
 ---
 title: "Modelling eye injection pathways"
 techniques:
-  -
-areas:
-  -
-categories:
-  - Agent Based Simulation
-  - Discrete Event Simulation
+  - Agent Based Simulation (ABS)
+  - Discrete Event Simulation (DES)
   - Streamlit
+areas:
+  - Opthalmology
+categories:
+  - Agent Based Simulation (ABS)
+  - Discrete Event Simulation (DES)
+  - Streamlit
+  - Opthalmology
 author:
   - name: Luke Herbert
     affiliation: Surrey and Sussex Healthcare NHS Trust
@@ -33,10 +36,12 @@ pub-info:
 
 This project aims to develop a comprehensive and flexible simulation model to optimise anti-VEGF treatment strategies in ophthalmology. The model will address the complex challenges in anti-VEGF treatments, including frequent injections, multiple treatment options, and diverse strategies, whilst considering the significant resource consumption and high costs associated with these treatments.
 
-Key features of the project include: Dual modelling approach using Mesa and SimPy frameworks to determine the most suitable platform.
-Modular design to accommodate various treatment strategies, drug efficacies, and clinic capacities.
-User-friendly interface with interactive dashboards for stakeholders to explore different scenarios.
-Analysis of clinical effectiveness, costs, and resource requirements for various treatment approaches.
-Adaptability to incorporate new drugs and treatment paradigms as they emerge.
+Key features of the project include:
+
+- Dual modelling approach using Mesa and SimPy frameworks to determine the most suitable platform.
+- Modular design to accommodate various treatment strategies, drug efficacies, and clinic capacities.
+- User-friendly interface with interactive dashboards for stakeholders to explore different scenarios.
+- Analysis of clinical effectiveness, costs, and resource requirements for various treatment approaches.
+- Adaptability to incorporate new drugs and treatment paradigms as they emerge.
 
 Project Objectives: The project aims to provide a tool for data-driven decision-making in ophthalmology clinic management, potentially improving patient outcomes whilst optimising resource use and costs.

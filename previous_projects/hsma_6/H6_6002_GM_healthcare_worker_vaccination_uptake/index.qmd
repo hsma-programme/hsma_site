@@ -1,12 +1,18 @@
 ---
 title: "Geographic and Boosted Tree Modelling of Healthcare worker vaccination uptake"
 techniques:
-  -
+  - Geographic Modelling
+  - Machine Learning
 areas:
-  -
+  - Vaccination
+  - COVID-19
+  - Workforce
 categories:
   - Geographic Modelling
   - Machine Learning
+  - Vaccination
+  - COVID-19
+  - Workforce
 author:
   - name: Yasmin Ibrahim
     affiliation: NHS England

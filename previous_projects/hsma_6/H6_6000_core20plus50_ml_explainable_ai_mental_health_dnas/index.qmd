@@ -1,19 +1,26 @@
 ---
 title: "Using Machine Learning and Explainable AI to predict and understand mental health appointment DNAs to reduce inequalities "
 techniques:
-  -
+  - Machine Learning
+  - Geographic Modelling
+  - Travel Times
+  - Explainable AI
 areas:
-  -
+  - Mental Health
+  - Non-attendance Prediction
+  - Inequalities
+  - Community mental Health
 categories:
   - Machine Learning
   - Geographic Modelling
+  - Travel Times
+  - Explainable AI
 author:
   - name: Heath McDonald
     affiliation: Lancashire and South Cumbria NHS Foundation Trust
 image: "../placeholder.png"
 title-block-banner: ../../banner.png
 status: Active
-project-code: 6000
 pub-info:
   abstract:
   links:

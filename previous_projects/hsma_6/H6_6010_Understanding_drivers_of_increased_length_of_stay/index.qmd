@@ -1,15 +1,24 @@
 ---
-title: "Understaning drivers of increased length of stay"
+title: "Understanding drivers of increased length of stay"
 techniques:
-  -
-areas:
-  -
-categories:
   - Casual Analysis
-  - Machine Leanring
-  - Synthetic data
+  - Machine Learning
+  - Explainable AI
+  - Synthetic Data
   - Streamlit
   - System Dynamics
+areas:
+  - Length of Stay
+  - Inpatients
+categories:
+  - Casual Analysis
+  - Machine Learning
+  - Explainable AI
+  - Synthetic Data
+  - Streamlit
+  - System Dynamics
+  - Length of Stay
+  - Inpatients
 author:
   - name: Jake Kealey
     affiliation: North Central London ICB
@@ -39,6 +48,7 @@ Stakeholders are interested in understanding why length of stay has increased wi
 This project proposes to develop a causal model that can be used to identify relations between admission features, operations and length of stay. The model will be used to understand site level drivers to estimate the potential impact of proposed interventions.
 
 Key Aims:
-To build a qualitative model of the drivers of Length of Stay in acute providers in NCL
-Build a quantitative model(s) of LoS
-Model changes in LoS in response to interventions (stretching)
+
+- To build a qualitative model of the drivers of Length of Stay in acute providers in NCL
+- Build a quantitative model(s) of LoS
+- Model changes in LoS in response to interventions (stretching)

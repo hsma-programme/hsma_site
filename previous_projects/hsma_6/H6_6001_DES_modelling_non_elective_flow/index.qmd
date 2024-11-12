@@ -1,12 +1,19 @@
 ---
-title: "Discrete Event Simulation modelling of non elective flow"
+title: "Discrete Event Simulation modelling of Non-elective flow"
 techniques:
-  -
+  - Discrete Event Simulation (DES)
+  - Streamlit
 areas:
-  -
+  - Patient Flow
+  - Non-elective Admissions
+  - Emergency Departments
+  - Same-day Emergency Care
 categories:
-  - Discrete Event Simulation
-  - streamlit
+  - Discrete Event Simulation (DES)
+  - Streamlit
+  - Patient Flow
+  - Emergency Departments
+  - Same-day Emergency Care
 author:
   - name: Helena Robinson
     affiliation: Countess of Chester Hospital NHS FOundation Trust
@@ -32,10 +39,19 @@ pub-info:
 
 Poor patient flow is leading to (very) long waits for admission in Emergency Departments. This means there is poor performance against all the key ED wait metrics for the hospital and more importantly, there is evidence that long waits for admission in ED are associated with poorer outcomes for patients.
 
-The two main strategies employed to tackle this problem is increasing the number of beds (by creation of escalation beds) and trying to decrease discharge delays (reducing length of stay). Additionally, with Same Day Emergency Care (SDEC) facility it is unclear how the number of people admitted through this facility impacts the waits of those in ED.
+The two main strategies employed to tackle this problem is
 
-Given x beds, how far does admitted length of stay have to reduce to meet particular waiting time targets for those queuing in ED? (Evidence based target)
-If we open 15 beds but keep admitted length of stay the same, what is the impact on ED waiting times and the various targets? (Evidence for a particular management strategy)
-What is the optimum number of people to stream from ED to SDEC to minimise ED waits? (Evidence for a particular management strategy)
+- increasing the number of beds (by creation of escalation beds)
+- trying to decrease discharge delays (reducing length of stay).
 
-This project plans to create Discrete Event Simulation model(s), using HSMA training, to provide evidence for the questions above. Also hoping to create a friendly user interface that stakeholders can try out scenarios and help understand how the model works.
+Additionally, with the Same Day Emergency Care (SDEC) facility, it is unclear how the number of people admitted through this facility impacts the waits of those in ED.
+
+This projects aims to answer questions such as:
+
+- Given x beds, how far does admitted length of stay have to reduce to meet particular waiting time targets for those queuing in ED? (Evidence based target)
+- If we open 15 beds but keep admitted length of stay the same, what is the impact on ED waiting times and the various targets? (Evidence for a particular management strategy)
+- What is the optimum number of people to stream from ED to SDEC to minimise ED waits? (Evidence for a particular management strategy)
+
+This project plans to create Discrete Event Simulation model(s), using HSMA training, to provide evidence for the questions above.
+
+The team are also hoping to create a friendly user interface that stakeholders can try out scenarios and help understand how the model works.

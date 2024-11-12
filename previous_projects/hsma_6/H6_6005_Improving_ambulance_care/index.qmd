@@ -1,12 +1,16 @@
 ---
 title: "Improving ambulance care via fast feedback from Quality Care Indicators"
 techniques:
-  -
+  - Machine Learning
+  - Natural Language Processing (NLP)
+  - Sentiment Analysis
 areas:
-  -
+  - Ambulance
 categories:
   - Machine Learning
-  - NLP
+  - Natural Language Processing (NLP)
+  - Sentiment Analysis
+  - Ambulance
 author:
   - name: Phil King
     affiliation: South Central Ambulance Service

@@ -1,11 +1,16 @@
 ---
 title: "Modelling the impact of 111 and GP access on Emergency Departments"
 techniques:
-  -
+  - Discrete Event Simulation (DES)
 areas:
-  -
+  - 111 Service
+  - Emergency Departments
+  - General Practice (GP)
 categories:
-  - Discrete Event Simulation
+  - Discrete Event Simulation (DES)
+  - 111 Service
+  - Emergency Departments
+  - General Practice (GP)
 author:
   - name: Sarah Blincko
     affiliation: NHS England

@@ -1,11 +1,20 @@
 ---
 title: "Discrete Event Simulation modelling of childrens ADHD diagnosis and treatment"
 techniques:
-  -
+  - Discrete Event Simulation (DES)
+  - Streamlit
 areas:
-  -
+  - Neurodiversity
+  - Paediatric
+  - Waiting Lists
+  - Waiting Times
 categories:
-  -
+  - Discrete Event Simulation (DES)
+  - Neurodiversity
+  - Streamlit
+  - Paediatric
+  - Waiting Lists
+  - Waiting Times
 author:
   - name: Heath McDonald
     affiliation: Lancashire and South Cumbria NHS Foundation Trust

@@ -1,11 +1,17 @@
 ---
-title: ""
+title: "Discrete Event Simulation and Artificially Intelligent Forecasting: Modelling the 62 Day Prostate Cancer Pathway"
 techniques:
-  -
+  - Discrete Event Simulation (DES)
+  - Streamlit
 areas:
-  -
+  - Cancer
+  - Waiting Times
 categories:
-  -
+  - Discrete Event Simulation (DES)
+  - Streamlit
+  - 2-week Wait
+  - Cancer
+  - Waiting Times
 author:
   - name:
     affiliation:
