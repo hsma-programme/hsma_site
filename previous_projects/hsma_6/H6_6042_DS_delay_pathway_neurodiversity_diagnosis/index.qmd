@@ -23,7 +23,11 @@ categories:
   - Waiting Times
 author:
   - name: Chris Meredith
-  - affiliation: Devon Partnership Trust
+    affiliation: Devon Partnership Trust
+  - name: Tristan Franklin
+    affiliation: Devon Partnership Trust
+  - name: Mike Cooke
+    affiliation: Devon Partnership Trust
 image: "../placeholder.png"
 title-block-banner: ../../banner.png
 status: Active
