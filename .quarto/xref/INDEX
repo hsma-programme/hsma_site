@@ -655,5 +655,59 @@
   },
   "previous_projects/completed_projects.qmd": {
     "completed_projects.html": "66e79dfd"
+  },
+  "foss.qmd": {
+    "foss.html": "fb17028b"
+  },
+  "previous_projects/hsma_6/H6_6000_core20plus50_ml_explainable_ai_mental_health_dnas/index.qmd": {
+    "index.html": "54d8e378"
+  },
+  "previous_projects/hsma_6/H6_6024_Streamlit_app_for_theographs_of_patient_journeys/index.qmd": {
+    "index.html": "20c06c64"
+  },
+  "previous_projects/hsma_6/H6_6026_Modelling_secondary_care_psychological_therapy_flow/index.qmd": {
+    "index.html": "337162a1"
+  },
+  "previous_projects/hsma_6/H6_6038_Ml_identifying_deteminants_prostate_cancers/index.qmd": {
+    "index.html": "870511a2"
+  },
+  "previous_projects/hsma_6/H6_6041_patients_risk_integrated_neighbourhood_teams/index.qmd": {
+    "index.html": "05dc4226"
+  },
+  "previous_projects/hsma_6/H6_6042_DS_delay_pathway_neurodiversity_diagnosis/index.qmd": {
+    "index.html": "ddbe4603"
+  },
+  "previous_projects/hsma_6/H6_6043_smoking_cessation_success/index.qmd": {
+    "index.html": "c3ede080"
+  },
+  "previous_projects/hsma_6/H6_6044_Population_segmentation_GP_registered_Dorset/index.qmd": {
+    "index.html": "cb7b25d8"
+  },
+  "previous_projects/hsma_6/H6_6045_Forecasting_NHS_Planning_Performance_metrics/index.qmd": {
+    "index.html": "489d5ec5"
+  },
+  "previous_projects/hsma_6/H6_6046_Proactive_Patient_attendance_prediction/index.qmd": {
+    "index.html": "5a29b862"
+  },
+  "previous_projects/hsma_6/H6_6047_RALPulator/index.qmd": {
+    "index.html": "9e39acdf"
+  },
+  "previous_projects/hsma_6/H6_6048_Concurrent_treatment_areas_RTT_pathway/index.qmd": {
+    "index.html": "da8b1751"
+  },
+  "previous_projects/hsma_6/H6_6049_ML_appointments_pathway/index.qmd": {
+    "index.html": "3ed1cbf1"
+  },
+  "previous_projects/hsma_6/H6_6050_DES_pathway_community_diagnostic_centres/index.qmd": {
+    "index.html": "fc72cb66"
+  },
+  "previous_projects/hsma_6/H6_6051_ABS_influences_access_hospice_care/index.qmd": {
+    "index.html": "d1ee2a06"
+  },
+  "previous_projects/hsma_6/H6_6052_GM_specialist_palliative_end_of_life_care/index.qmd": {
+    "index.html": "15b11b8a"
+  },
+  "previous_projects/hsma_6/H6_6053_pathologies_requiring_ITU_admission/index.qmd": {
+    "index.html": "ab9ee45a"
   }
 }

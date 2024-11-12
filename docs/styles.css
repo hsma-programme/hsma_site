@@ -130,6 +130,21 @@ a {
   border-radius: 5px;         /* Rounded corners */
 }
 
+
+.area-button {
+  background-color: #410f0f;  /* Dark Red background */
+  color: rgb(189, 189, 189);               /* Off-White text */
+  border: 2px solid rgb(138, 138, 138);    /* Off-White border */
+  padding: 5px 5px;         /* Padding for better clickability */
+  margin: 2px 0px;
+  font-size: 11px;            /* Font size */
+  font-weight: bold;          /* Bold text */
+  text-align: center;         /* Center the text */
+  text-decoration: none;      /* Remove underline from text */
+  cursor: none;               /* Normal cursor on hover */
+  border-radius: 5px;         /* Rounded corners */
+}
+
 .project-link-listing-button {
   background-color: #8a0000;  /* Grey background */
   color: rgb(218, 218, 218);               /* Off-White text */

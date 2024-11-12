@@ -1,67 +1,13 @@
 {
   "listingMap": {
-    "previous_projects\\index.qmd": [
-      "hsma_5/*/index.qmd",
-      "hsma_4/*/index.qmd",
-      "hsma_3/*/index.qmd"
-    ],
-    "previous_projects\\projects_by_methods.qmd": [
-      "*/*/index.qmd"
-    ],
-    "previous_projects\\projects_by_organisation.qmd": [
-      "*/*/index.qmd"
-    ],
-    "previous_projects\\projects_by_service_area.qmd": [
-      "*/*/index.qmd"
-    ],
-    "previous_projects/projects_by_methods.qmd": [
-      "*/*/index.qmd"
-    ],
-    "previous_projects/projects_by_service_area.qmd": [
-      "*/*/index.qmd"
-    ],
-    "previous_projects/index.qmd": [
-      "hsma_5/*/index.qmd",
-      "hsma_4/*/index.qmd",
-      "hsma_3/*/index.qmd"
-    ],
-    "previous_projects/projects_by_organisation.qmd": [
-      "*/*/index.qmd"
-    ],
-    "previous_projects/projects_by_cohort.qmd": [
-      "hsma_5/*/index.qmd",
-      "hsma_4/*/index.qmd",
-      "hsma_3/*/index.qmd"
-    ],
-    "previous_projects\\projects_by_cohort.qmd": [
-      "hsma_5/*/index.qmd",
-      "hsma_4/*/index.qmd",
-      "hsma_3/*/index.qmd",
-      "hsma_6/*/index.qmd"
-    ],
     "hsma_content\\books\\books.qmd": [
       "book_details/*.qmd"
     ],
-    "hsma_content\\modules\\modules.qmd": [
-      "current_module_details/*.qmd"
+    "hsma_content\\modules\\current_module_details\\1_intro_or_ds_python.qmd": [
+      "module_1_or_ds_python/*.qmd"
     ],
     "hsma_content\\modules\\current_module_details\\2_des.qmd": [
       "module_2_des/*.qmd"
-    ],
-    "hsma_content/modules/current_module_details/2_des.qmd": [
-      "module_2_des/*.qmd"
-    ],
-    "hsma_content/modules/modules.qmd": [
-      "current_module_details/*.qmd"
-    ],
-    "hsma_content/books/books.qmd": [
-      "book_details/*.qmd"
-    ],
-    "hsma_content/modules/current_module_details/1_intro_or_ds_python.qmd": [
-      "module_1_or_ds_python/*.qmd"
-    ],
-    "hsma_content\\modules\\current_module_details\\1_intro_or_ds_python.qmd": [
-      "module_1_or_ds_python/*.qmd"
     ],
     "hsma_content\\modules\\current_module_details\\3_geographic_modelling_visualisation.qmd": [
       "module_3_geographic/*.qmd"
@@ -78,14 +24,32 @@
     "hsma_content\\modules\\current_module_details\\7_git_and_web_development.qmd": [
       "module_7_git_streamlit/*.qmd"
     ],
-    "previous_projects\\projects_in_progress.qmd": [
-      "*/*/index.qmd"
+    "hsma_content\\modules\\modules.qmd": [
+      "current_module_details/*.qmd"
+    ],
+    "hsma_content\\reinforcement_learning_game.qmd": [
+      "module_4_ml/4h_reinforcement_learning.qmd"
     ],
     "previous_projects\\completed_projects.qmd": [
       "*/*/index.qmd"
     ],
-    "hsma_content\\reinforcement_learning_game.qmd": [
-      "module_4_ml/4h_reinforcement_learning.qmd"
+    "previous_projects\\projects_by_cohort.qmd": [
+      "hsma_6/*/index.qmd",
+      "hsma_5/*/index.qmd",
+      "hsma_4/*/index.qmd",
+      "hsma_3/*/index.qmd"
+    ],
+    "previous_projects\\projects_by_methods.qmd": [
+      "*/*/index.qmd"
+    ],
+    "previous_projects\\projects_by_organisation.qmd": [
+      "*/*/index.qmd"
+    ],
+    "previous_projects\\projects_by_service_area.qmd": [
+      "*/*/index.qmd"
+    ],
+    "previous_projects\\projects_in_progress.qmd": [
+      "*/*/index.qmd"
     ]
   }
 }
