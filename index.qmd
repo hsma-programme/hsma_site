@@ -117,7 +117,7 @@ Recordings of previous course sessions, as well as all of our course materials a
             <li class="splide__slide" data-splide-interval="14000">
 				<img src="resources/photos/5GlqPNuw.jpeg" alt="">
                 <div class="hsma_caption">
-                Conceived and run by Dr Daniel Chalk - chair of the PenCHORD research group and an operational researcher with years of experience working on projects with healthcare services - HSMA is designed to build data science and operational research capacity within organisations so that those who know the data and services best are able to make the most of the data their organisations hold.
+                Conceived and run by Dr Daniel Chalk - chair of the PenCHORD research group and an operational researcher with years of experience working on projects with healthcare services - and NIHR PenARC, HSMA is designed to build data science and operational research capacity within organisations so that those who know the data and services best are able to make the most of the data their organisations hold.
                 </div>
 			</li>
             <li class="splide__slide" data-splide-interval="10000">
@@ -301,7 +301,9 @@ You can also view projects [by method](previous_projects/projects_by_methods.qmd
 <br/><br/>
 ```
 
-HSMA is supported by the [NHS Digital Academy](https://www.england.nhs.uk/digitaltechnology/nhs-digital-academy/) and is accredited by the [Association of Professional Healthcare Analysts (AphA)](https://www.aphanalysts.org/)
+HSMA is supported by the [NHS Digital Academy](https://www.england.nhs.uk/digitaltechnology/nhs-digital-academy/) and delivered by a team belonging to the [NIHR Applied Research Collaboration South West Peninsula (PenARC)](https://arc-swp.nihr.ac.uk/).
+
+The programme is accredited by the [Association of Professional Healthcare Analysts (AphA)](https://www.aphanalysts.org/)
 
 :::
 
