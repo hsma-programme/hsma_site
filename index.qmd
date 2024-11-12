@@ -287,7 +287,7 @@ You can also view projects [by method](previous_projects/projects_by_methods.qmd
 
 ::: {.column width="35%"}
 
-![](resources/Apha-Logo.svg){height=200}
+![](resources/Apha-Logo.svg){max-height=200}
 
 :::
 
