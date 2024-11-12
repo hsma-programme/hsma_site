@@ -117,7 +117,7 @@ a {
 }
 
 .category-button {
-  background-color: #410f0f;  /* Dark Red background */
+  background-color: #202020;  /* Grey background */
   color: rgb(189, 189, 189);               /* Off-White text */
   border: 2px solid rgb(138, 138, 138);    /* Off-White border */
   padding: 5px 5px;         /* Padding for better clickability */
@@ -132,7 +132,7 @@ a {
 
 
 .area-button {
-  background-color: #202020;  /* Grey background */
+  background-color: #410f0f;  /* Dark Red background */
   color: rgb(189, 189, 189);               /* Off-White text */
   border: 2px solid rgb(138, 138, 138);    /* Off-White border */
   padding: 5px 5px;         /* Padding for better clickability */

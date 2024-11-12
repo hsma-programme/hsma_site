@@ -29,16 +29,6 @@
                 <% } else { %> <p class="listing-abstract"><%= item.description %></p>
                 <% } %>
 
-            <% if(item.techniques) { %>
-            <div class="quarto-categories">
-                <% for (const cat of item.techniques) { %>
-                  <% if(cat) { %>
-                      <button class="category-button"><%= cat %></button>
-                    <% } %>
-                  <% } %>
-            </div>
-            <% } %>
-
             <% if(item.areas) { %>
               <div class="quarto-categories">
                   <% for (const cat of item.areas) { %>
@@ -48,6 +38,16 @@
                     <% } %>
               </div>
               <% } %>
+
+            <% if(item.techniques) { %>
+            <div class="quarto-categories">
+                <% for (const cat of item.techniques) { %>
+                  <% if(cat) { %>
+                      <button class="category-button"><%= cat %></button>
+                    <% } %>
+                  <% } %>
+            </div>
+            <% } %>
 
             <% if(item.organisations) { %>
               <div class="listing-organisations">
