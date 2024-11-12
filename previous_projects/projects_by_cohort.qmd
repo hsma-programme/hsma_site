@@ -61,6 +61,16 @@ listing:
         ncols: 2
 ---
 
+```{=html}
+    <style>
+    h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: left;
+}
+    </style>
+```
+
 Here you can find details of a range of current and previously-completed HSMA projects.
 
 Use the categories on the right to filter projects by technique or service area.

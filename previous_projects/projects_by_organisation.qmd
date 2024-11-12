@@ -41,6 +41,16 @@ listing:
       template: ../html/previous_projects/listing.ejs
 ---
 
+```{=html}
+    <style>
+    h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: left;
+}
+    </style>
+```
+
 ## NHS
 
 :::{#nhs_projects}
