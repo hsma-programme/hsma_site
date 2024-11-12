@@ -1,5 +1,5 @@
 ---
-title: "![Welcome](resources/Chalky%20HSMA-07-wide.png){height=300px}"
+title: "![Welcome](resources/Chalky%20HSMA-07-wide.png){max-height=300px}"
 pagetitle: Welcome
 title-block-banner: resources/banner.png
 page-layout: full
@@ -16,8 +16,8 @@ body {
 }
 
 .splide__slide img {
-  width: auto;
-  height: 450px;
+  max-height: 450px;
+  max-width: 80%;
 }
 
 .splide__optional-button-container {
