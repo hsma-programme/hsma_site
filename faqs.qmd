@@ -1,6 +1,8 @@
 ---
 title: Frequently Asked Questions
 toc: True
+title-block-banner: resources/banner.png
+page-layout: full
 ---
 
 ## Will this cost me or my organisation money?
@@ -11,17 +13,17 @@ No. The HSMA Programme is funded to be offered free-of-charge to participants an
 
 HSMA has been selected to be the [first course accredited](https://arc-swp.nihr.ac.uk/news/accredited-hsma-gets-even-better/) by the [Association of Professional Healthcare Analysts (AphA)](https://www.aphanalysts.org/).
 
-HSMA Alumni can get in touch via [penchord@exeter.ac.uk](mailto:penchord@exeter.ac.uk) to dicuss accreditation. 
+HSMA Alumni can get in touch via [penchord@exeter.ac.uk](mailto:penchord@exeter.ac.uk) to dicuss accreditation.
 
 ## What is the time commitment for the programme?
 
-You will be required to commit one day a week for the duration of the programme. During the training phase (Phase 1 - 6 months) it is mandatory to attend the live lectures that take place every Tuesday. There are optional revision sessions for each module and project development clinics but there is no obligation to attend these. There is a one week break in June and a two week break in August, during which no commitment to the programme is required 
+You will be required to commit one day a week for the duration of the programme. During the training phase (Phase 1 - 6 months) it is mandatory to attend the live lectures that take place every Tuesday. There are optional revision sessions for each module and project development clinics but there is no obligation to attend these. There is a one week break in June and a two week break in August, during which no commitment to the programme is required
 
-New HSMAs undertaking their Inception Project are expected to work on their projects for a day a week throughout Phase 2, and present their work at the HSMA Conference at the end of the programme 
+New HSMAs undertaking their Inception Project are expected to work on their projects for a day a week throughout Phase 2, and present their work at the HSMA Conference at the end of the programme
 
 ## How is the programme delivered?
 
-The HSMA Programme is conducted entirely online. No attendance at physical meetings is required, unless relevant to your own projects. The programme is delivered predominantly as Live Lectures or meetings via Zoom, with some additional pre-recorded content available on our YouTube channel. 
+The HSMA Programme is conducted entirely online. No attendance at physical meetings is required, unless relevant to your own projects. The programme is delivered predominantly as Live Lectures or meetings via Zoom, with some additional pre-recorded content available on our YouTube channel.
 
 ## What support is available throughout the programme?
 
@@ -29,4 +31,4 @@ All HSMAs are signed up to the HSMA Community Hub (Slack workspace) – an onlin
 
 For Phase 1 (6 months), each HSMA is allocated a “Peer Support Group”. This is a group that they will work with throughout the training phase, for all exercises during training days, and also for peer support outside of training. HSMA trainers are also on hand throughout to answer questions and offer advice.
 
-For Phase 2 (9 months), HSMA's will have access to a community of experts including, data scientists, academics and HSMA tutors, who can provide support for projects in their areas of expertise. 
+For Phase 2 (9 months), HSMA's will have access to a community of experts including, data scientists, academics and HSMA tutors, who can provide support for projects in their areas of expertise.
