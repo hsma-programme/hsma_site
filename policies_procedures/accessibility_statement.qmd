@@ -1,5 +1,6 @@
 ---
 title: Accessibility Statement
+title-block-banner: ../resources/banner.png
 ---
 
 ## Feedback and contact information

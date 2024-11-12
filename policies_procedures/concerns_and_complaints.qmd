@@ -1,5 +1,6 @@
 ---
 title: Concerns and Complaints
+title-block-banner: ../resources/banner.png
 ---
 
 We hope that participants' experience on HSMA is not only informative and educational, but also fun and enjoyable.  We endeavour to provide a safe, happy and inclusive learning environment for all of our participants.  However, should any participant have any concerns or complaints about any aspect of the programme, they should either :

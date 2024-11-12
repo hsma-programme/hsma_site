@@ -1,6 +1,7 @@
 ---
 title: Code of Conduct
 date: October 2023
+title-block-banner: ../resources/banner.png
 ---
 
 Health Service Modelling Associates (HSMA) Programme Code of Conduct
