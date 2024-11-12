@@ -162,6 +162,11 @@ listing:
       template: ../html/previous_projects/listing.ejs
 ---
 
+Here you can find details of a range of current and previously-completed HSMA projects, split by where care takes place.
+
+Click on the preview for each project to read the full details. For many completed projects, you can watch a short talk from the HSMAs who undertook the project on their plans, successes and challenges.
+
+
 ## Ambulance
 
 :::{#ambulance_projects}
