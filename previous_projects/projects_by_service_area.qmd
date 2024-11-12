@@ -303,6 +303,7 @@ listing:
       categories: false
       include:
         categories: "{Physiotherapy}*"
+      template: ../html/previous_projects/listing.ejs
     - id: council_projects
       contents: "*/*/index.qmd"
       sort: "date desc"
@@ -312,6 +313,7 @@ listing:
       categories: false
       include:
         categories: "{Council}*"
+      template: ../html/previous_projects/listing.ejs
     - id: iapt_projects
       contents: "*/*/index.qmd"
       sort: "date desc"
@@ -321,6 +323,7 @@ listing:
       categories: false
       include:
         categories: "{NHS Talking Therapies (Formerly IAPT)}*"
+      template: ../html/previous_projects/listing.ejs
 ---
 
 ## Mental Health
