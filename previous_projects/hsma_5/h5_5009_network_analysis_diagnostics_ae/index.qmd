@@ -3,7 +3,7 @@ title: "Network Analysis of diagnostic procedures in A&E setting"
 categories:
   - Network Analysis
   - Plotly Dash
-  - Accident & Emergency
+  - Emergency Departments
   - Diagnostic Procedures
   - ECDS Dataset
   - NHS
