@@ -272,6 +272,16 @@ listing:
       include:
         categories: "{Neurology}*"
       template: ../html/previous_projects/listing.ejs
+    - id: womens_health_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Women's Health}*"
+      template: ../html/previous_projects/listing.ejs
 ---
 
 ## Emergency Departments
@@ -315,9 +325,9 @@ listing:
 :::{#policing_projects}
 :::
 
-## Age Groups
+## Patient Groups
 
-### Paediatric
+### Children (Paediatrics)
 
 :::{#paediatric_projects}
 :::
@@ -325,9 +335,13 @@ listing:
 
 ### Older Adults
 
-:::{#paediatric_projects}
+:::{#older_adult_projects}
 :::
 
+### Women's health
+
+:::{#womens_health_projects}
+:::
 
 ## Mental Health
 
