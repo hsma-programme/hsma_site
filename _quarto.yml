@@ -26,6 +26,7 @@ website:
   navbar:
     logo: "/resources/Chalky HSMA-07-wide white logo.png"
     title: false
+    collapse-below: "xl"
     tools:
       - icon: youtube
         href: https://www.youtube.com/@hsma
@@ -69,7 +70,7 @@ website:
             text: The DES Playground
           - href: hsma_content/reinforcement_learning_game.qmd
             text: Reinforcement Learning Game
-      
+
       - text: "About"
         menu:
           - href: about-hsma.qmd
