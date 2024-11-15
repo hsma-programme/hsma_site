@@ -165,6 +165,138 @@
     ]
   },
   {
+    "listing": "/previous_projects/projects_by_theme.html",
+    "items": [
+      "/previous_projects/hsma_5/h5_5005_des_elective_surgery_pathways/index.html",
+      "/previous_projects/hsma_5/h5_5012_forecasting_demand_clock_starts/index.html",
+      "/previous_projects/hsma_5/h5_5015_des_dorset_rheumatology/index.html",
+      "/previous_projects/hsma_6/H6_6003_DESmond_62_day_prostate_cancer_pathway/index.html",
+      "/previous_projects/hsma_6/H6_6004_DES_orthopaedic_theatre_capacity_optimisation/index.html",
+      "/previous_projects/hsma_6/H6_6006_DES_childrens_ADHD_diagnosis_and_treatment/index.html",
+      "/previous_projects/hsma_6/H6_6017_Referral_to  treatment_waiting_times_for_Neurosurgical_patients/index.html",
+      "/previous_projects/hsma_6/H6_6025_Modelling_delays_in_breast_head_neck_cancer_pathways/index.html",
+      "/previous_projects/hsma_6/H6_6026_Modelling_secondary_care_psychological_therapy_flow/index.html",
+      "/previous_projects/hsma_6/H6_6042_DS_delay_pathway_neurodiversity_diagnosis/index.html",
+      "/previous_projects/hsma_6/H6_6049_ML_appointments_pathway/index.html",
+      "/previous_projects/hsma_alumni/H1_1100_Geographic_modelling_of_resource_utilisation_at_DAA/index.html",
+      "/previous_projects/hsma_alumni/H4_4100_Automating_and_scaling_waiting_list_equity_analysis_at_trust_level_/index.html",
+      "/previous_projects/hsma_4/h4_service_planning_inequalities_carbon_output/index.html",
+      "/previous_projects/hsma_6/H6_6029_ML_to_identify_possible_outpatient_DNAs/index.html",
+      "/previous_projects/hsma_6/H6_6034_Forcasting_blood_donation_sesion_capacity/index.html",
+      "/previous_projects/hsma_6/H6_6046_Proactive_Patient_attendance_prediction/index.html",
+      "/previous_projects/hsma_4/h4_des_adhd_autism_pathway/index.html",
+      "/previous_projects/hsma_4/h4_pifu_digital_outpatients_elective_recovery/index.html",
+      "/previous_projects/hsma_5/h5_5006__ml_inequities_hospital_procedure_access/index.html",
+      "/previous_projects/hsma_5/h5_5010_health_equity_audits_cdc/index.html",
+      "/previous_projects/hsma_5/h5_5016_inequalities_demographic/index.html",
+      "/previous_projects/hsma_6/H6_6037_mapping_health_inequalities/index.html",
+      "/previous_projects/hsma_6/H6_6048_Concurrent_treatment_areas_RTT_pathway/index.html",
+      "/previous_projects/hsma_alumni/H5_5100_Extra_funding_allocation_inequality_tool/index.html",
+      "/previous_projects/hsma_4/h4_des_amu_flow/index.html",
+      "/previous_projects/hsma_5/h5_5004_effect_complex_discharge_delays_acute_perform/index.html",
+      "/previous_projects/hsma_6/H6_6001_DES_modelling_non_elective_flow/index.html",
+      "/previous_projects/hsma_6/H6_6050_DES_pathway_community_diagnostic_centres/index.html"
+    ]
+  },
+  {
+    "listing": "/hsma_content/books/books.html",
+    "items": [
+      "/hsma_content/books/book_details/book_introduction_to_python.html",
+      "/hsma_content/books/book_details/book_des.html",
+      "/hsma_content/books/book_details/book_geographic_modelling.html",
+      "/hsma_content/books/book_details/book_machine_leaning.html",
+      "/hsma_content/books/book_details/book_streamlit.html"
+    ]
+  },
+  {
+    "listing": "/hsma_content/reinforcement_learning_game.html",
+    "items": [
+      "/hsma_content/modules/current_module_details/module_4_ml/4h_reinforcement_learning.html"
+    ]
+  },
+  {
+    "listing": "/hsma_content/modules/current_module_details/6_system_dynamics_agent_based_simulation.html",
+    "items": [
+      "/hsma_content/modules/current_module_details/module_6_sd_abs/6a_system_dynamics.html",
+      "/hsma_content/modules/current_module_details/module_6_sd_abs/6b_abs.html",
+      "/hsma_content/modules/current_module_details/module_6_sd_abs/6c_abs_mesa.html"
+    ]
+  },
+  {
+    "listing": "/hsma_content/modules/current_module_details/1_intro_or_ds_python.html",
+    "items": [
+      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1a_hsma_induction_welcome_to_hsma.html",
+      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1b_introduction_to_or_ds.html",
+      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1c_principles_of_programming.html",
+      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1d_ides_python_parlance.html",
+      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1e_python_1.html",
+      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1f_python_2.html",
+      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1g_python_3.html"
+    ]
+  },
+  {
+    "listing": "/hsma_content/modules/modules.html",
+    "items": [
+      "/hsma_content/modules/current_module_details/1_intro_or_ds_python.html",
+      "/hsma_content/modules/current_module_details/2_des.html",
+      "/hsma_content/modules/current_module_details/3_geographic_modelling_visualisation.html",
+      "/hsma_content/modules/current_module_details/4_machine_learning.html",
+      "/hsma_content/modules/current_module_details/5_natural_language_processing.html",
+      "/hsma_content/modules/current_module_details/6_system_dynamics_agent_based_simulation.html",
+      "/hsma_content/modules/current_module_details/7_git_and_web_development.html",
+      "/hsma_content/modules/current_module_details/8_modern_analytics.html"
+    ]
+  },
+  {
+    "listing": "/hsma_content/modules/current_module_details/4_machine_learning.html",
+    "items": [
+      "/hsma_content/modules/current_module_details/module_4_ml/4a_intro_ml.html",
+      "/hsma_content/modules/current_module_details/module_4_ml/4b_logistic_regression.html",
+      "/hsma_content/modules/current_module_details/module_4_ml/4c_ethics_in_ai.html",
+      "/hsma_content/modules/current_module_details/module_4_ml/4d_decision_trees_random_forests.html",
+      "/hsma_content/modules/current_module_details/module_4_ml/4e_boosted_trees_regression.html",
+      "/hsma_content/modules/current_module_details/module_4_ml/4f_neural_networks.html",
+      "/hsma_content/modules/current_module_details/module_4_ml/4g_explainable_ai.html",
+      "/hsma_content/modules/current_module_details/module_4_ml/4h_reinforcement_learning.html",
+      "/hsma_content/modules/current_module_details/module_4_ml/4i_synthetic_data.html",
+      "/hsma_content/modules/current_module_details/module_4_ml/4j_optimising_ml_models.html"
+    ]
+  },
+  {
+    "listing": "/hsma_content/modules/current_module_details/2_des.html",
+    "items": [
+      "/hsma_content/modules/current_module_details/module_2_des/2a_introduction_des.html",
+      "/hsma_content/modules/current_module_details/module_2_des/2b_simpy_des_1.html",
+      "/hsma_content/modules/current_module_details/module_2_des/2c_simpy_des_2.html"
+    ]
+  },
+  {
+    "listing": "/hsma_content/modules/current_module_details/3_geographic_modelling_visualisation.html",
+    "items": [
+      "/hsma_content/modules/current_module_details/module_3_geographic/3a_intro_geographic_qgis.html",
+      "/hsma_content/modules/current_module_details/module_3_geographic/3b_advanced_qgis_python_mapping.html",
+      "/hsma_content/modules/current_module_details/module_3_geographic/3c_interactive_maps_and_travel_time_data.html",
+      "/hsma_content/modules/current_module_details/module_3_geographic/3d_location_allocation_problems.html"
+    ]
+  },
+  {
+    "listing": "/hsma_content/modules/current_module_details/7_git_and_web_development.html",
+    "items": [
+      "/hsma_content/modules/current_module_details/module_7_git_streamlit/7a_version_control_git.html",
+      "/hsma_content/modules/current_module_details/module_7_git_streamlit/7b_intro_web_apps_streamlit.html",
+      "/hsma_content/modules/current_module_details/module_7_git_streamlit/7c_advanced_streamlit.html"
+    ]
+  },
+  {
+    "listing": "/hsma_content/modules/current_module_details/5_natural_language_processing.html",
+    "items": [
+      "/hsma_content/modules/current_module_details/module_5_nlp/5a_intro_nlp.html",
+      "/hsma_content/modules/current_module_details/module_5_nlp/5b_ner.html",
+      "/hsma_content/modules/current_module_details/module_5_nlp/5c_sentiment_analysis.html",
+      "/hsma_content/modules/current_module_details/module_5_nlp/5d_nlp_hackathon.html"
+    ]
+  },
+  {
     "listing": "/previous_projects/projects_by_methods.html",
     "items": [
       "/previous_projects/hsma_3/h3_elective_backlog_hip/index.html",
@@ -264,104 +396,6 @@
     ]
   },
   {
-    "listing": "/hsma_content/modules/current_module_details/5_natural_language_processing.html",
-    "items": [
-      "/hsma_content/modules/current_module_details/module_5_nlp/5a_intro_nlp.html",
-      "/hsma_content/modules/current_module_details/module_5_nlp/5b_ner.html",
-      "/hsma_content/modules/current_module_details/module_5_nlp/5c_sentiment_analysis.html",
-      "/hsma_content/modules/current_module_details/module_5_nlp/5d_nlp_hackathon.html"
-    ]
-  },
-  {
-    "listing": "/hsma_content/modules/current_module_details/7_git_and_web_development.html",
-    "items": [
-      "/hsma_content/modules/current_module_details/module_7_git_streamlit/7a_version_control_git.html",
-      "/hsma_content/modules/current_module_details/module_7_git_streamlit/7b_intro_web_apps_streamlit.html",
-      "/hsma_content/modules/current_module_details/module_7_git_streamlit/7c_advanced_streamlit.html"
-    ]
-  },
-  {
-    "listing": "/hsma_content/modules/current_module_details/3_geographic_modelling_visualisation.html",
-    "items": [
-      "/hsma_content/modules/current_module_details/module_3_geographic/3a_intro_geographic_qgis.html",
-      "/hsma_content/modules/current_module_details/module_3_geographic/3b_advanced_qgis_python_mapping.html",
-      "/hsma_content/modules/current_module_details/module_3_geographic/3c_interactive_maps_and_travel_time_data.html",
-      "/hsma_content/modules/current_module_details/module_3_geographic/3d_location_allocation_problems.html"
-    ]
-  },
-  {
-    "listing": "/hsma_content/modules/current_module_details/2_des.html",
-    "items": [
-      "/hsma_content/modules/current_module_details/module_2_des/2a_introduction_des.html",
-      "/hsma_content/modules/current_module_details/module_2_des/2b_simpy_des_1.html",
-      "/hsma_content/modules/current_module_details/module_2_des/2c_simpy_des_2.html"
-    ]
-  },
-  {
-    "listing": "/hsma_content/modules/current_module_details/4_machine_learning.html",
-    "items": [
-      "/hsma_content/modules/current_module_details/module_4_ml/4a_intro_ml.html",
-      "/hsma_content/modules/current_module_details/module_4_ml/4b_logistic_regression.html",
-      "/hsma_content/modules/current_module_details/module_4_ml/4c_ethics_in_ai.html",
-      "/hsma_content/modules/current_module_details/module_4_ml/4d_decision_trees_random_forests.html",
-      "/hsma_content/modules/current_module_details/module_4_ml/4e_boosted_trees_regression.html",
-      "/hsma_content/modules/current_module_details/module_4_ml/4f_neural_networks.html",
-      "/hsma_content/modules/current_module_details/module_4_ml/4g_explainable_ai.html",
-      "/hsma_content/modules/current_module_details/module_4_ml/4h_reinforcement_learning.html",
-      "/hsma_content/modules/current_module_details/module_4_ml/4i_synthetic_data.html",
-      "/hsma_content/modules/current_module_details/module_4_ml/4j_optimising_ml_models.html"
-    ]
-  },
-  {
-    "listing": "/hsma_content/modules/modules.html",
-    "items": [
-      "/hsma_content/modules/current_module_details/1_intro_or_ds_python.html",
-      "/hsma_content/modules/current_module_details/2_des.html",
-      "/hsma_content/modules/current_module_details/3_geographic_modelling_visualisation.html",
-      "/hsma_content/modules/current_module_details/4_machine_learning.html",
-      "/hsma_content/modules/current_module_details/5_natural_language_processing.html",
-      "/hsma_content/modules/current_module_details/6_system_dynamics_agent_based_simulation.html",
-      "/hsma_content/modules/current_module_details/7_git_and_web_development.html",
-      "/hsma_content/modules/current_module_details/8_modern_analytics.html"
-    ]
-  },
-  {
-    "listing": "/hsma_content/modules/current_module_details/1_intro_or_ds_python.html",
-    "items": [
-      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1a_hsma_induction_welcome_to_hsma.html",
-      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1b_introduction_to_or_ds.html",
-      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1c_principles_of_programming.html",
-      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1d_ides_python_parlance.html",
-      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1e_python_1.html",
-      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1f_python_2.html",
-      "/hsma_content/modules/current_module_details/module_1_or_ds_python/1g_python_3.html"
-    ]
-  },
-  {
-    "listing": "/hsma_content/modules/current_module_details/6_system_dynamics_agent_based_simulation.html",
-    "items": [
-      "/hsma_content/modules/current_module_details/module_6_sd_abs/6a_system_dynamics.html",
-      "/hsma_content/modules/current_module_details/module_6_sd_abs/6b_abs.html",
-      "/hsma_content/modules/current_module_details/module_6_sd_abs/6c_abs_mesa.html"
-    ]
-  },
-  {
-    "listing": "/hsma_content/reinforcement_learning_game.html",
-    "items": [
-      "/hsma_content/modules/current_module_details/module_4_ml/4h_reinforcement_learning.html"
-    ]
-  },
-  {
-    "listing": "/hsma_content/books/books.html",
-    "items": [
-      "/hsma_content/books/book_details/book_introduction_to_python.html",
-      "/hsma_content/books/book_details/book_des.html",
-      "/hsma_content/books/book_details/book_geographic_modelling.html",
-      "/hsma_content/books/book_details/book_machine_leaning.html",
-      "/hsma_content/books/book_details/book_streamlit.html"
-    ]
-  },
-  {
     "listing": "/previous_projects/projects_by_service_type_location.html",
     "items": [
       "/previous_projects/hsma_4/h4_booked_appointments_utc/index.html",
@@ -449,6 +483,7 @@
       "/previous_projects/hsma_6/H6_6023_predicting_gestational_diabetes_using_ML/index.html",
       "/previous_projects/hsma_4/h4_predicting_violent_incidents_mh_inpatients/index.html",
       "/previous_projects/hsma_6/H6_6021_predicting_future_demand_renal_replacement_therapy/index.html",
+      "/previous_projects/hsma_6/H6_6009_ML_to_predict_future_fraility/index.html",
       "/previous_projects/hsma_6/H6_6018_predicting_risk_of_injurious_falls/index.html",
       "/previous_projects/hsma_6/H6_6017_Referral_to  treatment_waiting_times_for_Neurosurgical_patients/index.html",
       "/previous_projects/hsma_6/H6_6040_benefit_of_MECC_using_ABS/index.html",
