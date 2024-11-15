@@ -4,9 +4,11 @@ techniques:
   - Forecasting
 areas:
   - Workforce
+  - Demand & Capacity
 categories:
   - Forecasting
   - Workforce
+  - Demand & Capacity
 author:
   - name: Sara Fundu
     affiliation: The Royal College of Pathologists

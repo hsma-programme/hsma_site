@@ -4,9 +4,11 @@ techniques:
   - Machine Learning
 areas:
   - Frailty
+  - Older Adults
 categories:
   - Machine Learning
   - Frailty
+  - Older Adults
 author:
   - name: Emil Frances-Chi
     affiliation: NHS West Yorkshire ICB - Wakefield

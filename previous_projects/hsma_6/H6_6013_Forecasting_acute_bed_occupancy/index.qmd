@@ -9,6 +9,7 @@ areas:
   - Length of Stay
   - Inpatients
   - Bed Occupancy
+  - Demand & Capacity
 categories:
   - Forecasting
   - Machine Learning
@@ -17,6 +18,7 @@ categories:
   - Length of Stay
   - Inpatients
   - Bed Occupancy
+  - Demand & Capacity
 author:
   - name: Rey Tan
     affiliation: Royal United Hospitals Bath NHS Foundation Trust

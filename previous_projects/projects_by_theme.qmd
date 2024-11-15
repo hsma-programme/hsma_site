@@ -1,0 +1,90 @@
+---
+title: "Projects by Area of Care"
+toc-location: right
+title-block-banner: banner.png
+toc-expand: 2
+include-back-link: false
+grid:
+  sidebar-width: 0px
+  body-width: 1100px
+  margin-width: 300px
+  gutter-width: 1.5rem
+listing:
+    - id: waiting_lists_and_waiting_times_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Waiting Lists,Waiting Times}"
+      template: ../html/previous_projects/listing.ejs
+    - id: non_attendance_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Non-attendance Prediction}"
+      template: ../html/previous_projects/listing.ejs
+    - id: reducing_backlogs_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Reducing Backlogs}"
+      template: ../html/previous_projects/listing.ejs
+    - id: inequalities_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Inequalities}"
+      template: ../html/previous_projects/listing.ejs
+    - id: patient_flow_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Patient Flow}"
+      template: ../html/previous_projects/listing.ejs
+---
+
+
+## Waiting Lists and Waiting Times
+
+:::{#waiting_lists_and_waiting_times_projects}
+:::
+
+## Reducing Backlogs
+
+:::{#reducing_backlogs_projects}
+:::
+
+## Patient Flow
+
+:::{#patient_flow_projects}
+:::
+
+## Addressing Inequalities
+
+:::{#inequalities_projects}
+:::
+
+
+## Patient Non-attendance
+
+:::{#waiting_lists_and_waiting_times_projects}
+:::

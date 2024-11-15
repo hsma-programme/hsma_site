@@ -9,7 +9,7 @@ areas:
   - Mental Health
   - Non-attendance Prediction
   - Inequalities
-  - Community mental Health
+  - Community Mental Health
 categories:
   - Machine Learning
   - Geographic Modelling

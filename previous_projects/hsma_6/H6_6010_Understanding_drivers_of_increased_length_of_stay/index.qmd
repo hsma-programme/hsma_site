@@ -10,6 +10,7 @@ techniques:
 areas:
   - Length of Stay
   - Inpatients
+  - Understanding Drivers
 categories:
   - Casual Analysis
   - Machine Learning
@@ -19,6 +20,7 @@ categories:
   - System Dynamics
   - Length of Stay
   - Inpatients
+  - Understanding Drivers
 author:
   - name: Jake Kealey
     affiliation: North Central London ICB

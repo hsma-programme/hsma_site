@@ -5,10 +5,12 @@ techniques:
 areas:
   - Renal
   - Dialysis
+  - Demand & Capacity
 categories:
   - Forecasting
   - Renal
   - Dialysis
+  - Demand & Capacity
 author:
   - name: Sandhya Radha Krishnakumar
     affiliation: NHS England

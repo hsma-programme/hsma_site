@@ -5,10 +5,12 @@ techniques:
   - Explainable AI
 areas:
   - Older Adults
+  - Identifying Drivers
 categories:
   - Machine Learning
   - Explainable AI
   - Older Adults
+  - Identifying Drivers
 author:
   - name: Anneka Mitchell
     affiliation: University Hospitals Plymouth NHS Trust / University of Exeter

@@ -6,11 +6,13 @@ techniques:
   - Streamlit
 areas:
   - Physiotherapy
+  - Demand & Capacity
 categories:
   - Mapping
   - Discrete Event Simulation (DES)
   - Streamlit
   - Physiotherapy
+  - Demand & Capacity
 author:
   - name: Martin Greenslade
     affiliation: Royal Devon University Healthcare NHS Foundation Trust

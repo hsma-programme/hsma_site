@@ -1,14 +1,18 @@
 ---
-title: "Forecasing modelling for A&E attendance"
+title: "Forecasting modelling for A&E attendance"
 techniques:
   - Forecasting
   - Reproducible Analytical Pipelines (RAP)
 areas:
   - Emergency Departments
+  - Demand & Capacity
+  - Seasonality
 categories:
   - Forecasting
   - Reproducible Analytical Pipelines (RAP)
   - Emergency Departments
+  - Demand & Capacity
+  - Seasonality
 author:
   - name: Yu Qiao
     affiliation: Liverpool University Hospital Foundation Trust

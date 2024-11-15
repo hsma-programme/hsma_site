@@ -6,11 +6,13 @@ areas:
   - 111 Service
   - Emergency Departments
   - General Practice (GP)
+  - System Impacts
 categories:
   - Discrete Event Simulation (DES)
   - 111 Service
   - Emergency Departments
   - General Practice (GP)
+  - System Impacts
 author:
   - name: Sarah Blincko
     affiliation: NHS England

@@ -85,6 +85,9 @@
     ],
     "hsma_content/books/books.qmd": [
       "book_details/*.qmd"
+    ],
+    "previous_projects\\projects_by_theme.qmd": [
+      "*/*/index.qmd"
     ]
   }
 }
