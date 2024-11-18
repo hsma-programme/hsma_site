@@ -1,0 +1,116 @@
+---
+title: Project Case Studies
+title-block-banner: resources/banner.png
+page-layout: full
+grid:
+    body-width: 900px
+    gutter-width: 1.5rem
+toc: false
+---
+
+```{=html}
+<style>
+body {
+	text-align: center;
+}
+
+.splide__slide img {
+  width: 100%;
+  height: auto;
+  padding: 20px;
+}
+
+.splide__optional-button-container {
+  margin-bottom: 1rem;
+  margin-top: 1rem;
+  text-align: right;
+  font-size: 1rem;
+}
+
+.splide__toggle a {
+    color: #fff;
+    text-decoration: none;
+    text-transform: uppercase;
+    font-weight: 200;
+}
+
+</style>
+
+<script src=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js "></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/js/glightbox.min.js"></script>
+
+<link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/css/glightbox.css">
+
+<script>
+  document.addEventListener( 'DOMContentLoaded', function () {
+    new Splide( '#image-carousel' , {
+        type    : 'loop',
+        padding: '5rem',
+        autoplay: 'play',
+        interval: 9000,
+        focus    : 'center',
+        pauseOnHover : true,
+        pauseOnFocus : false,
+        resetProgress: false
+        } ).mount();
+
+
+// Initialize GLightbox
+  const lightbox = GLightbox({
+    selector: '.glightbox',
+    touchNavigation: true,
+    loop: true,
+  });
+
+  // Update lightbox when Splide changes slides
+  splide.on('moved', function() {
+    lightbox.reload();
+  });
+});
+
+</script>
+
+```
+
+Take a look at some of our impact case studies relating to our previous HSMA projects.
+
+Click on any poster to view it in full screen.
+
+```{=html}
+<section id="image-carousel" class="splide" aria-label="Beautiful Images">
+<div class="splide__optional-button-container">
+  <button class="splide__toggle" type="button">
+    <a class="splide__toggle__play"><i class="fa-solid fa-play" ></i><span style="padding-left: 10px;">Resume Slideshow</span></a>
+        <a class="splide__toggle__pause"><i class="fa-solid fa-pause" ></i><span style="padding-left: 10px;">Pause Slideshow</span></a>
+  </button>
+  </div>
+  <div class="splide__track">
+		<ul class="splide__list">
+			<li class="splide__slide" style="width: 250px">
+				<img src="impact_posters/eFIT.png" alt="" class="glightbox">
+                <div class="hsma_caption">
+				</div>
+			</li>
+            <li class="splide__slide" style="width: 250px">
+				<img src="impact_posters/Out of Area Reduction in Mental Health.png" alt="" class="glightbox">
+                <div class="hsma_caption">
+                </div>
+			</li>
+            <li class="splide__slide" style="width: 250px">
+				<img src="impact_posters/UTC Flow.png" alt="" class="glightbox">
+                <div class="hsma_caption">
+                </div>
+			</li>
+            <li class="splide__slide" style="width: 250px">
+				<img src="impact_posters/Vaccination Centre Model.png" alt="" class="glightbox">
+                <div class="hsma_caption">
+                </div>
+			</li>
+		</ul>
+  </div>
+
+
+
+</section>
+```
