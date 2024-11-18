@@ -24,6 +24,9 @@ pub-info:
   - name: Video
     url: https://www.youtube.com/watch?v=3JO8_70hHdA&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=11
     icon: fa-brands fa-youtube
+  - name: News Story
+    url: https://arc-swp.nihr.ac.uk/news/data-improves-urgent-care/
+    icon: fa-solid fa-newspaper
 ---
 
 The primary aim of the project was to improve Urgent Treatment Care (UTC) performance by developing a model which would help the Emergency Department (ED) team with the allocation of staff and rooms to match patient flow. The team wanted to understand what further staff and resources would be required for any variations in patient attendance. The ED team wanted to understand how changes in the patient pathway would reduce bottlenecks, for example, what would be the impact of front-loading diagnostics.
