@@ -59,6 +59,9 @@ website:
           - href: previous_projects/completed_projects.qmd
             text: Completed Projects
 
+      - href: impact_stories.qmd
+        text: Case Studies
+
       - href: hsma_content/books/books.qmd
         text: HSMA Books
       - href: hsma_content/modules/modules.qmd
@@ -75,8 +78,6 @@ website:
         menu:
           - href: about-hsma.qmd
             text: The HSMA Programme
-          - href: impact_stories.qmd
-            text: Project Case Studies
           - href: foss.qmd
             text: HSMA & Open Source Software
           - href: faqs.qmd
