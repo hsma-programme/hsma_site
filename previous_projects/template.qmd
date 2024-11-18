@@ -27,6 +27,9 @@ pub-info:
   - name: Paper
     url:
     icon: fa-solid fa-file-contract
+  - name: News Story
+    url:
+    icon: fa-solid fa-newspaper
 ---
 
 Here is some text about the project
