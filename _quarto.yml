@@ -42,7 +42,7 @@ website:
       - href: index.qmd
         text: Welcome
 
-      - text: "HSMA Projects"
+      - text: "Projects"
         menu:
           - href: previous_projects/projects_by_service_area.qmd
             text: Projects by Area of Care
@@ -63,9 +63,9 @@ website:
         text: Case Studies
 
       - href: hsma_content/books/books.qmd
-        text: HSMA Books
+        text: Books
       - href: hsma_content/modules/modules.qmd
-        text: HSMA Modules
+        text: Modules
 
       - text: "Other Resources"
         menu:
