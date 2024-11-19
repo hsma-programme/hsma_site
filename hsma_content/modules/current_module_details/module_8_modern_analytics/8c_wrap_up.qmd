@@ -1,0 +1,14 @@
+---
+title: "8C: Tips, Tricks, and the Things We Couldn't Cover"
+title-block-banner: ../../../banner.png
+hours: 1
+image: ""
+session-lead: Sammi Rosser
+pub-info:
+  abstract: |
+    In this slide-only session, we go over some useful things you may want to consider in your own coding projects, as well as briefly touching on a range of topics that we couldn't cover in the course. It's useful to know of these approaches so you are aware of the possibilities and can spot situations in which these may be a more appropriate approach than the ones we've had time to cover in detail on the course. Using your Python knowledge and general data science and operational research concepts, you are now well-placed to dig further into any topics in this session that catch your eye.
+links:
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1QrO_3Aak8SbGzsNX5-CC8ziGtvvJ5yRBmWy_iPSvJR8/edit?usp=sharing
+    icon: fa-solid fa-person-chalkboard
+---
