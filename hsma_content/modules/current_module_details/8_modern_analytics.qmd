@@ -11,6 +11,19 @@ grid:
   body-width: 1100px
   margin-width: 300px
   gutter-width: 1.5rem
----
+page-layout: full
+grid:
+  sidebar-width: 0px
+  body-width: 1100px
+  margin-width: 300px
+  gutter-width: 1.5rem
 
-Coming Soon!
+listing:
+    - id: 8_modern_analytics
+      contents: "module_8_modern_analytics/*.qmd"
+      sort: "date"
+      type: grid
+      grid-columns: 2
+      categories: false
+      template: ../../../html/modules/session_listing.ejs
+---

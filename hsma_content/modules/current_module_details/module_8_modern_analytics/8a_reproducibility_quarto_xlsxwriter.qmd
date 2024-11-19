@@ -1,0 +1,28 @@
+---
+title: "8A: Reproducible Reporting in Python with Quarto and xlsxwriter"
+title-block-banner: ../../../banner.png
+hours: 6
+image: ""
+session-lead: Sammi Rosser
+pub-info:
+  abstract: |
+    In this session, we spend a bit of time learning about Quarto, allowing you to create good-looking reports that weave together code, text, images and more in a neat, easily-distributable format. We also have a look at using a Python script to interact with the command line and produce multiple outputs from a single Quarto file using different parameters.
+    <br/><br/>
+    We then briefly dive into the world of xlsxwriter - a handy tool for automatically producing Excel spreadsheets from your Python code.
+  links:
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1XYMK5b4dNaHfVesHO2EvRn1j2lFgQULadbRUU5FCkDg/edit?usp=sharing
+    icon: fa-solid fa-person-chalkboard
+  - name: Video
+    url: https://youtu.be/xZMoHvZJmJM?feature=shared
+    icon: fa-brands fa-youtube
+  - name: Repository
+    url: https://github.com/hsma-programme/8a_quarto_and_reproducible_reporting
+    icon: fa-brands fa-github
+  - name: Open in Github Codespaces
+    url: https://codespaces.new/hsma-programme/8a_quarto_and_reproducible_reporting?quickstart=1
+    icon: fa-solid fa-computer
+  - name: Book
+    url:
+    icon: fa-solid fa-book
+---

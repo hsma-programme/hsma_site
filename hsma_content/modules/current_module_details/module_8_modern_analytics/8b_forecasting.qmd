@@ -1,0 +1,46 @@
+---
+title: "8B: Time-Series Forecasting"
+title-block-banner: ../../../banner.png
+hours: 6
+image: ""
+session-lead: Elliot Coyne, Tom Monks
+pub-info:
+  abstract: |
+    Time-series forecasting methods are a useful thing to have in your analyst toolbox. In this session, we cover how to prepare data for forecasting, how to train simple models, how to assess your forecasts, and how to use the modern forecasting library Prophet.
+    <br/><br/>
+    This session has not yet been fully rewritten for HSMA 6.
+    <br/><br/>
+    However, you can watch the sessions from HSMA 5, which cover the same material.
+    <br/><br/>
+    Some bonus videos from previous rounds of HSMA are also linked below.
+    <br/><br/>
+    Due to some troublesome environment issues, the exercises are not currently completely functional. We would instead recommend Tom Monk's excellent exercises, on which the HMSA 5 exercises were originally based. Tom's exercises have been updated to work in 2024 and are used on the Exeter Health Data Science MSc.
+  links:
+  - name: Slides - Introduction to Forecasting Principles and Naive Models
+    url: https://github.com/hsma-programme/8b_forecasting/blob/main/HSMA%205%20Slides%20-%20Part%201%20-%20Intro%20to%20Forecasting.pdf
+    icon: fa-solid fa-person-chalkboard
+  - name: Video - Introduction to Forecasting Principles and Naive Models
+    url: https://www.youtube.com/watch?v=akkG4XOf-_E
+    icon: fa-brands fa-youtube
+  - name: Slides - Forecasting with the Prophet Library
+    url: https://github.com/hsma-programme/8b_forecasting/blob/main/HSMA%205%20Slides%20-%20Part%202%20-%20Forecasting%20with%20Prophet.pdf
+    icon: fa-solid fa-person-chalkboard
+  - name: Video - Forecasting with the Prophet Library
+    url: https://www.youtube.com/watch?v=6vFpnSYlUyI
+    icon: fa-brands fa-youtube
+  - name: Recommended Exercises
+    url: https://github.com/health-data-science-OR/forecasting/tree/master
+    icon: fa-brands fa-github
+  - name: Book
+    url:
+    icon: fa-solid fa-book
+  - name: Bonus Video - Auto-regressive Forecasting using OLS
+    url: https://youtu.be/ftYxpwQGUz0?feature=shared
+    icon: fa-brands fa-youtube
+  - name: Bonus Video -  Introduction to using Feedforward Neural Networks for Forecasting
+    url: https://youtu.be/SyHVMAjL-I0?feature=shared
+    icon: fa-brands fa-youtube
+  - name: Bonus Video -   Introduction to forecasting using Feedforward Neural Networks using Keras and TF
+    url: https://youtu.be/OV39MtxOlFk?feature=shared
+    icon: fa-brands fa-youtube
+---
