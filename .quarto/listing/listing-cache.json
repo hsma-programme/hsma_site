@@ -88,6 +88,9 @@
     ],
     "previous_projects\\projects_by_theme.qmd": [
       "*/*/index.qmd"
+    ],
+    "hsma_content\\modules\\current_module_details\\8_modern_analytics.qmd": [
+      "module_8_modern_analytics/*.qmd"
     ]
   }
 }

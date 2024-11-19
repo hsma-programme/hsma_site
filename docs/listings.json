@@ -576,5 +576,13 @@
       "/previous_projects/hsma_6/H6_6001_DES_modelling_non_elective_flow/index.html",
       "/previous_projects/hsma_6/H6_6050_DES_pathway_community_diagnostic_centres/index.html"
     ]
+  },
+  {
+    "listing": "/hsma_content/modules/current_module_details/8_modern_analytics.html",
+    "items": [
+      "/hsma_content/modules/current_module_details/module_8_modern_analytics/8a_reproducibility_quarto_xlsxwriter.html",
+      "/hsma_content/modules/current_module_details/module_8_modern_analytics/8b_forecasting.html",
+      "/hsma_content/modules/current_module_details/module_8_modern_analytics/8c_wrap_up.html"
+    ]
   }
 ]
