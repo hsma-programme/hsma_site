@@ -4,7 +4,14 @@ title-block-banner: ../../banner.png
 image: "8_modern.jpg"
 hours: 12
 pub-info:
-  abstract:
+  abstract: |
+    This module serves to introduce some additional techniques that are useful parts of the modern analyst's skillset.
+    <br/><br/>
+    We start with a session on reproducible reporting, exploring how we can create beautiful html, pdf and Word reports with the Quarto library. Quarto allows for code - and the output of code - to be interweaved with text, headings, images, videos, and much more. We explore standard document layouts as well as dashboard-style layouts, and cover a range of useful Quarto parameters and tips.
+    <br/><br/>
+    With Quarto, we also look at automation and parameterisation of reports, exploring how to generate multiple reports just by running a simple Python script.
+    <br/><br/>
+    In the final session of HSMA 6, we take a look at time-series forecasting methods. These methods take historical patterns and use them to predict the future. The session covers a range of time-series forecasting approaches, as well as the circumstances under which you may consider using them and how to assess their performance.
 page-layout: full
 grid:
   sidebar-width: 0px

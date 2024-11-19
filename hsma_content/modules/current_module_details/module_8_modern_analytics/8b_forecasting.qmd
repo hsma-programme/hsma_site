@@ -6,7 +6,7 @@ image: ""
 session-lead: Elliot Coyne, Tom Monks
 pub-info:
   abstract: |
-    Time-series forecasting methods are a useful thing to have in your analyst toolbox. In this session, we cover how to prepare data for forecasting, how to train simple models, how to assess your forecasts, and how to use the modern forecasting library Prophet.
+    Time-series forecasting methods are a useful thing to have in your analyst toolbox. In this session, we cover how to prepare data for forecasting, how to train simple models, how to assess your forecasts, and how to use the modern forecasting library Prophet. We also discuss when time series forecasting methods are a good fit for your problems, and when you should consider turning to other approaches.
     <br/><br/>
     This session has not yet been fully rewritten for HSMA 6.
     <br/><br/>
