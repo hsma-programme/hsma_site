@@ -315,6 +315,14 @@
     ]
   },
   {
+    "listing": "/hsma_content/modules/current_module_details/8_modern_analytics.html",
+    "items": [
+      "/hsma_content/modules/current_module_details/module_8_modern_analytics/8a_reproducibility_quarto_xlsxwriter.html",
+      "/hsma_content/modules/current_module_details/module_8_modern_analytics/8b_forecasting.html",
+      "/hsma_content/modules/current_module_details/module_8_modern_analytics/8c_wrap_up.html"
+    ]
+  },
+  {
     "listing": "/hsma_content/modules/current_module_details/3_geographic_modelling_visualisation.html",
     "items": [
       "/hsma_content/modules/current_module_details/module_3_geographic/3a_intro_geographic_qgis.html",
@@ -332,6 +340,19 @@
     ]
   },
   {
+    "listing": "/hsma_content/modules/modules.html",
+    "items": [
+      "/hsma_content/modules/current_module_details/1_intro_or_ds_python.html",
+      "/hsma_content/modules/current_module_details/2_des.html",
+      "/hsma_content/modules/current_module_details/3_geographic_modelling_visualisation.html",
+      "/hsma_content/modules/current_module_details/4_machine_learning.html",
+      "/hsma_content/modules/current_module_details/5_natural_language_processing.html",
+      "/hsma_content/modules/current_module_details/6_system_dynamics_agent_based_simulation.html",
+      "/hsma_content/modules/current_module_details/7_git_and_web_development.html",
+      "/hsma_content/modules/current_module_details/8_modern_analytics.html"
+    ]
+  },
+  {
     "listing": "/hsma_content/modules/current_module_details/4_machine_learning.html",
     "items": [
       "/hsma_content/modules/current_module_details/module_4_ml/4a_intro_ml.html",
@@ -344,19 +365,6 @@
       "/hsma_content/modules/current_module_details/module_4_ml/4h_reinforcement_learning.html",
       "/hsma_content/modules/current_module_details/module_4_ml/4i_synthetic_data.html",
       "/hsma_content/modules/current_module_details/module_4_ml/4j_optimising_ml_models.html"
-    ]
-  },
-  {
-    "listing": "/hsma_content/modules/modules.html",
-    "items": [
-      "/hsma_content/modules/current_module_details/1_intro_or_ds_python.html",
-      "/hsma_content/modules/current_module_details/2_des.html",
-      "/hsma_content/modules/current_module_details/3_geographic_modelling_visualisation.html",
-      "/hsma_content/modules/current_module_details/4_machine_learning.html",
-      "/hsma_content/modules/current_module_details/5_natural_language_processing.html",
-      "/hsma_content/modules/current_module_details/6_system_dynamics_agent_based_simulation.html",
-      "/hsma_content/modules/current_module_details/7_git_and_web_development.html",
-      "/hsma_content/modules/current_module_details/8_modern_analytics.html"
     ]
   },
   {
