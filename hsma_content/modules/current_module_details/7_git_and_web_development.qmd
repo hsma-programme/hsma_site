@@ -7,7 +7,9 @@ pub-info:
   abstract: |
     In this module we start by taking a look at a crucial skill for the analyst, data science or operational researcher's toolbox - version control with Git. Git ensures that the full history of your code is available, allowing you to
     <br/>&#x2022; roll back to earlier versions of code
-    <br/>&#x2022; keep a clean working copy of code while being able
+    <br/>&#x2022; keep a clean working copy of code safe and accessible while being able to start working on new features
+    <br/><br/>
+    Say goodbye to V2, V3_FINAL, and V_ACTUAL_FINAL_VERSION - with Git, you will always know where you are.
     <br/><br/>
     We then explore the online platform GitHub, which allows for hosting of code folders that are controlled using Git. GitHub is possibly the most used code-sharing and collaboration platform in the world, and is a crucial part of ensuring your code is available for others to audit, use and build on.
     <br/><br/>
