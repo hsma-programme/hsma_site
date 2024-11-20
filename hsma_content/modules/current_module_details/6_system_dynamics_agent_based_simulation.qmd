@@ -5,11 +5,11 @@ image: "6_system.jpeg"
 hours: 12
 pub-info:
   abstract: |
-  In module 6, we explore two more techniques for modelling pathways and systems.
-  <br/><br/>
-  We kick off with system dynamics - a powerful tool for qualitative or quantitative (numeric) simulations of systems at a high level. System Dynamics excels at unpicking fundamental issues with the structure of systems. This session is codeless, using the online InsightMaker platform instead.
-  <br/><br/>
-  We then move onto agent-based simulation (ABS) - a simulation technique that is well-suited to instances where we are interested in the emergent behaviour of systems that comes from the interactions of and decisions of individuals. Commonly used in disease spread modelling, we explore how to write our own simulations using the MESA package, as well as digging into its possible applications in a more general healthcare context.
+    In module 6, we explore two more techniques for modelling pathways and systems.
+    <br/><br/>
+    We kick off with system dynamics - a powerful tool for qualitative or quantitative (numeric) simulations of systems at a high level. System Dynamics excels at unpicking fundamental issues with the structure of systems. This session is codeless, using the online InsightMaker platform instead.
+    <br/><br/>
+    We then move onto agent-based simulation (ABS) - a simulation technique that is well-suited to instances where we are interested in the emergent behaviour of systems that comes from the interactions of and decisions of individuals. Commonly used in disease spread modelling, we explore how to write our own simulations using the MESA package, as well as digging into its possible applications in a more general healthcare context.
 page-layout: full
 grid:
   sidebar-width: 0px
