@@ -4,8 +4,26 @@ title-block-banner: ../../banner.png
 image: "7_collab.jpeg"
 hours: 18
 pub-info:
-  abstract:
-
+  abstract: |
+  In this module we start by taking a look at a crucial skill for the analyst, data science or operational researcher's toolbox - version control with Git. Git ensures that the full history of your code is available, allowing you to
+  <br/>&#x2022; roll back to earlier versions of code
+  <br/>&#x2022; keep a clean working copy of code while being able
+  <br/><br/>
+  We then explore the online platform GitHub, which allows for hosting of code folders that are controlled using Git. GitHub is possibly the most used code-sharing and collaboration platform in the world, and is a crucial part of ensuring your code is available for others to audit, use and build on.
+  <br/><br/>
+  We then move on to creating web interfaces. With the advent of a range of tools that are designed to make it easier for people to create data-driven web apps and interactive model interfaces without having to learn the intricacies of traditional web development, it's a great time to start developing your own interfaces to get your scripts into the hands of others - without them having to install or use the code directly.
+  <br/><br/>
+  In this module, we'll be working with the Streamlit framework - a beginner-friendly but powerful Python library that will get your writing your first interactive apps in minutes.
+  <br/><br/>
+  We will cover
+  <br/>&#x2022; creating simple apps
+  <br/>&#x2022;  adding interactive elements like sliders, text and numeric inputs, dropdowns, and more
+  <br/>&#x2022;  adding outputs such as dataframes, interactive plots, and maps
+  <br/>&#x2022;  theming your app
+  <br/>&#x2022;  using layout elements such as tabs, columns, expanders, sidebars, and multi-page navigation
+  <br/>&#x2022;  improving the running of your app with advanced features like caching, fragments and sessin state
+  <br/><br/>
+  We will round off the module by practicing our Git and GitHub skills, uploading our apps to a GitHub repository so we can then host them on the Streamlit Community Cloud platform.
 page-layout: full
 grid:
   sidebar-width: 0px
@@ -22,25 +40,3 @@ listing:
       categories: false
       template: ../../../html/modules/session_listing.ejs
 ---
-
-In this model we start by taking a look at a crucial skill for the analyst, data science or operational researcher's toolbox - version control with Git. Git ensures that the full history of your code is available, allowing you to
-
-- roll back to earlier versions of code
-- keep a clean working copy of code while being able
-
-We then explore the online platform GitHub, which allows for hosting of code folders that are controlled using Git. GitHub is possibly the most used code-sharing and collaboration platform in the world, and is a crucial part of ensuring your code is available for others to audit, use and build on.
-
-We then move on to creating web interfaces. With the advent of a range of tools that are designed to make it easier for people to create data-driven web apps and interactive model interfaces without having to learn the intricacies of traditional web development, it's a great time to start developing your own interfaces to get your scripts into the hands of others - without them having to install or use the code directly.
-
-In this module, we'll be working with the Streamlit framework - a beginner-friendly but powerful Python library that will get your writing your first interactive apps in minutes.
-
-We will cover
-
-- creating simple apps
-- adding interactive elements like sliders, text and numeric inputs, dropdowns, and more
-- adding outputs such as dataframes, interactive plots, and maps
-- theming your app
-- using layout elements such as tabs, columns, expanders, sidebars, and multi-page navigation
-- improving the running of your app with advanced features like caching, fragments and sessin state
-
-We will round off the module by practicing our Git and GitHub skills, uploading our apps to a GitHub repository so we can then host them on the Streamlit Community Cloud platform.
