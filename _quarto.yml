@@ -48,8 +48,8 @@ website:
             text: Projects by Area of Care
           - href: previous_projects/projects_by_service_type_location.qmd
             text: Projects by Care Delivery Location
-          # - href: previous_projects/projects_by_organisation.qmd
-          #   text: Projects by Organisation Type
+          - href: previous_projects/projects_by_organisation.qmd
+            text: Projects by Organisation
           - href: previous_projects/projects_by_methods.qmd
             text: Projects by Method
           - href: previous_projects/projects_by_cohort.qmd
