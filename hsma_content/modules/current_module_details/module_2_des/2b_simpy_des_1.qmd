@@ -22,6 +22,9 @@ pub-info:
   - name: Repository
     url: https://github.com/hsma-programme/h6_simpy_part_1
     icon: fa-brands fa-github
+  - name: Open in Github Codespaces
+    url: https://codespaces.new/bergam0t/h6_simpy_part_1?quickstart=1
+    icon: fa-solid fa-computer
   - name: Book
     url: https://hsma-programme.github.io/hsma6_des_book/intro_to_simpy.html
     icon: fa-solid fa-book

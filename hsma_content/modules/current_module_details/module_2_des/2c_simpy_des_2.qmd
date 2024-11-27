@@ -29,6 +29,9 @@ pub-info:
   - name: Repository
     url: https://github.com/hsma-programme/h6_simpy_part_2
     icon: fa-brands fa-github
+  - name: Open in Github Codespaces
+    url: https://codespaces.new/bergam0t/h6_simpy_part_2?quickstart=1
+    icon: fa-solid fa-computer
   - name: Book
     url: https://hsma-programme.github.io/hsma6_des_book/model_warm_up.html
     icon: fa-solid fa-book
