@@ -28,4 +28,10 @@ pub-info:
   - name: Book
     url: https://hsma-programme.github.io/hsma6_des_book/intro_to_simpy.html
     icon: fa-solid fa-book
+  - name: Exercise Solution Video - Part 1
+    url: https://youtu.be/11wBr970g8k
+    icon: fa-solid fa-video
+  - name: Exercise Solution Video - Part 2
+    url: https://youtu.be/HzL3aDBbkNg
+    icon: fa-solid fa-video
 ---
