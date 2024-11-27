@@ -26,6 +26,7 @@ organisations:
   - Reading Borough Council
 image: "2d2d6s0i.bmp"
 title-block-banner: ../../banner.png
+repo: Y
 pub-info:
   links:
   - name: Video

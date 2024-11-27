@@ -21,6 +21,7 @@ organisations:
 image: "../placeholder.png"
 title-block-banner: ../../banner.png
 status: Active
+repo: Yes
 pub-info:
   abstract:
   links:
@@ -28,7 +29,7 @@ pub-info:
     url:
     icon: fa-brands fa-youtube
   - name: Code
-    url:
+    url: https://github.com/RebeccaCM94/Ortho_Theatre_DES_Model_6004
     icon: fa-brands fa-github
   - name: Website
     url:

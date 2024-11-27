@@ -23,6 +23,7 @@ organisations:
   - Guy’s and St Thomas’ NHS Foundation Trust
 image: "81ntpmry.bmp"
 title-block-banner: ../../banner.png
+repo: Y
 pub-info:
   links:
   - name: Video

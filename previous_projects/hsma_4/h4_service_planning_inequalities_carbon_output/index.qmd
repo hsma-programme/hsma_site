@@ -30,6 +30,7 @@ organisations:
   - West Sussex County Council
 image: "bef68gj9.bmp"
 title-block-banner: ../../banner.png
+repo: Y
 pub-info:
   links:
   - name: Video

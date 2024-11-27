@@ -24,6 +24,7 @@ organisations:
   - Yorkshire Ambulance Service
 image: "f1haee9r.bmp"
 title-block-banner: ../../banner.png
+repo: Y
 pub-info:
   abstract: This project aimed to work out which factors are the biggest drivers of staff turnover using regression modelling on staff workforce figures as well as other local factors such as employment. This was turned into a dashboard for internal use. However, it was concluded that the currently available data only acccounted for 13% of the variation in turnover seen; more data on other factors is required to explain the patterns seen.
   links:

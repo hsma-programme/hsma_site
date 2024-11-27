@@ -29,6 +29,7 @@ organisations:
   - The Strategy Unit
 image: "7s1io79p.bmp"
 title-block-banner: ../../banner.png
+repo: Y
 pub-info:
   links:
   - name: Video

@@ -54,6 +54,8 @@ website:
             text: Projects by Method
           - href: previous_projects/projects_by_cohort.qmd
             text: Projects by HSMA Cohort
+          - href: previous_projects/projects_with_code.qmd
+            text: Projects With Code Shared
           - href: previous_projects/projects_in_progress.qmd
             text: Projects In Progress
           - href: previous_projects/completed_projects.qmd

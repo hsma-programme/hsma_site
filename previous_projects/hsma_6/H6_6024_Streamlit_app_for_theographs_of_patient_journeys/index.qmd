@@ -15,6 +15,7 @@ author:
 image: "../placeholder.png"
 title-block-banner: ../../banner.png
 status: Active
+repo: Y
 pub-info:
   abstract:
   links:

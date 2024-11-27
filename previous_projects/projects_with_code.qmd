@@ -1,0 +1,60 @@
+---
+title: "HSMA Projects With Code"
+toc-location: right
+title-block-banner: banner.png
+include-back-link: false
+grid:
+  sidebar-width: 0px
+  body-width: 1100px
+  margin-width: 300px
+  gutter-width: 1.5rem
+listing:
+    - id: in_progress_with_code
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        repo: "{Y}*"
+        status: "{Active}"
+      template: ../html/previous_projects/listing.ejs
+    - id: complete_with_code
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        repo: "{Y}*"
+      exclude:
+        status: "{Active}"
+      template: ../html/previous_projects/listing.ejs
+
+---
+
+```{=html}
+    <style>
+    h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: left;
+}
+    </style>
+```
+
+Here you can find details of a range of current and previously-completed HSMA projects that have their code made available in a Github repository.
+
+Click on the preview for each project to read the full details. For many completed projects, you can watch a short talk from the HSMAs who undertook the project on their plans, successes and challenges.
+
+## Completed Projects with Code
+
+:::{#complete_with_code}
+:::
+
+## In Progress Projects with Code
+
+:::{#in_progress_with_code}
+:::
