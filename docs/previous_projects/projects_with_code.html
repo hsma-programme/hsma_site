@@ -1,0 +1,2110 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.6.36">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>HSMA Projects With Code – HSMA</title>
+<style>
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../">
+<script src="../site_libs/quarto-listing/list.min.js"></script>
+<script src="../site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../site_libs/quarto-html/quarto.js"></script>
+<script src="../site_libs/quarto-html/popper.min.js"></script>
+<script src="../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-474c6d7e63be50eb6972897072b39b27.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../site_libs/bootstrap/bootstrap-a39d088bec1bfb9fe3ad9a4e345d4afc.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-in_progress_with_code .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-date-format','listing-title-block-banner','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-title','listing-techniques','listing-areas','listing-categories','listing-author','listing-organisations','listing-image','listing-status','listing-repo','listing-pub-info','listing-path','listing-outputHref','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-date-format","listing-title-block-banner","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-title","listing-techniques","listing-areas","listing-categories","listing-author","listing-organisations","listing-image","listing-status","listing-repo","listing-pub-info","listing-path","listing-outputHref","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-in_progress_with_code'] = new List('listing-in_progress_with_code', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-complete_with_code .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-date-format','listing-title-block-banner','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-title','listing-categories','listing-techniques','listing-areas','listing-author','listing-organisations','listing-image','listing-repo','listing-pub-info','listing-path','listing-outputHref','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-date-format","listing-title-block-banner","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-title","listing-categories","listing-techniques","listing-areas","listing-author","listing-organisations","listing-image","listing-repo","listing-pub-info","listing-path","listing-outputHref","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-complete_with_code'] = new List('listing-complete_with_code', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-9D93EVJKF5"></script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-9D93EVJKF5', { 'anonymize_ip': true});
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"express",
+  "palette":"dark",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  ,
+"language":"en"
+  });
+});
+</script> 
+  
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background-image: url(banner.png);
+background-size: cover;
+      }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="../styles.css">
+</head>
+
+<body class="nav-fixed">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-xl " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../resources/Chalky HSMA-07-wide white logo.png" alt="" class="navbar-logo">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../index.html"> 
+<span class="menu-text">Welcome</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Projects</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-projects">    
+        <li>
+    <a class="dropdown-item" href="../previous_projects/projects_by_service_area.html">
+ <span class="dropdown-text">Projects by Area of Care</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../previous_projects/projects_by_service_type_location.html">
+ <span class="dropdown-text">Projects by Care Delivery Location</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../previous_projects/projects_by_organisation.html">
+ <span class="dropdown-text">Projects by Organisation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../previous_projects/projects_by_methods.html">
+ <span class="dropdown-text">Projects by Method</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../previous_projects/projects_by_cohort.html">
+ <span class="dropdown-text">Projects by HSMA Cohort</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../previous_projects/projects_with_code.html">
+ <span class="dropdown-text">Projects With Code Shared</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../previous_projects/projects_in_progress.html">
+ <span class="dropdown-text">Projects In Progress</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../previous_projects/completed_projects.html">
+ <span class="dropdown-text">Completed Projects</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../impact_stories.html"> 
+<span class="menu-text">Case Studies</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../hsma_content/books/books.html"> 
+<span class="menu-text">Books</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../hsma_content/modules/modules.html"> 
+<span class="menu-text">Modules</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-other-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Other Resources</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-other-resources">    
+        <li>
+    <a class="dropdown-item" href="../hsma_content/des_playground.html">
+ <span class="dropdown-text">The DES Playground</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../hsma_content/reinforcement_learning_game.html">
+ <span class="dropdown-text">Reinforcement Learning Game</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="../about-hsma.html">
+ <span class="dropdown-text">The HSMA Programme</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../foss.html">
+ <span class="dropdown-text">HSMA &amp; Open Source Software</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../faqs.html">
+ <span class="dropdown-text">Frequently Asked Questions</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools tools-wide">
+    <a href="https://www.youtube.com/@hsma" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-youtube"></i></a>
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/hsma-programme">
+            View the HSMA Github
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/hsma-programme/hsma_site">
+            View the code for this website
+            </a>
+          </li>
+      </ul>
+    </div>
+    <a href="mailto:penchord@exeter.ac.uk?subject=Contact%20from%20HSMA%20website" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block projects default page-columns page-full">
+    <div class="quarto-title-banner page-columns page-full">
+
+        
+        
+        <div class="quarto-title column-body">
+            <h1 class="title">HSMA Projects With Code</h1>
+
+            
+            
+            
+                    </div>
+
+    </div>
+
+    
+    <div class="quarto-title-meta">
+
+        
+      
+        
+      </div>
+      
+
+    
+</header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">Contents</h2>
+   
+  <ul>
+  <li><a href="#completed-projects-with-code" id="toc-completed-projects-with-code" class="nav-link active" data-scroll-target="#completed-projects-with-code">Completed Projects with Code</a></li>
+  <li><a href="#in-progress-projects-with-code" id="toc-in-progress-projects-with-code" class="nav-link" data-scroll-target="#in-progress-projects-with-code">In Progress Projects with Code</a></li>
+  </ul>
+</nav>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(15)</span></div><div class="category" data-category="MTExJTIwU2VydmljZQ==">111 Service <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QWN1dGUlMjBDYXJl">Acute Care <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QWN1dGUlMjBNZWRpY2FsJTIwVW5pdCUyMChBTVUp">Acute Medical Unit (AMU) <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QWdlbnQlMjBCYXNlZCUyMFNpbXVsYXRpb24lMjAoTUVDQyk=">Agent Based Simulation (MECC) <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QWlyJTIwQW1idWxhbmNl">Air Ambulance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QW1idWxhbmNl">Ambulance <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QXV0b21hdGlvbg==">Automation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Q2FyYm9uJTIwRW1pc3Npb25z">Carbon Emissions <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q2FyZGlvbG9neQ==">Cardiology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29tbXVuaXR5JTIwRGlhZ25vc3RpYyUyMENlbnRyZXMlMjAoQ0RDcyk=">Community Diagnostic Centres (CDCs) <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29zdHM=">Costs <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGF0YSUyMFZpc3VhbGlzYXRpb24=">Data Visualisation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGlhZ25vc3RpYyUyMFByb2NlZHVyZXM=">Diagnostic Procedures <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGlnaXRhbCUyME91dHBhdGllbnRz">Digital Outpatients <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGlzY3JldGUlMjBFdmVudCUyMFNpbXVsYXRpb24lMjAoREVTKQ==">Discrete Event Simulation (DES) <span class="quarto-category-count">(7)</span></div><div class="category" data-category="RUNEUyUyMERhdGFzZXQ=">ECDS Dataset <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RWxlY3RpdmUlMjBTdXJnZXJ5">Elective Surgery <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RW1lcmdlbmN5JTIwRGVwYXJ0bWVudHM=">Emergency Departments <span class="quarto-category-count">(4)</span></div><div class="category" data-category="Rm9yZWNhc3Rpbmc=">Forecasting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="R2VvZ3JhcGhpYyUyMG1vZGVsbGluZw==">Geographic modelling <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SGVhbHRoJTIwRXF1aXR5JTIwQXVkaXRz">Health Equity Audits <span class="quarto-category-count">(2)</span></div><div class="category" data-category="SG9zcGl0YWxz">Hospitals <span class="quarto-category-count">(2)</span></div><div class="category" data-category="SW5lcXVhbGl0aWVz">Inequalities <span class="quarto-category-count">(3)</span></div><div class="category" data-category="TG9jYXRpb24lMjBPcHRpbWlzYXRpb24=">Location Optimisation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFjaGluZSUyMExlYXJuaW5n">Machine Learning <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TWFraW5nJTIwRXZlcnklMjBDb250YWN0JTIwQ291bnQlMjAoTUVDQyk=">Making Every Contact Count (MECC) <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFwcGluZw==">Mapping <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TkhT">NHS <span class="quarto-category-count">(9)</span></div><div class="category" data-category="TmV0d29yayUyMEFuYWx5c2lz">Network Analysis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="Tm9uLWF0dGVuZGFuY2UlMjBQcmVkaWN0aW9u">Non-attendance Prediction <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGF0aWVudCUyMEZsb3c=">Patient Flow <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UGF0aWVudCUyMEluaXRpYXRlZCUyMEZvbGxvdy1VcCUyMChQSUZVKQ==">Patient Initiated Follow-Up (PIFU) <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGF0aWVudCUyMFBhdGh3YXlz">Patient Pathways <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGF0aWVudCUyMFRyYW5zcG9ydA==">Patient Transport <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGxvdGx5JTIwRGFzaA==">Plotly Dash <span class="quarto-category-count">(3)</span></div><div class="category" data-category="UHJpbWFyeSUyMENhcmUlMjAoR1Ap">Primary Care (GP) <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHVibGljJTIwSGVhbHRo">Public Health <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVkdWNpbmclMjBCYWNrbG9ncw==">Reducing Backlogs <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVncmVzc2lvbg==">Regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVwcm9kdWNpYmxlJTIwQW5hbHl0aWNhbCUyMFBpcGVsaW5lcyUyMChSQVAp">Reproducible Analytical Pipelines (RAP) <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UmhldW1hdG9sb2d5">Rheumatology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U2FtZS1kYXklMjBFbWVyZ2VuY3klMjBDYXJl">Same-day Emergency Care <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U21va2luZw==">Smoking <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U3RhZmYlMjBUdXJub3Zlcg==">Staff Turnover <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U3RyZWFtbGl0">Streamlit <span class="quarto-category-count">(9)</span></div><div class="category" data-category="U3VyZ2ljYWw=">Surgical <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGVsZXBob25lLWJhc2VkJTIwU2VydmljZXM=">Telephone-based Services <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGhlb2dyYXBocw==">Theographs <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VHJhdmVsJTIwVGltZXM=">Travel Times <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V2FpdGluZyUyMExpc3Rz">Waiting Lists <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V2FpdGluZyUyMFRpbWVz">Waiting Times <span class="quarto-category-count">(2)</span></div><div class="category" data-category="V29ya2ZvcmNl">Workforce <span class="quarto-category-count">(1)</span></div></div></div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+    <style>
+    h2 {
+    text-transform: uppercase;
+    font-weight: 400;
+    text-align: left;
+}
+    </style>
+<p>Here you can find details of a range of current and previously-completed HSMA projects that have their code made available in a Github repository.</p>
+<p>Click on the preview for each project to read the full details. For many completed projects, you can watch a short talk from the HSMAs who undertook the project on their plans, successes and challenges.</p>
+<section id="completed-projects-with-code" class="level2">
+<h2 class="anchored" data-anchor-id="completed-projects-with-code">Completed Projects with Code</h2>
+<div id="listing-complete_with_code" class="quarto-listing quarto-listing-container-custom">
+<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
+
+    
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="RGlzY3JldGUlMjBFdmVudCUyMFNpbXVsYXRpb24lMjAoREVTKSUyQ1Bsb3RseSUyMERhc2glMkNOZXR3b3JrJTIwQW5hbHlzaXMlMkMxMTElMjBTZXJ2aWNlJTJDUHJpbWFyeSUyMENhcmUlMjAoR1ApJTJDRW1lcmdlbmN5JTIwRGVwYXJ0bWVudHMlMkNOSFMlMkNUZWxlcGhvbmUtYmFzZWQlMjBTZXJ2aWNlcw==" data-listing-file-modified-sort="1732717731580" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_4/h4_meeting_demand_111/index.html">
+              <img class="card-img" src="../previous_projects/hsma_4/h4_meeting_demand_111/Abby Dewhurst.jpg" alt="Meeting the demand of 111 for primary care services">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Meeting the demand of 111 for primary care services</h5>
+            </div>
+
+            
+              <div class="project-status-complete">
+                Complete
+              </div>
+            
+
+             <p class="listing-abstract">This was an attempt to model the impact of enforcing timely primary care interventions when 111 calls are undertaken.</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">111 Service</button>
+                      
+                    
+                    
+                        <button class="area-button">Primary Care (GP)</button>
+                      
+                    
+                    
+                        <button class="area-button">Emergency Departments</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Discrete Event Simulation (DES)</button>
+                    
+                  
+                  
+                      <button class="category-button">Plotly Dash</button>
+                    
+                  
+                  
+                      <button class="category-button">Network Analysis</button>
+                    
+                  
+                  
+                      <button class="category-button">Telephone-based Services</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • Yorkshire Ambulance Service NHS Trust<br>
+                
+                • Devon CCG<br>
+                
+                • University of Plymouth<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_4/h4_meeting_demand_111/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://www.youtube.com/watch?v=cg5Bp3O02io&amp;list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&amp;index=1"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://arc-swp.nihr.ac.uk/publications/modelling-nhs-111-demand-for-primary-care-services-a-discrete-event-simulation/"><i class="fa-solid fa-newspaper"></i> Article </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://bmjopen.bmj.com/content/13/9/e076203"><i class="fa-solid fa-file-contract"></i> Paper </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/RichardPilbery/MOOOD-study"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="RGlzY3JldGUlMjBFdmVudCUyMFNpbXVsYXRpb24lMjAoREVTKSUyQ1BhdGllbnQlMjBJbml0aWF0ZWQlMjBGb2xsb3ctVXAlMjAoUElGVSklMkNEaWdpdGFsJTIwT3V0cGF0aWVudHMlMkNSaGV1bWF0b2xvZ3klMkNSZWR1Y2luZyUyMEJhY2tsb2dzJTJDTkhT" data-listing-file-modified-sort="1732717731580" data-listing-reading-time-sort="2" data-listing-word-count-sort="242">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_4/h4_pifu_digital_outpatients_elective_recovery/index.html">
+              <img class="card-img" src="../previous_projects/hsma_4/h4_pifu_digital_outpatients_elective_recovery/wxsssb6m.bmp" alt="The role of Patient Initiated Follow-up (PIFU) and ‘Digital Outpatients’ in Supporting the Elective Recovery - Can We Better Size Potential for Clearing the Backlog?">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">The role of Patient Initiated Follow-up (PIFU) and ‘Digital Outpatients’ in Supporting the Elective Recovery - Can We Better Size Potential for Clearing the Backlog?</h5>
+            </div>
+
+            
+              <div class="project-status-complete">
+                Complete
+              </div>
+            
+
+             <p class="listing-abstract">The aim of the project is to find out what role Patient Initiated Follow-up (PIFU) can play in the redeployment of capacity to address the backlog. This will be done by…</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Patient Initiated Follow-Up (PIFU)</button>
+                      
+                    
+                    
+                        <button class="area-button">Digital Outpatients</button>
+                      
+                    
+                    
+                        <button class="area-button">Rheumatology</button>
+                      
+                    
+                    
+                        <button class="area-button">Reducing Backlogs</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Discrete Event Simulation (DES)</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • NHS England and Improvement<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_4/h4_pifu_digital_outpatients_elective_recovery/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://www.youtube.com/watch?v=TO5sKaW6BGk&amp;list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&amp;index=12"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/nhsx/HSMA4-12-DES-rheum"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="TWFwcGluZyUyQ1RyYXZlbCUyMFRpbWVzJTJDU3RyZWFtbGl0JTJDQ2FyZGlvbG9neSUyQ0xvY2F0aW9uJTIwT3B0aW1pc2F0aW9uJTJDTkhT" data-listing-file-modified-sort="1732717731580" data-listing-reading-time-sort="2" data-listing-word-count-sort="230">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_4/h4_reducing_travel_times_cardiac_patients/index.html">
+              <img class="card-img" src="../previous_projects/hsma_4/h4_reducing_travel_times_cardiac_patients/7s1io79p.bmp" alt="Reducing Travel Times to Treatment for Cardiac Patients in the South East of England">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Reducing Travel Times to Treatment for Cardiac Patients in the South East of England</h5>
+            </div>
+
+            
+              <div class="project-status-complete">
+                Complete
+              </div>
+            
+
+             <p class="listing-abstract">The aim of the project was to employ geographical and statistical analysis of past and present travel times to understand the impact the flow of activity into London has on…</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Cardiology</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Mapping</button>
+                    
+                  
+                  
+                      <button class="category-button">Travel Times</button>
+                    
+                  
+                  
+                      <button class="category-button">Streamlit</button>
+                    
+                  
+                  
+                      <button class="category-button">Location Optimisation</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • NHS England Specialised Commissioning – South East Region<br>
+                
+                • NHS England and Improvement<br>
+                
+                • The Strategy Unit<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_4/h4_reducing_travel_times_cardiac_patients/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://www.youtube.com/watch?v=28yXjieiMEM&amp;list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&amp;index=6"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/GlennUbly/HSMA4_cardiac"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://glennubly-hsma4-cardiac-introduction-f1fq51.streamlitapp.com/"><i class="fa-solid fa-globe"></i> Website </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="3" data-categories="Tm9uLWF0dGVuZGFuY2UlMjBQcmVkaWN0aW9uJTJDTWFjaGluZSUyMExlYXJuaW5nJTJDQXV0b21hdGlvbiUyQ1JlcHJvZHVjaWJsZSUyMEFuYWx5dGljYWwlMjBQaXBlbGluZXMlMjAoUkFQKSUyQ0luZXF1YWxpdGllcyUyQ0NhcmJvbiUyMEVtaXNzaW9ucyUyQ0hlYWx0aCUyMEVxdWl0eSUyMEF1ZGl0cyUyQ05IUw==" data-listing-file-modified-sort="1732717731580" data-listing-reading-time-sort="1" data-listing-word-count-sort="199">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_4/h4_service_planning_inequalities_carbon_output/index.html">
+              <img class="card-img" src="../previous_projects/hsma_4/h4_service_planning_inequalities_carbon_output/bef68gj9.bmp" alt="Developing a Service Planning Decision Support Tool to Tackle Inequalities and Minimise Carbon Output">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Developing a Service Planning Decision Support Tool to Tackle Inequalities and Minimise Carbon Output</h5>
+            </div>
+
+            
+              <div class="project-status-complete">
+                Complete
+              </div>
+            
+
+             <p class="listing-abstract">There are three current significant health agendas to which this project broadly relates.</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Carbon Emissions</button>
+                      
+                    
+                    
+                        <button class="area-button">Health Equity Audits</button>
+                      
+                    
+                    
+                        <button class="area-button">Non-attendance Prediction</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Machine Learning</button>
+                    
+                  
+                  
+                      <button class="category-button">Automation</button>
+                    
+                  
+                  
+                      <button class="category-button">Reproducible Analytical Pipelines (RAP)</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • Derbyshire Community Health Services NHS<br>
+                
+                • Torbay Council<br>
+                
+                • West Sussex County Council<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_4/h4_service_planning_inequalities_carbon_output/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://www.youtube.com/watch?v=zYWte2obxDs&amp;list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&amp;index=8"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/hsma4-student/shine"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="4" data-categories="RGlzY3JldGUlMjBFdmVudCUyMFNpbXVsYXRpb24lMjAoREVTKSUyQ1N0cmVhbWxpdCUyQ0FjdXRlJTIwTWVkaWNhbCUyMFVuaXQlMjAoQU1VKSUyQ0VtZXJnZW5jeSUyMERlcGFydG1lbnRzJTJDQWN1dGUlMjBDYXJlJTJDSG9zcGl0YWxzJTJDTkhT" data-listing-file-modified-sort="1732717731580" data-listing-reading-time-sort="2" data-listing-word-count-sort="228">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_5/h5_5003_des_bottlenecks_amu/index.html">
+              <img class="card-img" src="../previous_projects/hsma_5/h5_5003_des_bottlenecks_amu/cd4dqcnc.bmp" alt="Using Discrete Event Simulation to model the bottlenecks in the Acute Medical Unit pathway">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Using Discrete Event Simulation to model the bottlenecks in the Acute Medical Unit pathway</h5>
+            </div>
+
+            
+              <div class="project-status-complete">
+                Complete
+              </div>
+            
+
+            
+              <p class="listing-abstract">In this project, a computer simulation of the acute medical pathway in a Devon trust was created, along with an interactive tool allowing parameters such as the staffing levels to be changed. This allowed staff to explore the optimum levels of resourcing, enabling risk-free testing of staffing and resource changes before committing to these changes in the real-world.
+</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Acute Medical Unit (AMU)</button>
+                      
+                    
+                    
+                        <button class="area-button">Emergency Departments</button>
+                      
+                    
+                    
+                        <button class="area-button">Acute Care</button>
+                      
+                    
+                    
+                        <button class="area-button">Hospitals</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Discrete Event Simulation (DES)</button>
+                    
+                  
+                  
+                      <button class="category-button">Streamlit</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • Royal Devon University Healthcare (RDUH) NHS Foundation Trust<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_5/h5_5003_des_bottlenecks_amu/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://www.youtube.com/watch?v=_3j0xC_yCKQ"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/BeckyCrofts/amu_modelling"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="5" data-categories="RGlzY3JldGUlMjBFdmVudCUyMFNpbXVsYXRpb24lMjAoREVTKSUyQ1N0cmVhbWxpdCUyQ0VsZWN0aXZlJTIwU3VyZ2VyeSUyQ1dhaXRpbmclMjBUaW1lcyUyQ1N1cmdpY2FsJTJDSG9zcGl0YWxzJTJDTkhT" data-listing-file-modified-sort="1732717731580" data-listing-reading-time-sort="1" data-listing-word-count-sort="134">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_5/h5_5005_des_elective_surgery_pathways/index.html">
+              <img class="card-img" src="../previous_projects/hsma_5/h5_5005_des_elective_surgery_pathways/81ntpmry.bmp" alt="Discrete Event Simulation to model elective surgery pathways">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Discrete Event Simulation to model elective surgery pathways</h5>
+            </div>
+
+            
+              <div class="project-status-complete">
+                Complete
+              </div>
+            
+
+             <p class="listing-abstract">The aim of the project was to create a Discrete Event Simulation in SimPy to model elective surgery pathways, which could be used to model changes to a pathway and their…</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Elective Surgery</button>
+                      
+                    
+                    
+                        <button class="area-button">Waiting Times</button>
+                      
+                    
+                    
+                        <button class="area-button">Surgical</button>
+                      
+                    
+                    
+                        <button class="area-button">Hospitals</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Discrete Event Simulation (DES)</button>
+                    
+                  
+                  
+                      <button class="category-button">Streamlit</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • Guy’s and St Thomas’ NHS Foundation Trust<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_5/h5_5005_des_elective_surgery_pathways/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://www.youtube.com/watch?v=prKoVH2DeyU&amp;t=3s"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/gasman-dom/gstt_hands_waitlist_st"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://gstt-hands-waitlist.streamlit.app/"><i class="fa-solid fa-globe"></i> Website </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="6" data-categories="TmV0d29yayUyMEFuYWx5c2lzJTJDUGxvdGx5JTIwRGFzaCUyQ0VtZXJnZW5jeSUyMERlcGFydG1lbnRzJTJDRGlhZ25vc3RpYyUyMFByb2NlZHVyZXMlMkNFQ0RTJTIwRGF0YXNldCUyQ05IUw==" data-listing-file-modified-sort="1732717731580" data-listing-reading-time-sort="1" data-listing-word-count-sort="129">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_5/h5_5009_network_analysis_diagnostics_ae/index.html">
+              <img class="card-img" src="../previous_projects/hsma_5/h5_5009_network_analysis_diagnostics_ae/akzr6q9d.bmp" alt="Network Analysis of diagnostic procedures in A&amp;E setting">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Network Analysis of diagnostic procedures in A&amp;E setting</h5>
+            </div>
+
+            
+              <div class="project-status-complete">
+                Complete
+              </div>
+            
+
+             <p class="listing-abstract">In A&amp;E a patient can be given one or more diagnostic procedures. These can be as simple as the various blood test or more complicated procedures like an MRI test. The aim of…</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Emergency Departments</button>
+                      
+                    
+                    
+                        <button class="area-button">Diagnostic Procedures</button>
+                      
+                    
+                    
+                        <button class="area-button">ECDS Dataset</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Network Analysis</button>
+                    
+                  
+                  
+                      <button class="category-button">Plotly Dash</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • NHS England<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_5/h5_5009_network_analysis_diagnostics_ae/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/HamzahJShami/HSMA5"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="7" data-categories="Q29tbXVuaXR5JTIwRGlhZ25vc3RpYyUyMENlbnRyZXMlMjAoQ0RDcyklMkNJbmVxdWFsaXRpZXMlMkNTdHJlYW1saXQlMkNBdXRvbWF0aW9uJTJDSGVhbHRoJTIwRXF1aXR5JTIwQXVkaXRzJTJDTkhTJTJDUmVwcm9kdWNpYmxlJTIwQW5hbHl0aWNhbCUyMFBpcGVsaW5lcyUyMChSQVAp" data-listing-file-modified-sort="1732717731580" data-listing-reading-time-sort="2" data-listing-word-count-sort="341">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_5/h5_5010_health_equity_audits_cdc/index.html">
+              <img class="card-img" src="../previous_projects/hsma_5/h5_5010_health_equity_audits_cdc/2d2d6s0i.bmp" alt="Creating a tool to automatically generate health equity audits for Community Diagnostic Centres">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Creating a tool to automatically generate health equity audits for Community Diagnostic Centres</h5>
+            </div>
+
+            
+              <div class="project-status-complete">
+                Complete
+              </div>
+            
+
+             <p class="listing-abstract">Community diagnostic centres (CDCs) have been launched across England to tackle the diagnostic backlog and address healthcare inequalities. CDCs and commissioners struggle…</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Health Equity Audits</button>
+                      
+                    
+                    
+                        <button class="area-button">Community Diagnostic Centres (CDCs)</button>
+                      
+                    
+                    
+                        <button class="area-button">Inequalities</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Streamlit</button>
+                    
+                  
+                  
+                      <button class="category-button">Automation</button>
+                    
+                  
+                  
+                      <button class="category-button">Reproducible Analytical Pipelines (RAP)</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • UCL Partners<br>
+                
+                • Reading Borough Council<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_5/h5_5010_health_equity_audits_cdc/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://www.youtube.com/watch?v=tavZS5MmwOA"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/SarahHoustonGH/Diagnostic_HealthEquityAudit"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="8" data-categories="UGxvdGx5JTIwRGFzaCUyQ1N0YWZmJTIwVHVybm92ZXIlMkNXb3JrZm9yY2UlMkNSZWdyZXNzaW9uJTJDTWFjaGluZSUyMExlYXJuaW5nJTJDTkhT" data-listing-file-modified-sort="1732717731600" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_5/h5_5014_workforce_turnover_drivers/index.html">
+              <img class="card-img" src="../previous_projects/hsma_5/h5_5014_workforce_turnover_drivers/f1haee9r.bmp" alt="Investigating factors impacting NHS workforce retention">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Investigating factors impacting NHS workforce retention</h5>
+            </div>
+
+            
+              <div class="project-status-complete">
+                Complete
+              </div>
+            
+
+            
+              <p class="listing-abstract">This project aimed to work out which factors are the biggest drivers of staff turnover using regression modelling on staff workforce figures as well as other local factors such as employment. This was turned into a dashboard for internal use. However, it was concluded that the currently available data only acccounted for 13% of the variation in turnover seen; more data on other factors is required to explain the patterns seen.</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Staff Turnover</button>
+                      
+                    
+                    
+                        <button class="area-button">Workforce</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Plotly Dash</button>
+                    
+                  
+                  
+                      <button class="category-button">Regression</button>
+                    
+                  
+                  
+                      <button class="category-button">Machine Learning</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • NHS England<br>
+                
+                • Yorkshire Ambulance Service<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_5/h5_5014_workforce_turnover_drivers/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://www.youtube.com/watch?v=yYnkdsM5HHo&amp;list=PLgHO2TgIJXdl1MvfkwCGJ6n8_1EYCSzex&amp;index=2"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/marierrogers/HSMAproject2023"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+</section>
+<section id="in-progress-projects-with-code" class="level2">
+<h2 class="anchored" data-anchor-id="in-progress-projects-with-code">In Progress Projects with Code</h2>
+<div id="listing-in_progress_with_code" class="quarto-listing quarto-listing-container-custom">
+<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
+
+    
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="RGlzY3JldGUlMjBFdmVudCUyMFNpbXVsYXRpb24lMjAoREVTKSUyQ1N0cmVhbWxpdCUyQ1BhdGllbnQlMjBGbG93JTJDRW1lcmdlbmN5JTIwRGVwYXJ0bWVudHMlMkNTYW1lLWRheSUyMEVtZXJnZW5jeSUyMENhcmU=" data-listing-file-modified-sort="1732717731600" data-listing-reading-time-sort="2" data-listing-word-count-sort="233">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_6/H6_6001_DES_modelling_non_elective_flow/index.html">
+              <img class="card-img" src="../previous_projects/hsma_6/placeholder.png" alt="Discrete Event Simulation modelling of Non-elective flow">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Discrete Event Simulation modelling of Non-elective flow</h5>
+            </div>
+
+            
+            <div class="project-status-active">
+              Active
+            </div> 
+
+             <p class="listing-abstract">Poor patient flow is leading to long waits for admission in Emergency Departments. This means there is poor performance against all the key ED wait metrics for the hospital…</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Patient Flow</button>
+                      
+                    
+                    
+                        <button class="area-button">Non-elective Admissions</button>
+                      
+                    
+                    
+                        <button class="area-button">Emergency Departments</button>
+                      
+                    
+                    
+                        <button class="area-button">Same-day Emergency Care</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Discrete Event Simulation (DES)</button>
+                    
+                  
+                  
+                      <button class="category-button">Streamlit</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • Countess of Chester Hospital NHS Foundation Trust<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_6/H6_6001_DES_modelling_non_elective_flow/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/helenajr/Non-Elective-Flow-Simulation"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                        
+                            
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="RGlzY3JldGUlMjBFdmVudCUyMFNpbXVsYXRpb24lMjAoREVTKSUyQ1N0cmVhbWxpdCUyQ1dhaXRpbmclMjBMaXN0cyUyQ1BhdGllbnQlMjBGbG93" data-listing-file-modified-sort="1732719150880" data-listing-reading-time-sort="1" data-listing-word-count-sort="149">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_6/H6_6004_DES_orthopaedic_theatre_capacity_optimisation/index.html">
+              <img class="card-img" src="../previous_projects/hsma_6/placeholder.png" alt="Discrete Event Simulation to model othopaedic theatre capacity optimisation">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Discrete Event Simulation to model othopaedic theatre capacity optimisation</h5>
+            </div>
+
+            
+            <div class="project-status-active">
+              Active
+            </div> 
+
+             <p class="listing-abstract">The aim of this project is to use Discrete Event Simulation to optimise theatre capacity for elective procedures and major trauma arrivals in Orthopaedics.</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Surgical</button>
+                      
+                    
+                    
+                        <button class="area-button">Orthopaedics</button>
+                      
+                    
+                    
+                        <button class="area-button">Waiting Lists</button>
+                      
+                    
+                    
+                        <button class="area-button">Patient Flow</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Discrete Event Simulation (DES)</button>
+                    
+                  
+                  
+                      <button class="category-button">Streamlit</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • University Hospitals Coventry and Warwickshire Trust<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_6/H6_6004_DES_orthopaedic_theatre_capacity_optimisation/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/RebeccaCM94/Ortho_Theatre_DES_Model_6004"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                        
+                            
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="U3RyZWFtbGl0JTJDVGhlb2dyYXBocyUyQ0RhdGElMjBWaXN1YWxpc2F0aW9uJTJDUGF0aWVudCUyMFBhdGh3YXlz" data-listing-file-modified-sort="1732717731600" data-listing-reading-time-sort="1" data-listing-word-count-sort="62">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_6/H6_6024_Streamlit_app_for_theographs_of_patient_journeys/index.html">
+              <img class="card-img" src="../previous_projects/hsma_6/placeholder.png" alt="Developing a streamlit app for creating Theographs of patient journeys">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Developing a streamlit app for creating Theographs of patient journeys</h5>
+            </div>
+
+            
+            <div class="project-status-active">
+              Active
+            </div> 
+
+             <p class="listing-abstract">The aim of this project is to create an open source application to generate interactive theograph visuals to understand a patients’/clients’ journey through a system.</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Patient Pathways</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Data Visualisation</button>
+                    
+                  
+            </div>
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_6/H6_6024_Streamlit_app_for_theographs_of_patient_journeys/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/sp-necs/TheoGraph"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                        
+                            
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="3" data-categories="QWdlbnQlMjBCYXNlZCUyMFNpbXVsYXRpb24lMjAoTUVDQyklMkNTdHJlYW1saXQlMkNNYWtpbmclMjBFdmVyeSUyMENvbnRhY3QlMjBDb3VudCUyMChNRUNDKSUyQ1B1YmxpYyUyMEhlYWx0aCUyQ1Ntb2tpbmc=" data-listing-file-modified-sort="1732717731601" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_6/H6_6040_benefit_of_MECC_using_ABS/index.html">
+              <img class="card-img" src="../previous_projects/hsma_6/placeholder.png" alt="Modelling the benefit of MECC (Making Every Contact Count) Training using agent based simulation">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Modelling the benefit of MECC (Making Every Contact Count) Training using agent based simulation</h5>
+            </div>
+
+            
+            <div class="project-status-active">
+              Active
+            </div> 
+
+             <p class="listing-abstract">Making Every Contact Count (MECC) is an e-learning programme in which health and social care staff are encouraged to use various interactions with patients to open…</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Making Every Contact Count (MECC)</button>
+                      
+                    
+                    
+                        <button class="area-button">Population Health</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Agent Based Simulation (MECC)</button>
+                    
+                  
+                  
+                      <button class="category-button">Streamlit</button>
+                    
+                  
+            </div>
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_6/H6_6040_benefit_of_MECC_using_ABS/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/DomRowney/Project_Toy_MECC"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://projecttoymecc-d4sef5gik3tiusylxpigdw.streamlit.app/mesa_abs_two_types_mecc"><i class="fa-solid fa-globe"></i> Website </a></button>
+                          
+                        
+                            
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="4" data-categories="R2VvZ3JhcGhpYyUyMG1vZGVsbGluZyUyQ0ZvcmVjYXN0aW5nJTJDRGlzY3JldGUlMjBFdmVudCUyMFNpbXVsYXRpb24lMjAoREVTKSUyQ1BhdGllbnQlMjBUcmFuc3BvcnQlMkNXYWl0aW5nJTIwVGltZXMlMkNBaXIlMjBBbWJ1bGFuY2UlMkNBbWJ1bGFuY2U=" data-listing-file-modified-sort="1732718074670" data-listing-reading-time-sort="1" data-listing-word-count-sort="35">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_alumni/H1_1100_Geographic_modelling_of_resource_utilisation_at_DAA/index.html">
+              <img class="card-img" src="../previous_projects/hsma_alumni/placeholder.png" alt="Geographic modelling of resource utlitisation at Devon Air Ambulance">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Geographic modelling of resource utlitisation at Devon Air Ambulance</h5>
+            </div>
+
+            
+            <div class="project-status-active">
+              Active
+            </div> 
+
+             <p class="listing-abstract">A geographical modelling project on the utilisation of resources at Devon Air Ambulance, modelling current demand and conducting what if scenarios to optimise service…</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Ambulance</button>
+                      
+                    
+                    
+                        <button class="area-button">Air Ambulance</button>
+                      
+                    
+                    
+                        <button class="area-button">Patient Transport</button>
+                      
+                    
+                    
+                        <button class="area-button">Waiting Times</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Geographic modelling</button>
+                    
+                  
+                  
+                      <button class="category-button">Forecasting</button>
+                    
+                  
+                  
+                      <button class="category-button">Discrete Event Simulation (DES)</button>
+                    
+                  
+            </div>
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_alumni/H1_1100_Geographic_modelling_of_resource_utilisation_at_DAA/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/RichardPilbery/DAA_DES"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                        
+                            
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="5" data-categories="U3RyZWFtbGl0JTJDQ29zdHMlMkNJbmVxdWFsaXRpZXM=" data-listing-file-modified-sort="1732718070474" data-listing-reading-time-sort="1" data-listing-word-count-sort="4">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_alumni/H5_5100_Extra_funding_allocation_inequality_tool/index.html">
+              <img class="card-img" src="../previous_projects/hsma_alumni/placeholder.png" alt="eFIT: Extra funding allocation - inequality tool">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">eFIT: Extra funding allocation - inequality tool</h5>
+            </div>
+
+            
+            <div class="project-status-active">
+              Active
+            </div> 
+
+             <p class="listing-abstract">More information coming soon!</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Inequalities</button>
+                      
+                    
+                    
+                        <button class="area-button">Costs</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Streamlit</button>
+                    
+                  
+            </div>
+            
+
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_alumni/H5_5100_Extra_funding_allocation_inequality_tool/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/pete4nhs/eFIT-tool"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://www.heec.co.uk/resources/extra-funding-allocation-inequality-tool-efit/"><i class="fa-solid fa-globe"></i> Website </a></button>
+                          
+                        
+                            
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+</div>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div>
+
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+window.document.addEventListener("DOMContentLoaded", function (event) {
+  const toggleBodyColorMode = (bsSheetEl) => {
+    const mode = bsSheetEl.getAttribute("data-mode");
+    const bodyEl = window.document.querySelector("body");
+    if (mode === "dark") {
+      bodyEl.classList.add("quarto-dark");
+      bodyEl.classList.remove("quarto-light");
+    } else {
+      bodyEl.classList.add("quarto-light");
+      bodyEl.classList.remove("quarto-dark");
+    }
+  }
+  const toggleBodyColorPrimary = () => {
+    const bsSheetEl = window.document.querySelector("link#quarto-bootstrap");
+    if (bsSheetEl) {
+      toggleBodyColorMode(bsSheetEl);
+    }
+  }
+  toggleBodyColorPrimary();  
+  const icon = "";
+  const anchorJS = new window.AnchorJS();
+  anchorJS.options = {
+    placement: 'right',
+    icon: icon
+  };
+  anchorJS.add('.anchored');
+  const isCodeAnnotation = (el) => {
+    for (const clz of el.classList) {
+      if (clz.startsWith('code-annotation-')) {                     
+        return true;
+      }
+    }
+    return false;
+  }
+  const onCopySuccess = function(e) {
+    // button target
+    const button = e.trigger;
+    // don't keep focus
+    button.blur();
+    // flash "checked"
+    button.classList.add('code-copy-button-checked');
+    var currentTitle = button.getAttribute("title");
+    button.setAttribute("title", "Copied!");
+    let tooltip;
+    if (window.bootstrap) {
+      button.setAttribute("data-bs-toggle", "tooltip");
+      button.setAttribute("data-bs-placement", "left");
+      button.setAttribute("data-bs-title", "Copied!");
+      tooltip = new bootstrap.Tooltip(button, 
+        { trigger: "manual", 
+          customClass: "code-copy-button-tooltip",
+          offset: [0, -8]});
+      tooltip.show();    
+    }
+    setTimeout(function() {
+      if (tooltip) {
+        tooltip.hide();
+        button.removeAttribute("data-bs-title");
+        button.removeAttribute("data-bs-toggle");
+        button.removeAttribute("data-bs-placement");
+      }
+      button.setAttribute("title", currentTitle);
+      button.classList.remove('code-copy-button-checked');
+    }, 1000);
+    // clear code selection
+    e.clearSelection();
+  }
+  const getTextToCopy = function(trigger) {
+      const codeEl = trigger.previousElementSibling.cloneNode(true);
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+  }
+  const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+    text: getTextToCopy
+  });
+  clipboard.on('success', onCopySuccess);
+  if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+    const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+      text: getTextToCopy,
+      container: window.document.getElementById('quarto-embedded-source-code-modal')
+    });
+    clipboardModal.on('success', onCopySuccess);
+  }
+    var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+    var mailtoRegex = new RegExp(/^mailto:/);
+      var filterRegex = new RegExp('/' + window.location.host + '/');
+    var isInternal = (href) => {
+        return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+    }
+    // Inspect non-navigation links and adorn them if external
+ 	var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+    for (var i=0; i<links.length; i++) {
+      const link = links[i];
+      if (!isInternal(link.href)) {
+        // undo the damage that might have been done by quarto-nav.js in the case of
+        // links that we want to consider external
+        if (link.dataset.originalHref !== undefined) {
+          link.href = link.dataset.originalHref;
+        }
+      }
+    }
+  function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+    const config = {
+      allowHTML: true,
+      maxWidth: 500,
+      delay: 100,
+      arrow: false,
+      appendTo: function(el) {
+          return el.parentElement;
+      },
+      interactive: true,
+      interactiveBorder: 10,
+      theme: 'quarto',
+      placement: 'bottom-start',
+    };
+    if (contentFn) {
+      config.content = contentFn;
+    }
+    if (onTriggerFn) {
+      config.onTrigger = onTriggerFn;
+    }
+    if (onUntriggerFn) {
+      config.onUntrigger = onUntriggerFn;
+    }
+    window.tippy(el, config); 
+  }
+  const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+  for (var i=0; i<noterefs.length; i++) {
+    const ref = noterefs[i];
+    tippyHover(ref, function() {
+      // use id or data attribute instead here
+      let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+      try { href = new URL(href).hash; } catch {}
+      const id = href.replace(/^#\/?/, "");
+      const note = window.document.getElementById(id);
+      if (note) {
+        return note.innerHTML;
+      } else {
+        return "";
+      }
+    });
+  }
+  const xrefs = window.document.querySelectorAll('a.quarto-xref');
+  const processXRef = (id, note) => {
+    // Strip column container classes
+    const stripColumnClz = (el) => {
+      el.classList.remove("page-full", "page-columns");
+      if (el.children) {
+        for (const child of el.children) {
+          stripColumnClz(child);
+        }
+      }
+    }
+    stripColumnClz(note)
+    if (id === null || id.startsWith('sec-')) {
+      // Special case sections, only their first couple elements
+      const container = document.createElement("div");
+      if (note.children && note.children.length > 2) {
+        container.appendChild(note.children[0].cloneNode(true));
+        for (let i = 1; i < note.children.length; i++) {
+          const child = note.children[i];
+          if (child.tagName === "P" && child.innerText === "") {
+            continue;
+          } else {
+            container.appendChild(child.cloneNode(true));
+            break;
+          }
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(container);
+        }
+        return container.innerHTML
+      } else {
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        return note.innerHTML;
+      }
+    } else {
+      // Remove any anchor links if they are present
+      const anchorLink = note.querySelector('a.anchorjs-link');
+      if (anchorLink) {
+        anchorLink.remove();
+      }
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(note);
+      }
+      if (note.classList.contains("callout")) {
+        return note.outerHTML;
+      } else {
+        return note.innerHTML;
+      }
+    }
+  }
+  for (var i=0; i<xrefs.length; i++) {
+    const xref = xrefs[i];
+    tippyHover(xref, undefined, function(instance) {
+      instance.disable();
+      let url = xref.getAttribute('href');
+      let hash = undefined; 
+      if (url.startsWith('#')) {
+        hash = url;
+      } else {
+        try { hash = new URL(url).hash; } catch {}
+      }
+      if (hash) {
+        const id = hash.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note !== null) {
+          try {
+            const html = processXRef(id, note.cloneNode(true));
+            instance.setContent(html);
+          } finally {
+            instance.enable();
+            instance.show();
+          }
+        } else {
+          // See if we can fetch this
+          fetch(url.split('#')[0])
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.getElementById(id);
+            if (note !== null) {
+              const html = processXRef(id, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      } else {
+        // See if we can fetch a full url (with no hash to target)
+        // This is a special case and we should probably do some content thinning / targeting
+        fetch(url)
+        .then(res => res.text())
+        .then(html => {
+          const parser = new DOMParser();
+          const htmlDoc = parser.parseFromString(html, "text/html");
+          const note = htmlDoc.querySelector('main.content');
+          if (note !== null) {
+            // This should only happen for chapter cross references
+            // (since there is no id in the URL)
+            // remove the first header
+            if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+              note.children[0].remove();
+            }
+            const html = processXRef(null, note);
+            instance.setContent(html);
+          } 
+        }).finally(() => {
+          instance.enable();
+          instance.show();
+        });
+      }
+    }, function(instance) {
+    });
+  }
+      let selectedAnnoteEl;
+      const selectorForAnnotation = ( cell, annotation) => {
+        let cellAttr = 'data-code-cell="' + cell + '"';
+        let lineAttr = 'data-code-annotation="' +  annotation + '"';
+        const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+        return selector;
+      }
+      const selectCodeLines = (annoteEl) => {
+        const doc = window.document;
+        const targetCell = annoteEl.getAttribute("data-target-cell");
+        const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+        const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+        const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+        const lineIds = lines.map((line) => {
+          return targetCell + "-" + line;
+        })
+        let top = null;
+        let height = null;
+        let parent = null;
+        if (lineIds.length > 0) {
+            //compute the position of the single el (top and bottom and make a div)
+            const el = window.document.getElementById(lineIds[0]);
+            top = el.offsetTop;
+            height = el.offsetHeight;
+            parent = el.parentElement.parentElement;
+          if (lineIds.length > 1) {
+            const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+            const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+            height = bottom - top;
+          }
+          if (top !== null && height !== null && parent !== null) {
+            // cook up a div (if necessary) and position it 
+            let div = window.document.getElementById("code-annotation-line-highlight");
+            if (div === null) {
+              div = window.document.createElement("div");
+              div.setAttribute("id", "code-annotation-line-highlight");
+              div.style.position = 'absolute';
+              parent.appendChild(div);
+            }
+            div.style.top = top - 2 + "px";
+            div.style.height = height + 4 + "px";
+            div.style.left = 0;
+            let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+            if (gutterDiv === null) {
+              gutterDiv = window.document.createElement("div");
+              gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+              gutterDiv.style.position = 'absolute';
+              const codeCell = window.document.getElementById(targetCell);
+              const gutter = codeCell.querySelector('.code-annotation-gutter');
+              gutter.appendChild(gutterDiv);
+            }
+            gutterDiv.style.top = top - 2 + "px";
+            gutterDiv.style.height = height + 4 + "px";
+          }
+          selectedAnnoteEl = annoteEl;
+        }
+      };
+      const unselectCodeLines = () => {
+        const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+        elementsIds.forEach((elId) => {
+          const div = window.document.getElementById(elId);
+          if (div) {
+            div.remove();
+          }
+        });
+        selectedAnnoteEl = undefined;
+      };
+        // Handle positioning of the toggle
+    window.addEventListener(
+      "resize",
+      throttle(() => {
+        elRect = undefined;
+        if (selectedAnnoteEl) {
+          selectCodeLines(selectedAnnoteEl);
+        }
+      }, 10)
+    );
+    function throttle(fn, ms) {
+    let throttle = false;
+    let timer;
+      return (...args) => {
+        if(!throttle) { // first call gets through
+            fn.apply(this, args);
+            throttle = true;
+        } else { // all the others get throttled
+            if(timer) clearTimeout(timer); // cancel #2
+            timer = setTimeout(() => {
+              fn.apply(this, args);
+              timer = throttle = false;
+            }, ms);
+        }
+      };
+    }
+      // Attach click handler to the DT
+      const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+      for (const annoteDlNode of annoteDls) {
+        annoteDlNode.addEventListener('click', (event) => {
+          const clickedEl = event.target;
+          if (clickedEl !== selectedAnnoteEl) {
+            unselectCodeLines();
+            const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+            if (activeEl) {
+              activeEl.classList.remove('code-annotation-active');
+            }
+            selectCodeLines(clickedEl);
+            clickedEl.classList.add('code-annotation-active');
+          } else {
+            // Unselect the line
+            unselectCodeLines();
+            clickedEl.classList.remove('code-annotation-active');
+          }
+        });
+      }
+  const findCites = (el) => {
+    const parentEl = el.parentElement;
+    if (parentEl) {
+      const cites = parentEl.dataset.cites;
+      if (cites) {
+        return {
+          el,
+          cites: cites.split(' ')
+        };
+      } else {
+        return findCites(el.parentElement)
+      }
+    } else {
+      return undefined;
+    }
+  };
+  var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+  for (var i=0; i<bibliorefs.length; i++) {
+    const ref = bibliorefs[i];
+    const citeInfo = findCites(ref);
+    if (citeInfo) {
+      tippyHover(citeInfo.el, function() {
+        var popup = window.document.createElement('div');
+        citeInfo.cites.forEach(function(cite) {
+          var citeDiv = window.document.createElement('div');
+          citeDiv.classList.add('hanging-indent');
+          citeDiv.classList.add('csl-entry');
+          var biblioDiv = window.document.getElementById('ref-' + cite);
+          if (biblioDiv) {
+            citeDiv.innerHTML = biblioDiv.innerHTML;
+          }
+          popup.appendChild(citeDiv);
+        });
+        return popup.innerHTML;
+      });
+    }
+  }
+});
+</script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p><a href="https://arc-swp.nihr.ac.uk/"><img src="..\resources/nihr_logo.png" class="img-fluid" width="250"></a><br><br> <em>This report is independent research supported by the National Institute for Health and Care Research Applied Research Collaboration South West Peninsula. The views expressed in this publication are those of the author(s) and not necessarily those of the National Institute for Health and Care Research or the Department of Health and Social Care.</em> <br><br> <a href="../policies_procedures/accessibility_statement.html">Accessibility Statement</a> <br> <a href="../policies_procedures/code_of_conduct.html">Code of Conduct</a> <br> <a href="../policies_procedures/concerns_and_complaints.html">Concerns and Complaints</a></p>
+<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
