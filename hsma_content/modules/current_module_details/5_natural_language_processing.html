@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.5.57">
+<meta name="generator" content="quarto-1.6.38">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -39,10 +39,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-a1e4c769dfb8ba454fda448df42b92ec.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap.min.css" rel="stylesheet" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-7865c8a5b0ee726a2aea4ad2e7da00e8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -328,7 +328,7 @@ window.Quarto = {
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1250px)); gap: 40px;">
 
   
-    <div class="custom-grid-card border-2 rounded-3" data-index="0" data-listing-file-modified-sort="1732145819797" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+    <div class="custom-grid-card border-2 rounded-3" data-index="0" data-listing-file-modified-sort="1732716294718" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
           <div class="main-card-content">
 
               <div class="session-content session-listing-title">
@@ -376,7 +376,7 @@ We'll also learn a few little neat things we can do with our data along the way,
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="1" data-listing-file-modified-sort="1732145819797" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+    <div class="custom-grid-card border-2 rounded-3" data-index="1" data-listing-file-modified-sort="1732716294718" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
           <div class="main-card-content">
 
               <div class="session-content session-listing-title">
@@ -424,7 +424,7 @@ Have you got named entities?  Do you need them recognised?  Then have we got the
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="2" data-listing-file-modified-sort="1732145819797" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+    <div class="custom-grid-card border-2 rounded-3" data-index="2" data-listing-file-modified-sort="1732716294718" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
           <div class="main-card-content">
 
               <div class="session-content session-listing-title">
@@ -472,7 +472,7 @@ We look at how to process our raw text data ready for use in the process, train 
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="3" data-listing-file-modified-sort="1732145819797" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+    <div class="custom-grid-card border-2 rounded-3" data-index="3" data-listing-file-modified-sort="1732716294718" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
           <div class="main-card-content">
 
               <div class="session-content session-listing-title">
@@ -606,8 +606,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   });
   clipboard.on('success', onCopySuccess);
   if (window.document.getElementById('quarto-embedded-source-code-modal')) {
-    // For code content inside modals, clipBoardJS needs to be initialized with a container option
-    // TODO: Check when it could be a function (https://github.com/zenorocha/clipboard.js/issues/860)
     const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
       text: getTextToCopy,
       container: window.document.getElementById('quarto-embedded-source-code-modal')
@@ -718,7 +716,6 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       if (window.Quarto?.typesetMath) {
         window.Quarto.typesetMath(note);
       }
-      // TODO in 1.5, we should make sure this works without a callout special case
       if (note.classList.contains("callout")) {
         return note.outerHTML;
       } else {
