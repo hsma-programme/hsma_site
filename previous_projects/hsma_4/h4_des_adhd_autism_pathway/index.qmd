@@ -21,7 +21,7 @@ author:
     affiliation: Oxford Health NHS Foundation Trust
 organisations:
   - Oxford Health NHS Foundation Trust
-image: "ur9vxl8p.bmp"
+image: "ur9vxl8p.png"
 title-block-banner: ../../banner.png
 pub-info:
   links:

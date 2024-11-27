@@ -27,7 +27,7 @@ organisations:
   - Counter Terrorism Policing
   - Devon and Cornwall Police
   - Devon County Council
-image: "m6ij2sto.bmp"
+image: "m6ij2sto.png"
 title-block-banner: ../../banner.png
 pub-info:
   links:

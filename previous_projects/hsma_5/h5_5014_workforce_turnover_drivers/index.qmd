@@ -22,7 +22,7 @@ author:
 organisations:
   - NHS England
   - Yorkshire Ambulance Service
-image: "f1haee9r.bmp"
+image: "f1haee9r.png"
 title-block-banner: ../../banner.png
 repo: Y
 pub-info:

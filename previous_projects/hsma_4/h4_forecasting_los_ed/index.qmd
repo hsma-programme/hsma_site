@@ -25,7 +25,7 @@ author:
     affiliation: Sheffield Children’s Hospital
 organisations:
   - Sheffield Children’s Hospital
-image: "7eufiwyz.bmp"
+image: "7eufiwyz.png"
 title-block-banner: ../../banner.png
 pub-info:
   links:

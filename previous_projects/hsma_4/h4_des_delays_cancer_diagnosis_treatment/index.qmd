@@ -23,7 +23,7 @@ organisations:
   - Gloucestershire Hospitals Foundation Trust
   - University Hospitals of Morecambe Bay NHS Trust
   - Dartford and Gravesham NHS Trust
-image: "cuep9jku.bmp"
+image: "cuep9jku.png"
 title-block-banner: ../../banner.png
 pub-info:
   links:

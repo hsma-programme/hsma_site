@@ -24,7 +24,7 @@ author:
 organisations:
   - UCL Partners
   - Reading Borough Council
-image: "2d2d6s0i.bmp"
+image: "2d2d6s0i.png"
 title-block-banner: ../../banner.png
 repo: Y
 pub-info:

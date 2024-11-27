@@ -25,7 +25,7 @@ organisations:
   - Torridge Primary Care Network
   - Peninsula Dental School
   - Royal Devon and Exeter NHS Foundation
-image: "x17ig2yr.bmp"
+image: "x17ig2yr.png"
 title-block-banner: ../../banner.png
 pub-info:
   links:

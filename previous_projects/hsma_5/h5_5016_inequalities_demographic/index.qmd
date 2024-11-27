@@ -25,7 +25,7 @@ organisations:
   - NHS Arden and Greater East Midlands CSU
   - Wessex AHSN
   - Nottingham University Hospitals NHS Trust
-image: "8p2z6i2v.bmp"
+image: "8p2z6i2v.png"
 title-block-banner: ../../banner.png
 pub-info:
   links:

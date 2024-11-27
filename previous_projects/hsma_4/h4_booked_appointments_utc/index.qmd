@@ -19,7 +19,7 @@ author:
     affiliation: NHS England and Improvement
 organisations:
   - NHS England and Improvement
-image: "ultnzucw.bmp"
+image: "ultnzucw.png"
 title-block-banner: ../../banner.png
 pub-info:
   links:

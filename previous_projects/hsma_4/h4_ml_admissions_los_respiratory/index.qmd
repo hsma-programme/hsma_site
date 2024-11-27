@@ -15,7 +15,7 @@ author:
     affiliation: NHS Midlands and Lancashire Commissioning Support Unit
 organisations:
   - NHS Midlands and Lancashire Commissioning Support Unit
-image: "ml9qqnl3.bmp"
+image: "ml9qqnl3.png"
 title-block-banner: ../../banner.png
 pub-info:
   links:

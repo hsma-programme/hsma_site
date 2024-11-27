@@ -20,7 +20,7 @@ organisations:
   - Bedfordshire Police
   - Derbyshire Police
   - Greater Manchester Police
-image: "5r2xrx9d.bmp"
+image: "5r2xrx9d.png"
 title-block-banner: ../../banner.png
 pub-info:
   links:

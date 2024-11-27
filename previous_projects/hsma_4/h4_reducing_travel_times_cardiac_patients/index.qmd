@@ -27,7 +27,7 @@ organisations:
   - NHS England Specialised Commissioning – South East Region
   - NHS England and Improvement
   - The Strategy Unit
-image: "7s1io79p.bmp"
+image: "7s1io79p.png"
 title-block-banner: ../../banner.png
 repo: Y
 pub-info:

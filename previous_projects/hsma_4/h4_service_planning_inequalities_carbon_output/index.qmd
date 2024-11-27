@@ -28,7 +28,7 @@ organisations:
   - Derbyshire Community Health Services NHS
   - Torbay Council
   - West Sussex County Council
-image: "bef68gj9.bmp"
+image: "bef68gj9.png"
 title-block-banner: ../../banner.png
 repo: Y
 pub-info:

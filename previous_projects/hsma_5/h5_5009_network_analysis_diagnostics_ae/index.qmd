@@ -19,7 +19,7 @@ author:
     affiliation: NHS England
 organisations:
   - NHS England
-image: "akzr6q9d.bmp"
+image: "akzr6q9d.png"
 title-block-banner: ../../banner.png
 repo: Y
 pub-info:

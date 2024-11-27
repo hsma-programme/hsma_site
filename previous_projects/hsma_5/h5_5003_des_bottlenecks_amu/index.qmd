@@ -23,7 +23,7 @@ author:
     affiliation: Royal Devon University Healthcare (RDUH) NHS Foundation Trust
 organisations:
   - Royal Devon University Healthcare (RDUH) NHS Foundation Trust
-image: "cd4dqcnc.bmp"
+image: "cd4dqcnc.png"
 title-block-banner: ../../banner.png
 repo: Y
 pub-info:

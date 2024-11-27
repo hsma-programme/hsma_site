@@ -17,7 +17,7 @@ author:
     affiliation: University College Hospital Trust
 organisations:
   - University College Hospital Trust
-image: "kfbt6ekn.bmp"
+image: "kfbt6ekn.png"
 title-block-banner: ../../banner.png
 pub-info:
   links:

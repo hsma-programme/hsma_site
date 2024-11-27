@@ -19,7 +19,7 @@ author:
     affiliation: Information Analyst, Royal Devon and Exeter NHS Foundation Trust
   - name: Zoe Ficken
     affiliation: Senior Information Analyst, Royal Devon and Exeter NHS Foundation Trust
-image: "8vopju20.bmp"
+image: "8vopju20.png"
 title-block-banner: ../../banner.png
 organisations:
   - NHS Devon CCG

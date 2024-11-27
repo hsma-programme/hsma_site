@@ -31,7 +31,7 @@ author:
 organisations:
   - NHS England
   - NHS North of England Commissioning Support Unit
-image: "43fcmhsi.bmp"
+image: "43fcmhsi.png"
 title-block-banner: ../../banner.png
 pub-info:
   links:

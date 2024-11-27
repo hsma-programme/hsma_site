@@ -19,7 +19,7 @@ categories:
 author:
   - name: Adam Scull
     affiliation: Transformation Intelligence Manager, NHS England and NHS Improvement
-image: "rqvzjk78.bmp"
+image: "rqvzjk78.png"
 title-block-banner: ../../banner.png
 organisations:
   - NHS England and Improvement

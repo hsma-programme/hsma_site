@@ -21,7 +21,7 @@ author:
     affiliation: Guy’s and St Thomas’ NHS Foundation Trust
 organisations:
   - Guy’s and St Thomas’ NHS Foundation Trust
-image: "81ntpmry.bmp"
+image: "81ntpmry.png"
 title-block-banner: ../../banner.png
 repo: Y
 pub-info:

@@ -19,7 +19,7 @@ author:
     affiliation: North West Neonatal Operational Delivery Network
 organisations:
   - North West Neonatal Operational Delivery Network
-image: "m6ij2sto.bmp"
+image: "m6ij2sto.png"
 title-block-banner: ../../banner.png
 pub-info:
   links:

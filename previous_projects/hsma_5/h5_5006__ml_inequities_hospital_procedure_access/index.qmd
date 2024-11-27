@@ -17,7 +17,7 @@ author:
     affiliation: NHS & Norfolk County Council
 organisations:
   - NHS & Norfolk County Council
-image: "t3xhyl8e.bmp"
+image: "t3xhyl8e.png"
 title-block-banner: ../../banner.png
 pub-info:
   links:

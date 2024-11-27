@@ -15,7 +15,7 @@ author:
     affiliation: Analyst, Devon and Cornwall Police
   - name: Neil Mitchell
     affiliation: Business Intelligence Developer, Devon and Cornwall Police
-image: "6s1gmgrn.bmp"
+image: "6s1gmgrn.png"
 title-block-banner: ../../banner.png
 organisations:
   - Devon and Cornwall Police

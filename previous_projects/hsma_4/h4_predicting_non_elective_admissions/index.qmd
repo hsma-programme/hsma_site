@@ -22,7 +22,7 @@ author:
 organisations:
   - Royal Devon University Healthcare NHS Foundation Trust
   - NHS North East London CSU
-image: "lb926cjj.bmp"
+image: "lb926cjj.png"
 title-block-banner: ../../banner.png
 ---
 

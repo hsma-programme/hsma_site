@@ -23,7 +23,7 @@ author:
 organisations:
   - Dorset HealthCare
   - NHS Dorset
-image: "il32v884.bmp"
+image: "il32v884.png"
 title-block-banner: ../../banner.png
 pub-info:
   links:

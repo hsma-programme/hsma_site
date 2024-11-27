@@ -20,7 +20,7 @@ author:
     affiliation: Public Health Dorset
 organisations:
   - Public Health Dorset
-image: "l8j81ti4.bmp"
+image: "l8j81ti4.png"
 title-block-banner: ../../banner.png
 pub-info:
   links:

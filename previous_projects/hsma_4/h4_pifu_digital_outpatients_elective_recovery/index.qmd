@@ -21,7 +21,7 @@ author:
     affiliation: NHS England and Improvement
 organisations:
   - NHS England and Improvement
-image: "wxsssb6m.bmp"
+image: "wxsssb6m.png"
 title-block-banner: ../../banner.png
 repo: Y
 pub-info:

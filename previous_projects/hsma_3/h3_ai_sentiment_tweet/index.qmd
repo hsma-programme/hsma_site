@@ -12,7 +12,7 @@ categories:
 author:
   - name: Mike Hill
     affiliation: Analyst, Avon and Somerset Constabulary
-image: "3tk0xiyz.bmp"
+image: "3tk0xiyz.png"
 title-block-banner: ../../banner.png
 organisations:
   - Avon and Somerset Constabulary
