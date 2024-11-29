@@ -4,10 +4,11 @@ techniques:
   - Discrete Event Simulation (DES)
   - Streamlit
 areas:
-  -
+  - Stroke
 categories:
   - Discrete Event Simulation(DES)
   - Streamlit
+  - Stroke
 author:
   - name: John Williams
     affiliation: Maidstone and Tunbridge Wells NHS Trust
@@ -35,11 +36,10 @@ In the UK the prevalence of stroke among the population is set to increase, with
 
 The Hyperacute stroke setting is an extremely time critical. The quicker treatment can be delivered the better a patient's outcome. In the Acute setting, therapy takes centre stage in rehabilitating patients, with the initial few weeks being the most impactful for the patient’s recovery.
 
-Post stroke, patients can suffer with extreme changes to their function and wellbeing. The more severe the post stroke disability the more intensive and expensive care is needed. 
+Post stroke, patients can suffer with extreme changes to their function and wellbeing. The more severe the post stroke disability the more intensive and expensive care is needed.
 
 The aim of this project is to develop a discrete simulation model to observe the potential effects of differing variables (such as staffing / operating hours of pathways and services) within the Hyperacute / Acute stroke pathway have on the following :
 
 - Patient flow and medical outcomes of those patients
-- Direct costs and savings made to the stroke unit itself 
+- Direct costs and savings made to the stroke unit itself
 - The health economic costs / benefits associated with any change
-

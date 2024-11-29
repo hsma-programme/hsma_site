@@ -15,6 +15,7 @@ categories:
   - Forecasting
   - Streamlit
   - Quarto
+  - Physiotherapy
   - Intensive Care Units & Intensive Therapy Units (ICU & ITU)
   - Staffing Level Optimisation
   - Seasonal Patterns
