@@ -1,0 +1,37 @@
+---
+title: "DES model of a North West Renal Dialysis Unit to evaluate the impact of the growing need for in-centre Chronic Kidney Disease dialysis provision"
+techniques:
+  - Discrete Event Simulation (DES)
+areas:
+  - Renal
+categories:
+  - Discrete Event Simulation (DES)
+author:
+  - name: Ian Wilkes
+    affiliation: North of England Commissioning Support (NECS)
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+The rising demand for dialysis of patients with Chronic Kidney disease is putting regional centres under increasing strain. The North West Kidney Network are keen to demonstrate the pressure this will put on dialysis centres in the region and would like to look at the impact these numbers would have on renal units and resources currently in place. 
+
+They are particularly interested in looking at how staffed capacity could be adjusted, and/or how the adjustment of trained staffing ratios could be used to mitigate these pressures. 
+
+The proposed project would be to create a DES of a renal unit in the region that could be tested with the current forecasted data to evaluate impact, evidence the need for investment and aid in the optimisation of resource.
+

@@ -1,0 +1,39 @@
+---
+title: "Using Machine Learning to identify factors that predict cardiac mortality"
+techniques:
+  - Machine learning
+  - Explainable AI
+areas:
+  - Cardiology
+categories:
+  - Machine learning
+  - Explainable AI
+author:
+  - name: Ruth Keane
+    affiliation: Arden and GEM NHS Commissioning Support Unit (CSU)
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+This project will use machine learning and explainable AI techniques to try to identify the factors that predict cardiac mortality. 
+
+The project will use a large, complex patient-level database which includes 111, SUS and ambulance data. 
+
+The aim is to help identify where resourcing nationally should best be placed to decrease cardiac mortality.
+

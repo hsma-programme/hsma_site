@@ -1,0 +1,45 @@
+---
+title: "DES Modelling of The Hyperacute / Acute Stroke Pathway - Patient and Economic Outcomes"
+techniques:
+  - Discrete Event Simulation (DES)
+  - Streamlit
+areas:
+  -
+categories:
+  - Discrete Event Simulation(DES)
+  - Streamlit
+author:
+  - name: John Williams
+    affiliation: Maidstone and Tunbridge Wells NHS Trust
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+In the UK the prevalence of stroke among the population is set to increase, with some forecasts putting this between 40-60% from 2021 to 2030. This increase will not only put pressure on hospitals but also on all of society.
+
+The Hyperacute stroke setting is an extremely time critical. The quicker treatment can be delivered the better a patient's outcome. In the Acute setting, therapy takes centre stage in rehabilitating patients, with the initial few weeks being the most impactful for the patient’s recovery.
+
+Post stroke, patients can suffer with extreme changes to their function and wellbeing. The more severe the post stroke disability the more intensive and expensive care is needed. 
+
+The aim of this project is to develop a discrete simulation model to observe the potential effects of differing variables (such as staffing / operating hours of pathways and services) within the Hyperacute / Acute stroke pathway have on the following :
+
+- Patient flow and medical outcomes of those patients
+- Direct costs and savings made to the stroke unit itself 
+- The health economic costs / benefits associated with any change
+
