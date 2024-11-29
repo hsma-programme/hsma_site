@@ -6,8 +6,11 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
+<meta name="author" content="Charlotte Anderson">
+<meta name="author" content="Dorota Scott">
+<meta name="author" content="Kristian Boote">
 
-<title>Module 4: Machine Learning – HSMA</title>
+<title>Redrawing North West Ambulance dispatch Boundaries – HSMA</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -30,8 +33,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../../site_libs/quarto-search/fuse.min.js"></script>
 <script src="../../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../../">
-<script src="../../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../../site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="../../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../../../site_libs/quarto-html/quarto.js"></script>
@@ -42,7 +43,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-d166b450ba5a8e9f7a0ab969bf6592c1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-044062a58eb1d132a410b2626e905320.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-b4abe2a3e85a39a9c972df10a7b427fd.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -70,35 +71,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-4_ml .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-title','listing-title-block-banner','listing-hours','listing-image','listing-session-lead','listing-pub-info','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
-      
-      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-title","listing-title-block-banner","listing-hours","listing-image","listing-session-lead","listing-pub-info","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-4_ml'] = new List('listing-4_ml', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-9D93EVJKF5"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -135,40 +107,11 @@ background-size: cover;
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../../../styles.css">
 </head>
 
-<body class="nav-fixed">
+<body class="floating nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -299,521 +242,85 @@ window.Quarto = {
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block default page-columns page-full">
-  <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">Module 4: Machine Learning</h1>
-                      </div>
-  </div>
-    
-  
-  <div class="quarto-title-meta column-page">
+<header id="title-block-header" class="quarto-title-block projects default toc-left page-columns page-full">
+    <div class="quarto-title-banner page-columns page-full">
 
-      
-    
-      
+                <div class="project-link-buttons">
+            <ul class="project-links">
+                                                                                                                                                            </ul>
+        </div>
+        
+                <div class="back-nav"><a href="javascript:history.back()">← Back to HSMA projects</a></div>
+        
+        <div class="quarto-title column-body">
+            <h1 class="title">Redrawing North West Ambulance dispatch Boundaries</h1>
+
+            
+            
+            
+                                    <div class="quarto-categories">
+                                <div class="quarto-category">Geographic modelling</div>
+                            </div>
+                                </div>
+
     </div>
+
+    <div class="quarto-title-meta-author">
+      <div class="quarto-title-meta-heading">Authors</div>
+      <div class="quarto-title-meta-heading">Affiliation</div>
+      
+        <div class="quarto-title-meta-contents">
+        <p class="author">Charlotte Anderson </p>
+      </div>
+      <div class="quarto-title-meta-contents">
+          </div>
+        <div class="quarto-title-meta-contents">
+        <p class="author">Dorota Scott </p>
+      </div>
+      <div class="quarto-title-meta-contents">
+          </div>
+        <div class="quarto-title-meta-contents">
+        <p class="author">Kristian Boote </p>
+      </div>
+      <div class="quarto-title-meta-contents">
+            <p class="affiliation">
+                North West Amulance Trust (NWAS)
+              </p>
+          </div>
+      </div>
+
+    <div class="quarto-title-meta">
+
+          
+      
+        
+      </div>
+      
+
     
-  
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+</header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
+  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
+    
+</nav>
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
     <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
     </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
+<p>Within North West Ambulance Service (NWAS), there are three dispatch suites which are based in Manchester, Preston and Liverpool. Each of the sites has a number of dispatch areas which are split geographically, based mainly on postcodes, for the purposes of dispatching emergency resources.</p>
+<p>The geographical areas have not been reviewed for many years and in that time, there have been changes to the landscape of the areas. There have also been hospital and ambulance station closures and relocations. Over the years, there have been increases in the number of emergency ambulances to meet the demand.</p>
+<p>Today’s issue is that the dispatch areas do not have parity in terms of how many emergency resources each are controlling and in how many allocations are made by each dispatcher. This has resulted in some dispatch areas being overwhelmed with incidents to allocate which ultimately leads to delays in responding to patients.</p>
+<p>The aim of this project is to generate evidence to redraw these boundaries to make it more equitable across the three areas.</p>
 
 
 
-
-
-<div class="quarto-listing quarto-listing-container-custom" id="listing-4_ml">
-<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1250px)); gap: 40px;">
-
-  
-    <div class="custom-grid-card border-2 rounded-3" data-index="0" data-listing-file-modified-sort="1732872494622" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-          <div class="main-card-content">
-
-              <div class="session-content session-listing-title">
-                <h5 class="no-anchor card-title session-listing-title">4A: Introduction to AI and Machine Learning</h5> <button class="session-duration-button">3 hours</button>
-              </div>
-
-            
-              <div class="listing-session-lead">
-                Session Lead: Dr Daniel Chalk<br>
-              </div>
-            
-
-            
-
-              </div>
-
-                <div class="project-details-listing">
-                  
-                    
-                        
-                          
-                    <button class="session-link-listing-button"><a href="https://docs.google.com/presentation/d/1EcO71B5kEvaSkvKQeGnuO2g4Ss4RKhrphR3gE8vv-Gk/edit?usp=sharing"><i class="fa-solid fa-person-chalkboard"></i> Slides </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://youtu.be/g3RmQombgEA?si=8-3uGYYSBvYTYiXp"><i class="fa-brands fa-youtube"></i> Video </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://github.com/hsma-programme/h6_4a_introduction_ai_ml"><i class="fa-brands fa-github"></i> Repository </a></button>
-                    
-                    
-                          
-                    
-                      
-                  
-                </div>
-
-              </div>
-
-            
-    <div class="custom-grid-card border-2 rounded-3" data-index="1" data-listing-file-modified-sort="1732872494622" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-          <div class="main-card-content">
-
-              <div class="session-content session-listing-title">
-                <h5 class="no-anchor card-title session-listing-title">4B: Logistic Regression - Who Would Survive the Titanic?</h5> <button class="session-duration-button">3 hours</button>
-              </div>
-
-            
-              <div class="listing-session-lead">
-                Session Lead: Dr Daniel Chalk<br>
-              </div>
-            
-
-            
-
-              </div>
-
-                <div class="project-details-listing">
-                  
-                    
-                        
-                          
-                    <button class="session-link-listing-button"><a href="https://docs.google.com/presentation/d/1MdLRe4-089MsEWttK9OgFvgBX8EqJ6LFCRC72zyz1jI/edit?usp=sharing"><i class="fa-solid fa-person-chalkboard"></i> Slides </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://youtu.be/0Cw6LK-MO_w?si=m5__3gw2pQPXFlsj"><i class="fa-brands fa-youtube"></i> Video </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://github.com/hsma-programme/h6_4b_log_reg_titanic"><i class="fa-brands fa-github"></i> Repository </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://hsma-programme.github.io/h6_module4_notebooks/4b_log_reg_tutorial_1.html"><i class="fa-solid fa-book"></i> Book </a></button>
-                    
-                    
-                      
-                  
-                </div>
-
-              </div>
-
-            
-    <div class="custom-grid-card border-2 rounded-3" data-index="2" data-listing-file-modified-sort="1732872494622" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-          <div class="main-card-content">
-
-              <div class="session-content session-listing-title">
-                <h5 class="no-anchor card-title session-listing-title">4C: Ethics in AI</h5> <button class="session-duration-button">3 hours</button>
-              </div>
-
-            
-              <div class="listing-session-lead">
-                Session Lead: Dr Daniel Chalk<br>
-              </div>
-            
-
-            
-
-              </div>
-
-                <div class="project-details-listing">
-                  
-                    
-                        
-                          
-                    <button class="session-link-listing-button"><a href="https://docs.google.com/presentation/d/16Qwx0cUdGjtqqD7WQ-4kAWHBdJvBFHMch_AwPUwrp1M/edit?usp=sharing"><i class="fa-solid fa-person-chalkboard"></i> Slides </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://youtu.be/fzgtDKCLGHI?si=81-Lqz0A110nUrEG"><i class="fa-brands fa-youtube"></i> Video </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://github.com/hsma-programme/h6_4c_ethics_in_ai"><i class="fa-brands fa-github"></i> Repository </a></button>
-                    
-                    
-                          
-                    
-                      
-                  
-                </div>
-
-              </div>
-
-            
-    <div class="custom-grid-card border-2 rounded-3" data-index="3" data-listing-file-modified-sort="1732872494622" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-          <div class="main-card-content">
-
-              <div class="session-content session-listing-title">
-                <h5 class="no-anchor card-title session-listing-title">4D: Decision Trees and Random Forests</h5> <button class="session-duration-button">3 hours</button>
-              </div>
-
-            
-              <div class="listing-session-lead">
-                Session Lead: Sammi Rosser<br>
-              </div>
-            
-
-            
-
-              </div>
-
-                <div class="project-details-listing">
-                  
-                    
-                        
-                          
-                    <button class="session-link-listing-button"><a href="https://docs.google.com/presentation/d/1LgVvgLzm4dxCdDCusjWWC_SBrtXhhCPchHXK4oI0kWU/edit?usp=sharing"><i class="fa-solid fa-person-chalkboard"></i> Slides </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://youtu.be/fzgtDKCLGHI?si=81-Lqz0A110nUrEG"><i class="fa-brands fa-youtube"></i> Video - Decision Trees </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://youtu.be/jqvn_OXbIfg?si=KyLxfT1VuBYAJwtH"><i class="fa-brands fa-youtube"></i> Video - Random Forests, F1 score and confusion matrices </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://github.com/hsma-programme/h6_4d_decision_trees_random_forests"><i class="fa-brands fa-github"></i> Repository </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://hsma-programme.github.io/h6_module4_notebooks/4d_decision_tree_titanic.html"><i class="fa-solid fa-book"></i> Book </a></button>
-                    
-                    
-                      
-                  
-                </div>
-
-              </div>
-
-            
-    <div class="custom-grid-card border-2 rounded-3" data-index="4" data-listing-file-modified-sort="1732872494622" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-          <div class="main-card-content">
-
-              <div class="session-content session-listing-title">
-                <h5 class="no-anchor card-title session-listing-title">4E: Boosted Trees for Classification, and Tackling Regression (Numeric Prediction) Problems with Machine Learning</h5> <button class="session-duration-button">3 hours</button>
-              </div>
-
-            
-              <div class="listing-session-lead">
-                Session Lead: Sammi Rosser<br>
-              </div>
-            
-
-            
-
-              </div>
-
-                <div class="project-details-listing">
-                  
-                    
-                        
-                          
-                    <button class="session-link-listing-button"><a href="https://docs.google.com/presentation/d/1c89f4ZRU6kQPybWpoO5v_lphAqqnPPfPEAkfVli85iM/edit?usp=sharing"><i class="fa-solid fa-person-chalkboard"></i> Slides </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://youtu.be/o9WB1ncskzU?si=BukxZinGDZt4YFwa"><i class="fa-brands fa-youtube"></i> Video - Boosted Trees for Classification Problems </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://youtu.be/udlOEtFWYFc?si=PdrNFmmu0NkFgllt"><i class="fa-brands fa-youtube"></i> Video - Predicting Numeric Values with Tree-based Algorithms, and Data Prep for ML with OneHot encoding </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://github.com/hsma-programme/h6_4e_boosted_trees"><i class="fa-brands fa-github"></i> Repository </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://hsma-programme.github.io/h6_module4_notebooks/4e_boosting_titanic.html"><i class="fa-solid fa-book"></i> Book - Classification with Boosted Trees </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://hsma-programme.github.io/h6_module4_notebooks/4e_tree_based_models_regression.html"><i class="fa-solid fa-book"></i> Book - Regression (Numeric Prediction) </a></button>
-                    
-                    
-                      
-                  
-                </div>
-
-              </div>
-
-            
-    <div class="custom-grid-card border-2 rounded-3" data-index="5" data-listing-file-modified-sort="1732872494622" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-          <div class="main-card-content">
-
-              <div class="session-content session-listing-title">
-                <h5 class="no-anchor card-title session-listing-title">4F: Neural Networks</h5> <button class="session-duration-button">3 hours</button>
-              </div>
-
-            
-              <div class="listing-session-lead">
-                Session Lead: Dr Daniel Chalk<br>
-              </div>
-            
-
-            
-
-              </div>
-
-                <div class="project-details-listing">
-                  
-                    
-                        
-                          
-                    <button class="session-link-listing-button"><a href="https://docs.google.com/presentation/d/1SHbIwMyHfBztjp1B27T5f_c99gnrmzjycEwEkJ4ABik/edit?usp=sharing"><i class="fa-solid fa-person-chalkboard"></i> Slides </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://youtu.be/X0OAjmkuwO8?si=EqMaLjp2fSEPyiSR"><i class="fa-brands fa-youtube"></i> Video </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://github.com/hsma-programme/h6_4f_neural_networks"><i class="fa-brands fa-github"></i> Repository </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://hsma-programme.github.io/h6_module4_notebooks/4f_HSMA_neural_nets.html"><i class="fa-solid fa-book"></i> Book </a></button>
-                    
-                    
-                      
-                  
-                </div>
-
-              </div>
-
-            
-    <div class="custom-grid-card border-2 rounded-3" data-index="6" data-listing-file-modified-sort="1732872494622" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-          <div class="main-card-content">
-
-              <div class="session-content session-listing-title">
-                <h5 class="no-anchor card-title session-listing-title">4G: Explainable AI</h5> <button class="session-duration-button">3 hours</button>
-              </div>
-
-            
-              <div class="listing-session-lead">
-                Session Lead: Sammi Rosser<br>
-              </div>
-            
-
-            
-
-              </div>
-
-                <div class="project-details-listing">
-                  
-                    
-                        
-                          
-                    <button class="session-link-listing-button"><a href="https://docs.google.com/presentation/d/1fzvwWTaYCVy7oDTZ__fTDhx89XibyUY-Pa4oUXTpeH4/edit?usp=sharing"><i class="fa-solid fa-person-chalkboard"></i> Slides </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://youtu.be/33ZN1orqjKk?si=ymx5EVtiCe14R9FG"><i class="fa-brands fa-youtube"></i> Video - Introduction </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://youtu.be/B_meJuMbMr4?si=3mUu2AwxvVcqiQai"><i class="fa-brands fa-youtube"></i> Video - Feature Importance in Logistic Regression &amp; Odds/Log Odds/Probability </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://youtu.be/qhVkmPV0QBg?si=YWfWQi6ppPKTZZAq"><i class="fa-brands fa-youtube"></i> Video - Feature Importance with MDI + PFI </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://youtu.be/iP07GkeyPpA?si=X-ETnoAnEUIgnyTc"><i class="fa-brands fa-youtube"></i> Video - Partial Dependence Plots and Individual Conditional Expectation Plots </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://youtu.be/A4MH0GNfxZA?si=zjruoRz2OwYhmjaP"><i class="fa-brands fa-youtube"></i> Video - Explainable AI with SHAP </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://youtu.be/AUnKMEe3ub4?si=_vgwc49gav4Amycb"><i class="fa-brands fa-youtube"></i> Video - Prediction Uncertainty </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://github.com/hsma-programme/h6_4g_explainable_ai"><i class="fa-brands fa-github"></i> Repository </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://hsma-programme.github.io/h6_module4_notebooks/4g_logistic_regression_titanic_feature_importance_prediction_uncertainty.html"><i class="fa-solid fa-book"></i> Book </a></button>
-                    
-                    
-                      
-                  
-                </div>
-
-              </div>
-
-            
-    <div class="custom-grid-card border-2 rounded-3" data-index="7" data-listing-file-modified-sort="1732872494622" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-          <div class="main-card-content">
-
-              <div class="session-content session-listing-title">
-                <h5 class="no-anchor card-title session-listing-title">4H: Reinforcement Learning</h5> <button class="session-duration-button">3 hours</button>
-              </div>
-
-            
-              <div class="listing-session-lead">
-                Session Lead: Dr Daniel Chalk<br>
-              </div>
-            
-
-            
-
-              </div>
-
-                <div class="project-details-listing">
-                  
-                    
-                        
-                          
-                    <button class="session-link-listing-button"><a href="https://docs.google.com/presentation/d/1Sok1fWn_y15XLRLQoOq2pKiTX6TG3LDgNkSKhFq6us0/edit?usp=sharing"><i class="fa-solid fa-person-chalkboard"></i> Slides </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://youtu.be/ebFmAiUQkuY?si=uVXkqBO6-8ZIspPW"><i class="fa-brands fa-youtube"></i> Video </a></button>
-                    
-                    
-                          
-                    
-                          
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://bergam0t.github.io/ReinforcementLearningGame/"><i class="fa-solid fa-gamepad"></i> Game </a></button>
-                    
-                    
-                      
-                  
-                </div>
-
-              </div>
-
-            
-    <div class="custom-grid-card border-2 rounded-3" data-index="8" data-listing-file-modified-sort="1732872494622" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-          <div class="main-card-content">
-
-              <div class="session-content session-listing-title">
-                <h5 class="no-anchor card-title session-listing-title">4I: Synthetic Data using SMOTE</h5> <button class="session-duration-button">3 hours</button>
-              </div>
-
-            
-              <div class="listing-session-lead">
-                Session Lead: Dr Daniel Chalk<br>
-              </div>
-            
-
-            
-
-              </div>
-
-                <div class="project-details-listing">
-                  
-                    
-                        
-                          
-                    <button class="session-link-listing-button"><a href="https://docs.google.com/presentation/d/1psVyGCwFDAtW0v7QAUaWXseUTV7W-xgRPDgS7rtjpJU/edit?usp=sharing"><i class="fa-solid fa-person-chalkboard"></i> Slides </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://youtu.be/3H0YMXWCxnM?si=T5xKhF74uAv13-Qr"><i class="fa-brands fa-youtube"></i> Video </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://github.com/hsma-programme/h6_4i_synthetic_data"><i class="fa-brands fa-github"></i> Repository </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://hsma-programme.github.io/h6_module4_notebooks/4i_synthetic_data_SMOTE.html"><i class="fa-solid fa-book"></i> Book </a></button>
-                    
-                    
-                      
-                  
-                </div>
-
-              </div>
-
-            
-    <div class="custom-grid-card border-2 rounded-3" data-index="9" data-listing-file-modified-sort="1732872494622" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-          <div class="main-card-content">
-
-              <div class="session-content session-listing-title">
-                <h5 class="no-anchor card-title session-listing-title">4J: Optimising Machine Learning Models</h5> <button class="session-duration-button">3 hours</button>
-              </div>
-
-            
-              <div class="listing-session-lead">
-                Session Lead: Sammi Rosser<br>
-              </div>
-            
-
-            
-
-              </div>
-
-                <div class="project-details-listing">
-                  
-                    
-                        
-                          
-                    <button class="session-link-listing-button"><a href="https://docs.google.com/presentation/d/1t6eS93gkFfGMlfJ86cVShAZ2vOhmP08TFVp8rcgTGyQ/edit?usp=sharing"><i class="fa-solid fa-person-chalkboard"></i> Slides </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://docs.google.com/presentation/d/1BBCc5TVEhfAY98I6JLKrsObLLeVseAsxYZSrgve20uI/edit?usp=sharing"><i class="fa-solid fa-person-chalkboard"></i> Slides (Reference Version - Code Only) </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://youtu.be/LYP1H7X-aeg?si=jgSbXvlSueT6b4B_"><i class="fa-brands fa-youtube"></i> Video </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://github.com/hsma-programme/h6_4j_model_optimisation"><i class="fa-brands fa-github"></i> Repository </a></button>
-                    
-                    
-                          
-                    <button class="session-link-listing-button"><a href="https://hsma-programme.github.io/h6_module4_notebooks/4j_auto_ml.html"><i class="fa-solid fa-book"></i> Book </a></button>
-                    
-                    
-                      
-                  
-                </div>
-
-              </div>
-
-            
-          </div>
-
-<div class="listing-no-matching d-none">
-No matching items
-</div>
-</div></main> <!-- /main -->
+</main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
