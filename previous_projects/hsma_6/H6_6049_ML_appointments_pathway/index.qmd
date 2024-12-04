@@ -17,6 +17,8 @@ categories:
 author:
   - name: Sarah Mole
     affiliation: NHS England
+  - name: Sophie Tuley
+    affiliation: NHS England
 image: "../placeholder.png"
 title-block-banner: ../../banner.png
 status: Active
@@ -27,7 +29,7 @@ pub-info:
     url:
     icon: fa-brands fa-youtube
   - name: Code
-    url:
+    url: https://github.com/tuleys/REQ0449
     icon: fa-brands fa-github
   - name: Website
     url:
