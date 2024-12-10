@@ -1,4 +1,8 @@
-# HSMA 6 Certification Guidance
+---
+title: HSMA Certification Guidance
+title-block-banner: resources/banner.png
+include-back-link: false
+---
 
 The HSMA Programme is accredited by the Association of Professional Healthcare Analysts (AphA) and all participants are able to cite this as part of their participation.  However, we also recognise that some participants may want to receive a digital certificate to confirm their completion of the programme.  To this end, we provide optional certification via Accredible.
 

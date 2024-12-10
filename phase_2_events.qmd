@@ -1,4 +1,9 @@
-# Phase 2 Details
+---
+title: Phase 2 Details
+title-block-banner: resources/banner.png
+include-back-link: false
+---
+
 
 During phase 2 of HSMA 6, which runs until Wednesday 25th June 2025, students are expected to be working on their inception project the equivalent of one day a week. A range of events are also scheduled to take place during this time.
 
