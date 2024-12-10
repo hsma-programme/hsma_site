@@ -91,6 +91,8 @@ website:
             text: Project Log Recording App
           - href: assessment_faqs.qmd
             text: Assessment Details
+          - href: phase_2_details.qmd
+            text: Phase 2 Dates and Events
 
 
 format:

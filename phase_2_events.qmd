@@ -1,5 +1,5 @@
 ---
-title: Phase 2 Details
+title: Phase 2 Dates and Events
 title-block-banner: resources/banner.png
 include-back-link: false
 ---
