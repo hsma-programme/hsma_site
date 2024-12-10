@@ -1,0 +1,67 @@
+# Phase 2 Details
+
+During phase 2 of HSMA 6, which runs until Wednesday 25th June 2025, students are expected to be working on their inception project the equivalent of one day a week. A range of events are also scheduled to take place during this time.
+
+## Forums
+
+Forums are a space for everyone working on projects to come together, share updates on their projects and, perhaps most importantly of all, to share ideas with each other.
+
+:::{.callout-tip}
+Attendance is expected at forums for anyone who is involved in a project.
+
+For those who have not yet registered a project, forum attendance is still highly recommended.
+:::
+
+Forums will generally begin with several short demonstrations and talks from students who are currently working on their projects, before students move into groups to discuss their project progress and receive support from their peers.
+
+7 forums are scheduled to take place during phase 2 of the programme - one per month.
+
+Forums run from 10am to 12pm.
+
+1. Tuesday 19th November 2024
+2. Tuesday 10th December 2024
+3. Tuesday 21st January 2025
+4. Tuesday 18th Feburary 2025
+5. Tuesday 18th March 2025
+6. Tuesday 29th April 2025
+7. Tuesday 27th May 2025
+
+:::{.callout-note}
+Note that the joining link for these sessions is the same as all other HSMA sessions.
+:::
+
+## Next Steps Clinics
+
+HSMAs and their organisations should see the HSMA Programme as a way of accessing and working with a long-term support community of modellers and data scientists.
+
+Inception Projects are intended to be the first of many projects undertaken by those in the HSMA Community.
+
+Now, any HSMA from any cohort can register a project at any time, access support, guidance and collaborative opportunities from the community, and present work at the HSMA Conference.
+
+To support this, towards the end of Phase 2, we provide a number of Next Steps clinics to help HSMAs think about where they go next (other projects, building skills into daily work etc)
+
+4 clinics are scheduled to take place during phase 2 of the programme.
+
+Clinic run from 10am to 11am.
+
+1. Wednesday 19th March 2025
+2. Wednesday 30th April 2025
+3. Wednesday 28th May 2025
+4. Wednesday 25th June 2025
+
+## HSMA Conference
+
+At the end of the HSMA round, there will be a HSMA Conference.  This will be an opportunity for those in the HSMA community to come together to present their work.
+
+Invites will also be open to audience members more widely in health, social care and policing practice and academia, including those interested in applying.
+
+Most of the talks at the conference will be Inception Projects but there will also be :
+
+- Talks from HSMA alumni about further projects / work they have undertaken
+Workshops
+- Talks from the PenCHORD team about their research
+
+:::{.callout-tip}
+The conference for HSMA 6 will take place on
+Tuesday 24th June 2025.
+:::
