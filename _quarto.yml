@@ -85,6 +85,13 @@ website:
           - href: faqs.qmd
             text: Frequently Asked Questions
 
+      - text: "Current Students"
+        menu:
+          - href: project_log_recording_app.qmd
+            text: Project Log Recording App
+          - href: assessment_faqs.qmd
+            text: Assessment Details
+
 
 format:
   html:

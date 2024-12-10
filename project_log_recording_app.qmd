@@ -1,0 +1,74 @@
+---
+title: Project Log Submission App
+title-block-banner: resources/banner.png
+include-back-link: false
+page-layout: full
+grid:
+  sidebar-width: 0px
+  body-width: 1100px
+  margin-width: 300px
+  gutter-width: 1.5rem
+---
+
+```{=html}
+<style>
+
+body {
+	text-align: center;
+}
+
+a {
+	color: rgb(255, 255, 255);
+	text-decoration: underline;
+	-webkit-text-decoration: underline;
+	-moz-text-decoration: underline;
+	-ms-text-decoration: underline;
+	-o-text-decoration: underline;
+  padding: 2px
+}
+
+.custom-button:hover a {
+  background-color: white;    /* White background on hover */
+  color: #3d3d3d;              /* Grey text on hover */
+  border-color: #3498db;      /* Blue border on hover */
+}
+
+@media only screen and (max-width: 600px) {
+
+.hsma-iframe {
+  height: 350px
+}
+}
+
+@media only screen and (max-width: 800px) {
+
+.hsma-iframe {
+  height: 450px
+}
+}
+
+@media only screen and (min-width: 800px) {
+
+.hsma-iframe {
+  height: 700px
+}
+
+}
+
+</style>
+```
+
+
+```{=html}
+<div class="project-link-buttons">
+    <ul class="project-links">
+        <button class="custom-button"><a href="https://hsma-project-tracker.streamlit.app/"><i class="fa-solid fa-globe"></i><span style="padding-left: 10px;">Open the App in a New Tab</span></a></button>
+        <button class="custom-button"><a href="https://github.com/Bergam0t/hsma_project_tracker"><i class="fa-brands fa-github"></i><span style="padding-left: 10px;">View the Code</span></a></button>
+    </ul>
+</div>
+```
+
+
+```{=html}
+<iframe class="hsma-iframe" width="90%" src="https://hsma-project-tracker.streamlit.app/?embed=true" title="HSMA Project Logging App"></iframe>
+```
