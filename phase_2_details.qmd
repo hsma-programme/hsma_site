@@ -11,7 +11,7 @@ During phase 2 of HSMA 6, which runs until Wednesday 25th June 2025, students ar
 
 Forums are a space for everyone working on projects to come together, share updates on their projects and, perhaps most importantly of all, to share ideas with each other.
 
-:::{.callout-tip}
+:::{.callout-tip appearance="simple"}
 Attendance is expected at forums for anyone who is involved in a project.
 
 For those who have not yet registered a project, forum attendance is still highly recommended.
@@ -31,7 +31,7 @@ Forums run from 10am to 12pm.
 6. Tuesday 29th April 2025
 7. Tuesday 27th May 2025
 
-:::{.callout-note}
+:::{.callout-note appearance="simple"}
 Note that the joining link for these sessions is the same as all other HSMA sessions.
 :::
 
@@ -66,7 +66,7 @@ Most of the talks at the conference will be Inception Projects but there will al
 Workshops
 - Talks from the PenCHORD team about their research
 
-:::{.callout-tip}
+:::{.callout-tip appearance="simple"}
 The conference for HSMA 6 will take place on
 Tuesday 24th June 2025.
 :::
