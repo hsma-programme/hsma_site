@@ -6,7 +6,7 @@ include-back-link: false
 
 The HSMA Programme is accredited by the Association of Professional Healthcare Analysts (AphA) and all participants are able to cite this as part of their participation.  However, we also recognise that some participants may want to receive a digital certificate to confirm their completion of the programme.  To this end, we provide optional certification via Accredible.
 
-To ensure that we are only certifying that have adequately engaged with the course, if a participant would like to be certified, we require some evidence that a participant has both
+To ensure that we are only certifying those that have adequately engaged with the course, if a participant would like to be certified, we require some evidence that a participant has both
 
 a) undertaken and sufficiently engaged with the training provided as part of the programme, and
 b) is able to apply at least some of the skills taught.
