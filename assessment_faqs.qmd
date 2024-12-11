@@ -58,13 +58,14 @@ We would recommend that these projects still make use of GitHub, and discussions
 3. Authorship of code and other materials should be made clear.
     - This is particularly important for projects involving multiple HSMAs, so that each HSMA involved can provide a case for their certification.
 
-4. HSMA Programme staff will look over the work provided.
-    - They will determine whether the work demonstrates that the author(s) have sufficiently understood the techniques adopted, and have produced good quality code.
-        - If so, certification will be provided.
-        - If not, staff will contact the HSMA(s) involved in the first instance to explore
-            i. if there is further evidence that they can provide, or
-            ii. advise them to resubmit at a later stage when the project has advanced further, or
-            iii. if neither of these are possible, to direct them to undertake a subsequent assessment if they still wish to be certified.
+On submission, HSMA Programme staff will look over the work provided.
+
+- They will determine whether the work demonstrates that the author(s) have sufficiently understood the techniques adopted, and have produced good quality code.
+    - If so, certification will be provided.
+    - If not, staff will contact the HSMA(s) involved in the first instance to explore
+        i. if there is further evidence that they can provide, or
+        ii. advise them to resubmit at a later stage when the project has advanced further, or
+        iii. if neither of these are possible, to direct them to undertake a subsequent assessment if they still wish to be certified.
 
 :::{.callout-warning appearance="simple"}
 The decision of programme staff is final, but extensive discussion will take place for any proposed rejections of evidence before any such decision is taken to ensure that the decision is fair.
