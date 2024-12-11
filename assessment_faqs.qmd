@@ -13,7 +13,7 @@ b) is able to apply at least some of the skills taught.
 
 For participants in HSMA 6, we have provided two options for those who wish to receive a certificate.
 
-:::{.callout-tip}
+:::{.callout-tip appearance="simple"}
 Participants may either
 
 - Provide their HSMA project work as evidence
@@ -23,7 +23,7 @@ Participants may either
 
  It should be noted that participants only need to choose ONE of these options if they want certification, and there is no difference in certification between the two options.  Participants can only be certified once.
 
-:::{.callout-note}
+:::{.callout-note appearance="simple"}
 It is also important to note that the certification does not represent a formal academic award, simply a ‘stamp’ of completion of the HSMA programme.
 :::
 
@@ -31,7 +31,7 @@ It is also important to note that the certification does not represent a formal 
 
 Students may choose to provide their HSMA project work as evidence of their engagement and ability to apply the skills taught.
 
-:::{.callout-tip}
+:::{.callout-tip appearance="simple"}
 
 This is the recommended option for most participants, as it provides us with a more accurate picture of a participant’s ability to use the skills taught in practice over time, and does not require the participant to undertake a separate piece of work under examination conditions.
 
@@ -39,21 +39,43 @@ This is the recommended option for most participants, as it provides us with a m
 
 To submit project work as certification evidence, the following guidelines must be met :
 
-1. The project must be an officially registered HSMA project (registered on the HSMA Project Register).  This ensures that the project is one that uses the skills taught on the programme, and has an application area in health, social care or policing
+1. The project must be an officially registered HSMA project (registered on the HSMA Project Register).
+    - This ensures that the project is one that uses the skills taught on the programme, and has an application area in health, social care or policing
 
-2. The evidence must be submitted as a link to a GitHub repository which contains the code, commit histories and relevant documentation for the project.  This should be done either at the end of Phase 2, or may be submitted sooner if the project completes before this time.  Submissions after the end of Phase 2 are also permitted, though it should be noted that the project does not need to be fully complete at the time of submission as long as there is sufficient evidence of the application of skills present.
+2. The evidence must be submitted as a link to a GitHub repository which contains the code, commit histories and relevant documentation for the project.
+    - This should be done either at the end of Phase 2, or may be submitted sooner if the project completes before this time.
+    - Submissions after the end of Phase 2 are also permitted, though it should be noted that **the project does not need to be fully complete at the time of submission** as long as there is sufficient evidence of the application of skills present.
 
-3. Authorship of code and other materials should be made clear.  This is particularly important for projects involving multiple HSMAs, so that each HSMA involved can provide a case for their certification.
+:::{.callout-note appearance="simple"}
+While most HSMA projects will be code-based, some projects may instead use QGIS or InsightMaker.
 
-4. HSMA Programme staff will look over the work provided in the repository and determine whether the work demonstrates that the author(s) have sufficiently understood the techniques adopted, and have produced good quality code.  If so, certification will be provided.  If not, staff will contact the HSMA(s) involved in the first instance to explore i) if there is further evidence that they can provide, ii) advise them to resubmit at a later stage when the project has advanced further, or iii) if neither of these are possible, to direct them to undertake a subsequent assessment if they still wish to be certified.  The decision of programme staff is final, but extensive discussion will take place for any proposed rejections of evidence before any such decision is taken to ensure that the decision is fair.
+We would recommend that these projects still make use of GitHub, and discussions should be had with the programme staff if it is not going to be possible to make use of GitHub.
 
+- Projects using InsightMaker can export the .InsightMaker file and track changes to this on Github.
+- QGIS project files can also be uploaded to a GitHub repository. It is recommended that students install the [qgis_trackable_project_files](https://github.com/opengisch/qgis_trackable_project_files) and use the .qgs format.
+:::
+
+3. Authorship of code and other materials should be made clear.
+    - This is particularly important for projects involving multiple HSMAs, so that each HSMA involved can provide a case for their certification.
+
+4. HSMA Programme staff will look over the work provided.
+    - They will determine whether the work demonstrates that the author(s) have sufficiently understood the techniques adopted, and have produced good quality code.
+        - If so, certification will be provided.
+        - If not, staff will contact the HSMA(s) involved in the first instance to explore
+            i. if there is further evidence that they can provide, or
+            ii. advise them to resubmit at a later stage when the project has advanced further, or
+            iii. if neither of these are possible, to direct them to undertake a subsequent assessment if they still wish to be certified.
+
+:::{.callout-warning appearance="simple"}
+The decision of programme staff is final, but extensive discussion will take place for any proposed rejections of evidence before any such decision is taken to ensure that the decision is fair.
+:::
 
 ## Option 2: Undertake the HSMA 6 Assessment
 
 **If participants are not undertaking a HSMA project, or would prefer to receive certification sooner, they can choose to undertake the HSMA 6 Assessment**
 
 
-:::{.callout-tip}
+:::{.callout-tip appearance="simple"}
 The assessment will take place on 28th January 2025 at 1000 - 1200.
 
 Students should join this session using the normal HSMA Zoom Link.
