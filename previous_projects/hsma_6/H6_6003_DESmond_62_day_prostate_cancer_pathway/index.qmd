@@ -15,8 +15,9 @@ categories:
 author:
   - name: Jake Wilson
     affiliation: Great Western Hospitals NHS Foundation Trust
-organisations: Great Western Hospitals NHS Foundation Trust
-image: "6003.png"
+organisations:
+  - Great Western Hospitals NHS Foundation Trust
+image: "6003.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
