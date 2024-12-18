@@ -1,5 +1,5 @@
 ---
-title: "Discrete Event Simulation and Artificially Intelligent Forecasting: Modelling the 62 Day Prostate Cancer Pathway"
+title: "DESmond: Discrete Event Simulation and Artificially Intelligent Forecasting: Modelling the 62 Day Prostate Cancer Pathway"
 techniques:
   - Discrete Event Simulation (DES)
   - Streamlit
@@ -13,9 +13,10 @@ categories:
   - Cancer
   - Waiting Times
 author:
-  - name:
-    affiliation:
-image: "../placeholder.png"
+  - name: Jake Wilson
+    affiliation: Great Western Hospitals NHS Foundation Trust
+organisations: Great Western Hospitals NHS Foundation Trust
+image: "6003.png"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
