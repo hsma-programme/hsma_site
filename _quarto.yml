@@ -76,6 +76,19 @@ website:
           - href: hsma_content/reinforcement_learning_game.qmd
             text: Reinforcement Learning Game
 
+      - text: "Current & Former Students"
+        menu:
+          - href: project_log_recording_app.qmd
+            text: Project Log Recording App
+          - href: assessment_faqs.qmd
+            text: Assessment Details
+          - href: phase_2_details.qmd
+            text: Phase 2 Dates & Events
+          - href: registering_a_project.qmd
+            text: Registering a Project
+          - href: project_faqs.qmd
+            text: Project FAQs
+
       - text: "About"
         menu:
           - href: about-hsma.qmd
@@ -84,15 +97,6 @@ website:
             text: HSMA & Open Source Software
           - href: faqs.qmd
             text: Frequently Asked Questions
-
-      - text: "Current Students"
-        menu:
-          - href: project_log_recording_app.qmd
-            text: Project Log Recording App
-          - href: assessment_faqs.qmd
-            text: Assessment Details
-          - href: phase_2_details.qmd
-            text: Phase 2 Dates and Events
 
 
 format:
