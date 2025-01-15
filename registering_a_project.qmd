@@ -3,13 +3,6 @@ title: Registering a project
 title-block-banner: resources/banner.png
 include-back-link: false
 toc: true
-listing:
-    - id: project_ideas
-      contents: "general_project_ideas/*.qmd"
-      sort: "date desc"
-      type: table
-      fields: [title, categories]
-      categories: true
 ---
 
 ## Project Criteria
