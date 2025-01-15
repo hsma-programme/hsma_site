@@ -13,7 +13,7 @@ The team will then create you a channel on Slack to use for project discussions,
 
 You don't need to do anything more formal than that - you can start cracking on with your code and using the HSMA community for help.
 
-:::{.callout-note}
+:::{.callout-note appearance="simple"}
 An **optional** template is provided to help you shape your project proposal. If you use this, it is helpful for us if you submit it along with your brief project explanation, but it is not a mandatory part of the project registration process - a quick overview of your project will suffice!
 :::
 

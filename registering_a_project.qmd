@@ -14,7 +14,7 @@ listing:
 
 ## Project Criteria
 
-:::{.callout-note}
+:::{.callout-note appearance="simple"}
 HSMA projects must meet a few criteria
 
 - They must use a method we teach on the HSMA course
@@ -24,8 +24,8 @@ HSMA projects must meet a few criteria
 :::
 
 
-:::{.callout-tip}
-Take a look at the [FAQs](faqs.qmd) if you have any questions.
+:::{.callout-tip appearance="simple"}
+Take a look at the [FAQs](project_faqs.qmd) if you have any questions.
 :::
 
 ## Registering Your Project
@@ -36,7 +36,7 @@ The team will then create you a channel on Slack to use for project discussions,
 
 You don't need to do anything more formal than that - you can start cracking on with your project work and use your project channel to reach out to the HSMA community for help.
 
-:::{.callout-note}
+:::{.callout-note appearance="simple"}
 While we provide a project design template, this is **entirely optional** and is only designed to guide your thinking. If you have filled it out, it is helpful for us if you submit it along with your brief project description in the [#new_project_airlock](https://hsma-workspace.slack.com/archives/C074HBCAGGM) - but you do not have to fill in every field, or even fill it in at all if you don't find it helpful!!
 :::
 
@@ -83,13 +83,13 @@ If you do fill it out, it is helpful for us if you submit it along with your bri
 
 [Click Here to Open the Template in Google Documents](https://docs.google.com/document/d/1BuiFnpwr7PvaBDqJwvpuJpYgpxBczVkByJkPPrKd7f8/edit?usp=sharing)
 
-:::{.callout-tip}
+:::{.callout-tip appearance="simple"}
 You will need to take a copy of the document to be able to edit it.
 
 ![](assets/2024-10-09-12-23-08.png)
 :::
 
-:::{.callout-tip}
+:::{.callout-tip appearance="simple"}
 
 Some examples of filled in templates for real HSMA projects can be found [here](https://hsma-workspace.slack.com/archives/C078UQMP2QH/p1727684798692199) if you are a member of the HSMA Slack community.
 
