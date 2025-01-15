@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Shilpa Patel">
 
-<title>Discrete Event Simulation to Improve Flow and Performance in the Urgent Treatment Centre – HSMA</title>
+<title>Registering a project – HSMA</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,24 +23,26 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<script src="../../../site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="../../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="../../../site_libs/quarto-html/quarto.js"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-c557050b76b5e6136c980cd3aab62c05.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
+<script src="site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="site_libs/quarto-html/quarto.js"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-c557050b76b5e6136c980cd3aab62c05.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -69,6 +70,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-project_ideas .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-title','listing-categories',{ data: ['index'] },{ data: ['categories'] }],
+      
+      searchColumns: [],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-project_ideas'] = new List('listing-project_ideas', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-9D93EVJKF5"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -99,25 +129,54 @@ cookieconsent.run({
 <style>
 
       .quarto-title-block .quarto-title-banner {
-        background-image: url(../../banner.png);
+        background-image: url(resources/banner.png);
 background-size: cover;
       }
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
 
-<link rel="stylesheet" href="../../../styles.css">
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN") {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
+
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="floating nav-fixed">
+<body class="nav-fixed">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-xl " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../resources/Chalky HSMA-07-wide white logo.png" alt="" class="navbar-logo">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./resources/Chalky HSMA-07-wide white logo.png" alt="" class="navbar-logo">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -127,7 +186,7 @@ background-size: cover;
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../index.html"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Welcome</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -136,49 +195,49 @@ background-size: cover;
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-projects">    
         <li>
-    <a class="dropdown-item" href="../../../previous_projects/projects_by_service_area.html">
+    <a class="dropdown-item" href="./previous_projects/projects_by_service_area.html">
  <span class="dropdown-text">Projects by Area of Care</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../previous_projects/projects_by_service_type_location.html">
+    <a class="dropdown-item" href="./previous_projects/projects_by_service_type_location.html">
  <span class="dropdown-text">Projects by Care Delivery Location</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../previous_projects/projects_by_organisation.html">
+    <a class="dropdown-item" href="./previous_projects/projects_by_organisation.html">
  <span class="dropdown-text">Projects by Organisation</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../previous_projects/projects_by_methods.html">
+    <a class="dropdown-item" href="./previous_projects/projects_by_methods.html">
  <span class="dropdown-text">Projects by Method</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../previous_projects/projects_by_cohort.html">
+    <a class="dropdown-item" href="./previous_projects/projects_by_cohort.html">
  <span class="dropdown-text">Projects by HSMA Cohort</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../previous_projects/projects_with_code.html">
+    <a class="dropdown-item" href="./previous_projects/projects_with_code.html">
  <span class="dropdown-text">Projects With Code Shared</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../previous_projects/projects_in_progress.html">
+    <a class="dropdown-item" href="./previous_projects/projects_in_progress.html">
  <span class="dropdown-text">Projects In Progress</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../previous_projects/completed_projects.html">
+    <a class="dropdown-item" href="./previous_projects/completed_projects.html">
  <span class="dropdown-text">Completed Projects</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../../impact_stories.html"> 
+    <a class="nav-link" href="./impact_stories.html"> 
 <span class="menu-text">Case Studies</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../hsma_content/books/books.html"> 
+    <a class="nav-link" href="./hsma_content/books/books.html"> 
 <span class="menu-text">Books</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../hsma_content/modules/modules.html"> 
+    <a class="nav-link" href="./hsma_content/modules/modules.html"> 
 <span class="menu-text">Modules</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -187,11 +246,11 @@ background-size: cover;
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-other-resources">    
         <li>
-    <a class="dropdown-item" href="../../../hsma_content/des_playground.html">
+    <a class="dropdown-item" href="./hsma_content/des_playground.html">
  <span class="dropdown-text">The DES Playground</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../hsma_content/reinforcement_learning_game.html">
+    <a class="dropdown-item" href="./hsma_content/reinforcement_learning_game.html">
  <span class="dropdown-text">Reinforcement Learning Game</span></a>
   </li>  
     </ul>
@@ -202,23 +261,23 @@ background-size: cover;
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-current--former-students">    
         <li>
-    <a class="dropdown-item" href="../../../project_log_recording_app.html">
+    <a class="dropdown-item" href="./project_log_recording_app.html">
  <span class="dropdown-text">Project Log Recording App</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../assessment_faqs.html">
+    <a class="dropdown-item" href="./assessment_faqs.html">
  <span class="dropdown-text">Assessment Details</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../phase_2_details.html">
+    <a class="dropdown-item" href="./phase_2_details.html">
  <span class="dropdown-text">Phase 2 Dates &amp; Events</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../registering_a_project.html">
+    <a class="dropdown-item" href="./registering_a_project.html">
  <span class="dropdown-text">Registering a Project</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../project_faqs.html">
+    <a class="dropdown-item" href="./project_faqs.html">
  <span class="dropdown-text">Project FAQs</span></a>
   </li>  
     </ul>
@@ -229,15 +288,15 @@ background-size: cover;
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="../../../about-hsma.html">
+    <a class="dropdown-item" href="./about-hsma.html">
  <span class="dropdown-text">The HSMA Programme</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../foss.html">
+    <a class="dropdown-item" href="./foss.html">
  <span class="dropdown-text">HSMA &amp; Open Source Software</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../faqs.html">
+    <a class="dropdown-item" href="./faqs.html">
  <span class="dropdown-text">Frequently Asked Questions</span></a>
   </li>  
     </ul>
@@ -267,81 +326,240 @@ background-size: cover;
     </nav>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block projects default toc-left page-columns page-full">
-    <div class="quarto-title-banner page-columns page-full">
-
-                <div class="project-link-buttons">
-            <ul class="project-links">
-                                                <button class="custom-button"><a href="https://www.youtube.com/watch?v=3JO8_70hHdA&amp;list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&amp;index=11"><i class="fa-brands fa-youtube"></i> Video</a></button>
-                                                                <button class="custom-button"><a href="https://arc-swp.nihr.ac.uk/news/data-improves-urgent-care/"><i class="fa-solid fa-newspaper"></i> News Story</a></button>
-                                            </ul>
-        </div>
-        
-                <div class="back-nav"><a href="javascript:history.back()">← Back to HSMA projects</a></div>
-        
-        <div class="quarto-title column-body">
-            <h1 class="title">Discrete Event Simulation to Improve Flow and Performance in the Urgent Treatment Centre</h1>
-
-            
-            
-            
-                                    <div class="quarto-categories">
-                                <div class="quarto-category">Discrete Event Simulation (DES)</div>
-                                <div class="quarto-category">Urgent Treatment Centres (UTC)</div>
-                                <div class="quarto-category">Emergency Departments</div>
-                                <div class="quarto-category">Identifying Bottlenecks in Pathways</div>
-                                <div class="quarto-category">NHS</div>
-                            </div>
-                                </div>
-
-    </div>
-
-    <div class="quarto-title-meta-author">
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-heading">Affiliation</div>
-      
-        <div class="quarto-title-meta-contents">
-        <p class="author">Shilpa Patel </p>
-      </div>
-      <div class="quarto-title-meta-contents">
-            <p class="affiliation">
-                University College Hospital Trust
-              </p>
-          </div>
-      </div>
-
-    <div class="quarto-title-meta">
-
-          
-      
-        
-      </div>
-      
-
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">Registering a project</h1>
+                      </div>
+  </div>
     
-</header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-    </div>
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#project-criteria" id="toc-project-criteria" class="nav-link active" data-scroll-target="#project-criteria">Project Criteria</a></li>
+  <li><a href="#registering-your-project" id="toc-registering-your-project" class="nav-link" data-scroll-target="#registering-your-project">Registering Your Project</a>
+  <ul class="collapse">
+  <li><a href="#examples" id="toc-examples" class="nav-link" data-scroll-target="#examples">Examples</a></li>
+  </ul></li>
+  <li><a href="#optional-project-design-template" id="toc-optional-project-design-template" class="nav-link" data-scroll-target="#optional-project-design-template">Optional Project Design Template</a></li>
+  <li><a href="#tips-for-generating-project-ideas" id="toc-tips-for-generating-project-ideas" class="nav-link" data-scroll-target="#tips-for-generating-project-ideas">Tips for Generating Project Ideas</a></li>
+  <li><a href="#tips-for-scoping-a-good-project" id="toc-tips-for-scoping-a-good-project" class="nav-link" data-scroll-target="#tips-for-scoping-a-good-project">Tips for Scoping a Good Project</a></li>
+  </ul>
+</nav>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(0)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
-<p>The primary aim of the project was to improve Urgent Treatment Care (UTC) performance by developing a model which would help the Emergency Department (ED) team with the allocation of staff and rooms to match patient flow. The team wanted to understand what further staff and resources would be required for any variations in patient attendance. The ED team wanted to understand how changes in the patient pathway would reduce bottlenecks, for example, what would be the impact of front-loading diagnostics.</p>
-<p>Initially, a discrete event simulation model was developed to show how patients currently flow through UTC. After an initial model had been developed, it was used to test the proposed alternative pathways for diagnostics. It was also used to model different numbers of staff and rooms. The model made it easy to understand the impact of changes to the existing provision and what would be most cost-effective.</p>
-<p>The ED department was redesigned based on the model findings, which identified a need for additional rooms leading to reconfiguration of the space. It started a review of staffing rotas to see how they could be better aligned to findings from the analysis and future staffing rotas are designed to align with what the model identified was needed to meet the 95% target.</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/3JO8_70hHdA" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+
+<section id="project-criteria" class="level2">
+<h2 class="anchored" data-anchor-id="project-criteria">Project Criteria</h2>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>HSMA projects must meet a few criteria</p>
+<ul>
+<li>They must use a method we teach on the HSMA course
+<ul>
+<li>the method can be related to a method we teach - for example, if you wished to use a time series forecasting method we haven’t taught, this would be ok, but we may be able to provide less detailed support than for a technique we have taught</li>
+</ul></li>
+<li>It must use free and open source methods</li>
+<li>It must be in the area of health, social care, policing,</li>
+</ul>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Take a look at the <a href="./faqs.html">FAQs</a> if you have any questions.</p>
+</div>
+</div>
+</section>
+<section id="registering-your-project" class="level2">
+<h2 class="anchored" data-anchor-id="registering-your-project">Registering Your Project</h2>
+<p>Once you have an idea of what you want your project to be, please post in the <a href="https://hsma-workspace.slack.com/archives/C074HBCAGGM">#new_project_airlock</a> Slack channel with a brief description of any project you’d like to register as a HSMA project.</p>
+<p>The team will then create you a channel on Slack to use for project discussions, and register your project on the current HSMA project register.</p>
+<p>You don’t need to do anything more formal than that - you can start cracking on with your project work and use your project channel to reach out to the HSMA community for help.</p>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>While we provide a project design template, this is <strong>entirely optional</strong> and is only designed to guide your thinking. If you have filled it out, it is helpful for us if you submit it along with your brief project description in the <a href="https://hsma-workspace.slack.com/archives/C074HBCAGGM">#new_project_airlock</a> - but you do not have to fill in every field, or even fill it in at all if you don’t find it helpful!!</p>
+</div>
+</div>
+<section id="examples" class="level3">
+<h3 class="anchored" data-anchor-id="examples">Examples</h3>
+<p>Here’s are some example registration messages. More detailed messages are welcomed and help us to get the best idea of your project, but a couple of sentences outlining the rough question and method is fine too, and is sufficient in many cases!</p>
+<hr>
+<p><strong>Example 1</strong></p>
+<p>Can I register a project using DES to model patient navigation of GP vs 111 and the knock-on effect on ED please?</p>
+<hr>
+<p><strong>Example 2</strong></p>
+<p>My project:</p>
+<p>Name: Use DES to optimise theatre capacity for elective procedures and major trauma arrivals in Orthopaedics</p>
+<p>Background: Orthopaedic Trauma – Emergency Referrals (Major Trauma) increasing over the last 4-5 months; UHCW is a Major Trauma Centre so receive patients from further afield as well as local patients. Also, a Tertiary referral centre for specialised surgeries. This is impacting on elective lists as not enough capacity to do alongside emergency cases. Having a financial impact on the Trust due to money Orthopaedics brings in but activity is unable to happen due to emergency cases, waiting lists increasing. Harder to get patients back from elsewhere due to lack of resource/capacity.</p>
+<p>Aim: To create a DES model showing the major trauma and elective surgery pathways in Orthopaedics and experiment with adding extra theatre slots and/or increasing capacity elsewhere in the pathway to improve flow and the waiting list.</p>
+<p>Proposed outputs: Initial analysis of demand, patient type, IP/OP LOS/capacity Interactive DES Model to adjust various capacity metrics (e.g.&nbsp;number of sessions, slots, resource capacity). I may also do a bit of geographical modelling to see where the trauma and tertiary patients are coming from. Forecasting to spot trends in time of day, seasonality, day of week in major trauma arrivals</p>
+</section>
+</section>
+<section id="optional-project-design-template" class="level2">
+<h2 class="anchored" data-anchor-id="optional-project-design-template">Optional Project Design Template</h2>
+<p>For those of you who would find a template useful to start thinking through some key aspects of their projects, one is provided on this page.</p>
+<p>It is indended to serve as a good prompt to start thinking about some of the things that might come up.</p>
+<div class="callout callout-style-default callout-important callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Important
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The template is entirely optional - please feel free to use it, not use it, only fill in the fields you find useful for you, add fields, etc.</p>
+<p>If you do fill it out, it is helpful for us if you submit it along with your brief project description in the <a href="https://hsma-workspace.slack.com/archives/C074HBCAGGM">#new_project_airlock</a> - but you do not have to fill in every field, or even fill it in at all if you don’t find it helpful!!</p>
+</div>
+</div>
+<p><a href="https://docs.google.com/document/d/1BuiFnpwr7PvaBDqJwvpuJpYgpxBczVkByJkPPrKd7f8/edit?usp=sharing">Click Here to Open the Template in Google Documents</a></p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>You will need to take a copy of the document to be able to edit it.</p>
+<p><img src="assets/2024-10-09-12-23-08.png" class="img-fluid"></p>
+</div>
+</div>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Some examples of filled in templates for real HSMA projects can be found <a href="https://hsma-workspace.slack.com/archives/C078UQMP2QH/p1727684798692199">here</a> if you are a member of the HSMA Slack community.</p>
+</div>
+</div>
+</section>
+<section id="tips-for-generating-project-ideas" class="level2">
+<h2 class="anchored" data-anchor-id="tips-for-generating-project-ideas">Tips for Generating Project Ideas</h2>
+<p>If you are struggling to get started with project ideas, here are a couple of prompts to help.</p>
+<ol type="1">
+<li><p>Take a look at the <a href="./previous_projects/projects_by_service_area.html">previous HSMA projects</a>.</p></li>
+<li><p>Think about the areas of the course you most enjoyed. While the needs of the organisation need to come first, it’s also helpful to consider the areas of the course you</p></li>
+</ol>
+<ul>
+<li>found the most interesting</li>
+<li>felt you broadly understood (don’t feel you have to be an expert yet - you will practice and develop your skills significantly over the next 9 months!)</li>
+<li>would like to work with more in the long run in your career/begin to specialise in</li>
+</ul>
+<p>This interest will help sustain you through the more difficult moments of the project!</p>
+<ol start="3" type="1">
+<li><p>Think about any areas you know to be struggling in your organisation at the moment. Are there services you know have particularly long waits? Are there areas people often mention as being a concern? Are there articles in the wider news about waits in a particular service in your organisation?</p></li>
+<li><p>Think about the questions you have found yourself being asked in the past in your role that you didn’t feel you were able to answer. Have people asked you questions about the ideal staffing levels, the future demand, or where the delays in a pathway are?</p></li>
+<li><p>Think about the stakeholders you have good relationships with. Could you reach out to them to have a chat about areas they may be interested in someone doing a deeper dive into?</p></li>
+<li><p>Talk to your manager - they may have more awareness of the key challenges facing the organisation at present.</p></li>
+</ol>
+</section>
+<section id="tips-for-scoping-a-good-project" class="level2">
+<h2 class="anchored" data-anchor-id="tips-for-scoping-a-good-project">Tips for Scoping a Good Project</h2>
+<ul>
+<li>You ideally want projects that are not too time-critical to the organisation; remember that you may be working on this for 9 months (or more!).
+<ul>
+<li>With that being said, shorter projects - or projects that you work on more intensely than 1 day a week so that they are completed in a shorter space of time - are fine too!</li>
+</ul></li>
+<li>Start small and focussed; you can always expand the scope of the project down the line, but consider limiting your initial project to a single service or even sub-service.
+<ul>
+<li>Don’t worry that your project is ‘too simple’! Nothing is ever quite as simple as it seems, and ‘simple’ modelling can still be highly impactful.</li>
+</ul></li>
+<li>Consider the possible ethical issues with your project early on.
+<ul>
+<li>This can be particularly tricky with machine learning projects. Refer back to the AI module - does it run into murky territory?</li>
+<li>Often predictions that are aggregated in some way are a safer option than those that are used to directly influence a patient’s care. For example, predicting the number of patients who are likely to be admitted to each specialty in the next 6 hours can help with optimizing bed management - but using that prediction for an individual patient to alter their pathway or care is likely to not be ok.</li>
+</ul></li>
+<li>Consider the data requirements for your proposed project. Do you need data that you know is already collected in some capacity, or would you need to collect brand new data?
+<ul>
+<li>Is it a dataset you already have access to? If not, consider how you may be able to progress elements of the project while waiting for access to be granted. This part can often take longer than you expect.</li>
+</ul></li>
+<li>Consider the impact
+<ul>
+<li>What information can you give people at the end of your project, and what will they be able to do with it?</li>
+</ul></li>
+</ul>
 
 
 
-</main> <!-- /main -->
+</section>
+
+<div class="quarto-listing quarto-listing-container-table" id="listing-project_ideas">
+<div class="listing-actions-group">
+    <div class="input-group input-group-sm quarto-listing-filter">
+      <span class="input-group-text"><i class="bi bi-search"></i></span>
+      <input type="text" class="search form-control" placeholder="Filter">
+    </div>
+</div>
+<table class="quarto-listing-table table">
+<thead>
+<tr>
+<th>
+Title
+</th>
+<th>
+Categories
+</th>
+</tr>
+</thead>
+<tbody class="list">
+</tbody>
+</table>
+<div class="listing-no-matching d-none">
+No matching items
+</div>
+</div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
 window.document.addEventListener("DOMContentLoaded", function (event) {
   const toggleBodyColorMode = (bsSheetEl) => {
@@ -766,7 +984,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p><a href="https://arc-swp.nihr.ac.uk/"><img src="../../../resources/nihr_logo.png" class="img-fluid" width="250"></a><br><br> <em>This report is independent research supported by the National Institute for Health and Care Research Applied Research Collaboration South West Peninsula. The views expressed in this publication are those of the author(s) and not necessarily those of the National Institute for Health and Care Research or the Department of Health and Social Care.</em> <br><br> <a href="../../../policies_procedures/accessibility_statement.html">Accessibility Statement</a> <br> <a href="../../../policies_procedures/code_of_conduct.html">Code of Conduct</a> <br> <a href="../../../policies_procedures/concerns_and_complaints.html">Concerns and Complaints</a></p>
+<p><a href="https://arc-swp.nihr.ac.uk/"><img src="./resources/nihr_logo.png" class="img-fluid" width="250"></a><br><br> <em>This report is independent research supported by the National Institute for Health and Care Research Applied Research Collaboration South West Peninsula. The views expressed in this publication are those of the author(s) and not necessarily those of the National Institute for Health and Care Research or the Department of Health and Social Care.</em> <br><br> <a href="./policies_procedures/accessibility_statement.html">Accessibility Statement</a> <br> <a href="./policies_procedures/code_of_conduct.html">Code of Conduct</a> <br> <a href="./policies_procedures/concerns_and_complaints.html">Concerns and Complaints</a></p>
 <div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
