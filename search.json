@@ -1264,14 +1264,14 @@
     "href": "registering_a_project.html",
     "title": "Registering a project",
     "section": "",
-    "text": "HSMA projects must meet a few criteria\n\nThey must use a method we teach on the HSMA course\n\nthe method can be related to a method we teach - for example, if you wished to use a time series forecasting method we haven’t taught, this would be ok, but we may be able to provide less detailed support than for a technique we have taught\n\nIt must use free and open source methods\nIt must be in the area of health, social care, policing,\n\n\n\n\n\n\n\n\n\n\nTake a look at the FAQs if you have any questions."
+    "text": "HSMA projects must meet a few criteria\n\nThey must use a method we teach on the HSMA course\n\nthe method can be related to a method we teach - for example, if you wished to use a time series forecasting method we haven’t taught, this would be ok, but we may be able to provide less detailed support than for a technique we have taught\n\nIt must use free and open source methods\nIt must be in the area of health, social care, or policing\nIt must be registered by a member of a current HSMA cohort or a HSMA alumni"
   },
   {
     "objectID": "registering_a_project.html#project-criteria",
     "href": "registering_a_project.html#project-criteria",
     "title": "Registering a project",
     "section": "",
-    "text": "HSMA projects must meet a few criteria\n\nThey must use a method we teach on the HSMA course\n\nthe method can be related to a method we teach - for example, if you wished to use a time series forecasting method we haven’t taught, this would be ok, but we may be able to provide less detailed support than for a technique we have taught\n\nIt must use free and open source methods\nIt must be in the area of health, social care, policing,\n\n\n\n\n\n\n\n\n\n\nTake a look at the FAQs if you have any questions."
+    "text": "HSMA projects must meet a few criteria\n\nThey must use a method we teach on the HSMA course\n\nthe method can be related to a method we teach - for example, if you wished to use a time series forecasting method we haven’t taught, this would be ok, but we may be able to provide less detailed support than for a technique we have taught\n\nIt must use free and open source methods\nIt must be in the area of health, social care, or policing\nIt must be registered by a member of a current HSMA cohort or a HSMA alumni"
   },
   {
     "objectID": "registering_a_project.html#registering-your-project",
@@ -1300,6 +1300,13 @@
     "title": "Registering a project",
     "section": "Tips for Scoping a Good Project",
     "text": "Tips for Scoping a Good Project\n\nYou ideally want projects that are not too time-critical to the organisation; remember that you may be working on this for 9 months (or more!).\n\nWith that being said, shorter projects - or projects that you work on more intensely than 1 day a week so that they are completed in a shorter space of time - are fine too!\n\nStart small and focussed; you can always expand the scope of the project down the line, but consider limiting your initial project to a single service or even sub-service.\n\nDon’t worry that your project is ‘too simple’! Nothing is ever quite as simple as it seems, and ‘simple’ modelling can still be highly impactful.\n\nConsider the possible ethical issues with your project early on.\n\nThis can be particularly tricky with machine learning projects. Refer back to the AI module - does it run into murky territory?\nOften predictions that are aggregated in some way are a safer option than those that are used to directly influence a patient’s care. For example, predicting the number of patients who are likely to be admitted to each specialty in the next 6 hours can help with optimizing bed management - but using that prediction for an individual patient to alter their pathway or care is likely to not be ok.\n\nConsider the data requirements for your proposed project. Do you need data that you know is already collected in some capacity, or would you need to collect brand new data?\n\nIs it a dataset you already have access to? If not, consider how you may be able to progress elements of the project while waiting for access to be granted. This part can often take longer than you expect.\n\nConsider the impact\n\nWhat information can you give people at the end of your project, and what will they be able to do with it?"
+  },
+  {
+    "objectID": "registering_a_project.html#still-got-questions",
+    "href": "registering_a_project.html#still-got-questions",
+    "title": "Registering a project",
+    "section": "Still Got Questions?",
+    "text": "Still Got Questions?\n\n\n\n\n\n\nTake a look at the FAQs to see if your question is covered there."
   },
   {
     "objectID": "previous_projects/projects_with_code.html",
