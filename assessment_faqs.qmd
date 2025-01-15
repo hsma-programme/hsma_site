@@ -75,16 +75,17 @@ The decision of programme staff is final, but extensive discussion will take pla
 
 **If participants are not undertaking a HSMA project, or would prefer to receive certification sooner, they can choose to undertake the HSMA 6 Assessment**
 
-
 :::{.callout-tip appearance="simple"}
 The assessment will take place on 28th January 2025 at 1000 - 1200.
 
 Students should join this session using the normal HSMA Zoom Link.
 :::
 
--  Participants who wish to undertake the assessment must undertake the assessment live unless there are extenuating circumstances (which must be discussed with the programme staff ahead of time).  Participants will have 90 minutes from the start of the assessment to submit their solutions.  Instructions for how to do this, and how the assessment will be released, will be provided in an introductory 30 minute session on the day.
+-  Participants who wish to undertake the assessment must undertake the assessment live **unless there are extenuating circumstances (which must be discussed with the programme staff ahead of time)**.  Participants will have 90 minutes from the start of the assessment to submit their solutions.  Instructions for how to do this, and how the assessment will be released, will be provided in an introductory 30 minute session on the day.
 
-- HSMAs can choose to undertake an assessment for a future round should they fail or not choose or be able to take the HSMA 6 assessment.  Details of future assessments will be shared with the community on Slack.  However, we cannot at any point ‘guarantee’ future rounds (and therefore future assessments) as the HSMA programme is dependent on fixed term funding.
+- There is no plan to provide an alternative assessment on a different date.
+
+- HSMAs can choose to undertake an assessment for a future round should they fail or not choose or be able to take the HSMA 6 assessment.  Details of future assessments will be shared with the community on Slack.  However, we cannot at any point ‘guarantee’ future rounds (and therefore future assessments) as the HSMA programme is dependent on fixed term funding. Alternatively, students who fail or are unable to take the assessment can instead opt to go down the project-based assessment route.
 
 - Participants are required to have a working, local installation of Python, along with the ability to work with Jupyter Notebooks, to undertake the assessment.  Some questions will benefit from the HSMA having access to prior environments set up during the training phase to test solutions, though code can still be written and submitted without this.
 
@@ -98,4 +99,10 @@ Students should join this session using the normal HSMA Zoom Link.
 
 - To pass the assessment and receive certification, a HSMA must achieve at least 50% of the available marks.  There is no distinction in certification for marks awarded above this.
 
-- The decision of the markers is final.  However, all potential “fail” cases will be moderated by both markers to ensure that the decision is fair and consistent with other marks awarded.  All marked submissions will be returned to participants so they can see how they scored.
+- The decision of the markers is final.  However, all potential “fail” cases will be moderated by both markers to ensure that the decision is fair and consistent with other marks awarded.
+
+- All marked submissions will be returned to participants so they can see how they scored.
+
+:::{.callout-note appearance="simple"}
+The assessment will be released afterwards so that anyone can use it as practice or revision material, though it will not be possible to complete it at that point to gain accreditation.
+:::
