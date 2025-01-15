@@ -2,3 +2,4 @@
 .quarto/preview/lock
 current_projects
 /.luarc.json
+*.pyc
