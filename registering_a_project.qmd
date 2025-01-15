@@ -20,12 +20,8 @@ HSMA projects must meet a few criteria
 - They must use a method we teach on the HSMA course
     - the method can be related to a method we teach - for example, if you wished to use a time series forecasting method we haven't taught, this would be ok, but we may be able to provide less detailed support than for a technique we have taught
 - It must use free and open source methods
-- It must be in the area of health, social care, policing,
-:::
-
-
-:::{.callout-tip appearance="simple"}
-Take a look at the [FAQs](project_faqs.qmd) if you have any questions.
+- It must be in the area of health, social care, or policing
+- It must be registered by a member of a current HSMA cohort or a HSMA alumni
 :::
 
 ## Registering Your Project
@@ -136,3 +132,9 @@ This interest will help sustain you through the more difficult moments of the pr
 
 - Consider the impact
     - What information can you give people at the end of your project, and what will they be able to do with it?
+
+## Still Got Questions?
+
+:::{.callout-tip appearance="simple"}
+Take a look at the [FAQs](project_faqs.qmd) to see if your question is covered there.
+:::
