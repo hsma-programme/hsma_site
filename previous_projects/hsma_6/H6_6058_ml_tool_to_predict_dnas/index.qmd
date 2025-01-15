@@ -1,0 +1,38 @@
+---
+title: "Building a Machine Learning tool to predict Did Not Attend (DNA) events"
+techniques:
+  - Machine Learning
+  - Streamlit
+areas:
+  -
+categories:
+  - Machine Learning
+  - Streamlit
+author:
+  - name: Barney Rumbold
+    affiliation: Blackpool Teaching Hospitals NHS Foundation Trust
+organisations: 
+  - Blackpool Teaching Hospitals NHS Foundation Trust
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+This project is developing a machine learning-based tool that looks at the likelihood outpatient Did Not Attend (DNA) incidences across different services/demographics. 
+
+The tool could hopefully be shared with providers to provide guidance on how to reduce DNAs.

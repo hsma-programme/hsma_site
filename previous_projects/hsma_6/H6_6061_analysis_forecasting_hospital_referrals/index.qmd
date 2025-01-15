@@ -1,0 +1,34 @@
+---
+title: "Analysis and forecasting of referrals into hospital"
+techniques:
+  - Forecasting
+areas:
+  -
+categories:
+  - Forecasting
+author:
+  - name: Andrew Sharrock
+    affiliation: The Walton Centre NHS Foundation Trust
+organisations: 
+  - The Walton Centre NHS Foundation Trust
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+This project will use Python and forecasting approaches to analyse growth in referrals into the hospital.

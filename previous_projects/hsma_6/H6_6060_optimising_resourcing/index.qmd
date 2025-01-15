@@ -1,0 +1,36 @@
+---
+title: "Optimising Same Day Emergency Care (SDEC) Resourcing"
+techniques:
+  - Discrete Event Simulation (DES)
+areas:
+  -
+categories:
+  - Discrete Event Simulation (DES)
+author:
+  - name: Hnnah Thould
+    affiliation: University Hospitals Bristol and Weston NHS Foundation Trust
+organisations: 
+  - University Hospitals Bristol and Weston NHS Foundation Trust
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+This project will model Same Day Emergency Care (SDEC) and Emergency Department (ED) pathways at University Hospitals Bristol and Weston NHS Foundation Trust. 
+
+The project aims to use Discrete Event Simulation to ascertain 1) optimum parameters for SDEC and ED pathways, 2) the effect of different doctor numbers and 3) the optimum size for SDEC.

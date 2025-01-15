@@ -1,0 +1,40 @@
+---
+title: "Modelling Same Day Emergency Care (SDEC) Pathways"
+techniques:
+  - Discrete Event Simulation (DES)
+areas:
+  -
+categories:
+  - Discrete Event Simulation (DES)
+author:
+  - name: Tim Boyce
+    affiliation: South Western Ambulance Service NHS Trust (SWAST)
+  - name: Kristian Bacon-Hughes
+    affiliation: South Western Ambulance Service NHS Trust (SWAST)
+organisations: 
+  - South Western Ambulance Service NHS Trust (SWAST)
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+This project is using Discrete Event Simulation to model alternative pathways for patients conveyed to hospital to avoid ED attendance, specifically the use of Same Day Emergency Care (SDEC) pathways.  This will help understand pathway availability for the ambulance service (SWAST) as well as impact analysis and modelling for the implementation of new SDEC pathways and any proposed changes to pathways in certain hospitals. 
+
+Initially being piloted in the Devon area only with plans to expand to other areas SWAST covers.
+
+The modelling will include clinical variables to predict the likelihood of a patient qualifying for a specific pathway as well as national and local pathway acceptance criteria and availability periods.

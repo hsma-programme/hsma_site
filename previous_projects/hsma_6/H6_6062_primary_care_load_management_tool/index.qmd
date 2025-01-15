@@ -1,0 +1,38 @@
+---
+title: "Developing a primary care load management tool"
+techniques:
+  - Discrete Event Simulation (DES)
+areas:
+  -
+categories:
+  - Discrete Event Simulation (DES)
+author:
+  - name: Chris Lewis
+    affiliation: The Park Medical Practice
+organisations: 
+  - The Park Medical Practice
+image: "../placeholder.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+The GP practice of 35000 patients has a call wait time of 60 mins peak.  This has been improved by simply putting more staff on, but there are lots of staff in the lulls, not doing anything.
+
+This project will build a model of the telephone system and call handlers' work load to build a tool to assess telephone resourcing and find potential ways to improve efficiency. 
+
+A web app will be developed to allow for different scenarios to be tested.
