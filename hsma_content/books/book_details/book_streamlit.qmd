@@ -8,7 +8,7 @@ pub-info:
       Covering everything from 'Hello Streamlit!' to deploying your app on a free web hosting service, this book is great for beginners to the world of web development.
       <br/><br/>
       For the more seasoned Streamlit user, you will find a handy reference guide for a range of techniques, including multi-page apps, adding download buttons, partial reruns, custom styling, caching, session state, the stlite framework for browser-based code execution, and more.
-link: https://bergam0t.github.io/streamlit_book/
+link: https://hsma-programme.github.io/streamlit_book/
 image: "streamlit_cover_image.jpeg"
 ---
 
