@@ -38,6 +38,8 @@ website:
             href:  https://github.com/hsma-programme/hsma_site
       - icon: envelope
         href: mailto:penchord@exeter.ac.uk?subject=Contact%20from%20HSMA%20website
+      - icon: linkedin
+        href: https://www.linkedin.com/company/hsma-programme/
     right:
       - href: index.qmd
         text: Welcome
