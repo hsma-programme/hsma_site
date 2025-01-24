@@ -6,9 +6,11 @@ image: ""
 session-lead: Sammi Rosser
 pub-info:
   abstract: |
-    In this session, we introduce some key concepts of geographic modelling and visualisation. This includes concepts such as projections, coordinate reference systems, and areas of geographic organisation within the UK such as Output Areas. 
+    In this session, we introduce some key concepts of geographic modelling and visualisation. This includes concepts such as projections, coordinate reference systems, and areas of geographic organisation within the UK such as Output Areas.
     <br/><br/>
     We also begin our exploration of the free and open source geographic visualisation software package QGIS, covering how to load in point data that is stored as a .csv file and add colours, labels and more to start telling a story with geographic data.
+    <br/><br/>
+    <i>This session does not making use of a coding environment</i>
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/1wlSArF-bGbrpJKYnOZ5ta0JN4pCC8gq1blZftgetvkA/edit?usp=sharing

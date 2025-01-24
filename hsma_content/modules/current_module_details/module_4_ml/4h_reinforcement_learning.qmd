@@ -5,7 +5,8 @@ hours: 3
 image: ""
 session-lead: Dr Daniel Chalk
 pub-info:
-  abstract: 
+  abstract: |
+    <i>This session does not making use of a coding environment</i>
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/1Sok1fWn_y15XLRLQoOq2pKiTX6TG3LDgNkSKhFq6us0/edit?usp=sharing
@@ -14,10 +15,10 @@ pub-info:
     url: https://youtu.be/ebFmAiUQkuY?si=uVXkqBO6-8ZIspPW
     icon: fa-brands fa-youtube
   - name: Repository
-    url: 
+    url:
     icon: fa-brands fa-github
   - name: Book
-    url: 
+    url:
     icon: fa-solid fa-book
   - name: Game
     url: https://bergam0t.github.io/ReinforcementLearningGame/

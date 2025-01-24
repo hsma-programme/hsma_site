@@ -11,6 +11,8 @@ pub-info:
     We explore how Discrete Event Simulations work, covering the terminology and concepts you will need to understand before you start designing your own simulation models.
     <br/><br/>
     This content is also covered in part 1 of the HSMA little book of DES.
+    <br/><br/>
+    <i>This session does not making use of a coding environment</i>
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/1HO0wXTocHRZgeuLadkGvqf5yC8BEmQzTcgo8QHOd0yY/edit?usp=sharing

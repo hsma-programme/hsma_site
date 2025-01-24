@@ -5,7 +5,8 @@ hours: 3
 image: ""
 session-lead: Dr Daniel Chalk
 pub-info:
-  abstract: 
+  abstract: |
+     <i>This session makes use of the base anaconda environment or the <a href="https://github.com/hsma-programme/h6_4d_decision_trees_random_forests/tree/main/environment"><b>ml_sammi</b></a> environment</i>
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/1MdLRe4-089MsEWttK9OgFvgBX8EqJ6LFCRC72zyz1jI/edit?usp=sharing

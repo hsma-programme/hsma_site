@@ -5,7 +5,8 @@ hours: 3
 image: ""
 session-lead: Sammi Rosser
 pub-info:
-  abstract: 
+  abstract: |
+     <i>This session makes use of the <a href="https://github.com/hsma-programme/h6_4j_model_optimisation/tree/main/environment"><b>complete_ml</b></a> environment</i>
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/1t6eS93gkFfGMlfJ86cVShAZ2vOhmP08TFVp8rcgTGyQ/edit?usp=sharing

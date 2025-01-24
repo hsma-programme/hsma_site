@@ -9,6 +9,8 @@ pub-info:
     In this session, we continue to develop our QGIS skills, looking at how we can create choropleths in QGIS and then prepare our maps for printing or exporting, adding legends and titles for our end users.
     <br/><br/>
     We then move over to Python, introducing the geopandas package for importing and manipulating spatial data. We then visualise both point and choropleth data using a combination of geopandas and the matplotlib library, enhancing our maps and exploring how we can use features of Python like loops or faceted maps to produce multiple maps from a dataset in a quick and reproducible manner.
+    <br/><br/>
+     <i>This session makes use of the <a href="https://github.com/hsma-programme/h6_3b_advanced_qgis_mapping_python/tree/main/h6_3b_advanced_qgis_and_mapping_in_python/environment"><b>geographic</b></a> environment</i>
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/1LLwK5dx8Ne6GeFRT2DyPnT2AmpcWRKyt767Nis_lYkU/edit?usp=sharing

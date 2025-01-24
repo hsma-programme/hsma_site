@@ -5,7 +5,8 @@ hours: 3
 image: ""
 session-lead: Dr Daniel Chalk
 pub-info:
-  abstract: 
+  abstract: |
+    <i>This session does not making use of a coding environment</i>
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/16Qwx0cUdGjtqqD7WQ-4kAWHBdJvBFHMch_AwPUwrp1M/edit?usp=sharing

@@ -8,7 +8,9 @@ pub-info:
   abstract: |
     In this session, we take a look at creating interactive point and choropleth maps in Python using the folium package.
     <br/><br/>
-    We also take a look at how we would visualise travel time data with a choropleth, and how we can use the routingpy Python package to pull travel time data for our own combinations of source and destination points at scale for free. 
+    We also take a look at how we would visualise travel time data with a choropleth, and how we can use the routingpy Python package to pull travel time data for our own combinations of source and destination points at scale for free.
+    <br/><br/>
+     <i>This session makes use of the <a href="https://github.com/hsma-programme/h6_3b_advanced_qgis_mapping_python/tree/main/h6_3b_advanced_qgis_and_mapping_in_python/environment"><b>geographic</b></a> environment</i>
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/1Xj9jYaJ_FH7ko84DGJ2M1l4DWfJ-W5wmY906UkUEgRg/edit?usp=sharing

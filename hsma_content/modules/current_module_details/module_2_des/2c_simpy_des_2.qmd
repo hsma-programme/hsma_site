@@ -18,6 +18,8 @@ pub-info:
      <br/>&#x2022; jockeying
      <br/><br/>
      This content is also covered in part 3 of the HSMA little book of DES.
+     <br/><br/>
+     <i>This session makes use of the <a href="https://github.com/hsma-programme/h6_simpy_part_1/tree/main/2b_simpy_part_1/environment"><b>des</b></a> environment</i>
 
   links:
   - name: Slides

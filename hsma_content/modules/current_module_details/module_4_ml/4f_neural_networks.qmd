@@ -5,7 +5,8 @@ hours: 3
 image: ""
 session-lead: Dr Daniel Chalk
 pub-info:
-  abstract: 
+  abstract: |
+     <i>This session makes use of the <a href="https://github.com/hsma-programme/h6_4f_neural_networks/tree/main/4f_neural_networks/environment"><b>tf_hsma</b></a> environment</i>
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/1SHbIwMyHfBztjp1B27T5f_c99gnrmzjycEwEkJ4ABik/edit?usp=sharing

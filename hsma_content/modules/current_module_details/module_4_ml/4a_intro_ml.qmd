@@ -5,7 +5,8 @@ hours: 3
 image: ""
 session-lead: Dr Daniel Chalk
 pub-info:
-  abstract: 
+  abstract: |
+    <i>This session does not making use of a coding environment</i>
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/1EcO71B5kEvaSkvKQeGnuO2g4Ss4RKhrphR3gE8vv-Gk/edit?usp=sharing
@@ -17,6 +18,6 @@ pub-info:
     url: https://github.com/hsma-programme/h6_4a_introduction_ai_ml
     icon: fa-brands fa-github
   - name: Book
-    url: 
+    url:
     icon: fa-solid fa-book
 ---

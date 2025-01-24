@@ -5,7 +5,8 @@ hours: 3
 image: ""
 session-lead: Dr Daniel Chalk
 pub-info:
-  abstract: 
+  abstract: |
+     <i>This session makes use of the <a href="https://github.com/hsma-programme/h6_4i_synthetic_data/tree/main/4i_synthetic_data/environment"><b>smote_hsma</b></a> environment</i>
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/1psVyGCwFDAtW0v7QAUaWXseUTV7W-xgRPDgS7rtjpJU/edit?usp=sharing

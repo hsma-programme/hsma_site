@@ -6,7 +6,9 @@ image: ""
 session-lead: Sammi Rosser
 pub-info:
   abstract: |
-    In this session we talk about how you would tackle a problem where you need to most efficiently place a certain number of sites to minimise the travel time, population-weighted travel time, or distance for a population across a region. We construct and carry out the p-median location allocation problem in Python, using our mapping skills and travel time matrices from the previous sessions in this module. 
+    In this session we talk about how you would tackle a problem where you need to most efficiently place a certain number of sites to minimise the travel time, population-weighted travel time, or distance for a population across a region. We construct and carry out the p-median location allocation problem in Python, using our mapping skills and travel time matrices from the previous sessions in this module.
+    <br/><br/>
+     <i>This session makes use of the <a href="https://github.com/hsma-programme/h6_3b_advanced_qgis_mapping_python/tree/main/h6_3b_advanced_qgis_and_mapping_in_python/environment"><b>geographic</b></a> environment</i>
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/1E4WPW5RbMMUwn5i-jTLm4zug5bwnIGh18U2CNc6fZqE/edit?usp=sharing
