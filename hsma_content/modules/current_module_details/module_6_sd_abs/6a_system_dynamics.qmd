@@ -8,7 +8,7 @@ pub-info:
   abstract: |
     In this session, we take a look at System Dynamics as a way of understanding whether there are inherent issues in the way our systems are structured.
     <br/><br/>
-    We use the online ![InsightMaker](https://insightmaker.com/) tool to create a quantitative system dynamics model.
+    We use the online <a href="https://insightmaker.com/">InsightMaker</a> tool to create a quantitative system dynamics model.
     <br/><br/>
     <i>This session does not making use of a coding environment</i>
   links:
