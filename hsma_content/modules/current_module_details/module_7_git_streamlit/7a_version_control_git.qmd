@@ -6,9 +6,11 @@ image: ""
 session-lead: Dr Daniel Chalk
 pub-info:
   abstract: |
-    Today we're going to be looking at the crucial importance of version control, and how we can use Git - a distributed version control system - to allow us to this.  
+    Today we're going to be looking at the crucial importance of version control, and how we can use Git - a distributed version control system - to allow us to this.
     <br/><br/>
-    We'll also look at how we can use Git with GitHub to publish and work with repositories hosted online.  
+    We'll also look at how we can use Git with GitHub to publish and work with repositories hosted online.
+    <br/><br/>
+    <i>This session does not making use of a coding environment</i>
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/1_v4BGRnG2CoMPgoBARdztc2dl-yciiu1dQ1qhtp3avk/edit?usp=sharing
@@ -20,6 +22,6 @@ pub-info:
     url: https://github.com/hsma-programme/h6_7a_version_control
     icon: fa-brands fa-github
   - name: Book
-    url: 
+    url:
     icon: fa-solid fa-book
 ---

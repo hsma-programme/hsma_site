@@ -9,6 +9,8 @@ pub-info:
     In this session, we take a look at System Dynamics as a way of understanding whether there are inherent issues in the way our systems are structured.
     <br/><br/>
     We use the online ![InsightMaker](https://insightmaker.com/) tool to create a quantitative system dynamics model.
+    <br/><br/>
+    <i>This session does not making use of a coding environment</i>
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/12NHXp_uou7ayDAcTJNgXwr0_O3rQdrIRmq6wkJG_2tA/edit?usp=sharing
@@ -20,6 +22,6 @@ pub-info:
     url: https://github.com/hsma-programme/h6_6a_system_dynamics
     icon: fa-brands fa-github
   - name: Book
-    url: 
+    url:
     icon: fa-solid fa-book
 ---

@@ -22,6 +22,7 @@ pub-info:
     <br/>&#x2022; setting up parts of your app to rerun independently with the fragment decorator
     <br/>&#x2022; deploying an app to the Streamlit community cloud
     <br/><br/>
+    <i>This session makes use of the <a href="https://github.com/hsma-programme/h6_7b_web_apps_1/tree/main/environment"><b>hsma_webdev</b></a> environment</i>
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/1eDOkFTfRAR54xeci9eo7muBYV62I_-dk_8eT3d9PnfQ/edit?usp=sharing

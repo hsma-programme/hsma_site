@@ -7,6 +7,8 @@ session-lead: Dr Daniel Chalk
 pub-info:
   abstract: |
     In this session, we look at how we can use the excellent Python package MESA to help us build our own Agent Based Simulations, and we'll revisit our old friend Object Oriented Programming to help us do that.
+    <br/><br/>
+     <i>This session makes use of the <a href="https://github.com/hsma-programme/h6_6c_abs_part_2/tree/main/6c_abs_part_2/environment"><b>abs</b></a> environment</i>
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/14s13gg3XI_MzG47nq73R1VPpXkLIhG7NfsrgF_uWWzQ/edit?usp=sharing
@@ -18,6 +20,6 @@ pub-info:
     url: https://github.com/hsma-programme/h6_6c_abs_part_2
     icon: fa-brands fa-github
   - name: Book
-    url: 
+    url:
     icon: fa-solid fa-book
 ---

@@ -6,9 +6,11 @@ image: ""
 session-lead: Dr Daniel Chalk
 pub-info:
   abstract: |
-    In this session we explore the process of sentiment analysis with neural networks, making use of TensorFlow and the Keras API to attempt to classify whether text is positive or negative. 
+    In this session we explore the process of sentiment analysis with neural networks, making use of TensorFlow and the Keras API to attempt to classify whether text is positive or negative.
     <br/><br/>
-    We look at how to process our raw text data ready for use in the process, train these models, and then save our trained model for use on unseen data. 
+    We look at how to process our raw text data ready for use in the process, train these models, and then save our trained model for use on unseen data.
+    <br/><br/>
+     <i>This session makes use of the <a href="https://github.com/hsma-programme/h6_5c_sentiment_analysis/tree/main/5c_sentiment_analysis/environment"><b>nlp_sa</b></a> environment</i>
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/1k2gQkA6Qa0TKm47Hh6tM7heTpYh6w2wF27ImQC_BeXk/edit?usp=sharing
@@ -20,6 +22,6 @@ pub-info:
     url: https://github.com/hsma-programme/h6_5c_sentiment_analysis
     icon: fa-brands fa-github
   - name: Book
-    url: 
+    url:
     icon: fa-solid fa-book
 ---

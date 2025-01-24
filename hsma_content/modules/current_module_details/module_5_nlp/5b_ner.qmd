@@ -6,9 +6,11 @@ image: ""
 session-lead: Dr Daniel Chalk
 pub-info:
   abstract: |
-    In this session we'll continue our journey into Natural Language Processing.  
+    In this session we'll continue our journey into Natural Language Processing.
     <br/><br/>
     Have you got named entities?  Do you need them recognised?  Then have we got the session for you!  Our session on Named Entity Recognition will talk all about named entities, and recognition of them.  Along the way we'll stop by Sesame Street and Fraggle Rock, talk about Transformers, Parsing, Grammar, POS Tagging and more.
+    <br/><br/>
+     <i>This session makes use of the <a href="https://github.com/hsma-programme/h6_5b_named_entity_recognition/tree/main/5b_named_entity_recognition/environment"><b>nlp_ner</b></a> environment</i>
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/1--RLU2oi4huj0CqPASNCnHKSl9qaA8grcin42oWyxoc/edit
@@ -20,6 +22,6 @@ pub-info:
     url: https://github.com/hsma-programme/h6_5b_named_entity_recognition
     icon: fa-brands fa-github
   - name: Book
-    url: 
+    url:
     icon: fa-solid fa-book
 ---

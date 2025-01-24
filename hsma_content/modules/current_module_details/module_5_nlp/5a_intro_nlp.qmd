@@ -8,7 +8,9 @@ pub-info:
   abstract: |
     In this session we'll look at some core concepts important for processing text data.
     <br/><br/>
-    We'll also learn a few little neat things we can do with our data along the way, including wordclouds and a method for assessing the similarity of different bits of text. 
+    We'll also learn a few little neat things we can do with our data along the way, including wordclouds and a method for assessing the similarity of different bits of text.
+    <br/><br/>
+     <i>This session makes use of the <a href="https://github.com/hsma-programme/h6_5a_intro_to_nlp/tree/main/5a_intro_to_nlp/environment"><b>nlp_basics</b></a> environment</i>
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/15NWc3d84XusMmTHQdpIgfvD6LdUGfZwk7cLyLFt8158/edit?usp=sharing
@@ -20,6 +22,6 @@ pub-info:
     url: https://github.com/hsma-programme/h6_5a_intro_to_nlp
     icon: fa-brands fa-github
   - name: Book
-    url: 
+    url:
     icon: fa-solid fa-book
 ---

@@ -6,9 +6,11 @@ image: ""
 session-lead: Dr Daniel Chalk
 pub-info:
   abstract: |
-    In this session, we begin looking at Agent Based Simulation - a simulation modelling approach that allows us to capture individual level behaviours of actors in our system, and observe the emergent dynamics.  
+    In this session, we begin looking at Agent Based Simulation - a simulation modelling approach that allows us to capture individual level behaviours of actors in our system, and observe the emergent dynamics.
     <br/><br/>
     We also take a look at Cellular Automata, and head to the Edge of Chaos.
+    <br/><br/>
+    <i>This session does not making use of a coding environment</i>
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/1of8eQAE79IFCJawvtNu3-ooesLtRzO4dXp7zWjL4jek/edit?usp=sharing
@@ -20,6 +22,6 @@ pub-info:
     url: https://github.com/hsma-programme/h6_6b_abs_part_1
     icon: fa-brands fa-github
   - name: Book
-    url: 
+    url:
     icon: fa-solid fa-book
 ---
