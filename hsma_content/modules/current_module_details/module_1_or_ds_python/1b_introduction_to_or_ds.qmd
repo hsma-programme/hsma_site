@@ -12,7 +12,9 @@ pub-info:
     <br/><br/>
     We also start to explore the concepts of variability and probability distributions.
     <br/><br/>
-    Finally, we take a look at the idea of model validation. 
+    Finally, we take a look at the idea of model validation.
+    <br/><br/>
+    <i>This session does not making use of a coding environment</i>
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/1_De2E0Uk8ypX1waygPtG15vEPPNCl34BQwnLyFurlWg/edit?usp=sharing
@@ -24,6 +26,6 @@ pub-info:
     url: https://github.com/hsma-programme/h6_1b_intro_or_ds
     icon: fa-brands fa-github
   - name: Book
-    url: 
+    url:
     icon: fa-solid fa-book
 ---

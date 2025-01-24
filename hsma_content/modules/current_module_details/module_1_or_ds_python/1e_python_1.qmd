@@ -13,6 +13,8 @@ pub-info:
     <br/>&#x2022; Your Next Python Skills
     <br/>&#x2022; Loops, Lists and Dictionaries
     <br/>&#x2022; An Introduction to Libraries
+    <br/><br/>
+    <i>This session uses core Python features only and does not require a specific environment</i>
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/1n6fDITAvNas78FJwQPA65ifnhMtnjcyK-af1aX8majA/edit?usp=sharing

@@ -6,7 +6,7 @@ image: ""
 session-lead: Dr Daniel Chalk
 pub-info:
   abstract: |
-    In this session, we talk about writing functions in Python, exception handling and working with .csv files. 
+    In this session, we talk about writing functions in Python, exception handling and working with .csv files.
     <br/><br/>
     We also introduce two of the most important libraries for data science - NumPy and Pandas.
     <br/><br/>
@@ -14,6 +14,7 @@ pub-info:
     <br/>&#x2022; Functions, Files and Error Handling
     <br/>&#x2022; Numpy
     <br/>&#x2022; Pandas
+    <i>This session makes use of the base anaconda environment, or requires the installation of the numpy and pandas libraries</i>
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/1XSt5dXEiaOoPryq4r2dPJzMQnNQSa-imG3Fe7gr-sSs/edit?usp=sharing

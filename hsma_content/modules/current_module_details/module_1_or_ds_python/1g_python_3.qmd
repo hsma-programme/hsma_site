@@ -13,6 +13,7 @@ pub-info:
     This content is also covered in the following parts of the HSMA 'Intro to Python' book:
     <br/>&#x2022; Object-Oriented Python
     <br/>&#x2022; Graphs (including bonus content on other plotting libraries)
+    <i>This session makes use of the base anaconda environment, or requires the installation of the matplotlib library</i>
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/1e7ObbZmRNcm_lqxR_tFvwV78YV2SzBGSwWRweGiezYg/edit?usp=sharing

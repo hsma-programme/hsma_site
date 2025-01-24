@@ -15,6 +15,8 @@ pub-info:
     <br/>&#x2022; while loops
     <br/>&#x2022; functions
     <br/>&#x2022; object-oriented programming
+    <br/><br/>
+    <i>This session does not making use of a coding environment</i>
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/1TXAZUL9hEGvyvbso3UegJgPcjrKQPAirDmEjph_kApA/edit?usp=sharing
@@ -26,6 +28,6 @@ pub-info:
     url: https://github.com/hsma-programme/1c_principles_of_programming
     icon: fa-brands fa-github
   - name: Book
-    url: 
+    url:
     icon: fa-solid fa-book
 ---

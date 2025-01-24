@@ -6,11 +6,12 @@ image: ""
 session-lead: Dr Daniel Chalk
 pub-info:
   abstract: |
-    In this session, we introduce VSCode and demonstrate how to set up VSCode for Python coding on the HSMA course and beyond. 
+    In this session, we introduce VSCode and demonstrate how to set up VSCode for Python coding on the HSMA course and beyond.
     <br/><br/>
-    We also demonstrate Jupyter Notebooks and Google CoLab. 
+    We also demonstrate Jupyter Notebooks and Google CoLab.
     <br/><br/>
     Finally, we spend some time talking about installing Python packages and working with virtual environments using the Anaconda distribution.
+    <br/><br/>
   links:
   - name: Slides
     url: https://docs.google.com/presentation/d/1We3qn3Sh5nNYc0BkwtOPQrm0xKFoNrbSElCfW6K1PbQ/edit?usp=sharing
@@ -22,6 +23,6 @@ pub-info:
     url: https://github.com/hsma-programme/h6_1d_hello_world
     icon: fa-brands fa-github
   - name: Book
-    url: 
+    url:
     icon: fa-solid fa-book
 ---
