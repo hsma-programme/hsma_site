@@ -10,6 +10,8 @@ categories:
 author:
   - name: Thomas Knight
     affiliation: Manchester University NHS Foundation Trust
+organisations:
+  - Manchester University NHS Foundation Trust
 image: "../placeholder.png"
 title-block-banner: ../../banner.png
 status: Active
@@ -30,4 +32,4 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
-More information coming soon!
+Project details coming soon.

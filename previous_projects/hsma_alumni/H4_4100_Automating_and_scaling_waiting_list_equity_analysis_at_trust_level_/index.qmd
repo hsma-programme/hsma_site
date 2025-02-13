@@ -16,6 +16,8 @@ categories:
 author:
   - name: Matt Eves
     affiliation: Derbyshire Community Health Services NHS Foundation Trust
+organisations:
+  - Derbyshire Community Health Services NHS Foundation Trust
 image: "../placeholder.png"
 title-block-banner: ../../banner.png
 status: Active
@@ -36,4 +38,4 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
-More information coming soon!
+This project uses a streamlit app to automates/scales waiting list equity analysis at a trust level and (optionally) service level.

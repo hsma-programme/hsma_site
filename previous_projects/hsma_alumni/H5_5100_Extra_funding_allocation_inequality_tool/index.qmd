@@ -12,12 +12,14 @@ categories:
 author:
   - name: Peter Saiu
     affiliation: NHS England
-image: "../placeholder.png"
+organisations:
+  - NHS England
+image: "5100.PNG"
 title-block-banner: ../../banner.png
 status: Active
-repo: Yes
 pub-info:
-  abstract:
+  abstract: |
+    The project addresses the lack of national guidance for allocating extra primary care funding by ICBs. It proposes using an equation based on deprivation scores and local needs. A Streamlit web-app tool will help ICBs allocate funds more equitably, considering various indicators and demographics, ensuring a fair distribution and reducing inequalities.
   links:
   - name: Video
     url:
@@ -33,4 +35,13 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
-More information coming soon!
+Whilst core funding for primary care is well regulated (by using a variant of the Carr-Hill formula), there is no national guidance\/methodology to allocate *extra funding* for primary care by Integrated Care Boards (ICBs)
+Every ICB has many programme directors\/project managers for the various disease areas who can split the money at their own discretion who might not take into consideration available data and might just split the money equally (by population size) - effectively widen inequalities even further.
+
+The project proposes to use an equation from our Inequality strategy review which splits the money based on deprivation score and local needs. For example, if a cancer team receives extra funding for FIT screening, I calculate the allocation of extra funding to GP practices based on bowel cancer screening uptake data and give more to those who have low uptake (in a proportional way).
+
+Many indicators can be used, so a team focusing on high-intensity users will use data on high-intensity users etc. However, even if programme managers were aware of the equation, they might not know how to calculate the allocation and might need analysts to do it for them.
+
+I’m creating a tool using the user-friendly Streamlit web-app where a user would input the amount of funding, select the ICB, specify the demographics (age and gender for intervention) and tweak the indicator and the weights (e.g. to give more based inequality or prevalence of disease etc).
+
+Upon hitting the 'Calculate' button the result is instantaneous and you can download the table with the calculated allocations.By making this tool available to all ICBs nationally, we can establish a general consensus on how ICBs can promptly split extra funding to primary care taking into consideration inequalities and local needs.

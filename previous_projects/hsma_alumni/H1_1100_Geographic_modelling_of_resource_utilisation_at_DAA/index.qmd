@@ -21,11 +21,12 @@ author:
   - name: Hannah Trebilcock
     affiliation: Devon Air Ambulance
   - name: Richard Pilbery
-    affiliation: Yorkshire Ambulance Service
-image: "../placeholder.png"
+    affiliation: Yorkshire Ambulance Service Trust
+organisations:
+  - Devon Air Ambulance
+image: "1100.PNG"
 title-block-banner: ../../banner.png
 status: Active
-repo: Yes
 pub-info:
   abstract:
   links:
@@ -43,4 +44,4 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
- A geographical modelling project on the utilisation of resources at Devon Air Ambulance, modelling current demand and conducting what if scenarios to optimise service delivery & provide an evidence base for operational decision making.
+A geographical modelling project on the utilisation of resources at Devon Air Ambulance. Modelling current demand and conducting what if scenarios to optimise service delivery & provide an evidence base for operational decision making.

@@ -9,7 +9,7 @@ categories:
 author:
   - name: Andrew Sharrock
     affiliation: The Walton Centre NHS Foundation Trust
-organisations: 
+organisations:
   - The Walton Centre NHS Foundation Trust
 image: "6061.PNG"
 title-block-banner: ../../banner.png

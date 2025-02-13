@@ -3,6 +3,7 @@ title: "Modelling resourcing scenarios to meet increases in demand on a Devon ey
 techniques:
   - Discrete Event Simulation (DES)
 areas:
+  - Demand and Capacity
   - Opthalmology
 categories:
   - Discrete Event Simulation (DES)
@@ -10,11 +11,14 @@ categories:
 author:
   - name: Kayleigh Haydock
     affiliation: Royal Devon University Healthcare NHS Foundation Trust
-image: "../placeholder.png"
+organisations:
+  - Royal Devon University Healthcare NHS Foundation Trust
+image: "5101.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    The project aims to develop a DES model for an eye clinic at Royal Devon University Healthcare NHS Foundation Trust. It will use "what if?" analysis to explore the impact of increasing staff and room resources, and AI support in the POD clinic, on meeting a 10% annual demand increase, reducing waiting times, and improving service efficiency.
   links:
   - name: Video
     url:
@@ -30,4 +34,8 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
-More information coming soon!
+This project is to develop a DES model of an eye clinic at Royal Devon University Healthcare NHS Foundation Trust.
+
+Specifically, the model will use "what if?" analysis to explore increasing staff and room resources to assess which would have the biggest impact on meeting a forecast 10% per year increase in demand.
+
+The model will also explore the potential impact of AI support in the POD clinic in terms of reduced activity time to assess potential impact on the eye clinic service waiting times and time in system.
