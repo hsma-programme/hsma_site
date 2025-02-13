@@ -17,12 +17,15 @@ categories:
   - Surgical
 author:
   - name: Jake Wilson
-    affiliation: Great Western Hospital
-image: "../placeholder.png"
+    affiliation: Great Western Hospitals NHS Foundation Trust
+organisations:
+  - Great Western Hospitals NHS Foundation Trust
+image: "6047.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    This project is an app that reads in patient letters ahead of surgery, using Natural Language Processing techniques to extract key information from the text, and then feeds all of that into a Machine Learning model which then predicts how long the Robotic-assisted laparoscopic prostatectomy (RALP) surgery is going to take.
   links:
   - name: Video
     url:

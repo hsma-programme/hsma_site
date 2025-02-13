@@ -11,7 +11,7 @@ author:
     affiliation: University Hospitals Bristol and Weston NHS Foundation Trust
 organisations: 
   - University Hospitals Bristol and Weston NHS Foundation Trust
-image: "../placeholder.png"
+image: "6060.png"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:

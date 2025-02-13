@@ -13,11 +13,14 @@ categories:
 author:
   - name: Helen Cameron
     affiliation: Ashgate Hospice
-image: "../placeholder.png"
+organisations:
+  - Ashgate Hospice
+image: "6052.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    This project aims to use geographic mapping with national health and census data to assess if we are caring for a fair represent the population. It will map some characteristics to include cancer/non-cancer status and protected characteristics like gender, sexual orientation, religion, and ethnicity. This understanding can support funding for specific areas and target referrals from underrepresented groups.
   links:
   - name: Video
     url:

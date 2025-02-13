@@ -10,8 +10,10 @@ categories:
   - Explainable AI
 author:
   - name: Ruth Keane
-    affiliation: Arden and GEM NHS Commissioning Support Unit (CSU)
-image: "../placeholder.png"
+    affiliation: NHS Arden & GEM CSU
+organisations: 
+  - NHS Arden & GEM CSU
+image: "6057.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:

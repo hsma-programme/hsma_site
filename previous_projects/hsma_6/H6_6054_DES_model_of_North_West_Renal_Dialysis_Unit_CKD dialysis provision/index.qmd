@@ -4,19 +4,19 @@ techniques:
   - Discrete Event Simulation (DES)
 areas:
   - Renal
-  - Dialysis
 categories:
   - Discrete Event Simulation (DES)
-  - Renal
-  - Dialysis
 author:
   - name: Ian Wilkes
-    affiliation: North of England Commissioning Support (NECS)
-image: "../placeholder.png"
+    affiliation: NHS North of England CSU (NECS)
+organisations:
+  - NHS North of England CSU (NECS)
+image: "6054.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    Rising dialysis demand for Chronic Kidney Disease patients is straining regional centres. The North West Kidney Network aims to demonstrate this pressure and explore adjusting staffed capacity and training ratios. The project will create a DES model of a renal unit to evaluate impact, justify investment, and optimise resources.
   links:
   - name: Video
     url:

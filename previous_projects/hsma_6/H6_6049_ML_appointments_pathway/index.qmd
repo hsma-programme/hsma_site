@@ -19,11 +19,14 @@ author:
     affiliation: NHS England
   - name: Sophie Tuley
     affiliation: NHS England
-image: "../placeholder.png"
+organisations:
+  - NHS England
+image: "6049.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    The new EPP data set offers the most comprehensive view of elective pathway activity. Currently, the reasons for varying appointment numbers are unclear, but one theory is that longer waits lead to sicker patients and more appointments. This project plans to use Machine Learning to investigate this further.
   links:
   - name: Video
     url:

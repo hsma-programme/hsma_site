@@ -12,11 +12,14 @@ categories:
 author:
   - name: Peter Andrews
     affiliation: Barts Health NHS Trust
-image: "../placeholder.png"
+organisations:
+  - Barts Health NHS Trust
+image: "6046.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    At Barts Health NHS Trust, 12% of outpatient appointments are missed monthly, wasting over 10,000 hours of clinical resources. Missed appointments can lead to extended waiting lists and patient deterioration. This project aims to develop a machine learning model to forecast non-attendance, a patient contact capture tool, and integrate the model into enterprise reports.
   links:
   - name: Video
     url:

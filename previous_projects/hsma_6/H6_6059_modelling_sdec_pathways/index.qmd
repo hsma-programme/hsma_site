@@ -11,13 +11,14 @@ author:
     affiliation: South Western Ambulance Service NHS Trust (SWAST)
   - name: Kristian Bacon-Hughes
     affiliation: South Western Ambulance Service NHS Trust (SWAST)
-organisations: 
+organisations:
   - South Western Ambulance Service NHS Trust (SWAST)
-image: "../placeholder.png"
+image: "6059.png"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    This project uses Discrete Event Simulation to model alternative pathways, like Same Day Emergency Care (SDEC), for patients to avoid ED attendance. It aims to understand pathway availability for SWAST, impact analysis, and implementation of new SDEC pathways. Initially piloted in Devon, it includes clinical variables and pathway criteria, with plans to expand to other areas SWAST covers.
   links:
   - name: Video
     url:
@@ -33,7 +34,9 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
-This project is using Discrete Event Simulation to model alternative pathways for patients conveyed to hospital to avoid ED attendance, specifically the use of Same Day Emergency Care (SDEC) pathways.  This will help understand pathway availability for the ambulance service (SWAST) as well as impact analysis and modelling for the implementation of new SDEC pathways and any proposed changes to pathways in certain hospitals. 
+This project is using Discrete Event Simulation to model alternative pathways for patients conveyed to hospital to avoid ED attendance, specifically the use of Same Day Emergency Care (SDEC) pathways.
+
+This will help understand pathway availability for the ambulance service (SWAST) as well as impact analysis and modelling for the implementation of new SDEC pathways and any proposed changes to pathways in certain hospitals.
 
 Initially being piloted in the Devon area only with plans to expand to other areas SWAST covers.
 

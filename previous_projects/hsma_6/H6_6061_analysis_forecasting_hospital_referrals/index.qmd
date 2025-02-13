@@ -11,7 +11,7 @@ author:
     affiliation: The Walton Centre NHS Foundation Trust
 organisations: 
   - The Walton Centre NHS Foundation Trust
-image: "../placeholder.png"
+image: "6061.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:

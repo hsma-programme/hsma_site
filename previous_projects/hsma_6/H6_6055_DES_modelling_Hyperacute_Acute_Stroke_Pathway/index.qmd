@@ -6,17 +6,20 @@ techniques:
 areas:
   - Stroke
 categories:
-  - Discrete Event Simulation (DES)
+  - Discrete Event Simulation(DES)
   - Streamlit
   - Stroke
 author:
   - name: John Williams
     affiliation: Maidstone and Tunbridge Wells NHS Trust
-image: "../placeholder.png"
+organisations:
+  - Maidstone and Tunbridge Wells NHS Trust
+image: "6055.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    Stroke prevalence in the UK is forecasted to increase by 40-60% from 2021 to 2030, straining hospitals and society. This project aims to develop a discrete simulation model to optimise the Hyperacute/Acute stroke pathway, improving patient outcomes, reducing costs, and enhancing economic benefits. It will analyse variables like staffing and operating hours
   links:
   - name: Video
     url:

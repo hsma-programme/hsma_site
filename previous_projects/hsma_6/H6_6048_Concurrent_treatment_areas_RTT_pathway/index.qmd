@@ -16,7 +16,9 @@ author:
     affiliation: NHS England
   - name: Sean Aller
     affiliation: NHS England
-image: "../placeholder.png"
+organisations: 
+  - NHS England
+image: "6048.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:

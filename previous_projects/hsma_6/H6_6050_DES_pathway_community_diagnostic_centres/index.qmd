@@ -18,11 +18,16 @@ categories:
 author:
   - name: Martin Bloyce
     affiliation: NHS England
-image: "../placeholder.png"
+  - name: Jeanette Fraser
+    affiliation: NHS England
+organisations:
+  - NHS England
+image: "6050.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    Community Diagnostic Centres (CDCs) aim to improve patient flow and reduce diagnostic test waits. This project will create a DES model to identify bottlenecks and model scenarios to optimise investments.
   links:
   - name: Video
     url:

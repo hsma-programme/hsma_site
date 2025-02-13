@@ -9,13 +9,14 @@ categories:
 author:
   - name: Chris Lewis
     affiliation: The Park Medical Practice
-organisations: 
+organisations:
   - The Park Medical Practice
-image: "../placeholder.png"
+image: "6062.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    A GP practice with 35,000 patients has peak call wait times of 60 minutes. Adding more staff improved this, but staff are idle during lulls. This project will model the telephone system and call handlers' workload to optimise resourcing and efficiency. A web app will be developed to test different scenarios.
   links:
   - name: Video
     url:
@@ -33,6 +34,6 @@ pub-info:
 
 The GP practice of 35000 patients has a call wait time of 60 mins peak.  This has been improved by simply putting more staff on, but there are lots of staff in the lulls, not doing anything.
 
-This project will build a model of the telephone system and call handlers' work load to build a tool to assess telephone resourcing and find potential ways to improve efficiency. 
+This project will build a model of the telephone system and call handlers' work load to build a tool to assess telephone resourcing and find potential ways to improve efficiency.
 
 A web app will be developed to allow for different scenarios to be tested.

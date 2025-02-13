@@ -7,7 +7,7 @@ techniques:
   - Quarto
 areas:
   - Physiotherapy
-  - Intensive Care Units & Intensive Therapy Units (ICU & ITU)
+  - Intensive Care Units & Intensive Therapy Units (ICU/ITU)
   - Staffing Level Optimisation
   - Seasonal Patterns
 categories:
@@ -15,18 +15,20 @@ categories:
   - Forecasting
   - Streamlit
   - Quarto
-  - Physiotherapy
-  - Intensive Care Units & Intensive Therapy Units (ICU & ITU)
+  - Intensive Care Units & Intensive Therapy Units (ICU/ITU)
   - Staffing Level Optimisation
   - Seasonal Patterns
 author:
   - name: Tanya Higgs
-    affiliation: East Kent Hospitals Foundation Trust
-image: "../placeholder.png"
+    affiliation: East Kent Hospitals University NHS Foundation Trust
+organisations:
+  - East Kent Hospitals University NHS Foundation Trust
+image: "6053.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    This project aims to model patterns in intensive care admissions, such as seasonal variations, using existing data. If patterns are found, Machine Learning will predict patient numbers and time periods. The project will also identify patients needing more physiotherapy, informing staffing, leave, and training.
   links:
   - name: Video
     url:

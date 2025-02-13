@@ -1,6 +1,6 @@
 ---
 title: "Modelling the Talking Therapies clinical pathway using a Discrete Event Simulation"
-techniques: 
+techniques:
   - Discrete Event Simulation (DES)
 areas:
   -
@@ -9,13 +9,14 @@ categories:
 author:
   - name: Heath McDonald
     affiliation: Lancashire & South Cumbria NHS Foundation Trust
-organisations: 
+organisations:
   - Lancashire & South Cumbria NHS Foundation Trust
-image: "../placeholder.png"
+image: "6063.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    The NHS Talking Therapies programme, supports NICE guidelines for treating anxiety and depression. The aim is to develop a Discrete Event Simulation to model patient flow through the new clinical pathway. This project will identify potential waiting list build-ups due to increased referrals into Talking Therapies.
   links:
   - name: Video
     url:
@@ -34,6 +35,6 @@ pub-info:
 According to the Office of National Statistics (ONS), almost one fifth of adults in the UK experience anxiety or depression. The Depression Report (Layard, 2005) identified psychological therapies as vital in the treatment of anxiety and depression. In October 2007, the UK government announced a large-scale programme to improve psychological health in the population: Improving Access to Psychological Therapies (IAPT).
 Following 15 years of delivery, the programme underwent a national rebrand and was re-named in early 2023 as “NHS Talking Therapies for anxiety and depression”. The NHS Talking Therapies programme supports the NHS in implementing National Institute for Health and Clinical Excellence (NICE) guidelines for the treatment of those experiencing common mental health problems such as depression and a range of anxiety disorders, providing Talking Therapies services within the framework of a stepped care approach.
 
-Lancashire & South Cumbria NHS FT recently reviewed its pathway in line with National Recommendations for how Talking Therapies services should be delivered. 
+Lancashire & South Cumbria NHS Foundation Trust recently reviewed its pathway in line with National Recommendations for how Talking Therapies services should be delivered.
 
 The aim of this project is therefore to develop a Discrete Event Simulation to model the flow of patients through this new Talking Therapies clinical pathway incorporating the entire clinical pathway – Screening & Assessment, Step 2 and Step3, and modelling patient flow both within and between all the elements of the pathway in an effort to identify any areas of potential waiting list build up resulting from the increased numbers of referrals into Taking Therapies that are being received.

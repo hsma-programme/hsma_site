@@ -9,14 +9,19 @@ categories:
   - Ambulance
 author:
   - name: Charlotte Anderson
+    affiliation: North West Ambulance Service NHS Trust
   - name: Dorota Scott
+    affiliation: North West Ambulance Service NHS Trust
   - name: Kristian Boote
-    affiliation: North West Amulance Trust (NWAS)
-image: "../placeholder.png"
+    affiliation: North West Ambulance Service NHS Trust
+organisations:
+  - North West Ambulance Service NHS Trust
+image: "6056.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    North West Ambulance Service (NWAS) has three dispatch suites in Manchester, Preston, and Liverpool, with dispatch areas mainly based on postcodes. Changes in the landscape and increased emergency demand have led to unequal resource distribution, causing delays. This project aims to generate evidence to redraw boundaries to ensure equitable resource allocation across the three areas.
   links:
   - name: Video
     url:
