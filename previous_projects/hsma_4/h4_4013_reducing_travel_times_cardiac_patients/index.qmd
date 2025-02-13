@@ -18,19 +18,20 @@ author:
   - name: Glenn Ubly
     affiliation: NHS England Specialised Commissioning – South East Region
   - name: Atonia Drummond
-    affiliation: NHS England and Improvement
+    affiliation: NHS England
   - name: Janine James
-    affiliation: NHS England and Improvement
+    affiliation: NHS England
   - name: Victor Yu
     affiliation: The Strategy Unit
 organisations:
   - NHS England Specialised Commissioning – South East Region
-  - NHS England and Improvement
+  - NHS England
   - The Strategy Unit
 image: "7s1io79p.png"
 title-block-banner: ../../banner.png
-repo: Y
 pub-info:
+  abstract:
+  The project analysed travel times to understand the impact of flow of activity into London on patient travel. It identified a gap in cardiac surgery access for Kent & Medway patients, suggesting new sites could help. A Streamlit app visualised these impacts.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=28yXjieiMEM&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=6
@@ -52,11 +53,3 @@ The team created a Streamlit application which allows a user to select from a li
 The South East Cardiac Network have reviewed the findings, and this work will form part of the evidence base for service planning in the region. More generally, there has been interest in applying the methods and tools to other services.
 
 {{< video https://www.youtube.com/watch?v=28yXjieiMEM&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=6 >}}
-
-```{=html}
-<iframe width="780" height="500" src="https://glennubly-hsma4-cardiac-introduction-f1fq51.streamlitapp.com/" title="App"></iframe>
-```
-
-```{=html}
-<iframe width="780" height="500" src="https://github.com/GlennUbly/HSMA4_cardiac" title="Code"></iframe>
-```

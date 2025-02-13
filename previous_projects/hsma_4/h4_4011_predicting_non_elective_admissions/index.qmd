@@ -24,6 +24,8 @@ organisations:
   - NHS North East London CSU
 image: "lb926cjj.png"
 title-block-banner: ../../banner.png
+  abstract:
+  The project aimed to develop a predictive model to identify patients at high risk of admission and provide explanatory feedback. It combined structured and unstructured data models. The model helps predict non-elective admissions, enabling preventative care and better health outcomes, despite data limitations.
 ---
 
 The project aim was to develop a predictive model to identify patients at high risk of admission and to provide explanatory feedback as to why the patients were at risk. There were three elements of the project:

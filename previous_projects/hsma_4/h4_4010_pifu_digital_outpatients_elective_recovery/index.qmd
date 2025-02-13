@@ -16,15 +16,17 @@ areas:
   - Reducing Backlogs
 author:
   - name: Martina Fonseca
-    affiliation: NHS England and Improvement
+    affiliation: NHS England
   - name: Xiaochen Ge
-    affiliation: NHS England and Improvement
+    affiliation: NHS England
 organisations:
-  - NHS England and Improvement
+  - NHS England
 image: "wxsssb6m.png"
 title-block-banner: ../../banner.png
 repo: Y
 pub-info:
+  abstract:
+  The project aimed to explore the role of Patient Initiated Follow-up (PIFU) in addressing backlogs by mapping rheumatology outpatient pathways using discrete event simulation. The team modelled resource use and redeployment, focusing on PIFU's impact on referral-to-treatment waiting lists.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=TO5sKaW6BGk&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=12
@@ -45,8 +47,3 @@ Other opportunities include discussing a spin-off model that includes effect of 
 On the PIFU rheumatology model itself, the team aim to continue refining the model based on internal stakeholder feedback. A secondary aim is to create an end-user toy tool that could help demonstrate some of the what-if scenarios to operational managers, in collaboration with NHSE Digital Care Model colleagues.
 
 {{< video https://www.youtube.com/watch?v=TO5sKaW6BGk&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=12 >}}
-
-
-```{=html}
-<iframe width="780" height="500" src="https://github.com/nhsx/HSMA4-12-DES-rheum" title="Code"></iframe>
-```

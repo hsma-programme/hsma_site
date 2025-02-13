@@ -12,12 +12,14 @@ areas:
   - Inpatient Admissions
 author:
   - name: Andy McCann
-    affiliation: NHS Midlands and Lancashire Commissioning Support Unit
+    affiliation: NHS Midlands and Lancashire CSU
 organisations:
-  - NHS Midlands and Lancashire Commissioning Support Unit
+  - NHS Midlands and Lancashire CSU
 image: "ml9qqnl3.png"
 title-block-banner: ../../banner.png
 pub-info:
+  abstract:
+  The project aimed to predict respiratory condition admissions and length of stay using patient history and demographics. Early-stage modelling showed promising preliminary findings. Further development will include more patient history to improve predictions and extend the model's capabilities.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=-0AGbib9Ig0&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=14

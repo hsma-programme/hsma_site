@@ -19,19 +19,20 @@ areas:
   - Non-attendance Prediction
 author:
   - name: Matt Eves
-    affiliation: Derbyshire Community Health Services NHS
+    affiliation: Derbyshire Community Health Services NHS Foundation Trust
   - name: Anya Gopfert
     affiliation: Torbay Council
   - name: Sally Brown
     affiliation: West Sussex County Council
 organisations:
-  - Derbyshire Community Health Services NHS
+  - Derbyshire Community Health Services NHS Foundation Trust
   - Torbay Council
   - West Sussex County Council
 image: "bef68gj9.png"
 title-block-banner: ../../banner.png
-repo: Y
 pub-info:
+  abstract:
+  The project explored the feasibility of considering inequalities and carbon emissions in new clinic locations. Achievements include automating a Health Equity Assessment, running logistic regression models to predict appointment no-shows, and estimating patient travel carbon emissions.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=zYWte2obxDs&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=8
@@ -64,8 +65,3 @@ They are intending to continue working together as a team to finish the projectâ
 They have been successful in securing a funding from the Greener NHS Healthier Futures Action Fund joint bid.
 
 {{< video https://www.youtube.com/watch?v=zYWte2obxDs&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=8 >}}
-
-
-```{=html}
-<iframe width="780" height="500" src="https://github.com/hsma4-student/shine" title="Code"></iframe>
-```

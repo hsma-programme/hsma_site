@@ -14,18 +14,20 @@ areas:
   - Identifying Bottlenecks in Pathways
 author:
   - name: Angel Masih
-    affiliation: Gloucestershire Hospitals Foundation Trust
+    affiliation: Gloucestershire Hospitals NHS Foundation Trust
   - name: James Page
-    affiliation: University Hospitals of Morecambe Bay NHS Trust
+    affiliation: University Hospitals of Morecambe Bay NHS Foundation Trust
   - name: Mahya Kaveh
     affiliation: Dartford and Gravesham NHS Trust
 organisations:
-  - Gloucestershire Hospitals Foundation Trust
-  - University Hospitals of Morecambe Bay NHS Trust
+  - Gloucestershire Hospitals NHS Foundation Trust
+  - University Hospitals of Morecambe Bay NHS Foundation Trust
   - Dartford and Gravesham NHS Trust
 image: "cuep9jku.png"
 title-block-banner: ../../banner.png
 pub-info:
+  abstract:
+  The project developed a Discrete Event Simulation model for the Colorectal Cancer pathway identify key delays and solutions. Using three years of anonymised patient records, the model highlighted diagnostic delays during investigative stages.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=Wmpu4fpu0J4&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=2

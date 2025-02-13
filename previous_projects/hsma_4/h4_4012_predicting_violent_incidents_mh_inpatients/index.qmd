@@ -17,6 +17,8 @@ organisations:
   - Birmingham & Solihull Mental Health NHS Foundation Trust
 image: "6s86lwll.png"
 title-block-banner: ../../banner.png
+  abstract:
+  This project aimed to see if violent incidents could be reduced on hospital wards by predicting and preventing them, using machine learning. A dashboard would highlight high-risk wards to senior staff for intervention.
 ---
 
 The aim of the project was to see if the occurrence of violent incidents on hospital wards could be reduced, if incidents could be pre-empted and interventions could be taken to try to prevent them from happening.

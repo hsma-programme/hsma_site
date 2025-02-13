@@ -16,19 +16,21 @@ areas:
   - COVID-19
 author:
   - name: Charlene Black
-    affiliation: South Central and West Commissioning Support Unit
+    affiliation: NHS South, Central and West CSU
   - name: Adonis Sithole
-    affiliation: South Central and West Commissioning Support Unit
+    affiliation: NHS South, Central and West CSU
   - name: Edward Chick
-    affiliation: South Central and West Commissioning Support Unit
+    affiliation: NHS South, Central and West CSU
   - name: Mayoor Dhokia
-    affiliation: Surrey and Borders Partnership NHS Trust
+    affiliation: Surrey and Borders Partnership NHS Foundation Trust
 organisations:
-   - South Central and West Commissioning Support Unit
-   - Surrey and Borders Partnership NHS Trust
+   - NHS South, Central and West CSU
+   - Surrey and Borders Partnership NHS Foundation Trust
 image: "bk6maxsh.png"
 title-block-banner: ../../banner.png
 pub-info:
+  abstract:
+  The project aimed to create an easy-to-use model for predicting Covid vaccination demand and capacity. Despite data access barriers, the team made progress by using past vaccination data. The tool will help track vaccinations, identify problem areas, and save time and money.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=_AWTVeNqOwM&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=3

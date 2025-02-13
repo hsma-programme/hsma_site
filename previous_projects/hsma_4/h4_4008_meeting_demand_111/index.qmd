@@ -22,17 +22,19 @@ author:
   - name: Richard Pilbery
     affiliation: Yorkshire Ambulance Service NHS Trust
   - name: Maddie Smith
-    affiliation: Devon CCG
+    affiliation: NHS Devon ICB
   - name: Jon Green
     affiliation: University of Plymouth
 organisations:
   - Yorkshire Ambulance Service NHS Trust
-  - Devon CCG
+  - NHS Devon ICB
   - University of Plymouth
 image: "Abby Dewhurst.jpg"
 title-block-banner: ../../banner.png
 repo: Y
 pub-info:
+  abstract:
+  The project modelled NHS 111 calls triaged to primary care. Simulations showed timely primary care contact could reduce 999 calls and ED attendances but would require nearly doubling primary care services.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=cg5Bp3O02io&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=1

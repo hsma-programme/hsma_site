@@ -14,12 +14,14 @@ areas:
   - Identifying Bottlenecks in Pathways
 author:
   - name: Shilpa Patel
-    affiliation: University College Hospital Trust
+    affiliation: University College London Hospitals NHS Foundation Trust
 organisations:
-  - University College Hospital Trust
+  - University College London Hospitals NHS Foundation Trust
 image: "kfbt6ekn.png"
 title-block-banner: ../../banner.png
 pub-info:
+  abstract:
+  The project aimed to improve Urgent Treatment Care by developing a model to help the Emergency Department allocate staff and rooms efficiently. The model tested alternative pathways and identified the need for additional rooms and better-aligned staffing rotas. These changes aimed to reduce bottlenecks and meet the target for patient flow.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=3JO8_70hHdA&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=11

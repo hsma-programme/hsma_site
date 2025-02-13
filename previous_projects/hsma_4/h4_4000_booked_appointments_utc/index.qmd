@@ -16,12 +16,14 @@ areas:
   - Booked Appointments in Walk-in Services
 author:
   - name: Alice Waterhouse
-    affiliation: NHS England and Improvement
+    affiliation: NHS England
 organisations:
-  - NHS England and Improvement
+  - NHS England
 image: "ultnzucw.png"
 title-block-banner: ../../banner.png
 pub-info:
+  abstract:
+  The project aimed to determine if booked appointments reduce waiting times in Urgent Treatment Centres. Using a Discrete Event Simulation model, it showed that higher percentages of booked appointments led to decreased waiting times.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=W1cK5vVukXc&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=6

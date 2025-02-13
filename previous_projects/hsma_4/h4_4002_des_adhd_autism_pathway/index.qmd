@@ -24,6 +24,8 @@ organisations:
 image: "ur9vxl8p.png"
 title-block-banner: ../../banner.png
 pub-info:
+  abstract:
+  The project aimed to identify bottlenecks in the Autism and ADHD assessment pathway for children and determine changes needed to manage demand and avoid backlogs. The main issue was clinical staffing capacity. Could adding one clinician could maintain a steady state and prevent backlog growth?
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=IuD0tmKtjV4&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=13
