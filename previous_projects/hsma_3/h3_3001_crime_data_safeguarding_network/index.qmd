@@ -15,11 +15,10 @@ author:
     affiliation: Devon & Cornwall Police
   - name: Neil Mitchell
     affiliation: Devon & Cornwall Police
-organisations: Devon & Cornwall Police
+organisations:
+  - Devon & Cornwall Police
 image: "6s1gmgrn.png"
 title-block-banner: ../../banner.png
-organisations:
-  - Devon and Cornwall Police
 pub-info:
   abstract: |
     This project used Network Analysis to identify social relationships and enable proactive police interventions for those at risk of offending due to their links with offenders. A proof of concept showed it could identify "at risk" individuals in hours instead of months. Applied in Devon, it highlighted significant benefits for future policing, including child protection and resource savings.

@@ -12,11 +12,10 @@ categories:
 author:
   - name: Mike Hill
     affiliation: Avon & Somerset Constabulary
-organisations: Avon & Somerset Constabulary
 image: "3tk0xiyz.png"
 title-block-banner: ../../banner.png
 organisations:
-  - Avon and Somerset Constabulary
+  - Avon & Somerset Constabulary
 pub-info:
   abstract: |
     This project used AI-based Natural Language Processing to develop a dashboard predicting tweet sentiment and identifying discussion topics for police forces. It transformed Avon and Somerset Constabulary's social media can respond to public concerns.

@@ -13,7 +13,6 @@ categories:
 author:
   - name: Dr Adam Kwiatkowski
     affiliation: Torridge Primary Care Network
-organisations: Torridge Primary Care Network
 image: "wjcl716l.png"
 title-block-banner: ../../banner.png
 organisations:

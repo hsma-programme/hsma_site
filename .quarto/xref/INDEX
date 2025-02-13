@@ -835,5 +835,23 @@
   },
   "registering_a_project.qmd": {
     "registering_a_project.html": "dd0c27e8"
+  },
+  "previous_projects/hsma_3/h3_3000_ai_sentiment_tweet/index.qmd": {
+    "index.html": "5d8de393"
+  },
+  "previous_projects/hsma_3/h3_3001_crime_data_safeguarding_network/index.qmd": {
+    "index.html": "8b261ae8"
+  },
+  "previous_projects/hsma_3/h3_3002_elective_backlog_hip/index.qmd": {
+    "index.html": "27e8ee88"
+  },
+  "previous_projects/hsma_3/h3_3003_generic_vaccination/index.qmd": {
+    "index.html": "b7212fe0"
+  },
+  "previous_projects/hsma_3/h3_3004_ml_nlp/index.qmd": {
+    "index.html": "53a32165"
+  },
+  "previous_projects/hsma_3/h3_3005_simulation_paediatric_critical_care/index.qmd": {
+    "index.html": "7bd4d0f3"
   }
 }

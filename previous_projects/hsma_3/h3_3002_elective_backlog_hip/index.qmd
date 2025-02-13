@@ -24,9 +24,6 @@ organisations:
   - NHS Devon ICB
 image: "8vopju20.png"
 title-block-banner: ../../banner.png
-organisations:
-  - NHS Devon CCG
-  - Royal Devon University Healthcare NHS Foundation Trust
 pub-info:
   abstract: |
     This project used Discrete Event Simulation to model the hip surgery patient pathway in Exeter, assessing strategies to reduce the surgery backlog. It was a collaborative effort between the CCG and the acute provider, contributing to long-term planning and decision-making.
