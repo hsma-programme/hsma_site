@@ -9,12 +9,17 @@ categories:
   - NHS
 author:
   - name: Sam Wheeler
-    affiliation: Bath and North East Somerset, Swindon and Wiltshire ICB
-image: "../placeholder.png"
+    affiliation: NHS Bath and North East Somerset, Swindon and Wiltshire ICB
+  - name: Sally Cherrington
+    affiliation: NHS Bath and North East Somerset, Swindon and Wiltshire ICB
+organisations:
+  - NHS Bath and North East Somerset, Swindon and Wiltshire ICB
+image: "6045.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    This project aims to create a robust forecasting approach for NHS Planning metrics, improving system planning and operational management, and ensuring consistent adoption across the system to aid decision-making.
   links:
   - name: Video
     url:

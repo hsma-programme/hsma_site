@@ -18,7 +18,9 @@ categories:
 author:
   - name: Abhinav Jindal
     affiliation: NIHR Clinical Research Network
-image: "../placeholder.png"
+organisations: 
+  - NIHR Clinical Research Network
+image: "6037.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:

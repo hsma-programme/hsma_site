@@ -12,11 +12,16 @@ categories:
 author:
   - name: Rhianna O'Connor
     affiliation: Dorset Council
-image: "../placeholder.png"
+  - name: James Roberts
+    affiliation: Dorset Council
+organisations:
+  - Dorset Council
+image: "6044.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    This project aims to develop a machine learning-based population segmentation model for the GP-registered Dorset population, using multiple characteristics including healthcare utilisation. The goal is to identify segments based on care needs to inform service design, enhancing patient understanding and improving resource allocation.
   links:
   - name: Video
     url:

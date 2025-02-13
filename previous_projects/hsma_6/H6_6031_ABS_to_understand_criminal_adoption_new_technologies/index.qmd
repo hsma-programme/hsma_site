@@ -9,12 +9,15 @@ categories:
   - Police
 author:
   - name: David Lewis
-    affiliation:
-image: "../placeholder.png"
+    affiliation: National Crime agency
+organisations:
+  - National Crime Agency
+image: "6031.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    This project tests agent-based modelling, using consumer behaviour theory, criminology, and domain knowledge. The project aims to create a general methodology for digital behaviour models, applicable to specific cases, and develop methods to present findings static and interactively.
   links:
   - name: Video
     url:

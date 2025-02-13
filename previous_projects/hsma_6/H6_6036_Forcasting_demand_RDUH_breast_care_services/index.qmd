@@ -16,11 +16,18 @@ categories:
 author:
   - name: Gill Baker
     affiliation: Royal Devon University Healthcare NHS Foundation Trust
-image: "../placeholder.png"
+  - name: Brandon Jones
+    affiliation: Royal Devon University Healthcare NHS Foundation Trust
+  - name: Kat Pamatmat
+    affiliation: Royal Devon University Healthcare NHS Foundation Trust
+organisations:
+  - Royal Devon University Healthcare NHS Foundation Trust
+image: "6036.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    Between 2011 and 2021, the population served by Royal Devon & Exeter Hospital grew by 13%, doubling the national average, leading to long waiting lists. This project aims to develop a forecasting tool for breast services to predict referrals and service demand, inform workforce planning, and justify infrastructure expansion. It will also predict geographical demand changes for optimal service locations.
   links:
   - name: Video
     url:

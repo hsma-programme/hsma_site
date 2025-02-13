@@ -12,11 +12,14 @@ categories:
 author:
   - name: Radia Woodbridge
     affiliation: Torbay and South Devon NHS Foundation Trust
-image: "../placeholder.png"
+organisations:
+  - Torbay and South Devon NHS Foundation Trust
+image: "6035.png"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    Technology Enabled Care (TEC) supports independence and health and social care. This project aims to develop a web app providing comprehensive, user-friendly guidance on TEC equipment. It will serve as a one-stop platform for health professionals, carers, and individuals, enhancing personal safety, independence, and reducing the burden on health and social care systems.
   links:
   - name: Video
     url:

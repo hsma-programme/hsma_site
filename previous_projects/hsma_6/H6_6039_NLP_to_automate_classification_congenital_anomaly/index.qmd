@@ -13,12 +13,21 @@ categories:
   - Genetic Data
 author:
   - name: Charlotte Eversfield
-    affiliation: National Disease Registration Service, NHS England
-image: "../placeholder.png"
+    affiliation: National Disease Registration Service (NDRS)
+  - name: Jack Anderson
+    affiliation: National Disease Registration Service (NDRS)
+  - name: Claire Welsh
+    affiliation: National Disease Registration Service (NDRS)
+  - name: Clarice Quinn
+    affiliation: National Disease Registration Service (NDRS)
+organisations:
+  - National Disease Registration Service (NDRS)
+image: "6039.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    This project aims to use Natural Language Processing to automate and standardise extraction and classification of Congenital anomaly diagnoses under ICD10 code Q87.8 which are manually classified from free text, risking errors and inefficiency. To validate diagnoses with genetic data by defining a data linkage method.
   links:
   - name: Video
     url:

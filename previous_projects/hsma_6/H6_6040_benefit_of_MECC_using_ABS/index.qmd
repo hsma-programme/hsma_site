@@ -14,13 +14,21 @@ categories:
   - Smoking
 author:
   - name: Dominic Rowney
-    affiliation: North of England Commissioning Support Unit (NECSU)
-image: "../placeholder.png"
+    affiliation: NHS North of England CSU
+  - name: Luke Herbert
+    affiliation: Surrey and Sussex Healthcare NHS Trust
+  - name: Sam Vautier
+    affiliation: Somerset NHS Foundation Trust
+organisations:
+  - NHS North of England CSU
+  - Surrey and Sussex Healthcare NHS Trust
+  - Somerset NHS Foundation Trust
+image: "6040.PNG"
 title-block-banner: ../../banner.png
 status: Active
-repo: Y
 pub-info:
-  abstract:
+  abstract: |
+    Making Every Contact Count (MECC) is an e-learning program for health and social care staff to promote healthy lifestyles. This project uses Agent Based Simulation to model MECC's impact on behaviors like smoking, drinking, and exercise.
   links:
   - name: Video
     url:

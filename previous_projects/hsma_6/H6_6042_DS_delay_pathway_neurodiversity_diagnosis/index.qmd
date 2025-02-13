@@ -23,16 +23,19 @@ categories:
   - Waiting Times
 author:
   - name: Chris Meredith
-    affiliation: Devon Partnership Trust
+    affiliation: Devon Partnership NHS Trust
   - name: Tristan Franklin
-    affiliation: Devon Partnership Trust
+    affiliation: Devon Partnership NHS Trust
   - name: Mike Cooke
-    affiliation: Devon Partnership Trust
-image: "../placeholder.png"
+    affiliation: Devon Partnership NHS Trust
+organisations:
+  - Devon Partnership NHS Trust
+image: "6042.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    In Devon, around 6,000 children have waited over 52 weeks for a neurodiversity diagnosis, crucial for their education and independence. This project aims to reduce the waiting list and streamline the process using DES modelling, NLP, machine learning, and geographic modelling to identify inequalities and optimise resource allocation.
   links:
   - name: Video
     url:

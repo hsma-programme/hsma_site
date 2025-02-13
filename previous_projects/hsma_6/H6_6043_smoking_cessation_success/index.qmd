@@ -18,11 +18,16 @@ categories:
 author:
   - name: Ryan Hutchings
     affiliation: Dorset Council
-image: "../placeholder.png"
+  - name: Khetha Mngomezulu
+    affiliation: Dorset Council
+organisations:
+  - Dorset Council
+image: "6043.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    Smoking cessation remains challenging despite public health efforts. This project aims to develop a predictive model to identify individuals likely to quit smoking based on demographics and behaviours. It will uncover key predictors and effective pathways using machine learning algorithms like logistic regression, decision trees, random forests, and neural networks, evaluating each for accuracy and interpretability.
   links:
   - name: Video
     url:

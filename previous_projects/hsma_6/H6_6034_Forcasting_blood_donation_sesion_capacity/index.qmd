@@ -14,11 +14,14 @@ categories:
 author:
   - name: Sam Plimmer
     affiliation: NHS Blood and Transplant
-image: "../placeholder.png"
+organisations:
+  - NHS Blood and Transplant
+image: "6034.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    Blood donation sessions face issues with cancellations, non-attendance, and medical rejections, leading to missed donations. This project aims to develop a Machine Learning tool to predict actual attendance and assess additional capacity. It will also build a web app for users to review current session capacity and manage bookings effectively.
   links:
   - name: Video
     url:

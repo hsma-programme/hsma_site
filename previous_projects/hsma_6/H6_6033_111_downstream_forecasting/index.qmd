@@ -15,12 +15,15 @@ categories:
   - Telephone-based Services
 author:
   - name: Dominic Rowney
-    affiliation: North of England Commissioning Support Unit (NECSU)
-image: "../placeholder.png"
+    affiliation: NHS North of England CSU
+organisations:
+  - NHS North of England CSU
+image: "6033.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    This project aims to develop a model predicting the place, time, and volume of downstream activity from 111 calls, deployed as a secure API. It integrates with an existing UEC webapp, using weekly patient-level 111 call data and near-live feeds.
   links:
   - name: Video
     url:

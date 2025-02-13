@@ -18,11 +18,14 @@ categories:
 author:
   - name: Elli Kontostoli
     affiliation: Norfolk County Council
-image: "../placeholder.png"
+organisations:
+  - Norfolk County Council
+image: "6032.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    Unpaid carers face mental health risks, loneliness, and isolation. The project will identify carer locations using geographic modelling and predict high-need areas with regression models, focusing on older populations and unpaid carers.
   links:
   - name: Video
     url:
@@ -38,7 +41,7 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
-There are thousands of unpaid carers. Among many other risks, unpaid carers are likely to experience poor mental health, loneliness and isolation. Supporting the mental and physical health and well-being of carers is essential. The organization wants to introduce them to communities services, social groups or something that they can talk to and get help with the difficulties of taking care of somebody.
+There are thousands of unpaid carers. Among many other risks, unpaid carers are likely to experience poor mental health, loneliness and isolation. Supporting the mental and physical health and well-being of carers is essential. The organisation wants to introduce them to communities services, social groups or something that they can talk to and get help with the difficulties of taking care of somebody.
 
 The aim of this project is to identify places that carers live and to show how many we will capture by placing services.
 

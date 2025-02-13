@@ -18,11 +18,14 @@ categories:
 author:
   - name: Rachel Christie
     affiliation: North West London ICB
-image: "../placeholder.png"
+organisations:
+  - North West London ICB
+image: "6041.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    Population health management uses segmentation to categorise people by health status and needs. However, generic segments may not identify high-risk groups effectively. This project aims to create a tool to identify at-risk patient groups across different geographies, focusing on outcomes like emergency admissions, vaccination rates, and screening uptake.
   links:
   - name: Video
     url:
