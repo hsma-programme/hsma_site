@@ -17,7 +17,8 @@ categories:
 author:
   - name: Helena Robinson
     affiliation: Countess of Chester Hospital NHS Foundation Trust
-organisations: Countess of Chester Hospital NHS Foundation Trust
+organisations:
+  - Countess of Chester Hospital NHS Foundation Trust
 image: "6001.PNG"
 title-block-banner: ../../banner.png
 status: Active

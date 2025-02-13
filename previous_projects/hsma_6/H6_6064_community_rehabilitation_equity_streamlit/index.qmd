@@ -11,7 +11,8 @@ categories:
 author:
   - name: Joel Reynolds
     affiliation: Homerton Healthcare
-organisations: Homerton Healthcare
+organisations:
+  - Homerton Healthcare
 image: "6064.PNG"
 title-block-banner: ../../banner.png
 status: Active
