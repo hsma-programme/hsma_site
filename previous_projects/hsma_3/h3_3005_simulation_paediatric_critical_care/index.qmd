@@ -18,18 +18,23 @@ categories:
   - NHS
 author:
   - name: Adam Scull
-    affiliation: Transformation Intelligence Manager, NHS England and NHS Improvement
+    affiliation: NHS England
+organisations: NHS England
 image: "rqvzjk78.png"
 title-block-banner: ../../banner.png
 organisations:
   - NHS England and Improvement
 pub-info:
+  abstract: |
+    This project used Discrete Event Simulation and Geographic Modelling to identify optimal locations for Level 2 Paediatric Critical Care Units in South West England, highlighting the need for units outside Bristol. Proposed locations were identified to better serve the population.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=eOqujR64JkQ&list=PLgHO2TgIJXdnAWY7tGGPQLWYAjn0tgG_A&index=1
     icon: fa-brands fa-youtube
 ---
 
-This project used a combination of Discrete Event Simulation and Geographic Modelling approaches to determine where Level 2 Pediatric Critical Care Units should be located in South West England to bring care closer to home. The project demonstrated the clear need for units outside of Bristol to better serve the population in the South West, and was able to identify proposed locations for such sites. The HSMA who led this project is now mentoring a project in the fourth round of the programme, to help spread the skills and knowledge he acquired during the programme.
+This project used a combination of Discrete Event Simulation and Geographic Modelling approaches to determine where Level 2 Paediatric Critical Care Units should be located in South West England to bring care closer to home. The project demonstrated the clear need for units outside of Bristol to better serve the population in the South West, and was able to identify proposed locations for such sites.
+
+The HSMA who led this project is now mentoring a project in the fourth round of the programme, to help spread the skills and knowledge he acquired during the programme.
 
 {{< video https://www.youtube.com/watch?v=eOqujR64JkQ&list=PLgHO2TgIJXdnAWY7tGGPQLWYAjn0tgG_A&index=1 >}}

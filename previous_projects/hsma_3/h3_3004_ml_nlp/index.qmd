@@ -16,18 +16,20 @@ categories:
   - NHS
 author:
   - name: Dr Adam Kwiatkowski
-    affiliation: GP and Clinical Director, Torridge Primary Care Network
+    affiliation: Torridge Primary Care Network
   - name: Prof Mona Nasser
-    affiliation: Associate Professor of Evidence Based Dentistry, Peninsula Dental School
+    affiliation: Peninsula Dental Social Enterprise
   - name: Imca Hensels-Pelling
-    affiliation: Information Analyst, Royal Devon and Exeter NHS Foundation
+    affiliation: Royal Devon University Healthcare NHS Foundation Trust
 organisations:
   - Torridge Primary Care Network
-  - Peninsula Dental School
-  - Royal Devon and Exeter NHS Foundation
+  - Peninsula Dental Social Enterprise
+  - Royal Devon University Healthcare NHS Foundation Trust
 image: "x17ig2yr.png"
 title-block-banner: ../../banner.png
 pub-info:
+  abstract: |
+    This project used Natural Language Processing to automate key information extraction from patient notes, aiming to predict imminent hospital admissions. Findings included indicators like increased note frequency, verbosity, and specific words.
   links:
   - name: Video
     url:
