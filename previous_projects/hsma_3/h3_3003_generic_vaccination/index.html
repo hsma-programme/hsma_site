@@ -6,12 +6,9 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Claire Rudler">
-<meta name="author" content="Matt Smith">
-<meta name="author" content="Imca Hensels-Pelling">
-<meta name="author" content="Zoe Ficken">
+<meta name="author" content="Dr Adam Kwiatkowski">
 
-<title>Modelling strategies to reduce the elective backlog in hip surgery – HSMA</title>
+<title>Developing a generic vaccination service model for the COVID-19 pandemic and beyond – HSMA</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -44,7 +41,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-8ea72dc5fed832574809a9c94082fbbb.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-d3c92e43eff98f4ec735f99c5187710b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../site_libs/bootstrap/bootstrap-814fef30361c329b9b31443e0768ed12.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -276,22 +273,29 @@ background-size: cover;
 
                 <div class="project-link-buttons">
             <ul class="project-links">
-                                                <button class="custom-button"><a href="https://www.youtube.com/watch?v=VLituG9Sbc0&amp;list=PLgHO2TgIJXdnAWY7tGGPQLWYAjn0tgG_A&amp;index=4"><i class="fa-brands fa-youtube"></i> Video</a></button>
+                                                <button class="custom-button"><a href="https://www.youtube.com/watch?v=Ve5LuePWrQ4&amp;list=PLgHO2TgIJXdnAWY7tGGPQLWYAjn0tgG_A&amp;index=3"><i class="fa-brands fa-youtube"></i> Video</a></button>
+                                                                <button class="custom-button"><a href="https://colab.research.google.com/drive/1d7AFLHy6XWvz-_l6MPb2U2bOew6lwk5f?invite=CM3zt9AG"><i class="fa-brands fa-github"></i> Code</a></button>
+                                                                <button class="custom-button"><a href="https://arc-swp.nihr.ac.uk/news/hsma-covid-vaccination-model/"><i class="fa-solid fa-newspaper"></i> News Story</a></button>
                                             </ul>
         </div>
         
                 <div class="back-nav"><a href="javascript:history.back()">← Back to HSMA projects</a></div>
         
         <div class="quarto-title column-body">
-            <h1 class="title">Modelling strategies to reduce the elective backlog in hip surgery</h1>
+            <h1 class="title">Developing a generic vaccination service model for the COVID-19 pandemic and beyond</h1>
 
             
             
+                        <br>
+            <div class="abstract">
+                <b>30 Second Summary</b>
+                <p>In winter 2020, a mass COVID-19 vaccination program required GP surgeries to deliver vaccines at an unprecedented scale. A Discrete Event Simulation model was the vaccination pathway in North Devon, predicting vaccination rates and identifying potential issues. The model was refined for safe delivery and made available for future use, aiding efficient vaccination efforts globally.</p>
+            </div>
             
                                     <div class="quarto-categories">
                                 <div class="quarto-category">Discrete Event Simulation (DES)</div>
-                                <div class="quarto-category">Elective Surgery</div>
-                                <div class="quarto-category">Orthopaedics</div>
+                                <div class="quarto-category">Vaccination</div>
+                                <div class="quarto-category">COVID-19</div>
                                 <div class="quarto-category">NHS</div>
                             </div>
                                 </div>
@@ -299,39 +303,15 @@ background-size: cover;
     </div>
 
     <div class="quarto-title-meta-author">
-      <div class="quarto-title-meta-heading">Authors</div>
-      <div class="quarto-title-meta-heading">Affiliations</div>
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-heading">Affiliation</div>
       
         <div class="quarto-title-meta-contents">
-        <p class="author">Claire Rudler </p>
+        <p class="author">Dr Adam Kwiatkowski </p>
       </div>
       <div class="quarto-title-meta-contents">
             <p class="affiliation">
-                NHS Devon CCG
-              </p>
-          </div>
-        <div class="quarto-title-meta-contents">
-        <p class="author">Matt Smith </p>
-      </div>
-      <div class="quarto-title-meta-contents">
-            <p class="affiliation">
-                Information Analyst, NHS Devon CCG
-              </p>
-          </div>
-        <div class="quarto-title-meta-contents">
-        <p class="author">Imca Hensels-Pelling </p>
-      </div>
-      <div class="quarto-title-meta-contents">
-            <p class="affiliation">
-                Information Analyst, Royal Devon and Exeter NHS Foundation Trust
-              </p>
-          </div>
-        <div class="quarto-title-meta-contents">
-        <p class="author">Zoe Ficken </p>
-      </div>
-      <div class="quarto-title-meta-contents">
-            <p class="affiliation">
-                Senior Information Analyst, Royal Devon and Exeter NHS Foundation Trust
+                Torridge Primary Care Network
               </p>
           </div>
       </div>
@@ -360,8 +340,11 @@ background-size: cover;
 
 
 
-<p>This project used Discrete Event Simulation to model the hip surgery patient pathway in Exeter to understand the potential impact of various strategies to reduce the backlog for hip surgery. The work represented a collaboration between the CCG and the acute provider and fed into their long-term planning to support decision-making.</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/VLituG9Sbc0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<p>In winter 2020, vaccinations had recently been approved for use in the UK to protect people against the COVID-19 virus. Consequently, a mass vaccination programme was required to vaccinate most of the population of the country, which led to local GP surgeries having to pivot to deliver vaccinations for their communities at a scale and pace never seen before.</p>
+<p>This project was led by a HSMA who had never undertaken any coding work before but using his training from the HSMA programme he rapidly developed a Discrete Event Simulation model of the proposed pathway and resourcing for a vaccination service in North Devon. The model was able to predict not only the rate at which patients could be vaccinated with proposed resourcing, but also the potential risks of social distancing breaches in the waiting room and overflowing in the carpark. The model identified potential issues with the proposed plans, and was used to refine the plans to enable a safe but efficient delivery of the vaccinations in North Devon.</p>
+<p>The HSMA also worked with the South West Academic Health Science Network (AHSN) to develop a generic version of the model that could be used for any future vaccination services, and has made the model available Free and Open Source for anyone to use anywhere in the world:</p>
+<p>Dr Kwiatkowski said: “I enjoyed designing it. It predicts queue lengths, car park capacity and times for every step of the vaccination process in the clinic to avoid overcrowded waiting rooms. In the winter of 2020/1 the country was back in lock down and there seemed no end in sight regarding COVID. The vaccines seemed like a ray of hope and setting up the clinics was instrumental in turning the tide. Being able to use the knowledge gained from the HSMA course to help design the process was fantastic. The clinic has now delivered over 100,000 vaccines.”</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/Ve5LuePWrQ4" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 
 
 
@@ -456,7 +439,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
   }
     var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
     var mailtoRegex = new RegExp(/^mailto:/);
-      var filterRegex = new RegExp('/' + window.location.host + '/');
+      var filterRegex = new RegExp("https:\/\/hsma\.co\.uk");
     var isInternal = (href) => {
         return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
     }
@@ -790,7 +773,7 @@ window.document.addEventListener("DOMContentLoaded", function (event) {
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p><a href="https://arc-swp.nihr.ac.uk/"><img src="../../..\resources/nihr_logo.png" class="img-fluid" width="250"></a><br><br> <em>This report is independent research supported by the National Institute for Health and Care Research Applied Research Collaboration South West Peninsula. The views expressed in this publication are those of the author(s) and not necessarily those of the National Institute for Health and Care Research or the Department of Health and Social Care.</em> <br><br> <a href="../../../policies_procedures/accessibility_statement.html">Accessibility Statement</a> <br> <a href="../../../policies_procedures/code_of_conduct.html">Code of Conduct</a> <br> <a href="../../../policies_procedures/concerns_and_complaints.html">Concerns and Complaints</a></p>
+<p><a href="https://arc-swp.nihr.ac.uk/"><img src="../../../resources/nihr_logo.png" class="img-fluid" width="250"></a><br><br> <em>This report is independent research supported by the National Institute for Health and Care Research Applied Research Collaboration South West Peninsula. The views expressed in this publication are those of the author(s) and not necessarily those of the National Institute for Health and Care Research or the Department of Health and Social Care.</em> <br><br> <a href="../../../policies_procedures/accessibility_statement.html">Accessibility Statement</a> <br> <a href="../../../policies_procedures/code_of_conduct.html">Code of Conduct</a> <br> <a href="../../../policies_procedures/concerns_and_complaints.html">Concerns and Complaints</a></p>
 <div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
