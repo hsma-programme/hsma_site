@@ -1,0 +1,43 @@
+---
+title: "Automating injury coding using language models"
+techniques:
+  - Natural Language Processing (NLP)
+  - Machine Learning
+areas:
+  -
+categories:
+  - Natural Language Processing (NLP)
+  - Machine Learning
+author:
+  - name: James Lai
+    affiliation: Imperial College Healthcare NHS Trust
+organisations:
+  - Imperial College Healthcare NHS Trust
+image: "6065.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract: |
+    Traumatic injuries are common in emergency care and a leading cause of death and disability in working-age individuals. Patients undergo clinical assessments, blood tests, and CT imaging upon arrival. Major trauma centres (MTCs) are funded based on injury severity, requiring accurate coding. The HSMA project aims to train a language model to generate injury codes from free-text radiology reports.
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+Traumatic injuries are a very common presentation to emergency care and the leading cause of death and disability in the working-age population. Patients can sustain multiple injuries to varying locations and of varying severity.
+
+On arrival at the emergency department. The injured patient will have a clinical assessment and blood tests to evaluate the degree of injuries. Once stabilised after arrival in the emergency department, the acutely injured patient will require CT imaging to guide clinical management. Clinical imaging is where most of the injuries are detected.
+
+Major trauma centres (MTCs) are funded to deliver activity. The injury casemix and severity for each MTC is reported centrally, and centres are funded for the delivery of major trauma activity, with an increased tariff for patients with a higher injury severity score (ISS), reflecting the severity of injury. Therefore, accurate coding is required to reflect the injury case mix a centre receives and attract the appropriate tariff for the delivery of major trauma activity.
+
+The aim of the HSMA project is to train a language model to take free-text radiology report inputs and generate an injury code based on the free-text information provided.

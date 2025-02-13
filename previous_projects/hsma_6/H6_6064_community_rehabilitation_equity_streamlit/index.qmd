@@ -1,0 +1,38 @@
+---
+title: "Data Visualisation to enhance the efficiency and equity of Community Rehabilitation Services"
+techniques:
+  - StreamLit
+  - Geographic Modelling
+areas:
+  -
+categories:
+  - StreamLit
+  - Geographic Modelling
+author:
+  - name: Joel Reynolds
+    affiliation: Homerton Healthcare
+organisations: Homerton Healthcare
+image: "6064.PNG"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract: |
+    An Excel dashboard shows team and individual clinician demand, waits, and activity but lacks demographic, waiting list, or engagement data. Inconsistent data use hinders quality improvement. By integrating and visually presenting data to clinicians, service users, and managers, the project aims to highlight service impact, reduce health inequalities, and improve efficiency.
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+Currently an excel dashboard is available to service which presents demand, waits and activity for whole team or individual clinicians. This is separate from any information held about demographics, waiting list reduction or service user engagement. The data collated and held is not used consistently to inform quality improvement projects taking place across teams.
+
+By gathering and combining data and having it reportable to clinicians, service users and senior managers in a visually appealing format it is hoped that the project will show the impact of the work completed by the service and better inform targeted work looking at health inequality reduction and improved efficiency.

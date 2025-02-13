@@ -1,0 +1,50 @@
+---
+title: "Evaluating the Impact of Community Diagnostic Centres on Health Inequalities and Patient Access to Diagnostic Services"
+techniques:
+  - Geographic Modelling
+  - Streamlit
+  - Python
+areas:
+  -
+categories:
+  - Geographic Modelling
+  - Streamlit
+  - Python
+author:
+  - name: Felix Mukoro
+    affiliation: NHS England
+organisations:
+  - NHS England
+image: "6066.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract: |
+    Community Diagnostic Centres (CDCs) aim to expand diagnostic capacity and improve access, but their equitable distribution is unclear. This project will assess CDCs' impact on patient access and health inequalities by analysing socio-demographic, geographic, and utilisation data.
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+The introduction of Community Diagnostic Centres (CDCs) aims to expand capacity and bring diagnostics closer to communities, ideally reducing waiting times and improving access. However, whether these benefits are being equitably distributed remains unclear.
+
+Evidence is needed to quantify the true effect of these centres, including their impact on groups that might experience challenges in accessing timely diagnostic services (e.g., those in deprived areas, rural communities, or with limited transport).
+
+This project seeks to investigate whether CDCs have effectively improved patient access, and reduced health inequalities. By combining socio-demographic, geographic, and utilisation data, this project aims to identify areas and populations still underserved by diagnostics and propose strategies for equitable service provision.
+
+This project and output will feed into the overall CDC Programme Evaluation/Review which was recently commissioned by the CDC Programme national team and the Department of Health and Social Care (DHSC).
+
+The aims of this project are to :
+- Quantify how the phased opening of CDCs has changed overall diagnostic capacity and waiting times.
+- Assess how the roll-out of CDCs has influenced access to diagnostic services across diverse socio-demographic groups and geographical areas.
+- Determine whether health inequalities in diagnostic utilisation or waiting times have lessened post-CDC introduction.
