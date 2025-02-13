@@ -26,8 +26,8 @@ organisations:
 image: "cuep9jku.png"
 title-block-banner: ../../banner.png
 pub-info:
-  abstract:
-  The project developed a Discrete Event Simulation model for the Colorectal Cancer pathway identify key delays and solutions. Using three years of anonymised patient records, the model highlighted diagnostic delays during investigative stages.
+  abstract: |
+    The project developed a Discrete Event Simulation model for the Colorectal Cancer pathway identify key delays and solutions. Using three years of anonymised patient records, the model highlighted diagnostic delays during investigative stages.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=Wmpu4fpu0J4&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=2

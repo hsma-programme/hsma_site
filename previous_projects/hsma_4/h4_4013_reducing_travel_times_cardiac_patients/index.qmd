@@ -30,8 +30,8 @@ organisations:
 image: "7s1io79p.png"
 title-block-banner: ../../banner.png
 pub-info:
-  abstract:
-  The project analysed travel times to understand the impact of flow of activity into London on patient travel. It identified a gap in cardiac surgery access for Kent & Medway patients, suggesting new sites could help. A Streamlit app visualised these impacts.
+  abstract: |
+    The project analysed travel times to understand the impact of flow of activity into London on patient travel. It identified a gap in cardiac surgery access for Kent & Medway patients, suggesting new sites could help. A Streamlit app visualised these impacts.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=28yXjieiMEM&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=6

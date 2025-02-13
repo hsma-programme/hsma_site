@@ -25,8 +25,8 @@ image: "wxsssb6m.png"
 title-block-banner: ../../banner.png
 repo: Y
 pub-info:
-  abstract:
-  The project aimed to explore the role of Patient Initiated Follow-up (PIFU) in addressing backlogs by mapping rheumatology outpatient pathways using discrete event simulation. The team modelled resource use and redeployment, focusing on PIFU's impact on referral-to-treatment waiting lists.
+  abstract: |
+    The project aimed to explore the role of Patient Initiated Follow-up (PIFU) in addressing backlogs by mapping rheumatology outpatient pathways using discrete event simulation. The team modelled resource use and redeployment, focusing on PIFU's impact on referral-to-treatment waiting lists.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=TO5sKaW6BGk&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=12

@@ -23,8 +23,8 @@ organisations:
 image: "f1haee9r.png"
 title-block-banner: ../../banner.png
 pub-info:
-  abstract:
-  Nottingham University Hospitals' Acute Medicine Assessment areas face high occupancy, causing delays in the Emergency Department. A Discrete Event Simulation showed that if patients left within 16 hours, ED wait times over 6 hours would reduce by 90%. This insight will help quantify additional ward beds needed to improve patient flow and reduce harm.
+  abstract: |
+    Nottingham University Hospitals' Acute Medicine Assessment areas face high occupancy, causing delays in the Emergency Department. A Discrete Event Simulation showed that if patients left within 16 hours, ED wait times over 6 hours would reduce by 90%. This insight will help quantify additional ward beds needed to improve patient flow and reduce harm.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=TDTyBcVZDUU&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=9

@@ -31,8 +31,8 @@ organisations:
 image: "bef68gj9.png"
 title-block-banner: ../../banner.png
 pub-info:
-  abstract:
-  The project explored the feasibility of considering inequalities and carbon emissions in new clinic locations. Achievements include automating a Health Equity Assessment, running logistic regression models to predict appointment no-shows, and estimating patient travel carbon emissions.
+  abstract: |
+    The project explored the feasibility of considering inequalities and carbon emissions in new clinic locations. Achievements include automating a Health Equity Assessment, running logistic regression models to predict appointment no-shows, and estimating patient travel carbon emissions.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=zYWte2obxDs&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=8

@@ -853,5 +853,53 @@
   },
   "previous_projects/hsma_3/h3_3005_simulation_paediatric_critical_care/index.qmd": {
     "index.html": "7bd4d0f3"
+  },
+  "previous_projects/hsma_4/h4_4000_booked_appointments_utc/index.qmd": {
+    "index.html": "61ecf9ec"
+  },
+  "previous_projects/hsma_4/h4_4001_covid_19_vaccination_demand_capacity/index.qmd": {
+    "index.html": "d99e0cd5"
+  },
+  "previous_projects/hsma_4/h4_4002_des_adhd_autism_pathway/index.qmd": {
+    "index.html": "89c8008a"
+  },
+  "previous_projects/hsma_4/h4_4003_des_amu_flow/index.qmd": {
+    "index.html": "174e418a"
+  },
+  "previous_projects/hsma_4/h4_4004_des_cbt_iapt/index.qmd": {
+    "index.html": "e80ee24a"
+  },
+  "previous_projects/hsma_4/h4_4005_des_delays_cancer_diagnosis_treatment/index.qmd": {
+    "index.html": "11138e60"
+  },
+  "previous_projects/hsma_4/h4_4006_des_flow_performance_utc/index.qmd": {
+    "index.html": "165e828f"
+  },
+  "previous_projects/hsma_4/h4_4007_forecasting_los_ed/index.qmd": {
+    "index.html": "8fbc2a9e"
+  },
+  "previous_projects/hsma_4/h4_4008_meeting_demand_111/index.qmd": {
+    "index.html": "ef3b791f"
+  },
+  "previous_projects/hsma_4/h4_4009_ml_admissions_los_respiratory/index.qmd": {
+    "index.html": "5b288034"
+  },
+  "previous_projects/hsma_4/h4_4010_pifu_digital_outpatients_elective_recovery/index.qmd": {
+    "index.html": "9b851d01"
+  },
+  "previous_projects/hsma_4/h4_4011_predicting_non_elective_admissions/index.qmd": {
+    "index.html": "efd24dcb"
+  },
+  "previous_projects/hsma_4/h4_4012_predicting_violent_incidents_mh_inpatients/index.qmd": {
+    "index.html": "cd1f4e60"
+  },
+  "previous_projects/hsma_4/h4_4013_reducing_travel_times_cardiac_patients/index.qmd": {
+    "index.html": "322139d6"
+  },
+  "previous_projects/hsma_4/h4_4014_service_planning_inequalities_carbon_output/index.qmd": {
+    "index.html": "6d7fcb79"
+  },
+  "previous_projects/hsma_4/h4_4015_spatial_modelling_crime/index.qmd": {
+    "index.html": "f8158417"
   }
 }

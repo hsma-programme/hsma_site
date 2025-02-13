@@ -29,8 +29,8 @@ organisations:
 image: "bk6maxsh.png"
 title-block-banner: ../../banner.png
 pub-info:
-  abstract:
-  The project aimed to create an easy-to-use model for predicting Covid vaccination demand and capacity. Despite data access barriers, the team made progress by using past vaccination data. The tool will help track vaccinations, identify problem areas, and save time and money.
+  abstract: |
+    The project aimed to create an easy-to-use model for predicting Covid vaccination demand and capacity. Despite data access barriers, the team made progress by using past vaccination data. The tool will help track vaccinations, identify problem areas, and save time and money.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=_AWTVeNqOwM&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=3

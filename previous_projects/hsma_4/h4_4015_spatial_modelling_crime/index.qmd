@@ -27,8 +27,8 @@ organisations:
 image: "m6ij2sto.png"
 title-block-banner: ../../banner.png
 pub-info:
-  abstract:
-  The project aimed to use crime data and spatial analysis for intelligence reporting. Focusing on violent crime, the team used QGIS and Python libraries to analyse geographic offence data. The model identified hotspots, coldspots, and outliers, providing statistical confidence for intelligence reports.
+  abstract: |
+    The project aimed to use crime data and spatial analysis for intelligence reporting. Focusing on violent crime, the team used QGIS and Python libraries to analyse geographic offence data. The model identified hotspots, coldspots, and outliers, providing statistical confidence for intelligence reports.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=K0g2Iaw3blY&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=10

@@ -26,8 +26,8 @@ organisations:
 image: "il32v884.png"
 title-block-banner: ../../banner.png
 pub-info:
-  abstract:
-  The project used Discrete Event Simulation to model the wait list for High Intensity Cognitive Behavioural Therapy. It found that changing an evening group to a face-to-face clinic could reduce wait times, especially for face-to-face or evening 1-1 appointments.
+  abstract: |
+    The project used Discrete Event Simulation to model the wait list for High Intensity Cognitive Behavioural Therapy. It found that changing an evening group to a face-to-face clinic could reduce wait times, especially for face-to-face or evening 1-1 appointments.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=KPmxGzSuN0s&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=4
