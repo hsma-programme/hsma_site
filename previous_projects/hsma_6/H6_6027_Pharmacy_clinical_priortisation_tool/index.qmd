@@ -12,11 +12,14 @@ categories:
 author:
   - name: Dan Stevens
     affiliation: University Hospitals Plymouth NHS Trust
-image: "../placeholder.png"
+organisations:
+  - University Hospitals Plymouth NHS Trust
+image: "6027.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    The project aims to enhance the Clinical Prioritisation Tool in the pharmacy department using machine learning and a feedback loop system. This will streamline the identification of high-risk patients and improve scoring accuracy based on feedback from pharmacists and pharmacy technicians, addressing workforce challenges and ensuring better patient interaction.
   links:
   - name: Video
     url:
@@ -34,4 +37,4 @@ pub-info:
 
 As with many other parts of the NHS we have significant workforce challenges meaning that the clinical team can often not interact with as many patients as they would like.  As a result a tool was developed that scores each patient based on a defined set of criteria.  In theory, the patients with the highest score would benefit most from seeing a pharmacy professional.  Feedback from the current system is that the score often doesn't reflect the clinical priority of the patient and that it could be improved.
 
-his project aims to enhance the existing Clinical Prioritisation Tool in our pharmacy department by introducing a machine learning and feedback loop system. The objective is to streamline the identification of high-risk patients and gather feedback from pharmacists and pharmacy technicians to improve the scoring accuracy over time.
+This project aims to enhance the existing Clinical Prioritisation Tool in our pharmacy department by introducing a machine learning and feedback loop system. The objective is to streamline the identification of high-risk patients and gather feedback from pharmacists and pharmacy technicians to improve the scoring accuracy over time.

@@ -14,12 +14,15 @@ categories:
   - Streamlit
 author:
   - name: Portia Eze
-    affiliation: Kings College Hospital
-image: "../placeholder.png"
+    affiliation: King's College Hospital NHS Foundation Trust
+organisations:
+  - King's College Hospital NHS Foundation Trust
+image: "6022.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    The project uses data science to quantify the impact of deviations from the "Best Case Scenario" in patient pathways. It involves process mining, an unsupervised learning model to determine relationships between deviations and patient risk, validation, to create Streamlit app reporting suite. The suite presents statistics and risk stratification, with simulations to identify risk profile changes as pathways change.
   links:
   - name: Video
     url:

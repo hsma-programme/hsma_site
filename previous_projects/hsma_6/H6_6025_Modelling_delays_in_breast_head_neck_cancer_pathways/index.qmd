@@ -14,11 +14,18 @@ categories:
 author:
   - name: Michael Baser
     affiliation: NHS England
-image: "../placeholder.png"
+  - name: Laura Webster
+    affiliation: NHS England
+  - name: Lizzie Augarde
+    affiliation: NHS England
+organisations:
+  - NHS England
+image: "6025.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    The project uses DES to model post-diagnosis pathways for breast and head and neck cancer. It aims to identify delays and treatment variations across England, focusing on two key steps - time from neoadjuvant SACT to surgery or radiotherapy, and time from surgery to first adjuvant treatment.
   links:
   - name: Video
     url:

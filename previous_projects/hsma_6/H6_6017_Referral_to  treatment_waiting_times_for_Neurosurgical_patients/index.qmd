@@ -18,11 +18,14 @@ categories:
 author:
   - name: Andrew Sharrock
     affiliation: The Walton Centre NHS Foundation Trust
-image: "../placeholder.png"
+organisations:
+  - The Walton Centre NHS Foundation Trust
+image: "6017.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    The project models the neurosurgical patient pathway to predict waiting list changes and treatment wait times. It aims to add user interaction to explore how capacity adjustments affect waiting times and track patients waiting over 52 weeks each month.
   links:
   - name: Video
     url:

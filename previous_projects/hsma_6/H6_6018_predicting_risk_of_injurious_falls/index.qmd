@@ -5,20 +5,21 @@ techniques:
   - Explainable AI
 areas:
   - Older Adults
-  - Identifying Drivers
 categories:
   - Machine Learning
   - Explainable AI
   - Older Adults
-  - Identifying Drivers
 author:
   - name: Anneka Mitchell
-    affiliation: University Hospitals Plymouth NHS Trust / University of Exeter
-image: "../placeholder.png"
+    affiliation: University Hospitals Plymouth NHS Trust
+organisations:
+  - University Hospitals Plymouth NHS Trust
+image: "6018.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    Atrial fibrillation (AF) increases stroke risk, and anticoagulation reduces this risk but can cause bleeding. Despite guidelines, many clinicians avoid prescribing anticoagulants to those at risk of falls. This project explores using machine learning to predict injurious falls in older AF patients and aims to develop a tool to personalize anticoagulant treatment based on falls risk.
   links:
   - name: Video
     url:

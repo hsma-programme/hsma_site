@@ -13,12 +13,15 @@ categories:
   - Opiates
 author:
   - name: Richard Lee
-    affiliation: North of England Commissioning Support Unit (NECSU)
-image: "../placeholder.png"
+    affiliation: NHS North of England CSU (NECS)
+organisations:
+  - NHS North of England CSU (NECS)
+image: "6030.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    Many patients on opiates for acute pain continue long-term, causing adverse effects and dependence. Efforts are underway to reduce long-term opiate use. This project aims to develop a machine learning model to predict successful opiate cessation and explore factors influencing cessation success.
   links:
   - name: Video
     url:

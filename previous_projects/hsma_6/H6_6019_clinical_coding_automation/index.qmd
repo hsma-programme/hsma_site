@@ -9,12 +9,15 @@ categories:
   - Clinical Coding
 author:
   - name: Sid Kumar
-    affiliation: South West London ICB
-image: "../placeholder.png"
+    affiliation: NHS South West London ICB
+organisations:
+  - NHS South West London ICB
+image: "6019.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    The project aims to use Natural Language Processing (NLP) to automate the prediction of ICD-10 or OPCS-4 codes from doctor/patient notes, currently done manually. Initially focusing on 3-character ICD-10 chapters, it will eventually predict full 4-character codes. Collaborating with a provider, the project will streamline coding and improve accuracy.
   links:
   - name: Video
     url:

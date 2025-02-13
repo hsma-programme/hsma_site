@@ -5,20 +5,21 @@ techniques:
 areas:
   - Renal
   - Dialysis
-  - Demand & Capacity
 categories:
   - Forecasting
   - Renal
   - Dialysis
-  - Demand & Capacity
 author:
   - name: Sandhya Radha Krishnakumar
     affiliation: NHS England
-image: "../placeholder.png"
+organisations:
+  - NHS England
+image: "6021.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    Kidney disease is projected to be the fifth leading cause of premature deaths globally by 2040. Rising demand for dialysis and transplants exceeds capacity in England. The project aims to develop a model using forecasting techniques to predict future demand and address it by increasing home dialysis or introducing a new dialysis centre.
   links:
   - name: Video
     url:

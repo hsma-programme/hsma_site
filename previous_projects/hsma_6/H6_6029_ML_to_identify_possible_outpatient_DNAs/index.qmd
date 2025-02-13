@@ -13,12 +13,15 @@ categories:
   - Outpatients
 author:
   - name: Steph Kerr
-    affiliation: Chesterfield Royal Hospital NHS Foundation TRust
-image: "../placeholder.png"
+    affiliation: Chesterfield Royal Hospital NHS Foundation Trust
+organisations:
+  - Chesterfield Royal Hospital NHS Foundation Trust
+image: "6029.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    This project will train a machine learning model to predict outpatient DNAs (did not attend) and prioritise support, such as extra reminders and calls. It may also use discrete event simulation to show the impact on clinic utilisation and waiting times if DNA rates are reduced.
   links:
   - name: Video
     url:

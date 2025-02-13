@@ -16,11 +16,16 @@ categories:
 author:
   - name: Helen Wharam
     affiliation: Solent NHS Trust
-image: "../placeholder.png"
+  - name: Nathan Hack
+    affiliation: Solent NHS Trust
+organisations:
+  - Solent NHS Trust
+image: "6026.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    The project aims to improve patient flow for severe mental health treatment by assessing and projecting service user pathways under various conditions. It will provide statistical reasoning for future changes to enhance patient experience. Outputs include time in system, queue lengths, resource utilisation rates, and probabilities of exceeding thresholds for queue length, queue time, and resource utilisation.
   links:
   - name: Video
     url:

@@ -14,11 +14,14 @@ categories:
 author:
   - name: Matt Lavis
     affiliation: University of Plymouth
-image: "../placeholder.png"
+organisations:
+  - University of Plymouth
+image: "6028.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    Staffing levels in NHS recovery are unclear, with minimal literature on requirements. Factors like operation type, patient variables, and anaesthetic risk affect recovery time, causing queues. Current systems log patient flow but lack integration. The project aims to predict recovery stay, determine staffing needs, and identify key factors, improving workload planning for recovery staff.
   links:
   - name: Video
     url:

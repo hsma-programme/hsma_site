@@ -16,11 +16,14 @@ categories:
 author:
   - name: Rochelle Francis-Reid
     affiliation: Epsom and St Helier University Hospitals NHS Trust
-image: "../placeholder.png"
+organisations:
+  - Epsom and St Helier University Hospitals NHS Trust
+image: "6023.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    The project aims to use machine learning to predict gestational diabetes and other maternity-related conditions early in pregnancy, enabling timely interventions and personalised care. It will develop a predictive model, an interactive web app for clinicians to input patient data and receive predictions, and reports on the model's accuracy and effectiveness.
   links:
   - name: Video
     url:
