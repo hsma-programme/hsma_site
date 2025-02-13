@@ -6,7 +6,7 @@ techniques:
 areas:
   - Stroke
 categories:
-  - Discrete Event Simulation(DES)
+  - Discrete Event Simulation (DES)
   - Streamlit
   - Stroke
 author:

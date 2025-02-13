@@ -1,0 +1,45 @@
+---
+title: "Using modelling to optimise catheter lab efficiency and predict stroke bed demand at Royal Cornwall Hospital"
+techniques:
+  - Discrete Event Simulation (DES)
+areas:
+  - Hospitals
+  - Demand & Capacity
+categories:
+  - Discrete Event Simulation (DES)
+  - Demand & Capacity
+author:
+  - name: Richard Barrett
+    affiliation: Royal Cornwall Hospitals NHS Trust
+organisations:
+  - Royal Cornwall Hospitals NHS Trust
+image: "2005.png"
+title-block-banner: ../../banner.png
+pub-info:
+  abstract: |
+    This project supported a business case for reconfiguring Acute Stroke Unit beds using a Discrete Event Simulation model. The model assessed patient cohorts, pathways, and bed requirements. It also aimed to improve Cardiac Catheter Labs' efficiency, addressing a 13% capacity loss and reducing patient delays.
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+This project was to be used to support a business case being prepared for reconfiguring beds on the Acute Stroke Unit in line with the Peer review recommendations
+
+A Discrete Event Simulation model was developed to represent the entire pathway. The model took into account four different cohorts of patients and based on historic activity data, applied Inter arrival time distributions to each cohort, branched patients proportionally through the various pathways and applied variable lengths of stay dependant on diagnosis and discharge destinations.  The model included a range of parameters that could be modified between simulations to assess various scenarios and their impact on bed requirements.
+
+The project also explored using modelling to improve the efficiency of the Cardiac Catheter Labs.  The trust had two labs each running two scheduled 4 hour lists per day Mon-Fri, but for numerous reasons the lists were not being utilised efficiently with consequential impacts on both inpatient and elective time from referral to procedure. During 2017 this resulted in an average list duration of 208 minutes representing a 13% loss of capacity. If this lost capacity could be eliminated/reduced this would:
+•	Reduce overall length of stay for emergency patients waiting for lab procedures which in turn will help with overall hospital flow.
+•	Improve patient pathways
+•	Tackle patient delay for elective diagnostics/interventions which is in line with core Trust Objectives.
+
+Meetings with the booking teams enabled the creation of a process flow diagram which highlighted a convoluted process from initial referral to eventual scheduling of procedures.

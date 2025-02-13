@@ -1,0 +1,39 @@
+---
+title: "RCHT Eldercare workforce mapping to identify needs and alternatives to cover the frailty pathway"
+techniques:
+  - Discrete Event Simulation (DES)
+areas:
+  - Frailty
+categories:
+  - Discrete Event Simulation (DES)
+  - Frailty
+author:
+  - name: Claire Westoby
+    affiliation: Royal Cornwall Hospitals NHS Trust
+organisations:
+  - Royal Cornwall Hospitals NHS Trust
+image: "2002.PNG"
+title-block-banner: ../../banner.png
+pub-info:
+  abstract: |
+    After hospital admission, 12% of people over 70 experience reduced daily living abilities. Those with deteriorated balance and mobility in the first 48 hours had a 17.1% relative risk of death within 14 days. This project aimed to determine frailty workforce placement to impact more patients, reduce length of stay, and improve care quality. The model simulated patient pathways involving frailty nurses and doctors.
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+After a hospital admission, 12% of people over 70 experience a reduction in their ability to undertake daily living activities. Older people who saw a deterioration in their balance and mobility in their first 48 hours of hospital admission had a relative risk of death within fourteen days of 17.1%
+
+The aim of this project was to determine where to base the existing frailty workforce in order to impact as many patients as possible and reduce their length of stay, as well as improving the quality of care and patient experience?
+
+The model simulated the pathway from patient arrival, being seen by frailty nurse, and then either being admitted or discharged. Those that were admitted were then seen by a frailty doctor.

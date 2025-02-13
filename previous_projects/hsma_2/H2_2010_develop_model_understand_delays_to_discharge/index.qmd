@@ -1,0 +1,42 @@
+---
+title: "Developing a model to understand delays to discharge at Royal Devon and Exeter Hospital"
+techniques:
+  - Discrete Event Simulation (DES)
+areas:
+  - Discharge
+  - Hospitals
+categories:
+  - Discrete Event Simulation (DES)
+  - Discharge
+  - Hospitals
+author:
+  - name: Rohan Kandasamy
+    affiliation: Royal Devon University Healthcare NHS Foundation Trust
+organisations:
+  - Royal Devon University Healthcare NHS Foundation Trust
+image: "2010.PNG"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract: |
+    The hospital faces increasing bed pressures, with over 100 medically fit patients often waiting for discharge due to social care and rehabilitation delays. This project aimed to create a Discrete Event Simulation model to estimate patient length of stay based on demographics, comorbidities, and social care needs, experimenting with scenarios like reducing placement times and accelerating discharge for frail patients.
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+The hospital is under ever-increasing bed pressures; at any one time, over 100 medically fit patients can be waiting for discharge. Some of this delay is due to provision of social care, some of this delay is due to ongoing rehabilitation (physio/occupational therapy workup).
+
+The aim of this project was to create a Discrete Event Simulation model that attempted to estimate an individual patient’s length of stay (LOS) based on patient demographics, comorbidities and previous admission history, as well as the patient’s social care need.
+
+The model experimented with various scenarios, including reducing placement times, and accelerated discharge for frail patients.

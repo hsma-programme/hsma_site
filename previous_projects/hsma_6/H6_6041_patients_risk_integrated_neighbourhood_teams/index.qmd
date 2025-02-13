@@ -4,7 +4,7 @@ techniques:
   - Machine Learning
   - Explainable AI
   - Streamlit
-  - Geographical Modelling
+  - Geographic Modelling
 areas:
   - Demographics
   - Public Health
@@ -12,7 +12,7 @@ categories:
   - Machine Learning
   - Explainable AI
   - Streamlit
-  - Geographical Modelling
+  - Geographic Modelling
   - Demographics
   - Public Health
 author:

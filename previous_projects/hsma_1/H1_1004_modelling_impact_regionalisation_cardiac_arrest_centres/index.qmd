@@ -1,0 +1,55 @@
+---
+title: "Modelling the impact of regionalising cardiac arrest centres, leading to work to standardise best practices"
+techniques:
+  - Geographic Modelling
+areas:
+  - Cardiology
+  - Discharge
+categories:
+  - Georgraphical Modelling
+  - Cardiology
+  - Discharge
+author:
+  - name: Jess Lynde
+    affiliation: South Western Ambulance Service NHS Trust (SWAST)
+  - name: Hannah Trebilcock
+    affiliation: South Western Ambulance Service NHS Trust (SWAST)
+  - name: Sarah Black
+    affiliation: South Western Ambulance Service NHS Trust (SWAST)
+organisations:
+  - South Western Ambulance Service NHS Trust (SWAST)
+image: "1004.PNG"
+title-block-banner: ../../banner.png
+pub-info:
+  abstract: |
+    Survival to hospital discharge after out-of-hospital cardiac arrest (OHCA) is around 7-8%. Analysis of the SWASFT Cardiac Arrest Registry showed survival rate variations due to different hospital services. A regional care system could improve survival rates. A collaborative project between ambulance services and hospitals aims to standardise care, addressing gaps and enhancing outcomes through shared data and best practices.
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+Problem
+Survival to hospital discharge in patients suffering an out of hospital cardiac arrest (OHCA) has remained nationally at around 7-8% for at least the last 6 years.  Anecdotal evidence suggests that patients are not always conveyed to their nearest cardiac arrest centre.  The analysis of the SWASFT Cardiac Arrest Registry (2015-2016) identified large variation in survival rates for patients conveyed to different hospitals within the South West, possibly due to variation in the services provided.  Current guidelines suggest implementing a regional system of care for OHCA to improve survival rates and neurological outcomes; nonetheless it remains necessary to understand the impact of such a system on journey times and patient survival.
+
+Method
+•	Literature review of the effect of longer travel times on cardiac arrest survival rates
+•	Identify the current OHCA patients bypassing their nearest cardiac arrest centre
+•	Develop a binomial logistic regression to predict survival rates from patient characteristics, travel time and hospital attended
+•	Model the impact of different regional systems of care using a geographical model in Excel
+•	Report initial findings at a stakeholder meeting
+
+Results
+The analysis of the SWASFT Cardiac Arrest Registry confirmed that 13% of OHCA patients were bypassing their nearest cardiac arrest centre. The binomial logistic regression identified that patient characteristics (age, gender, UTSTEIN group) and hospital attended had a significant effect on survival rate. Travel time did not affect survival, although the confidence of this effect is limited to the range of travel times included in the available data (maximum 149 minutes). The geographical model suggests improvements to survival rate are expected from a regional system of care. This is supported by (1) the differences in survival rate between hospitals cannot be explained by differences in patients or travel distances alone, and (2) differences in travel times, within the ranges available in the data, do not appear to affect outcomes of patients. As with all models there are limitations associated with working assumptions and available data.
+
+Impact
+The sharing of patient data in a collaborative project between ambulance service and regional hospitals would be unprecedented and highly beneficial in understanding regional variations, and perhaps working towards standardization of care.  Understandably, this project has been met with great interest by stakeholders, and they are driving a collective effort to gather data. In addition, the model has already identified gaps in the current standards of care and highlighted the potential gains that could be made from a standardised best practice across all cardiac arrest centres.

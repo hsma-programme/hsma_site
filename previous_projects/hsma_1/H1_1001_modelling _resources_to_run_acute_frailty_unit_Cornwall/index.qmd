@@ -1,0 +1,50 @@
+---
+title: "Modelling the resources needed to run an acute frailty unit in Cornwall leading to the trust changing their plans"
+techniques:
+  - Discrete Event Simulation (DES)
+areas:
+  - Frailty
+  - Acute care
+categories:
+  - Discrete Event Simulation (DES)
+  - Frailty
+  - Acute Care
+author:
+  - name: Joe Turner
+    affiliation: Royal Cornwall Hospitals NHS Trust
+organisations:
+  - Royal Cornwall Hospitals NHS Trust
+image: "1001.PNG"
+title-block-banner: ../../banner.png
+pub-info:
+  abstract: |
+    A discrete event simulation model to identify number of beds to improve care for frail older patients in the first 72 hours of emergency care. A model identified optimal bed numbers, showing an 18-bed unit would meet the 4-hour ED standard for 94% of patients, enhancing outcomes and reducing admissions.
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+As part of Royal Cornwall Hospitals Trust work with the Acute Frailty Network to “To improve the care of frail older people in their first 72 hours of emergency care, reducing admissions and number of bed days used whilst also improving the hospital experience.” It was proposed that a frailty assessment unit would achieve better outcomes for frail Patients, through providing specialist staffing and a more suitable environment.
+
+A discrete event simulation was initially created to identify what would be the number of beds required for this frail cohort. This model was developed to include all emergency medical admissions (excepting patients on stroke or cardiac pathways)
+
+The model allowed data to be captured relating to what would be the average bed occupancy on both the proposed frailty assessment unit alongside the existing Medical Assessment Units and what percentage of these patients would meet the 4 hour ED Standard.
+
+Findings:
+An 18 Bedded Frailty Assessment unit (FAU) would have an average bed occupancy of 70% allowing for 99% of patients who would suit admission to FAU to be admitted, with 94% of patients waiting for a bed on FAU waiting less than four hour in ED.
+A 16 Bedded FAU would have an average bed occupancy of 77% of the time but the number of patients who would breach the four hour ED standard would increase by 8%
+
+Impact:
+Proposals have been made relating to reconfiguring wards working with the number of beds suggested in the model as a basis.
+Additional pieces of work have been performed to solely model the size of the Medical Assessment unit with.
+Discussions for how to improve the bed occupancy whilst maintaining the bed occupancy taken place and have involved allowing expected short stay medical patients to outlie in FAU when occupancy is low.

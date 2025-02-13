@@ -1,0 +1,48 @@
+---
+title: "Testing interventions to reduce the Continuing Healthcare Assessment backlog using System Dynamics"
+techniques:
+  - System Dynamics
+areas:
+  - Reducing Backlogs
+categories:
+  - System Dynamics
+  - Reducing Backlogs
+author:
+  - name: Ryan Worth
+    affiliation: NHS South, Central and West CSU
+organisations:
+  - NHS South, Central and West CSU
+image: "2009.PNG"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract: |
+    A System Dynamics model was developed to show the rated of system flow and interdependencies of components in the system. The model aids Clinical Commissioning Groups planning and decision-making, supporting future demand management.
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url: https://insightmaker.com/insight/6eo34fBaxCxf6Grx6KFCZg/CHC-Model-v1-RW
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+In the first quarter of 2017/18 the number of people waiting longer than 28 days for their Continuing Healthcare (CHC) Assessment was 54.3 per 50,000 compared to the national average of 10.2 per 50,000.
+
+A System Dynamics model was built to show the rates of system flow and interdependencies of components in the system.
+
+The model found that :
+•	There were 171 waiting for Decision Support Tool (DST), 51 waiting for Decision and 1009 CHC Eligible.
+•	Numbers waiting for DST were predicted to reach controlled levels during Quarter 1 of 19/20.
+•	A reduction in numbers awaiting Decision was only predicted to occur following a complete reduction in those waiting DST.
+
+The model was made available freely using InsightMaker - CHC Model v1 RW | Insight Maker
+
+Quote from Programme Manager:
+“The model provides a visual understanding of our waiting list and supports CCG infrastructure and resource planning for future levels of demand. It supports commissioning decision making and helps to focus the team in specific areas within the system.”

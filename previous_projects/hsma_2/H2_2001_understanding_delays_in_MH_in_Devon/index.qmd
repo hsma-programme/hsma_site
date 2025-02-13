@@ -1,0 +1,49 @@
+---
+title: "Using modelling to understand the delays in mental health services in Devon"
+techniques:
+  - Discrete Event Simulation (DES)
+  -
+areas:
+  - Mental Health
+categories:
+  - Discrete Event Simulation (DES)
+author:
+  - name: Simon Wellesley-Miller
+    affiliation: Devon Partnership NHS Trust
+organisations:
+  - Devon Partnership NHS Trust
+image: "2001.png"
+title-block-banner: ../../banner.png
+pub-info:
+  abstract: |
+    This project aimed to support Crisis Cafes,  offering an alternative service for those in a mental health crisis. Using modelling and data science, it will look at activity diversion, capacity needs, demand, and resource allocation. Seven models for Barnstaple, Exeter, and Torquay were created, demonstrating system demand and capacity, aiding resource planning and financial decisions.
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+The aim of this project was to look at the resourcing to support the establishment of Crisis Cafes - an alternative place for people who are in a mental health crisis to go rather than utilising out of hours, emergency or inpatient services.
+
+Crisis Cafes provide increased choice and additional capacity to meet the needs of those in mental health crisis and provide early intervention which could avoid escalation of mental health needs.
+
+The aim of this project was to try to answer the following questions using modelling and data science approaches :
+-	How much activity can be diverted to the cafés?
+-	What capacity will be needed to achieve a robust service?
+-	What and where is the demand?
+-	How to match demand and capacity
+-	Given the limited resources available how many sites to commission and how to allocate,
+-	How to determine suitable catchment areas?
+
+Seven versions of model were created, for the localities of Barnstaple, Exeter, and Torquay. Separate data and models were built for each locality for weekdays and weekends. Pathways were modelled for each service.
+
+The model helped demonstrate the demand and capacity of the system, allowing for appropriate resources to be planned to support the cafes, and associated financial decisions to be made.

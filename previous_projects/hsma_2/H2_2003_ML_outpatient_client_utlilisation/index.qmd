@@ -1,0 +1,43 @@
+---
+title: "Artificial Ian – can a machine learning tool learn when it is necessary to cancel surgery at Derriford Hospital?  And can we use geographic modelling methods to improve outpatient clinic utlilisation in the community?"
+techniques:
+  - Machine Learning
+areas:
+  -
+categories:
+  - Machine Learning
+author:
+  - name: Simon Philpott
+    affiliation: University Hospitals Plymouth NHS Trust
+organisations:
+  - University Hospitals Plymouth NHS Trust
+image: "2003.PNG"
+title-block-banner: ../../banner.png
+pub-info:
+  abstract: |
+    This project aimed to use AI approaches to improve surgical cancellation decisions, addressing poor patient experiences. The model struggled due to insufficient data. A second project used geospatial visualisation (QGIS) to assess community outpatient clinic demand, finding increasing waiting lists and poor clinic utilisation, leading to improved patient booking into Peripheral Sites.
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+On the day surgical cancellations can offer a poor patient experience - there can be multiple cancellations for some patients, and in early 2018 University Hospitals Plymouth NHS Trust ranked as one of the worst for cancellations.  The aim of this project was to explore whether AI approaches could be used to create a model that can inform decision making around cancellations, sooner.
+
+There were three key questions for the Machine learning model to answer:
+-	Should I cancel a patient today?
+-	How many patients should I cancel?
+-	Which patient/s should I cancel?
+
+A model was trained but performance was poor – there was insufficient data to allow the model to be able to replicate the human decision making taking place.
+
+As a second project, the Trust used geospatial visualisation approaches (using QGIS software) to explore demand for community outpatient clinics.  The work found that there were increasing waiting lists and poor utilisation of clinics.  These results were used to improve their ability to book appropriate patients into Peripheral Sites.

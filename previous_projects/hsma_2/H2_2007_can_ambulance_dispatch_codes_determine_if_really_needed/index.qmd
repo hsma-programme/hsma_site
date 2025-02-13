@@ -1,0 +1,40 @@
+---
+title: "Can ambulance dispatch codes be used to determine when an ambulance is really needed?"
+techniques:
+  - Discrete Event Simulation (DES)
+areas:
+  - Ambulance
+categories:
+  - Discrete Event Simulation (DES)
+  - Ambulance
+author:
+  - name: Jessica Lynde
+    affiliation: South Western Ambulance Service NHS Trust (SWAST)
+organisations:
+  - South Western Ambulance Service NHS Trust (SWAST)
+image: "2007.PNG"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract: |
+    This project aimed to rank dispatch codes by clinical acuity using Machine Learning, incorporating PPI group insights on medical history and co-morbidities. Phase 1 used call-taker info and Logistic Regression to optimise accuracy, leading to phase 2 algorithm generation. The active risk stratification model increased HART team utilisation, leading to a trial of Enhanced Hear and Treat.
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+The aim of this project was to rank dispatch codes by typical clinical acuity of the patients in those codes using Machine Learning approaches.  The project incorporated the views of a PPI group who helped to highlight the importance of patient medical history and co-morbidities in the model.
+
+Phase 1 of the model used call-taker info (dispatch code and other items) plotted against conveyance. A series of Logistic Regression models was trained to test out optimal sample sizes and model regularisation, to boost accuracy. This led to Algorithm generation for phase 2, to test whether the scoring methodology in the Risk Stratification model could locate codes ‘not requiring an ambulance’.
+
+The risk stratification model is in active use, increasing HART team utilisation, and leading to a trial of Enhanced Hear and Treat.  The project allowed for a balanced pragmatic approach by senior decision makers.

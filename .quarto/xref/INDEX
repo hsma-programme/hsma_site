@@ -742,5 +742,98 @@
   },
   "previous_projects/projects_with_code.qmd": {
     "projects_with_code.html": "d706cb48"
+  },
+  "assessment_faqs.qmd": {
+    "assessment_faqs.html": "47872e59"
+  },
+  "phase_2_details.qmd": {
+    "phase_2_details.html": "67f227fe"
+  },
+  "previous_projects/hsma_1/H1_1000_modelling_A&E_flows_to_inform_redesign/index.qmd": {
+    "index.html": "4f141051"
+  },
+  "previous_projects/hsma_1/H1_1001_modelling _resources_to_run_acute_frailty_unit_Cornwall/index.qmd": {
+    "index.html": "d27e9766"
+  },
+  "previous_projects/hsma_1/H1_1002_modelling_resources_to_reduce_out_of_area_placements_MH/index.qmd": {
+    "index.html": "35820ffd"
+  },
+  "previous_projects/hsma_1/H1_1003_modelling_impact_strategies_to_improve_weekend_discharge/index.qmd": {
+    "index.html": "176400b5"
+  },
+  "previous_projects/hsma_1/H1_1004_modelling_impact_regionalisation_cardiac_arrest_centres/index.qmd": {
+    "index.html": "4f825f38"
+  },
+  "previous_projects/hsma_1/H1_1005_modelling_potential_impact_of_clinical_division_unit_at_RD&E/index.qmd": {
+    "index.html": "428385e3"
+  },
+  "previous_projects/hsma_2/H2_2001_understanding_delays_in_MH_in_Devon/index.qmd": {
+    "index.html": "8b820b5d"
+  },
+  "previous_projects/hsma_2/H2_2002_RCHT_eldercare_worksforce_mapping_frailty_pathway/index.qmd": {
+    "index.html": "f445d00a"
+  },
+  "previous_projects/hsma_2/H2_2003_ML_outpatient_client_utlilisation/index.qmd": {
+    "index.html": "bfc1e80e"
+  },
+  "previous_projects/hsma_2/H2_2004_reducing_delays_glaucoma_treatment_Torbay/index.qmd": {
+    "index.html": "bbc7d12b"
+  },
+  "previous_projects/hsma_2/H2_2005_optimise_catherter_lab_efficiency_predict_stoke_bed_demand/index.qmd": {
+    "index.html": "fe9a9776"
+  },
+  "previous_projects/hsma_2/H2_2006_improving_ambulance_response_times/index.qmd": {
+    "index.html": "3765fc89"
+  },
+  "previous_projects/hsma_2/H2_2007_can_ambulance_dispatch_codes_determine_if_really_needed/index.qmd": {
+    "index.html": "03ff6365"
+  },
+  "previous_projects/hsma_2/H2_2008_reducing_waiting_times_spinal_patients/index.qmd": {
+    "index.html": "ec1cbd3f"
+  },
+  "previous_projects/hsma_2/H2_2009_testing_intervention_to_reduce_continuing_healthcaare_assesessment_backlog/index.qmd": {
+    "index.html": "da25ad97"
+  },
+  "previous_projects/hsma_2/H2_2010_develop_model_understand_delays_to_discharge/index.qmd": {
+    "index.html": "d6e836ac"
+  },
+  "previous_projects/hsma_6/H6_6054_DES_model_of_North_West_Renal_Dialysis_Unit_CKD dialysis provision/index.qmd": {
+    "index.html": "a2786f4d"
+  },
+  "previous_projects/hsma_6/H6_6055_DES_modelling_Hyperacute_Acute_Stroke_Pathway/index.qmd": {
+    "index.html": "ead7b771"
+  },
+  "previous_projects/hsma_6/H6_6056_Redrawing_NW_Ambulance_dispatch_boundaries/index.qmd": {
+    "index.html": "70439f34"
+  },
+  "previous_projects/hsma_6/H6_6057_ML_identify_factors_that_predict_cardiac_mortality/index.qmd": {
+    "index.html": "178b0dd5"
+  },
+  "previous_projects/hsma_6/H6_6058_ml_tool_to_predict_dnas/index.qmd": {
+    "index.html": "22f23289"
+  },
+  "previous_projects/hsma_6/H6_6059_modelling_sdec_pathways/index.qmd": {
+    "index.html": "bfa350c9"
+  },
+  "previous_projects/hsma_6/H6_6060_optimising_resourcing/index.qmd": {
+    "index.html": "4c4d8c39"
+  },
+  "previous_projects/hsma_6/H6_6061_analysis_forecasting_hospital_referrals/index.qmd": {
+    "index.html": "52b57f44"
+  },
+  "previous_projects/hsma_6/H6_6062_primary_care_load_management_tool/index.qmd": {
+    "index.html": "7259f5b3"
+  },
+  "previous_projects/hsma_6/H6_6063_modelling_talking_therapies_clinical_pathway_using_des/index.qmd": {
+    "index.html": "c0f5ed3d"
+  },
+  "project_faqs.qmd": {
+    "project_faqs.html": "5871c8fb"
+  },
+  "project_log_recording_app.qmd": {
+    "project_log_recording_app.html": "4c0b150d"
+  },
+  "registering_a_project.qmd": {
+    "registering_a_project.html": "dd0c27e8"
   }
 }

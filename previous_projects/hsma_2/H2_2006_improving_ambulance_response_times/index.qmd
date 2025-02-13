@@ -1,0 +1,43 @@
+---
+title: "Improving ambulance response times for life-threatening emergencies using simulation modelling"
+techniques:
+  - Discrete Event Simulation (DES)
+areas:
+  - Ambulance
+categories:
+  - Discrete Event Simulation (DES)
+  - Ambulance
+author:
+  - name: Fiona Willmott
+    affiliation: South Western Ambulance Service NHS Trust (SWAST)
+organisations:
+  - South Western Ambulance Service NHS Trust (SWAST)
+image: "2006.PNG"
+title-block-banner: ../../banner.png
+pub-info:
+  abstract: |
+    Category 1 ambulance calls are life-threatening, making up 8% of calls in the South West in 2018. The project aimed to reduce response times by reserving resources for these calls. A discrete event simulation model was created to determine the optimal resource allocation, balancing the needs of high and low acuity patients.
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+Category 1 ambulance calls are the most serious. They are immediately life threatening and, in 2018, approximately 8% of calls in the South West fell into this category. After the triage the call is passed to the dispatchers who co-ordinate the available resources and aim to meet these response times.
+The response time is the time from the call being made to the arrival of an appropriate ambulance resource on scene. At the beginning of 2018, the ambulance trust was not meeting these times and our number one priority was to reduce the time taken to get to category 1 calls.
+
+The aim of this project was to explore what would happen if dispatchers reserved a portion of resources for the higher acuity calls.  Specifically :
+•	What is the optimum level of resources to “hold back” in order to meet the needs of category 1 patients?
+•	What impact would this have on the lower acuity patients?
+•	What is the optimum balance between these two?
+
+A discrete event simulation model was built which could specify a certain number of resources to reserve for category 1 calls. When a call comes in, if it is category 1 call it is allocated an ambulance as soon as one is available. If it is any of the other lower priority categories, an ambulance will only be allocated if this will leave at least the reserved number of ambulances available.

@@ -1,0 +1,38 @@
+---
+title: "Reducing the delays to glaucoma treatment at Torbay Hospital"
+techniques:
+  - Discrete Event Simulation (DES)
+areas:
+  -
+categories:
+  - Discrete Event Simulation (DES)
+author:
+  - name: Maria Moloney-Lucey
+    affiliation: Devon County Council
+  - name: Hayley Lewis
+    affiliation: NHS South, Central and West CSU
+organisations:
+  - NHS South, Central and West CSU
+image: "2004.PNG"
+title-block-banner: ../../banner.png
+pub-info:
+  abstract: |
+    This project assessed if the Glaucoma pathway increased treatment delays and blindness risk. The model showed reducing visual field check times had little impact on waiting times, but adding a second Photo & Scan machine nearly eliminated queues for this part of the pathway.
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+The aim of this project was to use modelling approaches to assess whether the current configuration of the Glaucoma pathway at Torbay Hospital was increasing delays in treatment, and thus increasing the risk of blindness.
+
+The modelling found that reducing the amount of time visual field checks took (which were perceived to be a bottleneck) had little predicted impact on waiting times.  The model also found that adding a second Photo & Scan machine virtually eliminated queues for this part of the pathway.

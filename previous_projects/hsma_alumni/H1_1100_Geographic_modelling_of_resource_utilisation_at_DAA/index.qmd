@@ -1,7 +1,7 @@
 ---
 title: "Geographic modelling of resource utlitisation at Devon Air Ambulance"
 techniques:
-  - Geographic modelling
+  - Geographic Modelling
   - Forecasting
   - Discrete Event Simulation (DES)
 areas:
@@ -10,7 +10,7 @@ areas:
   - Patient Transport
   - Waiting Times
 categories:
-  - Geographic modelling
+  - Geographic Modelling
   - Forecasting
   - Discrete Event Simulation (DES)
   - Patient Transport

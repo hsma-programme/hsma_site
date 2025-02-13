@@ -1,0 +1,46 @@
+---
+title: "Modelling the potential impact of having a Clinical Decision Unit at Royal Devon and Exeter hospital"
+techniques:
+  - Discrete Event Simulation (DES)
+areas:
+  - Emergency Departments
+  - Reducing Backlogs
+categories:
+  - Discrete Event Simulation (DES)
+  - Reducing Backlogs
+author:
+  - name: Alaric Moore
+    affiliation: Royal Devon University Healthcare NHS Foundation Trust
+organisations:
+  - Royal Devon University Healthcare NHS Foundation Trust
+image: "1005.PNG"
+title-block-banner: ../../banner.png
+pub-info:
+  abstract: |
+    A Clinical Decision Unit (CDU) at the Royal Devon & Exeter NHS Foundation Trust (RD&E) would manage ED patients needing up to 12 hours of care. Analysis showed that a 24/7 CDU with 4 cubicles could handle 2% of attendances, improving the 4-hour standard by 1.7%.
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+A Clinical Decision Unit (CDU) is a designated area for Emergency Department (ED) patients who require testing, treatment, and observational medical management for up to 12hrs. Only patients that meet well-defined criteria where there is an expectation that the patient should be able to safely return home and avoid hospital inpatient admission should be transferred to a CDU.
+The ED at the Royal Devon & Exeter NHS Foundation Trust (RD&E) is one of the only departments in England seeing over 100,000 patients a year without a CDU.
+This project sought to identify the optimum size and impact of a potential CDU.
+
+The method
+To understand the patient journey through the department, a pathway map was first produced with the assistance of a multi-disciplinary ED team. In order to understand trends and variation in patient demand, length of stay and potential CDU appropriateness; detailed analysis of anonymised data recorded on the Trust ED system was undertaken.
+The ED clinical and managerial team determined that the criteria for CDU inclusion.
+A model of the ED pathway was built in Simul8 incorporating the CDU clinical acceptance model and actual data from the whole of 2016.
+
+The results
+With a CDU open 24hrs a day 7 days a week, 99.9% of the time 4 cubicles would be adequate. In a year, just under 2% of attendances would be appropriate to route to the CDU which would have an impact of improving RD&E performance against the 4hr standard by +1.7%. These results will be integrated into the ED capital programme business case going to the RD&E Board in June 2017.

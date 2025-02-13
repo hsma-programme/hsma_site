@@ -41,7 +41,9 @@
       "hsma_6/*/index.qmd",
       "hsma_5/*/index.qmd",
       "hsma_4/*/index.qmd",
-      "hsma_3/*/index.qmd"
+      "hsma_3/*/index.qmd",
+      "hsma_2/*/index.qmd",
+      "hsma_1/*/index.qmd"
     ],
     "previous_projects\\projects_by_methods.qmd": [
       "*/*/index.qmd"

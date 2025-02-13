@@ -1,0 +1,43 @@
+---
+title: "Reducing waiting times for spinal patients using simulation modelling"
+techniques:
+  - Machine Learning
+areas:
+  - Reducing Backlogs
+categories:
+  - Machine Learning
+  - Reducing Backlogs
+author:
+  - name: Claire White
+    affiliation: Somerset NHS Foundation Trust
+  - name: Laura Copp
+    affiliation: Somerset NHS Foundation Trust
+  - name: Ramya Peter
+    affiliation: NHS England
+organisations:
+  - NHS England
+  - Somerset NHS Foundation Trust
+image: "2008.PNG"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract: |
+    Routine reporting revealed increasing wait times for spinal patients, with elective patients waiting too long for treatment decisions due to factors like more appointments, diagnostic tests, and a complex pathway. A discrete event simulation of the spinal pathway looked at referral routes and wait times, showing variation in patient queues per consultant for further investigation.
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+Routine reporting exposed a continuing increase in the time spinal patients were waiting, and  elective spinal patients were waiting too long for a decision to be made on their treatment plan. There were many contributing factors such as increased appointments, diagnostic tests and a complicated pathway
+
+A discrete event simulation of the spinal pathway was developed, which looked at the referral routes in and wait times between appointments.  The model demonstrated some variation across the number of patients in the queues per consultant for further investigation.

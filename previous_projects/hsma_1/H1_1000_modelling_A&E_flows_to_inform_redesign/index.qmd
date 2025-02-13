@@ -1,0 +1,45 @@
+---
+title: "Modelling A & E flows to inform redesign at North Devon District Hospital"
+techniques:
+  - Discrete Event Simulation (DES)
+areas:
+  - Emergency Departments
+  - Patient Flow
+categories:
+  - Discrete Event Simulation (DES)
+  - Emergency Departments
+  - Patient Flow
+author:
+  - name: Nic Harrison
+    affiliation: Royal Devon University Healthcare NHS Foundation Trust
+organisations:
+  - Royal Devon University Healthcare NHS Foundation Trust
+image: "1000.PNG"
+title-block-banner: ../../banner.png
+pub-info:
+  abstract: |
+    The project aimed to enhance A&E performance by optimising staffing and bed requirements, focusing on the 4-hour target. Various staffing scenarios were modelled, revealing near-optimal staffing with minor adjustments. Success was achieved through collaborative efforts, meeting the 4-hour target in Q1-Q3 despite increased attendances. The project promoted system-wide improvements and cultural change within NDHT and Devon STP.
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+This project aimed to improve the performance of A&E services within the broader hospital system, considering factors such as the 4-hour target, staffing optimization, and bed requirements. The project focused on optimizing staffing within current time constraints to enhance A&E performance and the conversion rate from attendances to emergency admissions.
+
+A base case was established, and various staffing scenarios were modelled, exploring approximately 40 possible configurations. The model was designed to be simple for ease of understanding while also complex enough to track patient types and key hospital processes. The main focus was on identifying pinch points in patient flow and improving 4-hour performance.
+
+The analysis revealed that both nursing and doctor staffing were already close to optimal, but minor adjustments could improve performance. However, unsafe options or those that might affect recruitment and retention were eliminated. Optimizations were found within the current staffing budget, and these scenarios were tested during a “Perfect Fortnight” initiative, alongside 36 other improvement efforts.
+
+The project achieved notable success, with the 4-hour target met in Q1, Q2, and Q3, despite a 6% increase in attendances and a national breach rate of 15%. In response to challenges in meeting the target for Q4, additional investments in doctor staffing were made, which, combined with other changes, helped to achieve the standard.
+
+The project’s success was attributed to a collaborative approach, with the “embedded analysis” for A&E and the role of "modelling ambassadors." The modelling work was shared with six other Trusts in the Devon STP and extended to other operational areas, promoting system-wide improvements. Cultural change within NDHT and Devon STP led to more integrated Business Intelligence (BI) efforts, influencing decision-making and operational practices across the region.
