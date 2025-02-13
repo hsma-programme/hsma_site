@@ -41,6 +41,6 @@ This project aims to explore the demand for and access to Musculoskeletal Physio
 
 Using Geographic Modelling to demonstrate variation in demand and access times for Musculoskeletal Physiotherapy services across Exeter, Mid & East Devon.
 
-Using Descrete Event Simulation to model how placement of resources (staffing) can reduce variation.
+Using Discrete Event Simulation to model how placement of resources (staffing) can reduce variation.
 
 To construct a Streamlit App from the above as a tool for ongoing service development and review.

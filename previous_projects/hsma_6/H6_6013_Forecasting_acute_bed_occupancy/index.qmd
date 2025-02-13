@@ -22,7 +22,7 @@ categories:
 author:
   - name: Rey Tan
     affiliation: Royal United Hospitals Bath NHS Foundation Trust
-Organisations:
+organisations:
   - Royal United Hospitals Bath NHS Foundation Trust
 image: "6013.PNG"
 title-block-banner: ../../banner.png
