@@ -13,14 +13,17 @@ categories:
   - Ambulance
 author:
   - name: Phil King
-    affiliation: South Central Ambulance Service
+    affiliation: South Central Ambulance Service NHS Foundation Trust (SCAS)
+  - name: James Wise
+    affiliation: South Central Ambulance Service NHS Foundation Trust (SCAS)
 organisations:
-  - South Central Ambulance Service
-image: "../placeholder.png"
+  - South Central Ambulance Service NHS Foundation Trust (SCAS)
+image: "6005.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    The project aims to improve ACQI data quality and provide rapid feedback using a tool to analyse free text fields, capture sentiment, categorize incidents, and assess treatment appropriateness. This tool could be shared with other Ambulance Trusts and serve as a backup for to manually review data. It will also predict rule changes and their impact on scores.
   links:
   - name: Video
     url:

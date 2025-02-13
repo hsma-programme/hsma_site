@@ -1,5 +1,5 @@
 ---
-title: "Using Machine Learning and Explainable AI to predict and understand mental health appointment DNAs to reduce inequalities "
+title: "Using Machine Learning and Explainable AI to predict and understand mental health appointment DNAs to reduce inequalities"
 techniques:
   - Machine Learning
   - Geographic Modelling
@@ -20,11 +20,12 @@ author:
     affiliation: Lancashire and South Cumbria NHS Foundation Trust
 organisations:
   - Lancashire and South Cumbria NHS Foundation Trust
-image: "../placeholder.png"
+image: "6000.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    This project uses machine learning to explore correlations whether there is a correlation between missed mental health appointments and factors like deprivation, age, ethnicity, and travel distance. Reducing non-attendance can significantly impact waiting lists.
   links:
   - name: Video
     url:

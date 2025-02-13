@@ -4,19 +4,20 @@ techniques:
   - Forecasting
 areas:
   - Workforce
-  - Demand & Capacity
 categories:
   - Forecasting
   - Workforce
-  - Demand & Capacity
 author:
   - name: Sara Fundu
     affiliation: The Royal College of Pathologists
-image: "../placeholder.png"
+organisations:
+  - The Royal College of Pathologists
+image: "6015.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    The project aims to forecast the regional demand for medical doctors, considering factors like trainees and population. It will plot a graph showing the current supply versus demand. Additionally, it will simulate outcomes under different scenarios, such as changes in trainee numbers or population health, to better understand and address the gap.
   links:
   - name: Video
     url:

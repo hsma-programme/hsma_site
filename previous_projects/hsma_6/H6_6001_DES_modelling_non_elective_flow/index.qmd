@@ -17,14 +17,13 @@ categories:
 author:
   - name: Helena Robinson
     affiliation: Countess of Chester Hospital NHS Foundation Trust
-organisations:
-  - Countess of Chester Hospital NHS Foundation Trust
-image: "../placeholder.png"
+organisations: Countess of Chester Hospital NHS Foundation Trust
+image: "6001.PNG"
 title-block-banner: ../../banner.png
 status: Active
-repo: Y
 pub-info:
-  abstract:
+  abstract: |
+    Poor patient flow in Emergency Departments leads to long admission waits and poorer patient outcomes. Strategies include increasing beds and reducing discharge delays. This project uses Discrete Event Simulation to explore bed numbers, length of stay, and Same Day Emergency Care impacts on ED waits, aiming to optimise patient flow.
   links:
   - name: Video
     url:

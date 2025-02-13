@@ -23,14 +23,15 @@ categories:
   - Understanding Drivers
 author:
   - name: Jake Kealey
-    affiliation: North Central London ICB
+    affiliation: NHS North Central London ICB
 organisations:
-  - North Central London ICB
-image: "../placeholder.png"
+  - NHS North Central London ICB
+image: "6010.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    NCL has seen a rise in long Length of Stay (LoS) over the past 5 years, causing system strain. This project aims to develop a causal model to identify factors affecting LoS and estimate the impact of interventions. Key aims include building qualitative and quantitative models of LoS and modelling changes in response to interventions.
   links:
   - name: Video
     url:
@@ -46,7 +47,8 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
-NCL has observed a consistent increase in long Length of Stay (LoS) over the past 5 years. Increasing length of stay means a higher capacity is needed for the same demand which causes system strain.
+North Central London (NCL) has observed a consistent increase in long Length of Stay (LoS) over the past 5 years. Increasing length of stay means a higher capacity is needed for the same demand which causes system strain.
+
 Stakeholders are interested in understanding why length of stay has increased within NCL so that that can introduce appropriate measures to reduce it.
 
 This project proposes to develop a causal model that can be used to identify relations between admission features, operations and length of stay. The model will be used to understand site level drivers to estimate the potential impact of proposed interventions.

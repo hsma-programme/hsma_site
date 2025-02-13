@@ -15,15 +15,15 @@ categories:
   - Patient Flow
 author:
   - name: Rebecca Marshall
-    affiliation: University Hospitals Coventry and Warwickshire Trust
+    affiliation: University Hospitals Coventry & Warwickshire NHS Trust
 organisations:
-  - University Hospitals Coventry and Warwickshire Trust
-image: "../placeholder.png"
+  - University Hospitals Coventry & Warwickshire NHS Trust
+image: "6004.PNG"
 title-block-banner: ../../banner.png
 status: Active
-repo: Yes
 pub-info:
-  abstract:
+  abstract: |
+    The project aims to use Discrete Event Simulation to optimize theatre capacity for elective and major trauma orthopaedic procedures at UHCW. Increasing emergency referrals are impacting elective lists and finances. The model will explore adding theatre slots and increasing capacity to improve patient flow and reduce waiting lists.
   links:
   - name: Video
     url:

@@ -16,11 +16,12 @@ author:
     affiliation: Surrey and Sussex Healthcare NHS Trust
 organisations:
   - Surrey and Sussex Healthcare NHS Trust
-image: "../placeholder.png"
+image: "6007.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    The project aims to develop a flexible simulation model to optimise anti-VEGF treatment strategies in ophthalmology. It will use dual modelling frameworks, a modular design, and an interactive dashboard. The model will analyse clinical effectiveness, costs, and resource requirements, adapting to new treatments. The objective is to provide a tool to improve patient outcomes and optimize resource use and costs.
   links:
   - name: Video
     url:

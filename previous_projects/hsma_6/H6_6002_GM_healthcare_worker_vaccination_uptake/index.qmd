@@ -16,13 +16,14 @@ categories:
 author:
   - name: Yasmin Ibrahim
     affiliation: NHS England
-organisations: 
-  - NHS England 
-image: "../placeholder.png"
+organisations:
+  - NHS England
+image: "6002.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    There is a decreasing uptake of COVID and flu vaccinations among healthcare workers. Identifying patterns by staff uptake, gender, ethnicity, deprivation, and other factors can help. Using geographic and boosted tree modelling, along with regression analysis, can capture these patterns and provide useful data for stakeholders to address the issue.
   links:
   - name: Video
     url:

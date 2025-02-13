@@ -20,11 +20,12 @@ author:
     affiliation: Lancashire and South Cumbria NHS Foundation Trust
 organisations:
   - Lancashire and South Cumbria NHS Foundation Trust
-image: "../placeholder.png"
+image: "6006.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    The project uses Discrete Event Simulation to model the children's ADHD diagnostic and treatment pathway, aiming to reduce waiting times and lists. It proposes a new pathway with preliminary diagnostic testing to ensure accurate ADHD assessments. The model will evaluate the impact of these changes and may extend to include 1:1 and group session appointments.
   links:
   - name: Video
     url:

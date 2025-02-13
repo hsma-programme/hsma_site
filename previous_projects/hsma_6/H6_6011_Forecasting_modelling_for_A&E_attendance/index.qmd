@@ -15,14 +15,15 @@ categories:
   - Seasonality
 author:
   - name: Yu Qiao
-    affiliation: Liverpool University Hospital Foundation Trust
+    affiliation: Liverpool University Hospitals NHS Foundation Trust
 organisations:
-  - Liverpool University Hospital Foundation Trust
-image: "../placeholder.png"
+  - Liverpool University Hospitals NHS Foundation Trust
+image: "6011.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    The project aims to forecast A&E attendances 6 weeks in advance, considering seasonal patterns. This helps manage limited resources, plan staffing levels, and assess the need for escalation during abnormal events. Using Time Series Forecasting and a Repeatable Analytical Pipeline, the project addresses the unpredictability of A&E demand influenced by various factors.
   links:
   - name: Video
     url:

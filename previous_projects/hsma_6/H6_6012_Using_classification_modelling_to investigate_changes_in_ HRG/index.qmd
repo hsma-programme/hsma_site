@@ -14,11 +14,12 @@ author:
     affiliation: NHS England
 organisations:
   - NHS England
-image: "../placeholder.png"
+image: "6012.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    The project will use classification modelling and explainable AI to identify changes in complexity and comorbidity categorisation over time, ensuring accurate cost pressure insights.
   links:
   - name: Video
     url:

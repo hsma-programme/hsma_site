@@ -11,14 +11,17 @@ categories:
   - Older Adults
 author:
   - name: Emil Frances-Chi
-    affiliation: NHS West Yorkshire ICB - Wakefield
+    affiliation: NHS West Yorkshire ICB
+  - name: Sid Kumar
+    affiliation: NHS West Yorkshire ICB
 organisations:
-  - NHS West Yorkshire ICB - Wakefield
-image: "../placeholder.png"
+  - NHS West Yorkshire ICB
+image: "6009.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    The project uses machine learning to estimate future frailty in the Wakefield District and identify key predictive features. It aims to plan resource allocation based on evidence, using two years of linked data. The project will also explore predicting other long-term conditions and produce reports and a user interface for stakeholders.
   links:
   - name: Video
     url:

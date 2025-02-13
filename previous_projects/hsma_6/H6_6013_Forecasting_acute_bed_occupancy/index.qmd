@@ -22,11 +22,14 @@ categories:
 author:
   - name: Rey Tan
     affiliation: Royal United Hospitals Bath NHS Foundation Trust
-image: "../placeholder.png"
+Organisations:
+  - Royal United Hospitals Bath NHS Foundation Trust
+image: "6013.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    The project aims to develop a tool for time series forecasting of bed occupancy using historical data, incorporating seasonality and growth. A web-based app will simulate acute bed models, including variables like closed beds and additional capacity. Using machine learning and discrete event simulation, the tool will aid decision-making and provide reliable daily forecasts.
   links:
   - name: Video
     url:
