@@ -18,15 +18,14 @@ author:
   - name: Marie Rogers
     affiliation: NHS England
   - name: Richard Pilbery
-    affiliation: Yorkshire Ambulance Service
+    affiliation: Yorkshire Ambulance Service NHS Trust
 organisations:
   - NHS England
-  - Yorkshire Ambulance Service
+  - Yorkshire Ambulance Service NHS Trust
 image: "f1haee9r.png"
 title-block-banner: ../../banner.png
-repo: Y
 pub-info:
-  abstract: This project aimed to work out which factors are the biggest drivers of staff turnover using regression modelling on staff workforce figures as well as other local factors such as employment. This was turned into a dashboard for internal use. However, it was concluded that the currently available data only acccounted for 13% of the variation in turnover seen; more data on other factors is required to explain the patterns seen.
+  abstract: This project aimed to work out which factors are the biggest drivers of staff turnover using regression modelling on staff workforce figures as well as other local factors such as employment. This was turned into a dashboard for internal use.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=yYnkdsM5HHo&list=PLgHO2TgIJXdl1MvfkwCGJ6n8_1EYCSzex&index=2
@@ -35,6 +34,6 @@ pub-info:
     url: https://github.com/marierrogers/HSMAproject2023
     icon: fa-brands fa-github
 ---
-
+This project aimed to work out which factors are the biggest drivers of staff turnover using regression modelling on staff workforce figures as well as other local factors such as employment. This was turned into a dashboard for internal use. However, it was concluded that the currently available data only acccounted for 13% of the variation in turnover seen; more data on other factors is required to explain the patterns seen.
 
 {{< video https://www.youtube.com/watch?v=yYnkdsM5HHo&list=PLgHO2TgIJXdl1MvfkwCGJ6n8_1EYCSzex&index=2 >}}

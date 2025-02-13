@@ -16,12 +16,14 @@ areas:
   - Hospitals
 author:
   - name: Duncan Galletly
-    affiliation: North West Neonatal Operational Delivery Network
+    affiliation: North West Neonatal operational Delivery Network (NWNODN)
 organisations:
-  - North West Neonatal Operational Delivery Network
+  - North West Neonatal operational Delivery Network (NWNODN)
 image: "m6ij2sto.png"
 title-block-banner: ../../banner.png
 pub-info:
+  abstract:
+  The project explored the optimal location for 22 neonatal care sites in North West England, using an algorithm that balanced travel time, distance, NICU care episodes, and admission numbers. A discrete event simulation model and dashboard were created to explore various scenarios, aiding stakeholder decision-making.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=Fsn_PTGCERI&list=PLgHO2TgIJXdl1MvfkwCGJ6n8_1EYCSzex&index=8

@@ -18,11 +18,11 @@ areas:
   - Hospitals
 author:
   - name: Becky Crofts
-    affiliation: Royal Devon University Healthcare (RDUH) NHS Foundation Trust
+    affiliation: Royal Devon University Healthcare NHS Foundation Trust
   - name: Kayleigh Haydock
-    affiliation: Royal Devon University Healthcare (RDUH) NHS Foundation Trust
+    affiliation: Royal Devon University Healthcare NHS Foundation Trust
 organisations:
-  - Royal Devon University Healthcare (RDUH) NHS Foundation Trust
+  - Royal Devon University Healthcare NHS Foundation Trust
 image: "cd4dqcnc.png"
 title-block-banner: ../../banner.png
 repo: Y

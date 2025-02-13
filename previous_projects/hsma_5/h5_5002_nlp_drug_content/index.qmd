@@ -13,7 +13,7 @@ author:
   - name: Lauren Szarvas
     affiliation: Bedfordshire Police
   - name: Holly Dale
-    affiliation: Derbyshire Police
+    affiliation: Derbyshire Constabulary
   - name: Tom Haddock
     affiliation: Greater Manchester Police
 organisations:
@@ -23,6 +23,8 @@ organisations:
 image: "5r2xrx9d.png"
 title-block-banner: ../../banner.png
 pub-info:
+  abstract:
+  The project aimed to detect drug-related content in datasets using Natural Language Processing to automate text classification. Initial findings were promising, though tested only on dummy data. If successful, the model could be adapted for other crime types.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=7j8_DlMoaSc&t=22s

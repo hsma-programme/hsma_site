@@ -21,8 +21,9 @@ organisations:
   - NHS England
 image: "akzr6q9d.png"
 title-block-banner: ../../banner.png
-repo: Y
 pub-info:
+  abstract:
+  The project aimed to analyse the relationship between different diagnostic procedures in A&E using NHS ECDS data. A web tool was developed to provide insights into diagnostic procedure usage across the country. The tool will allow users to explore graphic visualisations and accompanying analytics.
   links:
   - name: Code
     url: https://github.com/HamzahJShami/HSMA5

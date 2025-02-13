@@ -16,18 +16,20 @@ areas:
   - Demographics
 author:
   - name: Alex Owens
-    affiliation: NHS Arden and Greater East Midlands CSU
+    affiliation: NHS Arden & GEM CSU
   - name: Phoebe Woodhead
-    affiliation: Wessex AHSN
+    affiliation: Health Innovation Wessex
   - name: Sian Heath
     affiliation: Nottingham University Hospitals NHS Trust
 organisations:
-  - NHS Arden and Greater East Midlands CSU
-  - Wessex AHSN
+  - NHS Arden & GEM CSU
+  - Health Innovation Wessex
   - Nottingham University Hospitals NHS Trust
 image: "8p2z6i2v.png"
 title-block-banner: ../../banner.png
 pub-info:
+  abstract:
+  The project aimed to empower NHS service providers with a tool to understand their patient population and direct service expansion to underserved groups. It combines geospatial analysis, demographic data, and travel calculations.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=7a1bx1NfyBA&t=3s

@@ -24,6 +24,8 @@ organisations:
 image: "il8e1h81.png"
 title-block-banner: ../../banner.png
 pub-info:
+  abstract:
+  Hospitals face increasing A&E wait times, ambulance delays, and growing waiting lists, partly due to inefficient patient discharges. This project modelled patient flow in and out of acute hospitals, focusing on discharge delays.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=nrUkRha_5F0&t=1s

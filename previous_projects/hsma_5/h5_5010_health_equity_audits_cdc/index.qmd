@@ -18,16 +18,17 @@ areas:
   - Inequalities
 author:
   - name: Sarah Houston
-    affiliation: UCL Partners
+    affiliation: UCL Partners Health Innovation
   - name: Deborah Newton
     affiliation: Reading Borough Council
 organisations:
-  - UCL Partners
+  - UCL Partners Health Innovation
   - Reading Borough Council
 image: "2d2d6s0i.png"
 title-block-banner: ../../banner.png
-repo: Y
 pub-info:
+abstract:
+The project aimed to create a tool to perform a health equity audit for Community Diagnostic Centres (CDCs) in England. The tool will identify healthcare inequalities, suggests data improvements, and supports local CDCs in understanding their impact. Developed using Python and Streamlit, it allows for easier comparison and sharing of learning across regions, with potential applications beyond CDCs.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=tavZS5MmwOA
@@ -52,7 +53,3 @@ The team would like to further develop the tool to make it more widely applicabl
 The tool itself, at a minimum, will support a local CDC to understand their local impact on healthcare inequalities and address areas of concern where relevant. It’s an example to demonstrate the power of open-source techniques and data in healthcare inequalities. If adopted by multiple regions, it would allow different regions to generate similar outputs which would allow for easier comparison and sharing of learning. The code developed could also be easily adapted and reused for other healthcare services beyond CDCs.
 
 {{< video https://www.youtube.com/watch?v=tavZS5MmwOA >}}
-
-```{=html}
-<iframe width="780" height="500" src="https://github.com/SarahHoustonGH/Diagnostic_HealthEquityAudit" title="Code"></iframe>
-```

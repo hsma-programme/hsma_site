@@ -23,17 +23,19 @@ author:
   - name: Mathew Ojo
     affiliation: NHS England
   - name: Lyndsey Allen
-    affiliation: NHS North of England Commissioning Support Unit
+    affiliation: NHS North of England CSU (NECS)
   - name: Luke Asante
-    affiliation: NHS North of England Commissioning Support Unit
+    affiliation: NHS North of England CSU (NECS)
   - name: Evelyn Koon
     affiliation: NHS England
 organisations:
   - NHS England
-  - NHS North of England Commissioning Support Unit
-image: "43fcmhsi.png"
+  - NHS North of England CSU (NECS)
+image: "43fcmhsi.bmp"
 title-block-banner: ../../banner.png
 pub-info:
+  abstract:
+  The project aimed to explore and evaluate different forecasting methods for NHS England's clock starts, moving beyond Excel-based scenario modelling. The team tested various models and suggested translating the Excel model into Python and obtaining more data to improve demand forecasting and manage wait lists.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=Obzos_OfyEw

@@ -23,8 +23,9 @@ organisations:
   - Guy’s and St Thomas’ NHS Foundation Trust
 image: "81ntpmry.png"
 title-block-banner: ../../banner.png
-repo: Y
 pub-info:
+  abstract:
+  The project created a Discrete Event Simulation to model elective surgery pathways. This tool optimises surgical pathways and provides a ready-made format for creating interactive webapps, benefiting future HSMA participants and other interested users.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=prKoVH2DeyU&t=3s
@@ -44,11 +45,3 @@ The project is FOSS and is available for anyone to use in the future to model th
 This will provide possible opportunities for the optimisation of surgical pathways, and also provide a ready-made format for future HSMA participants to create interactive SimPy-based webapps without having to “reinvent the wheel.”
 
 {{< video https://www.youtube.com/watch?v=prKoVH2DeyU&t=3s >}}
-
-```{=html}
-<iframe width="780" height="500" src="https://gstt-hands-waitlist.streamlit.app/" title="App"></iframe>
-```
-
-```{=html}
-<iframe width="780" height="500" src="https://github.com/gasman-dom/gstt_hands_waitlist_st" title="Code"></iframe>
-```
