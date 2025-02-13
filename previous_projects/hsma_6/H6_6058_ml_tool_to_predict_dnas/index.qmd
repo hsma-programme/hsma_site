@@ -11,9 +11,9 @@ categories:
 author:
   - name: Barney Rumbold
     affiliation: Blackpool Teaching Hospitals NHS Foundation Trust
-organisations: 
+organisations:
   - Blackpool Teaching Hospitals NHS Foundation Trust
-image: "../placeholder.png"
+image: "6058.png"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
@@ -33,6 +33,6 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
-This project is developing a machine learning-based tool that looks at the likelihood outpatient Did Not Attend (DNA) incidences across different services/demographics. 
+This project is developing a machine learning-based tool that looks at the likelihood outpatient Did Not Attend (DNA) incidences across different services/demographics.
 
 The tool could hopefully be shared with providers to provide guidance on how to reduce DNAs.

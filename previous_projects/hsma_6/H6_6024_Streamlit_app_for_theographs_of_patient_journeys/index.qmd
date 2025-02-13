@@ -14,12 +14,12 @@ author:
     affiliation: NHS North of England CSU (NECS)
 organisations:
   - NHS North of England CSU (NECS)
-image: "../placeholder.png"
+image: "6024.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
   abstract: |
-    The project aims to create an open-source application for generating interactive theograph visuals to understand patient/client journeys. It will be a generic tool requiring minimal data fields, usable in various healthcare or social care settings with dynamic 'Event_Type' values.
+    The project aims to create an open-source application for generating interactive theograph visuals to understand patient/client journeys. It will be a generic tool requiring minimal data fields, usable in various healthcare or social care settings.
   links:
   - name: Video
     url:

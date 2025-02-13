@@ -9,9 +9,9 @@ categories:
 author:
   - name: Hnnah Thould
     affiliation: University Hospitals Bristol and Weston NHS Foundation Trust
-organisations: 
+organisations:
   - University Hospitals Bristol and Weston NHS Foundation Trust
-image: "6060.png"
+image: "6060.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
@@ -31,6 +31,6 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
-This project will model Same Day Emergency Care (SDEC) and Emergency Department (ED) pathways at University Hospitals Bristol and Weston NHS Foundation Trust. 
+This project will model Same Day Emergency Care (SDEC) and Emergency Department (ED) pathways at University Hospitals Bristol and Weston NHS Foundation Trust.
 
 The project aims to use Discrete Event Simulation to ascertain 1) optimum parameters for SDEC and ED pathways, 2) the effect of different doctor numbers and 3) the optimum size for SDEC.
