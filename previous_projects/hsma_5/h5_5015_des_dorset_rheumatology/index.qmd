@@ -23,8 +23,8 @@ organisations:
 image: "Abby Dewhurst.jpg"
 title-block-banner: ../../banner.png
 pub-info:
-  abstract:
-  The project aimed to reduce the Rheumatology waiting list and times in Dorset using Discrete Event Simulation (DES). The team built a DES model and a Streamlit app to simulate capacity changes. 
+  abstract: |
+    The project aimed to reduce the Rheumatology waiting list and times in Dorset using Discrete Event Simulation (DES). The team built a DES model and a Streamlit app to simulate capacity changes.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=P6nQle5tgBM&t=1s

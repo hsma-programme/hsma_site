@@ -24,8 +24,8 @@ organisations:
 image: "81ntpmry.png"
 title-block-banner: ../../banner.png
 pub-info:
-  abstract:
-  The project created a Discrete Event Simulation to model elective surgery pathways. This tool optimises surgical pathways and provides a ready-made format for creating interactive webapps, benefiting future HSMA participants and other interested users.
+  abstract: |
+    The project created a Discrete Event Simulation to model elective surgery pathways. This tool optimises surgical pathways and provides a ready-made format for creating interactive webapps, benefiting future HSMA participants and other interested users.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=prKoVH2DeyU&t=3s

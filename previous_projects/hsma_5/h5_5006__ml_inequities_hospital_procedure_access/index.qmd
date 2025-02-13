@@ -22,8 +22,8 @@ organisations:
 image: "t3xhyl8e.png"
 title-block-banner: ../../banner.png
 pub-info:
-  abstract:
-  The project aimed to determine disparities in accessing planned hospital appointments by calculating true admission rates for high deprivation areas. They found that minimal public data and simple models were insufficient. Future work includes creating synthetic data and exploring additional features like emergency admissions.
+  abstract: |
+    The project aimed to determine disparities in accessing planned hospital appointments by calculating true admission rates for high deprivation areas. They found that minimal public data and simple models were insufficient. Future work includes creating synthetic data and exploring additional features like emergency admissions.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=NXGYKKPntO8&list=PLgHO2TgIJXdl1MvfkwCGJ6n8_1EYCSzex&index=4

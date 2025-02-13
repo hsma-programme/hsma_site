@@ -34,8 +34,8 @@ organisations:
 image: "43fcmhsi.png"
 title-block-banner: ../../banner.png
 pub-info:
-  abstract:
-  The project aimed to explore and evaluate different forecasting methods for NHS England's clock starts, moving beyond Excel-based scenario modelling. The team tested various models and suggested translating the Excel model into Python and obtaining more data to improve demand forecasting and manage wait lists.
+  abstract: |
+    The project aimed to explore and evaluate different forecasting methods for NHS England's clock starts, moving beyond Excel-based scenario modelling. The team tested various models and suggested translating the Excel model into Python and obtaining more data to improve demand forecasting and manage wait lists.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=Obzos_OfyEw

@@ -23,8 +23,8 @@ organisations:
 image: "l8j81ti4.png"
 title-block-banner: ../../banner.png
 pub-info:
-  abstract:
-  The project aimed to improve access and service experience through Dorset ICS's Health Inequalities programme. It focused on defining and measuring excess mortality, identifying unexpected mortality trends, and understanding driving factors.
+  abstract: |
+    The project aimed to improve access and service experience through Dorset ICS's Health Inequalities programme. It focused on defining and measuring excess mortality, identifying unexpected mortality trends, and understanding driving factors.
   links:
   - name: Video
     url: https://www.youtube.com/watch?v=e4wYE9tphVk
