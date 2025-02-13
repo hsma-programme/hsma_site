@@ -14,7 +14,6 @@ organisations:
   - South Western Ambulance Service NHS Trust (SWAST)
 image: "2007.PNG"
 title-block-banner: ../../banner.png
-status: Active
 pub-info:
   abstract: |
     This project aimed to rank dispatch codes by clinical acuity using Machine Learning, incorporating PPI group insights on medical history and co-morbidities. Phase 1 used call-taker info and Logistic Regression to optimise accuracy, leading to phase 2 algorithm generation. The active risk stratification model increased HART team utilisation, leading to a trial of Enhanced Hear and Treat.

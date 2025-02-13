@@ -16,7 +16,6 @@ organisations:
   - Royal Devon University Healthcare NHS Foundation Trust
 image: "2010.PNG"
 title-block-banner: ../../banner.png
-status: Active
 pub-info:
   abstract: |
     The hospital faces increasing bed pressures, with over 100 medically fit patients often waiting for discharge due to social care and rehabilitation delays. This project aimed to create a Discrete Event Simulation model to estimate patient length of stay based on demographics, comorbidities, and social care needs, experimenting with scenarios like reducing placement times and accelerating discharge for frail patients.

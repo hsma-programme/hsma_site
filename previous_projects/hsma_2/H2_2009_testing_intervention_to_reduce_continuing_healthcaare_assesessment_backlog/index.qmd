@@ -14,7 +14,6 @@ organisations:
   - NHS South, Central and West CSU
 image: "2009.PNG"
 title-block-banner: ../../banner.png
-status: Active
 pub-info:
   abstract: |
     A System Dynamics model was developed to show the rated of system flow and interdependencies of components in the system. The model aids Clinical Commissioning Groups planning and decision-making, supporting future demand management.

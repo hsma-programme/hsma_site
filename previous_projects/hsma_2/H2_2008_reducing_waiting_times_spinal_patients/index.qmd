@@ -19,7 +19,6 @@ organisations:
   - Somerset NHS Foundation Trust
 image: "2008.PNG"
 title-block-banner: ../../banner.png
-status: Active
 pub-info:
   abstract: |
     Routine reporting revealed increasing wait times for spinal patients, with elective patients waiting too long for treatment decisions due to factors like more appointments, diagnostic tests, and a complex pathway. A discrete event simulation of the spinal pathway looked at referral routes and wait times, showing variation in patient queues per consultant for further investigation.
