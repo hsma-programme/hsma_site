@@ -24,6 +24,11 @@ pub-info:
     icon: fa-brands fa-youtube
 ---
 
+---
+# Organisations of project contributors have been left out intentionally
+# Please do not re-add!
+---
+
 Since the amount of data being collected and stored has increased significantly, datasets are often reviewed manually, particularly when free text fields are present. This project focussed specifically on the detection of drug-related content, following the announcement of the Governments 10-year drugs plan in December 2021. If successful, this could then be adapted and applied to further crime types at a later date.
 
 The aim was to create a model that would be able to make predictions on future datasets by classifying each piece of text into drug/non-drug related content, to prevent manual coding of the data. To achieve this, the team used a machine learning technique known as Natural Language Processing, to train various models on the structure of text and any patterns in language.
