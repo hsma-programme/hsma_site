@@ -11,15 +11,8 @@ areas:
   - Police
 author:
   - name: Lauren Szarvas
-    affiliation: Bedfordshire Police
   - name: Holly Dale
-    affiliation: Derbyshire Constabulary
   - name: Tom Haddock
-    affiliation: Greater Manchester Police
-organisations:
-  - Bedfordshire Police
-  - Derbyshire Police
-  - Greater Manchester Police
 image: "5r2xrx9d.png"
 title-block-banner: ../../banner.png
 pub-info:
