@@ -3,9 +3,10 @@ title: "Modelling the Talking Therapies clinical pathway using a Discrete Event 
 techniques:
   - Discrete Event Simulation (DES)
 areas:
-  -
+  - NHS Talking Therapies (Formerly IAPT)
 categories:
-  -Discrete Event Simulation (DES)
+  - Discrete Event Simulation (DES)
+  - NHS Talking Therapies (Formerly IAPT)
 author:
   - name: Heath McDonald
     affiliation: Lancashire & South Cumbria NHS Foundation Trust
