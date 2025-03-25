@@ -9,6 +9,8 @@ areas:
 categories:
   - Streamlit
   - Costs
+  - Pythn
+  - Older Adults
 author:
   - name: Radia Woodbridge
     affiliation: Torbay and South Devon NHS Foundation Trust

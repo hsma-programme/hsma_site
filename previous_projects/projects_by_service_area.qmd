@@ -314,6 +314,46 @@ listing:
       include:
         categories: "{NHS Talking Therapies (Formerly IAPT)}*"
       template: ../html/previous_projects/listing.ejs
+    - id: gp_projects
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Primary Care (GP), Primary Care (GPs)}*"
+      template: ../html/previous_projects/listing.ejs
+    - id: emergency_access
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Ambulance, 111 Service}*"
+      template: ../html/previous_projects/listing.ejs
+    - id: emergency_departments
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Emergency Departments, A&E, Acute Medical Unit (AMU)}*"
+      template: ../html/previous_projects/listing.ejs
+    - id: inpatients
+      contents: "*/*/index.qmd"
+      sort: "date desc"
+      type: grid
+      grid-columns: 2
+      page-size: 1000
+      categories: false
+      include:
+        categories: "{Inpatients}*"
+      template: ../html/previous_projects/listing.ejs
 ---
 
 ```{=html}
@@ -485,6 +525,36 @@ Click on the preview for each project to read the full details. For many complet
 ## Inequalities
 
 :::{#inequalities_projects}
+:::
+
+
+
+---
+
+## Other Care Areas
+
+:::{.callout-tip}
+For a more granualar breakdown by service types, head to the Projects by Area page by clicking [here](https://hsma.co.uk/previous_projects/projects_by_service_type_location)
+:::
+
+### Primary Care (GPs)
+
+:::{#gp_projects}
+:::
+
+### Emergency Access (111, Ambulance Services)
+
+:::{#emergency_access}
+:::
+
+### Emergency Departments
+
+:::{#emergency_departments}
+:::
+
+### Inpatients
+
+:::{#inpatients}
 :::
 
 ---

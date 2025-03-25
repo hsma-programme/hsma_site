@@ -2,12 +2,14 @@
 title: "Optimising Same Day Emergency Care (SDEC) Resourcing"
 techniques:
   - Discrete Event Simulation (DES)
+  - Emergency Departments
 areas:
   -
 categories:
   - Discrete Event Simulation (DES)
+  - Emergency Departments
 author:
-  - name: Hnnah Thould
+  - name: Hannah Thould
     affiliation: University Hospitals Bristol and Weston NHS Foundation Trust
 organisations:
   - University Hospitals Bristol and Weston NHS Foundation Trust

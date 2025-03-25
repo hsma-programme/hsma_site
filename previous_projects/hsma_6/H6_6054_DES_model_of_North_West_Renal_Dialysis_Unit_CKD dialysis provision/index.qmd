@@ -4,8 +4,11 @@ techniques:
   - Discrete Event Simulation (DES)
 areas:
   - Renal
+  - Dialysis
 categories:
   - Discrete Event Simulation (DES)
+  - Renal
+  - Dialysis
 author:
   - name: Ian Wilkes
     affiliation: NHS North of England CSU (NECS)

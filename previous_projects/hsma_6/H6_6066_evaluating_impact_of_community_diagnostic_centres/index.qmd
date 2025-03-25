@@ -5,11 +5,12 @@ techniques:
   - Streamlit
   - Python
 areas:
-  -
+  - Community Diagnostic Centres (CDCs)
 categories:
   - Geographic Modelling
   - Streamlit
   - Python
+  - Community Diagnostic Centres (CDCs)
 author:
   - name: Felix Mukoro
     affiliation: NHS England

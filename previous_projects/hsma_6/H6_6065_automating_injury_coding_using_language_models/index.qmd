@@ -4,10 +4,11 @@ techniques:
   - Natural Language Processing (NLP)
   - Machine Learning
 areas:
-  -
+  - Clinical Coding
 categories:
   - Natural Language Processing (NLP)
   - Machine Learning
+  - Clinical Coding
 author:
   - name: James Lai
     affiliation: Imperial College Healthcare NHS Trust

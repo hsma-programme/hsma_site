@@ -3,9 +3,10 @@ title: "Developing a primary care load management tool"
 techniques:
   - Discrete Event Simulation (DES)
 areas:
-  -
+  - Primary Care (GP)
 categories:
   - Discrete Event Simulation (DES)
+  - Primary Care (GP)
 author:
   - name: Chris Lewis
     affiliation: The Park Medical Practice

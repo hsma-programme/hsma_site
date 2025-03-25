@@ -3,9 +3,10 @@ title: "Modelling Same Day Emergency Care (SDEC) Pathways"
 techniques:
   - Discrete Event Simulation (DES)
 areas:
-  -
+  - Emergency Departments
 categories:
   - Discrete Event Simulation (DES)
+  - Emergency Departments
 author:
   - name: Tim Boyce
     affiliation: South Western Ambulance Service NHS Trust (SWAST)

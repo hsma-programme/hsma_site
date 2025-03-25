@@ -4,10 +4,11 @@ techniques:
   - StreamLit
   - Geographic Modelling
 areas:
-  -
+  - Rehabilitation
 categories:
   - StreamLit
   - Geographic Modelling
+  - Rehabilitation
 author:
   - name: Joel Reynolds
     affiliation: Homerton Healthcare

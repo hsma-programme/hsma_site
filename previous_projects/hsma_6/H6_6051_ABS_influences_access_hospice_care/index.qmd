@@ -3,9 +3,10 @@ title: "Agent Based Simulation modelling influences on access to hospice care"
 techniques:
   - Agent Based Simulation (ABS)
 areas:
-  -
+  - Hospice
 categories:
   - Agent Based Simulation (ABS)
+  - Hospice
 author:
   - name: Helen Cameron
     affiliation: Ashgate Hospice

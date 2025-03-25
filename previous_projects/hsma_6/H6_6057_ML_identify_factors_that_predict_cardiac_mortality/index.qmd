@@ -8,10 +8,11 @@ areas:
 categories:
   - Machine learning
   - Explainable AI
+  - Cardiology
 author:
   - name: Ruth Keane
     affiliation: NHS Arden & GEM CSU
-organisations: 
+organisations:
   - NHS Arden & GEM CSU
 image: "6057.PNG"
 title-block-banner: ../../banner.png
@@ -33,9 +34,8 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
-This project will use machine learning and explainable AI techniques to try to identify the factors that predict cardiac mortality. 
+This project will use machine learning and explainable AI techniques to try to identify the factors that predict cardiac mortality.
 
-The project will use a large, complex patient-level database which includes 111, SUS and ambulance data. 
+The project will use a large, complex patient-level database which includes 111, SUS and ambulance data.
 
 The aim is to help identify where resourcing nationally should best be placed to decrease cardiac mortality.
-
