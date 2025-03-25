@@ -1,0 +1,12 @@
+---
+title: Modules
+title-block-banner: resources/banner.png
+include-back-link: false
+format:
+  html:
+    include-in-header:
+      - text: |
+            <meta http-equiv="refresh" content='0; URL=https://hsma.co.uk/hsma_content/modules/modules.html'></meta>
+---
+
+Redirecting to the HSMA Course Page. If you are not redirected within 3 seconds, click [here](https://hsma.co.uk/hsma_content/modules/modules.html) to go to the page.
