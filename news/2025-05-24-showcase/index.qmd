@@ -18,8 +18,12 @@ image: image.png
 
 ## The HSMA online showcase event is taking place on 24th June 2025 (0900 - 1530)
 
-:::{.callout-note}
+:::{.callout-tip appearance="simple"}
 Register for your free place [here](https://forms.office.com/e/ZHVAgL04Dd)!
+
+A full itinerary of the day will be published nearer the time with specific talk titles.
+
+Attendees are welcome to leave and rejoin the event at any time if they cannot attend for the full event.
 :::
 
 The PenARC Health Service Modelling Associates (HSMA) Programme is a flagship national 15 month training and mentoring programme, offered free of charge to health, social care and policing staff in England. The programme teaches advanced and practical skills in computer modelling and data science, and supports participants to apply these new skills to real world problems of importance for their organisations, improving operational performance and the experiences of patients.
@@ -43,10 +47,6 @@ At this event, you’ll
 - have the opportunity to hear about some of the work of our HSMAs this year
 - have an opportunity to speak directly with HSMAs about their ongoing work, experiences of the programme and explore sharing and collaborative opportunities
 - and hear from programme staff about the HSMA programme and plans for the future.
-
-:::{.callout-note}
-A full itinerary of the day will be published nearer the time with specific talk titles, but attendees are welcome to leave and rejoin the event at any time if they cannot attend for the full event.
-:::
 
 The event will be of interest to anyone working in health and social care, health services research, or anyone who is interested in applying to future rounds of the programme.
 
