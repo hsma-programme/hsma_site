@@ -1,0 +1,57 @@
+---
+title: "HSMA 6 Showcase"
+title-block-banner: ../banner.png
+author:
+    - "Jemma Phillips"
+    - "Sammi Rosser"
+    - "Dr Dan Chalk"
+date: "2025-04-24"
+date-modified: "2025-04-24"
+include-back-link: true
+format:
+    html:
+        toc: false
+description: |
+    The HSMA 6 Showcase will take place on 24th June 2025 (0900 - 1530). Find out more...
+image: image.png
+---
+
+## The HSMA online showcase event is taking place on 24th June 2025 (0900 - 1530)
+
+:::{.callout-note}
+Register for your free place [here](https://forms.office.com/e/ZHVAgL04Dd)!
+:::
+
+The PenARC Health Service Modelling Associates (HSMA) Programme is a flagship national 15 month training and mentoring programme, offered free of charge to health, social care and policing staff in England. The programme teaches advanced and practical skills in computer modelling and data science, and supports participants to apply these new skills to real world problems of importance for their organisations, improving operational performance and the experiences of patients.
+
+In April 2024, we launched the sixth round of the programme, welcoming a record 178 participants onto the course, and supporting over 70 projects nationally - more than the total projects we’ve ever supported.
+
+Projects this year include
+
+- using simulation modelling to reduce backlogs for children’s neurodiversity assessment and treatment and talking therapies services
+- optimising same day emergency care resourcing and non-elective flow
+- improving call systems for 111 and GP services
+- speeding up access to hyperacute stroke care
+- forecasting urgent care demand
+- modelling cancer pathways
+- using AI techniques to improve categorisation of free text data recorded by paramedics
+
+and more!
+
+At this event, you’ll
+
+- have the opportunity to hear about some of the work of our HSMAs this year
+- have an opportunity to speak directly with HSMAs about their ongoing work, experiences of the programme and explore sharing and collaborative opportunities
+- and hear from programme staff about the HSMA programme and plans for the future.
+
+:::{.callout-note}
+A full itinerary of the day will be published nearer the time with specific talk titles, but attendees are welcome to leave and rejoin the event at any time if they cannot attend for the full event.
+:::
+
+The event will be of interest to anyone working in health and social care, health services research, or anyone who is interested in applying to future rounds of the programme.
+
+There is no charge to attend the event, but we do ask that you register your attendance at the following link: [forms.office.com/e/ZHVAgL04Dd](https://forms.office.com/e/ZHVAgL04Dd).
+
+Joining details and further information will be sent a few days prior to the event.
+
+We hope to see as many of you as possible on 24th June to help us celebrate the fantastic work of our associates happening all across the country.

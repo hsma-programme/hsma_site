@@ -11,6 +11,12 @@ website:
     type: express
     style: simple
     palette: dark
+  announcement:
+    icon: megaphone
+    dismissable: false
+    content: "**You can now register for our HSMA 6 Showcase on Tuesday 24th June (9:00 - 15:30) ** - click [here](https://forms.office.com/e/ZHVAgL04Dd) to register or [here](/news/2025-05-24-showcase/index.qmd) to find out more"
+    type: primary
+    position: below-navbar
   page-footer:
     center: |
       [![](/resources/nihr_logo.png){width=250px}](https://arc-swp.nihr.ac.uk/)<br/><br/>
@@ -43,7 +49,8 @@ website:
     right:
       - href: index.qmd
         text: Welcome
-
+      - href: news.qmd
+        text: HSMA 6 Showcase
       - text: "Projects"
         menu:
           - href: previous_projects/projects_by_service_area.qmd
