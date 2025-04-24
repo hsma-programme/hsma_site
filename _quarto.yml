@@ -49,8 +49,6 @@ website:
     right:
       - href: index.qmd
         text: Welcome
-      - href: news.qmd
-        text: HSMA 6 Showcase
       - text: "Projects"
         menu:
           - href: previous_projects/projects_by_service_area.qmd
@@ -97,6 +95,9 @@ website:
             text: Registering a Project
           - href: project_faqs.qmd
             text: Project FAQs
+
+      - href: news.qmd
+        text: News
 
       - text: "About"
         menu:
