@@ -12,7 +12,7 @@ format:
     html:
         toc: false
 description: |
-    The HSMA 6 Showcase will take place on 24th June 2025 (0900 - 1530). Find out more...
+    The HSMA 6 Showcase will take place online on 24th June 2025 (0900 - 1530). Register now!
 image: image.png
 ---
 

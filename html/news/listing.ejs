@@ -1,8 +1,8 @@
 ```{=html}
-<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 450px)); gap: 20px;">
+<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 300px)); gap: 50px;">
 
   <% for (const item of items) { %>
-    <div class="custom-grid-card border-2 rounded-3" <%= metadataAttrs(item) %>>
+    <div class="custom-grid-card border-4 rounded-3" <%= metadataAttrs(item) %>>
           <div class="main-card-content">
             <% if(item['image']) { %>
               <a href="<%- item.path %>">

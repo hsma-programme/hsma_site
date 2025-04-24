@@ -7,7 +7,7 @@ listing:
   categories: false
   grid-columns: 3
   template: html/news/listing.ejs
-title-block-banner: banner.png
+title-block-banner: resources/banner.png
 include-back-link: false
 page-layout: full
 ---
