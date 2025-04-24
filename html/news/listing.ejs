@@ -1,40 +1,47 @@
 ```{=html}
-<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(200px, 300px)); gap: 50px;">
+<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1250px)); gap: 20px;">
 
   <% for (const item of items) { %>
-    <div class="custom-grid-card border-4 rounded-3" <%= metadataAttrs(item) %>>
-          <div class="main-card-content">
-            <% if(item['image']) { %>
-              <a href="<%- item.path %>">
-                <img class="card-img" src="<%- item.image %>" alt="<%- item.title %>" class="card-img-top"/>
-              </a>
-              <% } %>
+    <div class="custom-grid-card border-4 rounded-3" <%= metadataAttrs(item) %> style="padding: 10px;">
+      <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch;">
 
-              <div class="news listing-title">
-                <h5 class="no-anchor card-title listing-title"><%= item['title'] %></h5>
-            </div>
+        <% if(item['image']) { %>
+          <a href="<%- item.path %>" style="display: flex; align-items: stretch;">
+            <img
+              src="<%- item.image %>"
+              alt="<%- item.title %>"
+              style="max-height: 100%; max-width: 250px; width: auto; object-fit: contain; border-radius: 4px;"
+            />
+          </a>
+        <% } %>
 
-            <p class="listing-abstract"><i>Posted <%= item['date'] %></i></p>
+        <div class="card-text-content"
+             style="flex: 1; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px;">
 
-            <% if (item['description']) { %>
-              <p class="listing-abstract"><%= item['description'] %></p>
+          <h3 class="no-anchor card-title listing-title" style="margin: 0;"><%= item['title'] %></h3>
 
-                <% } %>
+          <p class="listing-abstract" style="margin: 0; font-size: 0.9em;"><i>Posted <%= item['date'] %></i></p>
 
-              </div>
+          <% if (item['description']) { %>
+            <p class="listing-abstract" style="margin: 0; font-size: 0.95em;"><%= item['description'] %></p>
+          <% } %>
 
-              <div class="listing-organisations">
-                <%= item['author'] %>
-              </div>
-
-
-                <div class="project-details-listing">
-                  <button class="project-link-listing-button"><a href="<%- item.path %>"><i class="fa fa-info-circle"></i> Read Article </a></button>
-                </div>
-
-              </div>
-
-            <% } %>
+          <div class="listing-organisations" style="margin-top: 4px; font-size: 0.95em;">
+            <%= item['author'] %>
           </div>
+
+          <div class="project-details-listing" style="margin-top: auto; width: 100%;">
+            <button class="project-link-listing-button" style="width: 100%; text-align: center;">
+              <a href="<%- item.path %>"><i class="fa fa-info-circle"></i> Read Article </a>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  <% } %>
+</div>
+
+
 
 ```
