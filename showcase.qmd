@@ -1,12 +1,12 @@
 ---
-title: Showcase
+title: Showcase registration
 title-block-banner: resources/banner.png
 include-back-link: false
 format:
   html:
     include-in-header:
       - text: |
-            <meta http-equiv="refresh" content='0; URL=https://hsma.co.uk/news/2025-05-24-showcase/index.html'></meta>
+            <meta http-equiv="refresh" content='0; URL=https://forms.office.com/e/ZHVAgL04Dd'></meta>
 ---
 
-Redirecting to the HSMA showcase page. If you are not redirected within 3 seconds, click [here](https://hsma.co.uk/news/2025-05-24-showcase/index.html) to go to the page.
+Redirecting to the HSMA showcase registration page. If you are not redirected within 3 seconds, click [here](https://forms.office.com/e/ZHVAgL04Dd) to go to the page.

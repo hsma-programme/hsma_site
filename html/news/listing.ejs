@@ -14,11 +14,17 @@
                 <h5 class="no-anchor card-title listing-title"><%= item['title'] %></h5>
             </div>
 
+            <p class="listing-abstract"><i>Posted <%= item['date'] %></i></p>
+
             <% if (item['description']) { %>
               <p class="listing-abstract"><%= item['description'] %></p>
 
                 <% } %>
 
+              </div>
+
+              <div class="listing-organisations">
+                <%= item['author'] %>
               </div>
 
 
