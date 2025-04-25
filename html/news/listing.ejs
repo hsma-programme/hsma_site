@@ -9,6 +9,12 @@
       height: auto !important;
     }
   }
+
+    a:link { color:#fcfcfc; text-decoration: none; }
+    a:visited { color:#fcfcfc; text-decoration: none; }
+    a:hover { color:#ffd900; text-decoration: none; }
+    a:active { color:#ffd900; text-decoration: underline; }
+
 </style>
 
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1250px)); gap: 20px;">
@@ -30,7 +36,7 @@
         <div class="card-text-content"
              style="flex: 1; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px;">
 
-          <h3 class="no-anchor card-title listing-title" style="margin: 0;"><%= item['title'] %></h3>
+          <a href="<%- item.path %>"><h3 class="no-anchor card-title listing-title" style="margin: 0;"><%= item['title'] %></h3></a>
 
           <p class="listing-abstract" style="margin: 0; font-size: 0.9em;"><i>Posted <%= item['date'] %></i></p>
 
@@ -44,7 +50,7 @@
 
           <div class="project-details-listing" style="margin-top: auto; width: 100%;">
             <button class="project-link-listing-button" style="width: 100%; text-align: center;">
-              <a href="<%- item.path %>"><i class="fa fa-info-circle"></i> Read Article </a>
+              <a href="<%- item.path %>"><i class="fa-solid fa-newspaper"></i> Click Here to Read the Article </a>
             </button>
           </div>
 

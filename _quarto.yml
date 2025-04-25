@@ -76,14 +76,7 @@ website:
       - href: hsma_content/modules/modules.qmd
         text: Modules
 
-      - text: "Other Resources"
-        menu:
-          - href: hsma_content/des_playground.qmd
-            text: The DES Playground
-          - href: hsma_content/reinforcement_learning_game.qmd
-            text: Reinforcement Learning Game
-
-      - text: "Current & Former Students"
+      - text: "Student Resources"
         menu:
           - href: project_log_recording_app.qmd
             text: Project Log Recording App
@@ -95,6 +88,13 @@ website:
             text: Registering a Project
           - href: project_faqs.qmd
             text: Project FAQs
+
+      - text: "Other Resources"
+        menu:
+          - href: hsma_content/des_playground.qmd
+            text: The DES Playground
+          - href: hsma_content/reinforcement_learning_game.qmd
+            text: Reinforcement Learning Game
 
       - href: news.qmd
         text: News
