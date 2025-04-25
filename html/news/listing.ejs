@@ -1,9 +1,21 @@
 ```{=html}
+<style>
+  @media (max-width: 768px) {
+    .main-card-content {
+      flex-direction: column !important;
+    }
+    .main-card-content img {
+      max-width: 100% !important;
+      height: auto !important;
+    }
+  }
+</style>
+
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1250px)); gap: 20px;">
 
   <% for (const item of items) { %>
     <div class="custom-grid-card border-4 rounded-3" <%= metadataAttrs(item) %> style="padding: 10px;">
-      <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch;">
+      <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
 
         <% if(item['image']) { %>
           <a href="<%- item.path %>" style="display: flex; align-items: stretch;">
@@ -41,6 +53,7 @@
     </div>
   <% } %>
 </div>
+
 
 
 
