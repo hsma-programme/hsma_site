@@ -23,6 +23,8 @@ The slides, exercises and content from the HSMA session is freely available for 
 
 Click into the module you are interested in to find a full list of the sessions within that module, including links to the session recording, the slides, and the code-based exercises and solutions.
 
+Prefer to read a summary of the content covered in these sessions? Head to the [books](../books/books.qmd) page instead.
+
 
 :::{.callout-note}
 Modules are listed in the order they are delivered on the course, but while module 1 is essential for all other modules, most of the remaining modules can be consumed independently.

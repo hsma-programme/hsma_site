@@ -18,5 +18,7 @@ To accompany the HSMA course, we have written several eBooks.
 
 These are freely available to all - please share them with anyone you think would find them useful!
 
+Prefer to follow along with the original session recordings, slides and exercises? Head to the [modules](../modules/modules.qmd) page instead.
+
 :::{#books}
 :::

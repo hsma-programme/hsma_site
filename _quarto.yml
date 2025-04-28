@@ -49,6 +49,13 @@ website:
     right:
       - href: index.qmd
         text: Welcome
+
+      - href: hsma_content/books/books.qmd
+        text: Books
+
+      - href: hsma_content/modules/modules.qmd
+        text: Modules
+
       - text: "Projects"
         menu:
           - href: previous_projects/projects_by_service_area.qmd
@@ -70,11 +77,6 @@ website:
 
       - href: impact_stories.qmd
         text: Case Studies
-
-      - href: hsma_content/books/books.qmd
-        text: Books
-      - href: hsma_content/modules/modules.qmd
-        text: Modules
 
       - text: "Student Resources"
         menu:
