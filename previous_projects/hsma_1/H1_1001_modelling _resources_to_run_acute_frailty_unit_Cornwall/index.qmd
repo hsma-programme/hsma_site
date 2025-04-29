@@ -40,11 +40,16 @@ A discrete event simulation was initially created to identify what would be the 
 
 The model allowed data to be captured relating to what would be the average bed occupancy on both the proposed frailty assessment unit alongside the existing Medical Assessment Units and what percentage of these patients would meet the 4 hour ED Standard.
 
-Findings:
+## Findings
+
 An 18 Bedded Frailty Assessment unit (FAU) would have an average bed occupancy of 70% allowing for 99% of patients who would suit admission to FAU to be admitted, with 94% of patients waiting for a bed on FAU waiting less than four hour in ED.
+
 A 16 Bedded FAU would have an average bed occupancy of 77% of the time but the number of patients who would breach the four hour ED standard would increase by 8%
 
-Impact:
+## Impact
+
 Proposals have been made relating to reconfiguring wards working with the number of beds suggested in the model as a basis.
+
 Additional pieces of work have been performed to solely model the size of the Medical Assessment unit with.
+
 Discussions for how to improve the bed occupancy whilst maintaining the bed occupancy taken place and have involved allowing expected short stay medical patients to outlie in FAU when occupancy is low.

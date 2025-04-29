@@ -32,18 +32,22 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
-The problem
-Ensuring the continuous flow of inpatient bed availability for emergency and non-elective beds within the Acute Hospital setting is critical in enabling access to specialist and emergency treatment for patients. Variation in discharge rates across the seven-day week impact on the availability of inpatient beds both at the weekend and the start of the working week; typically weekends and Mondays are the worst performing days for discharge (see chart A) – this creates operational issues each week and has a negative impact on access to services and key operational performance standards.
+## The problem
 
-Method
-•	Initial stakeholder mapping and analysis
-•	Creation of project teams for Complex Discharges and Weekend Discharges
-•	Process mapping of multiple discharge pathways for simple and complex discharges
-•	Analysis of critical steps to discharge including key delays and process step timings
-•	Modelling of discharge pathways using Discrete Event Simulation (DES) software
+Ensuring the continuous flow of inpatient bed availability for emergency and non-elective beds within the Acute Hospital setting is critical in enabling access to specialist and emergency treatment for patients. Variation in discharge rates across the seven-day week impact on the availability of inpatient beds both at the weekend and the start of the working week; typically weekends and Mondays are the worst performing days for discharge – this creates operational issues each week and has a negative impact on access to services and key operational performance standards.
 
-Results
+## Method
+
+-	Initial stakeholder mapping and analysis
+-	Creation of project teams for Complex Discharges and Weekend Discharges
+-	Process mapping of multiple discharge pathways for simple and complex discharges
+- Analysis of critical steps to discharge including key delays and process step timings
+-	Modelling of discharge pathways using Discrete Event Simulation (DES) software
+
+## Results
+
 The modelling process of identifying discharge pathways, key staff groups required, delays to process steps and the communication flow through the discharge process both during the week and at the weekend was very beneficial to identifying improvements in the discharge process. Whilst the overall process was very complicated to model using DES, identifying which bottlenecks were evident and visualising the entire process was very valuable.
 
-Impact
+## Impact
+
 The changes made as a result of the modelling process and through the strategy groups formed to implement changes have seen positive results; this has contributed to increased discharges at the weekends and improved communication flows through the discharge process which has had a very positive effect on the whole discharge process especially for complex patients.

@@ -39,9 +39,10 @@ Process mapping was undertaken to understand the system and 3 years of anonymous
 A simulation model was developed and a number of scenarios were tested to assess the impact on the system of changes in demand for beds, lengths of stay and delayed discharge, and the number of inpatient beds in the system.
 
 There were a number of key findings, which are described later in this paper, including :
-•	There is a pressure in the mental health urgent care system, equivalent to 47 beds.
+
+-	There is a pressure in the mental health urgent care system, equivalent to 47 beds.
 This pressure is managed by purchasing out of area beds and also by running the urgent care system above desired capacity. This means that wards routinely run at above 100% occupancy ; place of safety and extra care areas are used to hold patients whilst waiting for a bed ; leave beds can be backfilled and crisis house beds are spot purchased in some localities.
-•	Both the out of area spend and the extent to which the existing capacity is running ‘hot’ needs to be addressed to reduce the pressure in the system. This will enhance care for patients and the workforce.
-•	There is no one solution and a reduction in demand, lengths of stay (including delayed discharge) combined with an increase in the number of beds is required.
-•	There are not enough beds in the system.
-•	DPT inpatient wards have relatively high occupancy levels, often above 100%, and low lengths of stay. This provides high throughput per bed compared to alternatives, such as step down or out of area beds. As a consequence closing any DPT beds could result in a higher cost alternative.
+-	Both the out of area spend and the extent to which the existing capacity is running ‘hot’ needs to be addressed to reduce the pressure in the system. This will enhance care for patients and the workforce.
+-	There is no one solution and a reduction in demand, lengths of stay (including delayed discharge) combined with an increase in the number of beds is required.
+-	There are not enough beds in the system.
+-	DPT inpatient wards have relatively high occupancy levels, often above 100%, and low lengths of stay. This provides high throughput per bed compared to alternatives, such as step down or out of area beds. As a consequence closing any DPT beds could result in a higher cost alternative.
