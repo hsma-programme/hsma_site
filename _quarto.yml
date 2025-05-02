@@ -4,6 +4,9 @@ project:
 
 website:
   title: HSMA
+  site-url: https://www.hsma.co.uk
+  description: "The website of the HSMA Programme"
+  favicon: resources/favicon.png
   google-analytics:
     tracking-id: "G-9D93EVJKF5"
     anonymize-ip: true
