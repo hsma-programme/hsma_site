@@ -10,12 +10,13 @@ categories:
   - Unsupervised Learning
   - Primary Care (GPs)
 author:
-  - name: Rhianna O'Connor
-    affiliation: Dorset Council
+  - name: Rhianna Everett
+    affiliation: Dorset Intelligence and Insight Service
   - name: James Roberts
     affiliation: Dorset Council
 organisations:
   - Dorset Council
+  - Dorset Intelligence and Insight Service
 image: "6044.PNG"
 title-block-banner: ../../banner.png
 status: Active

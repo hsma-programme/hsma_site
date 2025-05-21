@@ -1,5 +1,5 @@
 ---
-title: "Modelling the impact of 111 and GP access on Emergency Departments"
+title: "Modelling GP Phone calls"
 techniques:
   - Discrete Event Simulation (DES)
 areas:

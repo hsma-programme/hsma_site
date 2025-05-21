@@ -1,5 +1,5 @@
 ---
-title: "Forecasting acute bed occupancy, and simulating short term demand and capacity for acute beds"
+title: "Modelling bed occupancy on an Acute Ward"
 techniques:
   - Forecasting
   - Machine Learning
