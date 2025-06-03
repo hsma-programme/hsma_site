@@ -1,31 +1,29 @@
 ---
-title: "Modelling secondary care psychological therapy flow"
+title: "Developing a DES Model for a Mental Health Hub"
 techniques:
   - Discrete Event Simulation (DES)
 areas:
-  - NHS Talking Therapies (Formerly IAPT)
   - Mental Health
   - Community Mental Health
   - Waiting Times
 categories:
   - Discrete Event Simulation (DES)
-  - NHS Talking Therapies (Formerly IAPT)
   - Mental Health
   - Community Mental Health
   - Waiting Times
 author:
   - name: Helen Wharam
-    affiliation: Solent NHS Trust
+    affiliation: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
   - name: Nathan Hack
-    affiliation: Solent NHS Trust
+    affiliation: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 organisations:
-  - Solent NHS Trust
+  - Hampshire and Isle of Wight Healthcare NHS Foundation Trust
 image: "6026.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
   abstract: |
-    The project aims to improve patient flow for severe mental health treatment by assessing and projecting service user pathways under various conditions. It will provide statistical reasoning for future changes to enhance patient experience. Outputs include time in system, queue lengths, resource utilisation rates, and probabilities of exceeding thresholds for queue length, queue time, and resource utilisation.
+    This project models the Portsmouth Mental Health Hub using Discrete Event Simulation to assess call waiting times, durations, and staff utilisation. As demand grows, the model and web-based app will inform resource planning and service improvements, helping ensure timely, effective support for individuals seeking mental health advice and guidance.
   links:
   - name: Video
     url:
@@ -41,15 +39,10 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
-Poor patient pathway flow is leading to long waits for patient to receive treatment for severe and enduring mental health problems. The current focus is for Adult mental health service to hit waiting times targets.
+The Mental Health hub in Portsmouth is a relatively new service. It acts as a call centre providing signposting, advice and guidance to those who contact them.
 
-The aim of this project is to assess and project service user pathway, with different conditions (e.g. caseload number, staff members, treatment frequency).
+Current service capacity to answer and manage calls was based on estimates of anticipated demand. Routes into the service are now being expanded and demand will potentially grow.
 
-The project will aim to give statistical reasoning for changes for future projections, to improve patient experience through a better flow through the pathway.
+This project will use Discrete Event Simulation to model call waiting times, call duration and resource utilisation.
 
-Proposed outputs include:
-
-- time service users are in system
-- queue length and duration for queues of interest
-- rate of resource utilisation (i.e. % of time a resource is in use for activities in the model)
-- probability of exceeding a defined queue length / queue time / resource utilisation threshold
+A web based app will be developed to support ongoing service development.
