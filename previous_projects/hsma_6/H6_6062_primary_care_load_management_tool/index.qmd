@@ -17,7 +17,7 @@ title-block-banner: ../../banner.png
 status: Active
 pub-info:
   abstract: |
-    A GP practice with 35,000 patients has peak call wait times of 60 minutes. Adding more staff improved this, but staff are idle during lulls. This project will model the telephone system and call handlers' workload to optimise resourcing and efficiency. A web app will be developed to test different scenarios.
+    A GP practice had peak call wait times of 60 minutes. Adding more staff improved this, but lower utilisation was then seen during quieter periods. This project will model the telephone system and call handlers' workload to optimise resourcing, producing a web app to test different scenarios.
   links:
   - name: Video
     url:
@@ -33,8 +33,8 @@ pub-info:
     icon: fa-solid fa-file-contract
 ---
 
-The GP practice of 35000 patients has a call wait time of 60 mins peak.  This has been improved by simply putting more staff on, but there are lots of staff in the lulls, not doing anything.
+A GP practice serving 35,000 patients experiences peak call wait times of 60 minutes. While increasing staffing levels has reduced these wait times, this approach can result in periods of lower utilization during quieter times.
 
-This project will build a model of the telephone system and call handlers' work load to build a tool to assess telephone resourcing and find potential ways to improve efficiency.
+This project aims to develop a comprehensive model of the telephone system and call handler workload patterns. The goal is to create an analytical tool that can evaluate telephone resource allocation and identify opportunities for operational optimization.
 
-A web app will be developed to allow for different scenarios to be tested.
+A web-based application will be developed to enable testing of various staffing scenarios and resource allocation strategies.
