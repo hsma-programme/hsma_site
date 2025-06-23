@@ -64,3 +64,13 @@ Click [here](https://docs.google.com/document/d/e/2PACX-1vQNPrOKEy1VtMbCqQkQUma2
 ```{=html}
 <iframe width="900" height="1200" src="https://docs.google.com/document/d/e/2PACX-1vQNPrOKEy1VtMbCqQkQUma2OJy_FAmE5ul1LV-Mti0JkebFH3CVW_IGRTiNzKWobw/pub?embedded=true" title="HSMA 6 Showcase Itinerary"></iframe>
 ```
+
+## The Hitchhiker's Guide to HSMA
+
+This digital reference offers brief, easy-to-understand explanations of key concepts you might encounter during the showcase.
+
+```{=html}
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQhI2_-YF7sAhFfEqmna18jHcyPPHZtKa0niDIo__9-BWtSXmAdMSXrrXGjdY43QhW_t-RQEQ58gARq/pubembed?start=false&loop=false&delayms=600000000" frameborder="0" width="1058" height="823" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+```
+
+Click [here](https://docs.google.com/presentation/d/e/2PACX-1vQhI2_-YF7sAhFfEqmna18jHcyPPHZtKa0niDIo__9-BWtSXmAdMSXrrXGjdY43QhW_t-RQEQ58gARq/pubembed?start=false&loop=false&delayms=600000000) if you are unable to see the slides above.
