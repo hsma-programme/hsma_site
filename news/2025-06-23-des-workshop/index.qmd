@@ -1,0 +1,49 @@
+---
+title: "In-Person HSMA Workshop - Discrete Event Simulation for Senior Leaders"
+title-block-banner: ../banner.png
+author:
+    - "Jemma Phillips"
+    - "Sammi Rosser"
+    - "Dr Dan Chalk"
+date: "2025-06-23"
+date-modified: "2025-06-23"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    The HSMA team are running a workshop on simulation modelling, aimed at decision makers. No previous knowledge of programming or simulation is required. Register now!
+image: image.png
+---
+
+**The HSMA team are running a live, in-person workshop on discrete event simulation on 16th June 2025 (1000 - 1430)**
+
+:::{.callout-tip appearance="simple"}
+Register for your free place here: [https://forms.office.com/e/7L6TWFreV2](https://forms.office.com/e/7L6TWFreV2)!
+
+Note that this is an **in-person** event taking place at the St Austell Conference Centre, Cornwall, England.
+:::
+
+Health and social care systems are full of queueing and resourcing problems, such as
+
+- reducing waiting times to access treatment
+- optimising flows through pathways in hospitals and clinics
+- managing bed demand
+- managing capacity for ongoing appointments
+- and planning new services and their resourcing
+
+Discrete Event Simulation (DES) is a powerful technique that uses computer simulation to create models of current system flows and resources, allowing us to test out changes in the "virtual" system to assess what might happen if these changes were made in the real world.
+
+In this workshop you will learn
+
+- how DES works
+- how it can and has been used in healthcare
+- interpret model outputs for decision making
+- and interact with DES models via user friendly web apps
+
+No previous knowledge of discrete event simulation or computer programming is required to attend this workshop - just an interest in learning how these techniques could be applied to problems in your own system.
+
+Register for your free place [here](https://forms.office.com/e/7L6TWFreV2) and our team will provide you with further details.
