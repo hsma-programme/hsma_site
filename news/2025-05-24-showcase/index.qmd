@@ -22,7 +22,10 @@ image: image.png
 **The HSMA online showcase event is taking place on 24th June 2025 (0900 - 1530)**
 
 :::{.callout-tip appearance="simple"}
-Register for your free place [here](https://forms.office.com/e/ZHVAgL04Dd)!
+Join the showcase on Zoom using the following link: [https://Universityofexeter.zoom.us/j/93698617010?pwd=f7CZUDEDs7YJZbdVaMtqs1055UUstf.1](https://Universityofexeter.zoom.us/j/93698617010?pwd=f7CZUDEDs7YJZbdVaMtqs1055UUstf.1)
+
+Meeting ID: 936 9861 7010
+Password: 022543
 
 Attendees are welcome to leave and rejoin the event at any time if they cannot attend for the full event.
 :::
