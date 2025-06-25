@@ -17,7 +17,7 @@ website:
   announcement:
     icon: megaphone
     dismissable: false
-    content: "**Join us today (Tuesday 24th June) for our HSMA 6 Showcase! Click [here](https://Universityofexeter.zoom.us/j/93698617010?pwd=f7CZUDEDs7YJZbdVaMtqs1055UUstf.1) to watch live on Zoom, or [here](https://hsma.co.uk/news/2025-05-24-showcase/#full-itinerary) to view the schedule.**"
+    content: "**Are you a decision-maker looking to learn more about simulation? Join us in Cornwall on the 16th July for our first HSMA lambda workshop! Click [here](https://forms.office.com/e/7L6TWFreV2) to register, or [here](https://hsma.co.uk/news/2025-06-23-des-workshop/index.html) for more information.**"
     type: info
     position: below-navbar
   page-footer:

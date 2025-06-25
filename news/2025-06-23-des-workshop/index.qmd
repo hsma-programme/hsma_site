@@ -25,6 +25,8 @@ image: image.png
 Register for your free place here: [https://forms.office.com/e/7L6TWFreV2](https://forms.office.com/e/7L6TWFreV2)!
 
 Note that this is an **in-person** event taking place at the St Austell Conference Centre, Cornwall, England.
+
+We have a limited number of places available for this workshop - we will email you to confirm if your registration request has been accepted.
 :::
 
 Health and social care systems are full of queueing and resourcing problems, such as
@@ -45,5 +47,3 @@ In this workshop you will learn
 - and interact with DES models via user friendly web apps
 
 No previous knowledge of discrete event simulation or computer programming is required to attend this workshop - just an interest in learning how these techniques could be applied to problems in your own system.
-
-Register for your free place [here](https://forms.office.com/e/7L6TWFreV2) and our team will provide you with further details.
