@@ -17,7 +17,7 @@ website:
   announcement:
     icon: megaphone
     dismissable: false
-    content: "**Are you a decision-maker looking to learn more about simulation? Join us in Cornwall on the 16th July for our first HSMA lambda workshop! Click [here](https://forms.office.com/e/7L6TWFreV2) to register, or [here](https://hsma.co.uk/news/2025-06-23-des-workshop/index.html) for more information.**"
+    content: "**Want to hear when we launch HSMA 7? Send us an email at [penchord@exeter.ac.uk](mailto:penchord@exeter.ac.uk?subject=Contact%20from%20HSMA%20Website%20&body=If%20you%20would%20like%20to%20be%20added%20to%20the%20HSMA%20mailing%20list%2C%20please%20complete%20the%20fields%20below.%0A%0AFull%20Name%3A%0A%0AOrganisation%3A%0A%0AIf%20you%20have%20a%20different%20query%2C%20please%20replace%20the%20content%20of%20this%20message%20with%20your%20own.%20%0A%0AThis%20is%20an%20automatically%20generated%20email%20from%20a%20link%20on%20the%20HSMA%20website) to be added to our mailing list.**"
     type: info
     position: below-navbar
   page-footer:
@@ -49,6 +49,8 @@ website:
         href: mailto:penchord@exeter.ac.uk?subject=Contact%20from%20HSMA%20Website%20&body=If%20you%20would%20like%20to%20be%20added%20to%20the%20HSMA%20mailing%20list%2C%20please%20complete%20the%20fields%20below.%0A%0AFull%20Name%3A%0A%0AOrganisation%3A%0A%0AIf%20you%20have%20a%20different%20query%2C%20please%20replace%20the%20content%20of%20this%20message%20with%20your%20own.%20%0A%0A\*\*This%20is%20an%20automatically%20generated%20email%20from%20a%20link%20on%20the%20HSMA%20website\*\*
       - icon: linkedin
         href: https://www.linkedin.com/company/hsma-programme/
+      - icon: rss
+        href: news/rss.xml
     right:
       - href: index.qmd
         text: Welcome
