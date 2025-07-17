@@ -3,11 +3,12 @@ title: "DESperately Seeking Simulation - Introductory Simulation Workshop for De
 format: html
 title-block-banner: banner.png
 include-back-link: false
-page-layout: full
+page-layout: custom
+toc: false
 grid:
   sidebar-width: 0px
-  body-width: 1100px
-  margin-width: 300px
+  body-width: 1400px
+  margin-width: 00px
   gutter-width: 1.5rem
 ---
 
@@ -73,7 +74,7 @@ Download a pdf version of the slides using the button below.
 ```{=html}
 <div class="project-link-buttons">
     <ul class="project-links">
-        <button class="custom-button"><a href="https://uc35de08727c72a2cd4d0922ff06.dl.dropboxusercontent.com/cd/0/get/Ctr9YJgC92PTar7_M0k0vAsNDKkRN76JUYY5kN7BEBQnffazDoLTBjQn8DrmBVuFKGc8c788i3ELdfWQ6q5TocB1SRJLJowqGRBCX6gQD6X6C8rBlXbqm4OytjPYSRX9cc-5o5PiG778kiXG91kx8O4XbMHvav3o8FOzJygeYLlpFg/file?_download_id=26119594852600481847654521410502294372768515564167392070758654178&_log_download_success=1"><i class="fa-solid fa-globe"></i><span style="padding-left: 10px;">Download the slides from part 1</span></a></button>
+        <button class="custom-button"><a href="https://www.dropbox.com/scl/fi/tb1cvvyq17mb8p9klidgk/SLIDES-DESperately_seeking_simulation-part-1-Dan.pdf?rlkey=6x52lkt33rm3d9phffigwahdr&st=efglak5y&dl=1"><i class="fa-solid fa-globe"></i><span style="padding-left: 10px;">Download the slides from part 1</span></a></button>
     </ul>
 </div>
 ```
@@ -85,7 +86,7 @@ Download a pdf version of the slides using the button below.
 ```{=html}
 <div class="project-link-buttons">
     <ul class="project-links">
-        <button class="custom-button"><a href="https://ucbef347b2f70a02af7fc3c2cf9e.dl.dropboxusercontent.com/cd/0/get/CtrWBXEHw6GhrEfTHpk1xW3wD24iYawHT8xS0NuXxj5eD9wh9lLFZjhlevcCz2IVHE86wER3e_udTGXAoGgnFJAwYpQNGZkSvz9vsoXApuPDc9fWxqK9y6r_0Qgof6jSTP7rNLBh7U422xcu0pes1e2I-RZrbLGbtatTNk8WMIENwQ/file?_download_id=555943921239028414522680155057344745148788085357501951349695735&_log_download_success=1"><i class="fa-solid fa-globe"></i><span style="padding-left: 10px;">Download the slides from part 2</span></a></button>
+        <button class="custom-button"><a href="https://www.dropbox.com/scl/fi/zvappwhojpaigk710yqnw/SLIDES-DESperately_seeking_simulation-part-2-Sammi-non-interactive.pdf?rlkey=hc13986owf0zva9u1s0aj9b4r&st=3xjc6pvz&dl=1"><i class="fa-solid fa-globe"></i><span style="padding-left: 10px;">Download the slides from part 2</span></a></button>
     </ul>
 </div>
 ```
@@ -95,19 +96,17 @@ Download a pdf version of the slides using the button below - though note that t
 
 If you would just like to read through the content we weren't able to reach on the day, which covers some tips and potential pitfalls relating to modelling, you can find this below:
 
+```{=html}
 <iframe src="tips_and_pitfalls.html" frameborder="0" width="1058" height="823" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+```
 
+```{=html}
 <div class="project-link-buttons">
     <ul class="project-links">
-        <li>
-            <a class="custom-button" href="https://raw.githubusercontent.com/hsma-programme/hsma_site/refs/heads/main/hsma_content/tips_and_pitfalls.html" download target="_blank">
-                <i class="fa-solid fa-download"></i>
-                <span style="padding-left: 10px;">Download the tips document</span>
-            </a>
-        </li>
+        <button class="custom-button"><a href="https://www.dropbox.com/scl/fi/cxo5u3ncv3y4l79r8fhgp/SLIDES-Sammi-follow-up-tips-and-pitfalls.html?rlkey=8qvp15a1mgwyxoue0vz2rc624&st=4dbxagup&dl=1"><i class="fa-solid fa-globe"></i><span style="padding-left: 10px;">Download the tips document</span></a></button>
     </ul>
 </div>
-
+```
 
 ## The Interactive Playground
 

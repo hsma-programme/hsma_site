@@ -1,0 +1,27 @@
+---
+title: "Transforming Stroke Care Through Simulation"
+title-block-banner: ../banner.png
+author:
+    - "Jemma Phillips"
+    - "Sammi Rosser"
+    - "Dr Dan Chalk"
+    - "PenARC Team"
+date: "2025-07-17"
+date-modified: "2025-07-17"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    One HSMA graduate’s model could save over £2 million annually - click to find out more!
+image: image.png
+---
+
+We're excited to share this great blog post about a project undertaken by our fantastic HSMA 6 associate, John Williams, who went from never having coded in Python to producing a highly impactful simulation model to identify ways to improve stroke care.
+
+This model identified the potential for £2 million in cost savings while also having the potential to improve the outcomes and experience for individual patients.
+
+You can read the full story on the PenARC blog: [https://arc-swp.nihr.ac.uk/news/transforming-stroke-care-through-simulation-how-one-hsma-graduates-model-could-save-over-2-million-annually/](https://arc-swp.nihr.ac.uk/news/transforming-stroke-care-through-simulation-how-one-hsma-graduates-model-could-save-over-2-million-annually/)
