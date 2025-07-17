@@ -2328,7 +2328,7 @@
     "href": "hsma_content/desperately_seeking_simulation_workshop.html#slides---part-2",
     "title": "DESperately Seeking Simulation - Introductory Simulation Workshop for Decision Makers",
     "section": "Slides - Part 2",
-    "text": "Slides - Part 2\n\n\n\n    \n        Download the slides from part 1\n    \n\nDownload a pdf version of the slides using the button below - though note that the interactive elements will either not be present, or fully functional.\nIf you would just like to read through the content we weren’t able to reach on the day, which covers some tips and potential pitfalls relating to modelling, you can find this below:\n\n\n\n&lt;ul class=\"project-links\"&gt;\n    &lt;li&gt;\n        &lt;a class=\"custom-button\"\n           href=\"tips_and_pitfalls.html\"\n           download\n           target=\"_blank\"&gt;\n            &lt;i class=\"fa-solid fa-download\"&gt;&lt;/i&gt;\n            &lt;span style=\"padding-left: 10px;\"&gt;Download the tips document&lt;/span&gt;\n        &lt;/a&gt;\n    &lt;/li&gt;\n&lt;/ul&gt;"
+    "text": "Slides - Part 2\n\n\n\n    \n        Download the slides from part 2\n    \n\nDownload a pdf version of the slides using the button below - though note that the interactive elements will either not be present, or fully functional.\nIf you would just like to read through the content we weren’t able to reach on the day, which covers some tips and potential pitfalls relating to modelling, you can find this below:\n\n\n\n&lt;ul class=\"project-links\"&gt;\n    &lt;li&gt;\n        &lt;a class=\"custom-button\" href=\"https://raw.githubusercontent.com/hsma-programme/hsma_site/refs/heads/main/hsma_content/tips_and_pitfalls.html\" download target=\"_blank\"&gt;\n            &lt;i class=\"fa-solid fa-download\"&gt;&lt;/i&gt;\n            &lt;span style=\"padding-left: 10px;\"&gt;Download the tips document&lt;/span&gt;\n        &lt;/a&gt;\n    &lt;/li&gt;\n&lt;/ul&gt;"
   },
   {
     "objectID": "hsma_content/desperately_seeking_simulation_workshop.html#the-interactive-playground",
@@ -2342,7 +2342,7 @@
     "href": "hsma_content/desperately_seeking_simulation_workshop.html#acknowldgements",
     "title": "DESperately Seeking Simulation - Introductory Simulation Workshop for Decision Makers",
     "section": "Acknowldgements",
-    "text": "Acknowldgements\nThis pilot workshop was generously funded by Policy@Exeter"
+    "text": "Acknowldgements\nThis pilot workshop was funded by Policy@Exeter"
   },
   {
     "objectID": "hsma_content/books/book_details/book_geographic_modelling.html",
