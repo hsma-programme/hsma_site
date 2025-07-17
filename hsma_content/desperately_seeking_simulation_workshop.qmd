@@ -65,7 +65,7 @@ The resources from the day can all be found below.
 
 ## Slides - Part 1
 
-<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQjreEUekak6YTD7sRsRI53wb-awWZ0nfIA61jmGWmTVIA-HoOo69J2jBe3hGNk4EBNB4-IDLNQtGT8/pubembed?start=false&loop=false&delayms=1000000000" frameborder="0" width="1058" height="823" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQjreEUekak6YTD7sRsRI53wb-awWZ0nfIA61jmGWmTVIA-HoOo69J2jBe3hGNk4EBNB4-IDLNQtGT8/pubembed?start=false&loop=false&delayms=1000000000" frameborder="0" width="836" height="650" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 
 Download a pdf version of the slides using the button below.
@@ -80,31 +80,27 @@ Download a pdf version of the slides using the button below.
 
 ## Slides - Part 2
 
-<iframe src="https://hsma-programme.github.io/lambda_des_workshop_slides/" frameborder="0" width="1058" height="823" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="https://hsma-programme.github.io/lambda_des_workshop_slides/" frameborder="0" width="1016" height="650" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 ```{=html}
 <div class="project-link-buttons">
     <ul class="project-links">
-        <button class="custom-button"><a href="https://ucbef347b2f70a02af7fc3c2cf9e.dl.dropboxusercontent.com/cd/0/get/CtrWBXEHw6GhrEfTHpk1xW3wD24iYawHT8xS0NuXxj5eD9wh9lLFZjhlevcCz2IVHE86wER3e_udTGXAoGgnFJAwYpQNGZkSvz9vsoXApuPDc9fWxqK9y6r_0Qgof6jSTP7rNLBh7U422xcu0pes1e2I-RZrbLGbtatTNk8WMIENwQ/file?_download_id=555943921239028414522680155057344745148788085357501951349695735&_log_download_success=1"><i class="fa-solid fa-globe"></i><span style="padding-left: 10px;">Download the slides from part 1</span></a></button>
+        <button class="custom-button"><a href="https://ucbef347b2f70a02af7fc3c2cf9e.dl.dropboxusercontent.com/cd/0/get/CtrWBXEHw6GhrEfTHpk1xW3wD24iYawHT8xS0NuXxj5eD9wh9lLFZjhlevcCz2IVHE86wER3e_udTGXAoGgnFJAwYpQNGZkSvz9vsoXApuPDc9fWxqK9y6r_0Qgof6jSTP7rNLBh7U422xcu0pes1e2I-RZrbLGbtatTNk8WMIENwQ/file?_download_id=555943921239028414522680155057344745148788085357501951349695735&_log_download_success=1"><i class="fa-solid fa-globe"></i><span style="padding-left: 10px;">Download the slides from part 2</span></a></button>
     </ul>
 </div>
 ```
-
 
 Download a pdf version of the slides using the button below - though note that the interactive elements will either not be present, or fully functional.
 
 
 If you would just like to read through the content we weren't able to reach on the day, which covers some tips and potential pitfalls relating to modelling, you can find this below:
 
-<iframe src="" frameborder="0" width="1058" height="823" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="tips_and_pitfalls.html" frameborder="0" width="1058" height="823" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 
 <div class="project-link-buttons">
     <ul class="project-links">
         <li>
-            <a class="custom-button"
-               href="tips_and_pitfalls.html"
-               download
-               target="_blank">
+            <a class="custom-button" href="https://raw.githubusercontent.com/hsma-programme/hsma_site/refs/heads/main/hsma_content/tips_and_pitfalls.html" download target="_blank">
                 <i class="fa-solid fa-download"></i>
                 <span style="padding-left: 10px;">Download the tips document</span>
             </a>
@@ -136,4 +132,4 @@ You can also explore our full DES playground, which goes through the elements of
 
 ## Acknowldgements
 
-This pilot workshop was generously funded by [Policy@Exeter](https://www.exeter.ac.uk/research/networks/policy/)
+This pilot workshop was funded by [Policy@Exeter](https://www.exeter.ac.uk/research/networks/policy/)
