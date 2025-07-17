@@ -1,0 +1,139 @@
+---
+title: "DESperately Seeking Simulation - Introductory Simulation Workshop for Decision Makers"
+format: html
+title-block-banner: banner.png
+include-back-link: false
+page-layout: full
+grid:
+  sidebar-width: 0px
+  body-width: 1100px
+  margin-width: 300px
+  gutter-width: 1.5rem
+---
+
+```{=html}
+<style>
+
+body {
+	text-align: center;
+}
+
+a {
+	color: rgb(255, 255, 255);
+	text-decoration: underline;
+	-webkit-text-decoration: underline;
+	-moz-text-decoration: underline;
+	-ms-text-decoration: underline;
+	-o-text-decoration: underline;
+  padding: 2px
+}
+
+.custom-button:hover a {
+  background-color: white;    /* White background on hover */
+  color: #3d3d3d;              /* Grey text on hover */
+  border-color: #3498db;      /* Blue border on hover */
+}
+
+@media only screen and (max-width: 600px) {
+
+.hsma-iframe {
+  height: 350px
+}
+}
+
+@media only screen and (max-width: 800px) {
+
+.hsma-iframe {
+  height: 450px
+}
+}
+
+@media only screen and (min-width: 800px) {
+
+.hsma-iframe {
+  height: 700px
+}
+
+}
+
+</style>
+```
+
+On Wednesday 16th July, we were joined in St Austell, Cornwall, by 16 delegates from Cornwall and Devon for a pilot workshop on the power of discrete event simulation for tackling problems in healthcare services.
+
+The resources from the day can all be found below.
+
+## Slides - Part 1
+
+<iframe src="https://docs.google.com/presentation/d/e/2PACX-1vQjreEUekak6YTD7sRsRI53wb-awWZ0nfIA61jmGWmTVIA-HoOo69J2jBe3hGNk4EBNB4-IDLNQtGT8/pubembed?start=false&loop=false&delayms=1000000000" frameborder="0" width="1058" height="823" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+
+Download a pdf version of the slides using the button below.
+
+```{=html}
+<div class="project-link-buttons">
+    <ul class="project-links">
+        <button class="custom-button"><a href="https://uc35de08727c72a2cd4d0922ff06.dl.dropboxusercontent.com/cd/0/get/Ctr9YJgC92PTar7_M0k0vAsNDKkRN76JUYY5kN7BEBQnffazDoLTBjQn8DrmBVuFKGc8c788i3ELdfWQ6q5TocB1SRJLJowqGRBCX6gQD6X6C8rBlXbqm4OytjPYSRX9cc-5o5PiG778kiXG91kx8O4XbMHvav3o8FOzJygeYLlpFg/file?_download_id=26119594852600481847654521410502294372768515564167392070758654178&_log_download_success=1"><i class="fa-solid fa-globe"></i><span style="padding-left: 10px;">Download the slides from part 1</span></a></button>
+    </ul>
+</div>
+```
+
+## Slides - Part 2
+
+<iframe src="https://hsma-programme.github.io/lambda_des_workshop_slides/" frameborder="0" width="1058" height="823" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+```{=html}
+<div class="project-link-buttons">
+    <ul class="project-links">
+        <button class="custom-button"><a href="https://ucbef347b2f70a02af7fc3c2cf9e.dl.dropboxusercontent.com/cd/0/get/CtrWBXEHw6GhrEfTHpk1xW3wD24iYawHT8xS0NuXxj5eD9wh9lLFZjhlevcCz2IVHE86wER3e_udTGXAoGgnFJAwYpQNGZkSvz9vsoXApuPDc9fWxqK9y6r_0Qgof6jSTP7rNLBh7U422xcu0pes1e2I-RZrbLGbtatTNk8WMIENwQ/file?_download_id=555943921239028414522680155057344745148788085357501951349695735&_log_download_success=1"><i class="fa-solid fa-globe"></i><span style="padding-left: 10px;">Download the slides from part 1</span></a></button>
+    </ul>
+</div>
+```
+
+
+Download a pdf version of the slides using the button below - though note that the interactive elements will either not be present, or fully functional.
+
+
+If you would just like to read through the content we weren't able to reach on the day, which covers some tips and potential pitfalls relating to modelling, you can find this below:
+
+<iframe src="" frameborder="0" width="1058" height="823" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+
+<div class="project-link-buttons">
+    <ul class="project-links">
+        <li>
+            <a class="custom-button"
+               href="tips_and_pitfalls.html"
+               download
+               target="_blank">
+                <i class="fa-solid fa-download"></i>
+                <span style="padding-left: 10px;">Download the tips document</span>
+            </a>
+        </li>
+    </ul>
+</div>
+
+
+## The Interactive Playground
+
+In the session, we had a look at an interactive web app for running a simulation.
+
+This simplified version of the app is available below.
+
+You can also explore our full DES playground, which goes through the elements of a DES in more detail.
+
+```{=html}
+<div class="project-link-buttons">
+    <ul class="project-links">
+        <button class="custom-button"><a href="https://hsma-programme.github.io/lambda_des_playground/"><i class="fa-solid fa-globe"></i><span style="padding-left: 10px;">Open the Simplified Playground in a New Tab</span></a></button>
+        <button class="custom-button"><a href="https://playground.hsma.co.uk"><i class="fa-solid fa-globe"></i><span style="padding-left: 10px;">Open the Full Playground in a New Tab</span></a></button>
+    </ul>
+</div>
+```
+
+```{=html}
+<iframe class="hsma-iframe" width="90%" src="https://hsma-programme.github.io/Teaching_DES_Concepts_Streamlit/" title="HSMA DES Playground"></iframe>
+```
+
+## Acknowldgements
+
+This pilot workshop was generously funded by [Policy@Exeter](https://www.exeter.ac.uk/research/networks/policy/)
