@@ -97,7 +97,7 @@ Download a pdf version of the slides using the button below - though note that t
 If you would just like to read through the content we weren't able to reach on the day, which covers some tips and potential pitfalls relating to modelling, you can find this below:
 
 ```{=html}
-<iframe src="tips_and_pitfalls.html" frameborder="0" width="1058" height="823" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
+<iframe src="tips_and_pitfalls.html" frameborder="0" width="1350" height="650" allowfullscreen="true" mozallowfullscreen="true" webkitallowfullscreen="true"></iframe>
 ```
 
 ```{=html}
