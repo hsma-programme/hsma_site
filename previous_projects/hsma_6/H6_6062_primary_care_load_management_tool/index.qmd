@@ -20,7 +20,7 @@ pub-info:
     A GP practice had peak call wait times of 60 minutes. Adding more staff improved this, but lower utilisation was then seen during quieter periods. This project will model the telephone system and call handlers' workload to optimise resourcing, producing a web app to test different scenarios.
   links:
   - name: Video
-    url:
+    url: https://youtu.be/AUNmuPFnq4c?feature=shared
     icon: fa-brands fa-youtube
   - name: Code
     url:
@@ -31,6 +31,9 @@ pub-info:
   - name: Paper
     url:
     icon: fa-solid fa-file-contract
+  - name: Slides
+    url: 
+    icon: fa-solid fa-person-chalkboard
 ---
 
 A GP practice serving 35,000 patients experiences peak call wait times of 60 minutes. While increasing staffing levels has reduced these wait times, this approach can result in periods of lower utilization during quieter times.

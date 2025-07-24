@@ -25,7 +25,7 @@ pub-info:
     This project aims to develop a machine learning-based population segmentation model for the GP-registered Dorset population, using multiple characteristics including healthcare utilisation. The goal is to identify segments based on care needs to inform service design, enhancing patient understanding and improving resource allocation.
   links:
   - name: Video
-    url:
+    url: https://youtu.be/SH4geMXr8a8?feature=shared
     icon: fa-brands fa-youtube
   - name: Code
     url:
@@ -36,6 +36,9 @@ pub-info:
   - name: Paper
     url:
     icon: fa-solid fa-file-contract
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1rRlb6pDf89Tph7sNj5r8xN5NdeD84P7d/edit?usp=drive_link&ouid=104927246423235110137&rtpof=true&sd=true
+    icon: fa-solid fa-person-chalkboard
 ---
 
 The aim of this project is to create a machine learning-based population segmentation model for the GP-registered Dorset population using multiple characteristics including primary and secondary healthcare utilisation.

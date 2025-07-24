@@ -34,7 +34,7 @@ pub-info:
     NCL has seen a rise in long Length of Stay (LoS) over the past 5 years, causing system strain. This project aims to develop a causal model to identify factors affecting LoS and estimate the impact of interventions. Key aims include building qualitative and quantitative models of LoS and modelling changes in response to interventions.
   links:
   - name: Video
-    url:
+    url: https://youtu.be/SH4geMXr8a8?feature=shared
     icon: fa-brands fa-youtube
   - name: Code
     url:
@@ -45,6 +45,9 @@ pub-info:
   - name: Paper
     url:
     icon: fa-solid fa-file-contract
+  - name: Slides
+    url: 
+    icon: fa-solid fa-person-chalkboard
 ---
 
 North Central London (NCL) has observed a consistent increase in long Length of Stay (LoS) over the past 5 years. Increasing length of stay means a higher capacity is needed for the same demand which causes system strain.

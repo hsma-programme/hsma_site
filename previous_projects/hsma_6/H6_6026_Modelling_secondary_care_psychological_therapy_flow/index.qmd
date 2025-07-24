@@ -26,7 +26,7 @@ pub-info:
     This project models the Portsmouth Mental Health Hub using Discrete Event Simulation to assess call waiting times, durations, and staff utilisation. As demand grows, the model and web-based app will inform resource planning and service improvements, helping ensure timely, effective support for individuals seeking mental health advice and guidance.
   links:
   - name: Video
-    url:
+    url: https://youtu.be/GlEoH8B3CHE?feature=shared
     icon: fa-brands fa-youtube
   - name: Code
     url:
@@ -37,6 +37,9 @@ pub-info:
   - name: Paper
     url:
     icon: fa-solid fa-file-contract
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1Da6UyQcS1glQF5urB7OzzkKDOhEoLL1n/edit?usp=drive_link&ouid=104927246423235110137&rtpof=true&sd=true
+    icon: fa-solid fa-person-chalkboard
 ---
 
 The Mental Health hub in Portsmouth is a relatively new service. It acts as a call centre providing signposting, advice and guidance to those who contact them.

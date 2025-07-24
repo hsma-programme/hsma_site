@@ -24,7 +24,7 @@ pub-info:
     North West Ambulance Service (NWAS) has three dispatch suites in Manchester, Preston, and Liverpool, with dispatch areas mainly based on postcodes. Changes in the landscape and increased emergency demand have led to unequal resource distribution, causing delays. This project aims to generate evidence to redraw boundaries to ensure equitable resource allocation across the three areas.
   links:
   - name: Video
-    url:
+    url: https://youtu.be/BONCgiiFfHc?feature=shared
     icon: fa-brands fa-youtube
   - name: Code
     url:
@@ -35,6 +35,9 @@ pub-info:
   - name: Paper
     url:
     icon: fa-solid fa-file-contract
+  - name: Slides
+    url: 
+    icon: fa-solid fa-person-chalkboard
 ---
 
 Within North West Ambulance Service (NWAS), there are three dispatch suites which are based in Manchester, Preston and Liverpool. Each of the sites has a number of dispatch areas which are split geographically, based mainly on postcodes, for the purposes of dispatching emergency resources.

@@ -23,7 +23,7 @@ pub-info:
   abstract:
   links:
   - name: Video
-    url:
+    url: https://youtu.be/zeYG0EJ83bA?feature=share
     icon: fa-brands fa-youtube
   - name: Code
     url:
@@ -34,6 +34,9 @@ pub-info:
   - name: Paper
     url:
     icon: fa-solid fa-file-contract
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1RlFY3GLDJg4r89WZ1QNGWaeBT5Fa-sp2/edit?usp=drive_link&ouid=104927246423235110137&rtpof=true&sd=true
+    icon: fa-solid fa-person-chalkboard
 ---
 
 This project will use Discrete Event Simulation to model patients' navigation of GP vs 111 services and assess the knock-on effect for Emergency Departments.

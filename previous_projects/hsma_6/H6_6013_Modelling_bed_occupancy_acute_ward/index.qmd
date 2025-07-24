@@ -32,7 +32,7 @@ pub-info:
     The project aims to develop a tool for time series forecasting of bed occupancy using historical data, incorporating seasonality and growth. A web-based app will simulate acute bed models, including variables like closed beds and additional capacity. Using machine learning and discrete event simulation, the tool will aid decision-making and provide reliable daily forecasts.
   links:
   - name: Video
-    url:
+    url: https://youtu.be/SH4geMXr8a8?feature=shared
     icon: fa-brands fa-youtube
   - name: Code
     url:
@@ -43,6 +43,9 @@ pub-info:
   - name: Paper
     url:
     icon: fa-solid fa-file-contract
+  - name: Slides
+    url: 
+    icon: fa-solid fa-person-chalkboard
 ---
 
 The aim of this project is to develop a tool to perform time series forecasting on bed occupancy based on historical data, incorporating variables like seasonality and growth. To build a web-based application that enables end users to simulate acute bed model, with the ability to include variables like closed beds, additional capacity, community availability etc, in turn aiding decision making.

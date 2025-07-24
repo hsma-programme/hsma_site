@@ -25,7 +25,7 @@ pub-info:
   abstract:
   links:
   - name: Video
-    url:
+    url: https://youtu.be/SH4geMXr8a8?feature=shared
     icon: fa-brands fa-youtube
   - name: Code
     url:
@@ -36,6 +36,9 @@ pub-info:
   - name: Paper
     url:
     icon: fa-solid fa-file-contract
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1YXuROx59dIm9JUYWMuMbhh8A14UGov8X/edit?usp=drive_link&ouid=104927246423235110137&rtpof=true&sd=true
+    icon: fa-solid fa-person-chalkboard
 ---
 
 The aim of this project is to use machine learning approaches to support analysis of patients with multiple concurrent RTT pathways, focusing particularly on healthcare inequalities.

@@ -22,7 +22,7 @@ pub-info:
     The project will use classification modelling and explainable AI to identify changes in complexity and comorbidity categorisation over time, ensuring accurate cost pressure insights.
   links:
   - name: Video
-    url:
+    url: https://youtu.be/zeYG0EJ83bA?feature=shared
     icon: fa-brands fa-youtube
   - name: Code
     url:
@@ -33,6 +33,9 @@ pub-info:
   - name: Paper
     url:
     icon: fa-solid fa-file-contract
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1fGS1mKo8BrF_I4wy5AAzjDsdETnUaFnE/edit?usp=drive_link&ouid=104927246423235110137&rtpof=true&sd=true
+    icon: fa-solid fa-person-chalkboard
 ---
 
 The Medium-Term Activity Projections (MTAP) model produces a set of baseline activity and price-weighted contact projections to 2040/41 for NHS England for some types of activity. As part of the MTAP project, we want to provide insight into the cost pressure based on this projected activity. Modelling the absolute cost is not possible, so one widely used approach to modelling cost pressure is using cost or price ‘weights’ for distinct and specific activity types. Changes in the ratios of different activity types are captured by the sum of the weighted activity.

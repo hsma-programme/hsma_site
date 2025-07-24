@@ -26,7 +26,7 @@ pub-info:
     The project aims to improve ACQI data quality and provide rapid feedback using a tool to analyse free text fields, capture sentiment, categorize incidents, and assess treatment appropriateness. This tool could be shared with other Ambulance Trusts and serve as a backup for to manually review data. It will also predict rule changes and their impact on scores.
   links:
   - name: Video
-    url:
+    url: https://youtu.be/zKZv3zWcXzc?feature=shared
     icon: fa-brands fa-youtube
   - name: Code
     url:
@@ -37,6 +37,9 @@ pub-info:
   - name: Paper
     url:
     icon: fa-solid fa-file-contract
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1q1rPYhehziILwtqK9yrtFaU6JklD2c3M/edit?usp=drive_link&ouid=104927246423235110137&rtpof=true&sd=true
+    icon: fa-solid fa-person-chalkboard
 ---
 
 Our aim is to improve Ambulance Clinical Quality Indicators (ACQI) data quality and rapidly provide feedback from all ACQI records. There is potential for this tool to be shared with other Ambulance Trusts using the same or similar data collection techniques. This would be achieved with a tool that can analyse free text fields to complete missing data, capture the sentiment of clinical notes, categorise the type of incident and assess if the treatment given was appropriate. It could be utilised as a backup process to manually reviewing data should there be a resourcing issue within the team. It will also evidence if any changes could be made to the clinical records to improve data capture.

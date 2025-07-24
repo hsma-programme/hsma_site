@@ -29,7 +29,7 @@ pub-info:
     url:
     icon: fa-solid fa-globe
   - name: Paper
-    url:
+    url: https://drive.google.com/file/d/15AsF2U4BnsXbbGQRxIcFkDW130j4JiaF/view?usp=drive_link
     icon: fa-solid fa-file-contract
 ---
 

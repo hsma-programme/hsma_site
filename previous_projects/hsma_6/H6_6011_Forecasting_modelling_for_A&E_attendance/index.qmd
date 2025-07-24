@@ -26,7 +26,7 @@ pub-info:
     The project aims to forecast A&E attendances 6 weeks in advance, considering seasonal patterns. This helps manage limited resources, plan staffing levels, and assess the need for escalation during abnormal events. Using Time Series Forecasting and a Repeatable Analytical Pipeline, the project addresses the unpredictability of A&E demand influenced by various factors.
   links:
   - name: Video
-    url:
+    url: https://youtu.be/uywbayhnass?feature=shared
     icon: fa-brands fa-youtube
   - name: Code
     url:
@@ -37,6 +37,12 @@ pub-info:
   - name: Paper
     url:
     icon: fa-solid fa-file-contract
+  - name: Slides
+    url:
+    icon: fa-solid fa-person-chalkboard
+  - name: Slides
+    url: https://docs.google.com/presentation/d/1XaDSIpQDPCXDF7sBMhYlOwdyPSa66VR7/edit?usp=drive_link&ouid=104927246423235110137&rtpof=true&sd=true
+    icon: fa-solid fa-person-chalkboard
 ---
 
 The aim of this project is to forecast future A&E attendances 6 weeks in advance, accounting for seasonal patterns.

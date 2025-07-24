@@ -28,7 +28,7 @@ pub-info:
     The project uses Discrete Event Simulation to model the children's ADHD diagnostic and treatment pathway, aiming to reduce waiting times and lists. It proposes a new pathway with preliminary diagnostic testing to ensure accurate ADHD assessments. The model will evaluate the impact of these changes and may extend to include 1:1 and group session appointments.
   links:
   - name: Video
-    url:
+    url: https://www.youtube.com/watch?v=EmfpThPdXKo
     icon: fa-brands fa-youtube
   - name: Code
     url:
@@ -39,6 +39,9 @@ pub-info:
   - name: Paper
     url:
     icon: fa-solid fa-file-contract
+  - name: Slides
+    url: https://drive.google.com/file/d/15AsF2U4BnsXbbGQRxIcFkDW130j4JiaF/view?usp=drive_link
+    icon: fa-solid fa-person-chalkboard
 ---
 
 This project is using Discrete Event Simulation to model the children's ADHD diagnostic and treatment pathway. The model will be used to identify delays and potential strategies to reduce waiting lists and waiting times for children accessing treatment.

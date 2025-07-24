@@ -26,7 +26,7 @@ pub-info:
     The project aims to use machine learning to predict gestational diabetes and other maternity-related conditions early in pregnancy, enabling timely interventions and personalised care. It will develop a predictive model, an interactive web app for clinicians to input patient data and receive predictions, and reports on the model's accuracy and effectiveness.
   links:
   - name: Video
-    url:
+    url: https://youtu.be/zeYG0EJ83bA?feature=shared
     icon: fa-brands fa-youtube
   - name: Code
     url:
@@ -37,6 +37,9 @@ pub-info:
   - name: Paper
     url:
     icon: fa-solid fa-file-contract
+  - name: Slides
+    url: 
+    icon: fa-solid fa-person-chalkboard
 ---
 
 Maternity-related conditions, such as gestational diabetes, can have significant impacts on the health of both the mother and baby if not identified early. Current approaches often detect these conditions after symptoms appear, potentially delaying important interventions. This project aims to use machine learning to predict the likelihood of developing gestational diabetes and other related conditions early in pregnancy, allowing for timely interventions and personalised care.
