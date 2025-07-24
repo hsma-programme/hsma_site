@@ -26,6 +26,7 @@ organisations:
 image: "6040.PNG"
 title-block-banner: ../../banner.png
 status: Active
+repo: Y
 pub-info:
   abstract: |
     Making Every Contact Count (MECC) is an e-learning program for health and social care staff to promote healthy lifestyles. This project uses Agent Based Simulation to model MECC's impact on behaviors like smoking, drinking, and exercise.

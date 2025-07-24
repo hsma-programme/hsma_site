@@ -27,6 +27,7 @@ organisations:
 image: "6013.PNG"
 title-block-banner: ../../banner.png
 status: Active
+repo: Y
 pub-info:
   abstract: |
     The project aims to develop a tool for time series forecasting of bed occupancy using historical data, incorporating seasonality and growth. A web-based app will simulate acute bed models, including variables like closed beds and additional capacity. Using machine learning and discrete event simulation, the tool will aid decision-making and provide reliable daily forecasts.
@@ -35,7 +36,7 @@ pub-info:
     url: https://youtu.be/SH4geMXr8a8?feature=shared
     icon: fa-brands fa-youtube
   - name: Code
-    url:
+    url: https://github.com/ReyTan8/Project---DES-Vidigi
     icon: fa-brands fa-github
   - name: Website
     url:
@@ -44,7 +45,7 @@ pub-info:
     url:
     icon: fa-solid fa-file-contract
   - name: Slides
-    url: 
+    url:
     icon: fa-solid fa-person-chalkboard
 ---
 

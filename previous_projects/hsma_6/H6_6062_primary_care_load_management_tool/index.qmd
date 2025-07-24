@@ -15,6 +15,7 @@ organisations:
 image: "6062.PNG"
 title-block-banner: ../../banner.png
 status: Active
+repo: Y
 pub-info:
   abstract: |
     A GP practice had peak call wait times of 60 minutes. Adding more staff improved this, but lower utilisation was then seen during quieter periods. This project will model the telephone system and call handlers' workload to optimise resourcing, producing a web app to test different scenarios.
@@ -23,7 +24,7 @@ pub-info:
     url: https://youtu.be/AUNmuPFnq4c?feature=shared
     icon: fa-brands fa-youtube
   - name: Code
-    url:
+    url: https://github.com/clexp/Primary_Care_Load_Management_Tool
     icon: fa-brands fa-github
   - name: Website
     url:
@@ -32,7 +33,7 @@ pub-info:
     url:
     icon: fa-solid fa-file-contract
   - name: Slides
-    url: 
+    url:
     icon: fa-solid fa-person-chalkboard
 ---
 

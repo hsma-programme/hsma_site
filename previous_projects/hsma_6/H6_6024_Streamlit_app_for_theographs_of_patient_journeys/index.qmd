@@ -17,6 +17,7 @@ organisations:
 image: "6024.PNG"
 title-block-banner: ../../banner.png
 status: Active
+repo: Y
 pub-info:
   abstract: |
     The project aims to create an open-source application for generating interactive theograph visuals to understand patient/client journeys. It will be a generic tool requiring minimal data fields, usable in various healthcare or social care settings.

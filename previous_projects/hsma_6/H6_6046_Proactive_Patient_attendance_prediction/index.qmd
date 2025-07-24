@@ -17,6 +17,7 @@ organisations:
 image: "6046.PNG"
 title-block-banner: ../../banner.png
 status: Active
+repo: Y
 pub-info:
   abstract: |
     At Barts Health NHS Trust, 12% of outpatient appointments are missed monthly, wasting over 10,000 hours of clinical resources. Missed appointments can lead to extended waiting lists and patient deterioration. This project aims to develop a machine learning model to forecast non-attendance, a patient contact capture tool, and integrate the model into enterprise reports.
@@ -25,7 +26,7 @@ pub-info:
     url: https://youtu.be/WNtIIWA_IYg?feature=shared
     icon: fa-brands fa-youtube
   - name: Code
-    url:
+    url: https://github.com/WX-BIU/Outpatient-DNAs
     icon: fa-brands fa-github
   - name: Website
     url:

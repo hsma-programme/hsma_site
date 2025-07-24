@@ -30,6 +30,7 @@ organisations:
   - West Sussex County Council
 image: "bef68gj9.png"
 title-block-banner: ../../banner.png
+repo: Y
 pub-info:
   abstract: |
     The project explored the feasibility of considering inequalities and carbon emissions in new clinic locations. Achievements include automating a Health Equity Assessment, running logistic regression models to predict appointment no-shows, and estimating patient travel carbon emissions.

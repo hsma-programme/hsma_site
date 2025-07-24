@@ -17,6 +17,7 @@ organisations:
 image: "5100.PNG"
 title-block-banner: ../../banner.png
 status: Active
+repo: Y
 pub-info:
   abstract: |
     The project addresses the lack of national guidance for allocating extra primary care funding by ICBs. It proposes using an equation based on deprivation scores and local needs. A Streamlit web-app tool will help ICBs allocate funds more equitably, considering various indicators and demographics, ensuring a fair distribution and reducing inequalities.

@@ -17,6 +17,7 @@ organisations:
 image: "6055.PNG"
 title-block-banner: ../../banner.png
 status: Active
+repo: Y
 pub-info:
   abstract: |
     Stroke prevalence in the UK is forecasted to increase by 40-60% from 2021 to 2030, straining hospitals and society. This project aims to develop a discrete simulation model to optimise the Hyperacute/Acute stroke pathway, improving patient outcomes, reducing costs, and enhancing economic benefits. It will analyse variables like staffing and operating hours
@@ -28,7 +29,7 @@ pub-info:
     url: https://arc-swp.nihr.ac.uk/news/transforming-stroke-care-through-simulation-how-one-hsma-graduates-model-could-save-over-2-million-annually/
     icon: fa-solid fa-newspaper
   - name: Code
-    url:
+    url: https://github.com/jfwilliams4/des_stroke_project
     icon: fa-brands fa-github
   - name: Website
     url:

@@ -19,6 +19,7 @@ organisations:
 image: "6007.PNG"
 title-block-banner: ../../banner.png
 status: Active
+repo: Y
 pub-info:
   abstract: |
     The project aims to develop a flexible simulation model to optimise anti-VEGF treatment strategies in ophthalmology. It will use dual modelling frameworks, a modular design, and an interactive dashboard. The model will analyse clinical effectiveness, costs, and resource requirements, adapting to new treatments. The objective is to provide a tool to improve patient outcomes and optimize resource use and costs.
@@ -27,7 +28,7 @@ pub-info:
     url: https://youtu.be/0OKev_kbQEc?feature=shared
     icon: fa-brands fa-youtube
   - name: Code
-    url:
+    url: https://github.com/lh/vegf-1
     icon: fa-brands fa-github
   - name: Website
     url:
@@ -36,7 +37,7 @@ pub-info:
     url:
     icon: fa-solid fa-file-contract
   - name: Slides
-    url: 
+    url:
     icon: fa-solid fa-person-chalkboard
 ---
 

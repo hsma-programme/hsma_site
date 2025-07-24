@@ -26,6 +26,7 @@ organisations:
   - Reading Borough Council
 image: "2d2d6s0i.png"
 title-block-banner: ../../banner.png
+repo: Y
 pub-info:
   abstract: |
     The project aimed to create a tool to perform a health equity audit for Community Diagnostic Centres (CDCs) in England. The tool will identify healthcare inequalities, suggests data improvements, and supports local CDCs in understanding their impact. Developed using Python and Streamlit, it allows for easier comparison and sharing of learning across regions, with potential applications beyond CDCs.

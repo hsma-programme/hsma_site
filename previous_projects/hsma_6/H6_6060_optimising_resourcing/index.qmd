@@ -16,6 +16,7 @@ organisations:
 image: "6060.PNG"
 title-block-banner: ../../banner.png
 status: Active
+repo: Y
 pub-info:
   abstract:
   links:
@@ -23,7 +24,7 @@ pub-info:
     url: https://youtu.be/Yck3vOioRdQ?feature=shared
     icon: fa-brands fa-youtube
   - name: Code
-    url:
+    url: https://github.com/hthould/acute_take_des
     icon: fa-brands fa-github
   - name: Website
     url:

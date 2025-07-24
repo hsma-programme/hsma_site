@@ -15,6 +15,7 @@ organisations:
 image: "6063.PNG"
 title-block-banner: ../../banner.png
 status: Active
+repo: Y
 pub-info:
   abstract: |
     The NHS Talking Therapies programme, supports NICE guidelines for treating anxiety and depression. The aim is to develop a Discrete Event Simulation to model patient flow through the new clinical pathway. This project will identify potential waiting list build-ups due to increased referrals into Talking Therapies.
@@ -23,7 +24,7 @@ pub-info:
     url:
     icon: fa-brands fa-youtube
   - name: Code
-    url:
+    url: https://github.com/MightyAtom220474/IAPT-Pathway-DES
     icon: fa-brands fa-github
   - name: Website
     url:

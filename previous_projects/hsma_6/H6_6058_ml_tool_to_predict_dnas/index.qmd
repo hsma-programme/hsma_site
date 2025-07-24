@@ -16,6 +16,7 @@ organisations:
 image: "6058.png"
 title-block-banner: ../../banner.png
 status: Active
+repo: Y
 pub-info:
   abstract:
   links:
@@ -23,7 +24,7 @@ pub-info:
     url:
     icon: fa-brands fa-youtube
   - name: Code
-    url:
+    url: https://github.com/BarnabyRumbold/logistic_regression_streamlit_app
     icon: fa-brands fa-github
   - name: Website
     url:

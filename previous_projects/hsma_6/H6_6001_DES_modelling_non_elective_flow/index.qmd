@@ -22,6 +22,7 @@ organisations:
 image: "6001.PNG"
 title-block-banner: ../../banner.png
 status: Active
+repo: Y
 pub-info:
   abstract: |
     Poor patient flow in Emergency Departments leads to long admission waits and poorer patient outcomes. Strategies include increasing beds and reducing discharge delays. This project uses Discrete Event Simulation to explore bed numbers, length of stay, and Same Day Emergency Care impacts on ED waits, aiming to optimise patient flow.
@@ -40,7 +41,7 @@ pub-info:
     icon: fa-solid fa-file-contract
   - name: Slides
     url: https://drive.google.com/file/d/1BIUDaDfDp2cj6EF19908XQ4eB7h9GMCp/view?usp=drive_link
-    icon: fa-solid fa-person-chalkboard    
+    icon: fa-solid fa-person-chalkboard
 ---
 
 Poor patient flow is leading to long waits for admission in Emergency Departments. This means there is poor performance against all the key ED wait metrics for the hospital and more importantly, there is evidence that long waits for admission in ED are associated with poorer outcomes for patients.

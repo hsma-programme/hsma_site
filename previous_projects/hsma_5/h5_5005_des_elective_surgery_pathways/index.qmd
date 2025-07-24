@@ -23,6 +23,7 @@ organisations:
   - Guy’s and St Thomas’ NHS Foundation Trust
 image: "81ntpmry.png"
 title-block-banner: ../../banner.png
+repo: Y
 pub-info:
   abstract: |
     The project created a Discrete Event Simulation to model elective surgery pathways. This tool optimises surgical pathways and provides a ready-made format for creating interactive webapps, benefiting future HSMA participants and other interested users.
