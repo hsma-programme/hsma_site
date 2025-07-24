@@ -22,7 +22,7 @@ pub-info:
     The project addresses the lack of national guidance for allocating extra primary care funding by ICBs. It proposes using an equation based on deprivation scores and local needs. A Streamlit web-app tool will help ICBs allocate funds more equitably, considering various indicators and demographics, ensuring a fair distribution and reducing inequalities.
   links:
   - name: Video
-    url:
+    url: https://youtu.be/YbmiEilW9I8
     icon: fa-brands fa-youtube
   - name: Code
     url: https://github.com/pete4nhs/eFIT-tool
@@ -33,6 +33,9 @@ pub-info:
   - name: Paper
     url:
     icon: fa-solid fa-file-contract
+  - name: Slides
+    url: https://youtu.be/YbmiEilW9I8?feature=shared
+    icon: fa-solid fa-person-chalkboard
 ---
 
 Whilst core funding for primary care is well regulated (by using a variant of the Carr-Hill formula), there is no national guidance\/methodology to allocate *extra funding* for primary care by Integrated Care Boards (ICBs)
