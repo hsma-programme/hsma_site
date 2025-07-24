@@ -54,3 +54,5 @@ Currently A&E has a challenging time looking ahead and manage staffing level nee
 A&E is known for its unpredictability in demand that varies with seasonal trend, location, population, weather and various of other factors.
 
 The project will use Time Series Forecasting methods and a Repeatable Analytical Pipeline for Deployment.
+
+{{< video https://youtu.be/uywbayhnass?feature=shared >}}

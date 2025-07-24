@@ -49,3 +49,5 @@ Current service capacity to answer and manage calls was based on estimates of an
 This project will use Discrete Event Simulation to model call waiting times, call duration and resource utilisation.
 
 A web based app will be developed to support ongoing service development.
+
+{{< video https://youtu.be/GlEoH8B3CHE?feature=shared >}}

@@ -36,7 +36,7 @@ pub-info:
     url:
     icon: fa-solid fa-file-contract
   - name: Slides
-    url: 
+    url:
     icon: fa-solid fa-person-chalkboard
 ---
 
@@ -46,3 +46,5 @@ The aim of this project is to:
 
 1.	Develop a Machine Learning-based predictive tool to assess, of the current bookings made for a session, what proportion of these are likely to take place, and if there is room for additional capacity
 2.	Build a web based app that demonstrates the above and allows users to review current available capacity at each session
+
+{{< video https://youtu.be/zeYG0EJ83bA?feature=shared >}}

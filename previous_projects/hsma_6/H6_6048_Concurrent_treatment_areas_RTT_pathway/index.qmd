@@ -44,3 +44,5 @@ pub-info:
 The aim of this project is to use machine learning approaches to support analysis of patients with multiple concurrent RTT pathways, focusing particularly on healthcare inequalities.
 
 The intention is to build a model that could identify/predict/suggest colocated services as well as points at which patients start having concurrent pathways.
+
+{{< video https://youtu.be/SH4geMXr8a8?feature=shared >}}

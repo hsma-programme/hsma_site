@@ -40,3 +40,5 @@ pub-info:
 ---
 
 This project will use Discrete Event Simulation to model patients' navigation of GP vs 111 services and assess the knock-on effect for Emergency Departments.
+
+{{< video https://youtu.be/zeYG0EJ83bA?feature=share >}}

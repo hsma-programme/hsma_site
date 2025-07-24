@@ -38,7 +38,7 @@ pub-info:
     url:
     icon: fa-solid fa-file-contract
   - name: Slides
-    url: 
+    url:
     icon: fa-solid fa-person-chalkboard
 ---
 
@@ -51,3 +51,5 @@ The project will generate :
 - A machine learning predictive model.
 - An interactive web app or interface for clinicians to input patient data and receive predictions.
 - Reports outlining the model's predictions, accuracy, and effectiveness.
+
+{{< video https://youtu.be/zeYG0EJ83bA?feature=shared >}}

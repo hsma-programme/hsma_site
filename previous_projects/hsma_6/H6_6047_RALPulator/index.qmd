@@ -49,3 +49,5 @@ This project is building an app that reads in patient letters ahead of surgery, 
 A first version of the app has been developed and deployed, and is available here: <https://ralpulator.streamlit.app/>
 
 Jake is presenting the work to the National Urological Conference in November 2024, and has been invited to present in Perth, Australia in March 2025.
+
+{{< video https://youtu.be/ZLfEgmVCYJM?feature=shared >}}

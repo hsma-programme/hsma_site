@@ -62,3 +62,5 @@ This projects aims to answer questions such as:
 This project plans to create Discrete Event Simulation model(s), using HSMA training, to provide evidence for the questions above.
 
 The team are also hoping to create a friendly user interface that stakeholders can try out scenarios and help understand how the model works.
+
+{{< video https://youtu.be/0DUx5hhxjoA?feature=shared >}}

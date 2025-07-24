@@ -46,7 +46,7 @@ pub-info:
     url:
     icon: fa-solid fa-file-contract
   - name: Slides
-    url: 
+    url:
     icon: fa-solid fa-person-chalkboard
 ---
 
@@ -61,3 +61,5 @@ Key Aims:
 - To build a qualitative model of the drivers of Length of Stay in acute providers in NCL
 - Build a quantitative model(s) of LoS
 - Model changes in LoS in response to interventions (stretching)
+
+{{< video https://youtu.be/SH4geMXr8a8?feature=shared >}}

@@ -46,3 +46,5 @@ The aim of this project is to create a machine learning-based population segment
 We want to identify population segments based on care needs to inform service design.
 
 This has the potential to provide enhanced patient understanding leading to improved resource allocation.
+
+{{< video https://youtu.be/SH4geMXr8a8?feature=shared >}}

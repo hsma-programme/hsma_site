@@ -58,3 +58,5 @@ The problem:
 - Daily bed model is manually tweaked, and unable to simulate possible outcome
 
 Using Machine learning and discrete event simulation the aim is for the project to predict values close to actual measures. For the user to utilise the web app on a day to day basis and find it a reliable tool for decision making.
+
+{{< video https://youtu.be/SH4geMXr8a8?feature=shared >}}

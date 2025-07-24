@@ -53,3 +53,5 @@ The aim of this project is to develop a discrete simulation model to observe the
 - Patient flow and medical outcomes of those patients
 - Direct costs and savings made to the stroke unit itself
 - The health economic costs / benefits associated with any change
+
+{{< video https://youtu.be/ThltRNDt9k8?feature=shared >}}

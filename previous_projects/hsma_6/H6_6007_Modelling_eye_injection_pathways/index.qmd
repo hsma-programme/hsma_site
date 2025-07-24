@@ -52,3 +52,5 @@ Key features of the project include:
 - Adaptability to incorporate new drugs and treatment paradigms as they emerge.
 
 Project Objectives: The project aims to provide a tool for data-driven decision-making in ophthalmology clinic management, potentially improving patient outcomes whilst optimising resource use and costs.
+
+{{< video https://youtu.be/0OKev_kbQEc?feature=shared >}}

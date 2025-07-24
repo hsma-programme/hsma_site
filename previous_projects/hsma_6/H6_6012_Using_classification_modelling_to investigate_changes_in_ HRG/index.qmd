@@ -51,3 +51,5 @@ This research project proposes to identify whether the key factors influencing t
 2. Using explainable AI methods to identify the key factors driving classification in two time periods to assess if there has been a significant change.
 
 3. Use classification modelling approach to identify the key factors driving the prediction of HRG CCC and actual costs using National Cost Collection data over a given time period. If the HRG codes are reflective of reality, features should have similar relative importance in each model.
+
+{{< video https://youtu.be/zeYG0EJ83bA?feature=shared >}}

@@ -39,4 +39,10 @@ pub-info:
 
 This project will model Same Day Emergency Care (SDEC) and Emergency Department (ED) pathways at University Hospitals Bristol and Weston NHS Foundation Trust.
 
-The project aims to use Discrete Event Simulation to ascertain 1) optimum parameters for SDEC and ED pathways, 2) the effect of different doctor numbers and 3) the optimum size for SDEC.
+The project aims to use Discrete Event Simulation to ascertain
+
+1. optimum parameters for SDEC and ED pathways
+2. the effect of different doctor numbers
+3. the optimum size for SDEC
+
+{{< video https://youtu.be/Yck3vOioRdQ?feature=shared >}}

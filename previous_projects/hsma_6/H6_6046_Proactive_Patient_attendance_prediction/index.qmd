@@ -48,3 +48,5 @@ This project will develop :
 - Machine learning model to forecast non-attendance
 - Patient contact capture tool
 - Integration of machine learning model into enterprise level reports
+
+{{< video https://youtu.be/WNtIIWA_IYg?feature=shared >}}
