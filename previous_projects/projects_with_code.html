@@ -82,9 +82,9 @@ ul.task-list li input[type="checkbox"] {
     }
 
     const options = {
-      valueNames: [{ data: ['index'] },{ data: ['categories'] }],
+      valueNames: ['listing-project','listing-website','listing-format','listing-language','listing-date-format','listing-title-block-banner','listing-toc','listing-toc-title','listing-toc-location','listing-execute','listing-include-back-link','listing-title','listing-techniques','listing-areas','listing-categories','listing-author','listing-organisations','listing-image','listing-status','listing-repo','listing-pub-info','listing-path','listing-outputHref','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
       
-      searchColumns: [],
+      searchColumns: ["listing-project","listing-website","listing-format","listing-language","listing-date-format","listing-title-block-banner","listing-toc","listing-toc-title","listing-toc-location","listing-execute","listing-include-back-link","listing-title","listing-techniques","listing-areas","listing-categories","listing-author","listing-organisations","listing-image","listing-status","listing-repo","listing-pub-info","listing-path","listing-outputHref","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
     window['quarto-listings'] = window['quarto-listings'] || {};
@@ -405,7 +405,7 @@ window.Quarto = {
   <li><a href="#in-progress-projects-with-code" id="toc-in-progress-projects-with-code" class="nav-link" data-scroll-target="#in-progress-projects-with-code">In Progress Projects with Code</a></li>
   </ul>
 </nav>
-    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(3)</span></div><div class="category" data-category="MTExJTIwU2VydmljZQ==">111 Service <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QWN1dGUlMjBDYXJl">Acute Care <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QWN1dGUlMjBNZWRpY2FsJTIwVW5pdCUyMChBTVUp">Acute Medical Unit (AMU) <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGlnaXRhbCUyME91dHBhdGllbnRz">Digital Outpatients <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGlzY3JldGUlMjBFdmVudCUyMFNpbXVsYXRpb24lMjAoREVTKQ==">Discrete Event Simulation (DES) <span class="quarto-category-count">(3)</span></div><div class="category" data-category="RW1lcmdlbmN5JTIwRGVwYXJ0bWVudHM=">Emergency Departments <span class="quarto-category-count">(2)</span></div><div class="category" data-category="SG9zcGl0YWxz">Hospitals <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TmV0d29yayUyMEFuYWx5c2lz">Network Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TkhT">NHS <span class="quarto-category-count">(3)</span></div><div class="category" data-category="UGF0aWVudCUyMEluaXRpYXRlZCUyMEZvbGxvdy1VcCUyMChQSUZVKQ==">Patient Initiated Follow-Up (PIFU) <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGxvdGx5JTIwRGFzaA==">Plotly Dash <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UHJpbWFyeSUyMENhcmUlMjAoR1Ap">Primary Care (GP) <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVkdWNpbmclMjBCYWNrbG9ncw==">Reducing Backlogs <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmhldW1hdG9sb2d5">Rheumatology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U3RyZWFtbGl0">Streamlit <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGVsZXBob25lLWJhc2VkJTIwU2VydmljZXM=">Telephone-based Services <span class="quarto-category-count">(1)</span></div></div></div>
+    <h5 class="quarto-listing-category-title">Categories</h5><div class="quarto-listing-category category-default"><div class="category" data-category="">All <span class="quarto-category-count">(23)</span></div><div class="category" data-category="MTExJTIwU2VydmljZQ==">111 Service <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QWN1dGUlMjBDYXJl">Acute Care <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QWN1dGUlMjBNZWRpY2FsJTIwVW5pdCUyMChBTVUp">Acute Medical Unit (AMU) <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QWdlbnQlMjBCYXNlZCUyMFNpbXVsYXRpb24lMjAoQUJTKQ==">Agent Based Simulation (ABS) <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QWdlbnQlMjBCYXNlZCUyMFNpbXVsYXRpb24lMjAoTUVDQyk=">Agent Based Simulation (MECC) <span class="quarto-category-count">(1)</span></div><div class="category" data-category="QXV0b21hdGlvbg==">Automation <span class="quarto-category-count">(2)</span></div><div class="category" data-category="QmVkJTIwT2NjdXBhbmN5">Bed Occupancy <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q2FyYm9uJTIwRW1pc3Npb25z">Carbon Emissions <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q2FyZGlvbG9neQ==">Cardiology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q2FzdWFsJTIwQW5hbHlzaXM=">Casual Analysis <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29tbXVuaXR5JTIwRGlhZ25vc3RpYyUyMENlbnRyZXMlMjAoQ0RDcyk=">Community Diagnostic Centres (CDCs) <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Q29zdHM=">Costs <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGF0YSUyMFZpc3VhbGlzYXRpb24=">Data Visualisation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGVtYW5kJTIwJTI2JTIwQ2FwYWNpdHk=">Demand &amp; Capacity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGlhZ25vc3RpYyUyMFByb2NlZHVyZXM=">Diagnostic Procedures <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGlnaXRhbCUyME91dHBhdGllbnRz">Digital Outpatients <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RGlzY3JldGUlMjBFdmVudCUyMFNpbXVsYXRpb24lMjAoREVTKQ==">Discrete Event Simulation (DES) <span class="quarto-category-count">(11)</span></div><div class="category" data-category="RGlzY3JldGUlMjBFdmVudCUyMFNpbXVsYXRpb24oREVTKQ==">Discrete Event Simulation(DES) <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RUNEUyUyMERhdGFzZXQ=">ECDS Dataset <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RWxlY3RpdmUlMjBTdXJnZXJ5">Elective Surgery <span class="quarto-category-count">(1)</span></div><div class="category" data-category="RW1lcmdlbmN5JTIwRGVwYXJ0bWVudHM=">Emergency Departments <span class="quarto-category-count">(5)</span></div><div class="category" data-category="RXhwbGFpbmFibGUlMjBBSQ==">Explainable AI <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Rm9yZWNhc3Rpbmc=">Forecasting <span class="quarto-category-count">(1)</span></div><div class="category" data-category="SGVhbHRoJTIwRXF1aXR5JTIwQXVkaXRz">Health Equity Audits <span class="quarto-category-count">(2)</span></div><div class="category" data-category="SG9zcGl0YWxz">Hospitals <span class="quarto-category-count">(2)</span></div><div class="category" data-category="SW5lcXVhbGl0aWVz">Inequalities <span class="quarto-category-count">(3)</span></div><div class="category" data-category="SW5wYXRpZW50cw==">Inpatients <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TGVuZ3RoJTIwb2YlMjBTdGF5">Length of Stay <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TG9jYXRpb24lMjBPcHRpbWlzYXRpb24=">Location Optimisation <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFjaGluZSUyMExlYXJuaW5n">Machine Learning <span class="quarto-category-count">(6)</span></div><div class="category" data-category="TWFraW5nJTIwRXZlcnklMjBDb250YWN0JTIwQ291bnQlMjAoTUVDQyk=">Making Every Contact Count (MECC) <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TWFwcGluZw==">Mapping <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TmV0d29yayUyMEFuYWx5c2lz">Network Analysis <span class="quarto-category-count">(2)</span></div><div class="category" data-category="TmV1cm9kaXZlcnNpdHk=">Neurodiversity <span class="quarto-category-count">(1)</span></div><div class="category" data-category="TkhT">NHS <span class="quarto-category-count">(9)</span></div><div class="category" data-category="TkhTJTIwVGFsa2luZyUyMFRoZXJhcGllcyUyMChGb3JtZXJseSUyMElBUFQp">NHS Talking Therapies (Formerly IAPT) <span class="quarto-category-count">(1)</span></div><div class="category" data-category="Tm9uLWF0dGVuZGFuY2UlMjBQcmVkaWN0aW9u">Non-attendance Prediction <span class="quarto-category-count">(2)</span></div><div class="category" data-category="T3B0aGFsbW9sb2d5">Opthalmology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="T3V0cGF0aWVudHM=">Outpatients <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGFlZGlhdHJpYw==">Paediatric <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGF0aWVudCUyMEZsb3c=">Patient Flow <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGF0aWVudCUyMEluaXRpYXRlZCUyMEZvbGxvdy1VcCUyMChQSUZVKQ==">Patient Initiated Follow-Up (PIFU) <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UGF0aWVudCUyMFBhdGh3YXlz">Patient Pathways <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UGxvdGx5JTIwRGFzaA==">Plotly Dash <span class="quarto-category-count">(3)</span></div><div class="category" data-category="UHJpbWFyeSUyMENhcmUlMjAoR1Ap">Primary Care (GP) <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UHVibGljJTIwSGVhbHRo">Public Health <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVkdWNpbmclMjBCYWNrbG9ncw==">Reducing Backlogs <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVncmVzc2lvbg==">Regression <span class="quarto-category-count">(1)</span></div><div class="category" data-category="UmVwcm9kdWNpYmxlJTIwQW5hbHl0aWNhbCUyMFBpcGVsaW5lcyUyMChSQVAp">Reproducible Analytical Pipelines (RAP) <span class="quarto-category-count">(2)</span></div><div class="category" data-category="UmhldW1hdG9sb2d5">Rheumatology <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U2FtZS1kYXklMjBFbWVyZ2VuY3klMjBDYXJl">Same-day Emergency Care <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U21va2luZw==">Smoking <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U3RhZmYlMjBUdXJub3Zlcg==">Staff Turnover <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U3RyZWFtbGl0">Streamlit <span class="quarto-category-count">(13)</span></div><div class="category" data-category="U3Ryb2tl">Stroke <span class="quarto-category-count">(1)</span></div><div class="category" data-category="U3VyZ2ljYWw=">Surgical <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGVsZXBob25lLWJhc2VkJTIwU2VydmljZXM=">Telephone-based Services <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VGhlb2dyYXBocw==">Theographs <span class="quarto-category-count">(1)</span></div><div class="category" data-category="VHJhdmVsJTIwVGltZXM=">Travel Times <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V2FpdGluZyUyMExpc3Rz">Waiting Lists <span class="quarto-category-count">(1)</span></div><div class="category" data-category="V2FpdGluZyUyMFRpbWVz">Waiting Times <span class="quarto-category-count">(3)</span></div><div class="category" data-category="V29ya2ZvcmNl">Workforce <span class="quarto-category-count">(1)</span></div></div></div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
 
@@ -427,7 +427,7 @@ window.Quarto = {
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
-      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="RGlzY3JldGUlMjBFdmVudCUyMFNpbXVsYXRpb24lMjAoREVTKSUyQ1Bsb3RseSUyMERhc2glMkNOZXR3b3JrJTIwQW5hbHlzaXMlMkMxMTElMjBTZXJ2aWNlJTJDUHJpbWFyeSUyMENhcmUlMjAoR1ApJTJDRW1lcmdlbmN5JTIwRGVwYXJ0bWVudHMlMkNOSFMlMkNUZWxlcGhvbmUtYmFzZWQlMjBTZXJ2aWNlcw==" data-listing-file-modified-sort="1753172855116" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="RGlzY3JldGUlMjBFdmVudCUyMFNpbXVsYXRpb24lMjAoREVTKSUyQ1Bsb3RseSUyMERhc2glMkNOZXR3b3JrJTIwQW5hbHlzaXMlMkMxMTElMjBTZXJ2aWNlJTJDUHJpbWFyeSUyMENhcmUlMjAoR1ApJTJDRW1lcmdlbmN5JTIwRGVwYXJ0bWVudHMlMkNOSFMlMkNUZWxlcGhvbmUtYmFzZWQlMjBTZXJ2aWNlcw==" data-listing-file-modified-sort="1753366995045" data-listing-reading-time-sort="1" data-listing-word-count-sort="24">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_4/h4_4008_meeting_demand_111/index.html">
@@ -531,7 +531,7 @@ window.Quarto = {
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="RGlzY3JldGUlMjBFdmVudCUyMFNpbXVsYXRpb24lMjAoREVTKSUyQ1BhdGllbnQlMjBJbml0aWF0ZWQlMjBGb2xsb3ctVXAlMjAoUElGVSklMkNEaWdpdGFsJTIwT3V0cGF0aWVudHMlMkNSaGV1bWF0b2xvZ3klMkNSZWR1Y2luZyUyMEJhY2tsb2dzJTJDTkhT" data-listing-file-modified-sort="1753172855117" data-listing-reading-time-sort="2" data-listing-word-count-sort="238">
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="RGlzY3JldGUlMjBFdmVudCUyMFNpbXVsYXRpb24lMjAoREVTKSUyQ1BhdGllbnQlMjBJbml0aWF0ZWQlMjBGb2xsb3ctVXAlMjAoUElGVSklMkNEaWdpdGFsJTIwT3V0cGF0aWVudHMlMkNSaGV1bWF0b2xvZ3klMkNSZWR1Y2luZyUyMEJhY2tsb2dzJTJDTkhT" data-listing-file-modified-sort="1753366995045" data-listing-reading-time-sort="2" data-listing-word-count-sort="238">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_4/h4_4010_pifu_digital_outpatients_elective_recovery/index.html">
@@ -615,7 +615,191 @@ window.Quarto = {
           </div>
 
         
-      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="RGlzY3JldGUlMjBFdmVudCUyMFNpbXVsYXRpb24lMjAoREVTKSUyQ1N0cmVhbWxpdCUyQ0FjdXRlJTIwTWVkaWNhbCUyMFVuaXQlMjAoQU1VKSUyQ0VtZXJnZW5jeSUyMERlcGFydG1lbnRzJTJDQWN1dGUlMjBDYXJlJTJDSG9zcGl0YWxzJTJDTkhT" data-listing-file-modified-sort="1753172855127" data-listing-reading-time-sort="2" data-listing-word-count-sort="228">
+      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="TWFwcGluZyUyQ1RyYXZlbCUyMFRpbWVzJTJDU3RyZWFtbGl0JTJDQ2FyZGlvbG9neSUyQ0xvY2F0aW9uJTIwT3B0aW1pc2F0aW9uJTJDTkhT" data-listing-file-modified-sort="1753366995051" data-listing-reading-time-sort="2" data-listing-word-count-sort="222">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_4/h4_4013_reducing_travel_times_cardiac_patients/index.html">
+              <img class="card-img" src="../previous_projects/hsma_4/h4_4013_reducing_travel_times_cardiac_patients/7s1io79p.png" alt="Reducing Travel Times to Treatment for Cardiac Patients in the South East of England">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Reducing Travel Times to Treatment for Cardiac Patients in the South East of England</h5>
+            </div>
+
+            
+              <div class="project-status-complete">
+                Complete
+              </div>
+            
+
+            
+              <p class="listing-abstract">The project analysed travel times to understand the impact of flow of activity into London on patient travel. It identified a gap in cardiac surgery access for Kent &amp; Medway patients, suggesting new sites could help. A Streamlit app visualised these impacts.
+</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Cardiology</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Mapping</button>
+                    
+                  
+                  
+                      <button class="category-button">Travel Times</button>
+                    
+                  
+                  
+                      <button class="category-button">Streamlit</button>
+                    
+                  
+                  
+                      <button class="category-button">Location Optimisation</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • NHS England Specialised Commissioning – South East Region<br>
+                
+                • NHS England<br>
+                
+                • The Strategy Unit<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_4/h4_4013_reducing_travel_times_cardiac_patients/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://www.youtube.com/watch?v=28yXjieiMEM&amp;list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&amp;index=6"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/GlennUbly/HSMA4_cardiac"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://glennubly-hsma4-cardiac-introduction-f1fq51.streamlitapp.com/"><i class="fa-solid fa-globe"></i> Website </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="3" data-categories="Tm9uLWF0dGVuZGFuY2UlMjBQcmVkaWN0aW9uJTJDTWFjaGluZSUyMExlYXJuaW5nJTJDQXV0b21hdGlvbiUyQ1JlcHJvZHVjaWJsZSUyMEFuYWx5dGljYWwlMjBQaXBlbGluZXMlMjAoUkFQKSUyQ0luZXF1YWxpdGllcyUyQ0NhcmJvbiUyMEVtaXNzaW9ucyUyQ0hlYWx0aCUyMEVxdWl0eSUyMEF1ZGl0cyUyQ05IUw==" data-listing-file-modified-sort="1753366995052" data-listing-reading-time-sort="1" data-listing-word-count-sort="195">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_4/h4_4014_service_planning_inequalities_carbon_output/index.html">
+              <img class="card-img" src="../previous_projects/hsma_4/h4_4014_service_planning_inequalities_carbon_output/bef68gj9.png" alt="Developing a Service Planning Decision Support Tool to Tackle Inequalities and Minimise Carbon Output">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Developing a Service Planning Decision Support Tool to Tackle Inequalities and Minimise Carbon Output</h5>
+            </div>
+
+            
+              <div class="project-status-complete">
+                Complete
+              </div>
+            
+
+            
+              <p class="listing-abstract">The project explored the feasibility of considering inequalities and carbon emissions in new clinic locations. Achievements include automating a Health Equity Assessment, running logistic regression models to predict appointment no-shows, and estimating patient travel carbon emissions.
+</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Carbon Emissions</button>
+                      
+                    
+                    
+                        <button class="area-button">Health Equity Audits</button>
+                      
+                    
+                    
+                        <button class="area-button">Non-attendance Prediction</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Machine Learning</button>
+                    
+                  
+                  
+                      <button class="category-button">Automation</button>
+                    
+                  
+                  
+                      <button class="category-button">Reproducible Analytical Pipelines (RAP)</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • Derbyshire Community Health Services NHS Foundation Trust<br>
+                
+                • Torbay Council<br>
+                
+                • West Sussex County Council<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_4/h4_4014_service_planning_inequalities_carbon_output/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://www.youtube.com/watch?v=zYWte2obxDs&amp;list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&amp;index=8"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/hsma4-student/shine"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="4" data-categories="RGlzY3JldGUlMjBFdmVudCUyMFNpbXVsYXRpb24lMjAoREVTKSUyQ1N0cmVhbWxpdCUyQ0FjdXRlJTIwTWVkaWNhbCUyMFVuaXQlMjAoQU1VKSUyQ0VtZXJnZW5jeSUyMERlcGFydG1lbnRzJTJDQWN1dGUlMjBDYXJlJTJDSG9zcGl0YWxzJTJDTkhT" data-listing-file-modified-sort="1753366995056" data-listing-reading-time-sort="2" data-listing-word-count-sort="228">
             <div class="main-card-content">
             
             <a href="../previous_projects/hsma_5/h5_5003_des_bottlenecks_amu/index.html">
@@ -703,6 +887,354 @@ window.Quarto = {
           </div>
 
         
+      <div class="custom-grid-card border-2 rounded-3" data-index="5" data-categories="RGlzY3JldGUlMjBFdmVudCUyMFNpbXVsYXRpb24lMjAoREVTKSUyQ1N0cmVhbWxpdCUyQ0VsZWN0aXZlJTIwU3VyZ2VyeSUyQ1dhaXRpbmclMjBUaW1lcyUyQ1N1cmdpY2FsJTJDSG9zcGl0YWxzJTJDTkhT" data-listing-file-modified-sort="1753366995058" data-listing-reading-time-sort="1" data-listing-word-count-sort="126">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_5/h5_5005_des_elective_surgery_pathways/index.html">
+              <img class="card-img" src="../previous_projects/hsma_5/h5_5005_des_elective_surgery_pathways/81ntpmry.png" alt="Discrete Event Simulation to model elective surgery pathways">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Discrete Event Simulation to model elective surgery pathways</h5>
+            </div>
+
+            
+              <div class="project-status-complete">
+                Complete
+              </div>
+            
+
+            
+              <p class="listing-abstract">The project created a Discrete Event Simulation to model elective surgery pathways. This tool optimises surgical pathways and provides a ready-made format for creating interactive webapps, benefiting future HSMA participants and other interested users.
+</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Elective Surgery</button>
+                      
+                    
+                    
+                        <button class="area-button">Waiting Times</button>
+                      
+                    
+                    
+                        <button class="area-button">Surgical</button>
+                      
+                    
+                    
+                        <button class="area-button">Hospitals</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Discrete Event Simulation (DES)</button>
+                    
+                  
+                  
+                      <button class="category-button">Streamlit</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • Guy’s and St Thomas’ NHS Foundation Trust<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_5/h5_5005_des_elective_surgery_pathways/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://www.youtube.com/watch?v=prKoVH2DeyU&amp;t=3s"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/gasman-dom/gstt_hands_waitlist_st"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://gstt-hands-waitlist.streamlit.app/"><i class="fa-solid fa-globe"></i> Website </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="6" data-categories="TmV0d29yayUyMEFuYWx5c2lzJTJDUGxvdGx5JTIwRGFzaCUyQ0VtZXJnZW5jeSUyMERlcGFydG1lbnRzJTJDRGlhZ25vc3RpYyUyMFByb2NlZHVyZXMlMkNFQ0RTJTIwRGF0YXNldCUyQ05IUw==" data-listing-file-modified-sort="1753366995063" data-listing-reading-time-sort="1" data-listing-word-count-sort="129">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_5/h5_5009_network_analysis_diagnostics_ae/index.html">
+              <img class="card-img" src="../previous_projects/hsma_5/h5_5009_network_analysis_diagnostics_ae/akzr6q9d.png" alt="Network Analysis of diagnostic procedures in A&amp;E setting">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Network Analysis of diagnostic procedures in A&amp;E setting</h5>
+            </div>
+
+            
+              <div class="project-status-complete">
+                Complete
+              </div>
+            
+
+            
+              <p class="listing-abstract">The project aimed to analyse the relationship between different diagnostic procedures in A&amp;E using NHS ECDS data. A web tool was developed to provide insights into diagnostic procedure usage across the country. The tool will allow users to explore graphic visualisations and accompanying analytics.
+</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Emergency Departments</button>
+                      
+                    
+                    
+                        <button class="area-button">Diagnostic Procedures</button>
+                      
+                    
+                    
+                        <button class="area-button">ECDS Dataset</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Network Analysis</button>
+                    
+                  
+                  
+                      <button class="category-button">Plotly Dash</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • NHS England<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_5/h5_5009_network_analysis_diagnostics_ae/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/HamzahJShami/HSMA5"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="7" data-categories="Q29tbXVuaXR5JTIwRGlhZ25vc3RpYyUyMENlbnRyZXMlMjAoQ0RDcyklMkNJbmVxdWFsaXRpZXMlMkNTdHJlYW1saXQlMkNBdXRvbWF0aW9uJTJDSGVhbHRoJTIwRXF1aXR5JTIwQXVkaXRzJTJDTkhTJTJDUmVwcm9kdWNpYmxlJTIwQW5hbHl0aWNhbCUyMFBpcGVsaW5lcyUyMChSQVAp" data-listing-file-modified-sort="1753366995064" data-listing-reading-time-sort="2" data-listing-word-count-sort="337">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_5/h5_5010_health_equity_audits_cdc/index.html">
+              <img class="card-img" src="../previous_projects/hsma_5/h5_5010_health_equity_audits_cdc/2d2d6s0i.png" alt="Creating a tool to automatically generate health equity audits for Community Diagnostic Centres">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Creating a tool to automatically generate health equity audits for Community Diagnostic Centres</h5>
+            </div>
+
+            
+              <div class="project-status-complete">
+                Complete
+              </div>
+            
+
+            
+              <p class="listing-abstract">The project aimed to create a tool to perform a health equity audit for Community Diagnostic Centres (CDCs) in England. The tool will identify healthcare inequalities, suggests data improvements, and supports local CDCs in understanding their impact. Developed using Python and Streamlit, it allows for easier comparison and sharing of learning across regions, with potential applications beyond CDCs.
+</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Health Equity Audits</button>
+                      
+                    
+                    
+                        <button class="area-button">Community Diagnostic Centres (CDCs)</button>
+                      
+                    
+                    
+                        <button class="area-button">Inequalities</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Streamlit</button>
+                    
+                  
+                  
+                      <button class="category-button">Automation</button>
+                    
+                  
+                  
+                      <button class="category-button">Reproducible Analytical Pipelines (RAP)</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • UCL Partners Health Innovation<br>
+                
+                • Reading Borough Council<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_5/h5_5010_health_equity_audits_cdc/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://www.youtube.com/watch?v=tavZS5MmwOA"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/SarahHoustonGH/Diagnostic_HealthEquityAudit"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="8" data-categories="UGxvdGx5JTIwRGFzaCUyQ1N0YWZmJTIwVHVybm92ZXIlMkNXb3JrZm9yY2UlMkNSZWdyZXNzaW9uJTJDTWFjaGluZSUyMExlYXJuaW5nJTJDTkhT" data-listing-file-modified-sort="1753366995067" data-listing-reading-time-sort="1" data-listing-word-count-sort="74">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_5/h5_5014_workforce_turnover_drivers/index.html">
+              <img class="card-img" src="../previous_projects/hsma_5/h5_5014_workforce_turnover_drivers/f1haee9r.png" alt="Investigating factors impacting NHS workforce retention">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Investigating factors impacting NHS workforce retention</h5>
+            </div>
+
+            
+              <div class="project-status-complete">
+                Complete
+              </div>
+            
+
+            
+              <p class="listing-abstract">This project aimed to work out which factors are the biggest drivers of staff turnover using regression modelling on staff workforce figures as well as other local factors such as employment. This was turned into a dashboard for internal use.
+</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Staff Turnover</button>
+                      
+                    
+                    
+                        <button class="area-button">Workforce</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Plotly Dash</button>
+                    
+                  
+                  
+                      <button class="category-button">Regression</button>
+                    
+                  
+                  
+                      <button class="category-button">Machine Learning</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • NHS England<br>
+                
+                • Yorkshire Ambulance Service NHS Trust<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_5/h5_5014_workforce_turnover_drivers/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://www.youtube.com/watch?v=yYnkdsM5HHo&amp;list=PLgHO2TgIJXdl1MvfkwCGJ6n8_1EYCSzex&amp;index=2"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/marierrogers/HSMAproject2023"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
@@ -713,6 +1245,1196 @@ window.Quarto = {
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(250px, 350px)); gap: 20px;">
 
     
+      <div class="custom-grid-card border-2 rounded-3" data-index="0" data-categories="RGlzY3JldGUlMjBFdmVudCUyMFNpbXVsYXRpb24lMjAoREVTKSUyQ1N0cmVhbWxpdCUyQ1BhdGllbnQlMjBGbG93JTJDRW1lcmdlbmN5JTIwRGVwYXJ0bWVudHMlMkNTYW1lLWRheSUyMEVtZXJnZW5jeSUyMENhcmU=" data-listing-file-modified-sort="1753366995071" data-listing-reading-time-sort="2" data-listing-word-count-sort="233">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_6/H6_6001_DES_modelling_non_elective_flow/index.html">
+              <img class="card-img" src="../previous_projects/hsma_6/H6_6001_DES_modelling_non_elective_flow/6001.PNG" alt="Discrete Event Simulation modelling of Non-elective flow">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Discrete Event Simulation modelling of Non-elective flow</h5>
+            </div>
+
+            
+            <div class="project-status-active">
+              Active
+            </div> 
+
+            
+              <p class="listing-abstract">Poor patient flow in Emergency Departments leads to long admission waits and poorer patient outcomes. Strategies include increasing beds and reducing discharge delays. This project uses Discrete Event Simulation to explore bed numbers, length of stay, and Same Day Emergency Care impacts on ED waits, aiming to optimise patient flow.
+</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Patient Flow</button>
+                      
+                    
+                    
+                        <button class="area-button">Non-elective Admissions</button>
+                      
+                    
+                    
+                        <button class="area-button">Emergency Departments</button>
+                      
+                    
+                    
+                        <button class="area-button">Same-day Emergency Care</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Discrete Event Simulation (DES)</button>
+                    
+                  
+                  
+                      <button class="category-button">Streamlit</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • Countess of Chester Hospital NHS Foundation Trust<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_6/H6_6001_DES_modelling_non_elective_flow/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://youtu.be/0DUx5hhxjoA?feature=shared"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/helenajr/Non-Elective-Flow-Simulation"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                        
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://drive.google.com/file/d/1BIUDaDfDp2cj6EF19908XQ4eB7h9GMCp/view?usp=drive_link"><i class="fa-solid fa-person-chalkboard"></i> Slides </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="1" data-categories="RGlzY3JldGUlMjBFdmVudCUyMFNpbXVsYXRpb24lMjAoREVTKSUyQ05ldXJvZGl2ZXJzaXR5JTJDU3RyZWFtbGl0JTJDUGFlZGlhdHJpYyUyQ1dhaXRpbmclMjBMaXN0cyUyQ1dhaXRpbmclMjBUaW1lcw==" data-listing-file-modified-sort="1753366995077" data-listing-reading-time-sort="1" data-listing-word-count-sort="121">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_6/H6_6006_DES_childrens_ADHD_diagnosis_and_treatment/index.html">
+              <img class="card-img" src="../previous_projects/hsma_6/H6_6006_DES_childrens_ADHD_diagnosis_and_treatment/6006.PNG" alt="Discrete Event Simulation modelling of childrens ADHD diagnosis and treatment">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Discrete Event Simulation modelling of childrens ADHD diagnosis and treatment</h5>
+            </div>
+
+            
+            <div class="project-status-active">
+              Active
+            </div> 
+
+            
+              <p class="listing-abstract">The project uses Discrete Event Simulation to model the children's ADHD diagnostic and treatment pathway, aiming to reduce waiting times and lists. It proposes a new pathway with preliminary diagnostic testing to ensure accurate ADHD assessments. The model will evaluate the impact of these changes and may extend to include 1:1 and group session appointments.
+</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Neurodiversity</button>
+                      
+                    
+                    
+                        <button class="area-button">Paediatric</button>
+                      
+                    
+                    
+                        <button class="area-button">Waiting Lists</button>
+                      
+                    
+                    
+                        <button class="area-button">Waiting Times</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Discrete Event Simulation (DES)</button>
+                    
+                  
+                  
+                      <button class="category-button">Streamlit</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • Lancashire and South Cumbria NHS Foundation Trust<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_6/H6_6006_DES_childrens_ADHD_diagnosis_and_treatment/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://www.youtube.com/watch?v=EmfpThPdXKo"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/MightyAtom220474/ADHD-Pathway-DES"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                        
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://drive.google.com/file/d/15AsF2U4BnsXbbGQRxIcFkDW130j4JiaF/view?usp=drive_link"><i class="fa-solid fa-person-chalkboard"></i> Slides </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="2" data-categories="QWdlbnQlMjBCYXNlZCUyMFNpbXVsYXRpb24lMjAoQUJTKSUyQ0Rpc2NyZXRlJTIwRXZlbnQlMjBTaW11bGF0aW9uJTIwKERFUyklMkNTdHJlYW1saXQlMkNPcHRoYWxtb2xvZ3k=" data-listing-file-modified-sort="1753366995078" data-listing-reading-time-sort="1" data-listing-word-count-sort="140">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_6/H6_6007_Modelling_eye_injection_pathways/index.html">
+              <img class="card-img" src="../previous_projects/hsma_6/H6_6007_Modelling_eye_injection_pathways/6007.PNG" alt="Modelling eye injection pathways">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Modelling eye injection pathways</h5>
+            </div>
+
+            
+            <div class="project-status-active">
+              Active
+            </div> 
+
+            
+              <p class="listing-abstract">The project aims to develop a flexible simulation model to optimise anti-VEGF treatment strategies in ophthalmology. It will use dual modelling frameworks, a modular design, and an interactive dashboard. The model will analyse clinical effectiveness, costs, and resource requirements, adapting to new treatments. The objective is to provide a tool to improve patient outcomes and optimize resource use and costs.
+</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Opthalmology</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Agent Based Simulation (ABS)</button>
+                    
+                  
+                  
+                      <button class="category-button">Discrete Event Simulation (DES)</button>
+                    
+                  
+                  
+                      <button class="category-button">Streamlit</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • Surrey and Sussex Healthcare NHS Trust<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_6/H6_6007_Modelling_eye_injection_pathways/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://youtu.be/0OKev_kbQEc?feature=shared"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/lh/vegf-1"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="3" data-categories="Rm9yZWNhc3RpbmclMkNNYWNoaW5lJTIwTGVhcm5pbmclMkNEaXNjcmV0ZSUyMEV2ZW50JTIwU2ltdWxhdGlvbiUyMChERVMpJTJDU3RyZWFtbGl0JTJDTGVuZ3RoJTIwb2YlMjBTdGF5JTJDSW5wYXRpZW50cyUyQ0JlZCUyME9jY3VwYW5jeSUyQ0RlbWFuZCUyMCUyNiUyMENhcGFjaXR5" data-listing-file-modified-sort="1753366995085" data-listing-reading-time-sort="1" data-listing-word-count-sort="136">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_6/H6_6013_Modelling_bed_occupancy_acute_ward/index.html">
+              <img class="card-img" src="../previous_projects/hsma_6/H6_6013_Modelling_bed_occupancy_acute_ward/6013.PNG" alt="Modelling bed occupancy on an Acute Ward">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Modelling bed occupancy on an Acute Ward</h5>
+            </div>
+
+            
+            <div class="project-status-active">
+              Active
+            </div> 
+
+            
+              <p class="listing-abstract">The project aims to develop a tool for time series forecasting of bed occupancy using historical data, incorporating seasonality and growth. A web-based app will simulate acute bed models, including variables like closed beds and additional capacity. Using machine learning and discrete event simulation, the tool will aid decision-making and provide reliable daily forecasts.
+</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Length of Stay</button>
+                      
+                    
+                    
+                        <button class="area-button">Inpatients</button>
+                      
+                    
+                    
+                        <button class="area-button">Bed Occupancy</button>
+                      
+                    
+                    
+                        <button class="area-button">Demand &amp; Capacity</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Forecasting</button>
+                    
+                  
+                  
+                      <button class="category-button">Machine Learning</button>
+                    
+                  
+                  
+                      <button class="category-button">Discrete Event Simulation (DES)</button>
+                    
+                  
+                  
+                      <button class="category-button">Streamlit</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • Royal United Hospitals Bath NHS Foundation Trust<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_6/H6_6013_Modelling_bed_occupancy_acute_ward/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://youtu.be/SH4geMXr8a8?feature=shared"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/ReyTan8/Project---DES-Vidigi"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="4" data-categories="U3RyZWFtbGl0JTJDVGhlb2dyYXBocyUyQ0RhdGElMjBWaXN1YWxpc2F0aW9uJTJDUGF0aWVudCUyMFBhdGh3YXlz" data-listing-file-modified-sort="1753366995099" data-listing-reading-time-sort="1" data-listing-word-count-sort="62">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_6/H6_6024_Streamlit_app_for_theographs_of_patient_journeys/index.html">
+              <img class="card-img" src="../previous_projects/hsma_6/H6_6024_Streamlit_app_for_theographs_of_patient_journeys/6024.PNG" alt="Developing a streamlit app for creating Theographs of patient journeys">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Developing a streamlit app for creating Theographs of patient journeys</h5>
+            </div>
+
+            
+            <div class="project-status-active">
+              Active
+            </div> 
+
+            
+              <p class="listing-abstract">The project aims to create an open-source application for generating interactive theograph visuals to understand patient/client journeys. It will be a generic tool requiring minimal data fields, usable in various healthcare or social care settings.
+</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Patient Pathways</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Data Visualisation</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • NHS North of England CSU (NECS)<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_6/H6_6024_Streamlit_app_for_theographs_of_patient_journeys/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/sp-necs/TheoGraph"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                        
+                            
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="5" data-categories="QWdlbnQlMjBCYXNlZCUyMFNpbXVsYXRpb24lMjAoTUVDQyklMkNTdHJlYW1saXQlMkNNYWtpbmclMjBFdmVyeSUyMENvbnRhY3QlMjBDb3VudCUyMChNRUNDKSUyQ1B1YmxpYyUyMEhlYWx0aCUyQ1Ntb2tpbmc=" data-listing-file-modified-sort="1753366995116" data-listing-reading-time-sort="1" data-listing-word-count-sort="72">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_6/H6_6040_benefit_of_MECC_using_ABS/index.html">
+              <img class="card-img" src="../previous_projects/hsma_6/H6_6040_benefit_of_MECC_using_ABS/6040.PNG" alt="Modelling the benefit of MECC (Making Every Contact Count) Training using agent based simulation">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Modelling the benefit of MECC (Making Every Contact Count) Training using agent based simulation</h5>
+            </div>
+
+            
+            <div class="project-status-active">
+              Active
+            </div> 
+
+            
+              <p class="listing-abstract">Making Every Contact Count (MECC) is an e-learning program for health and social care staff to promote healthy lifestyles. This project uses Agent Based Simulation to model MECC's impact on behaviors like smoking, drinking, and exercise.
+</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Making Every Contact Count (MECC)</button>
+                      
+                    
+                    
+                        <button class="area-button">Population Health</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Agent Based Simulation (MECC)</button>
+                    
+                  
+                  
+                      <button class="category-button">Streamlit</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • NHS North of England CSU<br>
+                
+                • Surrey and Sussex Healthcare NHS Trust<br>
+                
+                • Somerset NHS Foundation Trust<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_6/H6_6040_benefit_of_MECC_using_ABS/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://youtu.be/U6-_3q_CZtA?feature=shared"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/DomRowney/Project_Toy_MECC"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://projecttoymecc-d4sef5gik3tiusylxpigdw.streamlit.app/mesa_abs_two_types_mecc"><i class="fa-solid fa-globe"></i> Website </a></button>
+                          
+                        
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://drive.google.com/file/d/1X_JizOXHMrseAvxSSZWE3YGXuuSo5okM/view?usp=drive_link"><i class="fa-solid fa-person-chalkboard"></i> Slides </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="6" data-categories="TWFjaGluZSUyMExlYXJuaW5nJTJDTm9uLWF0dGVuZGFuY2UlMjBQcmVkaWN0aW9uJTJDT3V0cGF0aWVudHM=" data-listing-file-modified-sort="1753366995123" data-listing-reading-time-sort="1" data-listing-word-count-sort="119">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_6/H6_6046_Proactive_Patient_attendance_prediction/index.html">
+              <img class="card-img" src="../previous_projects/hsma_6/H6_6046_Proactive_Patient_attendance_prediction/6046.PNG" alt="Proactive Patient Attendance Prediction: Enhancing Healthcare Efficiency through Attendance Forecasting">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Proactive Patient Attendance Prediction: Enhancing Healthcare Efficiency through Attendance Forecasting</h5>
+            </div>
+
+            
+            <div class="project-status-active">
+              Active
+            </div> 
+
+            
+              <p class="listing-abstract">At Barts Health NHS Trust, 12% of outpatient appointments are missed monthly, wasting over 10,000 hours of clinical resources. Missed appointments can lead to extended waiting lists and patient deterioration. This project aims to develop a machine learning model to forecast non-attendance, a patient contact capture tool, and integrate the model into enterprise reports.
+</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Non-attendance Prediction</button>
+                      
+                    
+                    
+                        <button class="area-button">Outpatients</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Machine Learning</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • Barts Health NHS Trust<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_6/H6_6046_Proactive_Patient_attendance_prediction/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://youtu.be/WNtIIWA_IYg?feature=shared"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/WX-BIU/Outpatient-DNAs"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                        
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://drive.google.com/file/d/16aa7B_4a4i3IxZv7Cf_7GGSnVoab23i_/view?usp=drive_link"><i class="fa-solid fa-person-chalkboard"></i> Slides </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="7" data-categories="TWFjaGluZSUyMExlYXJuaW5nJTJDRXhwbGFpbmFibGUlMjBBSSUyQ1BhdGllbnQlMjBQYXRod2F5cyUyQ1dhaXRpbmclMjBUaW1lcyUyQ0Nhc3VhbCUyMEFuYWx5c2lz" data-listing-file-modified-sort="1753366995127" data-listing-reading-time-sort="1" data-listing-word-count-sort="66">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_6/H6_6049_ML_appointments_pathway/index.html">
+              <img class="card-img" src="../previous_projects/hsma_6/H6_6049_ML_appointments_pathway/6049.PNG" alt="Using machine learning to identify factors that increase number of appointments per pathway">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Using machine learning to identify factors that increase number of appointments per pathway</h5>
+            </div>
+
+            
+            <div class="project-status-active">
+              Active
+            </div> 
+
+            
+              <p class="listing-abstract">The new EPP data set offers the most comprehensive view of elective pathway activity. Currently, the reasons for varying appointment numbers are unclear, but one theory is that longer waits lead to sicker patients and more appointments. This project plans to use Machine Learning to investigate this further.
+</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Patient Pathways</button>
+                      
+                    
+                    
+                        <button class="area-button">EPP Dataset</button>
+                      
+                    
+                    
+                        <button class="area-button">Waiting Times</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Explainable AI</button>
+                    
+                  
+                  
+                      <button class="category-button">Patient Pathways</button>
+                    
+                  
+                  
+                      <button class="category-button">Casual Analysis</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • NHS England<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_6/H6_6049_ML_appointments_pathway/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/tuleys/REQ0449"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                        
+                            
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="8" data-categories="RGlzY3JldGUlMjBFdmVudCUyMFNpbXVsYXRpb24oREVTKSUyQ1N0cmVhbWxpdCUyQ1N0cm9rZQ==" data-listing-file-modified-sort="1753366995134" data-listing-reading-time-sort="1" data-listing-word-count-sort="179">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_6/H6_6055_DES_modelling_Hyperacute_Acute_Stroke_Pathway/index.html">
+              <img class="card-img" src="../previous_projects/hsma_6/H6_6055_DES_modelling_Hyperacute_Acute_Stroke_Pathway/6055.PNG" alt="DES Modelling of The Hyperacute / Acute Stroke Pathway - Patient and Economic Outcomes">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">DES Modelling of The Hyperacute / Acute Stroke Pathway - Patient and Economic Outcomes</h5>
+            </div>
+
+            
+            <div class="project-status-active">
+              Active
+            </div> 
+
+            
+              <p class="listing-abstract">Stroke prevalence in the UK is forecasted to increase by 40-60% from 2021 to 2030, straining hospitals and society. This project aims to develop a discrete simulation model to optimise the Hyperacute/Acute stroke pathway, improving patient outcomes, reducing costs, and enhancing economic benefits. It will analyse variables like staffing and operating hours
+</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Stroke</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Discrete Event Simulation (DES)</button>
+                    
+                  
+                  
+                      <button class="category-button">Streamlit</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • Maidstone and Tunbridge Wells NHS Trust<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_6/H6_6055_DES_modelling_Hyperacute_Acute_Stroke_Pathway/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://youtu.be/ThltRNDt9k8?feature=shared"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://arc-swp.nihr.ac.uk/news/transforming-stroke-care-through-simulation-how-one-hsma-graduates-model-could-save-over-2-million-annually/"><i class="fa-solid fa-newspaper"></i> Article </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/jfwilliams4/des_stroke_project"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                        
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://docs.google.com/presentation/d/18iYB7-1nJOU_3Nr0gHVSPVSsEy-VDgdz/edit?usp=drive_link&amp;ouid=104927246423235110137&amp;rtpof=true&amp;sd=true"><i class="fa-solid fa-person-chalkboard"></i> Slides </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="9" data-categories="TWFjaGluZSUyMExlYXJuaW5nJTJDU3RyZWFtbGl0" data-listing-file-modified-sort="1753366995138" data-listing-reading-time-sort="1" data-listing-word-count-sort="37">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_6/H6_6058_ml_tool_to_predict_dnas/index.html">
+              <img class="card-img" src="../previous_projects/hsma_6/H6_6058_ml_tool_to_predict_dnas/6058.png" alt="Building a Machine Learning tool to predict Did Not Attend (DNA) events">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Building a Machine Learning tool to predict Did Not Attend (DNA) events</h5>
+            </div>
+
+            
+            <div class="project-status-active">
+              Active
+            </div> 
+
+             <p class="listing-abstract">This project is developing a machine learning-based tool that looks at the likelihood outpatient Did Not Attend (DNA) incidences across different services/demographics.</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Machine Learning</button>
+                    
+                  
+                  
+                      <button class="category-button">Streamlit</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • Blackpool Teaching Hospitals NHS Foundation Trust<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_6/H6_6058_ml_tool_to_predict_dnas/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/BarnabyRumbold/logistic_regression_streamlit_app"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                        
+                            
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="10" data-categories="RGlzY3JldGUlMjBFdmVudCUyMFNpbXVsYXRpb24lMjAoREVTKSUyQ0VtZXJnZW5jeSUyMERlcGFydG1lbnRz" data-listing-file-modified-sort="1753366995140" data-listing-reading-time-sort="1" data-listing-word-count-sort="54">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_6/H6_6060_optimising_resourcing/index.html">
+              <img class="card-img" src="../previous_projects/hsma_6/H6_6060_optimising_resourcing/6060.PNG" alt="Optimising Same Day Emergency Care (SDEC) Resourcing">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Optimising Same Day Emergency Care (SDEC) Resourcing</h5>
+            </div>
+
+            
+            <div class="project-status-active">
+              Active
+            </div> 
+
+             <p class="listing-abstract">This project will model Same Day Emergency Care (SDEC) and Emergency Department (ED) pathways at University Hospitals Bristol and Weston NHS Foundation Trust.</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Discrete Event Simulation (DES)</button>
+                    
+                  
+                  
+                      <button class="category-button">Emergency Departments</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • University Hospitals Bristol and Weston NHS Foundation Trust<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_6/H6_6060_optimising_resourcing/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://youtu.be/Yck3vOioRdQ?feature=shared"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/hthould/acute_take_des"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                        
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://docs.google.com/presentation/d/1fGS1mKo8BrF_I4wy5AAzjDsdETnUaFnE/edit?usp=sharing&amp;ouid=104927246423235110137&amp;rtpof=true&amp;sd=true"><i class="fa-solid fa-person-chalkboard"></i> Slides </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="11" data-categories="RGlzY3JldGUlMjBFdmVudCUyMFNpbXVsYXRpb24lMjAoREVTKSUyQ1ByaW1hcnklMjBDYXJlJTIwKEdQKQ==" data-listing-file-modified-sort="1753366995142" data-listing-reading-time-sort="1" data-listing-word-count-sort="87">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_6/H6_6062_primary_care_load_management_tool/index.html">
+              <img class="card-img" src="../previous_projects/hsma_6/H6_6062_primary_care_load_management_tool/6062.PNG" alt="Developing a primary care load management tool">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Developing a primary care load management tool</h5>
+            </div>
+
+            
+            <div class="project-status-active">
+              Active
+            </div> 
+
+            
+              <p class="listing-abstract">A GP practice had peak call wait times of 60 minutes. Adding more staff improved this, but lower utilisation was then seen during quieter periods. This project will model the telephone system and call handlers' workload to optimise resourcing, producing a web app to test different scenarios.
+</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Primary Care (GP)</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Discrete Event Simulation (DES)</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • The Park Medical Practice<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_6/H6_6062_primary_care_load_management_tool/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://youtu.be/AUNmuPFnq4c?feature=shared"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/clexp/Primary_Care_Load_Management_Tool"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                        
+                            
+                        
+                            
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="12" data-categories="RGlzY3JldGUlMjBFdmVudCUyMFNpbXVsYXRpb24lMjAoREVTKSUyQ05IUyUyMFRhbGtpbmclMjBUaGVyYXBpZXMlMjAoRm9ybWVybHklMjBJQVBUKQ==" data-listing-file-modified-sort="1753366995143" data-listing-reading-time-sort="2" data-listing-word-count-sort="236">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_6/H6_6063_modelling_talking_therapies_clinical_pathway_using_des/index.html">
+              <img class="card-img" src="../previous_projects/hsma_6/H6_6063_modelling_talking_therapies_clinical_pathway_using_des/6063.PNG" alt="Modelling the Talking Therapies clinical pathway using a Discrete Event Simulation">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Modelling the Talking Therapies clinical pathway using a Discrete Event Simulation</h5>
+            </div>
+
+            
+            <div class="project-status-active">
+              Active
+            </div> 
+
+            
+              <p class="listing-abstract">The NHS Talking Therapies programme, supports NICE guidelines for treating anxiety and depression. The aim is to develop a Discrete Event Simulation to model patient flow through the new clinical pathway. This project will identify potential waiting list build-ups due to increased referrals into Talking Therapies.
+</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">NHS Talking Therapies (Formerly IAPT)</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Discrete Event Simulation (DES)</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • Lancashire &amp; South Cumbria NHS Foundation Trust<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_6/H6_6063_modelling_talking_therapies_clinical_pathway_using_des/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/MightyAtom220474/IAPT-Pathway-DES"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://drive.google.com/file/d/15AsF2U4BnsXbbGQRxIcFkDW130j4JiaF/view?usp=drive_link"><i class="fa-solid fa-file-contract"></i> Paper </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
+      <div class="custom-grid-card border-2 rounded-3" data-index="13" data-categories="U3RyZWFtbGl0JTJDQ29zdHMlMkNJbmVxdWFsaXRpZXM=" data-listing-file-modified-sort="1753366995150" data-listing-reading-time-sort="2" data-listing-word-count-sort="284">
+            <div class="main-card-content">
+            
+            <a href="../previous_projects/hsma_alumni/H5_5100_Extra_funding_allocation_inequality_tool/index.html">
+              <img class="card-img" src="../previous_projects/hsma_alumni/H5_5100_Extra_funding_allocation_inequality_tool/5100.PNG" alt="eFIT: Extra funding allocation - inequality tool">
+            </a>
+            
+
+            <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">eFIT: Extra funding allocation - inequality tool</h5>
+            </div>
+
+            
+            <div class="project-status-active">
+              Active
+            </div> 
+
+            
+              <p class="listing-abstract">The project addresses the lack of national guidance for allocating extra primary care funding by ICBs. It proposes using an equation based on deprivation scores and local needs. A Streamlit web-app tool will help ICBs allocate funds more equitably, considering various indicators and demographics, ensuring a fair distribution and reducing inequalities.
+</p>
+                
+
+            
+              <div class="quarto-categories">
+                  
+                    
+                        <button class="area-button">Inequalities</button>
+                      
+                    
+                    
+                        <button class="area-button">Costs</button>
+                      
+                    
+              </div>
+              
+
+            
+            <div class="quarto-categories">
+                
+                  
+                      <button class="category-button">Streamlit</button>
+                    
+                  
+            </div>
+            
+
+            
+              <div class="listing-organisations">
+                
+                • NHS England<br>
+                
+              </div>
+            
+
+          </div>
+
+            <div class="project-details-listing">
+              <button class="project-link-listing-button"><a href="../previous_projects/hsma_alumni/H5_5100_Extra_funding_allocation_inequality_tool/index.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                    
+                      
+                          
+                            
+                      <button class="project-link-listing-button"><a href="https://youtu.be/YbmiEilW9I8"><i class="fa-brands fa-youtube"></i> Video </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://github.com/pete4nhs/eFIT-tool"><i class="fa-brands fa-github"></i> Code </a></button>
+                          
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://www.heec.co.uk/resources/extra-funding-allocation-inequality-tool-efit/"><i class="fa-solid fa-globe"></i> Website </a></button>
+                          
+                        
+                            
+                        
+                            
+                      <button class="project-link-listing-button"><a href="https://youtu.be/YbmiEilW9I8?feature=shared"><i class="fa-solid fa-person-chalkboard"></i> Slides </a></button>
+                          
+                        
+                        
+                    
+            </div>
+          </div>
+
+        
 </div>
 <div class="listing-no-matching d-none">No matching items</div>
 </div>
