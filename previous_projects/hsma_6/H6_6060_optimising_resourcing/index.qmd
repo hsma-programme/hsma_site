@@ -35,6 +35,7 @@ pub-info:
   - name: Slides
     url: https://docs.google.com/presentation/d/1fGS1mKo8BrF_I4wy5AAzjDsdETnUaFnE/edit?usp=sharing&ouid=104927246423235110137&rtpof=true&sd=true
     icon: fa-solid fa-person-chalkboard
+---
 
 This project will model Same Day Emergency Care (SDEC) and Emergency Department (ED) pathways at University Hospitals Bristol and Weston NHS Foundation Trust.
 
