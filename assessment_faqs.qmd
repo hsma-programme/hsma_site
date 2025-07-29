@@ -2,6 +2,8 @@
 title: HSMA Certification Guidance
 title-block-banner: resources/banner.png
 include-back-link: false
+toc: true
+toc-depth: 4
 ---
 
 The HSMA Programme is accredited by the Association of Professional Healthcare Analysts (AphA) and all participants are able to cite this as part of their participation. However, we also recognise that some participants may want to receive a digital certificate to confirm their completion of the programme. To this end, we provide optional certification via Accredible.
@@ -30,9 +32,7 @@ It is also important to note that the certification does not represent a formal 
 
 Students may choose to provide their HSMA project work as evidence of their engagement and ability to apply the skills taught.
 
-::: {.callout-tip appearance="simple"}
 This is the recommended option for most participants, as it provides us with a more accurate picture of a participant’s ability to use the skills taught in practice over time, and does not require the participant to undertake a separate piece of work under examination conditions.
-:::
 
 ::: {.callout-tip appearance="simple"}
 ### Is my project 'ready'?
@@ -112,7 +112,7 @@ We would recommend that these projects still make use of GitHub, and discussions
 :::
 
 :::{.callout-warning appearance="simple" collapse="false"}
-### Help! My organisation won't let me upload the code to GitHub (Click to expand)
+### Help! My organisation won't let me upload the code to GitHub (Click to show/hide this section)
 
 If you are having trouble getting your code shared with us, there are a few things you can try.
 
@@ -181,7 +181,7 @@ However, this only needs to be filled in **once per group**.
 
 In the opening section of the form, where it asks for the name, email address and organisation, please make sure you provide this for each member of the project team who is looking to receive their certificate.
 
-### What happens after the project is submitted?
+#### What happens after the project is submitted?
 
 On submission, HSMA Programme staff will look over the work provided.
 
@@ -196,13 +196,13 @@ On submission, HSMA Programme staff will look over the work provided.
 The decision of programme staff is final, but extensive discussion will take place for any proposed rejections of evidence before any such decision is taken to ensure that the decision is fair.
 :::
 
-### Will the HSMA team undertake a formal code review of projects? Is this a 'stamp of approval' for my project?
+#### Will the HSMA team undertake a formal code review of projects? Is this a 'stamp of approval' for my project?
 
 Due to capacity in the team, it is not possible for us to fully review the codebase for projects.
 
 It's important to remember that the certificate issues is a mark of your own personal completion of the HSMA programme - **we are not certifying your project**, but instead using your project to provide evidence that you can apply the skills taught on the HSMA programme.
 
-### What if I have been unable to undertake a project due to circumstances beyond my control, but I would still like to be able to obtain a certificate to show my completion of the programme?
+#### What if I have been unable to undertake a project due to circumstances beyond my control, but I would still like to be able to obtain a certificate to show my completion of the programme?
 
 We recognise that sometimes - whether through illness, job changes, hurdles encountered during the project phase like data access, or your organisation not being able to give you time to work on a project - it may not be possible to provide project work as evidence for receiving your certificate, and this may have only become apparent after the alternative assessment option took place.
 
