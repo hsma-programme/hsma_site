@@ -43,7 +43,7 @@ The key steps in the process are:
 
 A sample message is provided below, which you can copy into Slack and amend with your links.
 
-```
+```{markdown}
 *Project Submission Request*
 
 Hi @Dan Chalk (Programme Lead) and @Sammi Rosser  { HSMA Trainer }
