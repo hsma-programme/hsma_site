@@ -36,10 +36,10 @@ This is the recommended option for most participants, as it provides us with a m
 
 The key steps in the process are:
 
-- [ ] Ensure your project is registered as an official HSMA project (if you have a project channel on the HSMA Slack, it is!)
-- [ ] Make your code available in a GitHub repository, which should contain the code and any relevant documentation
-- [ ] Fill in the [project impact reporting form (a.k.a. the HSMA BITE)](https://forms.office.com/Pages/ResponsePage.aspx?id=d10qkZj77k6vMhM02PBKUyRMB0tNJCJMhcBInCaOXtxUNlNFQTFNVVNTUElVNUEyR0tYNVBBVk5CVi4u) - note that this only needs to be completed once per project/group, rather than by each individual in group projects
-- [ ] Post a message on your project Slack Channel
+-   [ ] Ensure your project is registered as an official HSMA project (if you have a project channel on the HSMA Slack, it is!)
+-   [ ] Make your code available in a GitHub repository, which should contain the code and any relevant documentation
+-   [ ] Fill in the [project impact reporting form (a.k.a. the HSMA BITE)](https://forms.office.com/Pages/ResponsePage.aspx?id=d10qkZj77k6vMhM02PBKUyRMB0tNJCJMhcBInCaOXtxUNlNFQTFNVVNTUElVNUEyR0tYNVBBVk5CVi4u) - note that this only needs to be completed once per project/group, rather than by each individual in group projects
+-   [ ] Post a message on your project Slack Channel
 
 A sample message is provided below, which you can copy into Slack and amend with your links.
 
@@ -56,8 +56,8 @@ Project Github Link: [PROVIDE GITHUB LINK]
 I confirm that the project reporting form has been filled in.
 ```
 
-- [ ] The programme staff will acknowledge receipt of your request, and let you know when a decision has been reached.
-- [ ] You will then be contacted with the decision, at which point we will confirm how you want your name to appear on the certificate, and which email address it should be sent to.
+-   [ ] The programme staff will acknowledge receipt of your request, and let you know when a decision has been reached.
+-   [ ] You will then be contacted with the decision, at which point we will confirm how you want your name to appear on the certificate, and which email address it should be sent to.
 
 Our certificate provider, Accredible, will provide a link to share your achievement on LinkedIn - we'd love to be tagged if you do post about it!
 
@@ -71,8 +71,8 @@ The following section will hopefully cover any additional questions you may have
 
 It's important to remember that, for you to receive the digital certificate confirming completion of the HSMA programme, your project does not have to
 
-- be 'complete'
-- have been used in your organisation to make a decision
+-   be 'complete'
+-   have been used in your organisation to make a decision
 
 (although we will be absolutely delighted if any of those are the case!)
 
@@ -82,10 +82,9 @@ We're not looking for absolutely perfect code or a huge codebase - just enough t
 
 If in doubt, submit - you will be able to resubmit at a later date if it is deemed that your project is not yet sufficiently advanced for us to award the certificate.
 
-You may find it helpful to take a look at the HSMA assessment solutions to gauge the level of code we might be expecting. Remember - to receive a certificate, it was necessary to achieve 50% overall across the three general Python programming questions, and from answering any two of the remaining questions.
-[github.com/hsma-programme/hsma6_assessment](https://github.com/hsma-programme/hsma6_assessment/blob/main/h6_assessment_solutions.ipynb)
+You may find it helpful to take a look at the HSMA assessment solutions to gauge the level of code we might be expecting. Remember - to receive a certificate, it was necessary to achieve 50% overall across the three general Python programming questions, and from answering any two of the remaining questions. [github.com/hsma-programme/hsma6_assessment](https://github.com/hsma-programme/hsma6_assessment/blob/main/h6_assessment_solutions.ipynb)
 
-This hoepfully helps reassure you that a relatively 'simple' project that demonstrates real-world implementation of a HSMA method will be sufficient!
+This hopefully helps reassure you that a relatively 'simple' project that demonstrates real-world implementation of a HSMA method will be sufficient!
 
 #### Does my project need to be registered?
 
@@ -110,8 +109,7 @@ We would recommend that these projects still make use of GitHub:
 -   Projects using InsightMaker can export the .InsightMaker file and track changes to this on Github.
 -   QGIS project files can also be uploaded to a GitHub repository. It is recommended that students install the [qgis_trackable_project_files](https://github.com/opengisch/qgis_trackable_project_files) and use the .qgs format.
 
-
-:::{.callout-warning appearance="simple" collapse="false"}
+::: {.callout-warning appearance="simple" collapse="false"}
 ### Help! My organisation won't let me upload the code to GitHub (Click to show/hide this section)
 
 If you are having trouble getting your code shared with us, here are some additional things that may help:
@@ -122,13 +120,12 @@ Remember - you don't have to (and generally won't) share the data!
 
 Organisations are often concerned about what will go into the GitHub repository. Letting them know that it's only the code that will be shared may help make them more comfortable with the idea. You may also find it helpful to provide them with the [NHS-R statement on tools](https://tools.nhsrcommunity.com/statement-on-using-tools-git.html), which helps to demonstrate that there are a wide range of NHS and government services making safe and effective use of code sharing on GitHub.
 
-We don't need to be able to run the code to provide accreditation - though it's great if we, and the wider community of people who may wish to reuse your code, can. To this end, consider whether you might want to provide a dummy dataset intead, which doesn't necessarily have to replicate the patterns seen in your real data as long as the structure/data types are the same as the real data.
-Packages like [faker](https://github.com/joke2k/faker) can help with this.
+We don't need to be able to run the code to provide accreditation - though it's great if we, and the wider community of people who may wish to reuse your code, can. To this end, consider whether you might want to provide a dummy dataset instead, which doesn't necessarily have to replicate the patterns seen in your real data as long as the structure/data types are the same as the real data. Packages like [faker](https://github.com/joke2k/faker) can help with this.
 
 Before uploading, make sure that
 
-- you haven't accidentally included any data files (and consider using a `.gitignore` file that excludes .csv, .xls and .xlsx for good measure)
-- you haven't left any credentials in if you are interfacing with a SQL database (ideally, you would not be hard-coding these in to the main script, and would be using alternative approaches)
+-   you haven't accidentally included any data files (and consider using a `.gitignore` file that excludes .csv, .xls and .xlsx for good measure)
+-   you haven't left any credentials in if you are interfacing with a SQL database (ideally, you would not be hard-coding these in to the main script, and would be using alternative approaches)
 
 #### My organisation don't want the code being shared widely
 
@@ -136,35 +133,43 @@ If your organisation is more comfortable with the code only being visible to the
 
 You can then add Dan and Sammi as **collaborators** on the repository, giving them access. Details on how to do this can be seen in the images below:
 
+1.  In your private repository, head to 'Settings'
+
 ![](assets/2025-07-29-11-46-21.png)
+
+2.  In the menu on the left, find the 'Collaborators' section, under the 'Access' heading
 
 ![](assets/2025-07-29-11-46-56.png)
 
+3.  Click 'Add People'
+
 ![](assets/2025-07-29-11-47-37.png)
 
-![](assets/2025-07-29-11-48-22.png)
+4.  This will bring up a box where you can enter the user you wish to grant access to.
 
-![](assets/2025-07-29-11-48-11.png)
+![](assets/2025-07-29-11-48-22.png)
 
 You will need to add both **Dan Chalk** and **Sammi Rosser**. The easiest way to find them is to use Github usernames:
 
 Dan: `hsma-chief-elf`
+
 Sammi: `Bergam0t`
 
-You should still follow best practice around not sharing data - the code and any other uploaded files will be stored on GitHub's servers.
+![](assets/2025-07-29-11-48-11.png)
+
+You should still follow best practice around not sharing data - ***the code and any other uploaded files will be stored on GitHub's servers.***
 
 #### I can't install Git locally on my machine, so I can't use the approach shown in the HSMA GitHub session to share my code
 
 If this is the case, you may still be able to share the code on GitHub via manual upload of your code to a repository.
 
-Take a look at this guidance from GitHub: https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository
+Take a look at this guidance from GitHub: <https://docs.github.com/en/repositories/working-with-files/managing-files/adding-a-file-to-a-repository>
 
-While this is not ideal as it means we will not be able to see the commit history, it will
+While this is not ideal as it means we will not be able to see the commit history, it is preferred over other ways of sharing the code, like email or Slack message, as it is a good step in the right direction.
 
 #### My organisation are completely blocking the use of GitHub and will not budge on the matter
 
 Contact Dan and Sammi on Slack and we can explore alternative routes for you to provide the code.
-
 :::
 
 #### If I can't use GitHub, or don't have the commit history due to the way we've uploaded to GitHub, how can we demonstrate the contribution of team members?
@@ -173,13 +178,11 @@ Authorship of code and other materials should be made clear. This is particularl
 
 The optimal way for this to be evidenced is via the Git/GitHub commit history, which would ideally show who has authored what in the code and documentation.
 
-Where this is not possible to provide, a written statement signed by all HSMAs involved in the project can be provided, detailing the areas of contribution to the project from each HSMA.
-
-Please contact programme staff if you have further questions about this.
+Where this is not possible to provide, please use comments within the code to make it clear which sections were written by each member of the project team.
 
 #### My project has been undertaken in conjunction with other members of my organisation who were not on HSMA. Can it still count?
 
-It is fine to submit a project where you have collaborated with non-HSMAs - but please make sure authorship is clear, either via GitHub commit history or through a statement of contribution (see the previous Question/Answer).
+It is fine to submit a project where you have collaborated with non-HSMAs - but please make sure authorship is clear (see the previous Question/Answer).
 
 #### Do we each need to submit the project reporting form?
 
@@ -193,12 +196,12 @@ In the opening section of the form, where it asks for the name, email address an
 
 On submission, HSMA Programme staff will look over the work provided.
 
--   They will determine whether the work demonstrates that the author(s) have sufficiently understood the techniques adopted, and have produced good quality code.
+-   They will determine whether the work demonstrates that the author(s) have sufficiently understood the techniques adopted, and have produced code of sufficient quality.
     -   If so, certification will be provided.
     -   If not, staff will contact the HSMA(s) involved in the first instance to explore
-        -  if there is further evidence that they can provide, or
-        - advise them to resubmit at a later stage when the project has advanced further, or
-        - if neither of these are possible, to direct them to undertake a subsequent assessment (if such an assessment is planned by the programme staff) if they still wish to be certified.
+        -   if there is further evidence that they can provide, or
+        -   advise them to resubmit at a later stage when the project has advanced further, or
+        -   if neither of these are possible, to direct them to undertake a subsequent assessment (if such an assessment is planned by the programme staff) if they still wish to be certified.
 
 ::: {.callout-warning appearance="simple"}
 The decision of programme staff is final, but extensive discussion will take place for any proposed rejections of evidence before any such decision is taken to ensure that the decision is fair.
@@ -208,19 +211,22 @@ The decision of programme staff is final, but extensive discussion will take pla
 
 Due to capacity in the team, it is not possible for us to fully review the codebase for projects.
 
-It's important to remember that the certificate issues is a mark of your own personal completion of the HSMA programme - **we are not certifying your project**, but instead using your project to provide evidence that you can apply the skills taught on the HSMA programme.
+It's important to remember that the certificate issued is a mark of your own personal completion of the HSMA programme - **we are not certifying your project**, but instead using your project to provide evidence that you can apply the skills taught on the HSMA programme.
 
 #### What if I have been unable to undertake a project due to circumstances beyond my control, but I would still like to be able to obtain a certificate to show my completion of the programme?
 
 We recognise that sometimes - whether through illness, job changes, hurdles encountered during the project phase like data access, or your organisation not being able to give you time to work on a project - it may not be possible to provide project work as evidence for receiving your certificate, and this may have only become apparent after the alternative assessment option took place.
 
-If you are in the situation, please reach out to Dan and Sammi via Slack in a direct message, and we will see if we can find a different way for you to evidence the skills you have picked up from the programme and receive your certificate.
+If you are in this situation, don't forget that there is no hard end date on when we will be accepting projects for HSMA 6 certification. You may wish to consider submitting a future project that you undertake.
 
+Alternatively, you may have a smaller piece of work that you have undertaken that you feel demonstrates the coding, data science and operational research skills you picked up as part of the programme. Consider whether you could register this as a small HSMA project - perhaps you made a small Streamlit app, or automated some reporting in Python, or created some maps in Python or QGIS, as part of your day to day role using your new HSMA skills. This might be enough to count!
+
+If you have any doubts about whether one of these alternatives may be suitable, please reach out to Dan and Sammi via Slack in a direct message.
 
 ## Option 2: Undertake the HSMA 6 Assessment
 
-:::{.callout-tip collapse="true"}
-### The HSMA 6 assessment date has passed. There is currently no assessment planned. If you are looking to be certified, please see the details above about the project certification route.
+::::: {.callout-tip collapse="true"}
+### The HSMA 6 assessment date has passed. There is currently no assessment planned. If you are looking to be certified, please see the details above about the project certification route. However, if you would like to view the details of the assessment that took place, please click here to expand this section.
 
 **If participants are not undertaking a HSMA project, or would prefer to receive certification sooner, they can choose to undertake the HSMA 6 Assessment**
 
@@ -255,5 +261,4 @@ Students should join this session using the normal HSMA Zoom Link.
 ::: {.callout-note appearance="simple"}
 The assessment will be released afterwards so that anyone can use it as practice or revision material, though it will not be possible to complete it at that point to gain accreditation.
 :::
-
-:::
+:::::
