@@ -34,24 +34,6 @@ Students may choose to provide their HSMA project work as evidence of their enga
 
 This is the recommended option for most participants, as it provides us with a more accurate picture of a participant’s ability to use the skills taught in practice over time, and does not require the participant to undertake a separate piece of work under examination conditions.
 
-::: {.callout-tip appearance="simple"}
-### Is my project 'ready'?
-
-It's important to remember that, for you to receive the digital certificate confirming completion of the HSMA programme, your project does not have to be
-
-- complete
-- in active use in your organisation
-
-(although we will be absolutely delighted if either of those are the case!)
-
-Remember that we are looking simply for evidence that you have **undertaken and sufficiently engaged with the training provided as part of the programme**, and are **able to apply at least some of the skills taught.**
-
-We're not looking for perfect code or a huge codebase - just enough to evidence that you are able to write code and make use of one or more of the techniques/topics taught on the course.
-
-If in doubt, submit - you will be able to resubmit at a later date if it is deemed that your project is not yet sufficiently advanced for us to award the certificate.
-:::
-
-
 The key steps in the process are:
 
 - [ ] Ensure your project is registered as an official HSMA project (if you have a project channel on the HSMA Slack, it is!)
@@ -75,16 +57,35 @@ I confirm that the project reporting form has been filled in.
 ```
 
 - [ ] The programme staff will acknowledge receipt of your request, and let you know when a decision has been reached.
-
 - [ ] You will then be contacted with the decision, at which point we will confirm how you want your name to appear on the certificate, and which email address it should be sent to.
 
 Our certificate provider, Accredible, will provide a link to share your achievement on LinkedIn - we'd love to be tagged if you do post about it!
 
 ![](assets/2025-07-29-16-09-04.png)
 
-### Questions
+### Common Questions about Certification via the Project Route
 
 The following section will hopefully cover any additional questions you may have about the process. If your question is not covered, please reach out to Dan or Sammi on Slack.
+
+#### I'm not sure if my project is ready to be submitted
+
+It's important to remember that, for you to receive the digital certificate confirming completion of the HSMA programme, your project does not have to
+
+- be 'complete'
+- have been used in your organisation to make a decision
+
+(although we will be absolutely delighted if any of those are the case!)
+
+Remember that we are looking simply for evidence that you have **undertaken and sufficiently engaged with the training provided as part of the programme**, and are **able to apply at least some of the skills taught.**
+
+We're not looking for absolutely perfect code or a huge codebase - just enough to evidence that you are able to write code and make use of one or more of the techniques/topics taught on the course.
+
+If in doubt, submit - you will be able to resubmit at a later date if it is deemed that your project is not yet sufficiently advanced for us to award the certificate.
+
+You may find it helpful to take a look at the HSMA assessment solutions to gauge the level of code we might be expecting. Remember - to receive a certificate, it was necessary to achieve 50% overall across the three general Python programming questions, and from answering any two of the remaining questions.
+[github.com/hsma-programme/hsma6_assessment](https://github.com/hsma-programme/hsma6_assessment/blob/main/h6_assessment_solutions.ipynb)
+
+This hoepfully helps reassure you that a relatively 'simple' project that demonstrates real-world implementation of a HSMA method will be sufficient!
 
 #### Does my project need to be registered?
 
@@ -96,35 +97,40 @@ If you have a project channel on Slack, your project is registered! You can also
 
 #### Do I have to use Github?
 
-Providing the code as a GitHub repository is the preferred alternative for several reasons.
+Providing the code as a GitHub repository is strongly preferred!
 
--  GitHub repository will .
+It makes it easier for us to confirm who has done the work, but it also benefits you and your organisation - helping to embed best practice around version control, open code, and open up opportunities for reuse and collaboration.
 
-If your organisation uses a similar alternative, such as BitBucket or GitLab, this will also be accepted.
+If your organisation uses a similar alternative, such as BitBucket or GitLab, this will also be fine.
 
-::: {.callout-note appearance="simple"}
-While most HSMA projects will be code-based, some projects may instead use QGIS or InsightMaker.
+While *most* HSMA projects will be code-based, some projects may instead use QGIS or InsightMaker.
 
-We would recommend that these projects still make use of GitHub, and discussions should be had with the programme staff if it is not going to be possible to make use of GitHub.
+We would recommend that these projects still make use of GitHub:
 
 -   Projects using InsightMaker can export the .InsightMaker file and track changes to this on Github.
 -   QGIS project files can also be uploaded to a GitHub repository. It is recommended that students install the [qgis_trackable_project_files](https://github.com/opengisch/qgis_trackable_project_files) and use the .qgs format.
-:::
+
 
 :::{.callout-warning appearance="simple" collapse="false"}
 ### Help! My organisation won't let me upload the code to GitHub (Click to show/hide this section)
 
-If you are having trouble getting your code shared with us, there are a few things you can try.
+If you are having trouble getting your code shared with us, here are some additional things that may help:
 
-#### Remember - you don't have to (and generally won't) share the data!
+#### I can't share the code because of the data it uses
+
+Remember - you don't have to (and generally won't) share the data!
 
 Organisations are often concerned about what will go into the GitHub repository. Letting them know that it's only the code that will be shared may help make them more comfortable with the idea. You may also find it helpful to provide them with the [NHS-R statement on tools](https://tools.nhsrcommunity.com/statement-on-using-tools-git.html), which helps to demonstrate that there are a wide range of NHS and government services making safe and effective use of code sharing on GitHub.
 
 We don't need to be able to run the code to provide accreditation - though it's great if we, and the wider community of people who may wish to reuse your code, can. To this end, consider whether you might want to provide a dummy dataset intead, which doesn't necessarily have to replicate the patterns seen in your real data as long as the structure/data types are the same as the real data.
 Packages like [faker](https://github.com/joke2k/faker) can help with this.
 
+Before uploading, make sure that
 
-#### Explore sharing the code as a private repository
+- you haven't accidentally included any data files (and consider using a `.gitignore` file that excludes .csv, .xls and .xlsx for good measure)
+- you haven't left any credentials in if you are interfacing with a SQL database (ideally, you would not be hard-coding these in to the main script, and would be using alternative approaches)
+
+#### My organisation don't want the code being shared widely
 
 If your organisation is more comfortable with the code only being visible to the programme staff, then you can set it up as a 'private' repository.
 
@@ -144,6 +150,8 @@ You will need to add both **Dan Chalk** and **Sammi Rosser**. The easiest way to
 
 Dan: `hsma-chief-elf`
 Sammi: `Bergam0t`
+
+You should still follow best practice around not sharing data - the code and any other uploaded files will be stored on GitHub's servers.
 
 #### I can't install Git locally on my machine, so I can't use the approach shown in the HSMA GitHub session to share my code
 
