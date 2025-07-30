@@ -196,6 +196,18 @@ However, this only needs to be filled in **once per group**.
 
 In the opening section of the form, where it asks for the name, email address and organisation, please make sure you provide this for each member of the project team who is looking to receive their certificate.
 
+#### I'm filling in the form and I'm concerned my project hasn't generated enough impact - will this affect receiving a certificate?
+
+While we will not be directly assessing your project based on the impact is has generated, the impact gathering form is **a crucial part of the process** for a number of reasons:
+
+- If you have had challenges that have led to the project not being as complete or advanced as you had originally hoped, there is space for you to talk about these challenges, which we can then keep in mind when looking at your code.
+    - We may also be able to suggest some solutions to these problems to help you progress your project further!
+- Where the project has been used for decisions, we may then be able to help share your work more widely, opening up options for reuse and collaborations and helping your work get the recognition it deserves.
+- We are measured on the impact we generate, and without knowing about the impact of your projects so we can report this back to our funders, the HSMA programme will cease to exist.
+    - Don't forget - you are now lifelong members of the HSMA community, with the ability to continue to register more projects and get guidance from the programme staff and your peers.
+    - You will also have lifetime access to new training sessions we develop (or to return for sessions to refresh or embed your knowledge), which will hopefully include advanced DES concepts, geographic DES, boundary optimization, and much more...
+    - But these things can only happen if we can show enough impact to keep HSMA going!
+
 #### What happens after the project is submitted?
 
 On submission, HSMA Programme staff will look over the work provided.
