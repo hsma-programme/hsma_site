@@ -43,7 +43,7 @@ The key steps in the process are:
 
 A sample message is provided below, which you can copy into Slack and amend with your links.
 
-```{=markdown}
+```{markdown}
 *Project Submission Request*
 
 Hi @Dan Chalk (Programme Lead) and @Sammi Rosser  { HSMA Trainer }
@@ -85,6 +85,10 @@ If in doubt, submit - you will be able to resubmit at a later date if it is deem
 You may find it helpful to take a look at the HSMA assessment solutions to gauge the level of code we might be expecting. Remember - to receive a certificate, it was necessary to achieve 50% overall across the three general Python programming questions, and from answering any two of the remaining questions. [github.com/hsma-programme/hsma6_assessment](https://github.com/hsma-programme/hsma6_assessment/blob/main/h6_assessment_solutions.ipynb)
 
 This hopefully helps reassure you that a relatively 'simple' project that demonstrates real-world implementation of a HSMA method will be sufficient!
+
+#### I presented at the showcase - do I still need to follow this process?
+
+Yes please!
 
 #### Does my project need to be registered?
 
