@@ -38,7 +38,7 @@ pub-info:
     url: https://github.com/DomRowney/Project_Toy_MECC
     icon: fa-brands fa-github
   - name: Website
-    url: https://projecttoymecc-d4sef5gik3tiusylxpigdw.streamlit.app/mesa_abs_two_types_mecc
+    url: https://domrowney-project-toy-mecc-streamlit-appapp-alcohol-cqzaxu.streamlit.app/
     icon: fa-solid fa-globe
   - name: Paper
     url:
