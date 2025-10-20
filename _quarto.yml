@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  pre-render:
+    - _prerender.py
 
 website:
   title: HSMA

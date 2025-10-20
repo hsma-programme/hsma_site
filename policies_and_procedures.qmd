@@ -7,7 +7,7 @@ include-back-link: false
 :::{.callout-note appearance="minimal" collapse="true"}
 ### Click to View Our Accessibility Statement
 
-{{< include policies_procedures/accessibility_statement.qmd >}}
+{{< include _includes/accessibility_statement.qmd >}}
 
 :::
 
@@ -16,7 +16,7 @@ include-back-link: false
 :::{.callout-note appearance="minimal" collapse="true"}
 ### Click to View Our Code of Conduct
 
-{{< include policies_procedures/code_of_conduct.qmd >}}
+{{< include _includes/code_of_conduct.qmd >}}
 
 :::
 
@@ -24,6 +24,6 @@ include-back-link: false
 :::{.callout-note appearance="minimal" collapse="true"}
 ### Click to View Our Concerns and Complaints Policy
 
-{{< include policies_procedures/concerns_and_complaints.qmd >}}
+{{< include _includes/concerns_and_complaints.qmd >}}
 
 :::
