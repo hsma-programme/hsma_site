@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.7.32">
+<meta name="generator" content="quarto-1.8.25">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -37,14 +37,15 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-2fef5ea3f8957b3e4ecc936fc74692ca.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-707d8167ce6003fca903bfe2be84ab7f.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../site_libs/bootstrap/bootstrap-423f6b90365bcbb3f5f7c01c64aa2a94.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="../../site_libs/bootstrap/bootstrap-1a5373d0d530225c174cd2d6b4dd5080.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -151,7 +152,7 @@ const typesetMath = (el) => {
     var macros = [];
     for (var i = 0; i < mathElements.length; i++) {
       var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN") {
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
         window.katex.render(texText.data, mathElements[i], {
           displayMode: mathElements[i].classList.contains('display'),
           throwOnError: false,
@@ -178,7 +179,8 @@ window.Quarto = {
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
     <a href="../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../resources/Chalky HSMA-07-wide white logo.png" alt="" class="navbar-logo">
+    <img src="../../resources/Chalky HSMA-07-wide white logo.png" alt="" class="navbar-logo light-content">
+    <img src="../../resources/Chalky HSMA-07-wide white logo.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -309,6 +311,10 @@ window.Quarto = {
     <a class="dropdown-item" href="../../faqs.html">
  <span class="dropdown-text">Frequently Asked Questions</span></a>
   </li>  
+        <li>
+    <a class="dropdown-item" href="../../policies_and_procedures.html">
+ <span class="dropdown-text">Policies and Procedures</span></a>
+  </li>  
     </ul>
   </li>
 </ul>
@@ -392,7 +398,7 @@ Note
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 450px)); gap: 20px;">
 
   
-    <div class="custom-grid-card border-2 rounded-3" data-index="0" data-listing-file-modified-sort="1754324961043" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+    <div class="custom-grid-card border-2 rounded-3" data-index="0" data-listing-file-modified-sort="1760951518087" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
           <div class="main-card-content">
             
               <a href="../../hsma_content/modules/current_module_details/1_intro_or_ds_python.html">
@@ -433,7 +439,7 @@ Note
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="1" data-listing-file-modified-sort="1754324961044" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+    <div class="custom-grid-card border-2 rounded-3" data-index="1" data-listing-file-modified-sort="1760951518087" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
           <div class="main-card-content">
             
               <a href="../../hsma_content/modules/current_module_details/2_des.html">
@@ -475,7 +481,7 @@ Note
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="2" data-listing-file-modified-sort="1754324961045" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+    <div class="custom-grid-card border-2 rounded-3" data-index="2" data-listing-file-modified-sort="1760951518088" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
           <div class="main-card-content">
             
               <a href="../../hsma_content/modules/current_module_details/3_geographic_modelling_visualisation.html">
@@ -528,7 +534,7 @@ The module ends with an exploration of how to solve geographic optimisation prob
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="3" data-listing-file-modified-sort="1754324961045" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+    <div class="custom-grid-card border-2 rounded-3" data-index="3" data-listing-file-modified-sort="1760951518088" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
           <div class="main-card-content">
             
               <a href="../../hsma_content/modules/current_module_details/4_machine_learning.html">
@@ -576,7 +582,7 @@ It covers
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="4" data-listing-file-modified-sort="1754324961045" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+    <div class="custom-grid-card border-2 rounded-3" data-index="4" data-listing-file-modified-sort="1760951518088" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
           <div class="main-card-content">
             
               <a href="../../hsma_content/modules/current_module_details/5_natural_language_processing.html">
@@ -615,7 +621,7 @@ This year, the module ended with a 6 hour hackathon in which students were able 
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="5" data-listing-file-modified-sort="1754324961046" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+    <div class="custom-grid-card border-2 rounded-3" data-index="5" data-listing-file-modified-sort="1760951518089" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
           <div class="main-card-content">
             
               <a href="../../hsma_content/modules/current_module_details/6_system_dynamics_agent_based_simulation.html">
@@ -650,7 +656,7 @@ We then move onto agent-based simulation (ABS) - a simulation technique that is 
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="6" data-listing-file-modified-sort="1754324961047" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+    <div class="custom-grid-card border-2 rounded-3" data-index="6" data-listing-file-modified-sort="1760951518090" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
           <div class="main-card-content">
             
               <a href="../../hsma_content/modules/current_module_details/7_git_and_web_development.html">
@@ -701,7 +707,7 @@ We will round off the module by practicing our Git and GitHub skills, uploading 
               </div>
 
             
-    <div class="custom-grid-card border-2 rounded-3" data-index="7" data-listing-file-modified-sort="1754324961047" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+    <div class="custom-grid-card border-2 rounded-3" data-index="7" data-listing-file-modified-sort="1760951518090" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
           <div class="main-card-content">
             
               <a href="../../hsma_content/modules/current_module_details/8_modern_analytics.html">
@@ -798,13 +804,14 @@ In the final session of HSMA 6, we take a look at time-series forecasting method
       e.clearSelection();
     }
     const getTextToCopy = function(trigger) {
-        const codeEl = trigger.previousElementSibling.cloneNode(true);
-        for (const childEl of codeEl.children) {
-          if (isCodeAnnotation(childEl)) {
-            childEl.remove();
-          }
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
         }
-        return codeEl.innerText;
+      }
+      return codeEl.innerText;
     }
     const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
       text: getTextToCopy
