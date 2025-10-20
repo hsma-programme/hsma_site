@@ -115,6 +115,8 @@ website:
             text: HSMA & Open Source Software
           - href: faqs.qmd
             text: Frequently Asked Questions
+          - href: policies_and_procedures.qmd
+            text: Policies and Procedures
 
 
 format:
