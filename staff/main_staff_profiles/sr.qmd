@@ -1,7 +1,0 @@
-![](staff/main_staff_profiles/sammi_rosser.jpg){fig-alt="A photo of Sammi Rosser. The photo shows a smiling woman with long wavy brown hair and brown eyes, wearing a grey t-shirt with a red HSMA logo on and a blazer. She is standing in front of a tree with autumnal red, golden and green foliage."}
-
-Sammi Rosser is a researcher and teacher with an interest in how data science and operational research approaches can be used to improve the lives of patients.
-
-She is passionate about spreading the word about open approaches and empowering people to learn Python and apply it to healthcare problems. Her work focuses on pathway simulation modelling, geographic optimization, and data visualisation.
-
-Sammi holds an MSc in Health Data Science from the University of Exeter, where her final project focussed on the use of free and open source web app frameworks to make more user-friendly tools in the NHS.
