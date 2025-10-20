@@ -1,0 +1,11 @@
+![](staff/main_staff_profiles/dan_chalk.png){fig-alt="A photo of Dr Daniel Chalk. The photo shows a smiling man with short dark hair and glasses. He is wearing a blue and brown checked shirt and leaning on a fence, with the Cornish countryside in the background."}
+
+Dr Dan Chalk is a Senior Research Fellow at the NIHR Applied Research Collaboration for the South West Peninsula (PenARC), Director of the Health Service Modelling Associates (HSMA) Programme since its inception, and former chair of the PenCHORD research team.
+
+He has nearly 15 years of experience collaborating with the NHS to apply Operational Research and Data Science methods to improve service delivery, with particular expertise in Discrete Event Simulation and Agent Based Simulation.
+
+His work has led to reductions in cancer waiting times, supported end of life care resource planning, and fed into national policy making on diabetic retinopathy screening.
+
+Dan has spent the last 12 years teaching and mentoring NHS staff to develop and apply skills in modelling and data science, and is a firm believer that anyone can be taught how to code and how to develop models with the right support.
+
+He is a passionate advocate of open science and the use of Free and Open Source solutions.

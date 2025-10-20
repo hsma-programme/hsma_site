@@ -1,0 +1,51 @@
+---
+title: Meet the Programme Staff
+title-block-banner: resources/banner.png
+include-back-link: false
+format:
+  html:
+    page-layout: full
+---
+
+:::: {.columns}
+
+::: {.column width='30%'}
+
+:::{.callout-note appearance="minimal"}
+# Dr Daniel Chalk
+<br/>
+{{< include staff/main_staff_profiles/dc.qmd >}}
+:::
+
+:::
+
+::: {.column width='5%'}
+
+:::
+
+::: {.column width='30%'}
+
+:::{.callout-note appearance="minimal"}
+# Sammi Rosser
+<br/>
+{{< include staff/main_staff_profiles/sr.qmd >}}
+:::
+
+:::
+
+::: {.column width='5%'}
+
+:::
+
+
+::: {.column width='30%'}
+
+:::{.callout-note appearance="minimal"}
+# Jemma Phillips
+<br/>
+{{< include staff/main_staff_profiles/jp.qmd >}}
+:::
+
+:::
+
+::::

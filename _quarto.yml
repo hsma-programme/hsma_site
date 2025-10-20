@@ -113,6 +113,8 @@ website:
         menu:
           - href: about-hsma.qmd
             text: The HSMA Programme
+          - href: staff.qmd
+            text: HSMA Staff
           - href: foss.qmd
             text: HSMA & Open Source Software
           - href: faqs.qmd
