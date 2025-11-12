@@ -112,6 +112,21 @@ Click on any poster to view it in full screen.
                 <div class="hsma_caption">
                 </div>
 			</li>
+        <li class="splide__slide" style="width: 150px">
+				<img src="impact_posters/NWAS.png" alt="" class="glightbox">
+                <div class="hsma_caption">
+                </div>
+			</li>
+        <li class="splide__slide" style="width: 150px">
+				<img src="impact_posters/Improving Talking Therapies Flow with DES.png" alt="" class="glightbox">
+                <div class="hsma_caption">
+                </div>
+			</li>
+        <li class="splide__slide" style="width: 150px">
+				<img src="impact_posters/Forecasting A&E attendance.png" alt="" class="glightbox">
+                <div class="hsma_caption">
+                </div>
+			</li>
 		</ul>
   </div>
 
