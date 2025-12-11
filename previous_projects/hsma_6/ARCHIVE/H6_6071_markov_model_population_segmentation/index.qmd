@@ -1,0 +1,41 @@
+---
+title: "Creating a generalisable Markov model of segmentation data and age"
+techniques:
+  - Python
+areas:
+  -
+categories:
+  - Python
+author:
+  - name: Ruth Keane
+    affiliation: Arden and Gem CSU
+organisations:
+  - Arden and GEM CSU
+image: "6071.PNG"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+   The goal is to develop generalisable code for a Markov model, applicable at national level or to different ICBs. The data, from a segmentation model, divides the population into groups based on needs. The project starts with a simple model, aiming to adapt the code for various ICBs and segmentations.
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+The goal is to develop generalisable code to create a Markov model. Ideally, the same code could be applied at national level or to different ICBs (with different segmentation models).
+
+The data is the output of a segmentation model- its a model that divides the population into different groups, according to needs and priorities. People move between these segments over the course of their lives. (This is an example of a complex segmentation model from their team: https://www.ardengemcsu.nhs.uk/showcase/case-studies/case-studies/generating-actionable-insights-from-a-bespoke-segmentation-model/) . 
+
+A much more simple example - which the project will start with - would be a segment model with 2 groups - "people with no long term conditions"  and "people with 1 or more long term conditions". The data s age and population segment for a whole population. Previous work in our team did this at a national level, so the plan is to initially recreate the previous work, and then develop the code to allow it to be generalised to different ICBs. Different ICBs use different segmentation models, so the main challenge is getting it to work for different numbers of population segments, and smaller sample sizes. 
+
+A markov model measures the movement rates between segments and ages. So we could use this model to answer questions like "What would be the effect on the whole population of an intervention which reduced the movement of patients  in the 2-20-25 age group from segment 1 (no conditions) to segment 2(1 or more long term conditions)"

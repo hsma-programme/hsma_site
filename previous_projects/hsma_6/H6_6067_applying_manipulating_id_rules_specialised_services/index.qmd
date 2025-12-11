@@ -1,0 +1,37 @@
+---
+title: "Applying and manipulating identification rules for specialised services"
+techniques:
+  - Streamlit
+  - Python
+areas:
+  -
+categories:
+  - Streamlit
+author:
+  - name: Emma Keeley
+    affiliation: Arden and GEM CSU
+organisations:
+  - Arden and GEM CSU
+image: "6067.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+Specialised service lines are identified using Prescribed Specialised Services (PSS) Tool and returned as a field within the SUS dataset. Each year there are changes to the rules and a new tool is provided. The PSS tool is a black box, so there is no access to the manipulate the rules within the tool. The IR rules are hierarchical, a patient can meet the criteria for multiple service lines but is assigned the service line that is highest in the hierarchy. Due to the hierarchy, a change in one rule can cause movement between specialised / non-specialised but also changes within final service line. SUS inpatient and outpatient tables combined contain in excess of 2 billion rows, understanding changes across service lines requires processing all of the data and is therefore slow analysis in SQL. 
+
+The aim of this project is to build a tool that will allow application and manipulation of the IR rules to the SUS datasets. The output will show movement between specialised / non-specialised, movement between service lines and changes in delegated/non-delegated services. As SUS is a patient level dataset there is opportunity to look at changes in patient demographics caused by amendments to the IR rules. As many of the services lines have associated provider eligibility lists, the output should also show changes in travel time for patients. There is potential to be able to analyse the elements of the rule criteria that have been met to assign the service code, this will help determine if there are redundant elements of the rules.

@@ -1,0 +1,39 @@
+---
+title: "Exploring the prediction of CVD using machine learning"
+techniques:
+  - Machine Learning
+  - Explainable AI
+areas:
+  -
+categories:
+  - Machine Learning
+  - Explainable AI
+author:
+  - name: Rohan Sitaram
+    affiliation: NHS North Central London ICB
+organisations:
+  - NHS North Central London ICB
+image: "6072.PNG"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+   The project aims to explore how well machine learning algorithms, predict CVD using binary classification models on existing data. 
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+The goal of the project is to explore how well machine learning algorithms (starting with Logistic Regression and then potentially moving on to others for comparison), predict CVD using binary classification models on data already held. 
+
+Assessing against the main metrics (Accuracy, Precision, Recall, F1 Score, AUC/ROC), and then further exploring what the model considers to be the most important factors when making predictions

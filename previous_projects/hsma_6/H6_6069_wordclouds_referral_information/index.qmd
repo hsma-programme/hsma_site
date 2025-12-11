@@ -1,0 +1,36 @@
+---
+title: "Generating wordclouds from referral information"
+techniques:
+  - Natural Language Processing (NLP)
+areas:
+  -
+categories:
+  - Natural Language Processing (NLP)
+author:
+  - name: Rebecca Marshall
+    affiliation: University Hospitals Coventry and Warwickshire Trust
+organisations:
+  - University Hospitals Coventry and Warwickshire Trust
+image: "6069.png"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+The aim of this project is to use Natural Language Processing techniques to extract commonly used information in the referral reason of referral order forms. 
+
+Often large paragraphs of free text are written here, but the service would find it useful to understand what are some of the most common reasons for referral.

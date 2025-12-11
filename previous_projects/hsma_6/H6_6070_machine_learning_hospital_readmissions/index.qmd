@@ -1,0 +1,39 @@
+---
+title: "Using Machine Learning techniques to predict Hospital Readmissions"
+techniques:
+  - Machine Learning
+  - Explainable AI
+areas:
+  -
+categories:
+  - Machine Learning
+  - Explainable AI
+author:
+  - name: Rebecca Marshall
+    affiliation: University Hospitals Coventry and Warwickshire Trust
+organisations: 
+  - University Hospitals Coventry and Warwickshire Trust
+image: "6070.PNG"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+   The Trust averages 480 emergency 30-day readmissions monthly. This exploratory project aims to use Machine Learning to predict readmissions and identify key factors. It will assess the accuracy of different approaches using current Trust data, potentially guiding future work in this area.
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url:
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+Each month, the Trust has, on average, 480 Emergency 30-day readmissions (7.7%). My aim is to use Machine Learning techniques to try predict who will get readmitted and identify any key factors which make it more likely for someone to be readmitted.
+
+At this stage, it is an exploratory project that will look more at what level of accuracy is possible to achieve with different approaches from the data currently held by the trust, and may inform future direction of work in this area.
