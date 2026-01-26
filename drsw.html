@@ -6,9 +6,8 @@
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
-<meta name="author" content="Hannah Perkins">
 
-<title>Modelling the effect of complex discharge delays on acute performance – HSMA</title>
+<title>drsw – HSMA</title>
 <style>
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
@@ -24,27 +23,27 @@ ul.task-list li input[type="checkbox"] {
 </style>
 
 
-<script src="../../../site_libs/quarto-nav/quarto-nav.js"></script>
-<script src="../../../site_libs/quarto-nav/headroom.min.js"></script>
-<script src="../../../site_libs/clipboard/clipboard.min.js"></script>
-<script src="../../../site_libs/quarto-search/autocomplete.umd.js"></script>
-<script src="../../../site_libs/quarto-search/fuse.min.js"></script>
-<script src="../../../site_libs/quarto-search/quarto-search.js"></script>
-<meta name="quarto:offset" content="../../../">
-<link href="../../../resources/favicon.png" rel="icon" type="image/png">
-<script src="../../../site_libs/cookie-consent/cookie-consent.js"></script>
-<link href="../../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
-<script src="../../../site_libs/quarto-html/quarto.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
-<script src="../../../site_libs/quarto-html/popper.min.js"></script>
-<script src="../../../site_libs/quarto-html/tippy.umd.min.js"></script>
-<script src="../../../site_libs/quarto-html/anchor.min.js"></script>
-<link href="../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
-<script src="../../../site_libs/bootstrap/bootstrap.min.js"></script>
-<link href="../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../site_libs/bootstrap/bootstrap-a5fa1572ea150a898f918c11d24127ac.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="site_libs/quarto-nav/headroom.min.js"></script>
+<script src="site_libs/clipboard/clipboard.min.js"></script>
+<script src="site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="site_libs/quarto-search/fuse.min.js"></script>
+<script src="site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="./">
+<link href="./resources/favicon.png" rel="icon" type="image/png">
+<script src="site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="site_libs/quarto-html/axe/axe-check.js" type="module"></script>
+<script src="site_libs/quarto-html/popper.min.js"></script>
+<script src="site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="site_libs/quarto-html/anchor.min.js"></script>
+<link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="site_libs/bootstrap/bootstrap-a5fa1572ea150a898f918c11d24127ac.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -102,26 +101,25 @@ cookieconsent.run({
 <style>
 
       .quarto-title-block .quarto-title-banner {
-        background-image: url(../../banner.png);
-background-size: cover;
+        background: /resources/banner.png;
       }
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
 
-<link rel="stylesheet" href="../../../styles.css">
+<link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="floating nav-fixed quarto-light">
+<body class="nav-fixed quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
     <nav class="navbar navbar-expand-xl " data-bs-theme="dark">
       <div class="navbar-container container-fluid">
       <div class="navbar-brand-container mx-auto">
-    <a href="../../../index.html" class="navbar-brand navbar-brand-logo">
-    <img src="../../../resources/Chalky HSMA-07-wide white logo.png" alt="" class="navbar-logo light-content">
-    <img src="../../../resources/Chalky HSMA-07-wide white logo.png" alt="" class="navbar-logo dark-content">
+    <a href="./index.html" class="navbar-brand navbar-brand-logo">
+    <img src="./resources/Chalky HSMA-07-wide white logo.png" alt="" class="navbar-logo light-content">
+    <img src="./resources/Chalky HSMA-07-wide white logo.png" alt="" class="navbar-logo dark-content">
     </a>
   </div>
             <div id="quarto-search" class="" title="Search"></div>
@@ -131,15 +129,15 @@ background-size: cover;
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
-    <a class="nav-link" href="../../../index.html"> 
+    <a class="nav-link" href="./index.html"> 
 <span class="menu-text">Welcome</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../hsma_content/books/books.html"> 
+    <a class="nav-link" href="./hsma_content/books/books.html"> 
 <span class="menu-text">Books</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../../hsma_content/modules/modules.html"> 
+    <a class="nav-link" href="./hsma_content/modules/modules.html"> 
 <span class="menu-text">Modules</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -148,41 +146,41 @@ background-size: cover;
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-projects">    
         <li>
-    <a class="dropdown-item" href="../../../previous_projects/projects_by_service_area.html">
+    <a class="dropdown-item" href="./previous_projects/projects_by_service_area.html">
  <span class="dropdown-text">Projects by Area of Care</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../previous_projects/projects_by_service_type_location.html">
+    <a class="dropdown-item" href="./previous_projects/projects_by_service_type_location.html">
  <span class="dropdown-text">Projects by Care Delivery Location</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../previous_projects/projects_by_organisation.html">
+    <a class="dropdown-item" href="./previous_projects/projects_by_organisation.html">
  <span class="dropdown-text">Projects by Organisation</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../previous_projects/projects_by_methods.html">
+    <a class="dropdown-item" href="./previous_projects/projects_by_methods.html">
  <span class="dropdown-text">Projects by Method</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../previous_projects/projects_by_cohort.html">
+    <a class="dropdown-item" href="./previous_projects/projects_by_cohort.html">
  <span class="dropdown-text">Projects by HSMA Cohort</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../previous_projects/projects_with_code.html">
+    <a class="dropdown-item" href="./previous_projects/projects_with_code.html">
  <span class="dropdown-text">Projects With Code Shared</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../previous_projects/projects_in_progress.html">
+    <a class="dropdown-item" href="./previous_projects/projects_in_progress.html">
  <span class="dropdown-text">Projects In Progress</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../previous_projects/completed_projects.html">
+    <a class="dropdown-item" href="./previous_projects/completed_projects.html">
  <span class="dropdown-text">Completed Projects</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../../impact_stories.html"> 
+    <a class="nav-link" href="./impact_stories.html"> 
 <span class="menu-text">Case Studies</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -191,23 +189,23 @@ background-size: cover;
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-student-resources">    
         <li>
-    <a class="dropdown-item" href="../../../project_log_recording_app.html">
+    <a class="dropdown-item" href="./project_log_recording_app.html">
  <span class="dropdown-text">Project Log Recording App</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../assessment_faqs.html">
+    <a class="dropdown-item" href="./assessment_faqs.html">
  <span class="dropdown-text">Certification Guidance</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../phase_2_details.html">
+    <a class="dropdown-item" href="./phase_2_details.html">
  <span class="dropdown-text">Phase 2 Dates &amp; Events</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../registering_a_project.html">
+    <a class="dropdown-item" href="./registering_a_project.html">
  <span class="dropdown-text">Registering a Project</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../project_faqs.html">
+    <a class="dropdown-item" href="./project_faqs.html">
  <span class="dropdown-text">Project FAQs</span></a>
   </li>  
     </ul>
@@ -218,21 +216,21 @@ background-size: cover;
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-other-resources">    
         <li>
-    <a class="dropdown-item" href="../../../hsma_content/des_playground.html">
+    <a class="dropdown-item" href="./hsma_content/des_playground.html">
  <span class="dropdown-text">The DES Playground</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../hsma_content/reinforcement_learning_game.html">
+    <a class="dropdown-item" href="./hsma_content/reinforcement_learning_game.html">
  <span class="dropdown-text">Reinforcement Learning Game</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../hsma_content/desperately_seeking_simulation_workshop.html">
+    <a class="dropdown-item" href="./hsma_content/desperately_seeking_simulation_workshop.html">
  <span class="dropdown-text">HSMA Lambda Pilot - Simulation Workshop</span></a>
   </li>  
     </ul>
   </li>
   <li class="nav-item">
-    <a class="nav-link" href="../../../news.html"> 
+    <a class="nav-link" href="./news.html"> 
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -241,23 +239,23 @@ background-size: cover;
     </a>
     <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
         <li>
-    <a class="dropdown-item" href="../../../about-hsma.html">
+    <a class="dropdown-item" href="./about-hsma.html">
  <span class="dropdown-text">The HSMA Programme</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../staff.html">
+    <a class="dropdown-item" href="./staff.html">
  <span class="dropdown-text">HSMA Staff</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../foss.html">
+    <a class="dropdown-item" href="./foss.html">
  <span class="dropdown-text">HSMA &amp; Open Source Software</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../faqs.html">
+    <a class="dropdown-item" href="./faqs.html">
  <span class="dropdown-text">Frequently Asked Questions</span></a>
   </li>  
         <li>
-    <a class="dropdown-item" href="../../../policies_and_procedures.html">
+    <a class="dropdown-item" href="./policies_and_procedures.html">
  <span class="dropdown-text">Policies and Procedures</span></a>
   </li>  
     </ul>
@@ -291,72 +289,18 @@ background-size: cover;
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
-<header id="title-block-header" class="quarto-title-block projects default toc-left page-columns page-full">
-    <div class="quarto-title-banner page-columns page-full">
-
-                <div class="project-link-buttons">
-            <ul class="project-links">
-                                                <button class="custom-button"><a href="https://www.youtube.com/watch?v=nrUkRha_5F0&amp;t=1s"><i class="fa-brands fa-youtube"></i> Video</a></button>
-                                            </ul>
-        </div>
-        
-                <div class="back-nav"><a href="javascript:history.back()">← Back to HSMA projects</a></div>
-        
-        <div class="quarto-title column-body">
-            <h1 class="title">Modelling the effect of complex discharge delays on acute performance</h1>
-
-            
-            
-                        <br>
-            <div class="abstract">
-                <b>30 Second Summary</b>
-                <p>Hospitals face increasing A&amp;E wait times, ambulance delays, and growing waiting lists, partly due to inefficient patient discharges. This project modelled patient flow in and out of acute hospitals, focusing on discharge delays.</p>
-            </div>
-            
-                                    <div class="quarto-categories">
-                                <div class="quarto-category">Discrete Event Simulation (DES)</div>
-                                <div class="quarto-category">Discharge</div>
-                                <div class="quarto-category">Hospitals</div>
-                                <div class="quarto-category">Patient Flow</div>
-                                <div class="quarto-category">Acute Care</div>
-                                <div class="quarto-category">Inter-service Interactions</div>
-                                <div class="quarto-category">NHS</div>
-                            </div>
-                                </div>
-
-    </div>
-
-    <div class="quarto-title-meta-author">
-      <div class="quarto-title-meta-heading">Author</div>
-      <div class="quarto-title-meta-heading">Affiliation</div>
-      
-        <div class="quarto-title-meta-contents">
-        <p class="author">Hannah Perkins </p>
-      </div>
-      <div class="quarto-title-meta-contents">
-            <p class="affiliation">
-                University Hospitals Plymouth NHS Trust
-              </p>
-          </div>
-      </div>
-
-    <div class="quarto-title-meta">
-
-          
-      
-        
-      </div>
-      
-
-    
-</header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<header id="title-block-header" class="quarto-title-block"></header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
-  <nav id="quarto-sidebar" class="sidebar collapse collapse-horizontal quarto-sidebar-collapse-item sidebar-navigation floating overflow-auto">
-    
-</nav>
-<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#impact-case-studies" id="toc-impact-case-studies" class="nav-link active" data-scroll-target="#impact-case-studies">Impact Case studies</a></li>
+  <li><a href="#links" id="toc-links" class="nav-link" data-scroll-target="#links">Links</a></li>
+  </ul>
+</nav>
     </div>
 <!-- main -->
 <main class="content quarto-banner-title-block" id="quarto-document-content">
@@ -364,12 +308,37 @@ background-size: cover;
 
 
 
-<p>Hospitals across the country are struggling to provide patients with the care they need in a timely manner. Increasing waiting times in A&amp;E departments, long waits for ambulances and growing waiting lists are all examples of these issues. A possible cause of these issues is the difficulty in discharging patients from acute hospital beds efficiently, due to lack of onward care capacity. Timely discharges are crucial to patient care, to get the right care in the right place at the right time.</p>
-<p>A previous PenCHORD project, IPACS, looked at understanding the capacity required in social and community care to facilitate timely flow out of acute hospitals. This project was based on IPACS, and extended the scope to include elective inpatient waiting lists and patients in the emergency department.</p>
-<p>The aim of the project was to model flow of patients into and out of an acute hospital site, with particular focus on how delays to complex discharges affect patients waiting to come into the hospital. The results from this project will help to articulate how the issues in discharging patients from an acute hospital bed affect emergency care performance (time spent in A&amp;E and ambulance handover time) as well as waiting lists for elective inpatient care. A discrete event simulation was created to model patient flow through an acute facility and into community/social care.</p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/nrUkRha_5F0" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="impact-case-studies" class="level2">
+<h2 class="anchored" data-anchor-id="impact-case-studies">Impact Case studies</h2>
+<p>HSMA projects have:</p>
+<ul>
+<li><p>supported a business case for capital funding used to build a new £11.8 million mental health ward, reducing the number of patients being sent out of area: <a href="https://arc-swp.nihr.ac.uk/news/research-instrumental-in-securing-8-million-funding-for-new-hospital-mental-health-ward/">LINK</a></p></li>
+<li><p>identified bottlenecks and improved flow and performance in urgent care (<a href="https://hsma.co.uk/previous_projects/hsma_4/h4_4006_des_flow_performance_utc/index.html">LINK</a>) and (talking therapies <a href="https://hsma.co.uk/previous_projects/hsma_6/H6_6063_modelling_talking_therapies_clinical_pathway_using_des/index.html">LINK</a>)</p></li>
+<li><p>identified ways to improve outcomes for stroke patients whilst making multi-million pound savings: <a href="https://hsma.co.uk/previous_projects/hsma_6/H6_6055_DES_modelling_Hyperacute_Acute_Stroke_Pathway/index.html">LINK</a></p></li>
+<li><p>helped support safe delivery of COVID-19 vaccines: <a href="hsma.co.uk/previous_projects/hsma_3/h3_3003_generic_vaccination/index.html">LINK</a></p></li>
+<li><p>redrawn ambulance boundaries to improve response times: <a href="https://hsma.co.uk/previous_projects/hsma_6/H6_6056_Redrawing_NW_Ambulance_dispatch_boundaries/index.html">LINK</a></p></li>
+<li><p>led to free tools being developed for</p>
+<ul>
+<li>equitable allocation of discretionary GP funding (<a href="https://hsma.co.uk/previous_projects/hsma_alumni/H5_5100_Extra_funding_allocation_inequality_tool/index.html">LINK</a>)</li>
+<li>elective bed planning (<a href="https://hsma.co.uk/previous_projects/hsma_6/H6_6001_DES_modelling_non_elective_flow/index.html">LINK</a>)</li>
+<li>placing new cardiac service sites (<a href="https://hsma.co.uk/previous_projects/hsma_4/h4_4013_reducing_travel_times_cardiac_patients/index.html">LINK</a>)</li>
+<li>and more (<a href="https://hsma.co.uk/previous_projects/projects_with_code.html">LINK</a>)</li>
+</ul></li>
+</ul>
+</section>
+<section id="links" class="level2">
+<h2 class="anchored" data-anchor-id="links">Links</h2>
+<ul>
+<li>HSMA Youtube: <a href="https://www.youtube.com/@hsma">youtube.com/<span class="citation" data-cites="hsma">@hsma</span></a></li>
+<li>HSMA LinkedIn: <a href="https://www.linkedin.com/company/hsma-programme/">linkedin.com/company/hsma-programme/</a></li>
+<li>HSMA Team Email: <a href="mailto:penchord@exeter.ac.uk">penchord@exeter.ac.uk</a></li>
+<li>HSMA Training Content: <a href="https://hsma.co.uk/hsma_content/modules/modules.html">https://hsma.co.uk/learn</a></li>
+<li>HSMA Books: <a href="https://hsma.co.uk/hsma_content/books/books.html">https://hsma.co.uk/books</a></li>
+<li>All HSMA Case Studies: <a href="https://hsma.co.uk/impact_stories.html">https://hsma.co.uk/case-studies</a></li>
+</ul>
 
 
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
@@ -779,7 +748,7 @@ background-size: cover;
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p><a href="https://arc-swp.nihr.ac.uk/"><img src="../../../resources/nihr_logo.png" class="img-fluid" width="250"></a><br><br> <em>This report is independent research supported by the National Institute for Health and Care Research Applied Research Collaboration South West Peninsula. The views expressed in this publication are those of the author(s) and not necessarily those of the National Institute for Health and Care Research or the Department of Health and Social Care.</em> <br><br> <a href="../../../policies_procedures/accessibility_statement.html">Accessibility Statement</a> <br> <a href="../../../policies_procedures/code_of_conduct.html">Code of Conduct</a> <br> <a href="../../../policies_procedures/concerns_and_complaints.html">Concerns and Complaints</a></p>
+<p><a href="https://arc-swp.nihr.ac.uk/"><img src="./resources/nihr_logo.png" class="img-fluid" width="250"></a><br><br> <em>This report is independent research supported by the National Institute for Health and Care Research Applied Research Collaboration South West Peninsula. The views expressed in this publication are those of the author(s) and not necessarily those of the National Institute for Health and Care Research or the Department of Health and Social Care.</em> <br><br> <a href="./policies_procedures/accessibility_statement.html">Accessibility Statement</a> <br> <a href="./policies_procedures/code_of_conduct.html">Code of Conduct</a> <br> <a href="./policies_procedures/concerns_and_complaints.html">Concerns and Complaints</a></p>
 <div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
