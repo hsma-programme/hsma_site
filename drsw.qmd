@@ -2,15 +2,17 @@
 
 HSMA projects have:
 
-- supported a business case for capital funding used to build a new £11.8 million mental health ward, reducing the number of patients being sent out of area: [LINK](https://arc-swp.nihr.ac.uk/news/research-instrumental-in-securing-8-million-funding-for-new-hospital-mental-health-ward/)
+- supported a business case for capital funding used to build a new £11.8 million mental health ward, reducing the number of patients being sent out of area ([LINK](https://hsma.co.uk/previous_projects/hsma_1/H1_1002_modelling_resources_to_reduce_out_of_area_placements_MH/index.html))
 
-- identified bottlenecks and improved flow and performance in urgent care ([LINK](https://hsma.co.uk/previous_projects/hsma_4/h4_4006_des_flow_performance_utc/index.html)) and (talking therapies [LINK](https://hsma.co.uk/previous_projects/hsma_6/H6_6063_modelling_talking_therapies_clinical_pathway_using_des/index.html))
+- identified bottlenecks and improved flow and performance in
+    - urgent care ([LINK](https://hsma.co.uk/previous_projects/hsma_4/h4_4006_des_flow_performance_utc/index.html))
+    - talking therapies ([LINK](https://hsma.co.uk/previous_projects/hsma_6/H6_6063_modelling_talking_therapies_clinical_pathway_using_des/index.html))
 
-- identified ways to improve outcomes for stroke patients whilst making multi-million pound savings: [LINK](https://hsma.co.uk/previous_projects/hsma_6/H6_6055_DES_modelling_Hyperacute_Acute_Stroke_Pathway/index.html)
+- identified ways to improve outcomes for stroke patients whilst making multi-million pound savings ([LINK](https://hsma.co.uk/previous_projects/hsma_6/H6_6055_DES_modelling_Hyperacute_Acute_Stroke_Pathway/index.html))
 
-- helped support safe delivery of COVID-19 vaccines: [LINK](hsma.co.uk/previous_projects/hsma_3/h3_3003_generic_vaccination/index.html)
+- helped support safe delivery of COVID-19 vaccines ([LINK](https://hsma.co.uk/previous_projects/hsma_3/h3_3003_generic_vaccination/index.html))
 
-- redrawn ambulance boundaries to improve response times: [LINK](https://hsma.co.uk/previous_projects/hsma_6/H6_6056_Redrawing_NW_Ambulance_dispatch_boundaries/index.html)
+- redrawn ambulance boundaries to improve response times ([LINK](https://hsma.co.uk/previous_projects/hsma_6/H6_6056_Redrawing_NW_Ambulance_dispatch_boundaries/index.html))
 
 - led to free tools being developed for
     - equitable allocation of discretionary GP funding ([LINK](https://hsma.co.uk/previous_projects/hsma_alumni/H5_5100_Extra_funding_allocation_inequality_tool/index.html))
