@@ -50,7 +50,7 @@ listing:
 
 :::: {.columns}
 
-::: {.column width='45%'}
+::: {.column width='auto'}
 
 ![](../../books/book_details/geographic_cover_image.jpeg){height=250}
 
@@ -60,8 +60,8 @@ listing:
 
 :::
 
-::: {.column width='50%'}
-
+::: {.column}
+<br/>
 We also have a free eBook that accompanies this module! Check it out at [geographic.hsma.co.uk](https://geographic.hsma.co.uk).
 
 If you'd rather follow along with the recorded HSMA sessions and exercises, these can be found below.

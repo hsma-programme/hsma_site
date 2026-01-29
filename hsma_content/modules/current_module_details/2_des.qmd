@@ -39,22 +39,18 @@ listing:
 
 :::: {.columns}
 
-::: {.column width='45%'}
-
+::: {.column width="auto"}
 ![](../../books/book_details/des_cover_image.jpeg){height=250}
-
 :::
 
-::: {.column width='5%'}
-
+::: {.column width="5%"}
 :::
 
-::: {.column width='50%'}
-
+::: {.column}
+<br/>
 We also have a free eBook that accompanies this module! Check it out at [des.hsma.co.uk](https://des.hsma.co.uk).
 
 If you'd rather follow along with the recorded HSMA sessions and exercises, these can be found below.
-
 :::
 
 ::::

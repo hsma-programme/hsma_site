@@ -47,7 +47,7 @@ listing:
 
 :::: {.columns}
 
-::: {.column width='45%'}
+::: {.column width='auto'}
 
 ![](../../books/book_details/streamlit_cover_image.jpeg){height=250}
 
@@ -57,8 +57,8 @@ listing:
 
 :::
 
-::: {.column width='50%'}
-
+::: {.column}
+<br/>
 We also have a free eBook that accompanies the web development section of this module! Check it out at [streamlit.hsma.co.uk](https://streamlit.hsma.co.uk).
 
 If you'd rather follow along with the recorded HSMA sessions and exercises, these can be found below.
