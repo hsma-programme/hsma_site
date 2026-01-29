@@ -61,7 +61,7 @@ This project will use Time Series Forecasting methods and a Repeatable Analytica
 
 ## Case Study
 
-![](../../../impact_posters/Forecasting%20AE%20attendance.png)
+![](../../../impact_posters/Forecasting%20AE%20attendance.png){.lightbox}
 
 ## Video
 
