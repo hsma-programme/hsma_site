@@ -50,9 +50,13 @@ listing:
 
 :::: {.columns}
 
-::: {.column width='50%'}
+::: {.column width='45%'}
 
-![](../../books/book_details/geographic_cover_image.jpeg)
+![](../../books/book_details/geographic_cover_image.jpeg){height=250}
+
+:::
+
+::: {.column width='5%'}
 
 :::
 
