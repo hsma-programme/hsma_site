@@ -20,7 +20,6 @@ organisations:
   - Liverpool University Hospitals NHS Foundation Trust
 image: "6011.PNG"
 title-block-banner: ../../banner.png
-status: Active
 pub-info:
   abstract: |
     The project aims to forecast A&E attendances 6 weeks in advance, considering seasonal patterns. This helps manage limited resources, plan staffing levels, and assess the need for escalation during abnormal events. Using Time Series Forecasting and a Repeatable Analytical Pipeline, the project addresses the unpredictability of A&E demand influenced by various factors.
@@ -31,6 +30,9 @@ pub-info:
   - name: Code
     url:
     icon: fa-brands fa-github
+  - name: Case Study
+    url: https://hsma.co.uk/impact_posters/Forecasting%20AE%20attendance.png
+    icon: fa-solid fa-file-lines
   - name: Website
     url:
     icon: fa-solid fa-globe
@@ -45,7 +47,9 @@ pub-info:
     icon: fa-solid fa-person-chalkboard
 ---
 
-The aim of this project is to forecast future A&E attendances 6 weeks in advance, accounting for seasonal patterns.
+The aim of this project was to forecast future A&E attendances 6 weeks in advance, accounting for seasonal patterns.
+
+## Original project brief
 
 NHS A&E is under pressure nationwide for a long-time and often we do not know what lies ahead of us to manage the limited resources available and understand when interventions and helps are needed. This is in addition to seasonal pressures.
 
@@ -53,6 +57,12 @@ Currently A&E has a challenging time looking ahead and manage staffing level nee
 
 A&E is known for its unpredictability in demand that varies with seasonal trend, location, population, weather and various of other factors.
 
-The project will use Time Series Forecasting methods and a Repeatable Analytical Pipeline for Deployment.
+This project will use Time Series Forecasting methods and a Repeatable Analytical Pipeline for Deployment.
+
+## Case Study
+
+![](../../../impact_posters/Forecasting%20AE%20attendance.png)
+
+## Video
 
 {{< video https://youtu.be/uywbayhnass?feature=shared >}}

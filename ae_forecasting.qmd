@@ -1,0 +1,12 @@
+---
+title: A&E Forecasting Case Study
+title-block-banner: resources/banner.png
+include-back-link: false
+format:
+  html:
+    include-in-header:
+      - text: |
+            <meta http-equiv="refresh" content='0; URL=https://hsma.co.uk/previous_projects/hsma_6/H6_6011_Forecasting_modelling_for_A&E_attendance/index.html'></meta>
+---
+
+Redirecting to the case study. If you are not redirected within 3 seconds, click [here](https://hsma.co.uk/previous_projects/hsma_6/H6_6011_Forecasting_modelling_for_A&E_attendance/index.html) to go to the page.

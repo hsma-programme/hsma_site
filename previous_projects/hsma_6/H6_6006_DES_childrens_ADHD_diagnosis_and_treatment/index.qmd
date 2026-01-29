@@ -22,7 +22,6 @@ organisations:
   - Lancashire and South Cumbria NHS Foundation Trust
 image: "6006.PNG"
 title-block-banner: ../../banner.png
-status: Active
 repo: Y
 pub-info:
   abstract: |

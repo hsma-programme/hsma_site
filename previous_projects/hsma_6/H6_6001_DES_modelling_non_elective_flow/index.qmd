@@ -21,7 +21,6 @@ organisations:
   - Countess of Chester Hospital NHS Foundation Trust
 image: "6001.PNG"
 title-block-banner: ../../banner.png
-status: Active
 repo: Y
 page-layout: full
 grid:
