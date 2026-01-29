@@ -42,3 +42,29 @@ listing:
       categories: false
       template: ../../../html/modules/session_listing.ejs
 ---
+
+:::{.callout-tip}
+
+:::: {.columns}
+
+::: {.column width='50%'}
+
+![](../../books/book_details/streamlit_cover_image.jpeg)
+
+:::
+
+::: {.column width='50%'}
+
+We also have a free eBook that accompanies the web development section of this module! Check it out at [streamlit.hsma.co.uk](https://streamlit.hsma.co.uk).
+
+If you'd rather follow along with the recorded HSMA sessions and exercises, these can be found below.
+
+:::
+
+::::
+
+:::
+
+
+::: {#7_git_streamlit}
+:::

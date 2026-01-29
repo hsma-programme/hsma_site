@@ -5,10 +5,10 @@ hours: 30
 image: "4_ml.jpeg"
 pub-info:
   abstract: |
-    This module serves as an introduction to machine learning methods in Python. Students make use of packages including scikit-learn and tensorflow to train and assess machine learning models that can classify data into groups or predict a numeric value (e.g. length of stay). 
+    This module serves as an introduction to machine learning methods in Python. Students make use of packages including scikit-learn and tensorflow to train and assess machine learning models that can classify data into groups or predict a numeric value (e.g. length of stay).
     <br/><br/>
     It covers
-    <br/>&#x2022; Key machine learning concepts, such as train-test splits, accuracy, the bias-variance trade-off, and more  
+    <br/>&#x2022; Key machine learning concepts, such as train-test splits, accuracy, the bias-variance trade-off, and more
     <br/>&#x2022; Preparing data for machine learning with one-hot encoding, feature engineering
     <br/>&#x2022; Machine learning ethics
     <br/>&#x2022; Tackling classification problems with machine learning
@@ -20,11 +20,11 @@ pub-info:
     <br/>&#x2022; Calibrating models for obtaining prediction probabilities
     <br/>&#x2022; Optimising model parameters efficiently with grid search and the optuna framework
     <br/>&#x2022; Optimising the selected features with a range of feature selection approaches
-    <br/>&#x2022; Creating neural networks for classification problems with the tensorflow package 
+    <br/>&#x2022; Creating neural networks for classification problems with the tensorflow package
     <br/>&#x2022; The principles of reinforcement learning
     <br/>&#x2022; Creating synthetic data with SMOTE
 
-    
+
 page-layout: full
 grid:
   sidebar-width: 0px
@@ -41,3 +41,29 @@ listing:
       categories: false
       template: ../../../html/modules/session_listing.ejs
 ---
+
+:::{.callout-tip}
+
+:::: {.columns}
+
+::: {.column width='50%'}
+
+![](../../books/book_details/machine_learning_cover_image.jpeg)
+
+:::
+
+::: {.column width='50%'}
+
+We also have a free eBook that gathers all of the coding notebooks from this module! Check it out at [machinelearning.hsma.co.uk](https://machinelearning.hsma.co.uk).
+
+If you'd rather follow along with the recorded HSMA sessions and exercises, these can be found below.
+
+:::
+
+::::
+
+:::
+
+
+::: {#4_ml}
+:::
