@@ -6,7 +6,7 @@ toc: true
 toc-depth: 4
 ---
 
-The HSMA Programme is accredited by the Association of Professional Healthcare Analysts (AphA) and all participants are able to cite this as part of their participation. However, we also recognise that some participants may want to receive a digital certificate to confirm their completion of the programme. To this end, we provide optional certification via Accredible.
+The HSMA Programme is accredited by the Association of Professional Healthcare Analysts (AphA) and all participants are able to cite this as part of their participation. However, we also recognise that some participants may want to receive a digital certificate to confirm their completion of the programme. To this end, we provide **optional** certification.
 
 To ensure that we are only certifying those that have adequately engaged with the course, if a participant would like to be certified, we require some evidence that a participant has both
 
@@ -58,10 +58,7 @@ I confirm that the project reporting form has been filled in.
 
 -   [ ] The programme staff will acknowledge receipt of your request, and let you know when a decision has been reached.
 -   [ ] You will then be contacted with the decision, at which point we will confirm how you want your name to appear on the certificate, and which email address it should be sent to.
-
-Our certificate provider, Accredible, will provide a link to share your achievement on LinkedIn - we'd love to be tagged if you do post about it!
-
-![](assets/2025-07-29-16-09-04.png)
+- [ ] A member of the team will send out your certificate.
 
 ### Common Questions about Certification via the Project Route
 
