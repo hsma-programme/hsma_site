@@ -2,13 +2,16 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.8.27">
+<meta name="generator" content="quarto-1.9.37">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
 <title>8A: Reproducible Reporting in Python with Quarto and xlsxwriter – HSMA</title>
 <style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
 code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
 div.columns{display: flex; gap: min(4vw, 1.5em);}
@@ -35,15 +38,14 @@ ul.task-list li input[type="checkbox"] {
 <link href="../../../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../../../../site_libs/quarto-html/quarto.js" type="module"></script>
 <script src="../../../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
-<script src="../../../../site_libs/quarto-html/axe/axe-check.js" type="module"></script>
 <script src="../../../../site_libs/quarto-html/popper.min.js"></script>
 <script src="../../../../site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="../../../../site_libs/quarto-html/anchor.min.js"></script>
 <link href="../../../../site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-4d9afe2b8d18ee9fa5d0d57b5ed4214d.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="../../../../site_libs/quarto-html/quarto-syntax-highlighting-dark-d0ae9245876894da5ac7e18953ecc5cc.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../../../../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../../../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../../../../site_libs/bootstrap/bootstrap-9df18c5be4e957e2016605e062a999a8.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="../../../../site_libs/bootstrap/bootstrap-eacdc3847142292075f5142007e22fc2.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -181,6 +183,10 @@ background-size: cover;
     </ul>
   </li>
   <li class="nav-item">
+    <a class="nav-link" href="../../../../lambda.html"> 
+<span class="menu-text">Lambda</span></a>
+  </li>  
+  <li class="nav-item">
     <a class="nav-link" href="../../../../impact_stories.html"> 
 <span class="menu-text">Case Studies</span></a>
   </li>  
@@ -285,8 +291,8 @@ background-size: cover;
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <div id="quarto-announcement" data-announcement-id="6fadbd8c5fbc275e9774bbb4263c9325" class="alert alert-info hidden"><i class="bi bi-megaphone quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><strong>Read about our latest HSMA success story - where savings of up to £2 million have been identified via the use of a simulation model built by a member of our HSMA 6 cohort - on the <a href="https://arc-swp.nihr.ac.uk/news/transforming-stroke-care-through-simulation-how-one-hsma-graduates-model-could-save-over-2-million-annually/">PenARC blog</a>. <br><br> We hope to launch HSMA 7 in mid 2026. Want to hear when we open up applications? Send us an email at <a href="mailto:penchord@exeter.ac.uk?subject=Contact%20from%20HSMA%20Website%20&amp;body=If%20you%20would%20like%20to%20be%20added%20to%20the%20HSMA%20mailing%20list%2C%20please%20complete%20the%20fields%20below.%0A%0AFull%20Name%3A%0A%0AOrganisation%3A%0A%0AIf%20you%20have%20a%20different%20query%2C%20please%20replace%20the%20content%20of%20this%20message%20with%20your%20own.%20%0A%0AThis%20is%20an%20automatically%20generated%20email%20from%20a%20link%20on%20the%20HSMA%20website">penchord@exeter.ac.uk</a> stating your full name and organisation to be added to our mailing list.</strong></p>
+  <div id="quarto-announcement" data-announcement-id="f9c7e8feec78b3a6dd6981a898ff6b2d" class="alert alert-info hidden"><i class="bi bi-megaphone quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><strong>We hope to launch our brand new HSMA-λ (HSMA lambda) courses, aimed at leaders and decision makers, in <em>late 2026</em>, and HSMA 7 in <em>early 2027</em>.<br>Want to hear when we open up applications for either of these? Send us an email at <a href="mailto:penchord@exeter.ac.uk?subject=Contact%20from%20HSMA%20Website%20&amp;body=If%20you%20would%20like%20to%20be%20added%20to%20the%20HSMA%20mailing%20list%2C%20please%20complete%20the%20fields%20below.%0A%0AFull%20Name%3A%0A%0AOrganisation%3A%0A%0AIf%20you%20have%20a%20different%20query%2C%20please%20replace%20the%20content%20of%20this%20message%20with%20your%20own.%20%0A%0AThis%20is%20an%20automatically%20generated%20email%20from%20a%20link%20on%20the%20HSMA%20website">penchord@exeter.ac.uk</a> (stating your full name and organisation) to be added to our mailing list.</strong></p>
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
@@ -730,7 +736,7 @@ background-size: cover;
       &nbsp;
     </div>   
     <div class="nav-footer-center">
-<p><a href="https://arc-swp.nihr.ac.uk/"><img src="../../../../resources/nihr_logo.png" class="img-fluid" width="250"></a><br><br> <em>This report is independent research supported by the National Institute for Health and Care Research Applied Research Collaboration South West Peninsula. The views expressed in this publication are those of the author(s) and not necessarily those of the National Institute for Health and Care Research or the Department of Health and Social Care.</em> <br><br> <a href="../../../../policies_procedures/accessibility_statement.html">Accessibility Statement</a> <br> <a href="../../../../policies_procedures/code_of_conduct.html">Code of Conduct</a> <br> <a href="../../../../policies_procedures/concerns_and_complaints.html">Concerns and Complaints</a></p>
+<p><a href="https://arc-swp.nihr.ac.uk/"><img src="../../../../resources/ARC-logo-horizontal-white.svg" class="img-fluid" width="250"></a><br><br> <em>This work is independent research supported by the National Institute for Health and Care Research Applied Research Collaboration South West. The views expressed in this publication are those of the author(s) and not necessarily those of the National Institute for Health and Care Research or the Department of Health and Social Care.</em> <br><br> <a href="../../../../policies_procedures/accessibility_statement.html">Accessibility Statement</a> <br> <a href="../../../../policies_procedures/code_of_conduct.html">Code of Conduct</a> <br> <a href="../../../../policies_procedures/concerns_and_complaints.html">Concerns and Complaints</a></p>
 <div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
     <div class="nav-footer-right">
       &nbsp;
