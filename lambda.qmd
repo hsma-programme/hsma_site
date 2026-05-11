@@ -6,12 +6,16 @@ include-back-link: false
 page-layout: full
 ---
 
-Launching in **late 2026**, our new HSMA-λ (HSMA lambda) offering is a series of **standalone workshops** targeted at decision makers in the health service.
+Launching in **Autumn 2026**, our new HSMA-λ (HSMA lambda) offering is a series of **standalone workshops** targeted at decision makers in the health service.
 
-HSMA-λ will focus on supporting participant to understand the advanced techniques that are taught on HSMA so you can **ask the right questions** and **interpret project outputs**.
+HSMA-λ will focus on supporting participants to understand the advanced techniques that are taught on HSMA so you can **ask the right questions** and **interpret project outputs**.
+
+<br/>
 
 <div class="value-box-simple bg-red" style="justify-content:center; text-align:center;">
-<p>**No code, no technical jargon** – just teaching focused on real-world application, helping you understand the art of the possible in cutting-edge data science and operational research techniques, whatever your prior level of knowledge.</p>
+<h3>No code, no technical jargon</h3>
+
+<p>Just teaching focused on real-world application, helping you understand the art of the possible in cutting-edge data science and operational research techniques, whatever your prior level of knowledge.</p>
 </div>
 
 <br/>
@@ -29,8 +33,8 @@ Taught by the core HSMA team – applied University of Exeter researchers who ha
         <div class="details">Free of charge to people working in a public sector healthcare organisation.</div>
     </div>
     <div class="value-box bg-red">
-        <div class="icon" style="font-size: 2rem;"><i class="fa-solid fa-laptop-medical"></i></div>
-        <div class="details">Delivered to small groups of under 20 people, made up exclusively of people working in similar roles across the health service</div>
+        <div class="icon" style="font-size: 2rem;"><i class="fa-solid fa-users"></i></div>
+        <div class="details">Delivered to small groups of under 20 people, made up exclusively of people working in similar roles across the health service.</div>
     </div>
 </div>
 ```
@@ -114,11 +118,13 @@ We also equip you with the knowledge you need to ask the right questions about a
 
 No – but you will learn enough to be able to design and support projects using the methods covered on each workshop.
 
+You will also have the opportunity to propose project ideas to be worked on in HSMA 7 as HSMA projects, as well as nominating candidates from your organisation for the HSMA programme.
+
 If you want to learn how to write the code required to create these models yourself, keep an eye out for registration opening up for HSMA 7 (hopefully launching in early 2027) or access our [HSMA 6 recordings](https://hsma.co.uk/hsma_content/modules/modules.html) or [teach-yourself ebooks](https://hsma.co.uk/hsma_content/books/books.html).
 
 ### Do I need any technical background?
 
-No! Unlike the core HSMA programme, there are no coding or technical requirements for HSMA lambda workshops. We do not expect you to have any prior knowledge of these techniques or any background in computer programming, mathematics or operational research.
+No! Unlike the core HSMA programme, there are no coding or technical requirements for HSMA lambda workshops. We do not expect you to have any prior knowledge of these techniques or any background in mathematics, computer programming, data science or operational research.
 
 ### My question is not answered here
 
