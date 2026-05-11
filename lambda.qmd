@@ -1,0 +1,125 @@
+---
+title: "HSMA λ (Lambda)"
+toc: false
+title-block-banner: resources/banner.png
+include-back-link: false
+page-layout: full
+---
+
+Launching in **late 2026**, our new HSMA-λ (HSMA lambda) offering is a series of **standalone workshops** targeted at decision makers in the health service.
+
+HSMA-λ will focus on supporting participant to understand the advanced techniques that are taught on HSMA so you can **ask the right questions** and **interpret project outputs**.
+
+<div class="value-box-simple bg-red" style="justify-content:center; text-align:center;">
+<p>**No code, no technical jargon** – just teaching focused on real-world application, helping you understand the art of the possible in cutting-edge data science and operational research techniques, whatever your prior level of knowledge.</p>
+</div>
+
+<br/>
+
+Taught by the core HSMA team – applied University of Exeter researchers who have delivered training to over 450 HSMAs and supported the development of over 100 real-world healthcare data science projects in the NHS, allied professions, healthcare charities and beyond – this new format opens up the world of HSMA to a wider range of people.
+
+```{=html}
+<div class="value-grid-box" style="justify-content:center; text-align:center;">
+    <div class="value-box bg-red">
+        <div class="icon" style="font-size: 2rem;"><i class="bi bi-cloud"></i></div>
+        <div class="details">An interactive online workshop lasting around 3 hours, with plenty of time for group discussions and questions.</div>
+    </div>
+    <div class="value-box bg-red">
+        <div class="icon" style="font-size: 2rem;"><i class="bi bi-currency-pound"></i></div>
+        <div class="details">Free of charge to people working in a public sector healthcare organisation.</div>
+    </div>
+    <div class="value-box bg-red">
+        <div class="icon" style="font-size: 2rem;"><i class="fa-solid fa-laptop-medical"></i></div>
+        <div class="details">Delivered to small groups of under 20 people, made up exclusively of people working in similar roles across the health service</div>
+    </div>
+</div>
+```
+
+<br/>
+
+Our **three** workshops will focus on a different modelling or data science approach, and therefore a
+different set of problems that can be solved. Attend one or attend them all – it's up to you!
+
+At each workshop, you will
+
+- Learn about the kinds of questions that these methods can be used to answer
+- Understand how the methods work at a high level, and how you can interact with these models and interpret their outputs
+- Identify problems in your own organisation that could be tackled using these methods
+- Identify shared problems across organisations that could be tackled collaboratively
+- Form structured questions to use as a basis for project work in HSMA, and identify individuals or teams to nominate for HSMA to work on these problems
+
+## Workshops
+
+```{=html}
+<div class="value-grid-box" style="justify-content:center; text-align:center;">
+    <div class="value-box bg-red">
+        <div class="icon" style="font-size: 2rem;"><i class="bi bi-signpost-split"></i></div>
+        <div class="details">Simulation Modelling<br>for Pathway Problems</div>
+    </div>
+    <div class="value-box bg-red">
+        <div class="icon" style="font-size: 2rem;"><i class="bi bi-globe-americas"></i></div>
+        <div class="details">Location Optimization<br>for Equity and Efficiency</div>
+    </div>
+    <div class="value-box bg-red">
+        <div class="icon" style="font-size: 2rem;"><i class="fa-solid fa-brain"></i></div>
+        <div class="details">Machine Learning<br>for Operational Improvements</div>
+    </div>
+</div>
+```
+
+<br/>
+
+
+:::: {.columns}
+
+::: {.column width='30%'}
+In this workshop, we explore the powerful technique of **discrete event simulation (DES)**.
+
+DES allows you to create computer models of pathways, helping you to answer 'what-if' questions about pathway resourcing and configuration in a risk-free environment.
+
+Used extensively in manufacturing and logistics, this technique allows you to model anything from emergency departments to ambulances to elective surgery waits.
+
+Understanding the kind of questions that are suited to DES unlocks a powerful new way to ensure pathways are right-sized, robust and ready for the future.
+:::
+
+::: {.column width='5%'}
+:::
+
+::: {.column width='30%'}
+In this workshop, we explore how we can better understand the geographical distribution of our demand and make sure our services are in the right place to support our population.
+
+We will explore the powerful location optimization algorithms that the HSMA course teaches analysts to use, helping you manage new sites, service closures, or locating a range of new services in a data-driven way that can account for real-world car and public transport travel times, equity, and emissions.
+:::
+
+::: {.column width='5%'}
+:::
+
+::: {.column width='30%'}
+In this workshop, we focus on how machine learning can be used to drive operational improvements.
+
+Helping to carefully navigate the complexity of how machine learning projects can be used for service improvement, we explore the data requirements, ethics and regulations surrounding machine learning in operational contexts.
+
+We will explore success stories from previous HSMA cohorts, such as how machine learning helped drive significant reductions in patient non-attendance by allowing better targeting of high-risk non-attenders.
+
+We also equip you with the knowledge you need to ask the right questions about algorithm performance, and support you to think about opportunities for how machine learning can be used safely, equitably and effectively in your organisation.
+
+:::
+
+::::
+
+
+## FAQ
+
+### Will I learn to undertake these projects myself?
+
+No – but you will learn enough to be able to design and support projects using the methods covered on each workshop.
+
+If you want to learn how to write the code required to create these models yourself, keep an eye out for registration opening up for HSMA 7 (hopefully launching in early 2027) or access our [HSMA 6 recordings](https://hsma.co.uk/hsma_content/modules/modules.html) or [teach-yourself ebooks](https://hsma.co.uk/hsma_content/books/books.html).
+
+### Do I need any technical background?
+
+No! Unlike the core HSMA programme, there are no coding or technical requirements for HSMA lambda workshops. We do not expect you to have any prior knowledge of these techniques or any background in computer programming, mathematics or operational research.
+
+### My question is not answered here
+
+Please send us an email at [penchord@exeter.ac.uk](mailto:penchord@exeter.ac.uk) and we'll get back to you as soon as possible.

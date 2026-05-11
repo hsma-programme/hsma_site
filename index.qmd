@@ -292,7 +292,7 @@ You can also view projects [by method](previous_projects/projects_by_methods.qmd
 <br/><br/>
 ```
 
-![](resources/nihr_logo.png){max-height=200}
+![](resources/ARC-logo-horizontal-white.svg){max-height=200}
 
 :::
 
@@ -306,7 +306,7 @@ You can also view projects [by method](previous_projects/projects_by_methods.qmd
 <br/><br/>
 ```
 
-HSMA is supported by the [NHS Digital Academy](https://www.england.nhs.uk/digitaltechnology/nhs-digital-academy/) and delivered by a team belonging to the [NIHR Applied Research Collaboration South West Peninsula (PenARC)](https://arc-swp.nihr.ac.uk/).
+HSMA is supported by the [NHS Digital Academy](https://www.england.nhs.uk/digitaltechnology/nhs-digital-academy/) and delivered by a team belonging to the [NIHR Applied Research Collaboration South West (ARC South West)](https://arc-swp.nihr.ac.uk/).
 
 
 :::

@@ -3,3 +3,5 @@
 current_projects
 /.luarc.json
 *.pyc
+
+**/*.quarto_ipynb
