@@ -1,0 +1,57 @@
+---
+title: "HSMA Partner in Focus - South West Academic Health Science Network (SW AHSN)"
+title-block-banner: ../banner.png
+author:
+    - "NIHR PenARC"
+date: "2018-01-17"
+date-modified: "2018-01-17"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    Find out more about how the collaboration between HSMA and the SW AHSN.
+image: image.png
+---
+
+```{=html}
+<iframe width='1280' height='900' src='https://arc-swp.nihr.ac.uk/news/partner-in-focus-the-devon-partnership-nhs-trust' title='Article'></iframe>
+```
+
+::: {.callout-note collapse="true"}
+### Article not loading? Click here for a plain text version.
+
+#### Partner in Focus - South West Academic Health Science Network
+
+As a partnership of NHS Trusts across Devon, Cornwall and Somerset, plus the Universities of Exeter and Plymouth, we aim to work with healthcare professionals, policymakers and the public to identify areas of research that reflect the real needs and concerns of the health service in the South West. Highlighting how this works in practice, we’ve brought together some of the work carried out with the South West Academic Science Network (SW AHSN). We have been working with the SW AHSN since its inception in 2014, commencing our partnership with the launch of three collaborative research projects which focused on the areas of stroke, diagnosing heart attacks and the management of long-term conditions. Since then we have worked together on projects that have resulted in the successful implementation of research, and we are continuing to develop new collaborative studies.
+
+##### Patient Initiated Clinics
+
+The Patient-Initiated Clinics (PIC) project involved teaming up with the SW AHSN and clinical experts at Plymouth Hospitals NHS Trust to roll out the Direct Access system to patients with rheumatoid arthritis. From the launch, over 900 patients with rheumatoid arthritis signed up to PIC, with participants concluding they were happier with their care. Direct Access was also found to have a significant impact on patient satisfaction, helping patients transform the way they manage their condition. The team behind the project won the 2016 Health Service Journal (HSJ) Value in Healthcare Awards, and the project was also named runner up for Best Practice at the British Society for Rheumatology (BSR) and Musculoskeletal Health Awards 2016.
+
+##### Emergency Treatment of Acute Ischaemic Stroke
+
+The Emergency Treatment of Acute Ischaemic Stroke project aimed to reduce stroke-related disability in the South West by accelerating the real-world implementation of clinical evidence for thrombolysis (clot-busting drugs) after acute ischaemic stroke. Work on the project began when modellers from our operational research team – PenCHORD – created a detailed computer simulation of the emergency stroke treatment process. The aim was to identify and test possible improvements to the system to maximise a patient’s chances of receiving thrombolysis and to reduce post-stroke disability. Based on the findings of this study, the Royal Devon and Exeter NHS Foundation Trust implemented changes that have seen the number of people receiving thrombolysis after stroke triple, and the average time to deliver treatment halved.
+
+##### Using Implementation Science to Drive Heath Care Change: The ASPIC Project
+
+These studies led to further collaboration with the development of the ASPIC project. This aimed to understand the differences in context within both the PIC and the Acute Stroke projects, and to generate in-depth insights into the implementation processes to increase the uptake of changes in health care practice. Conversations are now taking place to discuss the possibly of running a ‘phase two’ of the ASPIC project. This would include working closely with the SW AHSN to build upon the project’s findings, developing resources, and potentially testing approaches to support implementation.
+
+##### 2018 Health Service Modelling Associates Programme
+
+Following the success of the first round in 2016, PenCLAHRC are launching a second round of the Health Service Modelling Associates (HSMA) Programme in collaboration with the SW AHSN. The first round of HSMA projects led to multi-million pound business cases, significant improvements to A&E, mental health and discharge pathways, and a number of our HSMAs were promoted within their organisations. For this 2018 round, key improvements have been made to expand the reach of the programme, which will now be split into two phases. Phase one involves a series of training modules for a cohort of 26 HSMAs, which PenCLAHRC and SW AHSN have designed to reflect our similar objectives around building capacity across the South West. You can find out more about the first round of the programme on the HSMA website.
+
+These projects provide an example of how PenCLAHRC works across the South West health service. We aim to continue fostering successful partnerships with all our stakeholders to develop new, exciting, and innovative initiatives that will further improve patient services across the region.
+
+Commenting on our ongoing relationship, Caroline Powell, Director of Intelligence at the SW AHSN, said:
+
+> We’ve been collaborating with PenCLAHRC across a number of key areas; from the development of a person-centred coordinated care evidence base, to the application of these tools in the evaluation of new models of care in the South West.
+
+Working together on projects like this is really important as it allows us to identify best practice innovation and speed up the implementation of evidence-based research to improve patient outcomes.’
+
+If you would like to speak to us about how we can work with you to address health service issues or uncertainties in your organisation, get in touch.
+
+:::

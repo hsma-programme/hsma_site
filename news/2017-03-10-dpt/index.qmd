@@ -1,0 +1,62 @@
+---
+title: "HSMA Project Focus - Devon Partnership NHS Trust"
+title-block-banner: ../banner.png
+author:
+    - "NIHR PenARC"
+date: "2017-03-10"
+date-modified: "2017-03-10"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    HSMA helped Devon Partnership Trust improve mental healthcare provision in the region - find out more about how.
+image: image.png
+---
+
+```{=html}
+<iframe width='1280' height='900' src='https://arc-swp.nihr.ac.uk/news/hsma-dpt/' title='Article'></iframe>
+```
+
+
+::: {.callout-note collapse="true"}
+### Article not loading? Click here for a plain text version.
+
+#### HSMA Project Focus - Devon Partnership NHS Trust
+
+The Health Service Modelling Associates (HSMA) programme is a pilot scheme run by PenCLAHRC’s operational modelling group PenCHORD. It brings university academics and health organisations from across the South West together, building capacity within the NHS to generate and use evidence from modelling and operational research techniques.
+
+Associates were selected from NHS organisations based on their previous knowledge and skills, and the research question they proposed. As well as providing access to a PenCHORD mentor, it gives them the tools and knowledge to put their research rapidly into practice.
+
+Karl Vile was new into the role of Operational Manager and Programme Lead at Devon Partnership NHS Trust (DPT) when selected as one of six HSMAs. Being part of the programme has helped him support the Trust’s Urgent Care Programme, which aims to improve capacity and efficiency in the urgent care treatment pathway.
+
+Karl said of the programme:
+
+> “It has been a privilege to be able to spend a day per week learning new operational research skills and working on a project that will support one of Devon Partnership Trust’s major transformation programmes. Operational research techniques can be really helpful to quickly sense-check business cases and operational assumptions.”
+
+The initial aim of Karl’s project was to identify and reduce bottlenecks in the Mental Health Urgent Care Pathway to maximise the number of patients the Trust can treat. The project scope was then expanded to model how the urgent care system would need to change to reduce pressure in the system and avoid out of area placements. Using three years of data, he created a model of patients’ journey through DPT’s adult and older people's inpatient wards, from first referral to discharge. This model identified and tested different scenarios to measure the impact of changes to the system.
+
+Karl developed the project in collaboration with the Urgent Care Programme Board at DPT, including his workplace supervisor David Somerfield, the Trust’s Chief Operating Officer.
+
+Operational modelling is particularly suited to streamlining patient journeys, as Sean Manzi, Karl’s PenCHORD mentor, explains:
+
+> “Simulation modelling provides a more detailed insight into the functions of a system than simple data analysis. Karl’s project found that patient flow through the acute care pathway relies on the rate at which people enter the pathway, the amount of time they spend in treatment and the number of ward beds available.
+>
+> “It seems fairly obvious that these three parameters would be important but it was only through the simulation model that we were able to understand that a large change would be needed to one of these parts of the system to prevent people being sent to an out of area bed.
+>
+> “However, making smaller changes to all three parts of the system resulted in a much larger reduction in out of area bed requirements. Without the simulation model it would be easy to overlook how interdependent these parts of the system are and that any changes must consider them all.”
+
+As well as his initial research question, Karl has been able to apply his training to other projects within DPT. He created a simulation model as part of a business case for introducing ‘step down beds’ in Exeter as an alternative to inpatient beds, for when patients do not require such a high level of care.
+
+This model showed how many beds would be appropriate and accounted for the level of variability in demand over time, to reduce delays to patients being discharged. The simulation model was used to support the business case, which was presented to and approved by the Trust Board.
+
+Karl has also used Simul8 software to test the financial assumptions in a business case for a £73m commissioning contract, and found the software useful to sense check financial and operational assumptions at a high level. It can be used to quickly highlight where information does not reflect reality or expectations.
+
+He also praises the other modelling methods he has learned as an HSMA:
+
+> “I found the teaching modules provided by PenCHORD on Excel based modelling and geographic modelling useful and as a result, have piloted a ‘live bed state’ tool in Excel, which we will consider developing into a mobile application.”
+
+:::

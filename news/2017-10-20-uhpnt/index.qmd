@@ -1,0 +1,71 @@
+---
+title: "HSMA Partner in Focus - University Hospitals Plymouth NHS Trust (UHPNT)"
+title-block-banner: ../banner.png
+author:
+    - "NIHR PenARC"
+date: "2017-10-20"
+date-modified: "2017-10-20"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    Find out more about how HSMA is helping UHPNT to conduct advanced operational modelling in-house.
+image: image.png
+---
+
+```{=html}
+<iframe width='1280' height='900' src='https://arc-swp.nihr.ac.uk/news/partner-in-focus-plymouth-hospitals-nhs-trust/' title='Article'></iframe>
+```
+
+::: {.callout-note collapse="true"}
+### Article not loading? Click here for a plain text version.
+
+#### Partner in Focus - Plymouth Hospitals NHS Trust (PHNT)
+
+As a partnership of NHS Trusts across Devon, Cornwall and Somerset, plus the Universities of Exeter and Plymouth, we aim to work with healthcare professionals, policymakers and the public to identify areas of research that reflect the real needs and concerns of the health service in the South West.
+
+We have been working in partnership with Plymouth Hospitals NHS Trust (PHNT) since PenCLAHRC’s inception in 2008. Below are some examples of projects which have resulted in real change to the way the Trust works.
+
+##### Success of SWARM's CUPPA trial
+
+Set up five years ago, the South West Anaesthesia Research Matrix (SWARM) is a trainee-led audit and research collaboration between six NHS organisations in the region, including Plymouth Hospitals NHS Trust.
+
+Funded by a National Institute of Academic Anaesthesia (NIAA) grant and supported by PenCLAHRC, a large-scale clinical trial ‘CUPPA’ (Comprehensive moUth care and Post-operative PneumoniA) was set up to see if comprehensive mouth-care reduces the incidence of post-operative pneumonia in high risk ward patients. The pilot study was hosted by Plymouth University School of Dentistry and carried out by 45 trainee clinicians specialising in anaesthesia, all members of the SWARM collaboration.
+
+This study has had a far-reaching and long-lasting impact on research in general: opening doors and minds for interested trainees to engage with research in the future, allowing them to see it as an accessible avenue to pursue alongside their clinical careers.
+
+##### Improving hospital discharge with simulation modelling
+
+As part of the Health Service Modelling Associates (HSMA) programme, Ryan Hunneman – Service Improvement Lead at Plymouth Hospitals NHS Trust – spotted an opportunity for his Trust to enhance the way they discharge patients and enrolled on the HSMA programme to help deliver this change.
+
+Ryan began by assessing the current service using a technique called Discrete Event Simulation, which allowed Ryan to spot how bottlenecks could cause delays. As a result of Ryan’s modelling, the Trust has seen an increase in discharges at the weekends and a huge improvement in communication between teams, helping the system to perform more effectively – especially for patients with complicated requirements.
+
+Find out more about Ryan's involvement with the HSMA programme on the website.
+
+##### Award-winning Patient-Initiated Clinics
+
+The Patient-Initiated Clinic (PIC) project aimed to transform the delivery of care across the South West by putting patients in control, by allowing people to contact their specialist department whenever their condition deteriorates. Teaming up with clinical experts at PHNT, a system called Direct Access has been rolled out to patients with rheumatoid arthritis and is already helping to provide an improved service. Senior Nurse Specialist Nikki Day has helped to lead the new system at Plymouth and hopes this is just the start:
+
+> “We've had such a positive response to Direct Access that we’re hoping to continue our work with PenCLAHRC and expand it out to patients with other chronic conditions. Collaborating with the research team has been an essential part of the project’s success, providing the evidence we need to ensure it’s efficient and effective.”
+
+This project featured on BBC Spotlight on 23 September 2015:
+
+The PIC project team were also winners at the 2016 Health Service Journal (HSJ) Value in Healthcare Awards in the General Medicine category.
+
+You can read more about the project on the PIC page and on our Exposure project webpage.
+
+##### Capacity modelling slashes costs at Derriford Hospital's ACU
+
+PenCLAHRC and PHNT have recently completed a project with a demonstrable impact and value for the Trust. PHNT worked with our operational modelling team, PenCHORD, to assess the capacity of the Ambulatory Care Unit (ACU) at Derriford Hospital – this evidence would be used directly by the PHNT Executive Team to determine the size of the new ACU.
+
+The model clearly showed that the key constraint within the ACU was not physical capacity, but the time the unit is open. In fact, although minor gains could be made from increasing physical capacity of the ACU, far more significant gains could be achieved by extending the ACU’s opening hours.
+
+The resulting modelling data and recommendations were then used to inform a £1 million business case presented to the hospital’s Executive Board – the business case was approved, and a project group established to take the changes forward. You can read more about the research on the project page.
+
+These projects provide an example of how PenCLAHRC works across the South West health service. We aim to continue fostering successful partnerships with all our stakeholders to develop new, exciting and innovative initiatives that will further improve patient services across the region. If you would like to speak to us about how we can work with you to address health service issues or uncertainties in your organisation, please do get in touch.
+
+:::

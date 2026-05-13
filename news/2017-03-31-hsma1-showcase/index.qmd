@@ -1,0 +1,69 @@
+---
+title: "HSMA 1 Showcase"
+title-block-banner: ../banner.png
+author:
+    - "NIHR PenARC"
+date: "2017-03-31"
+date-modified: "2017-03-31"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    Staff from NHS Trusts across the South West came together with PenCLAHRC researchers to celebrate the success of an innovative programme aimed at tackling problems faced by the health service.
+image: image.png
+---
+
+```{=html}
+<iframe width='1280' height='900' src='https://arc-swp.nihr.ac.uk/news/hsma-final-seminar/' title='Article'></iframe>
+```
+
+
+
+::: {.callout-note collapse="true"}
+### Article not loading? Click here for a plain text version.
+
+#### Researchers and NHS staff celebrate working together to tackle pressing health service issues
+
+Staff from NHS Trusts across the South West came together with PenCLAHRC researchers to celebrate the success of an innovative programme aimed at tackling problems faced by the health service.
+
+The Health Service Modelling Associates (HSMA) programme, run by our operational research team PenCHORD, is designed to embed the skills and knowledge needed to develop and use computer models to support decision making within the NHS.
+
+The pilot programme culminated in a showcase event, held at the University of Exeter Medical School yesterday. Participants presented their project findings and shared how both they and their organisations have benefited from the scheme.
+
+Over the past year, PenCHORD have mentored six HSMAs, helping them develop advanced modelling, simulation and analysis skills, and applying these to real-life projects within their organisations. These have ranged from reducing bottlenecks in mental health care systems to increasing survival rates for patients who suffer cardiac arrest.
+
+HSMA Nic Harrison, Senior Business Analyst with Northern Devon Healthcare NHS Trust is supporting the region’s Sustainability and Transformation Plan (STP) with the work carried out whilst part of the programme. He feels the exposure gained and status built, for individuals and modelling in general, has been invaluable for feeding into ongoing service reviews. Nic said of the scheme:
+
+> “Myself and those who my influence touches are empowered as critical consumers of modelling and analysis due to the training and learning received through the HSMA programme. In a time of frequent and high-impact decision-making within the NHS the importance of this cannot be under-estimated.”
+
+Other HSMAs are also seeing the benefits of their work – at Derriford Hospital, variation in discharge rates at weekends have decreased as a result of changes suggested by Ryan Hunneman’s modelling project for Plymouth Hospitals NHS Trust.
+
+A new electronic system at Royal Cornwall Hospital flags if patients have complex needs as soon as they enter the hospital, helping to improve emergency care for frail older people. Judith Laity, Strategic Programme Manager at Royal Cornwall Hospitals NHS Trust, said of Joe Turner’s work; “the modelling work carried out has been absolutely instrumental for our business case".
+
+As well as helping to inform decisions, the HSMA programme has brought a host of additional benefits to the NHS in the South West. Karl Vile of Devon Partnership NHS Trust is one of several HSMAs who have become advocates for operational research techniques and is already working on other modelling projects, including cross-Trust collaborations with fellow HSMAs.
+
+Other Associates said the programme has helped them to gain a deeper understanding of the systems they are working to improve. Alaric Moore from the Royal Devon and Exeter NHS Foundation Trust, said:
+
+> “Even just walking around the Emergency Department you can see a really important human side of the health service, which in my previous analyst role I never really had. I now understand that it’s people and their needs and experiences that underpin the numbers.”
+
+The event was attended by over 50 people from NHS organisations across the region, including the South West Academic Health Science Network and senior representatives from the Trusts, as well as academics from across the country.
+
+Discussions about the scheme’s future were optimistic about its potential to continue to benefit the NHS by reducing the need to bring in external consultants, as well as promoting collaboration and evidence-based decision-making.
+
+Sarah Black, Research & Audit Manager at South Western Ambulance Service NHS Foundation Trust, emphasised the need to sustain the cross-Trust collaboration the programme has fostered:
+
+> “We’ve all got similar kinds of questions and the network that’s been built up through the HSMAs will benefit everybody. It’s important to ensure that the skills learnt are retained in order to answer some of these questions.”
+
+George Thomson, Medical Director at Northern Devon Healthcare NHS Trust, predicted the programme could help the work of the region’s STPs to making the NHS more sustainable in the South West:
+
+> “The STP faces the eye-watering task of saving half a billion pounds by 2020, and to do that properly requires a lot of modelling. What the HSMA programme is doing is developing that expertise and capacity.”
+
+For an update on the HMSA programme one year after it was launched, visit the newspage; to find out more about the HSMA programme and how to get involved visit the programme webpage and view an introductory video with PenCHORD mentors and HSMAs in the video below:
+
+{{< video https://www.youtube.com/watch?v=fhbul3qKBxQ >}}
+
+:::

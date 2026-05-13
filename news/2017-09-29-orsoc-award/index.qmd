@@ -1,0 +1,39 @@
+---
+title: "Prestigious prize awarded at ORAHS 2017"
+title-block-banner: ../banner.png
+author:
+    - "NIHR PenARC"
+date: "2017-09-29"
+date-modified: "2017-09-29"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    Many congratulations to Sebastian Rachuba, who was awarded the Steve Gallivan prize at the EURO Working Group on Operational Research Applied to Health Services (ORAHS) 2017 conference for his project with the RD&E Hospital on modelling capacity requirements for the CDU in the A&E (which was conducted alongside the HSMA scheme).
+image: image.jpg
+---
+
+```{=html}
+<iframe width='1280' height='900' src='https://arc-swp.nihr.ac.uk/news/partner-in-focus-south-western-ambulance-service-nhs-foundation-trust/' title='Article'></iframe>
+```
+
+::: {.callout-note collapse="true"}
+### Article not loading? Click here for a plain text version.
+
+#### Prestigious prize awarded at ORAHS 2017
+
+Many congratulations to Sebastian Rachuba, who was awarded the Steve Gallivan prize at the EURO Working Group on Operational Research Applied to Health Services (ORAHS) 2017 conference for his project with the RD&E Hospital on modelling capacity requirements for the CDU in the A&E (which was conducted alongside the HSMA scheme). The prize is awarded to early career scholars for the most promising work demonstrative collaboration between research and NHS organisations. Sebastian says:
+
+> "The project work with Alaric and Laura was incredibly enjoyable. All of us invested a lot to make this work as useful as possible for the RD&E. Seeing our effort acknowledged at an international level through ORAHS is a fantastic outcome. On a personal level, it was very rewarding to be able to help make a well-informed decision at the hospital to improve service delivery in the Accident & Emergency Department."
+
+Alaric Moore, Performance Improvement Manager at the RD&E, was part of our first cohort of students on the Health Service Modelling Associates Programme and worked closely with Sebastian. He says:
+
+> "Working in collaboration with Sebastian and the rest of the PenCHORD team was a great opportunity to not only explore ‘what if’ scenarios; but to provide assurance that the Clinical Decision Unit element of our A&E rebuild business case was based on solid evidence which will improve patient experience when attending A&E.”
+
+To find out more about the HSMA programme, visit the website.
+
+:::

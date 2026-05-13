@@ -1,0 +1,69 @@
+---
+title: "HSMA Partner in Focus - South Western Ambulance Service NHS Foundation Trust"
+title-block-banner: ../banner.png
+author:
+    - "NIHR PenARC"
+date: "2017-07-24"
+date-modified: "2017-07-24"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    Find out more about how HSMA is helping SWASFT to conduct advanced operational modelling in-house.
+image: image.png
+---
+
+```{=html}
+<iframe width='1280' height='900' src='https://arc-swp.nihr.ac.uk/news/partner-in-focus-south-western-ambulance-service-nhs-foundation-trust/' title='Article'></iframe>
+```
+
+::: {.callout-note collapse="true"}
+### Article not loading? Click here for a plain text version.
+
+#### Partner in Focus - South Western Ambulance Service NHS Foundation Trust
+
+As a partnership of NHS Trusts across Devon, Cornwall and Somerset, plus the Universities of Exeter and Plymouth, we aim to work with healthcare professionals, policymakers and the public to identify areas of research that reflect the real needs and concerns of the health service in the South West.
+
+Highlighting how this works in practice, we’ve brought together some of the work carried out with the South Western Ambulance Service NHS Foundation Trust (SWASFT).
+
+Sarah Black, Research Manager at SWASFT, shares her view of the partnership between the ambulance service and PenCLAHRC:
+
+> “We’ve always found working with PenCLAHRC a really rewarding experience. They get research into practice, so good research doesn’t sit on a dusty professor’s shelf, it actually goes out and makes a difference to patients.”
+
+Sarah Black discusses working with the CLAHRC:
+
+PenCLAHRC have been working with SWASFT since 2011, when we facilitated the introduction of Tranexamic Acid (TXA) – a cost-effective blood-clotting drug – by SWASFT ambulance crews across the South West.
+
+An NIHR-funded trial showed that TXA can reduce the risk of death due to bleeding by 10%, rising to around 30% if the drug is administered within one hour of trauma. Working with SWASFT, PenCLAHRC recommended guidelines and protocols for use of the drug, and had all South West ambulance crews using TXA within 18 months of the research being published.
+
+Professor Stuart Logan, Director of PenCLAHRC, said of the project:
+
+> “The South West is lucky to have an ambulance trust with a really innovative approach and a commitment to evidence-based practice. There is often a delay of years between evidence being published and its use in public, but this is a great example of what the NHS at its best can do.”
+
+##### Dealing with demand for ambulance services
+
+There is a particularly strong relationship between SWASFT and our operational modelling team, PenCHORD. Demand for ambulance services is growing year-on-year nationally, with SWASFT themselves dealing with 470 more incidents per day in 2016 compared with 2011. When SWASFT asked PenCHORD to research the factors influencing this rising demand, the PenCHORD team mapped the factors that can lead to someone calling an ambulance, then used a simulation modelling method called System Dynamics to assess which of these had the biggest impact on demand.
+
+The results indicated that the prevalence of falls in the elderly population is by far the most significant contributor to ambulance demand in South West England – over three times more significant than other factors. An increased predisposition of people with mental health conditions to use ambulance services was also estimated to be a significant influence.
+
+In partnership with the Lead Commissioners for South West England, SWASFT were able to use these findings to develop services for those who are frail and experience a fall, including working with care providers to support patients at risk of falling. The ambulance service frequently provides data to support other PenCLAHRC research projects, and we are currently exploring the potential for a future collaborative project exploring pre-hospital treatment for older people who fall and damage their hips.
+
+##### Bringing operational research into the ambulance service
+
+Our partnership is also increasing research capacity within SWASFT: after attending PenCHORD’s training sessions in 2016, Clinical Audit Officer Hannah Trebilcock was able to use computer modelling to inform the Clinical Commissioning Group of the effects of proposed changes to the region’s trauma service.
+
+Dave Boyle, Clinical Development Officer at SWASFT, said that Hannah’s training was central to the team’s ability to make robust recommendations:
+
+> “The information we were able to present was clear, simple to understand and easy to explain. It allowed us to make an evidence-based decision – rather than a best guess – and gave us confidence in our proposal. I’d strongly advise anyone involved in decision-making to make the most of this fantastic approach.”
+
+Inspired by the experience to further develop her operational research skills, Hannah then took part in the Health Service Modelling Associates (HSMA) programme. Working with her PenCHORD mentor Kerry Pearn and supported by colleagues Jessica Lynde and Sarah Black, Hannah built a geographical model of patient journey times to explore whether a regional system of specialist cardiac units could increase survival rates for patients who have a cardiac arrest. The modelling process provided evidence to support the new system, as well as highlighting the potential benefits of standardised practice across all cardiac arrest centres in the South West.
+
+Read more and watch a podcast about Hannah’s modelling project on the HSMA website.
+
+These projects provide an example of how PenCLAHRC works across the South West health service. We aim to continue fostering successful partnerships with all our stakeholders to develop new, exciting and innovative initiatives that will further improve patient services across the region. If you would like to speak to us about how we can work with you to address health service issues or uncertainties in your organisation, please do get in touch.
+
+:::

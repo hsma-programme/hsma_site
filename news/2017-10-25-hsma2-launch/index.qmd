@@ -1,0 +1,51 @@
+---
+title: "Launch of HSMA 2 Programme"
+title-block-banner: ../banner.png
+author:
+    - "NIHR PenARC"
+date: "2017-10-25"
+date-modified: "2017-10-25"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    Following a hugely successful first round of the Health Service Modelling Associate (HSMA) Programme, a second round of the scheme – HSMA 2 – has been launched, a joint initiative between PenCLAHRC and the South West Academic Health Science Network (SW ASHN).
+image: image.png
+---
+
+```{=html}
+<iframe width='1280' height='900' src='https://arc-swp.nihr.ac.uk/news/launch-of-hsma-2-programme/' title='Article'></iframe>
+```
+
+::: {.callout-note collapse="true"}
+### Article not loading? Click here for a plain text version.
+
+#### Launch of HSMA 2 Programme
+
+The HSMA Programme is a scheme run by PenCLAHRC's operational research team, PenCHORD. Working directly with staff from NHS organisations in Devon, Cornwall and Somerset, the programme aims to support the increased use of operational research within health service development and decision making. A number of NHS staff from across the region were released from their usual role for a day a week to undertake an advanced modelling project for their organisation. Each HSMA is supported by a modelling expert in the PenCHORD team, who acts as the HSMA’s mentor throughout the project, and HSMAs receive specialist training in advanced model building software, operational research techniques and problem structuring, amongst other skills. For HSMA 2018, some key improvements have been made to expand the reach of the programme.
+
+The HSMA 2018 Programme was launched on 19 October, at the SW ASHN Regional Intelligence Analysts Network (RIAN)'s 'Insight from Data' event. This was open to analysts or those using analytical techniques from all health and care organisations across the South West.
+
+##### HSMA 2 Open Day
+
+To find out if you are eligible to apply for the programme, you can visit the HSMA 2 page which includes the Person Specification and a link to a registration form for the Open Day.
+
+If you think that you fit the requirements, and you have at least a preliminary idea for a potential problem in your organisation that you might like to explore with modelling, you should attend the HSMA 2 Open Day in Exeter on Wednesday 6th December, 12:00 – 16:00.
+
+The Open Day will offer a chance for you to hear more details about the programme, meet the PenCHORD team and discuss your ideas with them and hear first-hand experiences from HSMAs from the first round of the programme.
+
+Please note that registration for the Open Day on Wednesday 6th December has now closed.
+
+##### More Information
+
+If you are unsure about your eligibility, or should you have any further questions, please contact the Programme Lead, Dr Daniel Chalk, by email. You can also find FAQs for the HSMA 2 Programme [here](https://www.arc-swp.nihr.ac.uk/uploads/attachments/HSMA%20Scheme/PenCHORD_HSMA2018_FAQ.pdf).
+
+To find out more about the RIAN, including future events, visit the SW ASHN website.
+
+To find out more about the HSMA programme and the 2016 cohort, visit the HSMA website.
+
+:::
