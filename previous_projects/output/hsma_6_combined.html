@@ -1,0 +1,1175 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.9.38">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>Using Machine Learning techniques to predict Hospital Readmissions – HSMA</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+code{white-space: pre-wrap;}
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: min(4vw, 1.5em);}
+div.column{flex: auto; overflow-x: auto;}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../resources/favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-f05a6d0b6b0e24f48ccad06c0b4c753b.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script src="../../site_libs/quarto-contrib/glightbox/glightbox.min.js"></script>
+<link href="../../site_libs/quarto-contrib/glightbox/glightbox.min.css" rel="stylesheet">
+<link href="../../site_libs/quarto-contrib/glightbox/lightbox.css" rel="stylesheet">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-9D93EVJKF5"></script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-9D93EVJKF5', { 'anonymize_ip': true});
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"express",
+  "palette":"dark",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  ,
+"language":"en"
+  });
+});
+</script> 
+  
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background: ../../banner.png;
+      }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="floating nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-xl " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../resources/Chalky HSMA-07-wide white logo.png" alt="" class="navbar-logo light-content">
+    <img src="../../resources/Chalky HSMA-07-wide white logo.png" alt="" class="navbar-logo dark-content">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Welcome</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../hsma_content/books/books.html"> 
+<span class="menu-text">Books</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../hsma_content/modules/modules.html"> 
+<span class="menu-text">Modules</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Projects</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-projects">    
+        <li>
+    <a class="dropdown-item" href="../../previous_projects/projects_by_service_area.html">
+ <span class="dropdown-text">Projects by Area of Care</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../previous_projects/projects_by_service_type_location.html">
+ <span class="dropdown-text">Projects by Care Delivery Location</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../previous_projects/projects_by_organisation.html">
+ <span class="dropdown-text">Projects by Organisation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../previous_projects/projects_by_methods.html">
+ <span class="dropdown-text">Projects by Method</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../previous_projects/projects_by_cohort.html">
+ <span class="dropdown-text">Projects by HSMA Cohort</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../previous_projects/projects_with_code.html">
+ <span class="dropdown-text">Projects With Code Shared</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../previous_projects/projects_in_progress.html">
+ <span class="dropdown-text">Projects In Progress</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../previous_projects/completed_projects.html">
+ <span class="dropdown-text">Completed Projects</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../lambda.html"> 
+<span class="menu-text">Lambda</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../impact_stories.html"> 
+<span class="menu-text">Case Studies</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-student-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Student Resources</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-student-resources">    
+        <li>
+    <a class="dropdown-item" href="../../project_log_recording_app.html">
+ <span class="dropdown-text">Project Log Recording App</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../assessment_faqs.html">
+ <span class="dropdown-text">Certification Guidance</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../phase_2_details.html">
+ <span class="dropdown-text">Phase 2 Dates &amp; Events</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../registering_a_project.html">
+ <span class="dropdown-text">Registering a Project</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../project_faqs.html">
+ <span class="dropdown-text">Project FAQs</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-other-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Other Resources</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-other-resources">    
+        <li>
+    <a class="dropdown-item" href="../../hsma_content/des_playground.html">
+ <span class="dropdown-text">The DES Playground</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../hsma_content/reinforcement_learning_game.html">
+ <span class="dropdown-text">Reinforcement Learning Game</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../hsma_content/desperately_seeking_simulation_workshop.html">
+ <span class="dropdown-text">HSMA Lambda Pilot - Simulation Workshop</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item">
+    <a class="nav-link" href="../../news.html"> 
+<span class="menu-text">News</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="../../about-hsma.html">
+ <span class="dropdown-text">The HSMA Programme</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../staff.html">
+ <span class="dropdown-text">HSMA Staff</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../foss.html">
+ <span class="dropdown-text">HSMA &amp; Open Source Software</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../faqs.html">
+ <span class="dropdown-text">Frequently Asked Questions</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../policies_and_procedures.html">
+ <span class="dropdown-text">Policies and Procedures</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools tools-wide">
+    <a href="https://www.youtube.com/@hsma" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-youtube"></i></a>
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/hsma-programme">
+            View the HSMA Github
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/hsma-programme/hsma_site">
+            View the code for this website
+            </a>
+          </li>
+      </ul>
+    </div>
+    <a href="mailto:penchord@exeter.ac.uk?subject=Contact%20from%20HSMA%20Website%20&amp;body=If%20you%20would%20like%20to%20be%20added%20to%20the%20HSMA%20mailing%20list%2C%20please%20complete%20the%20fields%20below.%0A%0AFull%20Name%3A%0A%0AOrganisation%3A%0A%0AIf%20you%20have%20a%20different%20query%2C%20please%20replace%20the%20content%20of%20this%20message%20with%20your%20own.%20%0A%0A**This%20is%20an%20automatically%20generated%20email%20from%20a%20link%20on%20the%20HSMA%20website**" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
+    <a href="https://www.linkedin.com/company/hsma-programme/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
+    <a href="https://podcast.hsma.co.uk/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-broadcast-pin"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <div id="quarto-announcement" data-announcement-id="0ab3209fb18b92a00d5cf3d550309392" class="alert alert-info hidden"><i class="bi bi-megaphone quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><strong>We hope to launch our brand new HSMA-λ (HSMA lambda) courses, aimed at leaders and decision makers, in <em>Autumn 2026</em>, and HSMA 7 in <em>early 2027</em>.<br>Want to hear when we open up applications for either of these? Send us an email at <a href="mailto:penchord@exeter.ac.uk?subject=Contact%20from%20HSMA%20Website%20&amp;body=If%20you%20would%20like%20to%20be%20added%20to%20the%20HSMA%20mailing%20list%2C%20please%20complete%20the%20fields%20below.%0A%0AFull%20Name%3A%0A%0AOrganisation%3A%0A%0AIf%20you%20have%20a%20different%20query%2C%20please%20replace%20the%20content%20of%20this%20message%20with%20your%20own.%20%0A%0AThis%20is%20an%20automatically%20generated%20email%20from%20a%20link%20on%20the%20HSMA%20website">penchord@exeter.ac.uk</a> (stating your full name and organisation) to be added to our mailing list.</strong></p>
+</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block projects default toc-left page-columns page-full">
+    <div class="quarto-title-banner page-columns page-full">
+
+                <div class="project-link-buttons">
+            <ul class="project-links">
+                                                                                                                                                            </ul>
+        </div>
+        
+                <div class="back-nav"><a href="javascript:history.back()">← Back to HSMA projects</a></div>
+        
+        <div class="quarto-title column-page">
+            <h1 class="title">Using Machine Learning techniques to predict Hospital Readmissions</h1>
+
+            
+            
+                        <br>
+            <div class="abstract">
+                <b>30 Second Summary</b>
+                The Trust averages 480 emergency 30-day readmissions monthly. This exploratory project aims to use Machine Learning to predict readmissions and identify key factors. It will assess the accuracy of different approaches using current Trust data, potentially guiding future work in this area.
+            </div>
+            
+                                    <div class="quarto-categories">
+                                <div class="quarto-category">Machine Learning</div>
+                                <div class="quarto-category">Explainable AI</div>
+                            </div>
+                                </div>
+
+    </div>
+
+    <div class="quarto-title-meta-author column-page">
+      <div class="quarto-title-meta-heading">Author</div>
+      <div class="quarto-title-meta-heading">Affiliation</div>
+      
+        <div class="quarto-title-meta-contents">
+        <p class="author">Rebecca Marshall </p>
+      </div>
+      <div class="quarto-title-meta-contents">
+            <p class="affiliation">
+                University Hospitals Coventry and Warwickshire Trust
+              </p>
+          </div>
+      </div>
+
+    <div class="quarto-title-meta column-page">
+
+          
+      
+        
+      </div>
+      
+
+    
+</header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+<!-- sidebar -->
+  
+<div id="quarto-sidebar-glass" class="quarto-sidebar-collapse-item" data-bs-toggle="collapse" data-bs-target=".quarto-sidebar-collapse-item"></div>
+<!-- margin-sidebar -->
+    
+<!-- main -->
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+
+
+
+
+<!-- ===== hsma_6/H6_6000_core20plus50_ml_explainable_ai_mental_health_dnas/index.qmd ===== -->
+<p>As a provider of Mental Health Services for SMI, Lancashire &amp; South Cumbria NHS Foundation Trust is committed to helping to deliver the aims of Core20Plus5. Core20PLUS5 is a national NHS England approach to inform action to reduce healthcare inequalities at both national and system level.</p>
+<p>The aim of this HSMA project is to use machine learning to help understand whether there is a correlation between failed attendance of mental health outpatient appointments and deprivation, or whether this could be being influenced by other factors (features) such as age, ethnicity, the distance travelled to get to those appointments etc.</p>
+<p>With constantly growing waiting lists. anything we can do to reduce non-attendance can have a significant impact on these.</p>
+<p>The project idea is to develop a Machine learning model to investigate whether there is a relationship between travel distance and method and appointment attendance. The project will also use explainable AI to help users understand what the results mean.</p>
+<!-- ===== hsma_6/H6_6001_DES_modelling_non_elective_flow/index.qmd ===== -->
+<p>Poor patient flow is leading to long waits for admission in Emergency Departments. This means there is poor performance against all the key ED wait metrics for the hospital and more importantly, there is evidence that long waits for admission in ED are associated with poorer outcomes for patients.</p>
+<p>The two main strategies employed to tackle this problem is</p>
+<ul>
+<li>increasing the number of beds (by creation of escalation beds)</li>
+<li>trying to decrease discharge delays (reducing length of stay).</li>
+</ul>
+<p>Additionally, with the Same Day Emergency Care (SDEC) facility, it is unclear how the number of people admitted through this facility impacts the waits of those in ED.</p>
+<p>This projects aimed to answer questions such as:</p>
+<ul>
+<li>Given x beds, how far does admitted length of stay have to reduce to meet particular waiting time targets for those queuing in ED? (Evidence based target)</li>
+<li>If we open 15 beds but keep admitted length of stay the same, what is the impact on ED waiting times and the various targets? (Evidence for a particular management strategy)</li>
+<li>What is the optimum number of people to stream from ED to SDEC to minimise ED waits? (Evidence for a particular management strategy)</li>
+</ul>
+<p>This project created Discrete Event Simulation model(s), using HSMA training, to provide evidence for the questions above.</p>
+<p>The team also created a friendly user interface that stakeholders can try out scenarios and help understand how the model works.</p>
+<section id="talks" class="level3">
+<h3 class="anchored" data-anchor-id="talks">Talks</h3>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/0DUx5hhxjoA?feature=shared" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+<section id="app" class="level3">
+<h3 class="anchored" data-anchor-id="app">App</h3>
+<p>Click <a href="https://non-elective-flow-simulation-coch.streamlit.app/">here</a> to open the app in a new window.</p>
+<iframe width="1050" height="700" src="https://non-elective-flow-simulation-coch.streamlit.app/?embed=true" title="Non-elective Flow App"></iframe>
+<!-- ===== hsma_6/H6_6002_GM_healthcare_worker_vaccination_uptake/index.qmd ===== -->
+<p>There is low uptake of Healthcare Workers for COVID and Flu, which is in many Trusts decreasing with each season.</p>
+<p>Trusts and regions, as well as NHS England policy teams would benefit from identifying patterns among healthcare workers: staff uptake, gender, ethnicity, deprivation, frontline status, age group, eligibility (in another cohort other than healthcare worker status).</p>
+<p>Using a mixed-method approach. Geographic modelling of healthcare worker uptake by Trust, ICB and region, and boosted tree modelling of the data to capture patterns in the data and reduces bias and variance. Regression modelling would also be useful to produce data tables to present to stakeholders (e.g.&nbsp;odds ratios for logistic regression).</p>
+<!-- ===== hsma_6/H6_6003_DESmond_62_day_prostate_cancer_pathway/index.qmd ===== -->
+<p>Prostate cancer pathways involves numerous activities such as triaging, imaging, biopsies as well as multiple decisions along the way. The smooth running of the pathway relies upon having the necessary resources allocated each of these events e.g.&nbsp;biopsy clinics, access to imaging etc.</p>
+<p>We want to develop a system which can anticipate the demand for resources, dependant on the number of referrals and resources allocated.</p>
+<p>The aim is</p>
+<ul>
+<li>to create a Discrete Event Simulation model to model the current pathway</li>
+<li>to feed live data into the model in order to predict where bottlenecks might occur</li>
+<li>make use of forecasting methods to predicts what changes are needed in resource allocation</li>
+</ul>
+<p>The project outcome will be a simulation model with an interactive, web app based interface and a dashboard which illustrates key metrics.</p>
+<!-- ===== hsma_6/H6_6005_Improving_ambulance_care/index.qmd ===== -->
+<p>Our aim is to improve Ambulance Clinical Quality Indicators (ACQI) data quality and rapidly provide feedback from all ACQI records. There is potential for this tool to be shared with other Ambulance Trusts using the same or similar data collection techniques. This would be achieved with a tool that can analyse free text fields to complete missing data, capture the sentiment of clinical notes, categorise the type of incident and assess if the treatment given was appropriate. It could be utilised as a backup process to manually reviewing data should there be a resourcing issue within the team. It will also evidence if any changes could be made to the clinical records to improve data capture.</p>
+<p>We would like to consider how the free text could be searched to find positive and negative statements that impact if a record passes or fails a measure within each ACQI. In addition, creating a tool that would predict any changes to the ‘rules’ and their impact on the scores.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/zKZv3zWcXzc?feature=shared" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<!-- ===== hsma_6/H6_6006_DES_childrens_ADHD_diagnosis_and_treatment/index.qmd ===== -->
+<p>This project is using Discrete Event Simulation to model the children’s ADHD diagnostic and treatment pathway. The model will be used to identify delays and potential strategies to reduce waiting lists and waiting times for children accessing treatment.</p>
+<p>The current assessment process is lengthy, proposing a new pathway that would include undertaking some of the diagnostic testing before undertaking a more comprehensive testing so that there is more confidence that patients who have assessments have ADHD.</p>
+<p>The model will capture the changes to the pathway to assess the potential impact of these changes on waiting times and will also capture formal diagnosis and medication titration aspects of the pathway. The model may be extended to look at further 1:1 and group session appointments.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/EmfpThPdXKo" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<!-- ===== hsma_6/H6_6007_Modelling_eye_injection_pathways/index.qmd ===== -->
+<p>This project aims to develop a comprehensive and flexible simulation model to optimise anti-VEGF treatment strategies in ophthalmology. The model will address the complex challenges in anti-VEGF treatments, including frequent injections, multiple treatment options, and diverse strategies, whilst considering the significant resource consumption and high costs associated with these treatments.</p>
+<p>Key features of the project include:</p>
+<ul>
+<li>Dual modelling approach using Mesa and SimPy frameworks to determine the most suitable platform.</li>
+<li>Modular design to accommodate various treatment strategies, drug efficacies, and clinic capacities.</li>
+<li>User-friendly interface with interactive dashboards for stakeholders to explore different scenarios.</li>
+<li>Analysis of clinical effectiveness, costs, and resource requirements for various treatment approaches.</li>
+<li>Adaptability to incorporate new drugs and treatment paradigms as they emerge.</li>
+</ul>
+<p>Project Objectives: The project aims to provide a tool for data-driven decision-making in ophthalmology clinic management, potentially improving patient outcomes whilst optimising resource use and costs.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/0OKev_kbQEc?feature=shared" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<!-- ===== hsma_6/H6_6008_Modelling_GP_phone_calls/index.qmd ===== -->
+<p>This project will use Discrete Event Simulation to model patients’ navigation of GP vs 111 services and assess the knock-on effect for Emergency Departments.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/zeYG0EJ83bA?feature=share" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<!-- ===== hsma_6/H6_6009_ML_to_predict_future_fraility/index.qmd ===== -->
+<p>This project will use machine learning methods to estimate the size of the Wakefield District population who will likely be frail in 2 / 3 / 4 years time, and to understand the key features used to predict whether a person will become frail in the near future at a local level.</p>
+<p>Planning for future population health needs</p>
+<ul>
+<li>The ability to plan and design resource allocation (e.g.&nbsp;beds available) in an evidence-based manner is a crucial and consistent priority within the ICB</li>
+<li>There is soon to be approximately 2 years’ worth of linked data, allowing us to begin building and evaluating the use of ML-based techniques aiming to predict the future prevalence of various LTCs or conditions</li>
+<li>Pending the outcomes of this project, we anticipate there to be future scope to adapt similar approached and apply learning to predicting the future prevalence of other LTCs such as diabetes, hypertension, CVD conditions, respiratory conditions and so forth</li>
+</ul>
+<p>The project will produce reports from the work and potentially a dashboard or other user interface.</p>
+<!-- ===== hsma_6/H6_6010_Understanding_drivers_of_increased_length_of_stay/index.qmd ===== -->
+<p>North Central London (NCL) has observed a consistent increase in long Length of Stay (LoS) over the past 5 years. Increasing length of stay means a higher capacity is needed for the same demand which causes system strain.</p>
+<p>Stakeholders are interested in understanding why length of stay has increased within NCL so that that can introduce appropriate measures to reduce it.</p>
+<p>This project proposes to develop a causal model that can be used to identify relations between admission features, operations and length of stay. The model will be used to understand site level drivers to estimate the potential impact of proposed interventions.</p>
+<p>Key Aims:</p>
+<ul>
+<li>To build a qualitative model of the drivers of Length of Stay in acute providers in NCL</li>
+<li>Build a quantitative model(s) of LoS</li>
+<li>Model changes in LoS in response to interventions (stretching)</li>
+</ul>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/SH4geMXr8a8?feature=shared" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<!-- ===== hsma_6/H6_6011_Forecasting_modelling_for_A&E_attendance/index.qmd ===== -->
+<p>The aim of this project was to forecast future A&amp;E attendances 6 weeks in advance, accounting for seasonal patterns.</p>
+</section>
+<section id="original-project-brief" class="level2">
+<h2 class="anchored" data-anchor-id="original-project-brief">Original project brief</h2>
+<p>NHS A&amp;E is under pressure nationwide for a long-time and often we do not know what lies ahead of us to manage the limited resources available and understand when interventions and helps are needed. This is in addition to seasonal pressures.</p>
+<p>Currently A&amp;E has a challenging time looking ahead and manage staffing level needed to match the demand. Furthermore, this can help staff to assess if an escalation process is needed when the abnormal events occur.</p>
+<p>A&amp;E is known for its unpredictability in demand that varies with seasonal trend, location, population, weather and various of other factors.</p>
+<p>This project will use Time Series Forecasting methods and a Repeatable Analytical Pipeline for Deployment.</p>
+</section>
+<section id="case-study" class="level2">
+<h2 class="anchored" data-anchor-id="case-study">Case Study</h2>
+<p><a href="../../../impact_posters/Forecasting AE attendance.png" class="lightbox" data-gallery="quarto-lightbox-gallery-1"><img src="../../../impact_posters/Forecasting AE attendance.png" class="img-fluid"></a></p>
+</section>
+<section id="video" class="level2">
+<h2 class="anchored" data-anchor-id="video">Video</h2>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/uywbayhnass?feature=shared" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<!-- ===== hsma_6/H6_6012_Using_classification_modelling_to investigate_changes_in_ HRG/index.qmd ===== -->
+<p>The Medium-Term Activity Projections (MTAP) model produces a set of baseline activity and price-weighted contact projections to 2040/41 for NHS England for some types of activity. As part of the MTAP project, we want to provide insight into the cost pressure based on this projected activity. Modelling the absolute cost is not possible, so one widely used approach to modelling cost pressure is using cost or price ‘weights’ for distinct and specific activity types. Changes in the ratios of different activity types are captured by the sum of the weighted activity.</p>
+<p>Healthcare Resource Group (HRG) codes are used in the NHS to categorise types of inpatient activity by assigning one of around 3,000 5-digit codes. The first 4 digits indicate the primary treatment or reason for care, e.g.&nbsp;primary hip replacement, and the 5th digit capturing complexity and comorbidities through the recording of secondary diagnoses. However, in recent years there has been a huge increase in the recording of secondary diagnoses with the introduction of Electronic Patient Records (EPR), but there is a hypothesis that this change does not represent a real increase in patient co-morbidity, and ‘coding creep’ is present.</p>
+<p>To deal with this, National Cost Collection (previously known as Reference Costs) data is used to look at the relationship over time between the proportion of activity in each complexity category (the 5th character of the HRG) and the change in the average relative cost of each HRG. The hypothesis is that if increases in the proportion of more complex patients are real, then this should not lead to a reduction in the average relative cost of those HRG.</p>
+<p>This research project proposes to identify whether the key factors influencing the complexity and comorbidity categorisation (CCC) have changed over time by:</p>
+<ol type="1">
+<li><p>Training a classification model to predict CCCs, using secondary diagnoses in the patient records as input features. The model will be trained on data for a given year, e.g.&nbsp;2016/17, and the model performance for other time periods (e.g.&nbsp;2022/23) will be compared. A significant change in performance may indicate that the factors influencing CCC have changed. If the 2016/17 performance gradually decreases over time as the use of EPR have been increasing, it could support the coding drift hypothesis.</p></li>
+<li><p>Using explainable AI methods to identify the key factors driving classification in two time periods to assess if there has been a significant change.</p></li>
+<li><p>Use classification modelling approach to identify the key factors driving the prediction of HRG CCC and actual costs using National Cost Collection data over a given time period. If the HRG codes are reflective of reality, features should have similar relative importance in each model.</p></li>
+</ol>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/zeYG0EJ83bA?feature=shared" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<!-- ===== hsma_6/H6_6013_Modelling_bed_occupancy_acute_ward/index.qmd ===== -->
+<p>The aim of this project is to develop a tool to perform time series forecasting on bed occupancy based on historical data, incorporating variables like seasonality and growth. To build a web-based application that enables end users to simulate acute bed model, with the ability to include variables like closed beds, additional capacity, community availability etc, in turn aiding decision making.</p>
+<p>The problem:</p>
+<ul>
+<li>Current bed occupancy forecast is done on Excel based on historical monthly averages</li>
+<li>High level position but lacking in flexibility</li>
+<li>Daily bed model is manually tweaked, and unable to simulate possible outcome</li>
+</ul>
+<p>Using Machine learning and discrete event simulation the aim is for the project to predict values close to actual measures. For the user to utilise the web app on a day to day basis and find it a reliable tool for decision making.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/SH4geMXr8a8?feature=shared" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<!-- ===== hsma_6/H6_6015_Forecasting_the_supply_of_medical_doctors/index.qmd ===== -->
+<p>The problem: Not enough medical doctors by region and we need to establish the gap between what we have and what we need.</p>
+<p>The Aim: Forecast medical doctors required by region, taking into account relevant factors for example, trainees coming in, population etc.</p>
+<p>The Output: To plot a graph to show our current supply and what we demand.</p>
+<p>Bonus would be to be able to simulate outcome of demand, if input is amended to reflect different scenarios i.e.&nbsp;number of trainees decreases or population ill health increases etc</p>
+<!-- ===== hsma_6/H6_6016_Optimising_the_location_of_breast_cancer_diagnostic_services/index.qmd ===== -->
+<p>Over 6000 patients a year are referred to Royal Devon &amp; Exeter Hospital (RD&amp;E) and North Devon District Hospital (NDDH) for fast-track breast symptom diagnosis. The fast-track clinic requires a clinician, a mammography team and a consultant radiologist/radiographer plus support staff. The imaging needs to take place in specialised rooms. As population and awareness of breast cancer increases there are increasing referrals and the current infrastructure at both RD&amp;E and NDDH will not be sufficient to meet future demand. It is therefore necessary to build a new breast diagnostic unit or extend an existing one. It is likely to be prohibitively expensive to build at both NDDH and RD&amp;E. At present specific GP surgeries refer patients to either NDDH or RD&amp;E. However, the two hospitals are now managed as part of a single NHS Trust called RDUH. Each hospital requires breast diagnosis infrastructure on site as it is used for inpatient and emergency admissions as well as for elective diagnosis services so we need at least two breast diagnosis centres but data science may be used to help determine whether there is a value in building a third centre and/or diverting referrals from specific GPs to one of the existing units.</p>
+<p>The aim of this project is to determine where additional breast diagnostic services should be placed to minimise overall travel time for patients whilst reducing infrastructure and running costs.</p>
+<p>Objectives include the following:</p>
+<ul>
+<li>To map breast referral demand by GP and calculate the weighted average distance and/or travel time from each GP to RD&amp;E, NDDH and a potential central location.</li>
+<li>To calculate the percentage of patients who would benefit from a central location.</li>
+<li>To calculate the shortest distance/travel time from each GP to the three locations and determine the reduction or increase in mileage if patients were diverted from their current default hospital to one of the other two centres.</li>
+</ul>
+<!-- ===== hsma_6/H6_6017_Referral_to  treatment_waiting_times_for_Neurosurgical_patients/index.qmd ===== -->
+<p>This project will aim to model the pathway for Neurosurgical patients, and to explore, based on current waiting times,</p>
+<ul>
+<li>will the waiting list grow or reduce</li>
+<li>how long patients may wait for treatment</li>
+</ul>
+<p>The aim is to add user interaction, to see how an increase/reduction in capacity affects waiting times. Also to be able to see how many patients are waiting over 52 weeks at each month end.</p>
+<!-- ===== hsma_6/H6_6018_predicting_risk_of_injurious_falls/index.qmd ===== -->
+<p>Atrial fibrillation (AF) is a common cardiac arrhythmia which increases the risk of stroke.</p>
+<p>Anticoagulation is very effective in reducing stroke risk but can increase the risk of bleeding, a much feared consequence of anticoagulation is bleeding on the brain. National and international guidance states that anticoagulation should not be withheld because of falls as the benefits still outweigh the risks but many clinicians choose not to prescribe these medications to people who fall or those at risk of falls because they don’t believe the evidence supports this recommendation.</p>
+<p>The initial stage aims of this project is to explore if machine learning techniques can be used to develop a model that can predict injurious falls in older people with AF and determine what features are important.</p>
+<p>The longer term aim of this project is to ascertain whether a tool could be developed to personalise anticoagulant treatment based on falls risk to help clinicians and patients make more informed treatment decisions.</p>
+<!-- ===== hsma_6/H6_6019_clinical_coding_automation/index.qmd ===== -->
+<p>The aim of this project is to use Natural Language Processing (NLP) to predict ICD-10 or OPCS-4 codes from doctor/patient notes, automating a task currently done manually by the clinical coding team.</p>
+<p>Initially, we’ll predict 3-character ICD-10 chapters, with the goal of eventually predicting full 4-character codes. Collaborating with a provider that has access to these notes, this project will streamline coding and improve accuracy.</p>
+<!-- ===== hsma_6/H6_6020_modelling_111_option_2_call_centre/index.qmd ===== -->
+<p>We operate 2 separate 111 call centres for mental health patients (for both Norfolk and Suffolk). These are both set up in different ways (one fully staffed with ‘qualified’ B6s, the other with junior staff who escalate to qualified staff when needed), but both are struggling with their performance.</p>
+<p>Many callers abandon their calls before they can be reached and there are serious concerns about clinical safety. A piece of work is underway to transform these services, and a piece of demand and capacity analysis is required to ensure the best possible staffing model is in place, both in terms of structure and resource levels.</p>
+<p>The aim of this project is to build a Discrete Event Simulation model to compare both staffing approaches and identify the level of resources required to safely staff the service. Further aims would be to build a useful helper tool to ensure planned rosters are safe, users could input current rosters again a forecasted level of calls and the model would show the potential effects of this.</p>
+<!-- ===== hsma_6/H6_6021_predicting_future_demand_renal_replacement_therapy/index.qmd ===== -->
+<p>The problem: Kidney disease is projected to be the fifth leading cause of premature deaths globally by 2040. With people living longer and having more comorbidities, the demand for dialysis and transplants is rising and exceeding capacity. In England, the system is at full capacity for in-centre dialysis, requiring immediate action and a long-term strategy to optimise care.</p>
+<p>The result: Incorporate forecasting techniques to predict the future demand based on population prediction (data available in ONF and prevalence data available in QOF).</p>
+<p>The aim: To develop a model to help tackle this demand - either increasing home dialysis or introducing a new dialysis centre</p>
+<!-- ===== hsma_6/H6_6023_predicting_gestational_diabetes_using_ML/index.qmd ===== -->
+<p>Maternity-related conditions, such as gestational diabetes, can have significant impacts on the health of both the mother and baby if not identified early. Current approaches often detect these conditions after symptoms appear, potentially delaying important interventions. This project aims to use machine learning to predict the likelihood of developing gestational diabetes and other related conditions early in pregnancy, allowing for timely interventions and personalised care.</p>
+<p>The aim of this project is to develop a machine learning model that predicts the likelihood of gestational diabetes and other maternity-related conditions based on patient data. The model will serve as a decision support tool for clinicians to provide proactive and personalised care, improving health outcomes for mothers and babies.</p>
+<p>The project will generate :</p>
+<ul>
+<li>A machine learning predictive model.</li>
+<li>An interactive web app or interface for clinicians to input patient data and receive predictions.</li>
+<li>Reports outlining the model’s predictions, accuracy, and effectiveness.</li>
+</ul>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/zeYG0EJ83bA?feature=shared" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<!-- ===== hsma_6/H6_6024_Streamlit_app_for_theographs_of_patient_journeys/index.qmd ===== -->
+<p>The aim of this project is to create an open source application to generate interactive theograph visuals to understand a patients’/clients’ journey through a system.</p>
+<p>The goal is to make a generic application requiring the minimum of data fields so it can be used in different healthcare or social care settings (working with dynamic ‘Event_Type’ values).</p>
+<p>More information about theographs can be found <a href="https://www.nuffieldtrust.org.uk/resource/a-10-year-story-visualising-patient-journeys">here</a>.</p>
+<!-- ===== hsma_6/H6_6025_Modelling_delays_in_breast_head_neck_cancer_pathways/index.qmd ===== -->
+<p>Breast cancer and head and neck cancer are two common cancer sites, where the main clinical pathway is surgery, followed by adjuvant radiotherapy or chemotherapy. Clinical feedback has reported large waits after surgery and often before the point of referral to e.g.&nbsp;the radiotherapy department.</p>
+<p>Our project is using Discrete Event Simulation to model the post-diagnosis pathway for breast and head and neck cancer. The model will be used to identify mid-pathway delays and treatment variation across England with the aim to report on two clinically important steps in the clinical pathway:</p>
+<ol type="1">
+<li>time from neoadjuvant SACT to surgery or radiotherapy (RT)</li>
+<li>time from surgery to first adjuvant treatment (either RT or SACT)</li>
+</ol>
+<!-- ===== hsma_6/H6_6026_Modelling_secondary_care_psychological_therapy_flow/index.qmd ===== -->
+<p>The Mental Health hub in Portsmouth is a relatively new service. It acts as a call centre providing signposting, advice and guidance to those who contact them.</p>
+<p>Current service capacity to answer and manage calls was based on estimates of anticipated demand. Routes into the service are now being expanded and demand will potentially grow.</p>
+<p>This project will use Discrete Event Simulation to model call waiting times, call duration and resource utilisation.</p>
+<p>A web based app will be developed to support ongoing service development.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/GlEoH8B3CHE?feature=shared" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<!-- ===== hsma_6/H6_6032_Identifying_unpaid_carers/index.qmd ===== -->
+<p>There are thousands of unpaid carers. Among many other risks, unpaid carers are likely to experience poor mental health, loneliness and isolation. Supporting the mental and physical health and well-being of carers is essential. The organisation wants to introduce them to communities services, social groups or something that they can talk to and get help with the difficulties of taking care of somebody.</p>
+<p>The aim of this project is to identify places that carers live and to show how many we will capture by placing services.</p>
+<p>The project will begin with geographic modelling/mapping to show locations. It may then continue on to modelling to predict high unpaid carers or areas with older population and unpaid carers.</p>
+<!-- ===== hsma_6/H6_6033_111_downstream_forecasting/index.qmd ===== -->
+<p>The aim of this project is to develop a model that, based on incoming 111 calls, predicts the likely place, time and volume of downstream activity due to these calls. This will deployed as a secure API that allows users to pass cumulative daily 111 figures and receive downstream predictions of likely activity by location, time and type.</p>
+<p>There is an existing UEC webapp that takes in values from various APIs and supplies the values to strategic and operational decision makers across various areas. In the North East there is 111 call data that comes in weekly that is patient level and has things like disposition / complaint / time, this is linkable to other datasets to allow to outcome such as admission post attending A&amp;E. There is also a near live feed which gives 5-15 minute values for the (cumulative) number of 111 calls in a day.</p>
+<!-- ===== hsma_6/H6_6034_Forcasting_blood_donation_sesion_capacity/index.qmd ===== -->
+<p>Blood donation sessions have limits of how many people will be able to attend a session. Bookings for sessions often don’t convert into actual donations due to cancellations, non-attendance and medical rejections. These missed collections represent a lost opportunity to successfully bring someone in to donate.</p>
+<p>The aim of this project is to:</p>
+<ol type="1">
+<li>Develop a Machine Learning-based predictive tool to assess, of the current bookings made for a session, what proportion of these are likely to take place, and if there is room for additional capacity</li>
+<li>Build a web based app that demonstrates the above and allows users to review current available capacity at each session</li>
+</ol>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/zeYG0EJ83bA?feature=shared" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<!-- ===== hsma_6/H6_6035_web_app_to_recommend_appropriate_tech_enabled_care/index.qmd ===== -->
+<p>The growing importance of Technology Enabled Care (TEC) in today’s health and social care environment, especially with the increasing aging population and the need for cost-effective solutions to enhance quality of life, has led professionals to incorporate TEC in the individuals’ health and care assessment. TEC devices like personal alarms, sensors, fall detectors, remote health monitoring, and other assistive technologies are used to support individuals, particularly older adults, people with disabilities, or those with health conditions, in maintaining independence and ensuring safety in their daily lives.</p>
+<p>Technology enabled care can increase choice in maintaining independence, stay connected with family and friends and enhance social and mental activity.</p>
+<p>However, many professionals, carers and individuals are unfamiliar with the wide range of TEC options available, making it difficult to choose the right equipment. In addition, information about TEC equipment is scattered across different platforms making it difficult to access comprehensive, up-to-date guidance in one place.</p>
+<p>The aim of this project is to develop a web app that will :</p>
+<ul>
+<li>Serve as a one-stop platform providing details, user friendly guidance on TEC equipment.</li>
+<li>The app would be useful for Torbay and South devon Trust’s health and social care professionals, carers, and individuals who need support with TEC equipment, creating a bridge between technology and users who want to remain independent and safe in their homes.</li>
+<li>The app can provide a platform to keep users updated with the latest innovations.</li>
+<li>The app will empower users with comprehensive guides on TEC equipment, enabling them to make confident choices that enhance personal safety and independence</li>
+<li>Health and social care professionals will have access to a reliable resource to recommend the right TEC solutions for patients, enhancing their ability to deliver personalised care.</li>
+<li>By encouraging the use of TEC, the app contributes to reducing the burden on health and social care systems and cares, enabling more people to remain safely at home.</li>
+</ul>
+<p>Future, further extension of this project will include exploring predicting cost savings and change on staff capacity based on TEC usage.</p>
+<!-- ===== hsma_6/H6_6036_Forcasting_demand_RDUH_breast_care_services/index.qmd ===== -->
+<p>Historically there has been a lack of data science or accurate forecasting in developing capacity. Between 2011 and 2021 the growth in the population served by the Royal Devon &amp; Exeter Hospital rose by 13% which was twice the average national population growth. This increase in demand was not met by sufficient increase in physical infrastructure or capacity. This led to significant waiting list problems with RD&amp;E having some of the longest waiting patients in the country. Exeter and surrounding areas have high housing targets and predict further growth as well as significant growth in an ageing population.</p>
+<p>This project aims</p>
+<ul>
+<li>To develop a demonstrator forecasting tool (using breast services as an example) which is made available through a StreamLit app to predict referrals and service demand.</li>
+<li>To use this tool to demonstrate the impact of specific housing developments on service demand to inform workforce planning and to provide data to justify s106 payments from developers to support NHS infrastructure expansion.</li>
+<li>To predict changes in geographical demand and thus feed into project in understanding optimum locations for services on the 10-20 year timescale.</li>
+</ul>
+<p>The project objectives are</p>
+<ul>
+<li>To look at the growth in referrals for breast services and predict future clinic capacity required to meet 2WW targets.</li>
+<li>To separate the increase in referrals due to population growth from that due to changes in demographics and referral patterns (due to patient education and increasing incidence of cancer).</li>
+<li>To create a model of growth based on assumptions about population growth and changes in demographics to obtain best and worst case scenarios in terms of demand.</li>
+</ul>
+<!-- ===== hsma_6/H6_6037_mapping_health_inequalities/index.qmd ===== -->
+<p>The aim of the project is to use ONS data around ethnicities of population, health index England, Deprivation data from QOF, and overlay the same with crime statistics at a geographical scale to try and prove a relationship and the hypothesis of a link.</p>
+<!-- ===== hsma_6/H6_6039_NLP_to_automate_classification_congenital_anomaly/index.qmd ===== -->
+<p>Congenital anomaly diagnoses can be submitted to the National Congenital Anomaly and Rare Diseases Services (NCARDRS) under an unspecific and uninformative ICD10 code of Q87.8. Q87.8 is broadly defined as ‘Other specified congenital malformation syndromes, not elsewhere classified’, with diagnosis detail submitted in free text data. As a result, classification of these diagnoses into more specific syndromes is currently handled manually by reviewing free text fields from data submissions from hospitals such as discharge letters. This manual review is time consuming and risks human error, duplication of effort, and poor standardisation of rules/methods applied for extraction and classification.</p>
+<p>Additionally, diagnoses submitted from discharge letters are only ‘probable’ or ‘suspected’ and therefore need to be validated via genetic testing data. However, there currently is no defined method of data linkage between the discharge letters and genetic data which means diagnoses cannot be confirmed. Providing accurate data on congenital anomaly diagnoses which have been validated by genetic testing data is crucial for disease surveillance reporting.</p>
+<p>The aims of this project are:</p>
+<ol type="1">
+<li>To use Natural Language Processing (NLP) to automate and standardise the extraction and classification of suspected ICD10 Q87.8 congenital anomaly diagnoses from free text.</li>
+<li>To use genetic data to validate these suspected diagnoses, which will include defining a data linkage method between the two datasets.</li>
+</ol>
+<!-- ===== hsma_6/H6_6040_benefit_of_MECC_using_ABS/index.qmd ===== -->
+<p>Making Every Contact Count (MECC) is an e-learning programme in which health and social care staff are encouraged to use various interactions with patients to open conversations about healthy lifestyles and wellbeing.</p>
+<p>The aim of this project is to use Agent Based Simulation to model the behavioural dynamics and success rates on lifestyle factors (such as smoking, drinking, exercise) of MECC interventions, and thereby try to understand the potential impact of MECC training.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/U6-_3q_CZtA?feature=shared" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<!-- ===== hsma_6/H6_6041_patients_risk_integrated_neighbourhood_teams/index.qmd ===== -->
+<p>Population health management often use population segmentation to categorise the population according to health status, health care needs and priorities. This approach recognises that groups of people share characteristics that influence the way they interact with health and care services.</p>
+<p>However, generic population segments may not break down the population into specific enough areas in order to identify which populations are most at risk of an outcome and, therefore, who to target for intervention and where the biggest gains in intervention could be made. Identifying which patient characteristics carry the biggest risk most often comes from clinical expertise and is not data-driven. When data is considered, there is often “too much” data to look into, requiring expertise on where to start. Additionally, different geographies want to know who is most at risk in their patch and often want to be able to view the data at their geography or for their primary care network.</p>
+<p>There is a need for a way to identify which patient characteristics carry the biggest risk for an outcome across different geographies.</p>
+<p>The aim of this project is to create a tool to identify which patient groups are most at risk for an outcome at different geographies. The outcomes will align in the NWL INT outcomes which include:</p>
+<ul>
+<li>Emergency admissions due to fall in over 65s</li>
+<li>Not being vaccinated</li>
+<li>Not taking up screening</li>
+<li>Emergency admissions for ambulatory care sensitive conditions</li>
+</ul>
+<p>Machine Learning and Explainable AI approaches will be used to build the tool and outputs.</p>
+<!-- ===== hsma_6/H6_6043_smoking_cessation_success/index.qmd ===== -->
+<p>Smoking is a leading cause of preventable diseases and deaths worldwide. Despite numerous public health campaigns and interventions, smoking cessation remains a significant challenge. Understanding the factors that contribute to successful smoking cessation can help in designing more effective interventions.</p>
+<p>Certain pathways may suit individuals needs differently and thus have different likelihoods of success. This model will help to show which demographics and pathways are most effective at achieving a successful quit.</p>
+<p>The primary goal of this project is to develop a predictive model that identifies individuals likely to stop smoking based on their demographics and/or behaviours. Additionally, the project aims to uncover key predictors that can possibly influence smoking cessation, providing insights into the traits and behaviours that contribute to quitting smoking and which pathways offer better results for people.</p>
+<p>Several machine learning algorithms will be considered, including logistic regression, decision trees, random forests, and neural networks. Each algorithm will be evaluated for its predictive accuracy and interpretability.</p>
+<p>Depending on the complexity of the data to be used, we will also consider employing ensembled methods to leverage the power of different models on one dataset.</p>
+<!-- ===== hsma_6/H6_6044_Population_segmentation_GP_registered_Dorset/index.qmd ===== -->
+<p>The aim of this project is to create a machine learning-based population segmentation model for the GP-registered Dorset population using multiple characteristics including primary and secondary healthcare utilisation.</p>
+<p>We want to identify population segments based on care needs to inform service design.</p>
+<p>This has the potential to provide enhanced patient understanding leading to improved resource allocation.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/SH4geMXr8a8?feature=shared" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<!-- ===== hsma_6/H6_6045_Forecasting_NHS_Planning_Performance_metrics/index.qmd ===== -->
+<p>The ICB leads on development of Operational Planning submissions to NHS England on an annual basis. This involves development trajectories against various activity and performance metrics, usually covering the next 12 months (e.g.&nbsp;ICB-level A&amp;E attendances). Analysts are often asked to forecast these measures forward based on historic information. The system’s approach to this is often very basic and crude and, partly because of this, organisations often use their own, different approaches which are often open to manipulation.</p>
+<p>The aim of this project is to develop an approach to forecasting the main NHS Planning performance and activity metrics, which is more robust than existing, crude techniques and can form the basis of System Planning. To develop an approach that, given it’s more robust, will be consistently adopting across our system to aid decision makers with both planning but also operational management at system level.</p>
+<!-- ===== hsma_6/H6_6046_Proactive_Patient_attendance_prediction/index.qmd ===== -->
+<p>Every month ~ 12% of outpatient appointments are not attended at Barts Health NHS Trust. This equates to over 10 thousand hours of clinical input, space and equipment that is not being used optimally to progress patients’ treatments or manage ongoing care.</p>
+<p>If a patient does not attend, they could be placed back on a waiting list for an extended period which increases the risk of further deterioration or more severe progression of their condition that may result in them needing emergency care. The deterioration of the patient could have long term impacts on their future health.</p>
+<p>This project will develop :</p>
+<ul>
+<li>Machine learning model to forecast non-attendance</li>
+<li>Patient contact capture tool</li>
+<li>Integration of machine learning model into enterprise level reports</li>
+</ul>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/WNtIIWA_IYg?feature=shared" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<!-- ===== hsma_6/H6_6047_RALPulator/index.qmd ===== -->
+<p>This project is building an app that reads in patient letters ahead of surgery, uses Natural Language Processing techniques to extract key information from the text, and then feeds all of that into a Machine Learning model which then predicts how long the Robotic-assisted laparoscopic prostatectomy (RALP) surgery is going to take.</p>
+<p>A first version of the app has been developed and deployed, and is available here: <a href="https://ralpulator.streamlit.app/" class="uri">https://ralpulator.streamlit.app/</a></p>
+<p>Jake is presenting the work to the National Urological Conference in November 2024, and has been invited to present in Perth, Australia in March 2025.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/ZLfEgmVCYJM?feature=shared" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<!-- ===== hsma_6/H6_6048_Concurrent_treatment_areas_RTT_pathway/index.qmd ===== -->
+<p>The aim of this project is to use machine learning approaches to support analysis of patients with multiple concurrent RTT pathways, focusing particularly on healthcare inequalities.</p>
+<p>The intention is to build a model that could identify/predict/suggest colocated services as well as points at which patients start having concurrent pathways.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/SH4geMXr8a8?feature=shared" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<!-- ===== hsma_6/H6_6052_GM_specialist_palliative_end_of_life_care/index.qmd ===== -->
+<p>Using national health and census data, the aim of this project is to use geographic mapping to show if we are caring for a fair representation of our population. The two populations to be mapped would be based on the same characteristics to include cancer/non-cancer status, protected characteristics such as gender, sexual orientation, religion, ethnicity.</p>
+<p>This would help us to understand our population and could be used to support funding for specific geographical areas or targeting referrals from underrepresented groups.</p>
+<!-- ===== hsma_6/H6_6055_DES_modelling_Hyperacute_Acute_Stroke_Pathway/index.qmd ===== -->
+<p>In the UK the prevalence of stroke among the population is set to increase, with some forecasts putting this between 40-60% from 2021 to 2030. This increase will not only put pressure on hospitals but also on all of society.</p>
+<p>The Hyperacute stroke setting is an extremely time critical. The quicker treatment can be delivered the better a patient’s outcome. In the Acute setting, therapy takes centre stage in rehabilitating patients, with the initial few weeks being the most impactful for the patient’s recovery.</p>
+<p>Post stroke, patients can suffer with extreme changes to their function and wellbeing. The more severe the post stroke disability the more intensive and expensive care is needed.</p>
+<p>The aim of this project is to develop a discrete simulation model to observe the potential effects of differing variables (such as staffing / operating hours of pathways and services) within the Hyperacute / Acute stroke pathway have on the following :</p>
+<ul>
+<li>Patient flow and medical outcomes of those patients</li>
+<li>Direct costs and savings made to the stroke unit itself</li>
+<li>The health economic costs / benefits associated with any change</li>
+</ul>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/ThltRNDt9k8?feature=shared" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<!-- ===== hsma_6/H6_6056_Redrawing_NW_Ambulance_dispatch_boundaries/index.qmd ===== -->
+<p>Within North West Ambulance Service (NWAS), there are three dispatch suites which are based in Manchester, Preston and Liverpool. Each of the sites has a number of dispatch areas which are split geographically, based mainly on postcodes, for the purposes of dispatching emergency resources.</p>
+<p>The geographical areas have not been reviewed for many years and in that time, there have been changes to the landscape of the areas. There have also been hospital and ambulance station closures and relocations. Over the years, there have been increases in the number of emergency ambulances to meet the demand.</p>
+<p>Today’s issue is that the dispatch areas do not have parity in terms of how many emergency resources each are controlling and in how many allocations are made by each dispatcher. This has resulted in some dispatch areas being overwhelmed with incidents to allocate which ultimately leads to delays in responding to patients.</p>
+<p>The aim of this project is to generate evidence to redraw these boundaries to make it more equitable across the three areas.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/BONCgiiFfHc?feature=shared" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<!-- ===== hsma_6/H6_6058_ml_tool_to_predict_dnas/index.qmd ===== -->
+<p>This project is developing a machine learning-based tool that looks at the likelihood outpatient Did Not Attend (DNA) incidences across different services/demographics.</p>
+<p>The tool could hopefully be shared with providers to provide guidance on how to reduce DNAs.</p>
+<!-- ===== hsma_6/H6_6060_optimising_resourcing/index.qmd ===== -->
+<p>This project will model Same Day Emergency Care (SDEC) and Emergency Department (ED) pathways at University Hospitals Bristol and Weston NHS Foundation Trust.</p>
+<p>The project aims to use Discrete Event Simulation to ascertain</p>
+<ol type="1">
+<li>optimum parameters for SDEC and ED pathways</li>
+<li>the effect of different doctor numbers</li>
+<li>the optimum size for SDEC</li>
+</ol>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/Yck3vOioRdQ?feature=shared" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<!-- ===== hsma_6/H6_6061_analysis_forecasting_hospital_referrals/index.qmd ===== -->
+<p>This project will use Python and forecasting approaches to analyse growth in referrals into the hospital.</p>
+<!-- ===== hsma_6/H6_6062_primary_care_load_management_tool/index.qmd ===== -->
+<p>A GP practice serving 35,000 patients experiences peak call wait times of 60 minutes. While increasing staffing levels has reduced these wait times, this approach can result in periods of lower utilization during quieter times.</p>
+<p>This project aims to develop a comprehensive model of the telephone system and call handler workload patterns. The goal is to create an analytical tool that can evaluate telephone resource allocation and identify opportunities for operational optimization.</p>
+<p>A web-based application will be developed to enable testing of various staffing scenarios and resource allocation strategies.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/AUNmuPFnq4c?feature=shared" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<!-- ===== hsma_6/H6_6063_modelling_talking_therapies_clinical_pathway_using_des/index.qmd ===== -->
+<p>According to the Office of National Statistics (ONS), almost one fifth of adults in the UK experience anxiety or depression. The Depression Report (Layard, 2005) identified psychological therapies as vital in the treatment of anxiety and depression. In October 2007, the UK government announced a large-scale programme to improve psychological health in the population: Improving Access to Psychological Therapies (IAPT). Following 15 years of delivery, the programme underwent a national rebrand and was re-named in early 2023 as “NHS Talking Therapies for anxiety and depression”. The NHS Talking Therapies programme supports the NHS in implementing National Institute for Health and Clinical Excellence (NICE) guidelines for the treatment of those experiencing common mental health problems such as depression and a range of anxiety disorders, providing Talking Therapies services within the framework of a stepped care approach.</p>
+<p>Lancashire &amp; South Cumbria NHS Foundation Trust recently reviewed its pathway in line with National Recommendations for how Talking Therapies services should be delivered.</p>
+<p>The aim of this project is therefore to develop a Discrete Event Simulation to model the flow of patients through this new Talking Therapies clinical pathway incorporating the entire clinical pathway – Screening &amp; Assessment, Step 2 and Step3, and modelling patient flow both within and between all the elements of the pathway in an effort to identify any areas of potential waiting list build up resulting from the increased numbers of referrals into Taking Therapies that are being received.</p>
+<!-- ===== hsma_6/H6_6065_automating_injury_coding_using_language_models/index.qmd ===== -->
+<p>Traumatic injuries are a very common presentation to emergency care and the leading cause of death and disability in the working-age population. Patients can sustain multiple injuries to varying locations and of varying severity.</p>
+<p>On arrival at the emergency department. The injured patient will have a clinical assessment and blood tests to evaluate the degree of injuries. Once stabilised after arrival in the emergency department, the acutely injured patient will require CT imaging to guide clinical management. Clinical imaging is where most of the injuries are detected.</p>
+<p>Major trauma centres (MTCs) are funded to deliver activity. The injury casemix and severity for each MTC is reported centrally, and centres are funded for the delivery of major trauma activity, with an increased tariff for patients with a higher injury severity score (ISS), reflecting the severity of injury. Therefore, accurate coding is required to reflect the injury case mix a centre receives and attract the appropriate tariff for the delivery of major trauma activity.</p>
+<p>The aim of the HSMA project is to train a language model to take free-text radiology report inputs and generate an injury code based on the free-text information provided.</p>
+<!-- ===== hsma_6/H6_6066_evaluating_impact_of_community_diagnostic_centres/index.qmd ===== -->
+<p>The introduction of Community Diagnostic Centres (CDCs) aims to expand capacity and bring diagnostics closer to communities, ideally reducing waiting times and improving access. However, whether these benefits are being equitably distributed remains unclear.</p>
+<p>Evidence is needed to quantify the true effect of these centres, including their impact on groups that might experience challenges in accessing timely diagnostic services (e.g., those in deprived areas, rural communities, or with limited transport).</p>
+<p>This project seeks to investigate whether CDCs have effectively improved patient access, and reduced health inequalities. By combining socio-demographic, geographic, and utilisation data, this project aims to identify areas and populations still underserved by diagnostics and propose strategies for equitable service provision.</p>
+<p>This project and output will feed into the overall CDC Programme Evaluation/Review which was recently commissioned by the CDC Programme national team and the Department of Health and Social Care (DHSC).</p>
+<p>The aims of this project are to : - Quantify how the phased opening of CDCs has changed overall diagnostic capacity and waiting times. - Assess how the roll-out of CDCs has influenced access to diagnostic services across diverse socio-demographic groups and geographical areas. - Determine whether health inequalities in diagnostic utilisation or waiting times have lessened post-CDC introduction.</p>
+<!-- ===== hsma_6/H6_6067_applying_manipulating_id_rules_specialised_services/index.qmd ===== -->
+<p>Specialised service lines are identified using Prescribed Specialised Services (PSS) Tool and returned as a field within the SUS dataset. Each year there are changes to the rules and a new tool is provided. The PSS tool is a black box, so there is no access to the manipulate the rules within the tool. The IR rules are hierarchical, a patient can meet the criteria for multiple service lines but is assigned the service line that is highest in the hierarchy. Due to the hierarchy, a change in one rule can cause movement between specialised / non-specialised but also changes within final service line. SUS inpatient and outpatient tables combined contain in excess of 2 billion rows, understanding changes across service lines requires processing all of the data and is therefore slow analysis in SQL.</p>
+<p>The aim of this project is to build a tool that will allow application and manipulation of the IR rules to the SUS datasets. The output will show movement between specialised / non-specialised, movement between service lines and changes in delegated/non-delegated services. As SUS is a patient level dataset there is opportunity to look at changes in patient demographics caused by amendments to the IR rules. As many of the services lines have associated provider eligibility lists, the output should also show changes in travel time for patients. There is potential to be able to analyse the elements of the rule criteria that have been met to assign the service code, this will help determine if there are redundant elements of the rules.</p>
+<!-- ===== hsma_6/H6_6069_wordclouds_referral_information/index.qmd ===== -->
+<p>The aim of this project is to use Natural Language Processing techniques to extract commonly used information in the referral reason of referral order forms.</p>
+<p>Often large paragraphs of free text are written here, but the service would find it useful to understand what are some of the most common reasons for referral.</p>
+<!-- ===== hsma_6/H6_6070_machine_learning_hospital_readmissions/index.qmd ===== -->
+<p>Each month, the Trust has, on average, 480 Emergency 30-day readmissions (7.7%). My aim is to use Machine Learning techniques to try predict who will get readmitted and identify any key factors which make it more likely for someone to be readmitted.</p>
+<p>At this stage, it is an exploratory project that will look more at what level of accuracy is possible to achieve with different approaches from the data currently held by the trust, and may inform future direction of work in this area.</p>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/www\.hsma\.co\.uk");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p><a href="https://arc-swp.nihr.ac.uk/"><img src="../../resources/ARC-logo-horizontal-white.svg" class="img-fluid" width="250"></a><br><br> <em>This work is independent research supported by the National Institute for Health and Care Research Applied Research Collaboration South West. The views expressed in this publication are those of the author(s) and not necessarily those of the National Institute for Health and Care Research or the Department of Health and Social Care.</em> <br><br> <a href="../../policies_procedures/accessibility_statement.html">Accessibility Statement</a> <br> <a href="../../policies_procedures/code_of_conduct.html">Code of Conduct</a> <br> <a href="../../policies_procedures/concerns_and_complaints.html">Concerns and Complaints</a></p>
+<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+<script>var lightboxQuarto = GLightbox({"closeEffect":"zoom","descPosition":"bottom","loop":false,"openEffect":"zoom","selector":".lightbox"});
+(function() {
+  let previousOnload = window.onload;
+  window.onload = () => {
+    if (previousOnload) {
+      previousOnload();
+    }
+    lightboxQuarto.on('slide_before_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      const href = trigger.getAttribute('href');
+      if (href !== null) {
+        const imgEl = window.document.querySelector(`a[href="${href}"] img`);
+        if (imgEl !== null) {
+          const srcAttr = imgEl.getAttribute("src");
+          if (srcAttr && srcAttr.startsWith("data:")) {
+            slideConfig.href = srcAttr;
+          }
+        }
+      } 
+    });
+  
+    lightboxQuarto.on('slide_after_load', (data) => {
+      const { slideIndex, slideNode, slideConfig, player, trigger } = data;
+      if (window.Quarto?.typesetMath) {
+        window.Quarto.typesetMath(slideNode);
+      }
+    });
+  
+  };
+  
+})();
+          </script>
+
+
+
+
+</body></html>
