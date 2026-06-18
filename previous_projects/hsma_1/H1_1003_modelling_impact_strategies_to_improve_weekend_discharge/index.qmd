@@ -1,5 +1,5 @@
 ---
-title: "Modelling the impact of various strategies to improve weekend discharge rates at Derriford Hospital"
+title: "Modelling the impact of various strategies to improve weekend discharge rates"
 techniques:
   - Discrete Event Simulation (DES)
 areas:
@@ -7,6 +7,8 @@ areas:
 categories:
   - Discrete Event Simulation (DES)
   - Discharge
+  - NHS
+  - "NHS 10-year plan shifts: Hospital to Community"
 author:
   - name: Ryan Hunneman
     affiliation: University Hospitals Plymouth NHS Trust
@@ -51,3 +53,10 @@ The modelling process of identifying discharge pathways, key staff groups requir
 ## Impact
 
 The changes made as a result of the modelling process and through the strategy groups formed to implement changes have seen positive results; this has contributed to increased discharges at the weekends and improved communication flows through the discharge process which has had a very positive effect on the whole discharge process especially for complex patients.
+
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+SHIFT - Hospital to Community: faster discharge supports flow out of hospital and back into community settings
+:::

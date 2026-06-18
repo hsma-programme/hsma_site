@@ -1,5 +1,5 @@
 ---
-title: "Modelling resources needed to reduce out of area placements in the Mental Health Acute Care pathway in Devon, leading to the construction of a new mental health ward"
+title: "Modelling resources needed to reduce out of area placements in the Mental Health Acute Care pathway"
 techniques:
   - Discrete Event Simulation (DES)
 areas:
@@ -8,6 +8,8 @@ areas:
 categories:
   - Discrete Event Simulation (DES)
   - Mental Health
+  - NHS
+  - "NHS 10-year plan shifts: Hospital to Community"
 author:
   - name: Karl Vile
     affiliation: Devon Partnership NHS Trust
@@ -46,3 +48,10 @@ This pressure is managed by purchasing out of area beds and also by running the 
 -	There is no one solution and a reduction in demand, lengths of stay (including delayed discharge) combined with an increase in the number of beds is required.
 -	There are not enough beds in the system.
 -	DPT inpatient wards have relatively high occupancy levels, often above 100%, and low lengths of stay. This provides high throughput per bed compared to alternatives, such as step down or out of area beds. As a consequence closing any DPT beds could result in a higher cost alternative.
+
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+SHIFT - Hospital to Community: keeping patients in local/in-county care rather than displaced out-of-area beds. Keeping patients closer to their support networks during crisis allows patients to recover faster and return to their homes/community-based-care sooner.
+:::

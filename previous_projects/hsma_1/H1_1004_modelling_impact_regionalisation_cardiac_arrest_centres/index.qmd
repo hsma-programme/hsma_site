@@ -1,5 +1,5 @@
 ---
-title: "Modelling the impact of regionalising cardiac arrest centres, leading to work to standardise best practices"
+title: "Modelling the impact of regionalising cardiac arrest centres"
 techniques:
   - Geographic Modelling
 areas:
@@ -9,6 +9,7 @@ categories:
   - Georgraphical Modelling
   - Cardiology
   - Discharge
+  - NHS
 author:
   - name: Jess Lynde
     affiliation: South Western Ambulance Service NHS Trust (SWAST)

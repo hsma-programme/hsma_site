@@ -1,5 +1,5 @@
 ---
-title: "Modelling the resources needed to run an acute frailty unit in Cornwall leading to the trust changing their plans"
+title: "Modelling the resources needed to run an acute frailty unit"
 techniques:
   - Discrete Event Simulation (DES)
 areas:
@@ -9,6 +9,7 @@ categories:
   - Discrete Event Simulation (DES)
   - Frailty
   - Acute Care
+  - "NHS 10-year plan shifts: Hospital to Community"
 author:
   - name: Joe Turner
     affiliation: Royal Cornwall Hospitals NHS Trust
@@ -53,3 +54,10 @@ Proposals have been made relating to reconfiguring wards working with the number
 Additional pieces of work have been performed to solely model the size of the Medical Assessment unit with.
 
 Discussions for how to improve the bed occupancy whilst maintaining the bed occupancy taken place and have involved allowing expected short stay medical patients to outlie in FAU when occupancy is low.
+
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+SHIFT - Hospital to Community: reducing admissions, shifting frail patients to more appropriate, faster-turnover care setting
+:::

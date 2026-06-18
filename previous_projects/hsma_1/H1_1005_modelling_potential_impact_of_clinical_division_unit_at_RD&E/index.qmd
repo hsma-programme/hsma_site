@@ -1,5 +1,5 @@
 ---
-title: "Modelling the potential impact of having a Clinical Decision Unit at Royal Devon and Exeter hospital"
+title: "Modelling the potential impact of having a Clinical Decision Unit"
 techniques:
   - Discrete Event Simulation (DES)
 areas:
@@ -8,6 +8,8 @@ areas:
 categories:
   - Discrete Event Simulation (DES)
   - Reducing Backlogs
+  - NHS
+  - "NHS 10-year plan shifts: Hospital to Community"
 author:
   - name: Alaric Moore
     affiliation: Royal Devon University Healthcare NHS Foundation Trust
@@ -53,3 +55,11 @@ With a CDU open 24hrs a day 7 days a week, 99.9% of the time 4 cubicles would be
 In a year, just under 2% of attendances would be appropriate to route to the CDU which would have an impact of improving RD&E performance against the 4hr standard by +1.7%.
 
 These results will be integrated into the ED capital programme business case going to the RD&E Board in June 2017.
+
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+
+SHIFT - Hospital to Community: reducing admissions for patients who can be safely managed in ED and discharged the same day with the right tests and clinical mix available, allowing them to return home sooner.
+:::
