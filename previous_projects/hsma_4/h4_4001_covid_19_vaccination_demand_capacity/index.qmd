@@ -7,6 +7,7 @@ categories:
   - COVID-19
   - Plotly Dash
   - NHS
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 techniques:
   - Forecasting
   - Prophet
@@ -14,6 +15,7 @@ techniques:
 areas:
   - Vaccination
   - COVID-19
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 author:
   - name: Charlene Black
     affiliation: NHS South, Central and West CSU
@@ -46,3 +48,9 @@ They modelled potential update scenarios and have started to work on this and ha
 This will give users an easy to use tool to keep track of vaccinations and pick up problem areas quickly. It will save time and money on current methods and enable more people to use and understand the vaccination position
 
 {{< video https://www.youtube.com/watch?v=_AWTVeNqOwM&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=3 >}}
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+SHIFT - Sickness to Prevention: forecasting demand and capacity for COVID-19 (and potentially flu) vaccination programmes to support efficient, preventative immunisation delivery across the region.
+:::

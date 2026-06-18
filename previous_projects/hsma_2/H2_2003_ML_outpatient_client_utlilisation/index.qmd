@@ -1,11 +1,17 @@
 ---
-title: "Artificial Ian – can a machine learning tool learn when it is necessary to cancel surgery at Derriford Hospital?  And can we use geographic modelling methods to improve outpatient clinic utlilisation in the community?"
+title: "Artificial Ian – can a machine learning tool learn when it is necessary to cancel surgery?  And can we use geographic modelling methods to improve outpatient clinic utlilisation in the community?"
 techniques:
   - Machine Learning
 areas:
-  -
+  - "NHS 10-year big bet: AI to drive productivity"
+  - "NHS 10-year plan shifts: Hospital to Community"
+  - Surgery
 categories:
   - Machine Learning
+  - "NHS 10-year big bet: AI to drive productivity"
+  - "NHS 10-year plan shifts: Hospital to Community"
+  - NHS
+  - Surgery
 author:
   - name: Simon Philpott
     affiliation: University Hospitals Plymouth NHS Trust
@@ -41,3 +47,11 @@ There were three key questions for the Machine learning model to answer:
 A model was trained but performance was poor – there was insufficient data to allow the model to be able to replicate the human decision making taking place.
 
 As a second project, the Trust used geospatial visualisation approaches (using QGIS software) to explore demand for community outpatient clinics.  The work found that there were increasing waiting lists and poor utilisation of clinics.  These results were used to improve their ability to book appropriate patients into Peripheral Sites.
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+BIG BET - AI to drive patient power and productivity: using a machine learning model to inform same-day decisions on surgical cancellations, aiming to reduce poor patient experience from late, avoidable cancellations.
+
+SHIFT - Hospital to Community: using geospatial visualisation to improve utilisation of community-based outpatient clinics and Peripheral Sites, shifting appropriate patients away from the main hospital site.
+:::

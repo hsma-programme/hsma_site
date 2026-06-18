@@ -1,5 +1,5 @@
 ---
-title: "Simulation modelling to test proposed models of pediatric critical care in South West England"
+title: "Simulation modelling to test proposed models of pediatric critical care"
 techniques:
   - Discrete Event Simulation (DES)
   - Mapping

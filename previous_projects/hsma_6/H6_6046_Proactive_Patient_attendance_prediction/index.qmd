@@ -5,10 +5,14 @@ techniques:
 areas:
   - Non-attendance Prediction
   - Outpatients
+  - "NHS 10-year big bet: AI to drive productivity"
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 categories:
   - Machine Learning
   - Non-attendance Prediction
   - Outpatients
+  - "NHS 10-year big bet: AI to drive productivity"
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 author:
   - name: Peter Andrews
     affiliation: Barts Health NHS Trust
@@ -50,3 +54,11 @@ This project will develop :
 - Integration of machine learning model into enterprise level reports
 
 {{< video https://youtu.be/WNtIIWA_IYg?feature=shared >}}
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+"NHS 10-year big bet: AI to drive productivity": developing a machine learning model to forecast outpatient non-attendance, reducing wasted clinical capacity
+
+"NHS 10-year plan shifts: Sickness to Prevention": reducing the risk of patient deterioration from missed appointments.
+:::

@@ -8,6 +8,8 @@ techniques:
 areas:
   - Demographics
   - Public Health
+  - "NHS 10-year plan shifts: Sickness to Prevention"
+  - "NHS 10-year plan shifts: Hospital to Community"
 categories:
   - Machine Learning
   - Explainable AI
@@ -15,6 +17,8 @@ categories:
   - Geographic Modelling
   - Demographics
   - Public Health
+  - "NHS 10-year plan shifts: Sickness to Prevention"
+  - "NHS 10-year plan shifts: Hospital to Community"
 author:
   - name: Rachel Christie
     affiliation: North West London ICB
@@ -55,3 +59,11 @@ The aim of this project is to create a tool to identify which patient groups are
 - Emergency admissions for ambulatory care sensitive conditions
 
 Machine Learning and Explainable AI approaches will be used to build the tool and outputs.
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+"NHS 10-year plan shifts: Sickness to Prevention": identifying patient groups at greatest risk of falls, non-vaccination, non-screening, or emergency admission across neighbourhoods, to better target preventative intervention and resource.
+
+"NHS 10-year plan shifts: Hospital to Community": building a tool aligned with neighbourhood-level outcomes to support more localised, targeted care planning within integrated neighbourhood teams.
+:::

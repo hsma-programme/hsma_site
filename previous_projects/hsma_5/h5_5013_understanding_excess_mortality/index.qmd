@@ -5,12 +5,14 @@ categories:
   - PCMD Dataset
   - Forecasting
   - Public Health
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 techniques:
   - Streamlit
   - Forecasting
 areas:
   - PCMD Dataset
   - Public Health
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 author:
   - name: Eleanor Jeram
     affiliation: Public Health Dorset
@@ -45,3 +47,9 @@ The team are hoping to further develop their StreamLit app to make sharing and a
 :::
 
 {{< video https://www.youtube.com/watch?v=e4wYE9tphVk >}}
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+SHIFT - Sickness to Prevention: identifying unexpected mortality trends and their drivers to support early intervention and prevention approaches, in line with Dorset's Health Inequalities programme and the plan's wider prevention agenda.
+:::

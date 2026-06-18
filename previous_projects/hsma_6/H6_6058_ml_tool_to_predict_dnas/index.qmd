@@ -4,10 +4,11 @@ techniques:
   - Machine Learning
   - Streamlit
 areas:
-  -
+  - "NHS 10-year big bet: AI to drive productivity"
 categories:
   - Machine Learning
   - Streamlit
+  - "NHS 10-year big bet: AI to drive productivity"
 author:
   - name: Barney Rumbold
     affiliation: Blackpool Teaching Hospitals NHS Foundation Trust
@@ -37,3 +38,9 @@ pub-info:
 This project is developing a machine learning-based tool that looks at the likelihood outpatient Did Not Attend (DNA) incidences across different services/demographics.
 
 The tool could hopefully be shared with providers to provide guidance on how to reduce DNAs.
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+"NHS 10-year big bet: AI to drive productivity": building a machine learning tool to predict outpatient non-attendance likelihood across services and demographics, supporting providers to reduce wasted clinical capacity.
+:::

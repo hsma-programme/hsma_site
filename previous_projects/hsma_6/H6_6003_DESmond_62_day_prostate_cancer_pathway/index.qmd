@@ -6,12 +6,16 @@ techniques:
 areas:
   - Cancer
   - Waiting Times
+  - "NHS 10-year big bet: Data to Deliver Impact"
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 categories:
   - Discrete Event Simulation (DES)
   - Streamlit
   - 2-week Wait
   - Cancer
   - Waiting Times
+  - "NHS 10-year big bet: Data to Deliver Impact"
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 author:
   - name: Jake Wilson
     affiliation: Great Western Hospitals NHS Foundation Trust
@@ -49,3 +53,11 @@ The aim is
 - make use of forecasting methods to predicts what changes are needed in resource allocation
 
 The project outcome will be a simulation model with an interactive, web app based interface and a dashboard which illustrates key metrics.
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+"NHS 10-year plan shifts: Sickness to Prevention": modelling the prostate cancer pathway to proactively reallocate resources and reduce bottlenecks, supporting faster diagnosis and treatment.
+
+"NHS 10-year big bet: Data to Deliver Impact": feeding live data into a simulation model to predict demand and bottlenecks in real time, using high-quality data as the basis for proactive resource decisions.
+:::

@@ -7,6 +7,8 @@ categories:
   - Rheumatology
   - Reducing Backlogs
   - NHS
+  - "NHS 10-year plan shifts: Anaologue to Digital"
+  - "NHS 10-year plan shifts: Hospital to Community"
 techniques:
   - Discrete Event Simulation (DES)
 areas:
@@ -47,3 +49,11 @@ Other opportunities include discussing a spin-off model that includes effect of 
 On the PIFU rheumatology model itself, the team aim to continue refining the model based on internal stakeholder feedback. A secondary aim is to create an end-user toy tool that could help demonstrate some of the what-if scenarios to operational managers, in collaboration with NHSE Digital Care Model colleagues.
 
 {{< video https://www.youtube.com/watch?v=TO5sKaW6BGk&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=12 >}}
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+SHIFT - Analogue to Digital: using Patient Initiated Follow-up and digital outpatient pathways to redeploy clinical capacity, reducing the need for routine face-to-face hospital appointments for chronic rheumatology patients.
+
+SHIFT - Hospital to Community: helping clear the elective outpatient backlog and supporting hospitals as we know it to end, by shifting follow-up care to patient-initiated, lower-intensity contact.
+:::

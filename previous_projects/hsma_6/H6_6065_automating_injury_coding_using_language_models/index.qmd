@@ -5,10 +5,14 @@ techniques:
   - Machine Learning
 areas:
   - Clinical Coding
+  - "NHS 10-year big bet: AI to drive productivity"
+  - "NHS 10-year big bet: Data to Deliver Impact"
 categories:
   - Natural Language Processing (NLP)
   - Machine Learning
   - Clinical Coding
+  - "NHS 10-year big bet: AI to drive productivity"
+  - "NHS 10-year big bet: Data to Deliver Impact"
 author:
   - name: James Lai
     affiliation: Imperial College Healthcare NHS Trust
@@ -42,3 +46,11 @@ On arrival at the emergency department. The injured patient will have a clinical
 Major trauma centres (MTCs) are funded to deliver activity. The injury casemix and severity for each MTC is reported centrally, and centres are funded for the delivery of major trauma activity, with an increased tariff for patients with a higher injury severity score (ISS), reflecting the severity of injury. Therefore, accurate coding is required to reflect the injury case mix a centre receives and attract the appropriate tariff for the delivery of major trauma activity.
 
 The aim of the HSMA project is to train a language model to take free-text radiology report inputs and generate an injury code based on the free-text information provided.
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+"NHS 10-year big bet: AI to drive productivity": training a language model to generate injury codes from free-text radiology reports, automating a task that currently requires manual clinical coding effort.
+
+"NHS 10-year big bet: Data to Deliver Impact": creating additional structured data from unstructured data, supporting further work down the lines
+:::

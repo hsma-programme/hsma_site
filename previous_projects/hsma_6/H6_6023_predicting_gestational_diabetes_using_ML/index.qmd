@@ -7,12 +7,16 @@ areas:
   - Diabetes
   - Maternity
   - Women's Health
+  - "NHS 10-year plan shifts: Sickness to Prevention"
+  - "NHS 10-year big bet: AI to drive productivity"
 categories:
   - Machine Learning
   - Streamlit
   - Diabetes
   - Maternity
   - Women's Health
+  - "NHS 10-year plan shifts: Sickness to Prevention"
+  - "NHS 10-year big bet: AI to drive productivity"
 author:
   - name: Rochelle Francis-Reid
     affiliation: Epsom and St Helier University Hospitals NHS Trust
@@ -53,3 +57,11 @@ The project will generate :
 - Reports outlining the model's predictions, accuracy, and effectiveness.
 
 {{< video https://youtu.be/zeYG0EJ83bA?feature=shared >}}
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+"NHS 10-year plan shifts: Sickness to Prevention": predicting the likelihood of gestational diabetes and other maternity conditions early in pregnancy to enable timely, personalised preventative intervention rather than detection after symptoms appear.
+
+"NHS 10-year big bet: AI to drive productivity": providing clinicians with an interactive tool that uses a predictive model to support proactive, personalised decision-making at the point of care.
+:::

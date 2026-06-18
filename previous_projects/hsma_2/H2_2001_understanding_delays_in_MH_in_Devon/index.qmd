@@ -2,11 +2,13 @@
 title: "Using modelling to understand the delays in mental health services in Devon"
 techniques:
   - Discrete Event Simulation (DES)
-  -
 areas:
   - Mental Health
+  - "NHS 10-year plan shifts: Hospital to Community"
 categories:
   - Discrete Event Simulation (DES)
+  - "NHS 10-year plan shifts: Hospital to Community"
+  - NHS
 author:
   - name: Simon Wellesley-Miller
     affiliation: Devon Partnership NHS Trust
@@ -47,3 +49,9 @@ The aim of this project was to try to answer the following questions using model
 Seven versions of model were created, for the localities of Barnstaple, Exeter, and Torquay. Separate data and models were built for each locality for weekdays and weekends. Pathways were modelled for each service.
 
 The model helped demonstrate the demand and capacity of the system, allowing for appropriate resources to be planned to support the cafes, and associated financial decisions to be made.
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+SHIFT - Hospital to Community: modelling demand and capacity for Crisis Cafes as a community-based alternative to out-of-hours, emergency or inpatient mental health services, diverting activity away from acute settings and into local, accessible provision.
+:::

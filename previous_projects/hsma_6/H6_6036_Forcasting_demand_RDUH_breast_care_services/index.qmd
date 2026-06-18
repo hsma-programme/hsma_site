@@ -7,12 +7,14 @@ techniques:
 areas:
   - Cancer
   - 2-week Wait
+  - "NHS 10-year plan shifts: Hospital to Community"
 categories:
   - Discrete Event Simulation (DES)
   - Forecasting
   - Streamlit
   - Cancer
   - 2-week Wait
+  - "NHS 10-year plan shifts: Hospital to Community"
 author:
   - name: Gill Baker
     affiliation: Royal Devon University Healthcare NHS Foundation Trust
@@ -56,3 +58,9 @@ The project objectives are
 - To look at the growth in referrals for breast services and predict future clinic capacity required to meet 2WW targets.
 - To separate the increase in referrals due to population growth from that due to changes in demographics and referral patterns (due to patient education and increasing incidence of cancer).
 - To create a model of growth based on assumptions about population growth and changes in demographics to obtain best and worst case scenarios in terms of demand.
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+"NHS 10-year plan shifts: Hospital to Community": predicting future geographical demand for breast services driven by housing growth, to inform optimal service location planning over the next 10-20 years.
+:::

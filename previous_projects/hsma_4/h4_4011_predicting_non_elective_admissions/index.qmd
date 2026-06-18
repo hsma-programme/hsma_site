@@ -6,12 +6,16 @@ categories:
   - Inpatient Admissions
   - Natural Language Processing (NLP)
   - NHS
+  - "NHS 10-year plan shifts: Sickness to Prevention"
+  - "NHS 10-year big bet: Data to Deliver Impact"
 techniques:
   - Machine Learning
   - Natural Language Processing (NLP)
 areas:
   - Non-elective Admissions
   - Inpatient Admissions
+  - "NHS 10-year plan shifts: Sickness to Prevention"
+  - "NHS 10-year big bet: Data to Deliver Impact"
 author:
   - name: Stephen Ashmead
     affiliation: Royal Devon University Healthcare NHS Foundation Trust
@@ -51,3 +55,11 @@ For the unstructured data, attempts to use more advanced Natural Language Proces
 Electronic health record data can accurately be used to predict whether a patient is at risk of non-elective admission. Administrative events are often better indicators than clinical measures, however EHR data is prone to several limitations and biases which can lead to counter-intuitive correlations. For analysis of unstructured data, greater computing power than I have access to is required to analyse the large quantities of patient notes, even when focusing on relatively short time frames.
 
 It will make a difference to patient care by allowing patients at risk of non-elective admission to receive preventative care, leading to better health outcomes for the individual patients and freeing up inpatient resources for other patients.
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+BIG BET - Data to deliver impact: combining structured electronic health record data with unstructured patient notes to build a predictive model of non-elective admission risk.
+
+SHIFT - Sickness to Prevention: aiming to identify patients at high risk of admission so that preventative care can be delivered before deterioration leads to hospital admission.
+:::

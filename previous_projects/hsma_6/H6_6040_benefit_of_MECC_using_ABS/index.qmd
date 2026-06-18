@@ -6,12 +6,14 @@ techniques:
 areas:
   - Making Every Contact Count (MECC)
   - Population Health
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 categories:
   - Agent Based Simulation (MECC)
   - Streamlit
   - Making Every Contact Count (MECC)
   - Public Health
   - Smoking
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 author:
   - name: Dominic Rowney
     affiliation: NHS North of England CSU
@@ -53,3 +55,9 @@ Making Every Contact Count (MECC) is an e-learning programme in which health and
 The aim of this project is to use Agent Based Simulation to model the behavioural dynamics and success rates on lifestyle factors (such as smoking, drinking, exercise) of MECC interventions, and thereby try to understand the potential impact of MECC training.
 
 {{< video https://youtu.be/U6-_3q_CZtA?feature=shared >}}
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+"NHS 10-year plan shifts: Sickness to Prevention": modelling the potential impact of Making Every Contact Count training on lifestyle behaviours such as smoking, drinking and exercise, supporting preventative conversations between staff and patients.
+:::

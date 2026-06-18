@@ -47,3 +47,11 @@ Our aim is to improve Ambulance Clinical Quality Indicators (ACQI) data quality 
 We would like to consider how the free text could be searched to find positive and negative statements that impact if a record passes or fails a measure within each ACQI. In addition, creating a tool that would predict any changes to the 'rules' and their impact on the scores.
 
 {{< video https://youtu.be/zKZv3zWcXzc?feature=shared >}}
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+NHS 10-year big bet: AI to drive productivity: Classification aims to reduce the time it takes to complete audits, as well as supporting feedback and training to enhance ambulance care
+
+NHS 10-year big bet: Data to Deliver Impact: Augmenting existing datasets with new usable flags
+:::

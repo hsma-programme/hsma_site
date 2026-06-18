@@ -8,6 +8,8 @@ categories:
   - Health Equity Audits
   - NHS
   - Reproducible Analytical Pipelines (RAP)
+  - "NHS 10-year plan shifts: Sickness to Prevention"
+  - "NHS 10-year plan shifts: Analogue to Digital"
 techniques:
   - Streamlit
   - Automation
@@ -16,6 +18,8 @@ areas:
   - Health Equity Audits
   - Community Diagnostic Centres (CDCs)
   - Inequalities
+  - "NHS 10-year plan shifts: Sickness to Prevention"
+  - "NHS 10-year plan shifts: Analogue to Digital"
 author:
   - name: Sarah Houston
     affiliation: UCL Partners Health Innovation
@@ -54,3 +58,11 @@ The team would like to further develop the tool to make it more widely applicabl
 The tool itself, at a minimum, will support a local CDC to understand their local impact on healthcare inequalities and address areas of concern where relevant. It’s an example to demonstrate the power of open-source techniques and data in healthcare inequalities. If adopted by multiple regions, it would allow different regions to generate similar outputs which would allow for easier comparison and sharing of learning. The code developed could also be easily adapted and reused for other healthcare services beyond CDCs.
 
 {{< video https://www.youtube.com/watch?v=tavZS5MmwOA >}}
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+SHIFT - Sickness to Prevention: automating health equity audits for Community Diagnostic Centres to identify and address healthcare inequalities, supporting the plan's ambition to narrow the gap in healthy life expectancy between richest and poorest areas.
+
+SHIFT - Analogue to Digital: replacing a long, manual audit process with an automated, open-source Streamlit tool, making equity monitoring faster and more consistently shareable across regions.
+:::

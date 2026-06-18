@@ -4,9 +4,13 @@ techniques:
   - Natural Language Processing (NLP)
 areas:
   - Clinical Coding
+  - "NHS 10-year big bet: AI to drive productivity"
+  - "NHS 10-year big bet: Data to Deliver Impact"
 categories:
   - Natural Language Processing (NLP)
   - Clinical Coding
+  - "NHS 10-year big bet: AI to drive productivity"
+  - "NHS 10-year big bet: Data to Deliver Impact"
 author:
   - name: Sid Kumar
     affiliation: NHS South West London ICB
@@ -36,3 +40,11 @@ pub-info:
 The aim of this project is to use Natural Language Processing (NLP) to predict ICD-10 or OPCS-4 codes from doctor/patient notes, automating a task currently done manually by the clinical coding team.
 
 Initially, we'll predict 3-character ICD-10 chapters, with the goal of eventually predicting full 4-character codes. Collaborating with a provider that has access to these notes, this project will streamline coding and improve accuracy.
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+"NHS 10-year big bet: AI to drive productivity": using NLP to automate the prediction of ICD-10/OPCS-4 codes from clinical notes, a task currently performed manually, freeing up coding staff time and improving accuracy.
+
+"NHS 10-year big bet: Data to Deliver Impact": Enhancing held data with categories that can be used downstream for additional analysis or to support data products like machine learning algorithms
+:::

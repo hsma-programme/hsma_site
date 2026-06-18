@@ -6,11 +6,15 @@ techniques:
 areas:
   - Congenital Anomilies
   - Genetic Data
+  - "NHS 10-year big bet: AI to drive productivity"
+  - "NHS 10-year big bet: Data to Deliver Impact"
 categories:
   - Natural Language Processing (NLP)
   - Streamlit
   - Congenital Anomilies
   - Genetic Data
+  - "NHS 10-year big bet: AI to drive productivity"
+  - "NHS 10-year big bet: Data to Deliver Impact"
 author:
   - name: Charlotte Eversfield
     affiliation: National Disease Registration Service (NDRS)
@@ -51,3 +55,11 @@ The aims of this project are:
 
 1.	To use Natural Language Processing (NLP) to automate and standardise the extraction and classification of suspected ICD10 Q87.8 congenital anomaly diagnoses from free text.
 2.	To use genetic data to validate these suspected diagnoses, which will include defining a data linkage method between the two datasets.
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+"NHS 10-year big bet: AI to drive productivity": using NLP to automate the manual classification of congenital anomaly diagnoses from free text, reducing time, duplication and error in disease surveillance reporting.
+
+"NHS 10-year big bet: Data to Deliver Impact": linking genetic testing data with free-text diagnoses to validate congenital anomaly classifications, treating genomic data as the basis for more accurate disease surveillance.
+:::

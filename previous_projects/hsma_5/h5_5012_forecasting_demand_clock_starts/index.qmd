@@ -9,6 +9,7 @@ categories:
   - Machine Learning
   - Waiting Lists
   - NHS
+  - "NHS 10-year plan shifts: Analogue to Digital"
 techniques:
   - Forecasting
   - Prophet
@@ -17,6 +18,7 @@ areas:
   - Clock Starts
   - Demand & Capacity
   - Waiting Lists
+  - "NHS 10-year plan shifts: Analogue to Digital"
 author:
   - name: Jane Kirkpatrick
     affiliation: NHS England
@@ -51,3 +53,9 @@ The team carried out exploratory data analysis to understand differences between
 They found that while the more performant models that we used performed well (produced low error metrics), they generally didn’t perform as well as the model currently used within the organisation. This suggested that a helpful next step of the project might be to complete the work of translating the excel model into python and doing further work to understand if they can get more data to better understand the drivers of demand beyond just time series.
 
 {{< video https://www.youtube.com/watch?v=Obzos_OfyEw >}}
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+SHIFT - Analogue to Digital: moving demand forecasting for waiting list management away from Excel-based scenario modelling toward Python-based statistical and machine learning forecasting methods.
+:::

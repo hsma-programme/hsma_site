@@ -5,11 +5,13 @@ techniques:
 areas:
   - Vaccination
   - COVID-19
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 categories:
   - Discrete Event Simulation (DES)
   - Vaccination
   - COVID-19
   - NHS
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 author:
   - name: Dr Adam Kwiatkowski
     affiliation: Torridge Primary Care Network
@@ -42,3 +44,9 @@ Dr Kwiatkowski said:
 “I enjoyed designing it. It predicts queue lengths, car park capacity and times for every step of the vaccination process in the clinic to avoid overcrowded waiting rooms. In the winter of 2020/1 the country was back in lock down and there seemed no end in sight regarding COVID. The vaccines seemed like a ray of hope and setting up the clinics was instrumental in turning the tide. Being able to use the knowledge gained from the HSMA course to help design the process was fantastic. The clinic has now delivered over 100,000 vaccines.”
 
 {{< video https://www.youtube.com/watch?v=Ve5LuePWrQ4&list=PLgHO2TgIJXdnAWY7tGGPQLWYAjn0tgG_A&index=3 >}}
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+SHIFT - Sickness to Prevention: modelling and refining a mass vaccination pathway delivered through GP surgeries to enable safe, efficient, large-scale preventative immunisation against COVID-19.
+:::

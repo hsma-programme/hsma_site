@@ -4,9 +4,12 @@ techniques:
   - Discrete Event Simulation (DES)
 areas:
   - Frailty
+  - "NHS 10-year plan shifts: Hospital to Community"
 categories:
   - Discrete Event Simulation (DES)
   - Frailty
+  - NHS
+  - "NHS 10-year plan shifts: Hospital to Community"
 author:
   - name: Claire Westoby
     affiliation: Royal Cornwall Hospitals NHS Trust
@@ -37,3 +40,9 @@ After a hospital admission, 12% of people over 70 experience a reduction in thei
 The aim of this project was to determine where to base the existing frailty workforce in order to impact as many patients as possible and reduce their length of stay, as well as improving the quality of care and patient experience?
 
 The model simulated the pathway from patient arrival, being seen by frailty nurse, and then either being admitted or discharged. Those that were admitted were then seen by a frailty doctor.
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+SHIFT - Hospital to Community: optimising frailty nurse and doctor placement to reduce length of stay and the decline in daily living abilities associated with hospital admission, supporting faster, safer return home for older patients.
+:::

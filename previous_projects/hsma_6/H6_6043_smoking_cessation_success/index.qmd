@@ -8,6 +8,7 @@ areas:
   - Smoking
   - Public Health
   - Council
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 categories:
   - Machine Learning
   - Explainable AI
@@ -15,6 +16,7 @@ categories:
   - Smoking
   - Public Health
   - Council
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 author:
   - name: Ryan Hutchings
     affiliation: Dorset Council
@@ -52,3 +54,9 @@ The primary goal of this project is to develop a predictive model that identifie
 Several machine learning algorithms will be considered, including logistic regression, decision trees, random forests, and neural networks. Each algorithm will be evaluated for its predictive accuracy and interpretability.
 
 Depending on the complexity of the data to be used, we will also consider employing ensembled methods to leverage the power of different models on one dataset.
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+"NHS 10-year plan shifts: Sickness to Prevention": identifying which demographics and treatment pathways are most likely to lead to successful smoking cessation, supporting more effective preventative public health interventions.
+:::

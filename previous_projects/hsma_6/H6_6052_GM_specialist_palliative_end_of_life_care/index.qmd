@@ -6,10 +6,12 @@ techniques:
 areas:
   - End-of-life Care & Hospices
   - Demographics
+  - "NHS 10-year plan shifts: Hospital to Community"
 categories:
   - Geographic Modelling
   - Mapping
   - Demographics
+  - "NHS 10-year plan shifts: Hospital to Community"
 author:
   - name: Helen Cameron
     affiliation: Ashgate Hospice
@@ -39,3 +41,9 @@ pub-info:
 Using national health and census data, the aim of this project is to use geographic mapping to show if we are caring for a fair representation of our population. The two populations to be mapped would be based on the same characteristics to include cancer/non-cancer status, protected characteristics such as gender, sexual orientation, religion, ethnicity.
 
 This would help us to understand our population and could be used to support funding for specific geographical areas or targeting referrals from underrepresented groups.
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+"NHS 10-year plan shifts: Hospital to Community": mapping demographic and protected characteristics against hospice referral patterns to ensure fair representation and identify underserved groups who may benefit from earlier palliative referral.
+:::

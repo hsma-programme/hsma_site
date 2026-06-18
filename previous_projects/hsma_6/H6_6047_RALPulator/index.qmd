@@ -8,6 +8,8 @@ areas:
   - Urology
   - Cancer
   - Surgical
+  - "NHS 10-year big bet: AI to drive productivity"
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 categories:
   - Machine Learning
   - Natural Language Processing (NLP)
@@ -15,6 +17,8 @@ categories:
   - Urology
   - Cancer
   - Surgical
+  - "NHS 10-year big bet: AI to drive productivity"
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 author:
   - name: Jake Wilson
     affiliation: Great Western Hospitals NHS Foundation Trust
@@ -51,3 +55,11 @@ A first version of the app has been developed and deployed, and is available her
 Jake is presenting the work to the National Urological Conference in November 2024, and has been invited to present in Perth, Australia in March 2025.
 
 {{< video https://youtu.be/ZLfEgmVCYJM?feature=shared >}}
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+"NHS 10-year big bet: AI to drive productivity": using NLP and machine learning to extract information from patient letters and predict robotic-assisted surgery duration, supporting more efficient theatre scheduling.
+
+"NHS 10-year big bet: robotics to support precision": supporting the planning and resourcing of robotic-assisted laparoscopic prostatectomy surgery, a technology already transforming precision in surgical care.
+:::

@@ -5,10 +5,12 @@ techniques:
   - Explainable AI
 areas:
   - Older Adults
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 categories:
   - Machine Learning
   - Explainable AI
   - Older Adults
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 author:
   - name: Anneka Mitchell
     affiliation: University Hospitals Plymouth NHS Trust
@@ -42,3 +44,9 @@ Anticoagulation is very effective in reducing stroke risk but can increase the r
 The initial stage aims of this project is to explore if machine learning techniques can be used to develop a model that can predict injurious falls in older people with AF and determine what features are important.
 
 The longer term aim of this project is to ascertain whether a tool could be developed to personalise anticoagulant treatment based on falls risk to help clinicians and patients make more informed treatment decisions.
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+"NHS 10-year plan shifts: Sickness to Prevention": using machine learning to personalise anticoagulant treatment decisions based on individual falls risk, supporting more preventative, personalised care for older patients.
+:::

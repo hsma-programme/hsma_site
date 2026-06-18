@@ -3,9 +3,13 @@ title: "Reducing the delays to glaucoma treatment at Torbay Hospital"
 techniques:
   - Discrete Event Simulation (DES)
 areas:
-  -
+  - "NHS 10-year plan shifts: Sickness to Prevention"
+  - Opthalmology
 categories:
   - Discrete Event Simulation (DES)
+  - Opthalmology
+  - NHS
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 author:
   - name: Maria Moloney-Lucey
     affiliation: Devon County Council
@@ -36,3 +40,9 @@ pub-info:
 The aim of this project was to use modelling approaches to assess whether the current configuration of the Glaucoma pathway at Torbay Hospital was increasing delays in treatment, and thus increasing the risk of blindness.
 
 The modelling found that reducing the amount of time visual field checks took (which were perceived to be a bottleneck) had little predicted impact on waiting times.  The model also found that adding a second Photo & Scan machine virtually eliminated queues for this part of the pathway.
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+SHIFT - Sickness to Prevention: reducing delays in the glaucoma treatment pathway to lower the risk of preventable, irreversible vision loss through earlier and timelier intervention.
+:::

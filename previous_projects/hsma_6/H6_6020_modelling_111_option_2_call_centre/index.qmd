@@ -9,6 +9,7 @@ areas:
   - 111 Service
   - Telephone-based Services
   - Staffing Level Optimisation
+  - "NHS 10-year plan shifts: Hospital to Community"
 categories:
   - Discrete Event Simulation (DES)
   - Forecasting
@@ -17,6 +18,7 @@ categories:
   - 111 Service
   - Telephone-based Services
   - Staffing Level Optimisation
+  - "NHS 10-year plan shifts: Hospital to Community"
 author:
   - name: Richard Hall
     affiliation: Norfolk and Suffolk NHS Foundation Trust
@@ -48,3 +50,10 @@ We operate 2 separate 111 call centres for mental health patients (for both Norf
 Many callers abandon their calls before they can be reached and there are serious concerns about clinical safety. A piece of work is underway to transform these services, and a piece of demand and capacity analysis is required to ensure the best possible staffing model is in place, both in terms of structure and resource levels.
 
 The aim of this project is to build a Discrete Event Simulation model to compare both staffing approaches and identify the level of resources required to safely staff the service. Further aims would be to build a useful helper tool to ensure planned rosters are safe, users could input current rosters again a forecasted level of calls and the model would show the potential effects of this.
+
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+"NHS 10-year plan shifts: Hospital to Community": ensuring patients can get timely access
+:::

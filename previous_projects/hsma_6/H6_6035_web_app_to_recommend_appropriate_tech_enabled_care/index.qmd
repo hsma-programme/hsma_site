@@ -6,11 +6,13 @@ techniques:
 areas:
   - Older Adults
   - Costs
+  - "NHS 10-year plan shifts: Hospital to Community"
 categories:
   - Streamlit
   - Costs
-  - Pythn
+  - Python
   - Older Adults
+  - "NHS 10-year plan shifts: Hospital to Community"
 author:
   - name: Radia Woodbridge
     affiliation: Torbay and South Devon NHS Foundation Trust
@@ -53,3 +55,10 @@ The aim of this project is to develop a web app that will :
 - By encouraging the use of TEC, the app contributes to reducing the burden on health and social care systems and cares, enabling more people to remain safely at home.
 
 Future, further extension of this project will include exploring predicting cost savings and change on staff capacity based on TEC usage.
+
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+"NHS 10-year plan shifts: Hospital to Community": providing guidance on technology enabled care equipment such as personal alarms and remote monitoring, supporting older adults to remain independent and safe at home rather than relying on hospital or institutional care.
+:::

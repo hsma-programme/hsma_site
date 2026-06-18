@@ -1,0 +1,107 @@
+<!-- ===== hsma_alumni/H1_1100_Geographic_modelling_of_resource_utilisation_at_DAA/index.qmd ===== -->
+
+---
+title: "Geographic modelling of resource utlitisation at Devon Air Ambulance"
+techniques:
+  - Geographic Modelling
+  - Forecasting
+  - Discrete Event Simulation (DES)
+areas:
+  - Ambulance
+  - Air Ambulance
+  - Patient Transport
+  - Waiting Times
+categories:
+  - Geographic Modelling
+  - Forecasting
+  - Discrete Event Simulation (DES)
+  - Patient Transport
+  - Waiting Times
+  - Air Ambulance
+  - Ambulance
+author:
+  - name: Hannah Trebilcock
+    affiliation: Devon Air Ambulance
+  - name: Richard Pilbery
+    affiliation: Yorkshire Ambulance Service Trust
+organisations:
+  - Devon Air Ambulance
+image: "1100.PNG"
+title-block-banner: ../../banner.png
+status: Active
+pub-info:
+  abstract:
+  links:
+  - name: Video
+    url:
+    icon: fa-brands fa-youtube
+  - name: Code
+    url: https://github.com/RichardPilbery/DAA_DES
+    icon: fa-brands fa-github
+  - name: Website
+    url:
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+---
+
+A geographical modelling project on the utilisation of resources at Devon Air Ambulance. Modelling current demand and conducting what if scenarios to optimise service delivery & provide an evidence base for operational decision making.
+
+
+<!-- ===== hsma_alumni/H5_5100_Extra_funding_allocation_inequality_tool/index.qmd ===== -->
+
+---
+title: "eFIT: Extra funding allocation - inequality tool"
+techniques:
+  - Streamlit
+areas:
+  - Inequalities
+  - Costs
+categories:
+  - Streamlit
+  - Costs
+  - Inequalities
+author:
+  - name: Peter Saiu
+    affiliation: NHS England
+organisations:
+  - NHS England
+image: "5100.PNG"
+title-block-banner: ../../banner.png
+status: Active
+repo: Y
+pub-info:
+  abstract: |
+    The project addresses the lack of national guidance for allocating extra primary care funding by ICBs. It proposes using an equation based on deprivation scores and local needs. A Streamlit web-app tool will help ICBs allocate funds more equitably, considering various indicators and demographics, ensuring a fair distribution and reducing inequalities.
+  links:
+  - name: Video
+    url: https://youtu.be/YbmiEilW9I8
+    icon: fa-brands fa-youtube
+  - name: Code
+    url: https://github.com/pete4nhs/eFIT-tool
+    icon: fa-brands fa-github
+  - name: Website
+    url: https://www.heec.co.uk/resources/extra-funding-allocation-inequality-tool-efit/
+    icon: fa-solid fa-globe
+  - name: Paper
+    url:
+    icon: fa-solid fa-file-contract
+  - name: Slides
+    url: https://youtu.be/YbmiEilW9I8?feature=shared
+    icon: fa-solid fa-person-chalkboard
+---
+
+Whilst core funding for primary care is well regulated (by using a variant of the Carr-Hill formula), there is no national guidance\/methodology to allocate *extra funding* for primary care by Integrated Care Boards (ICBs)
+Every ICB has many programme directors\/project managers for the various disease areas who can split the money at their own discretion who might not take into consideration available data and might just split the money equally (by population size) - effectively widen inequalities even further.
+
+The project proposes to use an equation from our Inequality strategy review which splits the money based on deprivation score and local needs. For example, if a cancer team receives extra funding for FIT screening, I calculate the allocation of extra funding to GP practices based on bowel cancer screening uptake data and give more to those who have low uptake (in a proportional way).
+
+Many indicators can be used, so a team focusing on high-intensity users will use data on high-intensity users etc. However, even if programme managers were aware of the equation, they might not know how to calculate the allocation and might need analysts to do it for them.
+
+I’m creating a tool using the user-friendly Streamlit web-app where a user would input the amount of funding, select the ICB, specify the demographics (age and gender for intervention) and tweak the indicator and the weights (e.g. to give more based inequality or prevalence of disease etc).
+
+Upon hitting the 'Calculate' button the result is instantaneous and you can download the table with the calculated allocations.By making this tool available to all ICBs nationally, we can establish a general consensus on how ICBs can promptly split extra funding to primary care taking into consideration inequalities and local needs.
+
+{{< video https://youtu.be/YbmiEilW9I8 >}}
+

@@ -9,6 +9,8 @@ categories:
   - Carbon Emissions
   - Health Equity Audits
   - NHS
+  - "NHS 10-year plan shifts: Analogue to Digital"
+  - "NHS 10-year big bet: Data to Deliver Impact"
 techniques:
   - Machine Learning
   - Automation
@@ -17,6 +19,8 @@ areas:
   - Carbon Emissions
   - Health Equity Audits
   - Non-attendance Prediction
+  - "NHS 10-year plan shifts: Analogue to Digital"
+  - "NHS 10-year big bet: Data to Deliver Impact"
 author:
   - name: Matt Eves
     affiliation: Derbyshire Community Health Services NHS Foundation Trust
@@ -66,3 +70,11 @@ They are intending to continue working together as a team to finish the projectâ
 They have been successful in securing a funding from the Greener NHS Healthier Futures Action Fund joint bid.
 
 {{< video https://www.youtube.com/watch?v=zYWte2obxDs&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=8 >}}
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+SHIFT - Analogue to Digital: automating a Health Equity Assessment and building a reproducible analytical pipeline to support data-driven, technology-enabled service planning decisions.
+
+BIG BET - Data to deliver impact: combining patient, location and emissions data into a decision support tool to inform new clinic site planning, integrating equity and carbon considerations into service design.
+:::

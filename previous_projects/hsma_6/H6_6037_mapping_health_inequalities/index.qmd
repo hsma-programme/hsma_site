@@ -8,6 +8,7 @@ areas:
   - Crime
   - Police
   - Demographics
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 categories:
   - Mapping
   - Inequalities
@@ -15,10 +16,11 @@ categories:
   - Demographics
   - Crime
   - Police
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 author:
   - name: Abhinav Jindal
     affiliation: NIHR Clinical Research Network
-organisations: 
+organisations:
   - NIHR Clinical Research Network
 image: "6037.PNG"
 title-block-banner: ../../banner.png
@@ -41,3 +43,9 @@ pub-info:
 ---
 
 The aim of the project is to use ONS data around ethnicities of population, health index England, Deprivation data from QOF, and overlay the same with crime statistics at a geographical scale to try and prove a relationship and the hypothesis of a link.
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+"NHS 10-year plan shifts: Sickness to Prevention": mapping deprivation, ethnicity and health index data alongside crime statistics to explore relationships that could inform where to target preventative public health action.
+:::

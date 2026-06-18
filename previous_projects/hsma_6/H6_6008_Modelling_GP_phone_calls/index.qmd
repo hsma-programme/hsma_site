@@ -6,11 +6,13 @@ areas:
   - 111 Service
   - Emergency Departments
   - Primary Care (GP)
+  - "NHS 10-year plan shifts: Hospital to Community"
 categories:
   - Discrete Event Simulation (DES)
   - 111 Service
   - Emergency Departments
   - Primary Care (GP)
+  - "NHS 10-year plan shifts: Hospital to Community"
 author:
   - name: Sarah Blincko
     affiliation: NHS England
@@ -42,3 +44,9 @@ pub-info:
 This project will use Discrete Event Simulation to model patients' navigation of GP vs 111 services and assess the knock-on effect for Emergency Departments.
 
 {{< video https://youtu.be/zeYG0EJ83bA?feature=share >}}
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+"NHS 10-year plan shifts: Hospital to Community": modelling how patients navigate between GP and 111 services to understand the knock-on effect on Emergency Departments, supporting better routing of patients to primary care.
+:::

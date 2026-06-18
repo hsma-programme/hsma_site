@@ -5,10 +5,12 @@ techniques:
 areas:
   - Renal
   - Dialysis
+  - "NHS 10-year plan shifts: Hospital to Community"
 categories:
   - Forecasting
   - Renal
   - Dialysis
+  - "NHS 10-year plan shifts: Hospital to Community"
 author:
   - name: Sandhya Radha Krishnakumar
     affiliation: NHS England
@@ -40,3 +42,9 @@ The problem: Kidney disease is projected to be the fifth leading cause of premat
 The result: Incorporate forecasting techniques to predict the future demand based on population prediction (data available in ONF and prevalence data available in QOF).
 
 The aim: To develop a model to help tackle this demand - either increasing home dialysis or introducing a new dialysis centre
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+"NHS 10-year plan shifts: Hospital to Community": forecasting demand for dialysis to support increasing home dialysis provision as an alternative to in-centre treatment, shifting care away from hospital-based settings.
+:::

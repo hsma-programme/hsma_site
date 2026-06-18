@@ -7,6 +7,8 @@ areas:
   - Inpatient Admissions
   - Primary Care (GP)
   - Hospitals
+  - "NHS 10-year plan shifts: Sickness to Prevention"
+  - "NHS 10-year big bet: Data to Deliver Impact"
 categories:
   - Natural Language Processing (NLP)
   - Primary Care (GP)
@@ -14,6 +16,8 @@ categories:
   - Hospitals
   - Machine Learning
   - NHS
+  - "NHS 10-year plan shifts: Sickness to Prevention"
+  - "NHS 10-year big bet: Data to Deliver Impact"
 author:
   - name: Dr Adam Kwiatkowski
     affiliation: Torridge Primary Care Network
@@ -45,3 +49,11 @@ pub-info:
 This exploratory project explored the use of Natural Language Processing methods to automate the extraction of key information from free-text patient notes in order to ascertain whether clues in notes could be used to predict an imminent admission to hospital. The team found certain important aspects that seemed to offer indications of an imminent admission, such as increased frequency and verbosity of patient notes, and the use of certain words. The team is now continuing to use these preliminary insights to develop a machine learning algorithm to try to predict an imminent admission for patients in Devon.
 
 {{< video https://www.youtube.com/watch?v=xlHuSYo4XAg&list=PLgHO2TgIJXdnAWY7tGGPQLWYAjn0tgG_A&index=2 >}}
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+BIG BET - Data to deliver impact: extracting structured signals from unstructured free-text GP notes to build a predictive model, using routine primary care data as the raw material for identifying patients at risk of admission.
+
+SHIFT - Sickness to Prevention: aiming to predict imminent hospital admissions from clues in GP records, enabling pre-emptive intervention in primary care before a patient's condition deteriorates to the point of needing hospital care.
+:::

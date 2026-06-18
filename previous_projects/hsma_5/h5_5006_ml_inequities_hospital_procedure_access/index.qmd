@@ -6,12 +6,14 @@ categories:
   - Machine Learning
   - APC Dataset
   - NHS
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 techniques:
   - Machine Learning
 areas:
   - Inequalities
   - Planned Admissions
   - APC Dataset
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 author:
   - name: Benjamin Mouncer
     affiliation: NHS, Norfolk County Council
@@ -37,3 +39,9 @@ They put these findings into practice by building in a way to quantify the confi
 One avenue for progression with this project is the creation of synthetic data to have each person within an area as a row of data. Model complexity must increase to create viable models if they even exist. Other feature sets could be explored such as the emergency admissions, type of planned admissions and other variable synthesised from the HES APC dataset.
 
 {{< video https://www.youtube.com/watch?v=NXGYKKPntO8&list=PLgHO2TgIJXdl1MvfkwCGJ6n8_1EYCSzex&index=4 >}}
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+SHIFT - Sickness to Prevention: quantifying disparities in access to planned hospital procedures across deprivation areas, supporting the plan's aim to halve the gap in healthy life expectancy between richest and poorest regions.
+:::

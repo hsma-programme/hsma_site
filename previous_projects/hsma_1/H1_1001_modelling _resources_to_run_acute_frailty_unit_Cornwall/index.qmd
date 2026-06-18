@@ -5,6 +5,7 @@ techniques:
 areas:
   - Frailty
   - Acute care
+  - "NHS 10-year plan shifts: Hospital to Community"
 categories:
   - Discrete Event Simulation (DES)
   - Frailty

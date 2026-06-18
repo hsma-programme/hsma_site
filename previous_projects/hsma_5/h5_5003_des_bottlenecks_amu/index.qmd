@@ -8,6 +8,7 @@ categories:
   - Acute Care
   - Hospitals
   - NHS
+  - "NHS 10-year plan shifts: Hospital to Community"
 techniques:
   - Discrete Event Simulation (DES)
   - Streamlit
@@ -16,6 +17,7 @@ areas:
   - Emergency Departments
   - Acute Care
   - Hospitals
+  - "NHS 10-year plan shifts: Hospital to Community"
 author:
   - name: Becky Crofts
     affiliation: Royal Devon University Healthcare NHS Foundation Trust
@@ -47,3 +49,9 @@ The model isn’t validated yet, but when it is it’ll be handed over to users 
 {{< video https://www.youtube.com/watch?v=_3j0xC_yCKQ >}}
 
 [Access the Github Repository](https://github.com/BeckyCrofts/amu_modelling)
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+SHIFT - Hospital to Community: exploring appropriate resourcing for the AMU to support access to alternatives to admission like remote monitoring, such as monitoring a patient's heart through a mobile app rather than a longer inpatient stay.
+:::

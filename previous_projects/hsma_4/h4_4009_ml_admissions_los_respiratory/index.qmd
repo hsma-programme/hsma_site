@@ -5,11 +5,15 @@ categories:
   - Respiratory
   - NHS
   - Inpatient Admissions
+  - "NHS 10-year plan shifts: Sickness to Prevention"
+  - "NHS 10-year big bet: Data to deliver impact"
 techniques:
   - Machine Learning
 areas:
   - Respiratory
   - Inpatient Admissions
+  - "NHS 10-year plan shifts: Sickness to Prevention"
+  - "NHS 10-year big bet: Data to deliver impact"
 author:
   - name: Andy McCann
     affiliation: NHS Midlands and Lancashire CSU
@@ -35,3 +39,11 @@ A Logistic Regression confirmed some expected factors but also revealed some sur
 The model needs to take other features, particularly more patient history, into account to improve performance and be extended to predict length of stay as well as admission.
 
 {{< video https://www.youtube.com/watch?v=-0AGbib9Ig0&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=14 >}}
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+BIG BET - Data to deliver impact: combining primary and secondary care patient history and demographic data to build predictive models for respiratory admissions and length of stay.
+
+SHIFT - Sickness to Prevention: aiming to better target preventative interventions for patients at risk of admission for respiratory conditions, informed by predicted likelihood of admission.
+:::

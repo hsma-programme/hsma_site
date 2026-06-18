@@ -8,6 +8,8 @@ areas:
   - Paediatric
   - Waiting Lists
   - Waiting Times
+  - "NHS 10-year plan shifts: Sickness to Prevention"
+  - "NHS 10-year plan shifts: Hospital to Community"
 categories:
   - Discrete Event Simulation (DES)
   - Neurodiversity
@@ -15,6 +17,8 @@ categories:
   - Paediatric
   - Waiting Lists
   - Waiting Times
+  - "NHS 10-year plan shifts: Sickness to Prevention"
+  - "NHS 10-year plan shifts: Hospital to Community"
 author:
   - name: Heath McDonald
     affiliation: Lancashire and South Cumbria NHS Foundation Trust
@@ -51,3 +55,12 @@ The current assessment process is lengthy, proposing a new pathway that would in
 The model will capture the changes to the pathway to assess the potential impact of these changes on waiting times and will also capture formal diagnosis and medication titration aspects of the pathway. The model may be extended to look at further 1:1 and group session appointments.
 
 {{< video https://www.youtube.com/watch?v=EmfpThPdXKo >}}
+
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+SHIFT - Hospital to Community: identifying staffing needed to clear the backlog and maintain a steady state for children's autism and ADHD assessments, improving timely access to community and outpatient-based neurodevelopmental services. By providing timely access to diagnosis and resources, we prevent patients escalating to needing more serious, potentially hospital-based, services.
+
+SHIFT - Sickness to Prevention: By providing timely diagnosis, patients with ADHD and autism can be supported to live well, with interventions being provided at an earlier stage and minimising the risk of developing comorbid conditions secondary to the primary diagnosis, such as depression and anxiety.
+:::

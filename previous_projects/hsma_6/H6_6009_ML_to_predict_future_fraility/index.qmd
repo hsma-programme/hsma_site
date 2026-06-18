@@ -5,10 +5,12 @@ techniques:
 areas:
   - Frailty
   - Older Adults
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 categories:
   - Machine Learning
   - Frailty
   - Older Adults
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 author:
   - name: Emil Frances-Chi
     affiliation: NHS West Yorkshire ICB
@@ -46,3 +48,9 @@ Planning for future population health needs
 - Pending the outcomes of this project, we anticipate there to be future scope to adapt similar approached and apply learning to predicting the future prevalence of other LTCs such as diabetes, hypertension, CVD conditions, respiratory conditions and so forth
 
 The project will produce reports from the work and potentially a dashboard or other user interface.
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+"NHS 10-year plan shifts: Sickness to Prevention": estimating the future prevalence of frailty at a local population level to support evidence-based, preemptive resource planning before need arises.
+:::

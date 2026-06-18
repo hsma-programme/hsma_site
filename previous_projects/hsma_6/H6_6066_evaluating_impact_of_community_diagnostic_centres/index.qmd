@@ -6,11 +6,15 @@ techniques:
   - Python
 areas:
   - Community Diagnostic Centres (CDCs)
+  - "NHS 10-year plan shifts: Sickness to Prevention"
+  - "NHS 10-year plan shifts: Hospital to Community"
 categories:
   - Geographic Modelling
   - Streamlit
   - Python
   - Community Diagnostic Centres (CDCs)
+  - "NHS 10-year plan shifts: Sickness to Prevention"
+  - "NHS 10-year plan shifts: Hospital to Community"
 author:
   - name: Felix Mukoro
     affiliation: NHS England
@@ -49,3 +53,11 @@ The aims of this project are to :
 - Quantify how the phased opening of CDCs has changed overall diagnostic capacity and waiting times.
 - Assess how the roll-out of CDCs has influenced access to diagnostic services across diverse socio-demographic groups and geographical areas.
 - Determine whether health inequalities in diagnostic utilisation or waiting times have lessened post-CDC introduction.
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+"NHS 10-year plan shifts: Sickness to Prevention": assessing whether Community Diagnostic Centres have equitably improved access and reduced health inequalities, supporting the plan's aim to narrow the gap in healthy life expectancy.
+
+"NHS 10-year plan shifts: Hospital to Community": evaluating how Community Diagnostic Centres bring diagnostic capacity closer to local populations, reducing waiting times outside of acute hospital settings.
+:::

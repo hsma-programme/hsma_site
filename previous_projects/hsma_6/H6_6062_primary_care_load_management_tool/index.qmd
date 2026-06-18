@@ -4,9 +4,11 @@ techniques:
   - Discrete Event Simulation (DES)
 areas:
   - Primary Care (GP)
+  - "NHS 10-year plan shifts: Hospital to Community"
 categories:
   - Discrete Event Simulation (DES)
   - Primary Care (GP)
+  - "NHS 10-year plan shifts: Hospital to Community"
 author:
   - name: Chris Lewis
     affiliation: The Park Medical Practice
@@ -44,3 +46,9 @@ This project aims to develop a comprehensive model of the telephone system and c
 A web-based application will be developed to enable testing of various staffing scenarios and resource allocation strategies.
 
 {{< video https://youtu.be/AUNmuPFnq4c?feature=shared >}}
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+"NHS 10-year plan shifts: Hospital to Community": modelling GP telephone system and call handler capacity to reduce peak call wait times, supporting timely access to primary care and ending the "8am scramble" for appointments.
+:::

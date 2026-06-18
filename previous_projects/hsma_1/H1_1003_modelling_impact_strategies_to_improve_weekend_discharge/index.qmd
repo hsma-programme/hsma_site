@@ -4,6 +4,7 @@ techniques:
   - Discrete Event Simulation (DES)
 areas:
   - Discharge
+  - "NHS 10-year plan shifts: Hospital to Community"
 categories:
   - Discrete Event Simulation (DES)
   - Discharge

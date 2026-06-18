@@ -9,6 +9,7 @@ categories:
   - Emergency Departments
   - NHS
   - Telephone-based Services
+  - "NHS 10-year plan shifts: Hospital to Community"
 techniques:
   - Discrete Event Simulation (DES)
   - Plotly Dash
@@ -18,6 +19,7 @@ areas:
   - 111 Service
   - Primary Care (GP)
   - Emergency Departments
+  - "NHS 10-year plan shifts: Hospital to Community"
 author:
   - name: Richard Pilbery
     affiliation: Yorkshire Ambulance Service NHS Trust
@@ -55,3 +57,9 @@ This was an attempt to model the impact of enforcing timely primary care interve
 {{< video https://www.youtube.com/watch?v=cg5Bp3O02io&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=1 >}}
 
 More information: <https://arc-swp.nihr.ac.uk/publications/modelling-nhs-111-demand-for-primary-care-services-a-discrete-event-simulation/>
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+SHIFT - Hospital to Community: modelling how timely primary care contact following 111 calls could reduce 999 calls and ED attendances, diverting patients toward community-based primary care services.
+:::

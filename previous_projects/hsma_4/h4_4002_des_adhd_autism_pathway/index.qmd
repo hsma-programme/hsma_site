@@ -8,6 +8,8 @@ categories:
   - Demand & Capacity
   - Reducing Backlogs
   - NHS
+  - "NHS 10-year plan shifts: Sickness to Prevention"
+  - "NHS 10-year plan shifts: Hospital to Community"
 techniques:
   - Discrete Event Simulation (DES)
 areas:
@@ -16,6 +18,8 @@ areas:
   - Mental Health
   - Demand & Capacity
   - Reducing Backlogs
+  - "NHS 10-year plan shifts: Sickness to Prevention"
+  - "NHS 10-year plan shifts: Hospital to Community"
 author:
   - name: Irma Tanovic
     affiliation: Oxford Health NHS Foundation Trust
@@ -41,3 +45,12 @@ The main bottlenecks were identified and the issue is not at the beginning of th
 The findings and the model demo have been presented to the stakeholders including service managers, clinical and operational leads, service heads and the Trust board, and discussions on plans for how the model is used to support any improvement work in the service is already taking place.
 
 {{< video https://www.youtube.com/watch?v=IuD0tmKtjV4&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=13 >}}
+
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+SHIFT - Hospital to Community: identifying staffing needed to clear the backlog and maintain a steady state for children's autism and ADHD assessments, improving timely access to community and outpatient-based neurodevelopmental services. By providing timely access to diagnosis and resources, we prevent patients escalating to needing more serious, potentially hospital-based, services.
+
+SHIFT - Sickness to Prevention: By providing timely diagnosis, patients with ADHD and autism can be supported to live well, with interventions being provided at an earlier stage and minimising the risk of developing comorbid conditions secondary to the primary diagnosis, such as depression and anxiety.
+:::

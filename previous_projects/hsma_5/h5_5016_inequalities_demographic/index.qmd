@@ -7,6 +7,7 @@ categories:
   - Travel Times
   - NHS
   - Demographics
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 techniques:
   - Streamlit
   - Mapping
@@ -14,6 +15,7 @@ techniques:
 areas:
   - Inequalities
   - Demographics
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 author:
   - name: Alex Owens
     affiliation: NHS Arden & GEM CSU
@@ -46,3 +48,9 @@ They will continue developing this tool, adding data sources that collaborating 
 They will be presenting the final model and app to stakeholders and getting feedback, adapting if required; then putting it on GitHub to be shared.
 
 {{< video https://www.youtube.com/watch?v=7a1bx1NfyBA&t=3s >}}
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+SHIFT - Sickness to Prevention: combining geospatial, demographic and travel data to direct service expansion toward underserved groups, supporting the plan's aim to narrow health inequalities and improve access for disadvantaged populations.
+:::

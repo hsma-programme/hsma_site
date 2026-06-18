@@ -4,14 +4,15 @@ techniques:
   - Machine Learning
   - Explainable AI
 areas:
-  -
+  - "NHS 10-year plan shifts: Hospital to Community"
 categories:
   - Machine Learning
   - Explainable AI
+  - "NHS 10-year plan shifts: Hospital to Community"
 author:
   - name: Rebecca Marshall
     affiliation: University Hospitals Coventry and Warwickshire Trust
-organisations: 
+organisations:
   - University Hospitals Coventry and Warwickshire Trust
 image: "6070.PNG"
 title-block-banner: ../../banner.png
@@ -37,3 +38,9 @@ pub-info:
 Each month, the Trust has, on average, 480 Emergency 30-day readmissions (7.7%). My aim is to use Machine Learning techniques to try predict who will get readmitted and identify any key factors which make it more likely for someone to be readmitted.
 
 At this stage, it is an exploratory project that will look more at what level of accuracy is possible to achieve with different approaches from the data currently held by the trust, and may inform future direction of work in this area.
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+"NHS 10-year plan shifts: Hospital to Community": using machine learning to predict which patients are likely to be readmitted within 30 days and identify key contributing factors, supporting more targeted preventative follow-up and preventing patients from needing to return to hospital.
+:::

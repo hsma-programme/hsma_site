@@ -1,5 +1,5 @@
 ---
-title: "Using modelling to optimise catheter lab efficiency and predict stroke bed demand at Royal Cornwall Hospital"
+title: "Using modelling to optimise catheter lab efficiency and predict stroke bed demand"
 techniques:
   - Discrete Event Simulation (DES)
 areas:
@@ -8,6 +8,7 @@ areas:
 categories:
   - Discrete Event Simulation (DES)
   - Demand & Capacity
+  - NHS
 author:
   - name: Richard Barrett
     affiliation: Royal Cornwall Hospitals NHS Trust

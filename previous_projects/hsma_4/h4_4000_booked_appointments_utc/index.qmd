@@ -7,6 +7,7 @@ categories:
   - ECDS Dataset
   - Booked Appointments in Walk-in Services
   - NHS
+  - "NHS 10-year plan shifts: Hospital to Community"
 techniques:
   - Discrete Event Simulation (DES)
 areas:
@@ -14,6 +15,7 @@ areas:
   - Emergency Departments
   - ECDS Dataset
   - Booked Appointments in Walk-in Services
+  - "NHS 10-year plan shifts: Hospital to Community"
 author:
   - name: Alice Waterhouse
     affiliation: NHS England
@@ -39,3 +41,9 @@ The model showed a decrease in overall waiting times when higher percentages of 
 This is a great test case for the use of Discrete Event Simulation to inform policy and strategy at a national level. It demonstrates the impact that such modelling can have and creates opportunity for similar work in the future, ensuring that decision making is supported by high quality analytical insight.
 
 {{< video https://www.youtube.com/watch?v=W1cK5vVukXc&list=PLgHO2TgIJXdn0k4y56xtM-VpcHU_5RJUN&index=6 >}}
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+SHIFT - Hospital to Community: supporting patients to book into the most appropriate urgent care service in advance, evening out arrival patterns and reducing waiting times at Urgent Treatment Centres and improving access to centres closer to the patient.
+:::

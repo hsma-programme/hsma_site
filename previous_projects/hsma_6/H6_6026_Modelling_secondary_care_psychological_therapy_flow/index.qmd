@@ -6,11 +6,13 @@ areas:
   - Mental Health
   - Community Mental Health
   - Waiting Times
+  - "NHS 10-year plan shifts: Hospital to Community"
 categories:
   - Discrete Event Simulation (DES)
   - Mental Health
   - Community Mental Health
   - Waiting Times
+  - "NHS 10-year plan shifts: Hospital to Community"
 author:
   - name: Helen Wharam
     affiliation: Hampshire and Isle of Wight Healthcare NHS Foundation Trust
@@ -51,3 +53,9 @@ This project will use Discrete Event Simulation to model call waiting times, cal
 A web based app will be developed to support ongoing service development.
 
 {{< video https://youtu.be/GlEoH8B3CHE?feature=shared >}}
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+"NHS 10-year plan shifts: Hospital to Community": modelling call handling capacity for a community-based mental health advice and signposting hub, supporting timely access to support outside of hospital settings.
+:::

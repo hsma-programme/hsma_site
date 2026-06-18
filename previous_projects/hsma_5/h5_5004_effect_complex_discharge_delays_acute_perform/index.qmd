@@ -8,6 +8,7 @@ categories:
   - Acute Care
   - Inter-service Interactions
   - NHS
+  - "NHS 10-year plan shifts: Hospital to Community"
 techniques:
   - Discrete Event Simulation (DES)
 areas:
@@ -16,6 +17,7 @@ areas:
   - Patient Flow
   - Acute Care
   - Inter-service Interactions
+  - "NHS 10-year plan shifts: Hospital to Community"
 author:
   - name: Hannah Perkins
     affiliation: University Hospitals Plymouth NHS Trust
@@ -39,3 +41,9 @@ A previous PenCHORD project, IPACS, looked at understanding the capacity require
 The aim of the project was to model flow of patients into and out of an acute hospital site, with particular focus on how delays to complex discharges affect patients waiting to come into the hospital. The results from this project will help to articulate how the issues in discharging patients from an acute hospital bed affect emergency care performance (time spent in A&E and ambulance handover time) as well as waiting lists for elective inpatient care. A discrete event simulation was created to model patient flow through an acute facility and into community/social care.
 
 {{< video https://www.youtube.com/watch?v=nrUkRha_5F0&t=1s >}}
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+SHIFT - Hospital to Community: modelling how delays in complex discharge from acute hospital beds affect flow, highlighting the need for adequate social and community care capacity to support timely patient flow out of hospital.
+:::

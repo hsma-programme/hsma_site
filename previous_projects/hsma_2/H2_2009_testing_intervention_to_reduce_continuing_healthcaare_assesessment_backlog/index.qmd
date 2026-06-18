@@ -1,5 +1,5 @@
 ---
-title: "Testing interventions to reduce the Continuing Healthcare Assessment backlog using System Dynamics"
+title: "Testing interventions to reduce the Continuing Healthcare Assessment backlog"
 techniques:
   - System Dynamics
 areas:
@@ -7,6 +7,7 @@ areas:
 categories:
   - System Dynamics
   - Reducing Backlogs
+  - NHS
 author:
   - name: Ryan Worth
     affiliation: NHS South, Central and West CSU

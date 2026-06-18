@@ -9,6 +9,7 @@ categories:
   - Theographs
   - Data Visualisation
   - Patient Pathways
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 author:
   - name: Suprasad Gavhane
     affiliation: NHS North of England CSU (NECS)
@@ -41,3 +42,9 @@ The aim of this project is to create an open source application to generate inte
 The goal is to make a generic application requiring the minimum of data fields so it can be used in different healthcare or social care settings (working with dynamic 'Event_Type' values).
 
 More information about theographs can be found [here](https://www.nuffieldtrust.org.uk/resource/a-10-year-story-visualising-patient-journeys).
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+"NHS 10-year plan shifts: Sickness to Prevention": Automated conversion of existing information into a format that is quick, easy and interprtable, helping patterns be identified sooner in a patients' journey and saving clinician time.
+:::

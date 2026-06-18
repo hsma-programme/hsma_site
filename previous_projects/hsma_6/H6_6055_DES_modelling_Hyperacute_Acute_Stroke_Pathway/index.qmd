@@ -5,10 +5,12 @@ techniques:
   - Streamlit
 areas:
   - Stroke
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 categories:
   - Discrete Event Simulation(DES)
   - Streamlit
   - Stroke
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 author:
   - name: John Williams
     affiliation: Maidstone and Tunbridge Wells NHS Trust
@@ -55,3 +57,9 @@ The aim of this project is to develop a discrete simulation model to observe the
 - The health economic costs / benefits associated with any change
 
 {{< video https://youtu.be/ThltRNDt9k8?feature=shared >}}
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+"NHS 10-year plan shifts: Sickness to Prevention": modelling staffing and operating hours in the time-critical hyperacute stroke pathway, where faster treatment directly improves long-term patient outcomes and reduces the need for intensive ongoing care - so not preventing the strokes, but preventing bad outcomes through adequate resourcing that allows timely access to the right people and treatments.
+:::

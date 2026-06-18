@@ -4,10 +4,11 @@ techniques:
   - Discrete Event Simulation (DES)
   - Emergency Departments
 areas:
-  -
+  - "NHS 10-year plan shifts: Hospital to Community"
 categories:
   - Discrete Event Simulation (DES)
   - Emergency Departments
+  - "NHS 10-year plan shifts: Hospital to Community"
 author:
   - name: Hannah Thould
     affiliation: University Hospitals Bristol and Weston NHS Foundation Trust
@@ -46,3 +47,9 @@ The project aims to use Discrete Event Simulation to ascertain
 3. the optimum size for SDEC
 
 {{< video https://youtu.be/Yck3vOioRdQ?feature=shared >}}
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+"NHS 10-year plan shifts: Hospital to Community": modelling optimum SDEC sizing and staffing to support same-day emergency care, helping patients avoid unnecessary overnight hospital admission.
+:::

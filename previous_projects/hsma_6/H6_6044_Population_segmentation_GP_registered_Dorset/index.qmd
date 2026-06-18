@@ -5,10 +5,12 @@ techniques:
   - Unsupervised Learning
 areas:
   - Primary Care (GPs)
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 categories:
   - Machine Learning
   - Unsupervised Learning
   - Primary Care (GPs)
+  - "NHS 10-year plan shifts: Sickness to Prevention"
 author:
   - name: Rhianna Everett
     affiliation: Dorset Intelligence and Insight Service
@@ -48,3 +50,9 @@ We want to identify population segments based on care needs to inform service de
 This has the potential to provide enhanced patient understanding leading to improved resource allocation.
 
 {{< video https://youtu.be/SH4geMXr8a8?feature=shared >}}
+
+:::{.callout-note}
+## 10-year plan Alignment
+
+"NHS 10-year plan shifts: Sickness to Prevention": segmenting the GP-registered population by care needs to inform proactive service design, supporting earlier identification of population health needs.
+:::
