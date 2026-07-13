@@ -7,6 +7,8 @@ grid:
     body-width: 900px
     gutter-width: 1.5rem
 toc: false
+filters:
+  - splide-carousel
 ---
 
 ```{=html}
@@ -15,29 +17,17 @@ body {
 	text-align: center;
 }
 
-.splide__slide img {
-  max-height: 450px;
-  max-width: 80%;
-}
-
-.splide__optional-button-container {
-  margin-bottom: 1rem;
-  margin-top: 1rem;
-  text-align: right;
-  font-size: 1rem;
-}
-
-.splide__toggle a {
-    color: #fff;
-    text-decoration: none;
-    text-transform: uppercase;
-    font-weight: 200;
-}
-
 h2 {
     text-transform: uppercase;
     font-weight: 400;
     text-align: center;
+}
+
+.splide__slide img {
+  max-height: 450px;
+  max-width: 80%;
+  width: auto;
+  height: auto;
 }
 
 h2-uncap {
@@ -57,10 +47,6 @@ h2-uncap {
     unicode-bidi: isolate;
 }
 
-.splide__toggle {
-    border: none;
-}
-
 .hsma_caption {
     padding: 30px 40px;
     font-weight:200;
@@ -75,24 +61,6 @@ h2-uncap {
 }
 </style>
 
-<script src=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js "></script>
-
-<link rel="stylesheet" href=" https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
-
-<script>
-  document.addEventListener( 'DOMContentLoaded', function () {
-    new Splide( '#image-carousel' , {
-        type    : 'loop',
-        autoplay: 'play',
-        perPage : 1,
-        interval: 9000,
-        pauseOnHover : false,
-        pauseOnFocus : false,
-        resetProgress: false
-    } ).mount();
-} );
-</script>
-
 ```
 
 ## What is HSMA?
@@ -103,119 +71,38 @@ The full HSMA course experience is provided **free of charge** to people working
 
 Recordings of previous course sessions, as well as all of our course materials and code, are offered **free of charge** to anyone, anywhere in the world for personal use and adaptation.
 
-```{=html}
-<section id="image-carousel" class="splide" aria-label="Beautiful Images">
-<div class="splide__optional-button-container">
-  <button class="splide__toggle" type="button">
-    <a class="splide__toggle__play"><i class="fa-solid fa-play" ></i><span style="padding-left: 10px;">Resume Slideshow</span></a>
-        <a class="splide__toggle__pause"><i class="fa-solid fa-pause" ></i><span style="padding-left: 10px;">Pause Slideshow</span></a>
-  </button>
-  </div>
-  <div class="splide__track">
-		<ul class="splide__list">
-			<li class="splide__slide">
-				<img src="resources/photos/thoCeZ5Q.jpeg" alt="">
-                <div class="hsma_caption" data-splide-interval="12000">
-					The HSMA programme has supported over 400 people since its inception in 2016, helping analysts, clinicians, service managers and more to produce transformational data projects in their organisations.
-				</div>
-			</li>
-            <li class="splide__slide" data-splide-interval="12000">
-				<img src="resources/lecture_examples/abs.png" alt="">
-                <div class="hsma_caption">
-                The course provides lecture videos, exercises, sample code and more for a diverse range of data science and operational research topics - all using the Python programming languages or other free and open source tools.
-                </div>
-			</li>
-            <li class="splide__slide" data-splide-interval="12000">
-				<img src="resources/lecture_examples/chrome_0RAC8nIgdm.gif" alt="">
-                <div class="hsma_caption">
-                With bespoke resources created to help break down complex topics for beginner audiences, HSMA can help you to understand and communicate the power of operational research and data science techniques in your organisations - and start doing the work yourself.
-                </div>
-			</li>
-            <li class="splide__slide" data-splide-interval="14000">
-				<img src="resources/photos/5GlqPNuw.jpeg" alt="">
-                <div class="hsma_caption">
-                Conceived and run by Dr Daniel Chalk - an operational researcher with years of experience working on projects with healthcare services - and NIHR PenARC, HSMA is designed to build data science and operational research capacity within organisations so that those who know the data and services best are able to make the most of the data their organisations hold.
-                </div>
-			</li>
-            <li class="splide__slide" data-splide-interval="10000">
-                <img src="resources/photos/wU42L-fs.jpeg" alt="">
-                <div class="hsma_caption">
-                Students from a wide range of organisations have been supported to create impactful projects, leading to the building of new wards, the setup of dedicated data science teams, and much more.
-                </div>
-			</li>
-            <li class="splide__slide">
-				<img src="resources/lecture_examples/conditional_logic.png" alt="">
-                <div class="hsma_caption">
-                The course provides everything you need to get started - including teaching the Python programming language from scratch.
-                </div>
-			</li>
-            <li class="splide__slide">
-				<img src="resources/lecture_examples/routingpy.png" alt="">
-                <div class="hsma_caption">
-                Lectures break down the steps required to get from idea to output, with the syllabus reflecting the real-world challenges the lecturers have faced in implementing data science and operational research projects.
-                </div>
-			</li>
-			<li class="splide__slide" data-splide-interval="12000">
-				<img src="resources/photos/xm0N3zPk.jpeg" alt="">
-                <div class="hsma_caption">
-                Being part of the HSMA community gives students a chance to gain expert advice from not only the lecturers, but a wider community of operational researchers, data scientists, and programme alumni. Students gain a valuable opportunity to network with like-minded people from across the country, forging links across organisations and sectors.
-                </div>
-			</li>
-            <li class="splide__slide">
-				<img src="resources/lecture_examples/ner.png" alt="">
-                <div class="hsma_caption">
-                The course continues to evolve every year, with techniques like natural language processing joining the syllabus in recent years to help people unlock the power of unstructured, free-text data.
-                </div>
-			</li>
-            <li class="splide__slide" data-splide-interval="12000">
-				<img src="resources/lecture_examples/web_apps_dashboard.png" alt="">
-                <div class="hsma_caption">
-                There is a strong focus on moving from concept to execution, with sessions covering the creation of dashboards, interactive web applications and other outputs that can help stakeholders engage with the powerful tools that are created without ever having to interact with the underlying code.
-                </div>
-			</li>
-            <li class="splide__slide" data-splide-interval="12000">
-            	<img src="resources/photos/zWhfxQKU.jpeg" alt="">
-                <div class="hsma_caption">
-                Students are given the opportunity to present their project work to a large audience of their peers and people from the wider world of health, policing and social care, encouraging the wider reuse of project work created on the programme.
-                </div>
-			</li>
-            <li class="splide__slide">
-				<img src="resources/lecture_examples/decision_trees.png" alt="">
-                <div class="hsma_caption">
-                The course also includes extensive content on machine learning, including neural networks.
-                </div>
-			</li>
-            <li class="splide__slide">
-				<img src="resources/lecture_examples/confusion_matrix.png" alt="">
-                <div class="hsma_caption">
-                There is a strong focus on ethics and checking the performance of your models to ensure real-world value...
-                </div>
-			</li>
-            <li class="splide__slide">
-				<img src="resources/lecture_examples/shap.png" alt="">
-                <div class="hsma_caption">
-                ... as well as on cutting-edge techniques for explaining how machine learning models reach their decisions.
-                </div>
-			</li>
-            <li class="splide__slide" data-splide-interval="14000">
-				<img src="resources/lecture_examples/quarto_dashboard.png" alt="">
-                <div class="hsma_caption">
-                Aligning with the NHS's focus on reproducible analytical pipelines, HSMA's use of Python and dedicated content on reproducible outputs with Quarto and other tools can help individuals to get rid of repetitive, manual process; reduce mistakes; and free up time for doing more advanced work.
-                </div>
-			</li>
-            <li class="splide__slide" data-splide-interval="12000">
-				<img src="resources/lecture_examples/chrome_p6pReINw8Y.gif" alt="">
-                <div class="hsma_caption">
-                With bespoke games, countless references to the 1980's, classic games and musicals, and even a bout of swordfighting to teach sentiment analysis, HSMA is designed to be a fun, friendly introduction to complex topics.
-                </div>
-			</li>
-		</ul>
-  </div>
+::: {.splide-carousel preview="false" default-width="150px" toggle-text-color="#ffffff"}
 
+![The HSMA programme is a 15 month online training and mentorship course delivered by Dr Daniel Chalk and Sammi Rosser, making training on advanced data science and operational research techniques available to people working in the NHS and other public healthcare organisations.](resources/photos/DSC_0114.JPG)
 
+![The course provides lectures, exercises, sample code and more for a diverse range of data science and operational research topics – all using the Python programming language or other free and open source tools. Non-participants can still access all of the course materials and recordings for free via this site!](resources/lecture_examples/abs.png)
 
-</section>
-```
+![Conceived and run by Dr Daniel Chalk — an operational researcher with years of experience working on projects with healthcare services — and NIHR PenARC, HSMA is designed to build data science and operational research capacity within organisations so that those who know the data and services best are able to make t he most of the data their organisations hold.](resources/photos/20250716_120702.jpg)
+
+![The HSMA programme has supported over 400 people since its inception in 2016, helping analysts, clinicians, service managers and more to produce transformational data projects in their organisations. HSMA proejcts have lead to the building of new wards, the setup of dedicated data science teams, and much more. HSMA can help you to understand and communicate the power of operational research and data science techniques in your organisations – and start doing the work yourself.](resources/photos/thoCeZ5Q.jpeg)
+
+![With bespoke games, countless references to the 1980s, retro computing and more, HSMA is designed to be a fun, friendly space in which to learn to serious stuff.](resources/lecture_examples/chrome_p6pReINw8Y.gif)
+
+![The course provides everything you need to get started, including teaching the Python programming language from scratch.](resources/lecture_examples/conditional_logic.png)
+
+![HSMA teaches simulation modelling, a powerful technique for improving pathways, reducing delays and better managing demand and capacity.](resources/lecture_examples/chrome_0RAC8nIgdm.gif)
+
+![There is also extensive coverage of geographical modelling and site location optimization, with the syllabus throughout HSMA reflecting the real-world challenges the lecturers have faced in implementing data science and operational research projects.](resources/lecture_examples/routingpy.png)
+
+![The course also includes extensive content on machine learning.](resources/lecture_examples/decision_trees.png)
+
+![There is a strong focus on ethics and checking the performance of your models to ensure real-world value...](resources/lecture_examples/confusion_matrix.png)
+
+![...as well as on cutting-edge techniques for explaining how machine learning models reach their decisions.](resources/lecture_examples/shap.png)
+
+![Aligning with the NHS's focus on reproducible analytical pipelines, HSMA's use of Python and dedicated content on reproducible outputs with Quarto and other tools can help individuals to get rid of repetitive, manual processes, reduce mistakes, and free up time for doing more advanced work.](resources/lecture_examples/quarto_dashboard.png)
+
+![There is a strong focus on moving from concept to execution, with sessions covering the creation of dashboards, interactive web applications and other outputs that can help stakeholders engage with the powerful tools that are created without ever having to interact with the underlying code.](resources/lecture_examples/web_apps_dashboard.png)
+
+![Being part of the HSMA community gives students a chance to gain expert advice from not only the lecturers, but a wider community of operational researchers, data scientists, and programme alumni. Students gain a valuable opportunity to network with like-minded people from across the country, forging links across organisations and sectors.](resources/photos/20250716_140810.jpg)
+
+![Students are given the opportunity to present their project work to a large audience of their peers and people from the wider world of health, policing and social care, encouraging the wider reuse of project work created on the programme.](resources/photos/zWhfxQKU.jpeg)
+:::
 
 ```{=html}
 <br/>
