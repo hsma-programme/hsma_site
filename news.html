@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.9.38">
+<meta name="generator" content="quarto-1.10.18">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -12,10 +12,13 @@
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
 */
-code{white-space: pre-wrap;}
 span.smallcaps{font-variant: small-caps;}
-div.columns{display: flex; gap: min(4vw, 1.5em);}
-div.column{flex: auto; overflow-x: auto;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
 div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
 ul.task-list{list-style: none;}
 ul.task-list li input[type="checkbox"] {
@@ -44,10 +47,10 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-0a6b7249c26820e032cb0bd839ff02b1.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-31b65122cb93f3feb85bc494ef123e91.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-89b82c70b87bf0aaf5d8077652f15ea3.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -86,7 +89,8 @@ ul.task-list li input[type="checkbox"] {
 
     const options = {
       valueNames: ['listing-project','listing-website','listing-format','listing-engines','listing-language','listing-draft-mode','listing-title','listing-title-block-banner','listing-author','listing-date','listing-date-modified','listing-include-back-link','listing-description','listing-image','listing-path','listing-outputHref','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
-      
+      page: 25,
+    pagination: { item: "<li class='page-item'><a class='page page-link' href='#'></a></li>" },
       searchColumns: ["listing-project","listing-website","listing-format","listing-engines","listing-language","listing-draft-mode","listing-title","listing-title-block-banner","listing-author","listing-date","listing-date-modified","listing-include-back-link","listing-description","listing-image","listing-path","listing-outputHref","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
     };
 
@@ -141,7 +145,7 @@ background-size: cover;
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
 
   <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@3/es5/tex-chtml-full.js" type="text/javascript"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
 
 <script type="text/javascript">
 const typesetMath = (el) => {
@@ -412,7 +416,7 @@ window.Quarto = {
 <div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1250px)); gap: 20px;">
 
   
-    <div class="custom-grid-card border-4 rounded-3" data-index="0" data-listing-date-sort="1752710400000" data-listing-file-modified-sort="1783952110725" data-listing-date-modified-sort="1752710400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="76" style="padding: 10px;">
+    <div class="custom-grid-card border-4 rounded-3" data-index="0" data-listing-date-sort="1752710400000" data-listing-file-modified-sort="1785255927171" data-listing-date-modified-sort="1752710400000" data-listing-reading-time-sort="1" data-listing-word-count-sort="76" style="padding: 10px;">
       <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
 
         
@@ -446,7 +450,7 @@ window.Quarto = {
       </div>
     </div>
   
-    <div class="custom-grid-card border-4 rounded-3" data-index="1" data-listing-date-sort="1750636800000" data-listing-file-modified-sort="1783952110723" data-listing-date-modified-sort="1750636800000" data-listing-reading-time-sort="2" data-listing-word-count-sort="219" style="padding: 10px;">
+    <div class="custom-grid-card border-4 rounded-3" data-index="1" data-listing-date-sort="1750636800000" data-listing-file-modified-sort="1785255927170" data-listing-date-modified-sort="1750636800000" data-listing-reading-time-sort="2" data-listing-word-count-sort="219" style="padding: 10px;">
       <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
 
         
@@ -480,7 +484,7 @@ window.Quarto = {
       </div>
     </div>
   
-    <div class="custom-grid-card border-4 rounded-3" data-index="2" data-listing-date-sort="1745452800000" data-listing-file-modified-sort="1783952110723" data-listing-date-modified-sort="1745452800000" data-listing-reading-time-sort="3" data-listing-word-count-sort="412" style="padding: 10px;">
+    <div class="custom-grid-card border-4 rounded-3" data-index="2" data-listing-date-sort="1745452800000" data-listing-file-modified-sort="1785255927170" data-listing-date-modified-sort="1745452800000" data-listing-reading-time-sort="3" data-listing-word-count-sort="412" style="padding: 10px;">
       <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
 
         
@@ -514,7 +518,653 @@ window.Quarto = {
       </div>
     </div>
   
-    <div class="custom-grid-card border-4 rounded-3" data-index="3" data-listing-date-sort="1522281600000" data-listing-file-modified-sort="1783952110723" data-listing-date-modified-sort="1522281600000" data-listing-reading-time-sort="5" data-listing-word-count-sort="1000" style="padding: 10px;">
+    <div class="custom-grid-card border-4 rounded-3" data-index="3" data-listing-date-sort="1687910400000" data-listing-file-modified-sort="1785255927168" data-listing-date-modified-sort="1687910400000" data-listing-reading-time-sort="6" data-listing-word-count-sort="1018" style="padding: 10px;">
+      <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
+
+        
+          <a href="./news/2023-06-28-data-for-carbon-inequalities/index.html" style="display: flex; align-items: stretch;">
+            <img src="./news/2023-06-28-data-for-carbon-inequalities/image.png" alt="Tackling inequalities and carbon emissions with data science" style="max-height: 100%; max-width: 250px; width: auto; object-fit: contain; border-radius: 4px;">
+          </a>
+        
+
+        <div class="card-text-content" style="flex: 1; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px;">
+
+          <a href="./news/2023-06-28-data-for-carbon-inequalities/index.html"><h3 class="no-anchor card-title listing-title" style="margin: 0;">Tackling inequalities and carbon emissions with data science</h3></a>
+
+          <p class="listing-abstract" style="margin: 0; font-size: 0.9em;"><i>Posted Jun 28, 2023</i></p>
+
+          
+            <p class="listing-abstract" style="margin: 0; font-size: 0.95em;">A team of Data Scientists have used Machine Learning to develop a model which could help services tackle inequalities and minimise carbon output in their planning and delivery. The model, estimated to be up to 80 times faster than manual methods has the potential to save vital resources in service planning and delivery.
+</p>
+          
+
+          <div class="listing-organisations" style="margin-top: 4px; font-size: 0.95em;">
+            NIHR PenARC
+          </div>
+
+          <div class="project-details-listing" style="margin-top: auto; width: 100%;">
+            <button class="project-link-listing-button" style="width: 100%; text-align: center;">
+              <a href="./news/2023-06-28-data-for-carbon-inequalities/index.html"><i class="fa-solid fa-newspaper"></i> Click Here to Read the Article </a>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  
+    <div class="custom-grid-card border-4 rounded-3" data-index="4" data-listing-date-sort="1687132800000" data-listing-file-modified-sort="1785255927165" data-listing-date-modified-sort="1687132800000" data-listing-reading-time-sort="5" data-listing-word-count-sort="826" style="padding: 10px;">
+      <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
+
+        
+          <a href="./news/2023-06-19-data-for-pifu/index.html" style="display: flex; align-items: stretch;">
+            <img src="./news/2023-06-19-data-for-pifu/image.png" alt="Using Patient Initiated Follow-Up to support reducing waiting times" style="max-height: 100%; max-width: 250px; width: auto; object-fit: contain; border-radius: 4px;">
+          </a>
+        
+
+        <div class="card-text-content" style="flex: 1; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px;">
+
+          <a href="./news/2023-06-19-data-for-pifu/index.html"><h3 class="no-anchor card-title listing-title" style="margin: 0;">Using Patient Initiated Follow-Up to support reducing waiting times</h3></a>
+
+          <p class="listing-abstract" style="margin: 0; font-size: 0.9em;"><i>Posted Jun 19, 2023</i></p>
+
+          
+            <p class="listing-abstract" style="margin: 0; font-size: 0.95em;">Researchers have used operational modelling and data science to reduce waiting times for patients and help reduce a backlog in rheumatology services.
+</p>
+          
+
+          <div class="listing-organisations" style="margin-top: 4px; font-size: 0.95em;">
+            NIHR PenARC
+          </div>
+
+          <div class="project-details-listing" style="margin-top: auto; width: 100%;">
+            <button class="project-link-listing-button" style="width: 100%; text-align: center;">
+              <a href="./news/2023-06-19-data-for-pifu/index.html"><i class="fa-solid fa-newspaper"></i> Click Here to Read the Article </a>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  
+    <div class="custom-grid-card border-4 rounded-3" data-index="5" data-listing-date-sort="1671408000000" data-listing-file-modified-sort="1785255927165" data-listing-date-modified-sort="1671408000000" data-listing-reading-time-sort="5" data-listing-word-count-sort="882" style="padding: 10px;">
+      <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
+
+        
+          <a href="./news/2022-12-19-data-for-utc/index.html" style="display: flex; align-items: stretch;">
+            <img src="./news/2022-12-19-data-for-utc/image.png" alt="Using data to improve urgent care treatment" style="max-height: 100%; max-width: 250px; width: auto; object-fit: contain; border-radius: 4px;">
+          </a>
+        
+
+        <div class="card-text-content" style="flex: 1; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px;">
+
+          <a href="./news/2022-12-19-data-for-utc/index.html"><h3 class="no-anchor card-title listing-title" style="margin: 0;">Using data to improve urgent care treatment</h3></a>
+
+          <p class="listing-abstract" style="margin: 0; font-size: 0.9em;"><i>Posted Dec 19, 2022</i></p>
+
+          
+            <p class="listing-abstract" style="margin: 0; font-size: 0.95em;">At a time of increased pressure on NHS services a project using computer modelling has helped a hospital Trust reduce urgent care wait times and improve conditions for staff working on the front line.
+</p>
+          
+
+          <div class="listing-organisations" style="margin-top: 4px; font-size: 0.95em;">
+            NIHR PenARC
+          </div>
+
+          <div class="project-details-listing" style="margin-top: auto; width: 100%;">
+            <button class="project-link-listing-button" style="width: 100%; text-align: center;">
+              <a href="./news/2022-12-19-data-for-utc/index.html"><i class="fa-solid fa-newspaper"></i> Click Here to Read the Article </a>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  
+    <div class="custom-grid-card border-4 rounded-3" data-index="6" data-listing-date-sort="1650412800000" data-listing-file-modified-sort="1785255927164" data-listing-date-modified-sort="1650412800000" data-listing-reading-time-sort="3" data-listing-word-count-sort="440" style="padding: 10px;">
+      <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
+
+        
+          <a href="./news/2022-04-20-hsma-5-bigger-better/index.html" style="display: flex; align-items: stretch;">
+            <img src="./news/2022-04-20-hsma-5-bigger-better/image.png" alt="HSMA 5 – it’s back, bigger and better than ever!" style="max-height: 100%; max-width: 250px; width: auto; object-fit: contain; border-radius: 4px;">
+          </a>
+        
+
+        <div class="card-text-content" style="flex: 1; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px;">
+
+          <a href="./news/2022-04-20-hsma-5-bigger-better/index.html"><h3 class="no-anchor card-title listing-title" style="margin: 0;">HSMA 5 – it’s back, bigger and better than ever!</h3></a>
+
+          <p class="listing-abstract" style="margin: 0; font-size: 0.9em;"><i>Posted Apr 20, 2022</i></p>
+
+          
+            <p class="listing-abstract" style="margin: 0; font-size: 0.95em;">Our national Health Services Modelling Associates (HSMA) programme returned in October as HSMA 5. Using an innovative mentoring system, the scheme offers staff working in policing and health and social care organisations the opportunity to develop skills in modelling and data science and apply them, in small project groups, to a project to address an important issue for their organisation.
+</p>
+          
+
+          <div class="listing-organisations" style="margin-top: 4px; font-size: 0.95em;">
+            NIHR PenARC
+          </div>
+
+          <div class="project-details-listing" style="margin-top: auto; width: 100%;">
+            <button class="project-link-listing-button" style="width: 100%; text-align: center;">
+              <a href="./news/2022-04-20-hsma-5-bigger-better/index.html"><i class="fa-solid fa-newspaper"></i> Click Here to Read the Article </a>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  
+    <div class="custom-grid-card border-4 rounded-3" data-index="7" data-listing-date-sort="1647388800000" data-listing-file-modified-sort="1785255927164" data-listing-date-modified-sort="1647388800000" data-listing-reading-time-sort="8" data-listing-word-count-sort="1487" style="padding: 10px;">
+      <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
+
+        
+          <a href="./news/2022-03-16-national-capacity-building/index.html" style="display: flex; align-items: stretch;">
+            <img src="./news/2022-03-16-national-capacity-building/image.png" alt="National programme uses data science to build capacity in health, care and policing" style="max-height: 100%; max-width: 250px; width: auto; object-fit: contain; border-radius: 4px;">
+          </a>
+        
+
+        <div class="card-text-content" style="flex: 1; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px;">
+
+          <a href="./news/2022-03-16-national-capacity-building/index.html"><h3 class="no-anchor card-title listing-title" style="margin: 0;">National programme uses data science to build capacity in health, care and policing</h3></a>
+
+          <p class="listing-abstract" style="margin: 0; font-size: 0.9em;"><i>Posted Mar 16, 2022</i></p>
+
+          
+            <p class="listing-abstract" style="margin: 0; font-size: 0.95em;">Our national Health Services Modelling Associates (HSMA) programme is using an innovative mentoring system to help address some of the biggest issues facing health and social care and build service capacity.
+</p>
+          
+
+          <div class="listing-organisations" style="margin-top: 4px; font-size: 0.95em;">
+            NIHR PenARC
+          </div>
+
+          <div class="project-details-listing" style="margin-top: auto; width: 100%;">
+            <button class="project-link-listing-button" style="width: 100%; text-align: center;">
+              <a href="./news/2022-03-16-national-capacity-building/index.html"><i class="fa-solid fa-newspaper"></i> Click Here to Read the Article </a>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  
+    <div class="custom-grid-card border-4 rounded-3" data-index="8" data-listing-date-sort="1646697600000" data-listing-file-modified-sort="1785255927163" data-listing-date-modified-sort="1646697600000" data-listing-reading-time-sort="4" data-listing-word-count-sort="733" style="padding: 10px;">
+      <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
+
+        
+          <a href="./news/2022-03-08-psma-hsma/index.html" style="display: flex; align-items: stretch;">
+            <img src="./news/2022-03-08-psma-hsma/image.png" alt="Flagship data science programmes combine to create positive change for health, social care and policing services" style="max-height: 100%; max-width: 250px; width: auto; object-fit: contain; border-radius: 4px;">
+          </a>
+        
+
+        <div class="card-text-content" style="flex: 1; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px;">
+
+          <a href="./news/2022-03-08-psma-hsma/index.html"><h3 class="no-anchor card-title listing-title" style="margin: 0;">Flagship data science programmes combine to create positive change for health, social care and policing services</h3></a>
+
+          <p class="listing-abstract" style="margin: 0; font-size: 0.9em;"><i>Posted Mar 8, 2022</i></p>
+
+          
+            <p class="listing-abstract" style="margin: 0; font-size: 0.95em;">Research from NIHR PenARC (formerly PenCLAHRC) has been featured in a newly released flagship document that demonstrates the impact of National Institute for Health Research (NIHR) funded applied research to transform health and care across England.
+</p>
+          
+
+          <div class="listing-organisations" style="margin-top: 4px; font-size: 0.95em;">
+            NIHR PenARC
+          </div>
+
+          <div class="project-details-listing" style="margin-top: auto; width: 100%;">
+            <button class="project-link-listing-button" style="width: 100%; text-align: center;">
+              <a href="./news/2022-03-08-psma-hsma/index.html"><i class="fa-solid fa-newspaper"></i> Click Here to Read the Article </a>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  
+    <div class="custom-grid-card border-4 rounded-3" data-index="9" data-listing-date-sort="1621209600000" data-listing-file-modified-sort="1785255927162" data-listing-date-modified-sort="1621209600000" data-listing-reading-time-sort="2" data-listing-word-count-sort="399" style="padding: 10px;">
+      <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
+
+        
+          <a href="./news/2021-05-17-covid-vaccines/index.html" style="display: flex; align-items: stretch;">
+            <img src="./news/2021-05-17-covid-vaccines/image.png" alt="Health Services Modelling Associate uses new skills to manage Covid-19 vaccination programme" style="max-height: 100%; max-width: 250px; width: auto; object-fit: contain; border-radius: 4px;">
+          </a>
+        
+
+        <div class="card-text-content" style="flex: 1; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px;">
+
+          <a href="./news/2021-05-17-covid-vaccines/index.html"><h3 class="no-anchor card-title listing-title" style="margin: 0;">Health Services Modelling Associate uses new skills to manage Covid-19 vaccination programme</h3></a>
+
+          <p class="listing-abstract" style="margin: 0; font-size: 0.9em;"><i>Posted May 17, 2021</i></p>
+
+          
+            <p class="listing-abstract" style="margin: 0; font-size: 0.95em;">Read about Dr Adam Kwiatkowski, a GP and Clinical Director from Torridge, North Devon, who used advanced data modelling skills learned as a Health Services Modelling Associate (HSMA) to develop a Discrete Event Simulation model to manage his practice’s vaccine clinic.
+</p>
+          
+
+          <div class="listing-organisations" style="margin-top: 4px; font-size: 0.95em;">
+            NIHR PenARC
+          </div>
+
+          <div class="project-details-listing" style="margin-top: auto; width: 100%;">
+            <button class="project-link-listing-button" style="width: 100%; text-align: center;">
+              <a href="./news/2021-05-17-covid-vaccines/index.html"><i class="fa-solid fa-newspaper"></i> Click Here to Read the Article </a>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  
+    <div class="custom-grid-card border-4 rounded-3" data-index="10" data-listing-date-sort="1621209600000" data-listing-file-modified-sort="1785255927162" data-listing-date-modified-sort="1621209600000" data-listing-reading-time-sort="4" data-listing-word-count-sort="742" style="padding: 10px;">
+      <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
+
+        
+          <a href="./news/2021-07-28-penarc-showcased/index.html" style="display: flex; align-items: stretch;">
+            <img src="./news/2021-07-28-penarc-showcased/image.png" alt="Health Services Modelling Associate uses new skills to manage Covid-19 vaccination programme" style="max-height: 100%; max-width: 250px; width: auto; object-fit: contain; border-radius: 4px;">
+          </a>
+        
+
+        <div class="card-text-content" style="flex: 1; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px;">
+
+          <a href="./news/2021-07-28-penarc-showcased/index.html"><h3 class="no-anchor card-title listing-title" style="margin: 0;">Health Services Modelling Associate uses new skills to manage Covid-19 vaccination programme</h3></a>
+
+          <p class="listing-abstract" style="margin: 0; font-size: 0.9em;"><i>Posted May 17, 2021</i></p>
+
+          
+            <p class="listing-abstract" style="margin: 0; font-size: 0.95em;">Research from NIHR PenARC (formerly PenCLAHRC) has been featured in a newly released flagship document that demonstrates the impact of National Institute for Health Research (NIHR) funded applied research to transform health and care across England.
+</p>
+          
+
+          <div class="listing-organisations" style="margin-top: 4px; font-size: 0.95em;">
+            NIHR PenARC
+          </div>
+
+          <div class="project-details-listing" style="margin-top: auto; width: 100%;">
+            <button class="project-link-listing-button" style="width: 100%; text-align: center;">
+              <a href="./news/2021-07-28-penarc-showcased/index.html"><i class="fa-solid fa-newspaper"></i> Click Here to Read the Article </a>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  
+    <div class="custom-grid-card border-4 rounded-3" data-index="11" data-listing-date-sort="1620432000000" data-listing-file-modified-sort="1785255927161" data-listing-date-modified-sort="1620432000000" data-listing-reading-time-sort="3" data-listing-word-count-sort="463" style="padding: 10px;">
+      <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
+
+        
+          <a href="./news/2021-05-08-national-importance/index.html" style="display: flex; align-items: stretch;">
+            <img src="./news/2021-05-08-national-importance/image.png" alt="Prestigious Data Science programme extends to address issues of national importance" style="max-height: 100%; max-width: 250px; width: auto; object-fit: contain; border-radius: 4px;">
+          </a>
+        
+
+        <div class="card-text-content" style="flex: 1; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px;">
+
+          <a href="./news/2021-05-08-national-importance/index.html"><h3 class="no-anchor card-title listing-title" style="margin: 0;">Prestigious Data Science programme extends to address issues of national importance</h3></a>
+
+          <p class="listing-abstract" style="margin: 0; font-size: 0.9em;"><i>Posted May 8, 2021</i></p>
+
+          
+            <p class="listing-abstract" style="margin: 0; font-size: 0.95em;">With the popularity and success of HSMA programme, and the increased interest in modelling solutions to organisational problems, HSMA opens its doors nationally for the first time for its fifth iteration in 2022.
+</p>
+          
+
+          <div class="listing-organisations" style="margin-top: 4px; font-size: 0.95em;">
+            NIHR PenARC
+          </div>
+
+          <div class="project-details-listing" style="margin-top: auto; width: 100%;">
+            <button class="project-link-listing-button" style="width: 100%; text-align: center;">
+              <a href="./news/2021-05-08-national-importance/index.html"><i class="fa-solid fa-newspaper"></i> Click Here to Read the Article </a>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  
+    <div class="custom-grid-card border-4 rounded-3" data-index="12" data-listing-date-sort="1601942400000" data-listing-file-modified-sort="1785255927160" data-listing-date-modified-sort="1601942400000" data-listing-reading-time-sort="4" data-listing-word-count-sort="601" style="padding: 10px;">
+      <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
+
+        
+          <a href="./news/2020-10-06-new-hospital/index.html" style="display: flex; align-items: stretch;">
+            <img src="./news/2020-10-06-new-hospital/image.png" alt="Mental Health Facility at Torbay Hospital begins construction" style="max-height: 100%; max-width: 250px; width: auto; object-fit: contain; border-radius: 4px;">
+          </a>
+        
+
+        <div class="card-text-content" style="flex: 1; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px;">
+
+          <a href="./news/2020-10-06-new-hospital/index.html"><h3 class="no-anchor card-title listing-title" style="margin: 0;">Mental Health Facility at Torbay Hospital begins construction</h3></a>
+
+          <p class="listing-abstract" style="margin: 0; font-size: 0.9em;"><i>Posted Oct 6, 2020</i></p>
+
+          
+            <p class="listing-abstract" style="margin: 0; font-size: 0.95em;">The construction of a new £11.8 million Mental Health facility, supported by research undertaken as part of our Health Services Modelling Associates Programme (HSMA), has begun at Devon Partnership NHS Trust’s (DPT) Torbay Hospital.
+</p>
+          
+
+          <div class="listing-organisations" style="margin-top: 4px; font-size: 0.95em;">
+            NIHR PenARC
+          </div>
+
+          <div class="project-details-listing" style="margin-top: auto; width: 100%;">
+            <button class="project-link-listing-button" style="width: 100%; text-align: center;">
+              <a href="./news/2020-10-06-new-hospital/index.html"><i class="fa-solid fa-newspaper"></i> Click Here to Read the Article </a>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  
+    <div class="custom-grid-card border-4 rounded-3" data-index="13" data-listing-date-sort="1600732800000" data-listing-file-modified-sort="1785255927157" data-listing-date-modified-sort="1600732800000" data-listing-reading-time-sort="3" data-listing-word-count-sort="563" style="padding: 10px;">
+      <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
+
+        
+          <a href="./news/2020-09-22-hsma-mental-health/index.html" style="display: flex; align-items: stretch;">
+            <img src="./news/2020-09-22-hsma-mental-health/image.png" alt="Operational Research to help improve patients’ experience of mental health services in the South West" style="max-height: 100%; max-width: 250px; width: auto; object-fit: contain; border-radius: 4px;">
+          </a>
+        
+
+        <div class="card-text-content" style="flex: 1; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px;">
+
+          <a href="./news/2020-09-22-hsma-mental-health/index.html"><h3 class="no-anchor card-title listing-title" style="margin: 0;">Operational Research to help improve patients’ experience of mental health services in the South West</h3></a>
+
+          <p class="listing-abstract" style="margin: 0; font-size: 0.9em;"><i>Posted Sep 22, 2020</i></p>
+
+          
+            <p class="listing-abstract" style="margin: 0; font-size: 0.95em;">Read about Pearn charts, which support visualising a patient’s complex journey through services and systems, highlighting a build-up of activity prior to crisis. Find out more about this methodology that may assist in diverting away from high level services and plans for its adoption in the South West.
+</p>
+          
+
+          <div class="listing-organisations" style="margin-top: 4px; font-size: 0.95em;">
+            NIHR PenARC
+          </div>
+
+          <div class="project-details-listing" style="margin-top: auto; width: 100%;">
+            <button class="project-link-listing-button" style="width: 100%; text-align: center;">
+              <a href="./news/2020-09-22-hsma-mental-health/index.html"><i class="fa-solid fa-newspaper"></i> Click Here to Read the Article </a>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  
+    <div class="custom-grid-card border-4 rounded-3" data-index="14" data-listing-date-sort="1595980800000" data-listing-file-modified-sort="1785255927156" data-listing-date-modified-sort="1595980800000" data-listing-reading-time-sort="2" data-listing-word-count-sort="348" style="padding: 10px;">
+      <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
+
+        
+          <a href="./news/2020-07-29-hsma-virtual/index.html" style="display: flex; align-items: stretch;">
+            <img src="./news/2020-07-29-hsma-virtual/image.png" alt="Innovative HSMA training programme makes virtual return" style="max-height: 100%; max-width: 250px; width: auto; object-fit: contain; border-radius: 4px;">
+          </a>
+        
+
+        <div class="card-text-content" style="flex: 1; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px;">
+
+          <a href="./news/2020-07-29-hsma-virtual/index.html"><h3 class="no-anchor card-title listing-title" style="margin: 0;">Innovative HSMA training programme makes virtual return</h3></a>
+
+          <p class="listing-abstract" style="margin: 0; font-size: 0.9em;"><i>Posted Jul 29, 2020</i></p>
+
+          
+            <p class="listing-abstract" style="margin: 0; font-size: 0.95em;">Due to the COVID-19 pandemic and the implications for those working in the health and social care sectors, HSMA 3 will be run as an entirely online course with a combination of live lectures, pre-recorded lectures on YouTube and online resources and Zoom-based group discussions.
+</p>
+          
+
+          <div class="listing-organisations" style="margin-top: 4px; font-size: 0.95em;">
+            NIHR PenARC
+          </div>
+
+          <div class="project-details-listing" style="margin-top: auto; width: 100%;">
+            <button class="project-link-listing-button" style="width: 100%; text-align: center;">
+              <a href="./news/2020-07-29-hsma-virtual/index.html"><i class="fa-solid fa-newspaper"></i> Click Here to Read the Article </a>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  
+    <div class="custom-grid-card border-4 rounded-3" data-index="15" data-listing-date-sort="1581465600000" data-listing-file-modified-sort="1785255927155" data-listing-date-modified-sort="1581465600000" data-listing-reading-time-sort="3" data-listing-word-count-sort="550" style="padding: 10px;">
+      <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
+
+        
+          <a href="./news/2020-02-12-or-in-nhs/index.html" style="display: flex; align-items: stretch;">
+            <img src="./news/2020-02-12-or-in-nhs/image.png" alt="Groundbreaking role for operational research in NHS decision-making" style="max-height: 100%; max-width: 250px; width: auto; object-fit: contain; border-radius: 4px;">
+          </a>
+        
+
+        <div class="card-text-content" style="flex: 1; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px;">
+
+          <a href="./news/2020-02-12-or-in-nhs/index.html"><h3 class="no-anchor card-title listing-title" style="margin: 0;">Groundbreaking role for operational research in NHS decision-making</h3></a>
+
+          <p class="listing-abstract" style="margin: 0; font-size: 0.9em;"><i>Posted Feb 12, 2020</i></p>
+
+          
+            <p class="listing-abstract" style="margin: 0; font-size: 0.95em;">Find out more about a pioneering collaboration between PenARC and University Hospitals Plymouth NHS Trust (UHP) that led to the establishment of a new post at UHP using operational research to support the Trust’s decision-making processes – the first of its kind in the South West.
+</p>
+          
+
+          <div class="listing-organisations" style="margin-top: 4px; font-size: 0.95em;">
+            NIHR PenARC
+          </div>
+
+          <div class="project-details-listing" style="margin-top: auto; width: 100%;">
+            <button class="project-link-listing-button" style="width: 100%; text-align: center;">
+              <a href="./news/2020-02-12-or-in-nhs/index.html"><i class="fa-solid fa-newspaper"></i> Click Here to Read the Article </a>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  
+    <div class="custom-grid-card border-4 rounded-3" data-index="16" data-listing-date-sort="1578441600000" data-listing-file-modified-sort="1785255927154" data-listing-date-modified-sort="1578441600000" data-listing-reading-time-sort="3" data-listing-word-count-sort="447" style="padding: 10px;">
+      <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
+
+        
+          <a href="./news/2020-01-08-psma-launch/index.html" style="display: flex; align-items: stretch;">
+            <img src="./news/2020-01-08-psma-launch/image.png" alt="Pioneering scheme to support evidence-based policing launches" style="max-height: 100%; max-width: 250px; width: auto; object-fit: contain; border-radius: 4px;">
+          </a>
+        
+
+        <div class="card-text-content" style="flex: 1; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px;">
+
+          <a href="./news/2020-01-08-psma-launch/index.html"><h3 class="no-anchor card-title listing-title" style="margin: 0;">Pioneering scheme to support evidence-based policing launches</h3></a>
+
+          <p class="listing-abstract" style="margin: 0; font-size: 0.9em;"><i>Posted Jan 8, 2020</i></p>
+
+          
+            <p class="listing-abstract" style="margin: 0; font-size: 0.95em;">Find out more about the launch of the first ever Police Service Modelling Associates Programme (PSMA), which saw associates, recruited from Devon &amp; Cornwall Police staff, the College of Policing and other regional forces, receiving mentoring and training to support them to undertake projects which will led to real impact and the embedding of evidence-based decision making and operational research skills within the service.
+</p>
+          
+
+          <div class="listing-organisations" style="margin-top: 4px; font-size: 0.95em;">
+            NIHR PenARC
+          </div>
+
+          <div class="project-details-listing" style="margin-top: auto; width: 100%;">
+            <button class="project-link-listing-button" style="width: 100%; text-align: center;">
+              <a href="./news/2020-01-08-psma-launch/index.html"><i class="fa-solid fa-newspaper"></i> Click Here to Read the Article </a>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  
+    <div class="custom-grid-card border-4 rounded-3" data-index="17" data-listing-date-sort="1549411200000" data-listing-file-modified-sort="1785255927153" data-listing-date-modified-sort="1549411200000" data-listing-reading-time-sort="2" data-listing-word-count-sort="227" style="padding: 10px;">
+      <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
+
+        
+          <a href="./news/2019-02-06-hsma-seminar-success/index.html" style="display: flex; align-items: stretch;">
+            <img src="./news/2019-02-06-hsma-seminar-success/image.png" alt="HSMA Presentation Seminar is a huge success" style="max-height: 100%; max-width: 250px; width: auto; object-fit: contain; border-radius: 4px;">
+          </a>
+        
+
+        <div class="card-text-content" style="flex: 1; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px;">
+
+          <a href="./news/2019-02-06-hsma-seminar-success/index.html"><h3 class="no-anchor card-title listing-title" style="margin: 0;">HSMA Presentation Seminar is a huge success</h3></a>
+
+          <p class="listing-abstract" style="margin: 0; font-size: 0.9em;"><i>Posted Feb 6, 2019</i></p>
+
+          
+            <p class="listing-abstract" style="margin: 0; font-size: 0.95em;">Find out more about how the HSMA 2 showcase went.
+</p>
+          
+
+          <div class="listing-organisations" style="margin-top: 4px; font-size: 0.95em;">
+            NIHR PenARC
+          </div>
+
+          <div class="project-details-listing" style="margin-top: auto; width: 100%;">
+            <button class="project-link-listing-button" style="width: 100%; text-align: center;">
+              <a href="./news/2019-02-06-hsma-seminar-success/index.html"><i class="fa-solid fa-newspaper"></i> Click Here to Read the Article </a>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  
+    <div class="custom-grid-card border-4 rounded-3" data-index="18" data-listing-date-sort="1546992000000" data-listing-file-modified-sort="1785255927153" data-listing-date-modified-sort="1546992000000" data-listing-reading-time-sort="7" data-listing-word-count-sort="1357" style="padding: 10px;">
+      <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
+
+        
+          <a href="./news/2019-01-12-hsma-project-success/index.html" style="display: flex; align-items: stretch;">
+            <img src="./news/2019-01-12-hsma-project-success/image.png" alt="Research instrumental in securing £8 million funding for new hospital mental health ward" style="max-height: 100%; max-width: 250px; width: auto; object-fit: contain; border-radius: 4px;">
+          </a>
+        
+
+        <div class="card-text-content" style="flex: 1; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px;">
+
+          <a href="./news/2019-01-12-hsma-project-success/index.html"><h3 class="no-anchor card-title listing-title" style="margin: 0;">Research instrumental in securing £8 million funding for new hospital mental health ward</h3></a>
+
+          <p class="listing-abstract" style="margin: 0; font-size: 0.9em;"><i>Posted Jan 9, 2019</i></p>
+
+          
+            <p class="listing-abstract" style="margin: 0; font-size: 0.95em;">Find out more about Karl Vile’s HSMA project findings, encompassing demand and capacity modelling as well as geographic modelling.
+</p>
+          
+
+          <div class="listing-organisations" style="margin-top: 4px; font-size: 0.95em;">
+            NIHR PenARC
+          </div>
+
+          <div class="project-details-listing" style="margin-top: auto; width: 100%;">
+            <button class="project-link-listing-button" style="width: 100%; text-align: center;">
+              <a href="./news/2019-01-12-hsma-project-success/index.html"><i class="fa-solid fa-newspaper"></i> Click Here to Read the Article </a>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  
+    <div class="custom-grid-card border-4 rounded-3" data-index="19" data-listing-date-sort="1545177600000" data-listing-file-modified-sort="1785255927153" data-listing-date-modified-sort="1545177600000" data-listing-reading-time-sort="4" data-listing-word-count-sort="732" style="padding: 10px;">
+      <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
+
+        
+          <a href="./news/2018-12-19-hsma-project-funding-mh/index.html" style="display: flex; align-items: stretch;">
+            <img src="./news/2018-12-19-hsma-project-funding-mh/image.png" alt="PenCHORD mentored Health Service Modelling Analyst instrumental in securing 8m funding for new adult mental health ward at Torbay Hospital" style="max-height: 100%; max-width: 250px; width: auto; object-fit: contain; border-radius: 4px;">
+          </a>
+        
+
+        <div class="card-text-content" style="flex: 1; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px;">
+
+          <a href="./news/2018-12-19-hsma-project-funding-mh/index.html"><h3 class="no-anchor card-title listing-title" style="margin: 0;">PenCHORD mentored Health Service Modelling Analyst instrumental in securing 8m funding for new adult mental health ward at Torbay Hospital</h3></a>
+
+          <p class="listing-abstract" style="margin: 0; font-size: 0.9em;"><i>Posted Dec 19, 2018</i></p>
+
+          
+            <p class="listing-abstract" style="margin: 0; font-size: 0.95em;">Find out more about how Karl Vile’s HSMA project findings were included in DPT’s recently successful application for government investment from a national package designed to modernise and transform NHS services. A £50 million investment will deliver enhanced new facilities and equipment for NHS patients in Devon, of which 8 million will provide essential extra capacity for people who need inpatient care in the form of a new adult mental health ward for Torbay Hospital, which will ultimately reduce the need to send people out of Devon for treatment.
+</p>
+          
+
+          <div class="listing-organisations" style="margin-top: 4px; font-size: 0.95em;">
+            NIHR PenARC
+          </div>
+
+          <div class="project-details-listing" style="margin-top: auto; width: 100%;">
+            <button class="project-link-listing-button" style="width: 100%; text-align: center;">
+              <a href="./news/2018-12-19-hsma-project-funding-mh/index.html"><i class="fa-solid fa-newspaper"></i> Click Here to Read the Article </a>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  
+    <div class="custom-grid-card border-4 rounded-3" data-index="20" data-listing-date-sort="1545091200000" data-listing-file-modified-sort="1785255927153" data-listing-date-modified-sort="1545091200000" data-listing-reading-time-sort="4" data-listing-word-count-sort="682" style="padding: 10px;">
+      <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
+
+        
+          <a href="./news/2018-12-18-hsma-showcase/index.html" style="display: flex; align-items: stretch;">
+            <img src="./news/2018-12-18-hsma-showcase/image.png" alt="PenCHORD’s HSMA 2018 Programme presentations showcase the impact of Operational Research in the health sector" style="max-height: 100%; max-width: 250px; width: auto; object-fit: contain; border-radius: 4px;">
+          </a>
+        
+
+        <div class="card-text-content" style="flex: 1; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px;">
+
+          <a href="./news/2018-12-18-hsma-showcase/index.html"><h3 class="no-anchor card-title listing-title" style="margin: 0;">PenCHORD’s HSMA 2018 Programme presentations showcase the impact of Operational Research in the health sector</h3></a>
+
+          <p class="listing-abstract" style="margin: 0; font-size: 0.9em;"><i>Posted Dec 18, 2018</i></p>
+
+          
+            <p class="listing-abstract" style="margin: 0; font-size: 0.95em;">Find out more about the showcase for HSMA 2.
+</p>
+          
+
+          <div class="listing-organisations" style="margin-top: 4px; font-size: 0.95em;">
+            NIHR PenARC
+          </div>
+
+          <div class="project-details-listing" style="margin-top: auto; width: 100%;">
+            <button class="project-link-listing-button" style="width: 100%; text-align: center;">
+              <a href="./news/2018-12-18-hsma-showcase/index.html"><i class="fa-solid fa-newspaper"></i> Click Here to Read the Article </a>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  
+    <div class="custom-grid-card border-4 rounded-3" data-index="21" data-listing-date-sort="1528070400000" data-listing-file-modified-sort="1785255927152" data-listing-date-modified-sort="1528070400000" data-listing-reading-time-sort="2" data-listing-word-count-sort="209" style="padding: 10px;">
+      <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
+
+        
+          <a href="./news/2018-06-04-penchord/index.html" style="display: flex; align-items: stretch;">
+            <img src="./news/2018-06-04-penchord/image.jpg" alt="PenCHORD: Helping the NHS make informed decisions using operational research" style="max-height: 100%; max-width: 250px; width: auto; object-fit: contain; border-radius: 4px;">
+          </a>
+        
+
+        <div class="card-text-content" style="flex: 1; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px;">
+
+          <a href="./news/2018-06-04-penchord/index.html"><h3 class="no-anchor card-title listing-title" style="margin: 0;">PenCHORD: Helping the NHS make informed decisions using operational research</h3></a>
+
+          <p class="listing-abstract" style="margin: 0; font-size: 0.9em;"><i>Posted Jun 4, 2018</i></p>
+
+          
+            <p class="listing-abstract" style="margin: 0; font-size: 0.95em;">Find out more about the research team HSMA sits within.
+</p>
+          
+
+          <div class="listing-organisations" style="margin-top: 4px; font-size: 0.95em;">
+            NIHR PenARC
+          </div>
+
+          <div class="project-details-listing" style="margin-top: auto; width: 100%;">
+            <button class="project-link-listing-button" style="width: 100%; text-align: center;">
+              <a href="./news/2018-06-04-penchord/index.html"><i class="fa-solid fa-newspaper"></i> Click Here to Read the Article </a>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  
+    <div class="custom-grid-card border-4 rounded-3" data-index="22" data-listing-date-sort="1522281600000" data-listing-file-modified-sort="1785255927152" data-listing-date-modified-sort="1522281600000" data-listing-reading-time-sort="5" data-listing-word-count-sort="1000" style="padding: 10px;">
       <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
 
         
@@ -548,7 +1198,41 @@ window.Quarto = {
       </div>
     </div>
   
-    <div class="custom-grid-card border-4 rounded-3" data-index="4" data-listing-date-sort="1516147200000" data-listing-file-modified-sort="1783952110722" data-listing-date-modified-sort="1516147200000" data-listing-reading-time-sort="4" data-listing-word-count-sort="788" style="padding: 10px;">
+    <div class="custom-grid-card border-4 rounded-3" data-index="23" data-listing-date-sort="1522195200000" data-listing-file-modified-sort="1785255927151" data-listing-date-modified-sort="1522195200000" data-listing-reading-time-sort="4" data-listing-word-count-sort="709" style="padding: 10px;">
+      <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
+
+        
+          <a href="./news/2018-03-28-hsma2-update/index.html" style="display: flex; align-items: stretch;">
+            <img src="./news/2018-03-28-hsma2-update/image.png" alt="HSMA 2 Programme Update" style="max-height: 100%; max-width: 250px; width: auto; object-fit: contain; border-radius: 4px;">
+          </a>
+        
+
+        <div class="card-text-content" style="flex: 1; display: flex; flex-direction: column; align-items: center; text-align: center; gap: 4px;">
+
+          <a href="./news/2018-03-28-hsma2-update/index.html"><h3 class="no-anchor card-title listing-title" style="margin: 0;">HSMA 2 Programme Update</h3></a>
+
+          <p class="listing-abstract" style="margin: 0; font-size: 0.9em;"><i>Posted Mar 28, 2018</i></p>
+
+          
+            <p class="listing-abstract" style="margin: 0; font-size: 0.95em;">Find out more about how HSMA 2 progressed.
+</p>
+          
+
+          <div class="listing-organisations" style="margin-top: 4px; font-size: 0.95em;">
+            NIHR PenARC
+          </div>
+
+          <div class="project-details-listing" style="margin-top: auto; width: 100%;">
+            <button class="project-link-listing-button" style="width: 100%; text-align: center;">
+              <a href="./news/2018-03-28-hsma2-update/index.html"><i class="fa-solid fa-newspaper"></i> Click Here to Read the Article </a>
+            </button>
+          </div>
+
+        </div>
+      </div>
+    </div>
+  
+    <div class="custom-grid-card border-4 rounded-3" data-index="24" data-listing-date-sort="1516147200000" data-listing-file-modified-sort="1785255927149" data-listing-date-modified-sort="1516147200000" data-listing-reading-time-sort="4" data-listing-word-count-sort="788" style="padding: 10px;">
       <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
 
         
@@ -582,7 +1266,7 @@ window.Quarto = {
       </div>
     </div>
   
-    <div class="custom-grid-card border-4 rounded-3" data-index="5" data-listing-date-sort="1508889600000" data-listing-file-modified-sort="1783952110721" data-listing-date-modified-sort="1508889600000" data-listing-reading-time-sort="2" data-listing-word-count-sort="382" style="padding: 10px;">
+    <div class="custom-grid-card border-4 rounded-3" data-index="25" data-listing-date-sort="1508889600000" data-listing-file-modified-sort="1785255927149" data-listing-date-modified-sort="1508889600000" data-listing-reading-time-sort="2" data-listing-word-count-sort="382" style="padding: 10px;">
       <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
 
         
@@ -616,7 +1300,7 @@ window.Quarto = {
       </div>
     </div>
   
-    <div class="custom-grid-card border-4 rounded-3" data-index="6" data-listing-date-sort="1508457600000" data-listing-file-modified-sort="1783952110721" data-listing-date-modified-sort="1508457600000" data-listing-reading-time-sort="4" data-listing-word-count-sort="788" style="padding: 10px;">
+    <div class="custom-grid-card border-4 rounded-3" data-index="26" data-listing-date-sort="1508457600000" data-listing-file-modified-sort="1785255927149" data-listing-date-modified-sort="1508457600000" data-listing-reading-time-sort="4" data-listing-word-count-sort="788" style="padding: 10px;">
       <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
 
         
@@ -650,7 +1334,7 @@ window.Quarto = {
       </div>
     </div>
   
-    <div class="custom-grid-card border-4 rounded-3" data-index="7" data-listing-date-sort="1506643200000" data-listing-file-modified-sort="1783952110720" data-listing-date-modified-sort="1506643200000" data-listing-reading-time-sort="2" data-listing-word-count-sort="247" style="padding: 10px;">
+    <div class="custom-grid-card border-4 rounded-3" data-index="27" data-listing-date-sort="1506643200000" data-listing-file-modified-sort="1785255927148" data-listing-date-modified-sort="1506643200000" data-listing-reading-time-sort="2" data-listing-word-count-sort="247" style="padding: 10px;">
       <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
 
         
@@ -684,7 +1368,7 @@ window.Quarto = {
       </div>
     </div>
   
-    <div class="custom-grid-card border-4 rounded-3" data-index="8" data-listing-date-sort="1500854400000" data-listing-file-modified-sort="1783952110719" data-listing-date-modified-sort="1500854400000" data-listing-reading-time-sort="5" data-listing-word-count-sort="822" style="padding: 10px;">
+    <div class="custom-grid-card border-4 rounded-3" data-index="28" data-listing-date-sort="1500854400000" data-listing-file-modified-sort="1785255927147" data-listing-date-modified-sort="1500854400000" data-listing-reading-time-sort="5" data-listing-word-count-sort="822" style="padding: 10px;">
       <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
 
         
@@ -718,7 +1402,7 @@ window.Quarto = {
       </div>
     </div>
   
-    <div class="custom-grid-card border-4 rounded-3" data-index="9" data-listing-date-sort="1490918400000" data-listing-file-modified-sort="1783952110718" data-listing-date-modified-sort="1490918400000" data-listing-reading-time-sort="4" data-listing-word-count-sort="741" style="padding: 10px;">
+    <div class="custom-grid-card border-4 rounded-3" data-index="29" data-listing-date-sort="1490918400000" data-listing-file-modified-sort="1785255927147" data-listing-date-modified-sort="1490918400000" data-listing-reading-time-sort="4" data-listing-word-count-sort="741" style="padding: 10px;">
       <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
 
         
@@ -752,7 +1436,7 @@ window.Quarto = {
       </div>
     </div>
   
-    <div class="custom-grid-card border-4 rounded-3" data-index="10" data-listing-date-sort="1489104000000" data-listing-file-modified-sort="1783952110718" data-listing-date-modified-sort="1489104000000" data-listing-reading-time-sort="4" data-listing-word-count-sort="699" style="padding: 10px;">
+    <div class="custom-grid-card border-4 rounded-3" data-index="30" data-listing-date-sort="1489104000000" data-listing-file-modified-sort="1785255927146" data-listing-date-modified-sort="1489104000000" data-listing-reading-time-sort="4" data-listing-word-count-sort="699" style="padding: 10px;">
       <div class="main-card-content" style="display: flex; gap: 15px; align-items: stretch; flex-direction: row;">
 
         
@@ -789,6 +1473,9 @@ window.Quarto = {
 </div>
 
 <div class="listing-no-matching d-none">No matching items</div>
+<nav id="listing-pagination" class="listing-pagination" aria-label="Page Navigation">
+  <ul class="pagination"></ul>
+</nav>
 </div></main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
   window.document.addEventListener("DOMContentLoaded", function (event) {
