@@ -1,0 +1,61 @@
+---
+title: "Flagship data science programmes combine to create positive change for health, social care and policing services"
+title-block-banner: ../banner.png
+author:
+    - "NIHR PenARC"
+date: "2022-03-08"
+date-modified: "2022-03-08"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    Research from NIHR PenARC (formerly PenCLAHRC) has been featured in a newly released flagship document that demonstrates the impact of National Institute for Health Research (NIHR) funded applied research to transform health and care across England.
+image: image.png
+---
+
+```{=html}
+<iframe width='1280' height='900' src='https://arc-sw.nihr.ac.uk/news/psma-hsma-combine/' title='Article'></iframe>
+```
+
+::: {.callout-note collapse="true"}
+### Article not loading? Click here for a plain text version.
+
+Following the successful extension of our Health Services Modelling Associates programme (HSMA) to policing staff in the Police Services Modelling Associates Programme, (PSMA) the programmes will integrate to encourage collaborative projects between health, social care and policing services.
+
+In 2016 we launched the Health Service Modelling Associates  Programme. The programme offers NHS staff the opportunity to learn data analytics and computer modelling skills to address essential questions within their organisation.
+
+Following the success of the HSMA programme and the increased interest in modelling solutions for organisational problems, we extended the programme by opening it to a cohort of policing staff. The pilot, which ran in 2020, set out to help police services tackle issues in policing and wider health systems. The programme has taught Devon and Cornwall Police analysts a range of computer modelling and data science skills to help further inform their policing work in-house.
+
+The PSMA Programme found that operational policing issues share many similarities with those in health and social care and can benefit from the same approach. It became obvious, too, that there was considerable appetite and enthusiasm for adopting these methods to support policing analytics.
+
+As a result we will permanently integrate the HSMA and PSMA programmes, developing collaborative project opportunities between health, social care and policing.
+
+Delivered in partnership with the Devon and Cornwall Police, and with funding from the University of Exeter’s Policing Lab Fund, the PSMA project was led and developed by Senior Research Fellow in Applied Healthcare Modelling and Analysis Dr Daniel Chalk, and Gavin Bardsley, the then Head of Performance and Analysis at Devon and Cornwall Police.
+
+The programme aims to improve health and policing outcomes by increasing the volume and quality of research in the South West, providing them with evidence-based solutions and is split into two phases. Phase One takes the cohort through three months of training in Operational Research and Data Science techniques. They acquire skills in programming, learn a range of modelling and forecasting methods, and develop knowledge of Artificial Intelligence approaches.
+
+Attendees are also supported to develop a project proposal that addresses an issue of importance for their organisation and will lead to a significant impact. At the end of Phase One, PSMAs pitch their proposal and a number are selected to be taken forwards as projects in Phase Two.
+
+During the second phase, attendees receive ongoing mentoring. They get support from an experienced academic and organisational supervision from their PSMA Workplace Supervisor, helping them develop their project and lead a research team.
+
+One of the selected proposals was the Devon and Cornwall Police project, ‘Using Network Analysis to Better Understand the Relationships Between Offenders and their Victims.’
+
+Fiona Bohan, Performance and Analysis Manager at Devon and Cornwall Police, commented on the project: “The need for Social Network Analysis is clear. Criminal and exploitative networks are a huge and costly issue for police, partner agencies and the community.
+
+“Social Network Analysis, using minimal resource, can identify children at current and future risk of exploitation, as well as those key players within the network who pose the greatest risk. By targeting and removing these key players and concentrating limited, early intervention resources on protecting those at stake in the future, there are potentially significant savings in terms of child harm and partnership spending.
+
+“This proof of concept has highlighted the significant benefits of embedding this approach in force and, in my view, will play an important part in policing in the future.”
+
+With the project’s growth, the training programme now offers over 140 hours of training content spanning across nine modules. The current round of the programme has been opened up to the whole of England and is currently supporting 80 associates.
+
+Dr Daniel Chalk, Lead for the Programme, said: “We’re incredibly excited to be offering our highly successful HSMA programme to anyone working in health, social care and policing organisations in England.
+
+“Over the last five years, the work of the HSMAs in the South West has led to significant real-world impact for services and their patients and led to a transformative generational leap in the skills of analysts. By expanding the reach nationally, the programme aims to tackle some of the key national issues faced by health, social care and policing organisations across the country in the wake of the COVID-19 pandemic.
+
+“We look forward to seeing national collaborative projects in action that can make a real difference, help rebuild our services, and tackle system-wide issues.”
+
+:::

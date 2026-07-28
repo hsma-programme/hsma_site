@@ -1,0 +1,73 @@
+---
+title: "National programme uses data science to build capacity in health, care and policing"
+title-block-banner: ../banner.png
+author:
+    - "NIHR PenARC"
+date: "2022-03-16"
+date-modified: "2022-03-16"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    Our national Health Services Modelling Associates (HSMA) programme is using an innovative mentoring system to help address some of the biggest issues facing health and social care and build service capacity.
+image: image.png
+---
+
+```{=html}
+<iframe width='1280' height='900' src='https://arc-sw.nihr.ac.uk/news/data-science-capacity-building/' title='Article'></iframe>
+```
+
+::: {.callout-note collapse="true"}
+### Article not loading? Click here for a plain text version.
+
+Our national Health Services Modelling Associates (HSMA) programme is using an innovative mentoring system to help address some of the biggest issues facing health and social care and build service capacity.
+
+The programme, developed by our Operational Research and Data Science Team, PenCHORD, has led to multi-million pound investments in mental health and urgent care services and improved outcomes for patients and service users across policing, social and health care. It has also seen the development of inter-ARC collaborations to share knowledge and increase service capacity using Data Science, Artificial Intelligence and Operational Research.
+
+The HSMA programme, which made the move online and extended nationally during the pandemic, offers staff working in policing and health and social care organisations the opportunity to work on a modelling, simulation or data science project to address an important issue for their organisation.
+
+“I’ve found the HSMA programme to be an opportunity for inter-ARC collaborations and it has so much to offer.”
+
+Research Fellow Morro Touray, at NIHR Applied Research Collaboration Kent, Surrey and Sussex (ARC KSS)  signed up to the current round of HSMA to be a trainee mentor and is benefitting from training in Free and Open Source Software from the PenCHORD team in return. The use of Free and Open Source software is an approach that is encouraged within the HSMA Programme to facilitate the free and wide sharing of models.
+
+Morro is mentoring Irma Tanovic, Head of Data Science and Engineering at Oxford Health NHS Foundation Trust. Irma’s project is looking at using pathway modelling (Discrete Event Simulation) to reduce the backlog in referrals for children requiring neuro-development assessment for conditions such as Autism and ADHD, a situation exacerbated by the pandemic.
+
+Irma’s research identified that many children were experiencing a deterioration in their mental health as average waiting times for assessment reached an average of two years, leaving their parents feeling anxious and unsupported. The extended waiting times were resulting in worsening mental states and the need for more complex and longer treatments when children reached the front of the queue. This in turn was impacting on managerial time and team morale, running the risk of losing staff from the profession or to the private sector.
+
+To address this, Irma’s research identified a set of questions and scenarios, such as where the bottlenecks in the system occurred and the impact of reducing assessment times. She then used data modelling to identify potential solutions and improve the quality of evidence available to inform a strategy to address issues in the service pathway.
+
+Morro Touray said: “Our project has already attracted interest from Health Trusts and researchers and we hope its impact can be immense; our findings are very easily translated and applied to settings across the country. I’ve found the HSMA programme to be an opportunity for inter-ARC collaborations and it has so much to offer. The diverse nature of topics makes it useful and applicable to many health and healthcare settings.”
+
+Police Services Modelling Associates, (PSMA) Strategic Analyst Jenna Thomas, Performance Analyst Charly Bartlett and Business Intelligence Development Analyst Neil Mitchell, from Devon and Cornwall Police, used an approach known as Social Network Analysis (SNA) in their project to transform the way the police use data, dramatically reducing levels of required resource and increasing capacity.
+
+“SNA, using minimal resource, can identify children at current and future risk of exploitation.”
+
+Police services handle large amounts of data which relate to people involved in reported crimes. These can include offenders, suspects, victims, witnesses and other individuals who are linked in some way. The analysts used SNA to help understand the relationships between offenders and their victims from the data they collect. The approach uses different sources of data to visualise how people are linked within their networks and so help to identify opportunities for crime prevention and safeguarding.
+
+In one example from their research, an officer appointed to a new area was tasked with identifying the root cause of a spike in antisocial behaviour. The officer spent 2 weeks manually connecting information across crime incident and intelligence data to identify the main instigators and then further resource to supplying the necessary evidence to deal with the issue.
+
+Using relevant data from the same area the analysts used SNA to identify the same instigators within just a few hours. This approach was then demonstrated in a series of workshops to other policing staff and went on to be successfully used to support a strategic objective to reduce violence and increase safeguarding across a major South West city.
+
+Fiona Bohan, Performance Analysis Manager at Devon and Cornwall Police said: “The need for Social Network Analysis is clear. Criminal and exploitative networks are a huge and costly issue for police, their partner agencies and the community. SNA, using minimal resource, can identify children at current and future risk of exploitation, as well as those key players within the network who pose the greatest risk. By targeting and removing these key players, and concentrating limited early intervention resources on protecting those at risk in the future, there are potential significant savings both in terms of child harm and partnership spend. This proof of concept has highlighted the significant benefits of embedding this approach in force and, in my view, will play an important part in policing in the future.”
+
+Operational Development Manager at Derbyshire Community Health Services NHS Foundation Trust Matt Eves, Public Health Registrar at Torbay Council Anya Gopfert, and Data and Information Officer at West Sussex County Council, Sally Brown, are an excellent demonstration of cross-organisation and cross-sector collaboration at a national scale. Their HSMA project, mentored by HSMA programme lead Dr Daniel Chalk, is looking at using Machine Learning to help services tackle inequalities and minimise carbon output in their planning and delivery. Reducing carbon in the NHS without increasing inequalities is a strategic aim of the NHS.
+
+“This is where the “value-add” comes; you not only learn the techniques, but you learn from others and their experiences and see how the techniques can be applied in real-life settings.”
+
+Having identified a lack of research in this area the associates used techniques taught on the HSMA programme to build a pilot tool kit to help service leaders consider both inequalities and carbon trade-offs in service design planning, quickly understand the health inequalities present in their service and develop a plan to address them. The associates will be using Free and Open Source Software to allow the model to be scaleable to any service in any organisation and maximise impact. The machine learning model will predict which patients are most likely not to attend an appointment and then use geographic modelling to assess the carbon impact and impact on health inequalities trade-off of putting in place interventions to try to facilitate and improve attendance.
+
+Matt Eves said: “I’m excited by the idea that we can create something collaboratively, using the tools we have learnt on the HSMA programme, and apply them to help inform service delivery decisions and improve population health. I’m passionate about reducing inequalities, operating as efficiently as possible with the resources we have, and learning from and sharing knowledge with others; all values which align with the HSMA programme. In our cohort we have nurses, managers, and public health specialists. This is where the “value-add” comes; you not only learn the techniques, but you learn from others and their experiences and see how the techniques can be applied in real-life settings.”
+
+The administration of vaccines formed a mainstay of the UK government’s strategy in managing the Covid-19 pandemic. But delivery of the vaccination programme placed an enormous pressure on the NHS, and GP practices in particular.
+
+“The vaccines seemed like a ray of hope and setting up the clinics was instrumental in turning the tide.”
+
+Dr Adam Kwiatkowski, a GP and Clinical Director from Torridge, North Devon, used advanced data modelling skills learned as a Health Services Modelling Associate to develop a Discrete Event Simulation model to manage his practice’s vaccine clinic. Covering an area of three primary care networks and 56,000 patients made it essential to manage the flow of patients attending the clinic effectively to keep both them and staff safe while meeting vaccination delivery targets.
+
+Dr Kwiatkowski developed the model to help manage resources and estimate how many patients could attend the clinic while maintaining social distancing. Our Operational Research team, PenCHORD, helped him to refine the model and make it user-friendly. “I enjoyed designing it,” Dr Kwiatkowski said. “It predicts queue lengths, car park capacity and times for every step of the vaccination process in the clinic to avoid overcrowded waiting rooms. In the winter of 2020/1 the country was back in lock down and there seemed no end in sight regarding COVID. The vaccines seemed like a ray of hope and setting up the clinics was instrumental in turning the tide. Being able to use the knowledge gained from the HSMA course to help design the process was fantastic. The clinic has now delivered over 100,000 vaccines.”
+
+:::

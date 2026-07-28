@@ -1,0 +1,65 @@
+---
+title: "Health Services Modelling Associate uses new skills to manage Covid-19 vaccination programme"
+title-block-banner: ../banner.png
+author:
+    - "NIHR PenARC"
+date: "2021-05-17"
+date-modified: "2021-05-17"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    Research from NIHR PenARC (formerly PenCLAHRC) has been featured in a newly released flagship document that demonstrates the impact of National Institute for Health Research (NIHR) funded applied research to transform health and care across England.
+image: image.png
+---
+
+```{=html}
+<iframe width='1280' height='900' src='https://arc-sw.nihr.ac.uk/news/clahrc-legacy/' title='Article'></iframe>
+```
+
+::: {.callout-note collapse="true"}
+### Article not loading? Click here for a plain text version.
+
+Research from NIHR PenARC (formerly PenCLAHRC) has been featured in a newly released flagship document that demonstrates the impact of National Institute for Health Research (NIHR) funded applied research to transform health and care across England.
+
+The document celebrates the impact of two ongoing PenARC projects:
+
+Supporting our Partners: Health Service Modelling Associates (HSMA) Programme
+The HSMA programme offers health and care professionals a secondment opportunity during which they are trained to conduct a modelling or data science project. The students or ‘HSMAs’ spend one day a week for one year conducting a modelling or data science project that addresses issues of importance for their organisation. HSMAs are supported by a mentor and provided with training in a range of methods that helps them carry out data analysis.
+
+In the 2014-2019 cycle of CLAHRC, the programme recruited over 30 HSMAs from 13 NHS organisations, including acute trusts, mental health trusts, commissioning organisations and the South Western Ambulance Trust. Projects conducted by HSMAs have resulted in a number of positive changes for patients and improvements to services, including directly informing an £8 million investment in a new Devon Partnership NHS Trust adult mental health ward at Torbay Hospital and informing the resourcing of ‘Crisis Cafes’, which provide rapid access to support during a mental health crisis, potentially avoiding admission.
+
+Dr Daniel Chalk, programme lead said: “We believe that there is a real opportunity for Operational Research and Data Science methods to support evidence-based decision making and help to tackle the challenges that the pandemic presents. They can help us rebuild our health systems to be both effective and efficient for patients and providers in this new world.”
+
+The HSMA is currently preparing for its fourth cohort of students and, building upon previous successes, is now open to applicants from across the whole of England. It also successfully launched a spin off Police Service Modelling Associates (PSMA) Programme in 2020.
+
+[Learn more about the Health Service Modelling Associates (HSMA) Programme.](https://arc-sw.nihr.ac.uk/training-type/health-service-modelling-associates-programme-hsma/)
+[Learn more about the Police Service Modelling Associates (PSMA) Programme.](https://arc-sw.nihr.ac.uk/research/projects/psma/)
+
+
+Supporting Vulnerable People: Person-Centred Coordinated Care (P3C)
+The P3C programme addresses the needs of individuals living with frailty or multimorbidity and those in old age. Working alongside the South West Academic Health Science Network (SW AHSN), STPs and commissioners, PenARC led seven evaluations of local innovation, developed an evaluation framework including new measures, and gained external funding for additional research.
+
+Alongside many other outputs, the programme developed the P3C Experience Questionnaire (P3CEQ) which has undergone psychometric testing and is being actively utilised across Kent and Somerset. It has been adopted for international practice and has been translated into five languages – Spanish, Norwegian, Estonian, German and Dutch.
+
+The project’s research lead, Dr Helen Lloyd, said: “In 2008 there were 1.9 million people with multiple long term conditions in the UK. Next year, 10 years later, this figure is anticipated to rise to 2.9 million with little sign of any future reductions. Delivering P3C as an effective and economic means of delivering appropriate care will require a culture change, as well as professional and organisational changes, especially around highlighting the patient as an ‘expert’ with access to both individual and other resources and around whom all care should be coordinated.”
+
+This work is ongoing and continuing to help support vulnerable people. [Learn more about our Person-Centred Coordinated Care Programme](https://arc-sw.nihr.ac.uk/research/projects/person-centred-coordinated-care-p3c/).
+
+
+
+The legacy of the CLAHRCs 2014-19
+The publication, ‘The legacy of the CLAHRCs 2014-19 – 5 years of NIHR-funded applied health research’ compiles key research projects from the NIHR Collaborations for Leadership in Applied Health Research and Care (CLAHRCs). Drawing together case studies from priority themes, the document demonstrates how the CLAHRCs conducted innovative research leading to improved outcomes for patients, better and more cost-effective services while challenging health inequalities.
+
+Dr Louise Wood CBE, co-lead NIHR,  Director of Science, Research and Evidence at the Department of Health and Social Care, said:
+
+“The NIHR CLAHRCs increased the country’s applied health and care research capacity and capability, making this a key strength of the NIHR.  These case studies are a fantastic demonstration of the CLAHRCs’ impact on improving services and outcomes for patients and the public, across a wide range of priority areas.  Our Applied Research Collaborations continue to build on this legacy.”
+
+[Read or download ‘The Legacy of the CLAHRCs 2014-2019′.pdf (3,014KB)](https://arcwestarchive.org.uk/Wordpress/wp-content/uploads/2021/07/DIGITAL_CLAHRC_Legacy_April21_ARC_FINAL.pdf)
+
+Since October 2019, the NIHR Applied Research Collaborations (ARCs) have continued the work of the CLAHRCs. They deliver research relevant to the needs of their local populations, while contributing to nationally identified research priority areas.
+:::

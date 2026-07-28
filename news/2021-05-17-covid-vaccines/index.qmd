@@ -1,0 +1,38 @@
+---
+title: "Health Services Modelling Associate uses new skills to manage Covid-19 vaccination programme"
+title-block-banner: ../banner.png
+author:
+    - "NIHR PenARC"
+date: "2021-05-17"
+date-modified: "2021-05-17"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    Read about Dr Adam Kwiatkowski, a GP and Clinical Director from Torridge, North Devon, who used advanced data modelling skills learned as a Health Services Modelling Associate (HSMA) to develop a Discrete Event Simulation model to manage his practice’s vaccine clinic.
+image: image.png
+---
+
+```{=html}
+<iframe width='1280' height='900' src='https://arc-sw.nihr.ac.uk/news/hsma-covid-vaccination-model/' title='Article'></iframe>
+```
+
+::: {.callout-note collapse="true"}
+### Article not loading? Click here for a plain text version.
+
+The administration of vaccines has been a mainstay of the UK government’s strategy in managing the Covid-19 pandemic. But delivery of the vaccination programme has placed an enormous pressure on the NHS, and GP practices in particular.
+
+Dr Adam Kwiatkowski, a GP and Clinical Director from Torridge, North Devon, has used advanced data modelling skills learned as a Health Services Modelling Associate (HSMA) to develop a Discrete Event Simulation model to manage his practice’s vaccine clinic. Covering an area of three primary care networks and 56,000 patients meant that it was essential to manage the flow of patients attending the clinic to keep patients and staff safe and meet vaccination delivery targets.
+
+Dr Kwiatkowski developed the model to help manage resources and estimate how many patients could attend the clinic while maintaining social distancing. Our Operational Research team, PenCHORD, helped him to refine it and make it user-friendly. “I enjoyed designing it,” Dr Kwiatkowski said. “It predicts queue lengths, car park capacity and times for every step of the vaccination process in the clinic to avoid overcrowded waiting rooms.”
+
+Dr Daniel Chalk, lead for the HSMA programme said: “It’s great that one of our capacity building initiatives has directly fed into this planning process and so quickly – I only taught Adam how to build that kind of model a couple of weeks ago! He has built it as a generic model which is free and open source, meaning anyone can use it. It’s a flexible process so can be used in any situation where a number of patients are being managed simultaneously. Other GP partners have already expressed interest in using it for their vaccination centres.”
+
+We are working with the South West Academic Health Science Network, local GP partners and vaccination centres to explore further opportunities to roll the model out regionally.
+
+The 4th iteration of the HSMA programme, which teaches Data Science to people working in health, social care and policing is currently taking place with a national cohort of new associates. Offering over 140 hours of online content, the programme is designed to help address issues of national importance through collaborative projects. It has already led to multi-million pound investments in mental health and urgent care services, and the establishment of NHS modelling and Data Science roles and is poised for an even bigger development next year when it returns in its 5th iteration.
+:::
