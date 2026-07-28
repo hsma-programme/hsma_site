@@ -1,0 +1,40 @@
+---
+title: "Prestigious Data Science programme extends to address issues of national importance"
+title-block-banner: ../banner.png
+author:
+    - "NIHR PenARC"
+date: "2021-05-08"
+date-modified: "2021-05-08"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    With the popularity and success of HSMA programme, and the increased interest in modelling solutions to organisational problems, HSMA opens its doors nationally for the first time for its fifth iteration in 2022.
+image: image.png
+---
+
+```{=html}
+<iframe width='1280' height='900' src='https://arc-sw.nihr.ac.uk/news/hsma-4-launches/' title='Article'></iframe>
+```
+
+::: {.callout-note collapse="true"}
+### Article not loading? Click here for a plain text version.
+
+For the first time our Health Service Modelling Associates (HSMA) programme is opening to health, social care and policing staff across England. The new training programme offers over 140 hours of online content to help address issues of national importance through collaborative projects.
+
+The programme, which offers staff working in health and social care organisations the opportunity to work on a modelling, simulation or data science project to address an important issue for their organisation, has led to multi-million pound investments in mental health and urgent care services, and the establishment of NHS modelling and Data Science roles.
+
+Over the period of a year, associates are released from their substantive roles for a day a week to undertake advanced modelling, simulation and analysis work on projects. They receive mentoring, support and training from our operational research team, PenCHORD, whilst being supported by an HSMA Workplace Supervisor, a senior member of their own organisation. Supervisors facilitate the implementation of the associate’s project and help to champion their work within their organisation.
+
+HSMA 3, which established the new, extended, online offer, has seen our largest ever cohort of students. For the first time, the programme was also opened to analytical staff working in policing organisations to tackle issues that span health, social care and policing in the Police Services Modelling Associates programme.
+
+With the popularity and success of the programme, and the increased interest in modelling solutions to organisational problems, we are planning to extend the programme even further for its fifth iteration in 2022.
+
+HSMA Programme Lead Dr Daniel Chalk said: “We’re incredibly excited to be offering our highly successful HSMA programme to anyone working in health, social care and policing organisations in England. Over the last five years, the work of the HSMAs in the South West has led to significant real-world impact for services and their patients, and led to a transformative generational leap in the skills of analysts.  Now, by expanding the reach nationally, the programme aims to tackle some of the key national issues being faced by health, social care and policing organisations across the country in the wake of the COVID-19 pandemic.  We look forward to seeing national collaborative projects in action that can make a real difference, help rebuild our services and tackle system-wide issues such as the delivery of mental health services.”
+
+The number of places for HSMA 4 are limited and we are expecting demand to be competitive. Applications to the programme, as HSMA students or mentors, will open on June 16th when there will also be the opportunity to attend a virtual open day. You can register your interest for the programme, book a space on the open day and keep up to date with application news by completing this short online form.
+:::

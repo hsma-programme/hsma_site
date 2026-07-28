@@ -1,0 +1,40 @@
+---
+title: "Innovative HSMA training programme makes virtual return"
+title-block-banner: ../banner.png
+author:
+    - "NIHR PenARC"
+date: "2020-07-29"
+date-modified: "2020-07-29"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    Due to the COVID-19 pandemic and the implications for those working in the health and social care sectors, HSMA 3 will be run as an entirely online course with a combination of live lectures, pre-recorded lectures on YouTube and online resources and Zoom-based group discussions.
+image: image.png
+---
+
+```{=html}
+<iframe width='1280' height='900' src='https://arc-sw.nihr.ac.uk/news/hsma-3-2020/' title='Article'></iframe>
+```
+
+::: {.callout-note collapse="true"}
+### Article not loading? Click here for a plain text version.
+
+Following on from two hugely successful rounds of PenARC’s Health Service Modelling Associate Programme (HSMA), HSMA 3 will launch on October 1st, this time with an extended level of one-to-one support as the programme moves online.
+
+The training programme, run by PenCHORD, PenARC’s Operational Research team, is a scheme in which NHS staff are released one day a week for a year to undertake a computer modelling, simulation or data science project that addresses issues of importance for their organisation.
+
+Since its inception in 2016, HSMA projects have led to multi-million pound investments in new mental health facilities in Devon, support for business cases to increase stroke bed capacity in Cornwall and brand new emergency department resources across the region.
+
+Due to the COVID-19 pandemic and the implications for those working in the health and social care sectors, HSMA 3 will be run as an entirely online course with a combination of live lectures, pre-recorded lectures on YouTube and online resources and Zoom-based group discussions.
+
+Dr Daniel Chalk, programme lead said: “We believe that there is a real opportunity for Operational Research and Data Science methods to support evidence-based decision making and help to tackle the challenges that the pandemic presents. They can help us rebuild our health systems to be both effective and efficient for patients and providers in this new world.”
+
+Moving the programme online will make it easier for associates to communicate with peers and the PenCHORD team, receive mentoring support and work collaboratively. Dr Daniel Chalk went on to say: “Moving the programme online means that our training provision is much more extensive. We can be more focussed and flexible by facilitating option sessions depending on associates’ areas of interest; we’re keen to ask associates, ‘what’s of interest to you?’”
+
+A virtual open day to offer potential applicants the chance to find out more is planned for September 1st 2020. There will be the opportunity to talk to members of the PenCHORD team and meet programme alumni to find out how their involvement in the programme has resulted in real impact for their organisations.
+:::

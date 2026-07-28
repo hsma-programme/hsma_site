@@ -1,0 +1,42 @@
+---
+title: "Mental Health Facility at Torbay Hospital begins construction"
+title-block-banner: ../banner.png
+author:
+    - "NIHR PenARC"
+date: "2020-10-06"
+date-modified: "2020-10-06"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    The construction of a new £11.8 million Mental Health facility, supported by research undertaken as part of our Health Services Modelling Associates Programme (HSMA), has begun at Devon Partnership NHS Trust’s (DPT) Torbay Hospital.
+image: image.png
+---
+
+```{=html}
+<iframe width='1280' height='900' src='https://arc-sw.nihr.ac.uk/news/torbay-hospital-mental-health-facility/' title='Article'></iframe>
+```
+
+::: {.callout-note collapse="true"}
+### Article not loading? Click here for a plain text version.
+
+The construction of a new £11.8 million Mental Health facility, supported by research undertaken as part of our Health Services Modelling Associates Programme (HSMA), has begun at Devon Partnership NHS Trust’s (DPT) Torbay Hospital.
+
+The scheme, which will reduce the need for patients to travel outside of Devon for treatment, will create a unit on two floors providing a ward with 16 en-suite bedrooms, treatment and therapy rooms and offices.
+
+The HSMA programme is an annual scheme that helps health service employees across the South West to use data modelling to tackle a work-based research project to solve a specific issue or question for their organisation.
+
+Research on the Urgent Care Pathway, undertaken by Karl Vile, Urgent Care Pathway Operational Manager and Programme Lead at DPT and an alumni of the first HSMA programme in 2016, was instrumental in DPT’s application for funding to build the new facility. Karl produced a business case, as a result of his HSMA project, which identified the need for extra capacity for people who need inpatient care and outlined the economic drawbacks of sending patients outside of the county for care. The details of his report were included in DPT’s application for government investment from a national package designed to modernise and transform NHS services.
+
+Devon Partnership NHS Trust Chief Executive Melanie Walker said: “This new ward will provide much-needed additional mental health beds for the county. As well as providing a safe, high quality environment for our staff and adults with mental health needs who require a stay in hospital, the new ward will mean that more people can be treated close to home. We know that this is a very important factor in people’s recovery and it means that family and friends do not have the added burden of having to travel long distances to visit their loved one at what can be a very challenging time. In the design of new services we always include people who have personal experience of mental health issues – they bring an invaluable perspective and their feedback helps to shape every aspect of the project. They are key members of our Clinical Reference Group for the new ward in Torbay and we are extremely grateful for their support.”
+
+Research Fellow Dr Sean Manzi, who mentored Karl as an HSMA associate said: “Karl used the skills that he learnt on the HSMA programme to evidence the impact that additional inpatient care capacity would have on the provision of acute mental health care across Devon. It was this rigorous and objective evidence that made the argument for the investment; he had the insight, skills and opportunity to use modelling to improve patient care in the real-world.”
+
+Dr Daniel Chalk, Lead for the HSMA Programme said: “This is another wonderful demonstration of the power of the HSMA Programme to enable health and social care organisations to develop advanced modelling skills that lead to real and positive change for patients. We are delighted that the programme has enabled such an important improvement for mental health services in Devon, and we continue to work with our partners at Devon Partnership Trust to explore new ways in which modelling and data science skills can be used to improve the delivery of these vital services.”
+
+The HSMA programme is run by our Operational Research (OR) team, PenCHORD, a group of specialists that assist healthcare professionals, commissioners and patients make informed decisions about change in the NHS using OR. The programme returns in its third iteration as HSMA3 in October with an extended level of one-to-one support as it moves online during the COVID-19 outbreak.
+:::
