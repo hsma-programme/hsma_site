@@ -1,0 +1,36 @@
+---
+title: "HSMA Presentation Seminar is a huge success"
+title-block-banner: ../banner.png
+author:
+    - "NIHR PenARC"
+date: "2019-02-06"
+date-modified: "2019-02-06"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    Find out more about how the HSMA 2 showcase went.
+image: image.png
+---
+
+```{=html}
+<iframe width='1280' height='900' src='https://arc-sw.nihr.ac.uk/news/hsma-presentation-seminar-is-a-huge-success/' title='Article'></iframe>
+```
+
+::: {.callout-note collapse="true"}
+### Article not loading? Click here for a plain text version.
+
+Dr Daniel Chalk, PenCLAHRC’s Lead for the Health Services Modelling Associates (HSMA) Programme, considers the HSMA to ‘represent the future of operational research and decision making in the NHS.’ At a final seminar event in December 2018, delegates heard about the impact projects are having on positive outcomes for patients and NHS workers.
+
+Each year, as part of the health service modelling programme, a number of health service employees are given training, a mentor and day release, to undertake advanced modelling, simulation and analysis work on a research project, culminating in an annual presentation seminar.
+
+Associates from the HSMA programme’s 2018 cohort presented their projects to both new and old Associates, in addition to welcomed guests. Projects were showcased including research enabling Derriford Hospital to tackle a high rate of surgical cancellations and simulation modelling to improve the outcomes for patients with glaucoma at Torbay Hospital .
+
+The HSMA, a joint initiative between PenCHORD (PenCLAHRC’s Operational Research team) and the South West Academic Health Science Network (SW AHSN), supports the increased use of Operational Research for development and decision making within the health service. Watch the video for a roundup of the event [here](https://www.youtube.com/watch?v=JWjOyH4D8hg&feature=youtu.be) and hear about the impact of the HSMA programme.
+
+If you would like to find out more about the HSMA or the PenCHORD team, please visit their website or contact penchord@exeter.ac.uk
+:::

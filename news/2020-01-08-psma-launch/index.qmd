@@ -1,0 +1,38 @@
+---
+title: "Pioneering scheme to support evidence-based policing launches"
+title-block-banner: ../banner.png
+author:
+    - "NIHR PenARC"
+date: "2020-01-08"
+date-modified: "2020-01-08"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    Find out more about the launch of the first ever Police Service Modelling Associates Programme (PSMA), which saw associates, recruited from Devon & Cornwall Police staff, the College of Policing and other regional forces, receiving mentoring and training to support them to undertake projects which will led to real impact and the embedding of evidence-based decision making and operational research skills within the service.
+image: image.png
+---
+
+```{=html}
+<iframe width='1280' height='900' src='https://arc-sw.nihr.ac.uk/news/psma-scheme-launches/' title='Article'></iframe>
+```
+
+::: {.callout-note collapse="true"}
+### Article not loading? Click here for a plain text version.
+
+Following on from the success of previous training programmes, our operational research team, PenCHORD, are launching the first ever Police Service Modelling Associates Programme (PSMA). The scheme, which launches on January 28th, will see associates, recruited from Devon & Cornwall Police staff, the College of Policing and other regional forces, receive mentoring and training to support them to undertake projects which will lead to real impact and embed evidence-based decision making and operational research skills within the service.
+
+The 9 month PSMA programme, which is primarily a mentoring programme, will continue the same structure of the enormously successful Health Services Modelling Associates Programme (HSMA). During the HSMA Programme NHS staff are released from their usual role for a day a week to undertake an operational research or data science project that is impactful for their organisation, and which supports the embedding of operational research skills within it.
+
+PSMA associates will receive training in operational research and the modelling process along with an introduction to data science and programming using R and Python, specialist mathematical modelling software, coming together once a month for a hackathon session, along with their mentors, to discuss progress, share ideas and have time to work on their projects.
+
+Dr Daniel Chalk, PenCHORD Senior Research Fellow, said: “The PSMA programme represents a fantastic opportunity to apply the hugely successful HSMA model into the work of the police, and help to improve the analytical capabilities of policing staff to transform the way in which police services can be delivered. The significant links between the work of the police and the wider health system, particularly in areas such as mental health, cannot be understated, and we believe that this programme could lead to real improvements for communities as a whole. We are very excited to embark on this new programme with our colleagues in Devon and Cornwall Police, and look forward to discovering new opportunities for modelling, simulation and data science methods to improve the lives of people here in the South West.”
+
+PenCHORD have run the HSMA programme for two years with more than 30 associates. The programme has led to significant impact for NHS organisations and patients across Cornwall, Devon and Somerset, including over £8 million of investment in new mental health facilities, the reconfiguration of stroke services to improve access to specialist care, and the creation of brand new operational research roles in NHS organisations across Devon and Cornwall.
+
+The PSMA programme has been made possible by the successful securing of funding from the Policing Lab Fund, made up of representatives from the University of Exeter, Devon and Cornwall Police, the Office of the Police and Crime Commissioner, and College of Policing.
+:::

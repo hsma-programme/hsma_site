@@ -1,0 +1,41 @@
+---
+title: "PenCHORD mentored Health Service Modelling Analyst instrumental in securing 8m funding for new adult mental health ward at Torbay Hospital"
+title-block-banner: ../banner.png
+author:
+    - "NIHR PenARC"
+date: "2018-12-19"
+date-modified: "2018-12-19"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    Find out more about how Karl Vile’s HSMA project findings were included in DPT’s recently successful application for government investment from a national package designed to modernise and transform NHS services. A £50 million investment will deliver enhanced new facilities and equipment for NHS patients in Devon, of which 8 million will provide essential extra capacity for people who need inpatient care in the form of a new adult mental health ward for Torbay Hospital, which will ultimately reduce the need to send people out of Devon for treatment.
+image: image.png
+---
+
+```{=html}
+<iframe width='1280' height='900' src='https://arc-sw.nihr.ac.uk/news/penchord-mentored-health-service-modelling-analyst-instrumental-in-securing-8m-funding-for-new-adult-mental-health-ward-at-torbay-hospital/' title='Article'></iframe>
+```
+
+
+::: {.callout-note collapse="true"}
+### Article not loading? Click here for a plain text version.
+
+PenCLAHRC’s Operational Research team, PenCHORD (the Peninsula Collaboration for Health Operational Research and Development), are a group of specialists that assist healthcare professionals, commissioners and patients make informed decisions about change in the NHS using Operational Research (OR). The team run an annual Health Service Modelling Associates (HSMA) programme where they provide a number of health service employees from across the South West with training, a mentor and day release, one day a week, to tackle a work based research project that can be used by the NHS Trust to solve a specific issue or question.
+
+Karl Vile, Programme Manager for the Urgent Care Pathway at Devon Partnership Trust (DPT) joined the HSMA programme in 2016 and was tasked with the following research question: 'How would Devon Partnership NHS Trust need to change its Urgent Care Pathway in order to reduce pressure in the system and send no patients out of the county for care.’ In order to address this question Karl conducted some initial process mapping and analysed 3 years of anonymous patient level information. This helped him develop a simulation model in order to test the impact of a set of hypothetical changes on the current system regards the demand for beds, lengths of stay and delayed discharge, and the number of inpatient beds in the system. Karl’s research resulted in a number of key findings, most notably that there was pressure in the mental health urgent care system equivalent to 47 beds. Additionally this pressure was being managed by purchasing out of area beds, as well as utilising ‘place of safety’ and extra care areas to hold patients whilst waiting for an inpatient bed. There was no one solution, and Karl reported that a reduction in demand and lengths of stay (including delayed discharge) combined with an increase in the number of beds was required. Additionally DPT inpatient wards were found to have relatively high occupancy levels, often above 100%, and low lengths of stay. This was found to be providing high throughput per bed compared to other alternatives, such as step down or out of area beds. Consequently, Karl found that closing any DPT beds could result in a higher cost alternative.
+
+The details of Karl Vile’s report were included in DPT’s recently successful application for government investment from a national package designed to modernise and transform NHS services. A £50 million investment will deliver enhanced new facilities and equipment for NHS patients in Devon, of which 8 million will provide essential extra capacity for people who need inpatient care in the form of a new adult mental health ward for Torbay Hospital, which will ultimately reduce the need to send people out of Devon for treatment.
+
+Melanie Walker, Chief Executive of Devon Partnership NHS Trust, which provides mental health services, said:
+
+“Today’s announcement is great news and a major step in the right direction. The funding will enable us to proceed with our plans to build a brand new, 16-bed ward in Torbay – which is the area of the county where we have the greatest need for additional inpatient capacity. Our proposal is for the new ward to be located close to our existing wards for adults and older people on the Torbay Hospital site, and we are keen to proceed with the project as quickly as possible. As well as providing a safe, high quality environment for people who require a spell of care in hospital, the new ward will mean that more people can be treated close to home – which is one of our leading priorities.”
+
+Dr Daniel Chalk, Senior Research fellow and HSMA Programme Lead made the following comments regarding the HSMA Programme:
+
+"Karl's project, and the impact it has generates, demonstrates the huge value of the HSMA Programme. By building capacity within the NHS to allow staff to develop and use simulation models, real changes can be made to improve the way services are delivered, and ultimately, the quality of care that patients receive. We are delighted at the news that one of our HSMA projects has led to such a significant positive outcome, and are extremely proud of Karl and all of our 25 HSMAs for delivering projects that have led to real benefits for patients. We remain committed to building Operational Research capacity within the NHS, and are excited about the impact that the HSMA Programme continues to generate."
+:::

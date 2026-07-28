@@ -1,0 +1,38 @@
+---
+title: "PenCHORD: Helping the NHS make informed decisions using operational research"
+title-block-banner: ../banner.png
+author:
+    - "NIHR PenARC"
+date: "2018-06-04"
+date-modified: "2018-06-04"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    Find out more about the research team HSMA sits within.
+image: image.jpg
+---
+
+```{=html}
+<iframe width='1280' height='900' src='https://arc-sw.nihr.ac.uk/news/penchord-helping-the-nhs-make-informed-decisions-using-operational-research/' title='Article'></iframe>
+```
+
+::: {.callout-note collapse="true"}
+### Article not loading? Click here for a plain text version.
+
+Deputy Director of PenCLAHRC, Professor Ken Stein, and Director of PenCHORD, Professor Martin Pitt, have written an article for The Operational Research Society’s Impact magazine, in which they discuss the ways PenCHORD research has informed decision making within the NHS.
+
+PenCHORD (the Peninsula Collaboration for Health Operational Research and Development) are a team of Operational Research (OR) specialists, who aim to help healthcare professionals make informed decisions around organisational change. The initiative was established in 2008, and in the years since the team have worked with all of the trusts across the South West.
+
+Professors Ken Stein and Martin Pitt have written an article for Impact magazine, highlighting a number of PenCHORD projects which have resulted in significant improvements to NHS operations. They have focused on three main areas: improving stroke treatment, beating bladder cancer, and creating capacity with their Health Service Modelling Associates (HSMA) programme.
+
+The role of OR will become increasingly important as the NHS experiences growing pressure to deliver services in the face of progressively limited resources. PenCHORD’s research is ongoing, and Ken and Martin encourage healthcare workers with any queries to get in touch.
+
+You can read the full article on the [Impact website](https://www.tandfonline.com/doi/full/10.1080/2058802X.2018.1435487).
+
+To find out more about [PenCHORD, visit the research page](https://arc-sw.nihr.ac.uk/research-and-implementation/research-teams/penchord/).
+:::

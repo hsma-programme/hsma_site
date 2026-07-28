@@ -1,0 +1,47 @@
+---
+title: "HSMA 2 Programme Update"
+title-block-banner: ../banner.png
+author:
+    - "NIHR PenARC"
+date: "2018-03-28"
+date-modified: "2018-03-28"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    Find out more about how HSMA 2 progressed.
+image: image.png
+---
+
+```{=html}
+<iframe width='1280' height='900' src='https://arc-sw.nihr.ac.uk/news/hsma-2-programme-update/' title='Article'></iframe>
+```
+
+::: {.callout-note collapse="true"}
+### Article not loading? Click here for a plain text version.
+
+Phase 1 of the 2018 Health Service Modelling Associates (HSMA) Programme has now been completed and Phase 2 has just launched.
+
+The HSMA Programme is a joint initiative by PenCLAHRC and the South West Academic Health Science Network (SW AHSN), run by PenCLAHRC’s Operational Research team, PenCHORD. Working directly with staff from NHS organisations across the South West, the programme aims to support the increased use of Operational Research (OR) within health service development and decision making, and to work towards a culture where OR methods are routinely used within the NHS.
+
+Following the highly successful HSMA pilot in 2016, a second round was launched in October 2017. An open day was held in December to provide an opportunity for prospective Associates to find out more about the programme, meet the PenCHORD team, and hear first-hand experiences from 2016 Associates. This year the programme has been expanded to include 26 Associates from 14 partner organisations across the South West – including NHS Partnership and Foundation Trusts, Clinical Commissioning Groups, Devon County Council, and NHS Improvement – compared to 6 Associates in the 2016 pilot. The Associates have a wide range of project ideas and interests, intending to use modelling to improve efficiency and patient experience, reduce waiting times, identify delays, understand patient flow, and predict the impact of proposed changes.
+
+Phase 1 of the programme, Foundations of Health Service Modelling, ran from January to March. Over six sessions the Associates were trained in OR concepts, pathway modelling, geographic modelling and visualisation, ‘soft’ skills (such as meeting facilitation and engaging with stakeholders), problem structuring, and implementation planning.
+
+Now that Phase 1 has finished, a subset of the Associates have been selected to continue to Phase 2, during which they will undertake their modelling projects with the support of the PenCHORD team. A total of 19 Associates from 12 partner organisations have been invited into Phase 2 – 15 regular Associates plus 4 Honorary HSMAs, who are invited to attend all further training sessions and Learning Set meetings but will not receive direct project mentoring. You can find out more about the Phase 2 Associates on the website. Phase 2 began on 27 March, with the Associates attending a “Meet your Mentor” event to be introduced to their PenCHORD mentors.
+
+“This year, we have vastly expanded the scope of the HSMA programme, taking forward 19 HSMAs from 12 different NHS organisations across the region, working on 10 different projects. These projects will address important issues in ambulance response times, mental health, glaucoma treatment, patient flow, timely discharge and cancelled surgical operations, and will use exciting and novel modelling methods, such as machine learning, System Dynamics, Discrete Event Simulation and queuing theory. Phase 1 of the Programme has generated significant enthusiasm for developing and applying Operational Research skills within the NHS, and we are tremendously excited to be taking forward a highly skilled, enthusiastic and passionate cohort of associates to work towards our aim of building capacity to use modelling and simulation methods routinely in the NHS to support decision making. We look forward to working with HSMAs over the next nine months to develop projects that have a real impact for patients, NHS staff and the health and social care system as a whole.”
+
+Dr Dan Chalk, PenCHORD, Senior Research Fellow.
+
+“The South West Academic Health Science Network is delighted to support the development and delivery of the expanded HSMA 2018 programme. The success of this years’ programme reflects the shared desire to provide high quality development opportunities to increase the capability and capacity of analysts working across the health and care system. We have been hugely impressed with the quality and enthusiasm of the Phase 1 HMSA participants, who have submitted a wide range of projects which have potentially significant implications for people receiving healthcare, as well as for the health and social care system across the South West. We look forward to supporting PenCHORD and all HSMAs into the next exciting phase of the programme and seeing their projects develop.”
+
+Anna Coltman, SW AHSN, Project Manager – Intelligence Hub.
+
+More information about this year’s programme is available on the HSMA 2 webpage. To find out more about the first round of the programme, see the HSMA website and the HSMA 1 webpage.
+
+:::

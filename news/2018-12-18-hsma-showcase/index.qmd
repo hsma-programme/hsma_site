@@ -1,0 +1,48 @@
+---
+title: "PenCHORD’s HSMA 2018 Programme presentations showcase the impact of Operational Research in the health sector"
+title-block-banner: ../banner.png
+author:
+    - "NIHR PenARC"
+date: "2018-12-18"
+date-modified: "2018-12-18"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    Find out more about the showcase for HSMA 2.
+image: image.png
+---
+
+```{=html}
+<iframe width='1280' height='900' src='https://arc-sw.nihr.ac.uk/news/penchord-s-hsma-2018-programme-presentations-showcase-the-impact-of-operational-research-in-the-health-sector/' title='Article'></iframe>
+```
+
+::: {.callout-note collapse="true"}
+### Article not loading? Click here for a plain text version.
+
+On 5th December 2018 a broad range of delegates from the NHS, HE and related public sector organisations attended the Health Service Modelling Associates (HSMA) Presentation Seminar, the closing event of PenCHORD’s 2018 HSMA Programme. The HSMA Programme is a joint initiative between PenCHORD (PenCLAHRC’s Operational Research team) and the South West Academic Health Science Network (SW AHSN) that aims to support the increased use of Operational Research for development and decision making within the health service.
+
+Each year a number of health service employees (Associates) are given training, a mentor and day release, one day a week, to tackle a work based research project. Associates undertake advanced modelling, simulation and analysis work on their project, which is relevant to their organisational needs and objectives. The programme culminates in a presentation seminar, at which each Associate presents their project.
+
+This year’s event was a great opportunity for Associates, old and new, plus welcomed guests to listen to and/or present some of the excellent work that has been carried out over the last year.
+
+The HSMA Programme has facilitated the exploration and potential resolution of a diverse range of operational issues in the NHS. For example it has enabled Devon Partnership Trust to progress with their ‘Crisis Cafés’ project, allowing them to estimate potential resource and locations for the proposed mental health centres, and has allowed Derriford Hospital to tackle their high rate of surgical cancellations. Additionally training in the use of free and open source geographical modelling software ‘QGIS’ has facilitated the mapping of geographical patterns for demand in service, allowing service analysts to identify alternative outpatient sites to be used, rather than admitting patients to Derriford Hospital immediately.
+
+Similarly, HSMA programme led simulation modelling has resulted in improvements in the treatment of patients with glaucoma at Torbay Hospital, and as such has led to the creation of a job role specifically for these types of Operational Modelling projects at New Devon CCG. Indeed it has become apparent that the have come to appreciate the value and impact of operational research in the health sector.
+
+In praise of the HSMA Programme, Hayley Lewis, Senior Information Analyst at NHS, commented:
+
+“It’s been a fantastic development journey for me personally- we don’t often get out from behind our desks as analysts so being part of this programme has been an invaluable opportunity, not only to develop modelling skills, but to build on our soft skills and develop this wonderful network of like-minded supportive HSMAs we now have! 12 months ago I wouldn’t have dreamt of standing up in front of an audience that large and talking about my work but my experience as a HSMA has made it possible.”
+
+PenCLAHRC’s Lead for the HSMA Programme, Dr Daniel Chalk, commented :
+
+“The HSMA Programme provides a fantastic opportunity to utilise the talents of analysts and operational managers within the NHS to develop simulation models that can predict the potential impact of proposed changes before any changes are made. Our HSMAs have delivered some exceptional projects, which have led to real improvements for patients and for their organisations. We are delighted that so many of our associates are now continuing with new modelling projects for their organisations, and we will continue to support our HSMAs and their organisations to adopt and embed these practices in their everyday working until this becomes normal practice in the NHS”
+
+The PenCHORD team have now amassed 25 HSMAs from two runs of the programme, and will be continuing to support their modelling work via regular “hackathon” events, at which HSMAs from across the region come together to work on modelling projects, discuss ideas for collaborative projects with each other, and continue to learn and share new techniques. Planning is also due to begin shortly for the third round of the HSMA programme to recruit even more associates from across the region, and discussions are taking place to explore the potential of rolling out the HSMA programme in other areas across the country.
+
+If you would like to find out more about the HSMA or the PenCHORD team, please visit their website or contact penchord@exeter.ac.uk
+:::

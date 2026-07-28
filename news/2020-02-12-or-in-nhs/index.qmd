@@ -1,0 +1,46 @@
+---
+title: "Groundbreaking role for operational research in NHS decision-making"
+title-block-banner: ../banner.png
+author:
+    - "NIHR PenARC"
+date: "2020-02-12"
+date-modified: "2020-02-12"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    Find out more about a pioneering collaboration between PenARC and University Hospitals Plymouth NHS Trust (UHP) that led to the establishment of a new post at UHP using operational research to support the Trust’s decision-making processes – the first of its kind in the South West.
+image: image.png
+---
+
+```{=html}
+<iframe width='1280' height='900' src='https://arc-sw.nihr.ac.uk/news/ground-breaking-role-for-operational-research-in-nhs-decision-making/' title='Article'></iframe>
+```
+
+::: {.callout-note collapse="true"}
+### Article not loading? Click here for a plain text version.
+
+A pioneering collaboration between PenARC and University Hospitals Plymouth NHS Trust (UHP) has led to the establishment of a new post at UHP using operational research to support the Trust’s decision-making processes – the first of its kind in the South West.
+
+Operational Research (OR) uses innovative modelling techniques and data science to help healthcare providers like UHP predict how changes to services will affect patients and staff. Using modelling to simulate real-life situations can help decision-makers see how services might be improved.
+
+In the newly-created role of Principal Information Analyst, Simon Philpott will hold responsibility for the strategic direction of modelling and OR, plus management of the Population Health Management Agenda at the Trust. Simon said: “This is an incredibly exciting time to be involved in healthcare analytics. With the demands on Information functions within healthcare showing no signs of dissipating, we need to find ways of working differently to ensure that we are furnishing our service users with the right information. My new role enables a different conversation with our service users. Instead of ‘how many of something have we done’, the question can be ‘how many can we do, and what is the impact of changing A, B or C in the pathway?”
+
+“One of the key benefits of operational research is that it enables services to see the potential impact of change, without physically changing a system or pathway, and it’s all based on solid mathematical foundations using market leading statistical programming languages.”
+
+Simon previously worked as an information analyst at UHP before joining the Health Services Modelling Associates (HSMA) Programme in 2018. The scheme, which is run by PenARC’s operational research team PenCHORD, offers mentoring, training and support to health service workers to undertake modelling projects within their NHS organisations with the aim of building capacity and embedding evidence-based practice.
+
+Dr Daniel Chalk, Senior Research Fellow at PenCHORD, said: “This is fantastic news, because it achieves one of the key goals of the HSMA Programme – to get Operational Research embedded in to NHS organisations as routine to support decision making.”
+
+Gary Minto, Consultant Anaesthetist and Director of R&D University Hospitals Plymouth NHS Trust, said: “The strap line of UHPs research strategy is that we aim to improve the health and wellbeing of the population we serve by embedding research as part of core business. This encompasses way more than just trials of drug A against drug B. What Simon and his team will be doing is transforming clinical pathways based on a sophisticated understanding of healthcare delivery and absolutely embodies the breadth of what clinical research means.”
+
+Simon went on to say: “I will continue to work with PenCHORD on the next HSMA programme, and promote operational research within UHP and incorporate the methodology on a daily basis. My longer term goal is to establish UHP as a centre of excellence for operation research and to embed ‘Place’ level population health management within an operation research function in UHP’s Information Team.
+
+A massive thank you to Dr Dan Chalk and his team, especially Dr Mike Allen and Kerry Pearn for their support during the HSMA programme, without which this role would not have been created, nor would I have been in a position to apply.”
+
+You can find out more about the HSMA programme on their website.
+:::
