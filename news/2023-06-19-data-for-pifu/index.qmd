@@ -1,0 +1,56 @@
+---
+title: "Using Patient Initiated Follow-Up to support reducing waiting times"
+title-block-banner: ../banner.png
+author:
+    - "NIHR PenARC"
+date: "2023-06-19"
+date-modified: "2023-06-19"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    Researchers have used operational modelling and data science to reduce waiting times for patients and help reduce a backlog in rheumatology services.
+image: image.png
+---
+
+```{=html}
+<iframe width='1280' height='900' src='https://arc-sw.nihr.ac.uk/news/pifu-waiting-times/' title='Article'></iframe>
+```
+
+::: {.callout-note collapse="true"}
+### Article not loading? Click here for a plain text version.
+
+Researchers have used operational modelling and data science to reduce waiting times for patients and help reduce a backlog in rheumatology services.
+
+The pandemic has had a considerable impact on elective care in England. As of November 2022 there were 7.2 million people on the ‘Referral to Treatment’ waiting list across NHS services.
+
+Investigating the impact of PIFU clinics
+Data scientists, Martina Fonseca and Xiaochen Ge used discrete event simulation modelling to investigate the impact of Patient Initiated Follow Up (PIFU) clinics on the waiting list for rheumatology services. PIFU clinics allow patients to arrange their own follow-up appointments as and when they need them, rather than attending regularly scheduled appointments. This means that patients can avoid unnecessary trips to the hospital and can take control of their own healthcare – as well as reducing the pressure on services and waiting lists.
+
+Helping to minimise waiting times
+By mapping the current pathway that patients use to access services and comparing it with the use of self-initiated appointments, researchers were able to see a reduction in the number of people waiting for rheumatology services. The research also showed that patients who used PIFU clinics returned for appointments less frequently, resulting in a reduced demand on resources and helping to minimise waiting times. The model showed that by putting just half of rheumatology patients on a PIFU pathway, waiting times were predicted to decrease by 10 weeks within five years. Now the research team are keen to see NHS services adopt pathway and behavioural modelling in decision-making.
+
+“The outputs of this work provide evidence that PIFU as an intervention can reduce unnecessary demand, which in turn creates capacity and reduces waiting times.”
+
+The Digital Care Models team, NHS England said: “This modelling is fascinating. Expressed in this way the impact of PIFU provides useful evidence to help us scale and spread their use. The outputs of this work provide evidence that PIFU as an intervention can reduce unnecessary demand, which in turn creates capacity and reduces waiting times. More work is needed to understand the applicability to other conditions and the potential impact on elective recovery.”
+
+The researchers used operational modelling techniques learned on our flagship data modelling training programme to develop their research. Our Health Services Modelling Associates Training Programme, now in its fifth successful iteration, uses an innovative mentoring system to offer staff working in policing and health and social care organisations the opportunity to develop skills in modelling and data science and apply them, in small project groups, to a project to address an important issue for their organisation.
+
+“I feel more empowered to tackle problems by finding analytical solutions and working with colleagues across the sector.”
+
+Martina Fonseca, Senior Analyst, said “The HSMA programme was a great experience. I feel more empowered to tackle problems by finding analytical solutions and working with colleagues across the sector. Since completing HSMA, I have been working on an open-source discrete event simulation model for the ambulance system which aims to help identify ways to reduce ambulance response times. This project was presented at the 2022 NHS-R conference and a further developed version will be presented at this years’ Health and Care Analytics Conference.”
+
+Health Service Modelling Associates Programme
+Developed by our Operational Research and Data Science Team, PenCHORD, the programme has generated the evidence to support multi-million pound investments in mental health and urgent care services, improved outcomes for patients and service users across policing, social and health care and developed inter-ARC collaborations to share knowledge and increase service capacity using Data Science, Artificial Intelligence and Operational Research. The programme has led to the establishment of brand new modelling and Data Science roles within NHS organisations, support for the COVID-19 mass vaccination programme and significant career progression for analysts. It was recently hailed as a flagship national example of the capacity building work of the NIHR Applied Research Collaborations.
+
+“They identified that PIFU could be an extremely effective strategy for reducing waiting times for rheumatology patients, and could have a very real positive impact for patients. I’m also delighted to see that they have shared their work as free and open-source software, allowing anyone to use and even further develop their work”
+
+Senior Research Fellow Dr Daniel Chalk who leads the HSMA programme said: “Unsustainable waiting times and backlogs are an unfortunate reality in the health service currently, but modelling and data science approaches offer an opportunity to explore potential strategies that could help alleviate pressures. By using relatively simple modelling approaches, Martina and Xiaochen were able to explore the potential long-term impact of strategies in a safe, virtual environment. They identified that PIFU could be an extremely effective strategy for reducing waiting times for rheumatology patients, and could have a very real positive impact for patients. I’m also delighted to see that they have shared their work as free and open-source software, allowing anyone to use and even further develop their work.”
+
+Learn more about the Health Service Modelling Associates (HSMA) programme and its impact.
+
+:::

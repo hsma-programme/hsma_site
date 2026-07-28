@@ -1,0 +1,69 @@
+---
+title: "Tackling inequalities and carbon emissions with data science"
+title-block-banner: ../banner.png
+author:
+    - "NIHR PenARC"
+date: "2023-06-28"
+date-modified: "2023-06-28"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    A team of Data Scientists have used Machine Learning to develop a model which could help services tackle inequalities and minimise carbon output in their planning and delivery. The model, estimated to be up to 80 times faster than manual methods has the potential to save vital resources in service planning and delivery.
+image: image.png
+---
+
+```{=html}
+<iframe width='1280' height='900' src='https://arc-sw.nihr.ac.uk/news/inequalities-and-carbon-emissions/' title='Article'></iframe>
+```
+
+::: {.callout-note collapse="true"}
+### Article not loading? Click here for a plain text version.
+
+A team of Data Scientists have used Machine Learning to develop a model which could help services tackle inequalities and minimise carbon output in their planning and delivery. The model, estimated to be up to 80 times faster than manual methods has the potential to save vital resources in service planning and delivery.
+
+### Key focus of the NHS Long Term Plan
+
+Reducing carbon in the NHS without increasing inequalities is a strategic aim of the NHS and reducing inequalities remains a key focus of the NHS Long Term Plan. The Greener NHS agenda sets out an aim to reach net zero for emissions they control directly by 2040. These are important issues for the NHS but there can be a tension between ensuring carbon output is minimised and addressing areas of unmet need when planning new services.
+
+Public Health Registrar, Anya Gopfert said: “When planning services, tackling health inequalities and reducing carbon emissions are often considered in isolation of one another. That’s what made this project so important as we developed a tool that goes someway to consider the win-win opportunities from progress on both of these agendas.”
+
+The team of researchers used techniques taught on our Health Services Modelling Associates (HSMA) programme to build a pilot tool kit which could help service leaders balance this tension and quickly understand the health inequalities in their services and develop a plan to address them. The HSMAs, Matt Eves, Anya Gopfert and Sally Brown, used Free and Open Source Software to allow the model to be scaleable to any service in any organisation, maximising impact.
+
+> “I’m excited by the idea that we can create something collaboratively, using the tools we have learnt on the HSMA programme, and apply them to help inform service delivery decisions and improve population health.”
+
+Population Health Management Specialist, Matt Eves said: “I’m excited by the idea that we can create something collaboratively, using the tools we have learnt on the HSMA programme, and apply them to help inform service delivery decisions and improve population health. I’m passionate about reducing inequalities, operating as efficiently as possible with the resources we have, and learning from and sharing knowledge with others; all values which align with the HSMA programme. In our cohort we have nurses, managers, and public health specialists. This is where the “value-add” comes; you not only learn the techniques, but you learn from others and their experiences and see how the techniques can be applied in real-life settings.”
+
+### Up to 80 times faster than manual methods
+
+Under the mentorship of Dr Daniel Chalk, the team developed an automated health equity audit, which can be used across an entire integrated care system, summarising unmet need for services – allowing decision makers to identify areas for improvement. They estimated that this automated version can be up to 80 times faster than manual methods, producing the analysis within 15 minutes compared to an estimated two days if completed manually.
+
+> “This project demonstrates so much of what we feel makes HSMA so special.  It represented a national collaboration between associates from disparate organisations coming together with a common motivation, sharing skills and expertise to deliver on ambitious aims.”
+
+Senior Research Fellow Dr Daniel Chalk who leads the HSMA programme said: “This project demonstrates so much of what we feel makes HSMA so special.  It represented a national collaboration between associates from disparate organisations coming together with a common motivation, sharing skills and expertise to deliver on ambitious aims.  It utilised data science approaches to develop an automation tool that could transform the production of health equity assessment reports.  The skills developed by the associates to enable them to become health service researchers led to them applying for and winning funding to continue their work”.
+
+### Secured £15,000 of follow-on funding
+
+The team have secured £15,000 of follow-on funding from Greener NHS Healthier Futures Action Fund to continue their work. They have used this funding to explore the feasibility of new clinic locations considering the impact on inequalities and carbon emissions.
+
+> “Due to this successful funding bid we were able to expand our model to identify new service locations that would be most accessible for a whole Local Authority area and the most deprived areas in that Local Authority.”
+
+Data and Information Officer, Sally Brown said: “Due to this successful funding bid we were able to expand our model to identify new service locations that would be most accessible for a whole Local Authority area and the most deprived areas in that Local Authority. As well as taking a shortlist of these potential locations and modelling the potential carbon emissions for the service.”
+
+You can access their code, which is provided free and open source, via an online GitHub repository.
+
+Due to the code being free and open source, a project team in the current round of the HSMA programme is continuing to develop this health equity tool and adapt it to create a tool to help Community Diagnostic Centres across England assess the impact they are having on reducing inequalities.
+
+### Health Services Modelling Associates Programme
+
+Our HSMA Programme, now in its fifth successful iteration, uses an innovative mentoring system to offer staff working in policing and health and social care organisations the opportunity to develop skills in modelling and data science and apply them, in small project groups, to a project to address an important issue for their organisation.
+
+Developed by our Operational Research and Data Science Team, PenCHORD, the programme has generated the evidence to support multi-million pound investments in mental health and urgent care services, improved outcomes for patients and service users across policing, social and health care and developed inter-ARC collaborations to share knowledge and increase service capacity using Data Science, Artificial Intelligence and Operational Research. The programme has led to the establishment of brand new modelling and Data Science roles within NHS organisations, support for the COVID-19 mass vaccination programme and significant career progression for analysts. It was recently hailed as a flagship national example of the capacity building work of the NIHR Applied Research Collaborations.
+
+[Learn more about the Health Service Modelling Associates (HSMA) programme and its impact.](https://arc-sw.nihr.ac.uk/training-type/health-service-modelling-associates-programme-hsma/)
+
+:::

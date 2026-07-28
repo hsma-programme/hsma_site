@@ -1,0 +1,45 @@
+---
+title: "HSMA 5 – it’s back, bigger and better than ever!"
+title-block-banner: ../banner.png
+author:
+    - "NIHR PenARC"
+date: "2022-04-20"
+date-modified: "2022-04-20"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    Our national Health Services Modelling Associates (HSMA) programme returned in October as HSMA 5. Using an innovative mentoring system, the scheme offers staff working in policing and health and social care organisations the opportunity to develop skills in modelling and data science and apply them, in small project groups, to a project to address an important issue for their organisation.
+image: image.png
+---
+
+```{=html}
+<iframe width='1280' height='900' src='https://arc-sw.nihr.ac.uk/news/hsma-5-its-back/' title='Article'></iframe>
+```
+
+::: {.callout-note collapse="true"}
+### Article not loading? Click here for a plain text version.
+
+Our national Health Services Modelling Associates (HSMA) programme is returning in October as HSMA 5. Using an innovative mentoring system, the scheme offers staff working in policing and health and social care organisations the opportunity to develop skills in modelling and data science and apply them, in small project groups, to a project to address an important issue for their organisation.
+
+Developed by our Operational Research and Data Science Team, PenCHORD, the programme has generated the evidence to support multi-million pound investments in mental health and urgent care services, improved outcomes for patients and service users across policing, social and health care and developed inter-ARC collaborations to share knowledge and increase service capacity using Data Science, Artificial Intelligence and Operational Research. The programme has led to the establishment of brand new modelling and Data Science roles within NHS organisations, support for the COVID-19 mass vaccination programme and significant career progression for analysts. It was recently hailed as a flagship national example of the capacity building work of the NIHR Applied Research Collaborations
+
+Digital medical screen in interior with night city view. Hologram concept. Double exposure
+
+There are 100 free places open to anyone working for non-commercial organisations in health, social care or policing in England and 10 places open to those with prior experience of applied Operational Research and / or Data Science, such as academics, practitioners, and HSMA alumni for our Trainee Mentor Scheme. The mentor scheme is fully supported by an experienced team of academics.
+
+We’re incredibly excited to continue our national expansion of the HSMA programme.
+
+-Dr Daniel Chalk
+
+HSMA Programme lead, Dr Daniel Chalk said “Operational Research and Data Science approaches – such as Machine Learning – can play a vital role in supporting the delivery of health, social care and policing services.  Increasingly, such skills are proving to be important components of the analytical function of organisations in these sectors. We’re incredibly excited to continue our national expansion of the HSMA programme, and we hope that those interested in developing their skills in analysis, mathematics or computing for the mutual benefit of themselves and their organisation will consider being part of this flagship programme.”
+
+A Virtual Open Day will be held online on 21st June, with the opportunity to hear more about the programme and speak with the HSMA trainers and current and past participants about their projects and experience. There will also be a mini “taster” HSMA lecture and the opportunity to speak directly with Dr Daniel Chalk, the HSMA Programme Lead.
+
+Register your interest here to keep up to date with news of how to apply and save your place at the open day
+
+:::

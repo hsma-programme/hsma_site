@@ -1,0 +1,59 @@
+---
+title: "Using data to improve urgent care treatment"
+title-block-banner: ../banner.png
+author:
+    - "NIHR PenARC"
+date: "2022-12-19"
+date-modified: "2022-12-19"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    At a time of increased pressure on NHS services a project using computer modelling has helped a hospital Trust reduce urgent care wait times and improve conditions for staff working on the front line.
+image: image.png
+---
+
+```{=html}
+<iframe width='1280' height='900' src='https://arc-sw.nihr.ac.uk/news/data-improves-urgent-care/' title='Article'></iframe>
+```
+
+::: {.callout-note collapse="true"}
+### Article not loading? Click here for a plain text version.
+
+At a time of increased pressure on NHS services a project using computer modelling has helped a hospital Trust reduce urgent care wait times and improve conditions for staff working on the front line.
+
+Shilpa Patel, a mentee on our flagship Health Service Modelling Associates (HSMA) course, used Discrete Event Simulation modelling to understand the pressures in the Urgent Care Treatment (UTC) centre at University College London Hospital (UCLH) where she works. As well as helping to identify ways that could benefit patients and staff within the UTC, her findings could lead to a positive and lasting impact on staffing and performance challenges in other areas of the Trust.
+
+As an HSMA associate under the mentorship of Dr Daniel Chalk, Shilpa created a model to test a number of different scenarios. Her findings identified the need for additional treatment rooms and a reconfiguration of space. These were shared with the Trust to demonstrate how the department could improve performance and identify the resources necessary to do so.
+
+Shilpa said:
+
+> “The Urgent Treatment Centre acts as the ‘front door’ at UCLH. Ongoing pressures have resulted in falling performance against targets for patients to be seen within 4 hours of arrival. I noticed a mis-match between the allocation of staff and available consultation rooms, as well as delays in ordering diagnostic tests for patients. The long waiting times were leading to too many patients waiting at the end of the day shift when the staffing rota transitioned to the lower-staffed night shift.”
+
+Shilpa’s model allows the emergency department (ED), which houses the UTC, to allocate staff and rooms to match patient flow, leading to better working conditions for staff and faster treatment times for patients. As a result of her analysis the ED has been reshaped and rotas reviewed in detail to ensure these positive changes are not only achievable, but sustainable.
+
+Victoria Banks, Deputy Divisional Manager of Emergency Services at UCLH said:
+
+> “Over the last 6 months, patients have experienced longer waits within the ED, especially within UTC. In order to understand the capacity needed to meet current and future demand, we were keen to conduct a full demand and capacity review. Shilpa was heavily involved in this process and led on the development of the model. She worked closely with the department to understand the needs of the service and was able to clearly communicate how the model could/would work to ensure the outputs would help inform service developments.
+
+> “Since the model has been built, we have run several scenarios through it that have been used to make practical changes. Examples of this include moving the location of the UTC to provide an increased number of rooms so that this is no longer a rate limiting step in seeing patients and maintaining increased staffing overnight to help manage demand. We are now putting the case together for longer term changes to the staffing model.
+
+> “Since increasing the number of rooms available to UTC, as suggested from the demand and capacity modelling, we have seen an increase in performance. This is reflective of better care being delivered to patients and a better working environment for staff.”
+
+Our Health Services Modelling Associates Training Programme, now in its fifth successful iteration, uses an innovative mentoring system to offer staff working in policing and health and social care organisations the opportunity to develop skills in modelling and data science and apply them, in small project groups, to a project to address an important issue for their organisation.
+
+Developed by our Operational Research and Data Science Team, PenCHORD, the programme has generated the evidence to support multi-million pound investments in mental health and urgent care services, improved outcomes for patients and service users across policing, social and health care and developed inter-ARC collaborations to share knowledge and increase service capacity using Data Science, Artificial Intelligence and Operational Research. The programme has led to the establishment of brand new modelling and Data Science roles within NHS organisations, support for the COVID-19 mass vaccination programme and significant career progression for analysts. It was recently hailed as a flagship national example of the capacity building work of the NIHR Applied Research Collaborations.
+
+Shilpa Patel said:
+
+> “I was keen to join the HSMA programme to learn how I could apply evidence-based decisional making techniques in my work. I was grateful for the opportunity the HSMA course gave me to develop a simulation model and to address the UTC challenge under the mentorship of the course mentors. I already have ideas of how I can apply more of the learning from the programme to other areas of my work in the future.”
+
+Dr Daniel Chalk, HSMA Programme Lead and project mentor said:
+
+> “Shilpa’s work here is a perfect demonstration of the reason why we believe HSMA programme is so important. She has been able to develop new skills in modelling and data science that she has then been able to put directly into practice. This has led to real and significant improvements for her organisation, its staff and its patients. The work has also raised awareness of the potential of these kinds of approaches to support operational decision-making, and I’m delighted to hear that the organisation is enthusiastic about exploring further opportunities for projects such as these to continue to tackle the challenges they face”.
+
+:::
