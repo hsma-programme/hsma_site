@@ -11,7 +11,9 @@ grid:
   gutter-width: 1.5rem
 listing:
     - id: emergency_department_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -21,7 +23,9 @@ listing:
         categories: "{Emergency Departments,Accident & Emergency*}"
       template: ../html/previous_projects/listing.ejs
     - id: amu_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -31,7 +35,9 @@ listing:
         categories: "{Acute Medical Unit (AMU)}*"
       template: ../html/previous_projects/listing.ejs
     - id: sdec_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -41,7 +47,9 @@ listing:
         categories: "{Same-day Emergency Care}*"
       template: ../html/previous_projects/listing.ejs
     - id: utc_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -51,7 +59,9 @@ listing:
         categories: "{Urgent Treatment Centres (UTC)}*"
       template: ../html/previous_projects/listing.ejs
     - id: primary_care_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -61,7 +71,9 @@ listing:
         categories: "{Primary Care (GPs),Primary Care (GP)}*"
       template: ../html/previous_projects/listing.ejs
     - id: telephone_and_111_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -71,7 +83,9 @@ listing:
         categories: "{Telephone-based Services,111 Service}*"
       template: ../html/previous_projects/listing.ejs
     - id: community_mh_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -81,7 +95,9 @@ listing:
         categories: "{Community Mental Health}*"
       template: ../html/previous_projects/listing.ejs
     - id: inpatient_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -91,7 +107,9 @@ listing:
         categories: "{Inpatients,Inpatient Admissions}*"
       template: ../html/previous_projects/listing.ejs
     - id: icu_itu_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -101,7 +119,9 @@ listing:
         categories: "{Intensive Care Units & Intensive Therapy Units (ICU & ITU)}*"
       template: ../html/previous_projects/listing.ejs
     - id: cdc_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -111,7 +131,9 @@ listing:
         categories: "{Community Diagnostic Centres (CDCs)}*"
       template: ../html/previous_projects/listing.ejs
     - id: digital_outpatient_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -121,7 +143,9 @@ listing:
         categories: "{Digital Outpatients}*"
       template: ../html/previous_projects/listing.ejs
     - id: outpatient_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -131,7 +155,9 @@ listing:
         categories: "{Outpatients}*"
       template: ../html/previous_projects/listing.ejs
     - id: ambulance_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -141,7 +167,9 @@ listing:
         categories: "{Ambulance}*"
       template: ../html/previous_projects/listing.ejs
     - id: pharmacy_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -151,7 +179,9 @@ listing:
         categories: "{Pharmacy}*"
       template: ../html/previous_projects/listing.ejs
     - id: blood_and_transplant_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2

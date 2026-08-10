@@ -11,7 +11,9 @@ grid:
   gutter-width: 1.5rem
 listing:
     - id: waiting_lists_and_waiting_times_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -21,7 +23,9 @@ listing:
         categories: "{Waiting Lists,Waiting Times}"
       template: ../html/previous_projects/listing.ejs
     - id: non_attendance_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -31,7 +35,9 @@ listing:
         categories: "{Non-attendance Prediction}"
       template: ../html/previous_projects/listing.ejs
     - id: reducing_backlogs_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -41,7 +47,9 @@ listing:
         categories: "{Reducing Backlogs}"
       template: ../html/previous_projects/listing.ejs
     - id: inequalities_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -51,7 +59,9 @@ listing:
         categories: "{Inequalities}"
       template: ../html/previous_projects/listing.ejs
     - id: patient_flow_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2

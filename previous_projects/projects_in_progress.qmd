@@ -10,7 +10,9 @@ grid:
   gutter-width: 1.5rem
 listing:
     - id: in_progress
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2

@@ -11,7 +11,9 @@ grid:
 listing:
 
     - id: projects_0
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -22,7 +24,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_1
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -33,7 +37,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_2
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -44,7 +50,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_3
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -55,7 +63,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_4
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -66,7 +76,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_5
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -77,7 +89,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_6
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -88,7 +102,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_7
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -99,7 +115,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_8
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -110,7 +128,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_9
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -121,7 +141,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_10
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -132,7 +154,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_11
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -143,7 +167,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_12
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -154,7 +180,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_13
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -165,7 +193,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_14
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -176,7 +206,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_15
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -187,7 +219,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_16
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -198,7 +232,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_17
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -209,7 +245,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_18
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -220,7 +258,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_19
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -231,7 +271,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_20
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -242,7 +284,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_21
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -253,7 +297,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_22
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -264,7 +310,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_23
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -275,7 +323,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_24
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -286,7 +336,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_25
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -297,7 +349,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_26
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -308,7 +362,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_27
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -319,7 +375,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_28
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -330,7 +388,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_29
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -341,7 +401,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_30
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -352,7 +414,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_31
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -363,7 +427,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_32
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -374,7 +440,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_33
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -385,7 +453,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_34
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -396,7 +466,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_35
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -407,7 +479,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_36
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -418,7 +492,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_37
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -429,7 +505,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_38
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -440,7 +518,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_39
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -451,7 +531,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_40
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -462,7 +544,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_41
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -473,7 +557,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_42
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -484,7 +570,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_43
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -495,7 +583,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_44
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -506,7 +596,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_45
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -517,7 +609,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_46
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -528,7 +622,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_47
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -539,7 +635,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_48
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -550,7 +648,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_49
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -561,7 +661,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_50
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -572,7 +674,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_51
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -583,7 +687,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_52
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -594,7 +700,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_53
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -605,7 +713,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_54
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -616,7 +726,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_55
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -627,7 +739,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_56
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -638,7 +752,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_57
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -649,7 +765,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_58
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -660,7 +778,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_59
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -671,7 +791,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_60
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -682,7 +804,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_61
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -693,7 +817,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_62
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -704,7 +830,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_63
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -715,7 +843,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_64
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -726,7 +856,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_65
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -737,7 +869,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_66
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -748,7 +882,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_67
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -759,7 +895,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_68
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -770,7 +908,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_69
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -781,7 +921,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_70
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -792,7 +934,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_71
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -803,7 +947,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_72
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -814,7 +960,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_73
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -825,7 +973,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_74
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -836,7 +986,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_75
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -847,7 +999,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_76
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -858,7 +1012,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_77
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -869,7 +1025,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_78
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -880,7 +1038,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_79
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -891,7 +1051,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_80
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -902,7 +1064,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_81
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -913,7 +1077,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_82
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -924,7 +1090,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_83
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -935,7 +1103,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_84
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -946,7 +1116,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_85
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -957,7 +1129,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_86
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -968,7 +1142,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_87
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -979,7 +1155,9 @@ listing:
       template: ../html/previous_projects/listing.ejs
     
     - id: projects_88
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2

@@ -11,7 +11,9 @@ grid:
   gutter-width: 1.5rem
 listing:
     - id: rheumatology_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -21,7 +23,9 @@ listing:
         categories: "Rheumatology"
       template: ../html/previous_projects/listing.ejs
     - id: mental_health_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -33,7 +37,9 @@ listing:
       exclude:
         categories: "{Mental Health Inpatients,Neurodiversity,NHS Talking Therapies (Formerly IAPT)}"
     - id: workforce_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -43,7 +49,9 @@ listing:
         categories: "Workforce"
       template: ../html/previous_projects/listing.ejs
     - id: neonatal_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -53,7 +61,9 @@ listing:
         categories: "Neonatal"
       template: ../html/previous_projects/listing.ejs
     - id: respiratory_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -63,7 +73,9 @@ listing:
         categories: "Respiratory"
       template: ../html/previous_projects/listing.ejs
     - id: vaccination_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -73,7 +85,9 @@ listing:
         categories: "Vaccination"
       template: ../html/previous_projects/listing.ejs
     - id: paediatric_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -83,7 +97,9 @@ listing:
         categories: "Paediatric"
       template: ../html/previous_projects/listing.ejs
     - id: elective_surgery_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -93,7 +109,9 @@ listing:
         categories: "Elective Surgery"
       template: ../html/previous_projects/listing.ejs
     - id: cancer_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -103,7 +121,9 @@ listing:
         categories: "Cancer"
       template: ../html/previous_projects/listing.ejs
     - id: primary_care_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -113,7 +133,9 @@ listing:
         categories: "{Primary Care,111 Service}*"
       template: ../html/previous_projects/listing.ejs
     - id: policing_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -123,7 +145,9 @@ listing:
         categories: "{Police,Crime}*"
       template: ../html/previous_projects/listing.ejs
     - id: cardiac_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -133,7 +157,9 @@ listing:
         categories: "{Cardiac,Cardiology}*"
       template: ../html/previous_projects/listing.ejs
     - id: orthopaedic_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -143,7 +169,9 @@ listing:
         categories: "{Orthopaedic,Orthopaedics}*"
       template: ../html/previous_projects/listing.ejs
     - id: inequalities_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -153,7 +181,9 @@ listing:
         categories: "{Inequalities,Health Equity}*"
       template: ../html/previous_projects/listing.ejs
     - id: public_health_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -165,7 +195,9 @@ listing:
         categories: "{Vaccination,Smoking,Weight Management}*"
       template: ../html/previous_projects/listing.ejs
     - id: urology_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -175,7 +207,9 @@ listing:
         categories: "{Urology}*"
       template: ../html/previous_projects/listing.ejs
     - id: colorectal_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -185,7 +219,9 @@ listing:
         categories: "{Colorectal}*"
       template: ../html/previous_projects/listing.ejs
     - id: diabetes_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -195,7 +231,9 @@ listing:
         categories: "{Diabetes}*"
       template: ../html/previous_projects/listing.ejs
     - id: neurodiversity_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -205,7 +243,9 @@ listing:
         categories: "{Neurodiversity}*"
       template: ../html/previous_projects/listing.ejs
     - id: mh_inpatients_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -215,7 +255,9 @@ listing:
         categories: "{Mental Health Inpatients}*"
       template: ../html/previous_projects/listing.ejs
     - id: maternity_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -225,7 +267,9 @@ listing:
         categories: "{Maternity}*"
       template: ../html/previous_projects/listing.ejs
     - id: renal_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -235,7 +279,9 @@ listing:
         categories: "{Renal}*"
       template: ../html/previous_projects/listing.ejs
     - id: covid19_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -245,7 +291,9 @@ listing:
         categories: "{COVID-19}*"
       template: ../html/previous_projects/listing.ejs
     - id: older_adult_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -255,7 +303,9 @@ listing:
         categories: "{Older Adults}*"
       template: ../html/previous_projects/listing.ejs
     - id: neurology_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -265,7 +315,9 @@ listing:
         categories: "{Neurology}*"
       template: ../html/previous_projects/listing.ejs
     - id: womens_health_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -275,7 +327,9 @@ listing:
         categories: "{Women's Health}*"
       template: ../html/previous_projects/listing.ejs
     - id: smoking_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -285,7 +339,9 @@ listing:
         categories: "{Smoking,Weight Management}*"
       template: ../html/previous_projects/listing.ejs
     - id: physiotherapy_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -295,7 +351,9 @@ listing:
         categories: "{Physiotherapy}*"
       template: ../html/previous_projects/listing.ejs
     - id: council_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -305,7 +363,9 @@ listing:
         categories: "{Council}*"
       template: ../html/previous_projects/listing.ejs
     - id: iapt_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -315,7 +375,9 @@ listing:
         categories: "{NHS Talking Therapies (Formerly IAPT)}*"
       template: ../html/previous_projects/listing.ejs
     - id: gp_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -325,7 +387,9 @@ listing:
         categories: "{Primary Care (GP), Primary Care (GPs)}*"
       template: ../html/previous_projects/listing.ejs
     - id: emergency_access
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -335,7 +399,9 @@ listing:
         categories: "{Ambulance, 111 Service}*"
       template: ../html/previous_projects/listing.ejs
     - id: emergency_departments
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -345,7 +411,9 @@ listing:
         categories: "{Emergency Departments, A&E, Acute Medical Unit (AMU)}*"
       template: ../html/previous_projects/listing.ejs
     - id: inpatients
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2

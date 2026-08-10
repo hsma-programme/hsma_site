@@ -54,7 +54,9 @@ quarto_file_string += header_text
 for i, org in enumerate(all_orgs_unique):
     quarto_file_string += f"""
     - id: projects_{i}
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2

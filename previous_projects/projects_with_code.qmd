@@ -10,7 +10,9 @@ grid:
   gutter-width: 1.5rem
 listing:
     - id: in_progress_with_code
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -21,7 +23,9 @@ listing:
         status: "{Active}"
       template: ../html/previous_projects/listing.ejs
     - id: complete_with_code
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2

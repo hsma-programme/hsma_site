@@ -10,7 +10,9 @@ grid:
   gutter-width: 1.5rem
 listing:
     - id: des_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -20,7 +22,9 @@ listing:
         categories: "Discrete Event Simulation (DES)"
       template: ../html/previous_projects/listing.ejs
     - id: network_analysis_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -30,7 +34,9 @@ listing:
         categories: "Network Analysis"
       template: ../html/previous_projects/listing.ejs
     - id: reporting_automation_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -40,7 +46,9 @@ listing:
         categories: "{Automation,Reproducible Analytical Pipelines (RAP),Quarto}"
       template: ../html/previous_projects/listing.ejs
     - id: mapping_location_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -50,7 +58,9 @@ listing:
         categories: "{Location Optimisation,Location Optimization,Mapping,Travel Times,QGIS,Geostatistics}*"
       template: ../html/previous_projects/listing.ejs
     - id: forecasting_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -60,7 +70,9 @@ listing:
         categories: "{Forecasting,Prophet,ARIMA}*"
       template: ../html/previous_projects/listing.ejs
     - id: nlp_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -70,7 +82,9 @@ listing:
         categories: "{Natural Language Processing,Natural Language Processing (NLP),Named Entity Recognition, Sentiment Analysis}*"
       template: ../html/previous_projects/listing.ejs
     - id: ml_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -80,7 +94,9 @@ listing:
         categories: "{Machine Learning, Explainable AI,Unsupervised Learning}*"
       template: ../html/previous_projects/listing.ejs
     - id: streamlit_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -90,7 +106,9 @@ listing:
         categories: "{Streamlit}*"
       template: ../html/previous_projects/listing.ejs
     - id: abs_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
@@ -100,7 +118,9 @@ listing:
         categories: "{Agent Based Simulation (ABS)}*"
       template: ../html/previous_projects/listing.ejs
     - id: sd_projects
-      contents: "*/*/index.qmd"
+      contents:
+        - "*/*/index.qmd"
+        - "!*/ARCHIVE/**"
       sort: "date desc"
       type: grid
       grid-columns: 2
