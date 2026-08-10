@@ -173,8 +173,19 @@ def _parse_mapping(lines: list[str], i: int, indent: int) -> tuple[dict, int]:
             peek_indent = _indent_of(lines[peek])
             peek_stripped = lines[peek].lstrip(" ")
             is_item = peek_stripped == "-" or peek_stripped.startswith("- ")
-            if peek_indent > indent or (peek_indent == indent and is_item):
+            if peek_indent == indent and is_item:
                 mapping[key], i = _parse_node(lines, i, peek_indent)
+                continue
+            if peek_indent > indent:
+                # Either a nested mapping/sequence, or a multi-line plain scalar
+                # -- i.e. "abstract:" with the text on the following lines rather
+                # than "abstract: |". Only the former starts with a key or a
+                # dash, so anything else is folded into a single scalar.
+                if is_item or KEY_RE.match(peek_stripped):
+                    mapping[key], i = _parse_node(lines, i, peek_indent)
+                else:
+                    text, i = _read_block_scalar(lines, peek, indent)
+                    mapping[key] = " ".join(text.split()) or None
                 continue
         mapping[key] = None
     return mapping, i

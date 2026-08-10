@@ -16,7 +16,8 @@ image: "6067.png"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    Specialised service lines are identified by the Prescribed Specialised Services tool, a black box whose hierarchical rules change each year and cannot be adjusted. The project builds a tool that applies and manipulates those rules against SUS data, showing movement between service lines and the resulting changes in patient demographics and travel times.
   links:
   - name: Video
     url:

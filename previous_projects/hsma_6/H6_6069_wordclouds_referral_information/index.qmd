@@ -15,7 +15,8 @@ image: "6069.png"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    Referral order forms often contain large paragraphs of free text in the referral reason field. The project uses Natural Language Processing techniques to extract the information most commonly recorded there, so that the service can understand the most common reasons for referral.
   links:
   - name: Video
     url:

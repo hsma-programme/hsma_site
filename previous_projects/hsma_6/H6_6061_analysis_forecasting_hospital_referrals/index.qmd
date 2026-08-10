@@ -15,7 +15,8 @@ image: "6061.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    The project uses Python and forecasting approaches to analyse the growth in referrals into the hospital.
   links:
   - name: Video
     url:

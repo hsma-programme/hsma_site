@@ -26,7 +26,8 @@ image: "6037.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    The project overlays ONS data on population ethnicity, the Health Index for England and deprivation data from QOF with crime statistics at a geographical scale. The aim is to test the hypothesis that these factors are linked, and to establish the strength of any relationship.
   links:
   - name: Video
     url:

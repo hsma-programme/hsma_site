@@ -22,7 +22,8 @@ image: "../placeholder.png"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    The project uses a Streamlit app to automate and scale waiting list equity analysis, allowing it to be run at trust level and, optionally, at individual service level.
   links:
   - name: Video
     url:

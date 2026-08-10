@@ -22,7 +22,8 @@ image: "6048.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    The project uses machine learning to support analysis of patients who are on multiple concurrent referral to treatment (RTT) pathways, focusing particularly on healthcare inequalities. It aims to build a model that can suggest services suitable for co-location, and identify the points at which patients start having concurrent pathways.
   links:
   - name: Video
     url: https://youtu.be/SH4geMXr8a8?feature=shared

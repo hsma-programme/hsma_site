@@ -16,7 +16,8 @@ image: "5102.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    The project develops a simple classification model to predict whether a patient will develop a surgical site infection (SSI).
   links:
   - name: Video
     url:

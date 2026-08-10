@@ -19,7 +19,8 @@ title-block-banner: ../../banner.png
 status: Active
 repo: Y
 pub-info:
-  abstract:
+  abstract: |
+    The project develops a machine learning tool that estimates the likelihood of outpatient Did Not Attend (DNA) incidences across different services and demographics. The tool could then be shared with providers to give guidance on how to reduce DNAs.
   links:
   - name: Video
     url:

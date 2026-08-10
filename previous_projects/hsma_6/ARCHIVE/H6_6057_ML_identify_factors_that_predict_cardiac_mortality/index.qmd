@@ -18,7 +18,8 @@ image: "6057.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    The project uses machine learning and explainable AI to identify the factors that predict cardiac mortality, drawing on a large patient-level database combining 111, SUS and ambulance data. The aim is to help identify where resourcing should best be placed nationally to decrease cardiac mortality.
   links:
   - name: Video
     url:

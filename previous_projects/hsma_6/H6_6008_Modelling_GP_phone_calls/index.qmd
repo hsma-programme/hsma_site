@@ -22,7 +22,8 @@ image: "6008.PNG"
 title-block-banner: ../../banner.png
 status: Active
 pub-info:
-  abstract:
+  abstract: |
+    The project uses Discrete Event Simulation to model how patients navigate between GP and 111 services, and to assess the knock-on effect that this has on Emergency Departments. The aim is to support better routing of patients to primary care.
   links:
   - name: Video
     url: https://youtu.be/zeYG0EJ83bA?feature=share
