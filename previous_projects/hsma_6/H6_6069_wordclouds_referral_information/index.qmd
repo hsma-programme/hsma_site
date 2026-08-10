@@ -3,9 +3,10 @@ title: "Generating wordclouds from referral information"
 techniques:
   - Natural Language Processing (NLP)
 areas:
-  -
+  - Referrals
 categories:
   - Natural Language Processing (NLP)
+  - Referrals
 author:
   - name: Rebecca Marshall
     affiliation: University Hospitals Coventry and Warwickshire Trust

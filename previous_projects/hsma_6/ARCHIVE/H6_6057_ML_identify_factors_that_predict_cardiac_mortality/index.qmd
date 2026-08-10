@@ -5,10 +5,12 @@ techniques:
   - Explainable AI
 areas:
   - Cardiology
+  - SUS Dataset
 categories:
   - Machine learning
   - Explainable AI
   - Cardiology
+  - SUS Dataset
 author:
   - name: Ruth Keane
     affiliation: NHS Arden & GEM CSU

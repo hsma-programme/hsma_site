@@ -115,13 +115,13 @@ HSMA (Health Service Modelling Associates) is a training programme in which heal
 | H6-6056 | HSMA 6 | Redrawing North West Ambulance dispatch Boundaries | Geographic Modelling | Ambulance |
 | H6-6058 | HSMA 6 | Building a Machine Learning tool to predict Did Not Attend (DNA) events | Machine Learning, Streamlit | NHS 10-year big bet: AI to drive productivity |
 | H6-6060 | HSMA 6 | Optimising Same Day Emergency Care (SDEC) Resourcing | Discrete Event Simulation (DES), Emergency Departments | NHS 10-year plan shifts: Hospital to Community |
-| H6-6061 | HSMA 6 | Analysis and forecasting of referrals into hospital | Forecasting | Neurology, Demand & Capacity |
+| H6-6061 | HSMA 6 | Analysis and forecasting of referrals into hospital | Forecasting | Neurology, Demand & Capacity, Referrals |
 | H6-6062 | HSMA 6 | Developing a primary care load management tool | Discrete Event Simulation (DES) | Primary Care (GP), NHS 10-year plan shifts: Hospital to Community |
 | H6-6063 | HSMA 6 | Modelling the Talking Therapies clinical pathway using a Discrete Event Simulation | Discrete Event Simulation (DES) | NHS Talking Therapies (Formerly IAPT), NHS 10-year plan shifts: Hospital to Community |
 | H6-6065 | HSMA 6 | Automating injury coding using language models | Natural Language Processing (NLP), Machine Learning | Clinical Coding, NHS 10-year big bet: AI to drive productivity, NHS 10-year big bet: Data to Deliver Impact |
 | H6-6066 | HSMA 6 | Evaluating the Impact of Community Diagnostic Centres on Health Inequalities and Patient Access to Diagnostic Services | Geographic Modelling, Streamlit, Python | Community Diagnostic Centres (CDCs), NHS 10-year plan shifts: Sickness to Prevention, NHS 10-year plan shifts: Hospital to Community |
-| H6-6067 | HSMA 6 | Applying and manipulating identification rules for specialised services | Streamlit, Python |  |
-| H6-6069 | HSMA 6 | Generating wordclouds from referral information | Natural Language Processing (NLP) |  |
+| H6-6067 | HSMA 6 | Applying and manipulating identification rules for specialised services | Streamlit, Python | Specialised Services, SUS Dataset |
+| H6-6069 | HSMA 6 | Generating wordclouds from referral information | Natural Language Processing (NLP) | Referrals |
 | H6-6070 | HSMA 6 | Using Machine Learning techniques to predict Hospital Readmissions | Machine Learning, Explainable AI | NHS 10-year plan shifts: Hospital to Community |
 | H1-1100 | HSMA Alumni | Geographic modelling of resource utlitisation at Devon Air Ambulance | Geographic Modelling, Forecasting, Discrete Event Simulation (DES) | Ambulance, Air Ambulance, Patient Transport, Waiting Times |
 | H5-5100 | HSMA Alumni | eFIT: Extra funding allocation - inequality tool | Streamlit | Inequalities, Costs |
@@ -3486,7 +3486,7 @@ The project aims to use Discrete Event Simulation to ascertain
 - **Authors:** Andrew Sharrock (The Walton Centre NHS Foundation Trust)
 - **Organisations:** The Walton Centre NHS Foundation Trust
 - **Techniques:** Forecasting
-- **Application areas:** Neurology, Demand & Capacity
+- **Application areas:** Neurology, Demand & Capacity, Referrals
 - **Status:** Active
 - **Public code repository:** No
 - **Source file:** previous_projects/hsma_6/H6_6061_analysis_forecasting_hospital_referrals/index.qmd
@@ -3664,7 +3664,7 @@ The aims of this project are to :
 - **Authors:** Emma Keeley (Arden and GEM CSU)
 - **Organisations:** Arden and GEM CSU
 - **Techniques:** Streamlit, Python
-- **Application areas:** Not recorded
+- **Application areas:** Specialised Services, SUS Dataset
 - **Status:** Active
 - **Public code repository:** No
 - **Source file:** previous_projects/hsma_6/H6_6067_applying_manipulating_id_rules_specialised_services/index.qmd
@@ -3689,7 +3689,7 @@ The aim of this project is to build a tool that will allow application and manip
 - **Authors:** Rebecca Marshall (University Hospitals Coventry and Warwickshire Trust)
 - **Organisations:** University Hospitals Coventry and Warwickshire Trust
 - **Techniques:** Natural Language Processing (NLP)
-- **Application areas:** Not recorded
+- **Application areas:** Referrals
 - **Status:** Active
 - **Public code repository:** No
 - **Source file:** previous_projects/hsma_6/H6_6069_wordclouds_referral_information/index.qmd

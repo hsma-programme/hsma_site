@@ -5,10 +5,12 @@ techniques:
 areas:
   - Neurology
   - Demand & Capacity
+  - Referrals
 categories:
   - Forecasting
   - Neurology
   - Demand & Capacity
+  - Referrals
 author:
   - name: Andrew Sharrock
     affiliation: The Walton Centre NHS Foundation Trust

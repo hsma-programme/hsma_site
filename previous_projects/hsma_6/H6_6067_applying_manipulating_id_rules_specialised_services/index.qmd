@@ -4,9 +4,12 @@ techniques:
   - Streamlit
   - Python
 areas:
-  -
+  - Specialised Services
+  - SUS Dataset
 categories:
   - Streamlit
+  - Specialised Services
+  - SUS Dataset
 author:
   - name: Emma Keeley
     affiliation: Arden and GEM CSU
