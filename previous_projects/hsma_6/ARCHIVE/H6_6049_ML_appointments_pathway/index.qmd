@@ -3,7 +3,7 @@ title: "Using machine learning to identify factors that increase number of appoi
 techniques:
   - Explainable AI
   - Patient Pathways
-  - Casual Analysis
+  - Causal Analysis
 areas:
   - Patient Pathways
   - EPP Dataset
@@ -13,7 +13,7 @@ categories:
   - Explainable AI
   - Patient Pathways
   - Waiting Times
-  - Casual Analysis
+  - Causal Analysis
 author:
   - name: Sarah Mole
     affiliation: NHS England

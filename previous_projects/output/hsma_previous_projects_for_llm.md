@@ -82,7 +82,7 @@ HSMA (Health Service Modelling Associates) is a training programme in which heal
 | H6-6007 | HSMA 6 | Modelling eye injection pathways | Agent Based Simulation (ABS), Discrete Event Simulation (DES), Streamlit | Opthalmology |
 | H6-6008 | HSMA 6 | Modelling GP Phone calls | Discrete Event Simulation (DES) | 111 Service, Emergency Departments, Primary Care (GP), NHS 10-year plan shifts: Hospital to Community |
 | H6-6009 | HSMA 6 | Using machine learning models to predict future frailty | Machine Learning | Frailty, Older Adults, NHS 10-year plan shifts: Sickness to Prevention |
-| H6-6010 | HSMA 6 | Understanding drivers of increased length of stay | Casual Analysis, Machine Learning, Explainable AI, Synthetic Data, Streamlit, System Dynamics | Length of Stay, Inpatients, Understanding Drivers |
+| H6-6010 | HSMA 6 | Understanding drivers of increased length of stay | Causal Analysis, Machine Learning, Explainable AI, Synthetic Data, Streamlit, System Dynamics | Length of Stay, Inpatients, Understanding Drivers |
 | H6-6011 | HSMA 6 | Forecasting modelling for A&E attendance | Forecasting, Reproducible Analytical Pipelines (RAP) | Emergency Departments, Demand & Capacity, Seasonality |
 | H6-6012 | HSMA 6 | Using classification modelling technques to investigate changes in Healthcare Resources Group (HRG) coding over time | Machine Learning, Explainable AI | Clinical Coding, Costs |
 | H6-6013 | HSMA 6 | Modelling bed occupancy on an Acute Ward | Forecasting, Machine Learning, Discrete Event Simulation (DES), Streamlit | Length of Stay, Inpatients, Bed Occupancy, Demand & Capacity |
@@ -2292,7 +2292,7 @@ The project will produce reports from the work and potentially a dashboard or ot
 - **Cohort:** HSMA 6
 - **Authors:** Jake Kealey (NHS North Central London ICB)
 - **Organisations:** NHS North Central London ICB
-- **Techniques:** Casual Analysis, Machine Learning, Explainable AI, Synthetic Data, Streamlit, System Dynamics
+- **Techniques:** Causal Analysis, Machine Learning, Explainable AI, Synthetic Data, Streamlit, System Dynamics
 - **Application areas:** Length of Stay, Inpatients, Understanding Drivers
 - **Status:** Active
 - **Public code repository:** No
