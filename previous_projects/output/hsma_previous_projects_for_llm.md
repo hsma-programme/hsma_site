@@ -60,7 +60,7 @@ HSMA (Health Service Modelling Associates) is a training programme in which heal
 | H4-4012 | HSMA 4 | Predicting Violent Incidents on Mental Health Inpatient Units | Machine Learning | Mental Health, Mental Health Inpatients |
 | H4-4013 | HSMA 4 | Reducing Travel Times to Treatment for Cardiac Patients in the South East of England | Mapping, Travel Times, Streamlit, Location Optimisation | Cardiology |
 | H4-4014 | HSMA 4 | Developing a Service Planning Decision Support Tool to Tackle Inequalities and Minimise Carbon Output | Machine Learning, Automation, Reproducible Analytical Pipelines (RAP) | Carbon Emissions, Health Equity Audits, Non-attendance Prediction, NHS 10-year plan shifts: Analogue to Digital, NHS 10-year big bet: Data to Deliver Impact |
-| H4-4015 | HSMA 4 | Spatial Modelling of Violent Crime to Support Strategic Analysis | Mapping, Geostatistics, QGIS |  |
+| H4-4015 | HSMA 4 | Spatial Modelling of Violent Crime to Support Strategic Analysis | Mapping, Geostatistics, QGIS | Police |
 | H5-5002 | HSMA 5 | Using Natural Language Processing to detect drug related content within free text  | Natural Language Processing (NLP), Named Entity Recognition | Police |
 | H5-5003 | HSMA 5 | Using Discrete Event Simulation to model the bottlenecks in the Acute Medical Unit pathway | Discrete Event Simulation (DES), Streamlit | Acute Medical Unit (AMU), Emergency Departments, Acute Care, Hospitals, NHS 10-year plan shifts: Hospital to Community |
 | H5-5004 | HSMA 5 | Modelling the effect of complex discharge delays on acute performance | Discrete Event Simulation (DES) | Discharge, Hospitals, Patient Flow, Acute Care, Inter-service Interactions, NHS 10-year plan shifts: Hospital to Community |
@@ -115,7 +115,7 @@ HSMA (Health Service Modelling Associates) is a training programme in which heal
 | H6-6056 | HSMA 6 | Redrawing North West Ambulance dispatch Boundaries | Geographic Modelling | Ambulance |
 | H6-6058 | HSMA 6 | Building a Machine Learning tool to predict Did Not Attend (DNA) events | Machine Learning, Streamlit | NHS 10-year big bet: AI to drive productivity |
 | H6-6060 | HSMA 6 | Optimising Same Day Emergency Care (SDEC) Resourcing | Discrete Event Simulation (DES), Emergency Departments | NHS 10-year plan shifts: Hospital to Community |
-| H6-6061 | HSMA 6 | Analysis and forecasting of referrals into hospital | Forecasting |  |
+| H6-6061 | HSMA 6 | Analysis and forecasting of referrals into hospital | Forecasting | Neurology, Demand & Capacity |
 | H6-6062 | HSMA 6 | Developing a primary care load management tool | Discrete Event Simulation (DES) | Primary Care (GP), NHS 10-year plan shifts: Hospital to Community |
 | H6-6063 | HSMA 6 | Modelling the Talking Therapies clinical pathway using a Discrete Event Simulation | Discrete Event Simulation (DES) | NHS Talking Therapies (Formerly IAPT), NHS 10-year plan shifts: Hospital to Community |
 | H6-6065 | HSMA 6 | Automating injury coding using language models | Natural Language Processing (NLP), Machine Learning | Clinical Coding, NHS 10-year big bet: AI to drive productivity, NHS 10-year big bet: Data to Deliver Impact |
@@ -1467,7 +1467,7 @@ BIG BET - Data to deliver impact: combining patient, location and emissions data
 - **Authors:** Anupma Wadhera (TBC); Linda Wystemp (TBC); Andrea Casajuana Massanet (Counter Terrorism Policing); Helen Browne (Devon & Cornwall Police); Alessia Rose (Devon County Council)
 - **Organisations:** Counter Terrorism Policing, Devon & Cornwall Police, Devon County Council
 - **Techniques:** Mapping, Geostatistics, QGIS
-- **Application areas:** Not recorded
+- **Application areas:** Police
 - **Public code repository:** No
 - **Source file:** previous_projects/hsma_4/h4_4015_spatial_modelling_crime/index.qmd
 - **Links:**
@@ -2230,6 +2230,10 @@ Project Objectives: The project aims to provide a tool for data-driven decision-
     - Video: https://youtu.be/zeYG0EJ83bA?feature=share
     - Slides: https://docs.google.com/presentation/d/1RlFY3GLDJg4r89WZ1QNGWaeBT5Fa-sp2/edit?usp=drive_link&ouid=104927246423235110137&rtpof=true&sd=true
 
+### Abstract
+
+The project uses Discrete Event Simulation to model how patients navigate between GP and 111 services, and to assess the knock-on effect that this has on Emergency Departments. The aim is to support better routing of patients to primary care.
+
 ### Project description
 
 This project will use Discrete Event Simulation to model patients' navigation of GP vs 111 services and assess the knock-on effect for Emergency Departments.
@@ -2938,6 +2942,10 @@ The project objectives are
 - **Public code repository:** No
 - **Source file:** previous_projects/hsma_6/H6_6037_mapping_health_inequalities/index.qmd
 
+### Abstract
+
+The project overlays ONS data on population ethnicity, the Health Index for England and deprivation data from QOF with crime statistics at a geographical scale. The aim is to test the hypothesis that these factors are linked, and to establish the strength of any relationship.
+
 ### Project description
 
 The aim of the project is to use ONS data around ethnicities of population, health index England, Deprivation data from QOF, and overlay the same with crime statistics at a geographical scale to try and prove a relationship and the hypothesis of a link.
@@ -3272,6 +3280,10 @@ Jake is presenting the work to the National Urological Conference in November 20
     - Video: https://youtu.be/SH4geMXr8a8?feature=shared
     - Slides: https://docs.google.com/presentation/d/1YXuROx59dIm9JUYWMuMbhh8A14UGov8X/edit?usp=drive_link&ouid=104927246423235110137&rtpof=true&sd=true
 
+### Abstract
+
+The project uses machine learning to support analysis of patients who are on multiple concurrent referral to treatment (RTT) pathways, focusing particularly on healthcare inequalities. It aims to build a model that can suggest services suitable for co-location, and identify the points at which patients start having concurrent pathways.
+
 ### Project description
 
 The aim of this project is to use machine learning approaches to support analysis of patients with multiple concurrent RTT pathways, focusing particularly on healthcare inequalities.
@@ -3407,6 +3419,10 @@ The aim of this project is to generate evidence to redraw these boundaries to ma
 - **Links:**
     - Code: https://github.com/BarnabyRumbold/logistic_regression_streamlit_app
 
+### Abstract
+
+The project develops a machine learning tool that estimates the likelihood of outpatient Did Not Attend (DNA) incidences across different services and demographics. The tool could then be shared with providers to give guidance on how to reduce DNAs.
+
 ### Project description
 
 This project is developing a machine learning-based tool that looks at the likelihood outpatient Did Not Attend (DNA) incidences across different services/demographics.
@@ -3438,6 +3454,10 @@ The tool could hopefully be shared with providers to provide guidance on how to 
     - Code: https://github.com/hthould/acute_take_des
     - Slides: https://docs.google.com/presentation/d/1fGS1mKo8BrF_I4wy5AAzjDsdETnUaFnE/edit?usp=sharing&ouid=104927246423235110137&rtpof=true&sd=true
 
+### Abstract
+
+The project uses Discrete Event Simulation to model Same Day Emergency Care (SDEC) and Emergency Department pathways at University Hospitals Bristol and Weston NHS Foundation Trust. It aims to establish the optimum parameters for those pathways, the effect of different doctor numbers, and the optimum size for SDEC.
+
 ### Project description
 
 This project will model Same Day Emergency Care (SDEC) and Emergency Department (ED) pathways at University Hospitals Bristol and Weston NHS Foundation Trust.
@@ -3466,10 +3486,14 @@ The project aims to use Discrete Event Simulation to ascertain
 - **Authors:** Andrew Sharrock (The Walton Centre NHS Foundation Trust)
 - **Organisations:** The Walton Centre NHS Foundation Trust
 - **Techniques:** Forecasting
-- **Application areas:** Not recorded
+- **Application areas:** Neurology, Demand & Capacity
 - **Status:** Active
 - **Public code repository:** No
 - **Source file:** previous_projects/hsma_6/H6_6061_analysis_forecasting_hospital_referrals/index.qmd
+
+### Abstract
+
+The project uses Python and forecasting approaches to analyse the growth in referrals into the hospital.
 
 ### Project description
 
@@ -3645,6 +3669,10 @@ The aims of this project are to :
 - **Public code repository:** No
 - **Source file:** previous_projects/hsma_6/H6_6067_applying_manipulating_id_rules_specialised_services/index.qmd
 
+### Abstract
+
+Specialised service lines are identified by the Prescribed Specialised Services tool, a black box whose hierarchical rules change each year and cannot be adjusted. The project builds a tool that applies and manipulates those rules against SUS data, showing movement between service lines and the resulting changes in patient demographics and travel times.
+
 ### Project description
 
 Specialised service lines are identified using Prescribed Specialised Services (PSS) Tool and returned as a field within the SUS dataset. Each year there are changes to the rules and a new tool is provided. The PSS tool is a black box, so there is no access to the manipulate the rules within the tool. The IR rules are hierarchical, a patient can meet the criteria for multiple service lines but is assigned the service line that is highest in the hierarchy. Due to the hierarchy, a change in one rule can cause movement between specialised / non-specialised but also changes within final service line. SUS inpatient and outpatient tables combined contain in excess of 2 billion rows, understanding changes across service lines requires processing all of the data and is therefore slow analysis in SQL. 
@@ -3666,6 +3694,10 @@ The aim of this project is to build a tool that will allow application and manip
 - **Public code repository:** No
 - **Source file:** previous_projects/hsma_6/H6_6069_wordclouds_referral_information/index.qmd
 
+### Abstract
+
+Referral order forms often contain large paragraphs of free text in the referral reason field. The project uses Natural Language Processing techniques to extract the information most commonly recorded there, so that the service can understand the most common reasons for referral.
+
 ### Project description
 
 The aim of this project is to use Natural Language Processing techniques to extract commonly used information in the referral reason of referral order forms. 
@@ -3686,6 +3718,10 @@ Often large paragraphs of free text are written here, but the service would find
 - **Status:** Active
 - **Public code repository:** No
 - **Source file:** previous_projects/hsma_6/H6_6070_machine_learning_hospital_readmissions/index.qmd
+
+### Abstract
+
+The Trust averages 480 emergency 30-day readmissions monthly. This exploratory project aims to use Machine Learning to predict readmissions and identify key factors. It will assess the accuracy of different approaches using current Trust data, potentially guiding future work in this area.
 
 ### Project description
 
@@ -3715,6 +3751,10 @@ At this stage, it is an exploratory project that will look more at what level of
 - **Source file:** previous_projects/hsma_alumni/H1_1100_Geographic_modelling_of_resource_utilisation_at_DAA/index.qmd
 - **Links:**
     - Code: https://github.com/RichardPilbery/DAA_DES
+
+### Abstract
+
+The project uses geographic modelling to examine the utilisation of resources at Devon Air Ambulance. It models current demand and runs what-if scenarios in order to optimise service delivery and provide an evidence base for operational decision making.
 
 ### Project description
 

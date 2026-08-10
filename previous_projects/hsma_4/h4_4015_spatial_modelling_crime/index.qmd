@@ -1,5 +1,7 @@
 ---
 title: "Spatial Modelling of Violent Crime to Support Strategic Analysis"
+areas:
+  - Police
 categories:
   - Mapping
   - Geostatistics

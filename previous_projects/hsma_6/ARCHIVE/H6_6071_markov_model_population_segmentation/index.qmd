@@ -3,9 +3,10 @@ title: "Creating a generalisable Markov model of segmentation data and age"
 techniques:
   - Python
 areas:
-  -
+  - Population Health
 categories:
   - Python
+  - Population Health
 author:
   - name: Ruth Keane
     affiliation: Arden and Gem CSU

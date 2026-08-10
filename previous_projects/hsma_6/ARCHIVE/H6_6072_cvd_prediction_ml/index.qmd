@@ -4,10 +4,11 @@ techniques:
   - Machine Learning
   - Explainable AI
 areas:
-  -
+  - Cardiology
 categories:
   - Machine Learning
   - Explainable AI
+  - Cardiology
 author:
   - name: Rohan Sitaram
     affiliation: NHS North Central London ICB

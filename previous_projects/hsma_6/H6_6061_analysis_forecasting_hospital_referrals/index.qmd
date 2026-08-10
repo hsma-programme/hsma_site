@@ -3,9 +3,12 @@ title: "Analysis and forecasting of referrals into hospital"
 techniques:
   - Forecasting
 areas:
-  -
+  - Neurology
+  - Demand & Capacity
 categories:
   - Forecasting
+  - Neurology
+  - Demand & Capacity
 author:
   - name: Andrew Sharrock
     affiliation: The Walton Centre NHS Foundation Trust
