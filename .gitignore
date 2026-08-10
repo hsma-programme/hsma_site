@@ -5,3 +5,5 @@ current_projects
 *.pyc
 
 **/*.quarto_ipynb
+
+docs/
