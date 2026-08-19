@@ -327,7 +327,7 @@ HSMA 7 will represent our biggest rewrite since the programme began ten years ag
 - A renewed focus on the techniques we find have the most impact in services, with the discrete event simulation module expanding from 9 hours to over 30 hours of content
 - A new pipeline for project impact, with the lambda programme helping engage decision makers from the earliest stages, ensuring HSMA projects reflect organisational priorities and increasing opportunities for cross-organisation collaborative working
 - Changes to the peer support group (PSG) system, allowing people to select a PSG that matches their preferred learning style
-- A new focus on integrating cost analysis to help evidence
+- A new focus on integrating cost analysis to help evidence the potential impact of HSMA projects, supporting their adoption
 - A new 'phase 1.5' that bridges the gap between the training phase and the project phase, providing training on project management and supported sessions for project planning
 - A new 'phase 3' that provides support for project implementation and impact gathering
 - Brand new content on safe, effective and responsible use of AI coding assistance at different stages of your learning journey
