@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Project Case Studies – HSMA</title>
+<title>HSMA 7 – HSMA</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -48,7 +48,10 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-f1ffa37489099bfa37437e4dc2e8d24d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-00d3c7d8667432339bfa9a680145f83e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
+<link href="site_libs/quarto-contrib/value-box-styles-1.0.0/value-box.css" rel="stylesheet">
+<link href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/regular/style.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/splide-carousel-styles-1.0.0/splide-carousel.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
@@ -195,7 +198,7 @@ background-size: cover;
 <span class="menu-text">Lambda</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="./impact_stories.html" aria-current="page"> 
+    <a class="nav-link" href="./impact_stories.html"> 
 <span class="menu-text">Case Studies</span></a>
   </li>  
   <li class="nav-item dropdown ">
@@ -308,7 +311,7 @@ background-size: cover;
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page">
-      <h1 class="title">Project Case Studies</h1>
+      <h1 class="title">HSMA 7</h1>
                       </div>
   </div>
     
@@ -333,14 +336,261 @@ background-size: cover;
 
 
 <style>
-body {
-    text-align: center;
+.podcast-player {
+  max-width: 700px;
+  margin: 1.5rem auto;
+}
+
+.podcast-buttons {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.podcast-btn {
+  flex: 1;
+  background-color: #2563eb;
+  color: #d1d5db;
+  border: 2px solid #4b5563;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 999px;
+  transition: all 0.2s ease;
+  background-color: rgba(255,255,255,0.05);
+  border: 2px solid rgba(255,255,255,0.12);
+}
+
+.podcast-btn:hover {
+  background-color: #374151;
+  border-color: #6b7280;
+  color: #f9fafb;
+}
+
+.podcast-btn.active {
+  background-color: #2563eb;
+  color: white;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+}
+
+.podcast-btn.active:hover {
+  background-color: #1d4ed8;
+  border-color: #60a5fa;
+}
+
+.player-container {
+  min-height: 360px;
+}
+
+.amazon-music-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  width: 100%;
+  height: 175px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #0a2540 0%, #00A8E1 100%);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.05rem;
+  letter-spacing: 0.01em;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.amazon-music-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.amazon-music-cta svg {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+}
+
+.amazon-music-cta i {
+  font-size: 1.4rem;
+  flex-shrink: 0;
+}
+
+details {
+  margin: 0.75rem 0;
+  border: 1px solid var(--quarto-border-color);
+  border-radius: 0.5rem;
+  background: #740000;
+}
+
+details summary {
+  padding: 1rem 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+  color: #DDDDDD;
+
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary::after {
+  content: "+";
+  float: right;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+details[open] summary::after {
+  content: "−";
+}
+
+details > *:not(summary) {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+details > p:last-child {
+  padding-bottom: 1rem;
 }
 
 </style>
+<div class="columns">
+<div class="column" style="width:50%;">
+<p>Launching in <strong>Spring 2027</strong>, our seventh round of the Health Service Modelling Associates (HSMA) programme is a <strong>free of charge</strong> online training and mentoring programme for people working in health and social care organisations.</p>
+<p>Lasting <strong>15 months</strong> with a <strong>1 day a week commitment</strong>, HSMA teaches skills in programming, data science and operational research, before we then support participants to use these new skills on <strong>real projects</strong> for their organisation.</p>
+<p>HSMA can benefit people in various roles, including</p>
+<ul>
+<li>analysts</li>
+<li>operational service managers</li>
+<li>clinical leads</li>
+<li>junior doctors</li>
+<li>quality improvement leads</li>
+<li>GPs</li>
+<li>and more!</li>
+</ul>
+</div><div class="column" style="width:5%;">
 
-<p>Take a look at some of our impact case studies relating to our previous HSMA projects.</p>
-<p>Click on any poster to view it in full screen.</p>
+</div><div class="column" style="width:45%;">
+<div class="value-box " style="--vb-width:80%; --vb-min-height:100px; --vb-padding:1.5rem; --vb-text-align:center; --vb-bg:#3498db; --vb-justify-content:center; "><i class="icon fa-solid fa-lightbulb" style="font-size:3em; color:white; "></i><div class="vb-content" style=""><div class="details" style="color:white; ">
+<p>Curious about how to make better decisions with data in your organisation, but don’t have the time for the full HSMA programme?</p>
+<p>You might prefer HSMA-λ (HSMA-lambda) - our programme for decision makers - instead. It is a series of shorter, stand-alone workshops focussed on understanding the principles of the key techniques taught on HSMA, asking better questions, and giving you the knowledge to maximise the impact of HSMA projects in your organisation. λ participants will submit suggestions for HSMA projects, as well as having the opportunity to nominate individuals from their organisation for the programme.</p>
+<p>Find out more on our <a href="./lambda.html">λ page</a>.</p>
+</div></div></div>
+</div>
+</div>
+<p>Wondering if HSMA is worthwhile? Don’t just take our word for it - see what our previous students have to say.</p>
+<div class="value-box-row" style="--vb-row-gap:1.5rem; ">
+<div class="value-box " style="--vb-width:80%; --vb-min-height:100px; --vb-padding:1.5rem; --vb-text-align:center; --vb-bg:#740000; --vb-justify-content:center; "><div class="vb-content" style=""><div class="details" style="font-size:1.2rem; color:white; ">
+<p>“My HSMA journey has been a transformative experience, opening me up to new approaches to analytics in the NHS.”</p>
+</div></div></div>
+<div class="value-box " style="--vb-width:80%; --vb-min-height:100px; --vb-padding:1.5rem; --vb-text-align:center; --vb-bg:#740000; --vb-justify-content:center; "><div class="vb-content" style=""><div class="details" style="font-size:1.2rem; color:white; ">
+<p>“HSMA is an absolutely amazing programme that’s taken me from zero coding knowledge to inspiring me to want to go off and explore on my own.”</p>
+</div></div></div>
+<div class="value-box " style="--vb-width:80%; --vb-min-height:100px; --vb-padding:1.5rem; --vb-text-align:left; --vb-bg:#740000; --vb-justify-content:center; "><div class="vb-content" style=""><div class="details" style="font-size:1.2rem; color:white; ">
+<p>“I can honestly say it is the best training I’ve ever participated in. For the first time in a long time I feel really enthused about my work.”</p>
+</div></div></div>
+</div>
+<section id="how-does-the-programme-work" class="level2">
+<h2 class="anchored" data-anchor-id="how-does-the-programme-work">How Does the Programme Work?</h2>
+<p>The full HSMA experience is a live, 15-month programme with three distinct phases.</p>
+<div class="value-box-grid">
+<div class="value-box vb-icon-right " style="--vb-width:80%; --vb-min-height:100px; --vb-padding:1.5rem; --vb-text-align:left; --vb-bg:#3498db; --vb-align-items:center; "><i class="icon fa-solid fa-person-chalkboard" style="font-size:3em; color:white; "></i><div class="vb-content" style=""><div class="value" style="font-size:1.4rem; color:white; ">PHASE 1: Learn</div><div class="details" style="color:white; ">
+<p>A 6 month training phase in which participants learn the Python programming language, before progressing through simulation modelling, machine learning, website development and more.</p>
+<p>Participants are released from their usual role for one day a week - every Tuesday - joining the HSMA trainers online for live lectures and group work.</p>
+</div></div></div>
+<div class="value-box vb-icon-right " style="--vb-width:80%; --vb-min-height:100px; --vb-padding:1.5rem; --vb-text-align:left; --vb-bg:#3498db; --vb-align-items:center; "><i class="icon fa-solid fa-chart-gantt" style="font-size:3em; color:white; "></i><div class="vb-content" style=""><div class="value" style="font-size:1.4rem; color:white; ">PHASE 2: Apply</div><div class="details" style="color:white; ">
+<p>A 9 month project phase in which participants are supported to produce their own project using the new skills they have learned, applying operational research and data science techniques to a real problem within their organisation.</p>
+<p>Participants are expected to spend at least one day a week working on their project during this phase. The HSMA team will be available to answer queries on Tuesdays, with mentored projects receiving regular check-ins for guidance and support.</p>
+</div></div></div>
+<div class="value-box vb-icon-right " style="--vb-width:80%; --vb-min-height:100px; --vb-padding:1.5rem; --vb-text-align:left; --vb-bg:#3498db; --vb-align-items:center; "><i class="icon fa-solid fa-chart-line" style="font-size:3em; color:white; "></i><div class="vb-content" style=""><div class="value" style="font-size:1.4rem; color:white; ">PHASE 3: Implement</div><div class="details" style="color:white; ">
+<p>From month 15 onwards, participants will receive support to get their project work implemented, aiming to both generate and capture real impact.</p>
+</div></div></div>
+</div>
+</section>
+<section id="modules" class="level2">
+<h2 class="anchored" data-anchor-id="modules">Modules</h2>
+<p>HSMA 7 is centred around 4 key modules:</p>
+<div class="value-box-row vb-row-grid" style="--vb-row-columns:2; --vb-row-gap:1.5rem; ">
+<div class="value-box vb-icon-right " style="--vb-width:90%; --vb-min-height:100px; --vb-padding:1.5rem; --vb-text-align:left; --vb-bg:#740000; --vb-align-items:center; "><i class="icon ph ph-desktop-tower" style="font-size:3em; color:white; "></i><div class="vb-content" style=""><div class="value" style="font-size:1.4rem; color:white; ">Introduction to Operational Research, Data Science &amp; Programming</div><div class="details" style="color:white; ">
+<p>In this module, students will learn key principles underpinning operational research and data science.</p>
+<p>They will also be introduced to key concepts in computer programming and the Python programming language, ensuring even complete coding novices are equipped with the skills they need to access the rest of the course.</p>
+</div></div></div>
+<div class="value-box vb-icon-right " style="--vb-width:90%; --vb-min-height:100px; --vb-padding:1.5rem; --vb-text-align:left; --vb-bg:#740000; --vb-align-items:center; "><i class="icon ph ph-users-three" style="font-size:3em; color:white; "></i><div class="vb-content" style=""><div class="title" style="color:white; "><i>“I want to fix my delays, and see what works before I try it”</i></div><div class="value" style="font-size:1.6rem; color:white; ">Discrete Event Simulation</div><div class="details" style="color:white; ">
+<p>In this module, students are introduced to powerful simulation techniques that allow you to accurately model real-world systems and try out changes in a safe environment to see what works before implementing it in the real world.</p>
+<p>Students learn to develop robust models aligning with best practices, as well as cutting-edge techniques for visualising flow in systems.</p>
+</div></div></div>
+<div class="value-box vb-icon-right " style="--vb-width:90%; --vb-min-height:100px; --vb-padding:1.5rem; --vb-text-align:left; --vb-bg:#740000; --vb-align-items:center; "><i class="icon ph ph-globe-hemisphere-west" style="font-size:3em; color:white; "></i><div class="vb-content" style=""><div class="title" style="color:white; "><i>“Where is demand, and where should I put my services?”</i></div><div class="value" style="font-size:1.6rem; color:white; ">Geographic Modelling</div><div class="details" style="color:white; ">
+<p>In this module, students learn key geographic principles and how to create high-quality maps.</p>
+<p>They are also introduced to advanced operational research techniques for solving problems around where to place services in the face of competing priorities like equity of access, costs, and net zero goals.</p>
+</div></div></div>
+<div class="value-box vb-icon-right " style="--vb-width:90%; --vb-min-height:100px; --vb-padding:1.5rem; --vb-text-align:left; --vb-bg:#740000; --vb-align-items:center; "><i class="icon ph ph-brain" style="font-size:3em; color:white; "></i><div class="vb-content" style=""><div class="title" style="color:white; "><i>“I want to identify patients to target with interventions”</i></div><div class="value" style="font-size:1.6rem; color:white; ">Machine Learning</div><div class="details" style="color:white; ">
+<p>In this module, students learn the key principles of supervised machine learning, allowing them to train machine learning models designed to support operational improvements to services through better targeting of interventions.</p>
+<p>They are also introduced to issues around model bias, ethics, legal issues, and model explainability.</p>
+</div></div></div>
+</div>
+</section>
+<section id="other-skills" class="level2">
+<h2 class="anchored" data-anchor-id="other-skills">Other skills</h2>
+<p>Weaved into the modules, HSMAs will also learn valuable techniques for sharing their projects with non-technical stakeholders and working with data more effectively in their day-to-day roles.</p>
+<div class="value-box-row vb-row-grid" style="--vb-row-columns:2; --vb-row-gap:1.5rem; ">
+<div class="value-box vb-icon-left " style="--vb-width:80%; --vb-min-height:100px; --vb-padding:1.5rem; --vb-text-align:left; --vb-bg:#3498db; --vb-align-items:center; "><i class="icon fa-solid fa-laptop-code" style="font-size:3em; color:white; "></i><div class="vb-content" style=""><div class="value" style="font-size:1.6rem; color:white; ">Web Application Development</div><div class="details" style="color:white; ">
+<p>Students will learn to use the Streamlit app framework, allowing them to create engaging interactive web apps to bring powerful techniques like simulation into the hands of non-coders</p>
+</div></div></div>
+<div class="value-box vb-icon-left " style="--vb-width:80%; --vb-min-height:100px; --vb-padding:1.5rem; --vb-text-align:left; --vb-bg:#3498db; --vb-align-items:center; "><i class="icon fa-solid fa-newspaper" style="font-size:3em; color:white; "></i><div class="vb-content" style=""><div class="value" style="font-size:1.6rem; color:white; ">Interactive Reporting</div><div class="details" style="color:white; ">
+<p>Students will learn Quarto, a publishing system that allows them to build parameterised data-driven static and interactive reports</p>
+</div></div></div>
+<div class="value-box vb-icon-left " style="--vb-width:80%; --vb-min-height:100px; --vb-padding:1.5rem; --vb-text-align:left; --vb-bg:#3498db; --vb-align-items:center; "><i class="icon fa-solid fa-chart-simple" style="font-size:3em; color:white; "></i><div class="vb-content" style=""><div class="value" style="font-size:1.6rem; color:white; ">Data Visualisation</div><div class="details" style="color:white; ">
+<p>Students will learn to generate engagings static and interactive charts and maps in Python with industry-standard packages</p>
+</div></div></div>
+<div class="value-box vb-icon-left " style="--vb-width:80%; --vb-min-height:100px; --vb-padding:1.5rem; --vb-text-align:left; --vb-bg:#3498db; --vb-align-items:center; "><i class="icon fa-solid fa-robot" style="font-size:3em; color:white; "></i><div class="vb-content" style=""><div class="value" style="font-size:1.6rem; color:white; ">Automation</div><div class="details" style="color:white; ">
+<p>Students can combine these techniques to automate and improve regular reporting</p>
+</div></div></div>
+</div>
+</section>
+<section id="still-not-convinced-lets-hear-from-a-few-more-previous-students" class="level2">
+<h2 class="anchored" data-anchor-id="still-not-convinced-lets-hear-from-a-few-more-previous-students">Still not convinced? Let’s hear from a few more previous students…</h2>
+<div class="value-box-row" style="--vb-row-gap:1.5rem; ">
+<div class="value-box " style="--vb-width:80%; --vb-min-height:100px; --vb-padding:1.5rem; --vb-text-align:center; --vb-bg:#740000; --vb-justify-content:center; "><div class="vb-content" style=""><div class="details" style="font-size:1.2rem; color:white; ">
+<p>“The wealth of information and resources made available to me from this course will continue to be used for years.”</p>
+</div></div></div>
+<div class="value-box " style="--vb-width:80%; --vb-min-height:100px; --vb-padding:1.5rem; --vb-text-align:center; --vb-bg:#740000; --vb-justify-content:center; "><div class="vb-content" style=""><div class="details" style="font-size:1.2rem; color:white; ">
+<p>“This is by far the most enjoyable course I’ve undertaken in this career to date.”</p>
+</div></div></div>
+<div class="value-box " style="--vb-width:80%; --vb-min-height:100px; --vb-padding:1.5rem; --vb-text-align:center; --vb-bg:#740000; --vb-justify-content:center; "><div class="vb-content" style=""><div class="details" style="font-size:1.2rem; color:white; ">
+<p>“The HSMA community is just wonderful - really friendly, open and collaborative. The teaching was well paced and I was made to feel like there were no silly questions. As a complete code novice, I really appreciated it!”</p>
+</div></div></div>
+</div>
+<div style="display: flex; justify-content: center; align-items: center;">
+<div class="value-box " style="--vb-width:80%; --vb-min-height:100px; --vb-padding:1.5rem; --vb-text-align:center; --vb-bg:#740000; --vb-justify-content:center; "><div class="vb-content" style=""><div class="details" style="font-size:1.2rem; color:white; ">
+<p>“Since completing the HSMA programme, I’ve found myself coding a lot more in my day-to-day role, which has really improved both the efficiency and depth of my work.</p>
+<p>It’s also shifted how I approach problem-solving, I now think more analytically and am more confident in exploring data-driven solutions.</p>
+<p>Off the back of the course, we’ve even set up a data science group within the team, which has created a space to share knowledge, collaborate on projects, and continue building on what I learned during HSMA.”</p>
+</div></div></div>
+</div>
+</section>
+<section id="big-changes-from-hsma-7" class="level2">
+<h2 class="anchored" data-anchor-id="big-changes-from-hsma-7">Big changes from HSMA 7</h2>
+<p>The HSMA programme is always evolving to keep up with the changing world of data science and improve based on student feedback.</p>
+<p>HSMA 7 will represent our biggest rewrite since the programme began ten years ago!</p>
+<ul>
+<li>A renewed focus on the techniques we find have the most impact in services, with the discrete event simulation module expanding from 9 hours to over 30 hours of content</li>
+<li>A new pipeline for project impact, with the lambda programme helping engage decision makers from the earliest stages, ensuring HSMA projects reflect organisational priorities and increasing opportunities for cross-organisation collaborative working</li>
+<li>Changes to the peer support group (PSG) system, allowing people to select a PSG that matches their preferred learning style</li>
+<li>A new focus on integrating cost analysis to help evidence</li>
+<li>A new ‘phase 1.5’ that bridges the gap between the training phase and the project phase, providing training on project management and supported sessions for project planning</li>
+<li>A new ‘phase 3’ that provides support for project implementation and impact gathering</li>
+<li>Brand new content on safe, effective and responsible use of AI coding assistance at different stages of your learning journey</li>
+</ul>
+</section>
+<section id="what-have-hsma-projects-achieved" class="level2">
+<h2 class="anchored" data-anchor-id="what-have-hsma-projects-achieved">What have HSMA projects achieved?</h2>
+<p>Take a look at our case studies to find out more about the impact of just some of our HSMA projects from across the years.</p>
 <section id="splide-carousel-1" class="splide splide-carousel" aria-label="Beautiful Images" style="--splide-toggle-color: #ffffff;">
   <div class="splide__optional-button-container">
     <button class="splide__toggle" type="button">
@@ -418,8 +668,190 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 
+</section>
+<section id="impact-magazine-article" class="level2">
+<h2 class="anchored" data-anchor-id="impact-magazine-article">Impact magazine article</h2>
+<p>Our recent article in the Operational Research Society’s Impact magazine provides a great overview of some more HSMA impacts.</p>
+<iframe src="https://e.issuu.com/embed.html?u=orsimpact&amp;d=impact_spring_2026&amp;pageNumber=25" style="border:none; width: 1100px; height: 600px;" allow="clipboard-write,allow-top-navigation,allow-top-navigation-by-user-activation,allow-downloads,allow-scripts,allow-same-origin,allow-popups,allow-modals,allow-popups-to-escape-sandbox,allow-forms" allowfullscreen="true">
+</iframe>
+</section>
+<section id="faqs" class="level2">
+<h2 class="anchored" data-anchor-id="faqs">FAQs</h2>
+<section id="eligibility-and-applications" class="level3">
+<h3 class="anchored" data-anchor-id="eligibility-and-applications">Eligibility and Applications</h3>
+<details>
+<summary>
+Who is eligible?
+</summary>
+<p>HSMA is open to anyone in England working within the NHS, including clinicians, managers, and other staff.</p>
+<p>We base eligibility on the location of the organisation an individual is employed with as opposed to the location of the applicant. Therefore, someone based in Wales but working for an English NHS trust would be eligible.</p>
+<p>In addition to the NHS, HSMA is open to those working in councils and third-sector healthcare organisations (e.g.&nbsp;hospices, air ambulances, healthcare charities).</p>
+</details>
+<details>
+<summary>
+Do applicants have to be referred via the lambda programme?
+</summary>
+<p>No - while we strongly encourage the referral of participants via lambda, we will accept general applications as well.</p>
+</details>
+<details>
+<summary>
+What are the prior requirements?
+</summary>
+<p>We do not require participants to have ever done any coding before. Based on feedback from previous rounds of the programme, we have expanded our beginner programming content significantly (though we are confident there is still plenty of value in )</p>
+<p>We do find that a good level of general computer literacy is a strong predictor of success on the HSMA programme. This encompasses skills like file and folder management and confidence in basic troubleshooting.</p>
+<p>Beyond that, there are no hard requirements around prior experience with programming, data science, statistics, or maths.</p>
+<p>We are looking for motivated individuals with a willingness to learn, and for strong institutional backing to make use of the skills taught on HSMA for improving health services.</p>
+</details>
+<details>
+<summary>
+How many spaces are available on HSMA?
+</summary>
+<p>HSMA 6 was our largest ever cohort, taking on over 170 students from across England.</p>
+<p>We will always take on as many people as we can that would benefit from the programme. However, we may need to cap numbers in the event of an unprecedented number of applications so that we are able to ensure a good experience for everyone accepted onto the course.</p>
+</details>
+<details>
+<summary>
+Is there a limit on the number of people who can apply from each organisation?
+</summary>
+<p>There is no limit on the number of applicants from a single organisation.</p>
+<p>In fact, we strongly encourage organisations to send multiple people onto the programme if they can. Previous students have reported finding it extremely useful to have other people working through the course at the same time.</p>
+<p>We also find that projects are often very successful when worked on by multiple people from the same organisation. Computer programming and data science is an activity best done when you have other people to work with to review your work, challenge your ideas, and divide up the work.</p>
+</details>
+<details>
+<summary>
+Can you guarantee that I will be accepted onto the programme if I apply?
+</summary>
+<p>We cannot guarantee acceptance onto HSMA, regardless of whether a participant is referred via the HSMA lambda programme or if they are a general applicant.</p>
+<p>We will always strive to support as many people as possible to join the programme, but may have to reject participants if there is insufficient evidence of interest in using and applying the skills of the programme to real-world problems, or a lack of organisational support for protecting the learner’s time and supporting project work.</p>
+</details>
+<details>
+<summary>
+How do I apply?
+</summary>
+<p>Applications have not yet opened for HSMA 7.</p>
+<p>We anticipate opening applications in <strong>early 2027</strong>.</p>
+<p>To be kept up to date with the launch of HSMA, we recommend emailing us at <code>penchord@exeter.ac.uk</code> (or click <a href="mailto:penchord@exeter.ac.uk?subject=Add%20me%20to%20the%20HSMA%20Mailing%20List%2C%20Please!&amp;body=Please%20complete%20the%20fields%20below%20to%20be%20added%20to%20the%20HSMA%20mailing%20list%0A%0AFull%20Name%3A%0A%0AOrganisation%3A%0A%0A**This%20is%20an%20automatically%20generated%20email%20from%20a%20link%20on%20the%20HSMA%20website**">here</a> to open a template email in your default email program).</p>
+<p>You can also follow us <a href="https://www.linkedin.com/company/hsma-programme/">on LinkedIn</a>.</p>
+</details>
+</section>
+<section id="life-on-hsma" class="level3">
+<h3 class="anchored" data-anchor-id="life-on-hsma">Life on HSMA</h3>
+<details>
+<summary>
+What is the weekly commitment?
+</summary>
+<p>Students are expected to attend all live sessions, which will run on Tuesdays, for the 6 month training phase. Training runs from 9:30 am to 4:30 pm, with a one hour lunch break and comfort breaks throughout the day.</p>
+<p>While we do not mandate any time beyond that, students have reported that they find it useful to have a couple of additional hours set aside each for review and consolidation of the week’s work.</p>
+<p>We do recognise and support the need for students to take annual leave during this time, but would recommend that time is set aside for catching up with the recordings of missed sessions, which are generally made available the next day.</p>
+</details>
+<details>
+<summary>
+What does a typical HSMA day look like?
+</summary>
+<p>A typical HSMA day will involve a mixture of live lectures, group discussions, and programming exercises.</p>
+<p>All HSMA sessions are run via Zoom.</p>
+<p>The morning session runs from 09:30 to 12:30, with a 1 hour break for lunch, before resuming from 13:30 to 16:30. Opportunities for short comfort breaks will be provided throughout the day.</p>
+</details>
+<details>
+<summary>
+What software is required?
+</summary>
+<p>Everything taught on HSMA uses software that is available completely free of charge.</p>
+<p>HSMAs will require access to the Python programming language on their work device, as well as the ability to install a variety of Python packages. Complementary software like <a href="https://quarto.org/">Quarto</a> and <a href="https://positron.posit.co/">Positron</a> will be required, as well as the desktop version of <a href="https://www.zoom.com/">Zoom</a>.</p>
+<p>A full list of software requirements will be released when applications open.</p>
+</details>
+<details>
+<summary>
+What qualifications will I obtain from HSMA?
+</summary>
+<p>HSMA does not confer a specific qualification, but participants will have the option to present project work demonstrating application of skills learned on HSMA to receive a certificate of completion of the programme.</p>
+<p>HSMA as a course is <a href="https://www.aphanalysts.org/">accredited by the Association for Professional Healthcare Analysts (AphA)</a>.</p>
+<p>Some of our alumni have gone on to do an MSc in health data science, with two alumni being graduates of the <a href="https://www.exeter.ac.uk/masters-degrees/msc-health-data-science/">University of Exeter’s Health Data Science MSc</a>.</p>
+<p>You can hear more about the journey of HSMA 5 alumna Kayleigh Haydock, who completed her MSc in 2026, on our podcast.</p>
+<div class="podcast-player">
+<div class="podcast-buttons">
+<button type="button" class="podcast-btn active" data-platform="spotify">
+Listen on Spotify
+</button>
+<button type="button" class="podcast-btn" data-platform="apple">
+Listen on Apple Podcasts
+</button>
+<button type="button" class="podcast-btn" data-platform="amazon">
+Listen on Amazon Music
+</button>
+</div>
+<div id="podcast-player-container" class="player-container">
+
+</div>
+</div>
+<script>
+(function () {
+  const spotifyUrl = "https://open.spotify.com/embed/episode/31qozpCajp2OA8hUnXyrFm?utm_source=generator&theme=0&t=0&si=80245d4cad4e4eee";
+  const appleUrl = "https://embed.podcasts.apple.com/us/podcast/1-the-case-of-the-curious-dancer/id6783287179?i=1000773862239";
+  const amazonUrl = "https://music.amazon.co.uk/podcasts/9e4dcd5b-036d-4ab1-a44b-12fd5a128507/episodes/4b33a8a6-e089-4026-86dc-448eb6c2ae79/python-they-wrote-the-hsma-podcast-1-the-case-of-the-curious-dancer"; // placeholder: add amazon_url to the .qmd front matter
+
+  const spotifyEmbed = `
+<iframe
+  style="border-radius:12px"
+  src="${spotifyUrl}"
+  width="100%"
+  height="352"
+  frameborder="0"
+  allowfullscreen
+  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+  loading="lazy">
+</iframe>`;
+
+  const appleEmbed = `
+<iframe
+  allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
+  frameborder="0"
+  height="175"
+  style="width:100%;overflow:hidden;border-radius:12px;"
+  sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+  src="${appleUrl}">
+</iframe>`;
+
+const amazonButton = `
+<a href="${amazonUrl}" target="_blank" rel="noopener" class="amazon-music-cta">
+  <i class="fa-brands fa-amazon"></i>
+  Click here to go to Amazon Music
+</a>`;
+
+  const embeds = {
+    spotify: spotifyEmbed,
+    apple: appleEmbed,
+    amazon: amazonButton,
+  };
+
+  const container = document.getElementById("podcast-player-container");
+  container.innerHTML = spotifyEmbed;
+
+  document.querySelectorAll(".podcast-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      container.innerHTML = embeds[btn.dataset.platform];
+      document.querySelectorAll(".podcast-btn").forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+    });
+  });
+})();
+</script>
+<p>Note that while we are affiliated with the University of Exeter, we are not a credit-awarding course.</p>
+</details>
+</section>
+<section id="other" class="level3">
+<h3 class="anchored" data-anchor-id="other">Other</h3>
+<details>
+<summary>
+Do you offer bespoke training for teams?
+</summary>
+<p>Due to the capacity within the HSMA team, we do not offer bespoke or intensive training for teams.</p>
+<p>However, all of our course material from previous years is freely available for non-commercial adaptation and reuse (with attribution to the HSMA team). HSMA alumni and other people around the world have successfully delivered our sessions to other learners.</p>
+</details>
 
 
+</section>
+</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
