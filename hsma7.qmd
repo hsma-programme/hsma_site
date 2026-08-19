@@ -269,19 +269,19 @@ Weaved into the modules, HSMAs will also learn valuable techniques for sharing t
 
 ::::{.value-box-row columns="2"}
 
-::: {.value-box value="Web Application Development" icon="fa-solid fa-laptop-code" icon-position="left" value-font-size="1.6rem" color="#3498db"}
+::: {.value-box value="Web Application Development" icon="fa-solid fa-laptop-code" icon-position="left" value-font-size="1.6rem" color="#3498db" width="90%" }
 Students will learn to use the Streamlit app framework, allowing them to create engaging interactive web apps to bring powerful techniques like simulation into the hands of non-coders
 :::
 
-::: {.value-box value="Interactive Reporting" icon="fa-solid fa-newspaper" icon-position="left" value-font-size="1.6rem" color="#3498db"}
+::: {.value-box value="Interactive Reporting" icon="fa-solid fa-newspaper" icon-position="left" value-font-size="1.6rem" color="#3498db" width="90%"}
 Students will learn Quarto, a publishing system that allows them to build parameterised data-driven static and interactive reports
 :::
 
-::: {.value-box value="Data Visualisation" icon="fa-solid fa-chart-simple" icon-position="left" value-font-size="1.6rem" color="#3498db"}
+::: {.value-box value="Data Visualisation" icon="fa-solid fa-chart-simple" icon-position="left" value-font-size="1.6rem" color="#3498db" width="90%"}
 Students will learn to generate engaging static and interactive charts and maps in Python with industry-standard packages
 :::
 
-::: {.value-box value="Automation" icon="fa-solid fa-robot" icon-position="left" value-font-size="1.6rem" color="#3498db"}
+::: {.value-box value="Automation" icon="fa-solid fa-robot" icon-position="left" value-font-size="1.6rem" color="#3498db" width="90%"}
 Students can combine these techniques to automate and improve regular reporting
 :::
 
