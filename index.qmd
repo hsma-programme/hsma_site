@@ -109,11 +109,11 @@ Recordings of previous course sessions, as well as all of our course materials a
 ```
 
 :::{.callout-important appearance="minimal"}
-We are currently working on updating and improving HSMA ahead of the 7^th^ round of the programme, which we hope to launch in **early 2027**. There's some really exciting stuff planned for this round, so stay tuned!
+We are currently working on updating and improving HSMA ahead of the 7^th^ round of the programme, which we hope to launch in **early 2027**. There's some really exciting stuff planned for this round, so stay tuned! In the meantime, head to our [HSMA 7 page](hsma7.qmd) to find out more about what we'll be teaching, what's changed since HSMA 6, and answers to common questions.
 
 We are also putting together a new series of standalone workshops aimed at senior leaders, called HSMA-λ (lambda), which we hope to run in **Autumn 2026**. Click [here](lambda.qmd) to find out more.
 
-If you are interested in being kept up to date with HSMA and being notified of when applications for core HSMA or lambda open, please [drop us an email](mailto:penchord@exeter.ac.uk?subject=Add%20me%20to%20the%20HSMA%20Mailing%20List%2C%20Please!&body=Please%20complete%20the%20fields%20below%20to%20be%20added%20to%20the%20HSMA%20mailing%20list%0A%0AFull%20Name%3A%0A%0AOrganisation%3A%0A%0A**This%20is%20an%20automatically%20generated%20email%20from%20a%20link%20on%20the%20HSMA%20website**) and we will keep you informed via our mailing list.
+If you are interested in being kept up to date with HSMA and being notified of when applications for HSMA 7 or HSMA-λ open, please [drop us an email](mailto:penchord@exeter.ac.uk?subject=Add%20me%20to%20the%20HSMA%20Mailing%20List%2C%20Please!&body=Please%20complete%20the%20fields%20below%20to%20be%20added%20to%20the%20HSMA%20mailing%20list%0A%0AFull%20Name%3A%0A%0AOrganisation%3A%0A%0A**This%20is%20an%20automatically%20generated%20email%20from%20a%20link%20on%20the%20HSMA%20website**) and we will keep you informed via our mailing list.
 
 You can also follow us on [LinkedIn](https://www.linkedin.com/company/hsma-programme/).
 
@@ -122,49 +122,6 @@ You can also follow us on [LinkedIn](https://www.linkedin.com/company/hsma-progr
 ```{=html}
 <br/>
 ```
-
-## How Does the Programme Work?
-
-The full HSMA experience is a live, 15-month programme with two distinct phases.
-
-:::: {.columns}
-
-::: {.column width="45%"}
-
-:::{.callout-note appearance="minimal"}
-
-### PHASE 1
-```{=html}
-<br/>
-```
-A 6 month training phase in which participants learn the Python programming language, before progressing through simulation modelling, machine learning, website development and more.
-
-Participants are released from their usual role for one day a week, joining the HSMA trainers online for live lectures and group work.
-
-:::
-
-:::
-
-::: {.column width="10%"}
-<!-- empty column to create gap -->
-:::
-
-::: {.column width="45%"}
-
-:::{.callout-note appearance="minimal"}
-
-### PHASE 2
-```{=html}
-<br/>
-```
-A 9 month project phase in which participants are supported to produce their own project using the new skills they have learned, applying operational research and data science techniques to a real problem within their organisation.
-
-Participants are expected to spend at least one day a week working on their project during this phase.
-:::
-
-:::
-
-::::
 
 ```{=html}
 <br/><br/>

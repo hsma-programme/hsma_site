@@ -25,7 +25,7 @@ website:
     position: below-navbar
   page-footer:
     center: |
-      [![](/resources/ARC-logo-horizontal-white.svg){width=250px}](https://arc-swp.nihr.ac.uk/)<br/><br/>
+      [![](/resources/nihr_logo.png){width=250px}](https://arc-sw.nihr.ac.uk/)<br/><br/>
       *This work is independent research supported by the National Institute for Health and Care Research Applied Research Collaboration South West.
       The views expressed in this publication are those of the author(s) and not necessarily those of the National Institute for Health and Care Research
       or the Department of Health and Social Care.*
@@ -58,11 +58,23 @@ website:
       - href: index.qmd
         text: Welcome
 
+      - text: "HSMA 7"
+        href: hsma7.qmd
+
+      - text: "Lambda"
+        href: lambda.qmd
+
       - href: hsma_content/books/books.qmd
         text: Books
 
       - href: hsma_content/modules/modules.qmd
         text: Modules
+
+      - href: news.qmd
+        text: News
+
+      - href: impact_stories.qmd
+        text: Case Studies
 
       - text: "Projects"
         menu:
@@ -83,13 +95,16 @@ website:
           - href: previous_projects/completed_projects.qmd
             text: Completed Projects
 
-      - text: "Lambda"
-        href: lambda.qmd
+      - text: "Resources"
+        menu:
+          - href: hsma_content/des_playground.qmd
+            text: The DES Playground
+          - href: hsma_content/reinforcement_learning_game.qmd
+            text: Reinforcement Learning Game
+          - href: hsma_content/desperately_seeking_simulation_workshop.qmd
+            text: HSMA Lambda Pilot - Simulation Workshop
 
-      - href: impact_stories.qmd
-        text: Case Studies
-
-      - text: "Student Resources"
+      - text: "Student Area"
         menu:
           - href: project_log_recording_app.qmd
             text: Project Log Recording App
@@ -101,18 +116,6 @@ website:
             text: Registering a Project
           - href: project_faqs.qmd
             text: Project FAQs
-
-      - text: "Other Resources"
-        menu:
-          - href: hsma_content/des_playground.qmd
-            text: The DES Playground
-          - href: hsma_content/reinforcement_learning_game.qmd
-            text: Reinforcement Learning Game
-          - href: hsma_content/desperately_seeking_simulation_workshop.qmd
-            text: HSMA Lambda Pilot - Simulation Workshop
-
-      - href: news.qmd
-        text: News
 
       - text: "About"
         menu:

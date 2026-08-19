@@ -161,10 +161,12 @@ HSMA can benefit people in various roles, including
 
 ::: {.column width='45%'}
 
-::: {.value-box color="#3498db" align="center" icon="fa-solid fa-lightbulb" icon-position="top"}
-Curious about how to make better decisions with data in your organisation, but don't have the time for the full HSMA programme?
+::: {.value-box color="#3498db" align="center" icon="fa-solid fa-lightbulb" icon-position="top" width="90%"}
+Curious about how to make better decisions with data in your organisation, but not wanting to get involved in writing the code yourself?
 
-You might prefer HSMA-λ (HSMA-lambda) - our programme for decision makers - instead. It is a series of shorter, stand-alone workshops focussed on understanding the principles of the key techniques taught on HSMA, asking better questions, and giving you the knowledge to maximise the impact of HSMA projects in your organisation. λ participants will submit suggestions for HSMA projects, as well as having the opportunity to nominate individuals from their organisation for the programme.
+You might prefer HSMA-λ (HSMA-lambda) - our programme for decision makers - instead. It is a series of shorter, stand-alone workshops focussed on understanding the principles of the key techniques taught on HSMA, asking better questions, and giving you the knowledge to maximise the impact of HSMA projects in your organisation.
+
+λ participants will submit suggestions for HSMA projects, as well as having the opportunity to nominate individuals from their organisation for the main programme.
 
 Find out more on our [λ page](lambda.qmd).
 :::
@@ -187,7 +189,7 @@ Wondering if HSMA is worthwhile? Don't just take our word for it - see what our 
 "HSMA is an absolutely amazing programme that's taken me from zero coding knowledge to inspiring me to want to go off and explore on my own."
 :::
 
-::: {.value-box color="#740000" font-size="1.2rem"}
+::: {.value-box align="center" color="#740000" font-size="1.2rem"}
 "I can honestly say it is the best training I've ever participated in. For the first time in a long time I feel really enthused about my work."
 :::
 
@@ -273,7 +275,7 @@ Students will learn Quarto, a publishing system that allows them to build parame
 :::
 
 ::: {.value-box value="Data Visualisation" icon="fa-solid fa-chart-simple" icon-position="left" value-font-size="1.6rem" color="#3498db"}
-Students will learn to generate engagings static and interactive charts and maps in Python with industry-standard packages
+Students will learn to generate engaging static and interactive charts and maps in Python with industry-standard packages
 :::
 
 ::: {.value-box value="Automation" icon="fa-solid fa-robot" icon-position="left" value-font-size="1.6rem" color="#3498db"}
@@ -296,11 +298,11 @@ Students can combine these techniques to automate and improve regular reporting
 :::
 
 ::: {.value-box align="center" color="#740000" font-size="1.2rem" align="center"}
-"This is by far the most enjoyable course I've undertaken in this career to date."
+"The HSMA community is just wonderful - really friendly, open and collaborative. The teaching was well paced and I was made to feel like there were no silly questions. As a complete code novice, I really appreciated it!"
 :::
 
 ::: {.value-box align="center" color="#740000" font-size="1.2rem" align="center"}
-"The HSMA community is just wonderful - really friendly, open and collaborative. The teaching was well paced and I was made to feel like there were no silly questions. As a complete code novice, I really appreciated it!"
+"This is by far the most enjoyable course I've undertaken in this career to date."
 :::
 
 ::::
@@ -310,7 +312,7 @@ Students can combine these techniques to automate and improve regular reporting
 ::: {.value-box align="center" color="#740000" font-size="1.2rem"}
 "Since completing the HSMA programme, I’ve found myself coding a lot more in my day-to-day role, which has really improved both the efficiency and depth of my work.
 
-It’s also shifted how I approach problem-solving, I now think more analytically and am more confident in exploring data-driven solutions.
+It’s also shifted how I approach problem-solving. I now think more analytically and am more confident in exploring data-driven solutions.
 
 Off the back of the course, we’ve even set up a data science group within the team, which has created a space to share knowledge, collaborate on projects, and continue building on what I learned during HSMA."
 :::
@@ -369,9 +371,9 @@ No - while we strongly encourage the referral of participants via lambda, we wil
 </details>
 
 <details>
-<summary>What are the prior requirements?</summary>
+<summary>What skills are applicants required to have before joining?</summary>
 
-We do not require participants to have ever done any coding before. Based on feedback from previous rounds of the programme, we have expanded our beginner programming content significantly (though we are confident there is still plenty of value in )
+We do not require participants to have ever done any coding before. Based on feedback from previous rounds of the programme, we have expanded our beginner programming content significantly (though we are confident there is still plenty of value in this content for people with prior programming experience as we teach advanced content, good habits, and tips and tricks picked up from over 50 years of programming experience across the team!).
 
 We do find that a good level of general computer literacy is a strong predictor of success on the HSMA programme. This encompasses skills like file and folder management and confidence in basic troubleshooting.
 
@@ -443,6 +445,8 @@ We do recognise and support the need for students to take annual leave during th
 A typical HSMA day will involve a mixture of live lectures, group discussions, and programming exercises.
 
 All HSMA sessions are run via Zoom.
+
+Group exercises are undertaken in online breakout rooms of up to 15 people, with participants given the opportunity to select a 'peer support group (PSG)' that matches their preferred learning style when joining HSMA. Students will stay with their PSG throughout the whole programme, building connections and confidence as a group.
 
 The morning session runs from 09:30 to 12:30, with a 1 hour break for lunch, before resuming from 13:30 to 16:30. Opportunities for short comfort breaks will be provided throughout the day.
 
@@ -542,7 +546,7 @@ const amazonButton = `
 
 
 
-Note that while we are affiliated with the University of Exeter, we are not a credit-awarding course.
+Note that while we are associated with the University of Exeter, we are not a credit-awarding course.
 
 </details>
 
@@ -554,6 +558,6 @@ Note that while we are affiliated with the University of Exeter, we are not a cr
 
 Due to the capacity within the HSMA team, we do not offer bespoke or intensive training for teams.
 
-However, all of our course material from previous years is freely available for non-commercial adaptation and reuse (with attribution to the HSMA team). HSMA alumni and other people around the world have successfully delivered our sessions to other learners.
+However, [all of our course material from previous years](hsma_content/modules/modules.qmd) is freely available for non-commercial adaptation and reuse (with attribution to the HSMA team). HSMA alumni and other people around the world have successfully delivered our sessions to other learners.
 
 </details>
