@@ -65,7 +65,7 @@ h2-uncap {
 
 ## What is HSMA?
 
-The Health Service Modelling Associates (HSMA) Programme teaches public sector analysts, clinicians and managers how to use **data science** and **operational research** techniques, as well as supporting them to apply these techniques in their organisations.
+The Health Service Modelling Associates (HSMA) Programme is an **online** programme teaching public sector analysts, clinicians and managers how to use **data science** and **operational research** techniques, as well as supporting them to apply these techniques in their organisations.
 
 The full HSMA course experience is provided **free of charge** to people working in health, social care and policing organisations in England.
 
