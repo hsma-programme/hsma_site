@@ -1,5 +1,5 @@
 ---
-title: "HSMA Modules"
+title: "HSMA 6 Modules"
 toc: false
 title-block-banner: ../banner.png
 include-back-link: false
@@ -19,11 +19,18 @@ listing:
       template: ../../html/modules/module_listing.ejs
 ---
 
-The slides, exercises and content from the HSMA session is freely available for everyone to access!
+
+::: {.callout-tip}
+
+The content below relates to the now complete HSMA 6, which ran from April 2024 to June 2025.
+
+All of this content can be freely accessed if you want to learn these things outside of a dedicated HSMA cycle or are not eligible to join the next round of the HSMA programme.
 
 Click into the module you are interested in to find a full list of the sessions within that module, including links to the session recording, the slides, and the code-based exercises and solutions.
 
 Prefer to read a summary of the content covered in these sessions? Head to the [books](../books/books.qmd) page instead.
+
+:::
 
 
 :::{.callout-note}

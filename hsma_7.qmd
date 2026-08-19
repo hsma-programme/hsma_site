@@ -1,0 +1,559 @@
+---
+title: "HSMA 7"
+toc: false
+title-block-banner: resources/banner.png
+include-back-link: false
+page-layout: full
+filters:
+    - value-box
+    - splide-carousel
+---
+
+<style>
+.podcast-player {
+  max-width: 700px;
+  margin: 1.5rem auto;
+}
+
+.podcast-buttons {
+  display: flex;
+  gap: 0.75rem;
+  margin-bottom: 1rem;
+}
+
+.podcast-btn {
+  flex: 1;
+  background-color: #2563eb;
+  color: #d1d5db;
+  border: 2px solid #4b5563;
+  padding: 0.8rem 1.2rem;
+  font-size: 1rem;
+  font-weight: 600;
+  text-align: center;
+  cursor: pointer;
+  border-radius: 999px;
+  transition: all 0.2s ease;
+  background-color: rgba(255,255,255,0.05);
+  border: 2px solid rgba(255,255,255,0.12);
+}
+
+.podcast-btn:hover {
+  background-color: #374151;
+  border-color: #6b7280;
+  color: #f9fafb;
+}
+
+.podcast-btn.active {
+  background-color: #2563eb;
+  color: white;
+  border-color: #3b82f6;
+  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+}
+
+.podcast-btn.active:hover {
+  background-color: #1d4ed8;
+  border-color: #60a5fa;
+}
+
+.player-container {
+  min-height: 360px;
+}
+
+.amazon-music-cta {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 0.6rem;
+  width: 100%;
+  height: 175px;
+  border-radius: 12px;
+  background: linear-gradient(135deg, #0a2540 0%, #00A8E1 100%);
+  color: #fff;
+  text-decoration: none;
+  font-weight: 600;
+  font-size: 1.05rem;
+  letter-spacing: 0.01em;
+  transition: transform 0.15s ease, box-shadow 0.15s ease;
+  box-shadow: 0 2px 8px rgba(0, 0, 0, 0.15);
+}
+
+.amazon-music-cta:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 16px rgba(0, 0, 0, 0.2);
+}
+
+.amazon-music-cta svg {
+  width: 28px;
+  height: 28px;
+  flex-shrink: 0;
+}
+
+.amazon-music-cta i {
+  font-size: 1.4rem;
+  flex-shrink: 0;
+}
+
+details {
+  margin: 0.75rem 0;
+  border: 1px solid var(--quarto-border-color);
+  border-radius: 0.5rem;
+  background: #740000;
+}
+
+details summary {
+  padding: 1rem 1.25rem;
+  font-weight: 600;
+  cursor: pointer;
+  list-style: none;
+  color: #DDDDDD;
+
+}
+
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+details summary::after {
+  content: "+";
+  float: right;
+  font-size: 1.3rem;
+  font-weight: 400;
+}
+
+details[open] summary::after {
+  content: "−";
+}
+
+details > *:not(summary) {
+  padding-left: 1.25rem;
+  padding-right: 1.25rem;
+}
+
+details > p:last-child {
+  padding-bottom: 1rem;
+}
+
+</style>
+
+:::: {.columns}
+
+::: {.column width='50%'}
+Launching in **Spring 2027**, our seventh round of the Health Service Modelling Associates (HSMA) programme is a **free of charge** online training and mentoring programme for people working in health and social care organisations.
+
+Lasting **15 months** with a **1 day a week commitment**, HSMA teaches skills in programming, data science and operational research, before we then support participants to use these new skills on **real projects** for their organisation.
+
+HSMA can benefit people in various roles, including
+
+- analysts
+- operational service managers
+- clinical leads
+- junior doctors
+- quality improvement leads
+- GPs
+- and more!
+
+
+:::
+
+::: {.column width='5%'}
+:::
+
+
+::: {.column width='45%'}
+
+::: {.value-box color="#3498db" align="center" icon="fa-solid fa-lightbulb" icon-position="top"}
+Curious about how to make better decisions with data in your organisation, but don't have the time for the full HSMA programme?
+
+You might prefer HSMA-λ (HSMA-lambda) - our programme for decision makers - instead. It is a series of shorter, stand-alone workshops focussed on understanding the principles of the key techniques taught on HSMA, asking better questions, and giving you the knowledge to maximise the impact of HSMA projects in your organisation. λ participants will submit suggestions for HSMA projects, as well as having the opportunity to nominate individuals from their organisation for the programme.
+
+Find out more on our [λ page](lambda.qmd).
+:::
+
+:::
+
+::::
+
+
+
+Wondering if HSMA is worthwhile? Don't just take our word for it - see what our previous students have to say.
+
+::::{.value-box-row}
+
+::: {.value-box align="center" color="#740000" font-size="1.2rem"}
+"My HSMA journey has been a transformative experience, opening me up to new approaches to analytics in the NHS."
+:::
+
+::: {.value-box align="center" color="#740000" font-size="1.2rem"}
+"HSMA is an absolutely amazing programme that's taken me from zero coding knowledge to inspiring me to want to go off and explore on my own."
+:::
+
+::: {.value-box color="#740000" font-size="1.2rem"}
+"I can honestly say it is the best training I've ever participated in. For the first time in a long time I feel really enthused about my work."
+:::
+
+::::
+
+
+
+
+## How Does the Programme Work?
+
+The full HSMA experience is a live, 15-month programme with three distinct phases.
+
+:::{.value-box-grid}
+::: {.value-box value="PHASE 1: Learn" icon="fa-solid fa-person-chalkboard" icon-position="right" color="#3498db" value-font-size="1.4rem" }
+A 6 month training phase in which participants learn the Python programming language, before progressing through simulation modelling, machine learning, website development and more.
+
+Participants are released from their usual role for one day a week - every Tuesday - joining the HSMA trainers online for live lectures and group work.
+:::
+
+::: {.value-box value="PHASE 2: Apply" icon="fa-solid fa-chart-gantt" icon-position="right" color="#3498db" value-font-size="1.4rem" }
+A 9 month project phase in which participants are supported to produce their own project using the new skills they have learned, applying operational research and data science techniques to a real problem within their organisation.
+
+Participants are expected to spend at least one day a week working on their project during this phase. The HSMA team will be available to answer queries on Tuesdays, with mentored projects receiving regular check-ins for guidance and support.
+:::
+
+::: {.value-box value="PHASE 3: Implement" icon="fa-solid fa-chart-line" icon-position="right" color="#3498db" value-font-size="1.4rem" }
+From month 15 onwards, participants will receive support to get their project work implemented, aiming to both generate and capture real impact.
+:::
+:::
+
+
+
+
+
+## Modules
+
+HSMA 7 is centred around 4 key modules:
+
+::::{.value-box-row columns="2"}
+
+::: {.value-box value="Introduction to Operational Research, Data Science & Programming" icon="ph ph-desktop-tower" value-font-size="1.4rem" color="#740000" width="90%" icon-position="right"}
+In this module, students will learn key principles underpinning operational research and data science.
+
+They will also be introduced to key concepts in computer programming and the Python programming language, ensuring even complete coding novices are equipped with the skills they need to access the rest of the course.
+:::
+
+::: {.value-box value="Discrete Event Simulation" icon="ph ph-users-three" value-font-size="1.6rem" color="#740000" title="<i>“I want to fix my delays, and see what works before I try it”</i>"  width="90%" icon-position="right"}
+
+
+In this module, students are introduced to powerful simulation techniques that allow you to accurately model real-world systems and try out changes in a safe environment to see what works before implementing it in the real world.
+
+Students learn to develop robust models aligning with best practices, as well as cutting-edge techniques for visualising flow in systems.
+:::
+
+
+::: {.value-box value="Geographic Modelling" icon="ph ph-globe-hemisphere-west" value-font-size="1.6rem" color="#740000" title="<i>“Where is demand, and where should I put my services?”</i>" width="90%" icon-position="right"}
+In this module, students learn key geographic principles and how to create high-quality maps.
+
+They are also introduced to advanced operational research techniques for solving problems around where to place services in the face of competing priorities like equity of access, costs, and net zero goals.
+:::
+
+::: {.value-box value="Machine Learning" icon="ph ph-brain" value-font-size="1.6rem" color="#740000" title="<i>“I want to identify patients to target with interventions”</i>" width="90%" icon-position="right"}
+In this module, students learn the key principles of supervised machine learning, allowing them to train machine learning models designed to support operational improvements to services through better targeting of interventions.
+
+They are also introduced to issues around model bias, ethics, legal issues, and model explainability.
+:::
+
+::::
+
+
+## Other skills
+
+Weaved into the modules, HSMAs will also learn valuable techniques for sharing their projects with non-technical stakeholders and working with data more effectively in their day-to-day roles.
+
+::::{.value-box-row columns="2"}
+
+::: {.value-box value="Web Application Development" icon="fa-solid fa-laptop-code" icon-position="left" value-font-size="1.6rem" color="#3498db"}
+Students will learn to use the Streamlit app framework, allowing them to create engaging interactive web apps to bring powerful techniques like simulation into the hands of non-coders
+:::
+
+::: {.value-box value="Interactive Reporting" icon="fa-solid fa-newspaper" icon-position="left" value-font-size="1.6rem" color="#3498db"}
+Students will learn Quarto, a publishing system that allows them to build parameterised data-driven static and interactive reports
+:::
+
+::: {.value-box value="Data Visualisation" icon="fa-solid fa-chart-simple" icon-position="left" value-font-size="1.6rem" color="#3498db"}
+Students will learn to generate engagings static and interactive charts and maps in Python with industry-standard packages
+:::
+
+::: {.value-box value="Automation" icon="fa-solid fa-robot" icon-position="left" value-font-size="1.6rem" color="#3498db"}
+Students can combine these techniques to automate and improve regular reporting
+:::
+
+
+::::
+
+
+
+## Still not convinced? Let's hear from a few more previous students...
+
+
+::::{.value-box-row}
+
+
+::: {.value-box align="center" color="#740000" font-size="1.2rem" align="center"}
+"The wealth of information and resources made available to me from this course will continue to be used for years."
+:::
+
+::: {.value-box align="center" color="#740000" font-size="1.2rem" align="center"}
+"This is by far the most enjoyable course I've undertaken in this career to date."
+:::
+
+::: {.value-box align="center" color="#740000" font-size="1.2rem" align="center"}
+"The HSMA community is just wonderful - really friendly, open and collaborative. The teaching was well paced and I was made to feel like there were no silly questions. As a complete code novice, I really appreciated it!"
+:::
+
+::::
+
+<div style="display: flex; justify-content: center; align-items: center;">
+
+::: {.value-box align="center" color="#740000" font-size="1.2rem"}
+"Since completing the HSMA programme, I’ve found myself coding a lot more in my day-to-day role, which has really improved both the efficiency and depth of my work.
+
+It’s also shifted how I approach problem-solving, I now think more analytically and am more confident in exploring data-driven solutions.
+
+Off the back of the course, we’ve even set up a data science group within the team, which has created a space to share knowledge, collaborate on projects, and continue building on what I learned during HSMA."
+:::
+
+
+</div>
+
+## Big changes from HSMA 7
+
+The HSMA programme is always evolving to keep up with the changing world of data science and improve based on student feedback.
+
+HSMA 7 will represent our biggest rewrite since the programme began ten years ago!
+
+- A renewed focus on the techniques we find have the most impact in services, with the discrete event simulation module expanding from 9 hours to over 30 hours of content
+- A new pipeline for project impact, with the lambda programme helping engage decision makers from the earliest stages, ensuring HSMA projects reflect organisational priorities and increasing opportunities for cross-organisation collaborative working
+- Changes to the peer support group (PSG) system, allowing people to select a PSG that matches their preferred learning style
+- A new focus on integrating cost analysis to help evidence
+- A new 'phase 1.5' that bridges the gap between the training phase and the project phase, providing training on project management and supported sessions for project planning
+- A new 'phase 3' that provides support for project implementation and impact gathering
+- Brand new content on safe, effective and responsible use of AI coding assistance at different stages of your learning journey
+
+
+## What have HSMA projects achieved?
+
+Take a look at our case studies to find out more about the impact of just some of our HSMA projects from across the years.
+
+{{< include impact_carousel.md >}}
+
+## Impact magazine article
+
+Our recent article in the Operational Research Society's Impact magazine provides a great overview of some more HSMA impacts.
+
+
+<iframe src="https://e.issuu.com/embed.html?u=orsimpact&d=impact_spring_2026&pageNumber=25" style="border:none; width: 1100px; height: 600px;" allow="clipboard-write,allow-top-navigation,allow-top-navigation-by-user-activation,allow-downloads,allow-scripts,allow-same-origin,allow-popups,allow-modals,allow-popups-to-escape-sandbox,allow-forms"  allowfullscreen="true"></iframe>
+
+## FAQs
+
+### Eligibility and Applications
+
+<details>
+<summary>Who is eligible?</summary>
+
+HSMA is open to anyone in England working within the NHS, including clinicians, managers, and other staff.
+
+We base eligibility on the location of the organisation an individual is employed with as opposed to the location of the applicant. Therefore, someone based in Wales but working for an English NHS trust would be eligible.
+
+In addition to the NHS, HSMA is open to those working in councils and third-sector healthcare organisations (e.g. hospices, air ambulances, healthcare charities).
+
+</details>
+
+<details>
+<summary>Do applicants have to be referred via the lambda programme?</summary>
+
+No - while we strongly encourage the referral of participants via lambda, we will accept general applications as well.
+
+</details>
+
+<details>
+<summary>What are the prior requirements?</summary>
+
+We do not require participants to have ever done any coding before. Based on feedback from previous rounds of the programme, we have expanded our beginner programming content significantly (though we are confident there is still plenty of value in )
+
+We do find that a good level of general computer literacy is a strong predictor of success on the HSMA programme. This encompasses skills like file and folder management and confidence in basic troubleshooting.
+
+Beyond that, there are no hard requirements around prior experience with programming, data science, statistics, or maths.
+
+We are looking for motivated individuals with a willingness to learn, and for strong institutional backing to make use of the skills taught on HSMA for improving health services.
+
+</details>
+
+<details>
+<summary>How many spaces are available on HSMA?</summary>
+
+HSMA 6 was our largest ever cohort, taking on over 170 students from across England.
+
+We will always take on as many people as we can that would benefit from the programme. However, we may need to cap numbers in the event of an unprecedented number of applications so that we are able to ensure a good experience for everyone accepted onto the course.
+
+</details>
+
+<details>
+<summary>Is there a limit on the number of people who can apply from each organisation?</summary>
+
+There is no limit on the number of applicants from a single organisation.
+
+In fact, we strongly encourage organisations to send multiple people onto the programme if they can. Previous students have reported finding it extremely useful to have other people working through the course at the same time.
+
+We also find that projects are often very successful when worked on by multiple people from the same organisation. Computer programming and data science is an activity best done when you have other people to work with to review your work, challenge your ideas, and divide up the work.
+
+</details>
+
+<details>
+<summary>Can you guarantee that I will be accepted onto the programme if I apply?</summary>
+
+We cannot guarantee acceptance onto HSMA, regardless of whether a participant is referred via the HSMA lambda programme or if they are a general applicant.
+
+We will always strive to support as many people as possible to join the programme, but may have to reject participants if there is insufficient evidence of interest in using and applying the skills of the programme to real-world problems, or a lack of organisational support for protecting the learner's time and supporting project work.
+
+</details>
+
+<details>
+<summary>How do I apply?</summary>
+
+Applications have not yet opened for HSMA 7.
+
+We anticipate opening applications in **early 2027**.
+
+To be kept up to date with the launch of HSMA, we recommend emailing us at `penchord@exeter.ac.uk` (or click [here](mailto:penchord@exeter.ac.uk?subject=Add%20me%20to%20the%20HSMA%20Mailing%20List%2C%20Please!&amp;body=Please%20complete%20the%20fields%20below%20to%20be%20added%20to%20the%20HSMA%20mailing%20list%0A%0AFull%20Name%3A%0A%0AOrganisation%3A%0A%0A**This%20is%20an%20automatically%20generated%20email%20from%20a%20link%20on%20the%20HSMA%20website**) to open a template email in your default email program).
+
+You can also follow us [on LinkedIn](https://www.linkedin.com/company/hsma-programme/).
+
+</details>
+
+### Life on HSMA
+
+<details>
+<summary>What is the weekly commitment?</summary>
+
+Students are expected to attend all live sessions, which will run on Tuesdays, for the 6 month training phase. Training runs from 9:30 am to 4:30 pm, with a one hour lunch break and comfort breaks throughout the day.
+
+While we do not mandate any time beyond that, students have reported that they find it useful to have a couple of additional hours set aside each for review and consolidation of the week's work.
+
+We do recognise and support the need for students to take annual leave during this time, but would recommend that time is set aside for catching up with the recordings of missed sessions, which are generally made available the next day.
+
+</details>
+
+
+<details>
+<summary>What does a typical HSMA day look like?</summary>
+
+A typical HSMA day will involve a mixture of live lectures, group discussions, and programming exercises.
+
+All HSMA sessions are run via Zoom.
+
+The morning session runs from 09:30 to 12:30, with a 1 hour break for lunch, before resuming from 13:30 to 16:30. Opportunities for short comfort breaks will be provided throughout the day.
+
+</details>
+
+
+<details>
+<summary>What software is required?</summary>
+
+Everything taught on HSMA uses software that is available completely free of charge.
+
+HSMAs will require access to the Python programming language on their work device, as well as the ability to install a variety of Python packages. Complementary software like [Quarto](https://quarto.org/) and [Positron](https://positron.posit.co/) will be required, as well as the desktop version of [Zoom](https://www.zoom.com/).
+
+A full list of software requirements will be released when applications open.
+
+</details>
+
+
+<details>
+<summary>What qualifications will I obtain from HSMA?</summary>
+
+HSMA does not confer a specific qualification, but participants will have the option to present project work demonstrating application of skills learned on HSMA to receive a certificate of completion of the programme.
+
+HSMA as a course is [accredited by the Association for Professional Healthcare Analysts (AphA)](https://www.aphanalysts.org/).
+
+Some of our alumni have gone on to do an MSc in health data science, with two alumni being graduates of the [University of Exeter's Health Data Science MSc](https://www.exeter.ac.uk/masters-degrees/msc-health-data-science/).
+
+You can hear more about the journey of HSMA 5 alumna Kayleigh Haydock, who completed her MSc in 2026, on our podcast.
+
+<div class="podcast-player">
+<div class="podcast-buttons">
+<button type="button" class="podcast-btn active" data-platform="spotify">
+Listen on Spotify
+</button>
+<button type="button" class="podcast-btn" data-platform="apple">
+Listen on Apple Podcasts
+</button>
+<button type="button" class="podcast-btn" data-platform="amazon">
+Listen on Amazon Music
+</button>
+</div>
+<div class="player-container" id="podcast-player-container"></div>
+</div>
+
+<script>
+(function () {
+  const spotifyUrl = "https://open.spotify.com/embed/episode/31qozpCajp2OA8hUnXyrFm?utm_source=generator&theme=0&t=0&si=80245d4cad4e4eee";
+  const appleUrl = "https://embed.podcasts.apple.com/us/podcast/1-the-case-of-the-curious-dancer/id6783287179?i=1000773862239";
+  const amazonUrl = "https://music.amazon.co.uk/podcasts/9e4dcd5b-036d-4ab1-a44b-12fd5a128507/episodes/4b33a8a6-e089-4026-86dc-448eb6c2ae79/python-they-wrote-the-hsma-podcast-1-the-case-of-the-curious-dancer"; // placeholder: add amazon_url to the .qmd front matter
+
+  const spotifyEmbed = `
+<iframe
+  style="border-radius:12px"
+  src="${spotifyUrl}"
+  width="100%"
+  height="352"
+  frameborder="0"
+  allowfullscreen
+  allow="autoplay; clipboard-write; encrypted-media; fullscreen; picture-in-picture"
+  loading="lazy">
+</iframe>`;
+
+  const appleEmbed = `
+<iframe
+  allow="autoplay *; encrypted-media *; fullscreen *; clipboard-write"
+  frameborder="0"
+  height="175"
+  style="width:100%;overflow:hidden;border-radius:12px;"
+  sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation"
+  src="${appleUrl}">
+</iframe>`;
+
+const amazonButton = `
+<a href="${amazonUrl}" target="_blank" rel="noopener" class="amazon-music-cta">
+  <i class="fa-brands fa-amazon"></i>
+  Click here to go to Amazon Music
+</a>`;
+
+  const embeds = {
+    spotify: spotifyEmbed,
+    apple: appleEmbed,
+    amazon: amazonButton,
+  };
+
+  const container = document.getElementById("podcast-player-container");
+  container.innerHTML = spotifyEmbed;
+
+  document.querySelectorAll(".podcast-btn").forEach((btn) => {
+    btn.addEventListener("click", () => {
+      container.innerHTML = embeds[btn.dataset.platform];
+      document.querySelectorAll(".podcast-btn").forEach((b) => b.classList.remove("active"));
+      btn.classList.add("active");
+    });
+  });
+})();
+</script>
+
+
+
+Note that while we are affiliated with the University of Exeter, we are not a credit-awarding course.
+
+</details>
+
+
+### Other
+
+<details>
+<summary>Do you offer bespoke training for teams?</summary>
+
+Due to the capacity within the HSMA team, we do not offer bespoke or intensive training for teams.
+
+However, all of our course material from previous years is freely available for non-commercial adaptation and reuse (with attribution to the HSMA team). HSMA alumni and other people around the world have successfully delivered our sessions to other learners.
+
+</details>

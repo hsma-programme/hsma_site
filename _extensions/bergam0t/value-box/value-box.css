@@ -1,0 +1,199 @@
+.value-box {
+    display: flex;
+    flex-direction: column;
+    justify-content: var(--vb-justify-content, center);
+    border-radius: 10px;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.15);
+    transition: transform 0.2s ease;
+    text-decoration: none;   /* remove underline on the whole card */
+    margin-bottom: 1.5rem;   /* ← spacing when used outside the grid */
+    width: var(--vb-width);
+    height: var(--vb-height);
+    min-height: var(--vb-min-height);
+    padding: var(--vb-padding);
+    text-align: var(--vb-text-align);
+    background-color: var(--vb-bg);
+}
+
+a.value-box {
+    cursor: pointer;
+}
+
+/* Restated at doubled-class specificity (a.value-box.value-box beats a
+   plain a.value-box) because a host page's own anchor styling can outrank
+   the single-class rule above. Quarto's Reveal.js theme is a concrete
+   case: it ships `.reveal a { color: ...; background-color: rgba(0,0,0,0);
+   ... }`, a class+tag selector that's more specific than ours and loads
+   after value-box.css, so without this a linked (href) box on a revealjs
+   slide silently lost its background and text colour back to the theme's
+   plain-link defaults. Positioned before the .bg-* classes below, at the
+   same doubled specificity, so a named colour still wins the tie the same
+   way it already does for a plain (non-linked) box.
+*/
+a.value-box.value-box {
+    color: white;
+    background-color: var(--vb-bg);
+    text-decoration: none;
+    transition: transform 0.2s ease;
+}
+
+/* Only linked boxes hint at interactivity — a static box has no reason to
+   move under the pointer. */
+a.value-box:hover {
+    transform: translateY(-3px);
+    box-shadow: 0 8px 16px rgba(0,0,0,0.2);
+}
+
+.value-box .icon {
+    font-size: 4.5rem;
+    line-height: 1;
+    margin-bottom: 0.6rem;
+    color: white;
+}
+
+/* Optical-bearing compensation for stacked (top/bottom) font-glyph icons —
+   see the icon_bearing_class comment in value-box.lua. */
+.icon.vb-bearing-left {
+    margin-left: -0.12em;
+}
+.icon.vb-bearing-right {
+    margin-right: -0.12em;
+}
+
+.value-box .title {
+    font-weight: 600;
+    font-size: 0.9rem;
+    opacity: 0.9;
+    letter-spacing: 0.02em;
+    line-height: 1.2;
+}
+
+.value-box .value {
+    font-size: 2.2rem;
+    font-weight: bold;
+    margin: 0.2rem 0;
+}
+
+.value-box .details {
+    font-size: 1.1rem;
+    opacity: 0.9;
+    line-height: 1.3;
+}
+
+.value-box .delta {
+    font-size: 1rem;
+    font-weight: 600;
+    opacity: 0.9;
+    white-space: nowrap;
+}
+
+.value-box .vb-content {
+    min-width: 0;
+}
+
+/* icon-position="left"/"right": the icon and the content wrapper share a row
+   instead of the default stacked column. */
+.value-box.vb-icon-left,
+.value-box.vb-icon-right {
+    flex-direction: row;
+    align-items: var(--vb-align-items, center);
+    gap: 1em;
+}
+.value-box.vb-icon-right {
+    flex-direction: row-reverse;
+}
+.value-box.vb-icon-left .icon,
+.value-box.vb-icon-right .icon {
+    flex-shrink: 0;
+}
+.value-box.vb-icon-left .vb-content,
+.value-box.vb-icon-right .vb-content {
+    flex: 1;
+}
+
+/* value+delta row, built whenever delta is set. */
+.vb-value-row {
+    display: flex;
+    align-items: baseline;
+    gap: 0.5em;
+    flex-wrap: wrap;
+}
+
+/* value-position="left"/"right": applied to whichever element holds the
+   value/details pair — .vb-content normally, or the inner .vb-row when a
+   title is also present (see the use_row_wrapper comment in value-box.lua). */
+.vb-value-left,
+.vb-value-right {
+    display: flex;
+    align-items: center;
+    gap: 0.75em;
+}
+.vb-value-right {
+    flex-direction: row-reverse;
+}
+.vb-value-left .value,
+.vb-value-right .value {
+    flex-shrink: 0;
+}
+.vb-value-left .details,
+.vb-value-right .details {
+    flex: 1;
+}
+/* Under value-position left/right, the value+delta row itself — not just the
+   .value div inside it — is the flex item next to .details, so it needs the
+   same protection from being squeezed. */
+.vb-value-left .vb-value-row,
+.vb-value-right .vb-value-row {
+    flex-shrink: 0;
+    min-width: 0;
+}
+
+.value-box-row {
+    margin-bottom: 1.5rem;
+    display: flex;
+    flex-wrap: nowrap;
+    gap: var(--vb-row-gap);
+}
+
+/* columns="N": switches to a grid so extra children wrap onto further rows,
+   all kept equal height via grid-auto-rows. */
+.value-box-row.vb-row-grid {
+    display: grid;
+    grid-template-columns: repeat(var(--vb-row-columns), 1fr);
+    grid-auto-rows: 1fr;
+}
+
+/* flex:1 1 0 is a no-op under display:grid (columns="N"), so this one rule
+   gives equal-width children in both the default flex row and the grid
+   mode. min-width:0 stops a long value from forcing a child wider than its
+   share of the row. */
+.value-box-row > * {
+    flex: 1 1 0;
+    min-width: 0;
+}
+
+/* Each .value-box's own margin-bottom is meant for standalone use; inside a
+   row it would eat into the equal-height stretch as a dead strip at the
+   bottom of every cell instead of leaving the boxes flush. Spacing between
+   rows is handled by .value-box-row's own margin-bottom above instead. */
+.value-box-row > .value-box {
+    margin-bottom: 0;
+}
+
+/* Each also has an a.value-box.<class> variant at the same doubled
+   specificity as a.value-box.value-box above, for the same reason: on a
+   linked box, a plain single-class .bg-* rule loses to a host theme's
+   `<container> a`-style anchor reset (e.g. Reveal.js's `.reveal a`). */
+.bg-blue,   a.value-box.bg-blue    { background-color: #3d6a9e; color: white; }
+.bg-navy,   a.value-box.bg-navy    { background-color: #2d4a6b; color: white; }
+.bg-teal,   a.value-box.bg-teal    { background-color: #2e7873; color: white; }
+.bg-green,  a.value-box.bg-green   { background-color: #3d7a52; color: white; }
+.bg-olive,  a.value-box.bg-olive   { background-color: #5c6e3f; color: white; }
+.bg-amber,  a.value-box.bg-amber   { background-color: #8a6523; color: white; }
+.bg-orange, a.value-box.bg-orange  { background-color: #8f4e2e; color: white; }
+.bg-red,    a.value-box.bg-red     { background-color: #8a3535; color: white; }
+.bg-pink,   a.value-box.bg-pink    { background-color: #7d3d5e; color: white; }
+.bg-purple, a.value-box.bg-purple  { background-color: #533d7a; color: white; }
+.bg-slate,  a.value-box.bg-slate   { background-color: #3d4f63; color: white; }
+.bg-grey,   a.value-box.bg-grey    { background-color: #4a4f57; color: white; }
