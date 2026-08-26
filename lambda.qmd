@@ -112,6 +112,20 @@ We also equip you with the knowledge you need to ask the right questions about a
 ::::
 
 
+## Signing Up
+
+We would be delighted if you could fill in our **expression of interest form** for HSMA lambda by clicking [this link](https://forms.cloud.microsoft/e/spFr8qr2pP).
+
+This will help us to ensure we offer enough dates for each workshop.
+
+We will then circulate the workshop dates in Autumn 2026 and contact you with details of how to book at that time.
+
+Please note that completing this expression of interest does not guarantee a place at the workshops.
+
+If you are interested in being kept up to date with HSMA more generally, please [drop us an email](mailto:penchord@exeter.ac.uk?subject=Add%20me%20to%20the%20HSMA%20Mailing%20List%2C%20Please!&body=Please%20complete%20the%20fields%20below%20to%20be%20added%20to%20the%20HSMA%20mailing%20list%0A%0AFull%20Name%3A%0A%0AOrganisation%3A%0A%0A**This%20is%20an%20automatically%20generated%20email%20from%20a%20link%20on%20the%20HSMA%20website**) and we will keep you informed via our mailing list.
+
+You can also follow us on [LinkedIn](https://www.linkedin.com/company/hsma-programme/).
+
 ## FAQ
 
 ### Will I learn to undertake these projects myself?
@@ -125,14 +139,6 @@ If you want to learn how to write the code required to create these models yours
 ### Do I need any technical background?
 
 No! Unlike the core HSMA programme, there are no coding or technical requirements for HSMA lambda workshops. We do not expect you to have any prior knowledge of these techniques or any background in mathematics, computer programming, data science or operational research.
-
-### Where do I sign up?
-
-Sign-ups for these workshops have not yet opened.
-
-If you are interested in being kept up to date with HSMA and being notified of when applications for these workshops open, please [drop us an email](mailto:penchord@exeter.ac.uk?subject=Add%20me%20to%20the%20HSMA%20Mailing%20List%2C%20Please!&body=Please%20complete%20the%20fields%20below%20to%20be%20added%20to%20the%20HSMA%20mailing%20list%0A%0AFull%20Name%3A%0A%0AOrganisation%3A%0A%0A**This%20is%20an%20automatically%20generated%20email%20from%20a%20link%20on%20the%20HSMA%20website**) and we will keep you informed via our mailing list.
-
-You can also follow us on [LinkedIn](https://www.linkedin.com/company/hsma-programme/).
 
 ### My question is not answered here
 

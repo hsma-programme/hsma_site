@@ -111,7 +111,7 @@ Recordings of previous course sessions, as well as all of our course materials a
 :::{.callout-important appearance="minimal"}
 We are currently working on updating and improving HSMA ahead of the 7^th^ round of the programme, which we hope to launch in **early 2027**. There's some really exciting stuff planned for this round, so stay tuned! In the meantime, head to our [HSMA 7 page](hsma7.qmd) to find out more about what we'll be teaching, what's changed since HSMA 6, and answers to common questions.
 
-We are also putting together a new series of standalone workshops aimed at senior leaders, called HSMA-λ (lambda), which we hope to run in **Autumn 2026**. Click [here](lambda.qmd) to find out more.
+We are also putting together a new series of standalone workshops aimed at senior leaders, called HSMA-λ (lambda), which we hope to run in **Autumn 2026**. Click [here](lambda.qmd) to find out more, and let us know you're interested by filling in [this form](https://forms.cloud.microsoft/e/spFr8qr2pP).
 
 If you are interested in being kept up to date with HSMA and being notified of when applications for HSMA 7 or HSMA-λ open, please [drop us an email](mailto:penchord@exeter.ac.uk?subject=Add%20me%20to%20the%20HSMA%20Mailing%20List%2C%20Please!&body=Please%20complete%20the%20fields%20below%20to%20be%20added%20to%20the%20HSMA%20mailing%20list%0A%0AFull%20Name%3A%0A%0AOrganisation%3A%0A%0A**This%20is%20an%20automatically%20generated%20email%20from%20a%20link%20on%20the%20HSMA%20website**) and we will keep you informed via our mailing list.
 
