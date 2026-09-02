@@ -1,6 +1,8 @@
 project:
   type: website
   output-dir: docs
+  resources:
+    - impact_posters/*.png
   pre-render:
     - _prerender.py
 
