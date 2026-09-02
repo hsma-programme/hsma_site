@@ -64,16 +64,16 @@ website:
       - text: "Lambda"
         href: lambda.qmd
 
-      - href: hsma_content/books/books.qmd
+      - href: books.qmd
         text: Books
 
-      - href: hsma_content/modules/modules.qmd
+      - href: modules.qmd
         text: Modules
 
       - href: news.qmd
         text: News
 
-      - href: impact_stories.qmd
+      - href: impact.qmd
         text: Impact
 
       - text: "Projects"

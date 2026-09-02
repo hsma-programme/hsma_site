@@ -1,12 +1,27 @@
 ---
-title: Impact
+title: Project Case Studies
 title-block-banner: resources/banner.png
-include-back-link: false
-format:
-  html:
-    include-in-header:
-      - text: |
-            <meta http-equiv="refresh" content='0; URL=https://hsma.co.uk/impact_stories.html'></meta>
+page-layout: full
+grid:
+    body-width: 900px
+    gutter-width: 1.5rem
+toc: false
+filters:
+  - splide-carousel
 ---
 
-Redirecting to the HSMA Case Studies Page. If you are not redirected within 3 seconds, click [here](https://hsma.co.uk/impact_stories.html) to go to the page.
+```{=html}
+<style>
+body {
+	text-align: center;
+}
+
+</style>
+
+```
+
+Take a look at some of our impact case studies relating to our previous HSMA projects.
+
+Click on any poster to view it in full screen.
+
+{{< include impact_carousel.md >}}
