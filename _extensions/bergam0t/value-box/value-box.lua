@@ -92,6 +92,64 @@ local function css_decl(property, value)
   return string.format("%s:%s; ", property, value)
 end
 
+-- Reads width/height straight out of a PNG's IHDR chunk (bytes 16-23,
+-- after the 8-byte signature and the chunk's own 4-byte length + 4-byte
+-- "IHDR" type) rather than pulling in an image library just to learn the
+-- icon's aspect ratio. Returns nil, nil if the file is too short or isn't
+-- actually a PNG.
+local function png_dimensions(path)
+  local f = io.open(path, "rb")
+  if not f then return nil, nil end
+  local header = f:read(24)
+  f:close()
+  if not header or #header < 24 or header:sub(1, 8) ~= "\137PNG\r\n\26\n" then
+    return nil, nil
+  end
+  local function be32(offset)
+    local b1, b2, b3, b4 = header:byte(offset, offset + 3)
+    return b1 * 16777216 + b2 * 65536 + b3 * 256 + b4
+  end
+  return be32(17), be32(21)
+end
+
+-- Reads the intrinsic aspect ratio out of an already-loaded SVG file's own
+-- viewBox (falling back to its width/height attributes if it has no
+-- viewBox). Only the first match is read, matching the assumption the
+-- style-injection gsub elsewhere already makes: that the file's own root
+-- <svg ...> tag is the first one in the document.
+local function svg_dimensions(svg_content)
+  local _minx, _miny, w, h = svg_content:match(
+    'viewBox%s*=%s*"%s*([%-%d%.]+)[%s,]+([%-%d%.]+)[%s,]+([%-%d%.]+)[%s,]+([%-%d%.]+)')
+  if w and h then
+    return tonumber(w), tonumber(h)
+  end
+  local aw = svg_content:match('<svg[^>]-%swidth%s*=%s*"([%d%.]+)')
+  local ah = svg_content:match('<svg[^>]-%sheight%s*=%s*"([%d%.]+)')
+  if aw and ah then
+    return tonumber(aw), tonumber(ah)
+  end
+  return nil, nil
+end
+
+-- Chooses which axis icon-size constrains: whichever is larger for the
+-- icon's own natural dimensions, with the other left auto so the browser
+-- scales it proportionally. Without this, forcing both width and height to
+-- the same value pins a non-square icon into a square box and it gets
+-- letterboxed inside it — visible as empty space the icon's own background
+-- shows through. Falls back to the old fixed square when the natural
+-- dimensions can't be determined (unexpected format, corrupt file, no
+-- viewBox); the second return value flags that fallback so callers that
+-- also use object-fit:contain as a safety net know when they still need it.
+local function icon_size_style(size, natural_w, natural_h)
+  if not natural_w or not natural_h or natural_w <= 0 or natural_h <= 0 then
+    return css_decl("width", size) .. css_decl("height", size), true
+  elseif natural_w >= natural_h then
+    return css_decl("width", size) .. "height:auto; ", false
+  else
+    return "width:auto; " .. css_decl("height", size), false
+  end
+end
+
 -- Escape a value for interpolation into a double-quoted HTML attribute.
 local function escape_attr(s)
   return (tostring(s):gsub('[&<>"]', {
@@ -100,6 +158,21 @@ local function escape_attr(s)
     [">"] = "&gt;",
     ['"'] = "&quot;",
   }))
+end
+
+-- Build a style declaration for a *themeable default*: emit it only when the
+-- box (or its .value-box-row, via inheritance) actually set the attribute.
+-- When it didn't, emit nothing — value-box.css's own `var(--vb-*, <default>)`
+-- fallback then supplies the default, which is also what lets a project
+-- retarget that default on :root. A per-box/per-row attribute still wins,
+-- because it lands in the element's inline style. `raw` is the unescaped
+-- attribute value straight from el.attributes (Lua nil when unset; "" — which
+-- is truthy in Lua — counts as unset too, matching icon-size's handling).
+local function themed_decl(raw, property)
+  if raw == nil or raw == "" then
+    return ""
+  end
+  return css_decl(property, escape_attr(raw))
 end
 
 -- Shared by value-box and value-box-row: pass through the div's own #id, any
@@ -168,6 +241,64 @@ local function build_wrapper_attrs(el, own_class, extra_style_hint, reserved_att
   return id_attr, extra_classes, passthrough_attrs
 end
 
+-- Attributes eligible to flow down from .value-box-row to a .value-box child
+-- that doesn't set them itself (a child's own value, including an explicit
+-- blank override, always wins — see inject_row_defaults below). Deliberately
+-- an explicit allowlist rather than "everything except a denylist", matching
+-- build_wrapper_attrs's own passthrough-namespace convention above.
+--
+-- Excluded on purpose: icon/value/title/delta/delta-direction/href (per-box
+-- content/identity, the whole reason a row has more than one box), index
+-- (must stay unique per box for Reveal.js fragment ordering), fragment
+-- (per-box animation opt-in), and icon-type — despite looking like a styling
+-- switch, it's the only way to opt into Material Symbols (never
+-- auto-detected, see the comment above material_variants), so inheriting it
+-- would silently coerce every other child's icon (e.g. an "fa-star" box)
+-- onto the Material renderer too, with no warning. Each box sets its own
+-- icon-type when it needs one.
+local INHERITABLE_ATTRS = {
+  "icon-position", "icon-size", "icon-color",
+  "color",
+  "width", "height", "min-height", "padding",
+  "align", "valign",
+  "font-size", "font-color",
+  "value-position", "value-font-size", "value-color",
+  "title-font-size", "title-color",
+  "delta-color", "delta-font-size",
+  "target",
+  "outer-extra-style", "icon-extra-style", "content-extra-style",
+  "details-extra-style", "value-extra-style", "title-extra-style",
+  "delta-extra-style", "value-row-extra-style",
+}
+
+-- Runs as its own filter pass, before the Div(el) pass below (see the
+-- `return` at the end of this file). Pandoc's single-pass Div(el) walk is
+-- bottom-up, so by the time it reaches a .value-box-row its .value-box
+-- children have already been expanded into raw HTML — nothing left to read
+-- attributes off. Running this as an earlier, separate pass mutates each
+-- child's attributes table in place while it's still a real Div, so the
+-- later Div(el) pass picks up the merged values through its existing
+-- `el.attributes["x"] or default` reads with no changes to that logic at all.
+local function inject_row_defaults(el)
+  if not el.classes:includes("value-box-row") then
+    return nil
+  end
+  for _, child in ipairs(el.content) do
+    if child.t == "Div" and child.classes:includes("value-box") then
+      for _, name in ipairs(INHERITABLE_ATTRS) do
+        -- nil (not falsy) is "unset": an explicit blank value like
+        -- icon-color="" is a deliberate override and must not be replaced by
+        -- the row's default, same principle as the icon_size_raw ~= "" guard
+        -- further down.
+        if child.attributes[name] == nil and el.attributes[name] ~= nil then
+          child.attributes[name] = el.attributes[name]
+        end
+      end
+    end
+  end
+  return el
+end
+
 function Div(el)
   if el.classes:includes("value-box") then
 
@@ -209,12 +340,35 @@ function Div(el)
     local color       = escape_attr(color_raw)
     local color_class = color_is_value and "" or color
     local value     = el.attributes["value"] or ""
-    local width     = escape_attr(el.attributes["width"] or "80%")
-    local height    = escape_attr(el.attributes["height"] or "")
-    local min_height = escape_attr(el.attributes["min-height"] or "100px")
-    local padding     = escape_attr(el.attributes["padding"] or "1.5rem")
-    local align     = escape_attr(el.attributes["align"] or "left")
-    local valign = escape_attr(el.attributes["valign"] or "middle")
+
+    -- Geometry: each emitted as a --vb-* custom property only when set, so an
+    -- unset box takes value-box.css's own var(--vb-*, <default>) fallback —
+    -- which a project can retarget on :root. Keep these defaults and the CSS
+    -- ones in sync.
+    local width_style      = themed_decl(el.attributes["width"], "--vb-width")
+    local height_style     = themed_decl(el.attributes["height"], "--vb-height")
+    local min_height_style = themed_decl(el.attributes["min-height"], "--vb-min-height")
+    local padding_style    = themed_decl(el.attributes["padding"], "--vb-padding")
+
+    -- align resolves to "left" for the icon optical-bearing logic and the
+    -- icon_align_value mapping below, but the two custom properties it drives
+    -- are only emitted when align was actually set (so an unset box inherits
+    -- the stylesheet default, themeable via --vb-text-align / --vb-icon-align).
+    local align_raw = el.attributes["align"]
+    local align     = escape_attr(align_raw or "left")
+    -- The icon (and, in the row layout, .vb-content) are flex items, not
+    -- inline content of .value-box, so text-align alone can't position
+    -- them — see --vb-icon-align below. Same left/center/right shorthand
+    -- convention as valign_map further down, with a raw-value fallback for
+    -- anyone who wants to pass a CSS keyword directly.
+    local align_map = { left = "flex-start", center = "center", right = "flex-end" }
+    local icon_align_value = align_map[align] or align
+    local align_style = ""
+    if align_raw ~= nil and align_raw ~= "" then
+      align_style = css_decl("--vb-text-align", align) .. css_decl("--vb-icon-align", icon_align_value)
+    end
+    local valign_raw = el.attributes["valign"]
+    local valign     = escape_attr(valign_raw or "middle")
     local href      = escape_attr(el.attributes["href"] or "")
     -- Only meaningful alongside href — a target on a plain div has nothing to
     -- navigate. target="_blank" also gets rel="noopener noreferrer" added
@@ -242,19 +396,26 @@ function Div(el)
     end
     local icon_pos  = el.attributes["icon-position"] or "top" -- "top" | "bottom" | "left" | "right"
     local value_pos = el.attributes["value-position"] or "top" -- "top" | "bottom" | "left" | "right"
-    local font_size = escape_attr(el.attributes["font-size"] or "")
-    local value_font_size = escape_attr(el.attributes["value-font-size"] or "2.2rem")
+    -- Font sizes and text colours. Each is written to its element's inline
+    -- style only when set — otherwise value-box.css's own
+    -- `<prop>: var(--vb-*, <default>)` rule supplies the default, so a project
+    -- can retarget it on :root. value/title colour fall back to font-color;
+    -- that chain now lives in the stylesheet
+    -- (color: var(--vb-value-color, var(--vb-font-color, white))), so passing
+    -- font-color raw here — not the resolved white — is deliberate.
+    local font_color_raw = el.attributes["font-color"]
+    local font_size_style       = themed_decl(el.attributes["font-size"], "font-size")
+    local value_font_size_style = themed_decl(el.attributes["value-font-size"], "font-size")
+    local font_color_style  = themed_decl(font_color_raw, "color")
+    local value_color_style = themed_decl(el.attributes["value-color"] or font_color_raw, "color")
+    local icon_color_style  = themed_decl(el.attributes["icon-color"], "color")
 
-    local font_color = escape_attr(el.attributes["font-color"] or "white")
-    local value_color = escape_attr(el.attributes["value-color"] or (el.attributes["font-color"] or "white"))
-    local icon_color = escape_attr(el.attributes["icon-color"] or "white")
-
-    -- A short label rendered above the value. title-font-size is deliberately
-    -- left unset by default so the stylesheet's .value-box .title rule supplies
-    -- it; setting the attribute overrides that rule.
+    -- A short label rendered above the value. title-font-size / title-color are
+    -- deliberately left unset by default so the stylesheet's .value-box .title
+    -- rule (and its var() fallbacks) supply them; setting the attribute wins.
     local title = el.attributes["title"] or ""
-    local title_color = escape_attr(el.attributes["title-color"] or (el.attributes["font-color"] or "white"))
-    local title_font_size = escape_attr(el.attributes["title-font-size"] or "")
+    local title_color_style     = themed_decl(el.attributes["title-color"] or font_color_raw, "color")
+    local title_font_size_style = themed_decl(el.attributes["title-font-size"], "font-size")
 
     -- Delta / trend indicator: a small badge next to the value, e.g. "+12%"
     -- with an arrow. delta-direction picks the arrow glyph; when unset it's
@@ -287,8 +448,8 @@ function Div(el)
     if delta_direction and delta_direction ~= "" and not delta_arrows[delta_direction] then
       io.stderr:write(string.format("value-box warning: unrecognised delta-direction '%s' — expected up, down or flat; showing no arrow\n", delta_direction))
     end
-    local delta_color = escape_attr(el.attributes["delta-color"] or "")
-    local delta_font_size = escape_attr(el.attributes["delta-font-size"] or "")
+    local delta_color_style = themed_decl(el.attributes["delta-color"], "color")
+    local delta_font_size_style = themed_decl(el.attributes["delta-font-size"], "font-size")
     local delta_extra_style = escape_attr(el.attributes["delta-extra-style"] or "")
     -- Escape hatch for the value+delta row wrapper itself (see below), kept
     -- consistent with every other structural element this filter builds.
@@ -302,17 +463,21 @@ function Div(el)
     -- after resolving rather than at el.attributes read time, since
     -- icon_size_raw can be Lua nil (no "or" fallback) and escape_attr(nil)
     -- would turn that into the literal string "nil" via tostring().
-    local icon_size_font
+    --
+    -- Font-glyph icons: emit nothing when unset — value-box.css's
+    -- .value-box .icon { font-size: var(--vb-icon-size, 3em) } supplies the
+    -- default and lets a project retarget it. Image icons still need an
+    -- explicit pixel size on the element (they carry no font-size), so their
+    -- 128px default stays here.
+    local icon_size_font  -- nil unless icon-size was set
     local icon_size_img
     if icon_size_raw and icon_size_raw ~= "" then
-      icon_size_font = icon_size_raw
-      icon_size_img  = icon_size_raw
+      icon_size_font = escape_attr(icon_size_raw)
+      icon_size_img  = escape_attr(icon_size_raw)
     else
-      icon_size_font = "3em"
+      icon_size_font = nil
       icon_size_img  = "128px"
     end
-    icon_size_font = escape_attr(icon_size_font)
-    icon_size_img  = escape_attr(icon_size_img)
 
     -- Fragment logic
     local fragment_attr = el.attributes["fragment"]
@@ -397,29 +562,34 @@ function Div(el)
     -- row (icon-position left/right), valign controls the cross-axis
     -- align-items; otherwise it controls the column's main-axis
     -- justify-content. Either way this is just the one custom property the
-    -- corresponding CSS rule reads — see value-box.css.
+    -- corresponding CSS rule reads — see value-box.css. Emitted only when
+    -- valign was set, so an unset box takes the stylesheet's own centred
+    -- default (var(--vb-justify-content, center) / var(--vb-align-items,
+    -- center)), themeable per project on :root.
     local outer_layout_style = ""
-    if valign ~= "" then
+    if valign_raw ~= nil and valign_raw ~= "" then
       local valign_map = { top = "flex-start", middle = "center", bottom = "flex-end" }
       local align_value = valign_map[valign] or valign  -- fall back to raw value if not a shorthand
       if icon_row then
-        outer_layout_style = outer_layout_style .. css_decl("--vb-align-items", align_value)
+        outer_layout_style = css_decl("--vb-align-items", align_value)
       else
-        outer_layout_style = outer_layout_style .. css_decl("--vb-justify-content", align_value)
+        outer_layout_style = css_decl("--vb-justify-content", align_value)
       end
     end
 
-    -- Build the outer wrapper's custom properties. The corresponding values
-    -- (and their defaults) live entirely here in Lua, not duplicated as CSS
-    -- fallbacks — an unset custom property simply leaves the property
-    -- undeclared, which is what css_decl already guarantees for a blank
-    -- value (see the "explicitly blanked attributes" test fixture).
+    -- Assemble the outer wrapper's custom properties. Each piece was built
+    -- above with themed_decl / an explicit "was it set?" check, so it's the
+    -- empty string for any attribute this box (and its row) left unset — and
+    -- value-box.css's var(--vb-*, <default>) fallback covers that case, which
+    -- is also what makes every default themeable on :root. A raw colour value
+    -- (color="#...") is the one that still always lands inline, since there's
+    -- no sensible stylesheet default for it.
     local base_style =
-      css_decl("--vb-width", width) ..
-      css_decl("--vb-height", height) ..
-      css_decl("--vb-min-height", min_height) ..
-      css_decl("--vb-padding", padding) ..
-      css_decl("--vb-text-align", align) ..
+      width_style ..
+      height_style ..
+      min_height_style ..
+      padding_style ..
+      align_style ..
       (color_is_value and css_decl("--vb-bg", color) or "") ..
       outer_layout_style
 
@@ -442,13 +612,12 @@ function Div(el)
     end
 
     -- Build icon HTML (empty string if no icon).
-    -- Every icon-font branch shares the same style prelude, and the two image
-    -- branches share a sizing pair. Both go through css_decl so that a blank
-    -- icon-size or icon-color omits the declaration instead of emitting
-    -- "font-size:;".
+    -- Every icon-font branch shares the same style prelude. font-size and
+    -- color are emitted only when icon-size / icon-color were set; otherwise
+    -- the .value-box .icon rule in value-box.css (font-size: var(--vb-icon-
+    -- size, 3em); color: var(--vb-icon-color, white)) supplies them.
     local icon_font_style = css_decl("font-size", icon_size_font)
-      .. css_decl("color", icon_color) .. icon_extra_style
-    local icon_img_size = css_decl("width", icon_size_img) .. css_decl("height", icon_size_img)
+      .. icon_color_style .. icon_extra_style
 
     local icon_html = ""
     if icon ~= "" then
@@ -461,10 +630,12 @@ function Div(el)
         if svg_file then
           local svg_content = svg_file:read("*all")
           svg_file:close()
-          svg_content = svg_content:gsub('<svg', string.format('<svg style="%s"', icon_img_size))
+          local natural_w, natural_h = svg_dimensions(svg_content)
+          local svg_size_style = icon_size_style(icon_size_img, natural_w, natural_h)
+          svg_content = svg_content:gsub('<svg', string.format('<svg style="%s"', svg_size_style))
           icon_html = string.format(
-            '<span class="icon" style="%sdisplay:inline-flex; align-items:center; justify-content:center; font-size:inherit;%s">%s</span>',
-            icon_img_size, icon_extra_style, svg_content
+            '<span class="icon" style="display:inline-flex; align-items:center; justify-content:center; font-size:inherit;%s">%s</span>',
+            icon_extra_style, svg_content
           )
         else
           io.stderr:write(string.format("value-box warning: SVG file not found: %s\n", icon))
@@ -474,9 +645,12 @@ function Div(el)
         local png_file = io.open(icon, "r")
         if png_file then
           png_file:close()
+          local natural_w, natural_h = png_dimensions(icon)
+          local png_size_style, is_fallback_square = icon_size_style(icon_size_img, natural_w, natural_h)
+          local object_fit_style = is_fallback_square and "object-fit:contain; " or ""
           icon_html = string.format(
-            '<img class="icon" src="%s" style="%sobject-fit:contain; display:block; margin:0 auto;%s" alt="">',
-            icon_attr, icon_img_size, icon_extra_style
+            '<img class="icon" src="%s" style="%s%sdisplay:block;%s" alt="">',
+            icon_attr, png_size_style, object_fit_style, icon_extra_style
           )
         else
           io.stderr:write(string.format("value-box warning: PNG file not found '%s', falling back to Bootstrap Icons\n", icon))
@@ -514,7 +688,7 @@ function Div(el)
     if value ~= "" then
       value_html = string.format(
         '<div class="value" style="%s%s%s">%s</div>',
-        css_decl("font-size", value_font_size), css_decl("color", value_color),
+        value_font_size_style, value_color_style,
         value_extra_style, value
       )
     end
@@ -534,7 +708,7 @@ function Div(el)
       end
       local delta_html = string.format(
         '<div class="delta" style="%s%s%s">%s%s</div>',
-        css_decl("font-size", delta_font_size), css_decl("color", delta_color),
+        delta_font_size_style, delta_color_style,
         delta_extra_style, arrow_html, escape_attr(delta)
       )
       value_html = string.format(
@@ -553,7 +727,7 @@ function Div(el)
     if title ~= "" then
       title_html = string.format(
         '<div class="title" style="%s%s%s">%s</div>',
-        css_decl("font-size", title_font_size), css_decl("color", title_color),
+        title_font_size_style, title_color_style,
         title_extra_style, title
       )
     end
@@ -583,7 +757,7 @@ function Div(el)
 
     -- Open the details wrapper
     html_open = html_open .. string.format('<div class="details" style="%s%s%s">',
-      css_decl("font-size", font_size), css_decl("color", font_color), details_extra_style)
+      font_size_style, font_color_style, details_extra_style)
 
     -- Close details, optionally append value below, close the row wrapper if
     -- one was opened, close content wrapper, optionally append icon below,
@@ -639,14 +813,37 @@ function Div(el)
       end
     end
 
-    local gap = escape_attr(el.attributes["gap"] or "1.5rem")
+    -- responsive="false" opts out of the wrap / column-drop behaviour and
+    -- restores the pre-1.6 rigid layout via the vb-row-fixed class. Matched
+    -- case-insensitively; "" and "true" keep the default, anything else warns
+    -- and keeps the default — same validate-or-warn shape as the columns block.
+    local responsive_attr = el.attributes["responsive"]
+    if responsive_attr then
+      local responsive_lower = responsive_attr:lower()
+      if responsive_lower == "false" then
+        row_layout_class = row_layout_class .. " vb-row-fixed"
+      elseif responsive_lower ~= "" and responsive_lower ~= "true" then
+        io.stderr:write(string.format(
+          "value-box warning: unrecognised responsive value '%s' — expected true or false; keeping the responsive default\n",
+          responsive_attr))
+      end
+    end
+
+    -- min-column-width and gap: how narrow a column may get before the row
+    -- wraps (flex) / drops a column (grid), and the space between boxes. Each
+    -- emitted only when set — value-box.css carries the defaults as var()
+    -- fallbacks (--vb-row-min-col 14rem, --vb-row-gap 1.5rem), so a plain row
+    -- carries neither, and a project can retarget both on :root.
+    local min_col_style = themed_decl(el.attributes["min-column-width"], "--vb-row-min-col")
+    local gap_style     = themed_decl(el.attributes["gap"], "--vb-row-gap")
     local row_extra_style = escape_attr(el.attributes["extra-style"] or "")
 
     local id_attr, extra_classes, passthrough_attrs = build_wrapper_attrs(el, "value-box-row", "extra-style", nil)
 
     local html_open = string.format(
-      '<div%s class="value-box-row%s%s" style="%s%s%s"%s>',
-      id_attr, row_layout_class, extra_classes, columns_style, css_decl("--vb-row-gap", gap), row_extra_style, passthrough_attrs
+      '<div%s class="value-box-row%s%s" style="%s%s%s%s"%s>',
+      id_attr, row_layout_class, extra_classes,
+      columns_style, gap_style, min_col_style, row_extra_style, passthrough_attrs
     )
 
     local result = pandoc.List({pandoc.RawBlock("html", html_open)})
@@ -659,3 +856,12 @@ function Div(el)
   end
 
 end
+
+-- Two sequential passes: inject_row_defaults merges row-level attribute
+-- defaults into each .value-box child while it's still a real Div, then Div
+-- (unchanged) runs its own full pass over the resulting document to expand
+-- both .value-box and .value-box-row into HTML.
+return {
+  { Div = inject_row_defaults },
+  { Div = Div },
+}
