@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Impact – HSMA</title>
+<title>Project Case Studies – HSMA</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -48,7 +48,8 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-00d3c7d8667432339bfa9a680145f83e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-f1ffa37489099bfa37437e4dc2e8d24d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/quarto-contrib/splide-carousel-styles-1.0.0/splide-carousel.css" rel="stylesheet">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -111,7 +112,10 @@ background-size: cover;
       }
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<meta http-equiv="refresh" content="0; URL=https://hsma.co.uk/impact_stories.html">
+<script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/js/glightbox.min.js"></script>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/splide.min.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/glightbox/3.3.0/css/glightbox.css">
 
 
 <link rel="stylesheet" href="styles.css">
@@ -148,11 +152,11 @@ background-size: cover;
 <span class="menu-text">Lambda</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./hsma_content/books/books.html"> 
+    <a class="nav-link" href="./books.html"> 
 <span class="menu-text">Books</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./hsma_content/modules/modules.html"> 
+    <a class="nav-link" href="./modules.html"> 
 <span class="menu-text">Modules</span></a>
   </li>  
   <li class="nav-item">
@@ -160,8 +164,8 @@ background-size: cover;
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./impact_stories.html"> 
-<span class="menu-text">Case Studies</span></a>
+    <a class="nav-link active" href="./impact.html" aria-current="page"> 
+<span class="menu-text">Impact</span></a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
@@ -307,13 +311,13 @@ background-size: cover;
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Impact</h1>
+    <div class="quarto-title column-page">
+      <h1 class="title">Project Case Studies</h1>
                       </div>
   </div>
     
   
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-page">
 
       
     
@@ -321,20 +325,103 @@ background-size: cover;
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
 
 
 
-<p>Redirecting to the HSMA Case Studies Page. If you are not redirected within 3 seconds, click <a href="https://hsma.co.uk/impact_stories.html">here</a> to go to the page.</p>
+<style>
+body {
+    text-align: center;
+}
+
+</style>
+
+<p>Take a look at some of our impact case studies relating to our previous HSMA projects.</p>
+<p>Click on any poster to view it in full screen.</p>
+<section id="splide-carousel-1" class="splide splide-carousel" aria-label="Beautiful Images" style="--splide-toggle-color: #ffffff;">
+  <div class="splide__optional-button-container">
+    <button class="splide__toggle" type="button">
+      <a class="splide__toggle__play"><i class="fa-solid fa-play"></i><span style="padding-left: 10px;">Resume Slideshow</span></a>
+      <a class="splide__toggle__pause"><i class="fa-solid fa-pause"></i><span style="padding-left: 10px;">Pause Slideshow</span></a>
+    </button>
+  </div>
+  <div class="splide__track">
+    <ul class="splide__list">
+      <li class="splide__slide" style="width: 250px">
+        <img src="impact_posters/Outpatient non attendance.png" alt="" class="glightbox">
+        <div class="splide_caption"></div>
+      </li>
+      <li class="splide__slide" style="width: 250px">
+        <img src="impact_posters/Using Simulation to Improve Stroke Care and Reduce Costs.png" alt="" class="glightbox">
+        <div class="splide_caption"></div>
+      </li>
+      <li class="splide__slide" style="width: 250px">
+        <img src="impact_posters/eFIT.png" alt="" class="glightbox">
+        <div class="splide_caption"></div>
+      </li>
+      <li class="splide__slide" style="width: 250px">
+        <img src="impact_posters/Out of Area Reduction in Mental Health.png" alt="" class="glightbox">
+        <div class="splide_caption"></div>
+      </li>
+      <li class="splide__slide" style="width: 250px">
+        <img src="impact_posters/UTC Flow.png" alt="" class="glightbox">
+        <div class="splide_caption"></div>
+      </li>
+      <li class="splide__slide" style="width: 250px">
+        <img src="impact_posters/Vaccination Centre Model.png" alt="" class="glightbox">
+        <div class="splide_caption"></div>
+      </li>
+      <li class="splide__slide" style="width: 250px">
+        <img src="impact_posters/NWAS.png" alt="" class="glightbox">
+        <div class="splide_caption"></div>
+      </li>
+      <li class="splide__slide" style="width: 250px">
+        <img src="impact_posters/RALPulator.png" alt="" class="glightbox">
+        <div class="splide_caption"></div>
+      </li>
+      <li class="splide__slide" style="width: 250px">
+        <img src="impact_posters/Improving Talking Therapies Flow with DES.png" alt="" class="glightbox">
+        <div class="splide_caption"></div>
+      </li>
+      <li class="splide__slide" style="width: 250px">
+        <img src="impact_posters/Forecasting AE attendance.png" alt="" class="glightbox">
+        <div class="splide_caption"></div>
+      </li>
+    </ul>
+  </div>
+</section>
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  var splideInstance = new Splide('#splide-carousel-1', {
+    type: 'loop',
+    padding: '5rem',
+    autoplay: 'play',
+    interval: 9000,
+    focus: 'center',
+    pauseOnHover: true,
+    pauseOnFocus: false,
+    resetProgress: false
+  }).mount();
+
+  var lightboxInstance = GLightbox({
+    selector: '#splide-carousel-1 .glightbox',
+    touchNavigation: true,
+    loop: true
+  });
+
+  splideInstance.on('moved', function () {
+    lightboxInstance.reload();
+  });
+});
+</script>
+
 
 
 

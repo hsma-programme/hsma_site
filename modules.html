@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>Modules – HSMA</title>
+<title>HSMA 6 Modules – HSMA</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -37,6 +37,8 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="./">
 <link href="./resources/favicon.png" rel="icon" type="image/png">
+<script src="site_libs/quarto-listing/list.min.js"></script>
+<script src="site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="site_libs/quarto-html/quarto.js" type="module"></script>
@@ -48,7 +50,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-00d3c7d8667432339bfa9a680145f83e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-c73af6a6eec05280757d5a45cb97683d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -76,6 +78,35 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
+<script>
+
+  window.document.addEventListener("DOMContentLoaded", function (_event) {
+    const listingTargetEl = window.document.querySelector('#listing-modules .list');
+    if (!listingTargetEl) {
+      // No listing discovered, do not attach.
+      return; 
+    }
+
+    const options = {
+      valueNames: ['listing-project','listing-website','listing-format','listing-engines','listing-language','listing-draft-mode','listing-title','listing-title-block-banner','listing-image','listing-hours','listing-pub-info','listing-page-layout','listing-grid','listing-listing','listing-path','listing-outputHref','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
+      
+      searchColumns: ["listing-project","listing-website","listing-format","listing-engines","listing-language","listing-draft-mode","listing-title","listing-title-block-banner","listing-image","listing-hours","listing-pub-info","listing-page-layout","listing-grid","listing-listing","listing-path","listing-outputHref","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
+    };
+
+    window['quarto-listings'] = window['quarto-listings'] || {};
+    window['quarto-listings']['listing-modules'] = new List('listing-modules', options);
+
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  });
+
+  window.addEventListener('hashchange',() => {
+    if (window['quarto-listing-loaded']) {
+      window['quarto-listing-loaded']();
+    }
+  })
+  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-9D93EVJKF5"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -111,8 +142,36 @@ background-size: cover;
       }
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-<meta http-equiv="refresh" content="0; URL=https://hsma.co.uk/hsma_content/modules/modules.html">
 
+  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
+  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
+
+<script type="text/javascript">
+const typesetMath = (el) => {
+  if (window.MathJax) {
+    // MathJax Typeset
+    window.MathJax.typeset([el]);
+  } else if (window.katex) {
+    // KaTeX Render
+    var mathElements = el.getElementsByClassName("math");
+    var macros = [];
+    for (var i = 0; i < mathElements.length; i++) {
+      var texText = mathElements[i].firstChild;
+      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
+        window.katex.render(texText.data, mathElements[i], {
+          displayMode: mathElements[i].classList.contains('display'),
+          throwOnError: false,
+          macros: macros,
+          fleqn: false
+        });
+      }
+    }
+  }
+}
+window.Quarto = {
+  typesetMath
+};
+</script>
 
 <link rel="stylesheet" href="styles.css">
 </head>
@@ -148,11 +207,11 @@ background-size: cover;
 <span class="menu-text">Lambda</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./hsma_content/books/books.html"> 
+    <a class="nav-link" href="./books.html"> 
 <span class="menu-text">Books</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./hsma_content/modules/modules.html"> 
+    <a class="nav-link active" href="./modules.html" aria-current="page"> 
 <span class="menu-text">Modules</span></a>
   </li>  
   <li class="nav-item">
@@ -160,8 +219,8 @@ background-size: cover;
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="./impact_stories.html"> 
-<span class="menu-text">Case Studies</span></a>
+    <a class="nav-link" href="./impact.html"> 
+<span class="menu-text">Impact</span></a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
@@ -307,13 +366,13 @@ background-size: cover;
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-body">
-      <h1 class="title">Modules</h1>
+    <div class="quarto-title column-page">
+      <h1 class="title">HSMA 6 Modules</h1>
                       </div>
   </div>
     
   
-  <div class="quarto-title-meta">
+  <div class="quarto-title-meta column-page">
 
       
     
@@ -321,20 +380,406 @@ background-size: cover;
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
-        
-    </div>
+    
 <!-- main -->
-<main class="content quarto-banner-title-block" id="quarto-document-content">
+<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
 
 
 
 
 
-<p>Redirecting to the HSMA Course Page. If you are not redirected within 3 seconds, click <a href="https://hsma.co.uk/hsma_content/modules/modules.html">here</a> to go to the page.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Tip
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>The content below relates to the now complete HSMA 6, which ran from April 2024 to June 2025.</p>
+<p>All of this content can be freely accessed if you want to learn these things outside of a dedicated HSMA cycle or are not eligible to join the next round of the HSMA programme.</p>
+<p>Click into the module you are interested in to find a full list of the sessions within that module, including links to the session recording, the slides, and the code-based exercises and solutions.</p>
+<p>Prefer to read a summary of the content covered in these sessions? Head to the <a href="./books.html">books</a> page instead.</p>
+</div>
+</div>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+Note
+</div>
+</div>
+<div class="callout-body-container callout-body">
+<p>Modules are listed in the order they are delivered on the course, but while module 1 is essential for all other modules, most of the remaining modules can be consumed independently.</p>
+<p>The only exceptions are</p>
+<ul>
+<li>deploying reproducible reports online in module 8 (an optional exercise) relies on github content from session 7A</li>
+<li>natural language processing in module 5, which benefits from completing module 4 (machine learning) first</li>
+</ul>
+</div>
+</div>
+<div id="listing-modules" class="quarto-listing quarto-listing-container-custom">
+<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 450px)); gap: 20px;">
+
+  
+    <div class="custom-grid-card border-2 rounded-3" data-index="0" data-listing-file-modified-sort="1788353756415" data-listing-reading-time-sort="1" data-listing-word-count-sort="38">
+          <div class="main-card-content">
+            
+              <a href="./hsma_content/modules/current_module_details/1_intro_or_ds_python.html">
+                <img class="card-img" src="./hsma_content/modules/current_module_details/1_intro_or_ds_python.jpeg" alt="Module 1: Introduction to Operational Research, Data Science and Programming">
+              </a>
+              
+
+              <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Module 1: Introduction to Operational Research, Data Science and Programming</h5>
+            </div>
+
+            <div class="quarto-categories">
+              <button class="category-button">36 hours</button>
+            </div>
+
+            
+              <p class="listing-abstract">This module serves as an introduction to the fields of operational research and data science, as well as ensuring you have the tools setup and all of the Python knowledge you need to be able to access the later sessions delivered on the course.
+
+<br><br>It covers
+<br>• How the HSMA course is structured
+<br>• Why we should use Free and Open Source (FOSS) software
+<br>• What Operational Research and Data Science are
+<br>• The conceptual modelling process
+<br>• The concepts underpinning coding, such as conditional logic, the object oriented paradigm, and more
+<br>• How to set up the VSCode Integrated Development Environment (IDE) for Python Programming
+<br>• How to set up environments for package management throughout the HSMA course using Anaconda or the built-in environment features of VSCode
+<br>• How to write code using the Python programming language
+</p>
+
+                
+
+              </div>
+
+                <div class="project-details-listing">
+                  <button class="project-link-listing-button"><a href="./hsma_content/modules/current_module_details/1_intro_or_ds_python.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                </div>
+
+              </div>
+
+            
+    <div class="custom-grid-card border-2 rounded-3" data-index="1" data-listing-file-modified-sort="1788353756415" data-listing-reading-time-sort="1" data-listing-word-count-sort="38">
+          <div class="main-card-content">
+            
+              <a href="./hsma_content/modules/current_module_details/2_des.html">
+                <img class="card-img" src="./hsma_content/modules/current_module_details/2_des.jpeg" alt="Module 2: Modelling Pathway and Queuing Problems">
+              </a>
+              
+
+              <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Module 2: Modelling Pathway and Queuing Problems</h5>
+            </div>
+
+            <div class="quarto-categories">
+              <button class="category-button">9 hours</button>
+            </div>
+
+            
+              <p class="listing-abstract">This module serves as an introduction to modelling pathway problems with discrete event simulation (DES).
+
+<br><br>It covers
+<br>• What DES is and where it may be useful
+<br>• The key terminology associated with DES (e.g. resources, entities, sinks)
+<br>• How to simplify a real-world pathway modelling problem into a conceptual model
+<br>• Python generator functions
+<br>• The features of the SimPy package
+<br>• How to write simple simulations in Python with SimPy
+<br>• How to deal with multi-step pathways
+<br>• How to deal with branching pathways
+<br>• How to build in more complex features to your pathway models, including warm-up periods, priority-based queuing, resource unavailability, Lognormal distributions, reneging, balking, and jockeying
+</p>
+
+                
+
+              </div>
+
+                <div class="project-details-listing">
+                  <button class="project-link-listing-button"><a href="./hsma_content/modules/current_module_details/2_des.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                </div>
+
+              </div>
+
+            
+    <div class="custom-grid-card border-2 rounded-3" data-index="2" data-listing-file-modified-sort="1788353756415" data-listing-reading-time-sort="1" data-listing-word-count-sort="38">
+          <div class="main-card-content">
+            
+              <a href="./hsma_content/modules/current_module_details/3_geographic_modelling_visualisation.html">
+                <img class="card-img" src="./hsma_content/modules/current_module_details/3_geographic.jpeg" alt="Module 3: Geographic Modelling and Visualisation">
+              </a>
+              
+
+              <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Module 3: Geographic Modelling and Visualisation</h5>
+            </div>
+
+            <div class="quarto-categories">
+              <button class="category-button">12 hours</button>
+            </div>
+
+            
+              <p class="listing-abstract">This module serves as an introduction to creating maps and solving geographical problems in Python.
+<br><br>
+The module begins with an overview of key geographic concepts, including projections, coordinate reference systems, and levels of geographic data in use within the UK.
+<br><br>
+It then moves on to the usage of the free program QGIS, allowing maps to be made in a powerful point-and-click tool without making use of code. In QGIS, we cover
+<br>• Loading in geographic data stored in a range of formats, including geoJSON, geopackages, shapefiles, and csv files
+<br>• Displaying point data
+<br>• Displaying area data (creation of choropleths)]
+<br>• Enhancing QGIS maps with labels, custom colour groups, icons, and more
+<br>• Creating custom print layouts to display one or multiple QGIS maps along with titles, text and legends
+<br><br>
+The next part of the module covers working with geographic data in Python.
+<br>• Loading in geographic data (e.g. geoJSON, geopackages, shapefiles) with the geopandas package
+<br>• Converting pandas dataframes into geopandas dataframes
+<br>• Visualising point data and area data in static maps using matplotlib
+<br>• Customising and polishing static matplotlib maps
+<br>• Visualising point data and area data in static maps using folium
+<br>• Working with and visualising travel time matrices
+<br>• Obtaining travel time data for multiple modes of transport from free APIs using the routingpy package
+<br>• Obtaining and visualising isochrone data
+<br><br>
+The module ends with an exploration of how to solve geographic optimisation problems - placing a number of sites in a way that minimises and objective like average travel time or distance - in Python. The module gives code examples for brute force solutions, but touches on more the more advanced evolutionary and genetic algorithm approaches and the value of multiobjective optimisation.
+<br><br>
+</p>
+
+                
+
+              </div>
+
+                <div class="project-details-listing">
+                  <button class="project-link-listing-button"><a href="./hsma_content/modules/current_module_details/3_geographic_modelling_visualisation.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                </div>
+
+              </div>
+
+            
+    <div class="custom-grid-card border-2 rounded-3" data-index="3" data-listing-file-modified-sort="1788353756415" data-listing-reading-time-sort="1" data-listing-word-count-sort="44">
+          <div class="main-card-content">
+            
+              <a href="./hsma_content/modules/current_module_details/4_machine_learning.html">
+                <img class="card-img" src="./hsma_content/modules/current_module_details/4_ml.jpeg" alt="Module 4: Machine Learning">
+              </a>
+              
+
+              <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Module 4: Machine Learning</h5>
+            </div>
+
+            <div class="quarto-categories">
+              <button class="category-button">30 hours</button>
+            </div>
+
+            
+              <p class="listing-abstract">This module serves as an introduction to machine learning methods in Python. Students make use of packages including scikit-learn and tensorflow to train and assess machine learning models that can classify data into groups or predict a numeric value (e.g. length of stay).
+<br><br>
+It covers
+<br>• Key machine learning concepts, such as train-test splits, accuracy, the bias-variance trade-off, and more
+<br>• Preparing data for machine learning with one-hot encoding, feature engineering
+<br>• Machine learning ethics
+<br>• Tackling classification problems with machine learning
+<br>• Tackling regression problems (numeric predictions) with machine learning
+<br>• The theory of, and how to apply, a wide range of algorithms using the scikit-learn package: logistic regression, decision trees, random forests, XGBoost, LightGBM, and more
+<br>• Creating ensemble models
+<br>• Assessing the performance of machine learning model in classification and regression problems with accuracy, precision, recall, f1 score, confusion matrices, the receiver operating curve, the ROC AUC, and more
+<br>• How to explain the activity of black-box models with techniques such as individual conditional expectation (ICE) plots, partial dependence plots (PDPs), SHAP values, and more
+<br>• Calibrating models for obtaining prediction probabilities
+<br>• Optimising model parameters efficiently with grid search and the optuna framework
+<br>• Optimising the selected features with a range of feature selection approaches
+<br>• Creating neural networks for classification problems with the tensorflow package
+<br>• The principles of reinforcement learning
+<br>• Creating synthetic data with SMOTE
+</p>
+
+                
+
+              </div>
+
+                <div class="project-details-listing">
+                  <button class="project-link-listing-button"><a href="./hsma_content/modules/current_module_details/4_machine_learning.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                </div>
+
+              </div>
+
+            
+    <div class="custom-grid-card border-2 rounded-3" data-index="4" data-listing-file-modified-sort="1788353756416" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+          <div class="main-card-content">
+            
+              <a href="./hsma_content/modules/current_module_details/5_natural_language_processing.html">
+                <img class="card-img" src="./hsma_content/modules/current_module_details/5_nlp.jpeg" alt="Module 5: Natural Language Processing">
+              </a>
+              
+
+              <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Module 5: Natural Language Processing</h5>
+            </div>
+
+            <div class="quarto-categories">
+              <button class="category-button">15 hours</button>
+            </div>
+
+            
+              <p class="listing-abstract">In this module we explore a range of techniques that can help to make sense of the reams of unstructured text-based data that exists in healthcare systems around the world.
+<br><br>
+Starting off with an overview of the terminology and key concepts of the field of natural language processing (NLP), we then work on processing some real text data and exploring the frequency of words and phrases within it, using this to create wordcloud visualisations of these texts.
+<br><br>
+We then move on to Named Entity Recognition (NER), exploring a library we can use to automatically recognise anything from people to places.
+<br><br>
+Finally, we move on to sentiment analysis - a technique more closely related to the machine learning work we did in module 4. We explore how to train a neural network that can identify whether a piece of text is positve or negative in tone, providing an insight into a flexible class of machine learning that can be used for other text classification tasks.
+<br><br>
+This year, the module ended with a 6 hour hackathon in which students were able to work in their peer support groups on a natural language processing task of their choice. While there is no taught content for this session, the presentations given by the groups of their projects from the day are available to watch.
+</p>
+
+                
+
+              </div>
+
+                <div class="project-details-listing">
+                  <button class="project-link-listing-button"><a href="./hsma_content/modules/current_module_details/5_natural_language_processing.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                </div>
+
+              </div>
+
+            
+    <div class="custom-grid-card border-2 rounded-3" data-index="5" data-listing-file-modified-sort="1788353756416" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+          <div class="main-card-content">
+            
+              <a href="./hsma_content/modules/current_module_details/6_system_dynamics_agent_based_simulation.html">
+                <img class="card-img" src="./hsma_content/modules/current_module_details/6_system.jpeg" alt="Module 6: Modelling Behaviour and System Dynamics">
+              </a>
+              
+
+              <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Module 6: Modelling Behaviour and System Dynamics</h5>
+            </div>
+
+            <div class="quarto-categories">
+              <button class="category-button">12 hours</button>
+            </div>
+
+            
+              <p class="listing-abstract">In module 6, we explore two more techniques for modelling pathways and systems.
+<br><br>
+We kick off with system dynamics - a powerful tool for qualitative or quantitative (numeric) simulations of systems at a high level. System Dynamics excels at unpicking fundamental issues with the structure of systems. This session is codeless, using the online InsightMaker platform instead.
+<br><br>
+We then move onto agent-based simulation (ABS) - a simulation technique that is well-suited to instances where we are interested in the emergent behaviour of systems that comes from the interactions of and decisions of individuals. Commonly used in disease spread modelling, we explore how to write our own simulations using the MESA package, as well as digging into its possible applications in a more general healthcare context.
+</p>
+
+                
+
+              </div>
+
+                <div class="project-details-listing">
+                  <button class="project-link-listing-button"><a href="./hsma_content/modules/current_module_details/6_system_dynamics_agent_based_simulation.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                </div>
+
+              </div>
+
+            
+    <div class="custom-grid-card border-2 rounded-3" data-index="6" data-listing-file-modified-sort="1788353756417" data-listing-reading-time-sort="1" data-listing-word-count-sort="43">
+          <div class="main-card-content">
+            
+              <a href="./hsma_content/modules/current_module_details/7_git_and_web_development.html">
+                <img class="card-img" src="./hsma_content/modules/current_module_details/7_collab.jpeg" alt="Module 7: Open Source Collaborative Development and Web Development">
+              </a>
+              
+
+              <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Module 7: Open Source Collaborative Development and Web Development</h5>
+            </div>
+
+            <div class="quarto-categories">
+              <button class="category-button">18 hours</button>
+            </div>
+
+            
+              <p class="listing-abstract">In this module we start by taking a look at a crucial skill for the analyst, data science or operational researcher's toolbox - version control with Git. Git ensures that the full history of your code is available, allowing you to
+<br>• roll back to earlier versions of code
+<br>• keep a clean working copy of code safe and accessible while being able to start working on new features
+<br><br>
+Say goodbye to V2, V3_FINAL, and V_ACTUAL_FINAL_VERSION - with Git, you will always know where you are.
+<br><br>
+We then explore the online platform GitHub, which allows for hosting of code folders that are controlled using Git. GitHub is possibly the most used code-sharing and collaboration platform in the world, and is a crucial part of ensuring your code is available for others to audit, use and build on.
+<br><br>
+We then move on to creating web interfaces. With the advent of a range of tools that are designed to make it easier for people to create data-driven web apps and interactive model interfaces without having to learn the intricacies of traditional web development, it's a great time to start developing your own interfaces to get your scripts into the hands of others - without them having to install or use the code directly.
+<br><br>
+In this module, we'll be working with the Streamlit framework - a beginner-friendly but powerful Python library that will get your writing your first interactive apps in minutes.
+<br><br>
+We will cover
+<br>• creating simple apps
+<br>•  adding interactive elements like sliders, text and numeric inputs, dropdowns, and more
+<br>•  adding outputs such as dataframes, interactive plots, and maps
+<br>•  theming your app
+<br>•  using layout elements such as tabs, columns, expanders, sidebars, and multi-page navigation
+<br>•  improving the running of your app with advanced features like caching, fragments and sessin state
+<br><br>
+We will round off the module by practicing our Git and GitHub skills, uploading our apps to a GitHub repository so we can then host them on the Streamlit Community Cloud platform.
+</p>
+
+                
+
+              </div>
+
+                <div class="project-details-listing">
+                  <button class="project-link-listing-button"><a href="./hsma_content/modules/current_module_details/7_git_and_web_development.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                </div>
+
+              </div>
+
+            
+    <div class="custom-grid-card border-2 rounded-3" data-index="7" data-listing-file-modified-sort="1788353756417" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
+          <div class="main-card-content">
+            
+              <a href="./hsma_content/modules/current_module_details/8_modern_analytics.html">
+                <img class="card-img" src="./hsma_content/modules/current_module_details/8_modern.jpg" alt="Module 8: Modern Analytics">
+              </a>
+              
+
+              <div class="project-content listing-title">
+                <h5 class="no-anchor card-title listing-title">Module 8: Modern Analytics</h5>
+            </div>
+
+            <div class="quarto-categories">
+              <button class="category-button">12 hours</button>
+            </div>
+
+            
+              <p class="listing-abstract">This module serves to introduce some additional techniques that are useful parts of the modern analyst's skillset.
+<br><br>
+We start with a session on reproducible reporting, exploring how we can create beautiful html, pdf and Word reports with the Quarto library. Quarto allows for code - and the output of code - to be interweaved with text, headings, images, videos, and much more. We explore standard document layouts as well as dashboard-style layouts, and cover a range of useful Quarto parameters and tips.
+<br><br>
+With Quarto, we also look at automation and parameterisation of reports, exploring how to generate multiple reports just by running a simple Python script.
+<br><br>
+In the final session of HSMA 6, we take a look at time-series forecasting methods. These methods take historical patterns and use them to predict the future. The session covers a range of time-series forecasting approaches, as well as the circumstances under which you may consider using them and how to assess their performance.
+</p>
+
+                
+
+              </div>
+
+                <div class="project-details-listing">
+                  <button class="project-link-listing-button"><a href="./hsma_content/modules/current_module_details/8_modern_analytics.html"><i class="fa fa-info-circle"></i> Details </a></button>
+                </div>
+
+              </div>
+
+            
+          </div>
+
+<div class="listing-no-matching d-none">No matching items</div>
+</div>
+
 
 
 

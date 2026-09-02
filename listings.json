@@ -1,15 +1,5 @@
 [
   {
-    "listing": "/hsma_content/books/books.html",
-    "items": [
-      "/hsma_content/books/book_details/book_introduction_to_python.html",
-      "/hsma_content/books/book_details/book_des.html",
-      "/hsma_content/books/book_details/book_geographic_modelling.html",
-      "/hsma_content/books/book_details/book_machine_leaning.html",
-      "/hsma_content/books/book_details/book_streamlit.html"
-    ]
-  },
-  {
     "listing": "/hsma_content/modules/current_module_details/7_git_and_web_development.html",
     "items": [
       "/hsma_content/modules/current_module_details/module_7_git_streamlit/7a_version_control_git.html",
@@ -310,6 +300,29 @@
       "/previous_projects/hsma_6/H6_6067_applying_manipulating_id_rules_specialised_services/index.html",
       "/previous_projects/hsma_alumni/H5_5100_Extra_funding_allocation_inequality_tool/index.html",
       "/previous_projects/hsma_2/H2_2009_testing_intervention_to_reduce_continuing_healthcaare_assesessment_backlog/index.html"
+    ]
+  },
+  {
+    "listing": "/books.html",
+    "items": [
+      "/hsma_content/books/book_details/book_introduction_to_python.html",
+      "/hsma_content/books/book_details/book_des.html",
+      "/hsma_content/books/book_details/book_geographic_modelling.html",
+      "/hsma_content/books/book_details/book_machine_leaning.html",
+      "/hsma_content/books/book_details/book_streamlit.html"
+    ]
+  },
+  {
+    "listing": "/modules.html",
+    "items": [
+      "/hsma_content/modules/current_module_details/1_intro_or_ds_python.html",
+      "/hsma_content/modules/current_module_details/2_des.html",
+      "/hsma_content/modules/current_module_details/3_geographic_modelling_visualisation.html",
+      "/hsma_content/modules/current_module_details/4_machine_learning.html",
+      "/hsma_content/modules/current_module_details/5_natural_language_processing.html",
+      "/hsma_content/modules/current_module_details/6_system_dynamics_agent_based_simulation.html",
+      "/hsma_content/modules/current_module_details/7_git_and_web_development.html",
+      "/hsma_content/modules/current_module_details/8_modern_analytics.html"
     ]
   },
   {
@@ -688,19 +701,6 @@
       "/previous_projects/hsma_1/H1_1003_modelling_impact_strategies_to_improve_weekend_discharge/index.html",
       "/previous_projects/hsma_1/H1_1004_modelling_impact_regionalisation_cardiac_arrest_centres/index.html",
       "/previous_projects/hsma_1/H1_1005_modelling_potential_impact_of_clinical_division_unit_at_RD&E/index.html"
-    ]
-  },
-  {
-    "listing": "/hsma_content/modules/modules.html",
-    "items": [
-      "/hsma_content/modules/current_module_details/1_intro_or_ds_python.html",
-      "/hsma_content/modules/current_module_details/2_des.html",
-      "/hsma_content/modules/current_module_details/3_geographic_modelling_visualisation.html",
-      "/hsma_content/modules/current_module_details/4_machine_learning.html",
-      "/hsma_content/modules/current_module_details/5_natural_language_processing.html",
-      "/hsma_content/modules/current_module_details/6_system_dynamics_agent_based_simulation.html",
-      "/hsma_content/modules/current_module_details/7_git_and_web_development.html",
-      "/hsma_content/modules/current_module_details/8_modern_analytics.html"
     ]
   },
   {

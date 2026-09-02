@@ -7,7 +7,7 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
 
-<title>HSMA Books – HSMA</title>
+<title>Books – HSMA</title>
 <style>
 /* Default styles provided by pandoc.
 ** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
@@ -37,8 +37,6 @@ ul.task-list li input[type="checkbox"] {
 <script src="../../site_libs/quarto-search/quarto-search.js"></script>
 <meta name="quarto:offset" content="../../">
 <link href="../../resources/favicon.png" rel="icon" type="image/png">
-<script src="../../site_libs/quarto-listing/list.min.js"></script>
-<script src="../../site_libs/quarto-listing/quarto-listing.js"></script>
 <script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
 <link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
 <script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
@@ -78,35 +76,6 @@ ul.task-list li input[type="checkbox"] {
     "search-label": "Search"
   }
 }</script>
-<script>
-
-  window.document.addEventListener("DOMContentLoaded", function (_event) {
-    const listingTargetEl = window.document.querySelector('#listing-books .list');
-    if (!listingTargetEl) {
-      // No listing discovered, do not attach.
-      return; 
-    }
-
-    const options = {
-      valueNames: ['listing-project','listing-website','listing-format','listing-engines','listing-language','listing-draft-mode','listing-title','listing-date','listing-pub-info','listing-link','listing-image','listing-path','listing-outputHref','listing-date-modified','listing-author','listing-description','listing-filename','listing-file-modified','listing-reading-time','listing-word-count',{ data: ['index'] },{ data: ['categories'] },{ data: ['listing-date-sort'] },{ data: ['listing-date-modified-sort'] },{ data: ['listing-file-modified-sort'] },{ data: ['listing-reading-time-sort'] },{ data: ['listing-word-count-sort'] }],
-      
-      searchColumns: ["listing-project","listing-website","listing-format","listing-engines","listing-language","listing-draft-mode","listing-title","listing-date","listing-pub-info","listing-link","listing-image","listing-path","listing-outputHref","listing-date-modified","listing-author","listing-description","listing-filename","listing-file-modified","listing-reading-time","listing-word-count"],
-    };
-
-    window['quarto-listings'] = window['quarto-listings'] || {};
-    window['quarto-listings']['listing-books'] = new List('listing-books', options);
-
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  });
-
-  window.addEventListener('hashchange',() => {
-    if (window['quarto-listing-loaded']) {
-      window['quarto-listing-loaded']();
-    }
-  })
-  </script>
 <script async="" src="https://www.googletagmanager.com/gtag/js?id=G-9D93EVJKF5"></script>
 
 <script type="text/plain" cookie-consent="tracking">
@@ -142,36 +111,8 @@ background-size: cover;
       }
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<meta http-equiv="refresh" content="0; URL=https://hsma.co.uk/books.html">
 
-  <script src="https://cdnjs.cloudflare.com/polyfill/v3/polyfill.min.js?features=es6"></script>
-  <script defer="" src="https://cdn.jsdelivr.net/npm/mathjax@4/tex-chtml.js" type="text/javascript"></script>
-
-<script type="text/javascript">
-const typesetMath = (el) => {
-  if (window.MathJax) {
-    // MathJax Typeset
-    window.MathJax.typeset([el]);
-  } else if (window.katex) {
-    // KaTeX Render
-    var mathElements = el.getElementsByClassName("math");
-    var macros = [];
-    for (var i = 0; i < mathElements.length; i++) {
-      var texText = mathElements[i].firstChild;
-      if (mathElements[i].tagName == "SPAN" && texText && texText.data) {
-        window.katex.render(texText.data, mathElements[i], {
-          displayMode: mathElements[i].classList.contains('display'),
-          throwOnError: false,
-          macros: macros,
-          fleqn: false
-        });
-      }
-    }
-  }
-}
-window.Quarto = {
-  typesetMath
-};
-</script>
 
 <link rel="stylesheet" href="../../styles.css">
 </head>
@@ -207,11 +148,11 @@ window.Quarto = {
 <span class="menu-text">Lambda</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link active" href="../../hsma_content/books/books.html" aria-current="page"> 
+    <a class="nav-link" href="../../books.html"> 
 <span class="menu-text">Books</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../hsma_content/modules/modules.html"> 
+    <a class="nav-link" href="../../modules.html"> 
 <span class="menu-text">Modules</span></a>
   </li>  
   <li class="nav-item">
@@ -219,8 +160,8 @@ window.Quarto = {
 <span class="menu-text">News</span></a>
   </li>  
   <li class="nav-item">
-    <a class="nav-link" href="../../impact_stories.html"> 
-<span class="menu-text">Case Studies</span></a>
+    <a class="nav-link" href="../../impact.html"> 
+<span class="menu-text">Impact</span></a>
   </li>  
   <li class="nav-item dropdown ">
     <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
@@ -366,13 +307,13 @@ window.Quarto = {
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
-      <h1 class="title">HSMA Books</h1>
+    <div class="quarto-title column-body">
+      <h1 class="title">Books</h1>
                       </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page">
+  <div class="quarto-title-meta">
 
       
     
@@ -380,188 +321,20 @@ window.Quarto = {
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content">
+<main class="content quarto-banner-title-block" id="quarto-document-content">
 
 
 
 
 
-<p>To accompany the HSMA course, we have written several eBooks.</p>
-<p>These are freely available to all - please share them with anyone you think would find them useful!</p>
-<p>Prefer to follow along with the original session recordings, slides and exercises? Head to the <a href="../../hsma_content/modules/modules.html">modules</a> page instead.</p>
-<div id="listing-books" class="quarto-listing quarto-listing-container-custom">
-<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 450px)); gap: 20px;">
-
-  
-    <div class="custom-grid-card border-2 rounded-3" data-index="0" data-listing-date-sort="1704067200000" data-listing-file-modified-sort="1787819049959" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-          <div class="main-card-content">
-            
-              <a href="https://hsma-programme.github.io/hsma6_intro_to_python_book/" target="_blank">
-                <img class="card-img" src="../../hsma_content/books/book_details/python_cover_image.jpeg" alt="The HSMA Introduction to Python">
-              </a>
-              
-
-              <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">The HSMA Introduction to Python</h5>
-            </div>
-
-            
-              <p class="listing-abstract">Are you an absolute beginner in the Python programming language? Or even brand new to programming in general? Worry not! Our Python Programming book will take you from "hello world" through to being a whizz with data types, functions, and even the dreaded object oriented programming.
-<br><br>
-Covering data types, lists, dictionaries, loops, conditional logic, using and writing functions, importing packages, and handling errors, this book will unlock a world of additional techniques for you and is an important starting point before moving on to the other books in the HSMA set.
-<br><br>
-We also take a brief look at handling data in the popular, industry-standard numpy and pandas packages, as well as a quick introduction to creating static and interactive graphs, making sure you're equipped with the key knowledge a budding data scientist or operational researcher needs!
-</p>
-
-                
-
-              </div>
-
-                <div class="project-details-listing">
-                          
-                          <button class="project-link-listing-button"><a href="https://hsma-programme.github.io/hsma6_intro_to_python_book/" target="_blank"><i class="fa-solid fa-book"></i> Free eBook </a></button>
-                            
-                </div>
-
-              </div>
-
-            
-    <div class="custom-grid-card border-2 rounded-3" data-index="1" data-listing-date-sort="1706745600000" data-listing-file-modified-sort="1787819049959" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-          <div class="main-card-content">
-            
-              <a href="https://hsma-programme.github.io/hsma6_des_book/" target="_blank">
-                <img class="card-img" src="../../hsma_content/books/book_details/des_cover_image.jpeg" alt="The Little Book of Discrete Event Simulation">
-              </a>
-              
-
-              <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">The Little Book of Discrete Event Simulation</h5>
-            </div>
-
-            
-              <p class="listing-abstract">Discrete Event Simulation is a powerful technique for tackling queueing problems in your organisation - of which you might have more than you think! Learn how to create a simulated version of your diagnosis pathways, walk-in clinics, emergency departments and more in this book.
-<br><br>
-Covering the key concepts of discrete event simulation in beginner-friendly terms before moving on to coding your own simulations in Python using the SimPy package, you'll be identifying bottlenecks and testing out changes to resourcing and pathway designs in no time.
-</p>
-
-                
-
-              </div>
-
-                <div class="project-details-listing">
-                          
-                          <button class="project-link-listing-button"><a href="https://hsma-programme.github.io/hsma6_des_book/" target="_blank"><i class="fa-solid fa-book"></i> Free eBook </a></button>
-                            
-                </div>
-
-              </div>
-
-            
-    <div class="custom-grid-card border-2 rounded-3" data-index="2" data-listing-date-sort="1709251200000" data-listing-file-modified-sort="1787819049959" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-          <div class="main-card-content">
-            
-              <a href="https://hsma-programme.github.io/hsma6_geographic_optimisation_and_visualisation_book/intro.html" target="_blank">
-                <img class="card-img" src="../../hsma_content/books/book_details/geographic_cover_image.jpeg" alt="The HSMA Book of Geographic Modelling and Visualisation">
-              </a>
-              
-
-              <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">The HSMA Book of Geographic Modelling and Visualisation</h5>
-            </div>
-
-            
-              <p class="listing-abstract">Anybody have a map? We do! This book takes you through a range of key geographical concepts, as well as how to build maps in both the free point-and-click tool QGIS and in the Python programming language. We also take a dive into the world of optimisation problems, learning how to find the optimum solution to the question "where should I place my services?" - taking a brief detour to the world of travel times on our way.
-</p>
-
-                
-
-              </div>
-
-                <div class="project-details-listing">
-                          
-                          <button class="project-link-listing-button"><a href="https://hsma-programme.github.io/hsma6_geographic_optimisation_and_visualisation_book/intro.html" target="_blank"><i class="fa-solid fa-book"></i> Free eBook </a></button>
-                            
-                </div>
-
-              </div>
-
-            
-    <div class="custom-grid-card border-2 rounded-3" data-index="3" data-listing-date-sort="1711929600000" data-listing-file-modified-sort="1787819049959" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="1">
-          <div class="main-card-content">
-            
-              <a href="https://hsma-programme.github.io/h6_module4_notebooks/" target="_blank">
-                <img class="card-img" src="../../hsma_content/books/book_details/machine_learning_cover_image.jpeg" alt="The HSMA Collection of Machine Learning Notebooks">
-              </a>
-              
-
-              <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">The HSMA Collection of Machine Learning Notebooks</h5>
-            </div>
-
-            
-              <p class="listing-abstract">Got lots of data and a suspicion that there's a pattern in there somewhere? Machine learning is here to save the day! While we don't have a book here, what we do have is a collection of the guided code examples from across the machine learning module of HSMA. These notebooks talk through the how and why of each step, as well as giving you a huge library of code snippets to use when building your own machine learning projects.
-
-This book takes you through the key concepts in machine learning before we take a tour through a series of powerful supervised machine learning algorithms, including logistic regression, decision trees, random forests and boosted trees - covering both the conceptual basis for each of these, and how to write Python code with the sklearn package to make use of them with your own data and evaluate how well they're performing. We also take a look at neural networks with tensorflow package.
-<br><br>
-To round this set of notebooks off, we take a dive into how you can calibrate and optimise your models, as well as taking a look at what's going on under the hood with explainable techniques like PDP, ICE and SHAP plots.
-</p>
-
-                
-
-              </div>
-
-                <div class="project-details-listing">
-                          
-                          <button class="project-link-listing-button"><a href="https://hsma-programme.github.io/h6_module4_notebooks/" target="_blank"><i class="fa-solid fa-book"></i> Free eBook </a></button>
-                            
-                </div>
-
-              </div>
-
-            
-    <div class="custom-grid-card border-2 rounded-3" data-index="4" data-listing-date-sort="1714521600000" data-listing-file-modified-sort="1787819049959" data-listing-date-modified-sort="NaN" data-listing-reading-time-sort="1" data-listing-word-count-sort="6">
-          <div class="main-card-content">
-            
-              <a href="https://hsma-programme.github.io/streamlit_book/" target="_blank">
-                <img class="card-img" src="../../hsma_content/books/book_details/streamlit_cover_image.jpeg" alt="The HSMA Book of Streamlit">
-              </a>
-              
-
-              <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title">The HSMA Book of Streamlit</h5>
-            </div>
-
-            
-              <p class="listing-abstract">It's all well and good having an amazing bit of Python code - but how can you go about sharing that with the people in your organisation who don't use Python? In this book, we introduce the fantastic Streamlit package - a beginner-friendly web development framework that will have you creating interactive data apps in minutes, not weeks.
-<br><br>
-Covering everything from 'Hello Streamlit!' to deploying your app on a free web hosting service, this book is great for beginners to the world of web development.
-<br><br>
-For the more seasoned Streamlit user, you will find a handy reference guide for a range of techniques, including multi-page apps, adding download buttons, partial reruns, custom styling, caching, session state, the stlite framework for browser-based code execution, and more.
-</p>
-
-                
-
-              </div>
-
-                <div class="project-details-listing">
-                          
-                          <button class="project-link-listing-button"><a href="https://hsma-programme.github.io/streamlit_book/" target="_blank"><i class="fa-solid fa-book"></i> Free eBook </a></button>
-                            
-                </div>
-
-              </div>
-
-            
-          </div>
-
-<div class="listing-no-matching d-none">No matching items</div>
-</div>
-
+<p>Redirecting to the HSMA Books Page. If you are not redirected within 3 seconds, click <a href="https://hsma.co.uk/books.html">here</a> to go to the page.</p>
 
 
 
