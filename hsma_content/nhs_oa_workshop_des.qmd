@@ -1,0 +1,50 @@
+---
+title: NHS OA Workshop - 30th September 2026
+title-block-banner: banner.png
+include-back-link: false
+page-layout: full
+toc: false
+grid:
+  sidebar-width: 0px
+  body-width: 1300px
+  margin-width: 100px
+  gutter-width: 1.5rem
+---
+
+## Itinerary
+
+```{=html}
+<iframe width='1280' height='500' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vRFmR7cVQMgkC5A4xSk4zdQl_sVhJLK8k98D7C1ozoBnZj3yI_-gz8TtqwgdHtxwuAx_cMJDs3nqZkn/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false' title='Quarto Documentation'></iframe>
+```
+
+
+## Slides
+
+### Part 1
+
+```{=html}
+<iframe width='1280' height='600' src='https://docs.google.com/presentation/d/1uN0PsRhS8JVBUdSLZfYA4MXKmgg0X6UHP57CxQYuCas/embed?start=false&loop=false&delayms=3000' title='Quarto Documentation'></iframe>
+```
+
+
+### Part 2
+
+```{=html}
+<iframe width='1280' height='600' src='https://hsma-programme.github.io/nhs_oa_vidigi_slides/ ' title='Quarto Documentation'></iframe>
+```
+
+
+
+## Exercises
+
+### DES Playground
+
+```{=html}
+<iframe width='1280' height='700' src='https://playground.hsma.co.uk' title='DES Playground'></iframe>
+```
+
+### Vidigi Playground
+
+```{=html}
+<iframe width='1280' height='700' src='https://hsma-programme.github.io/nhs_oa_vidigi_streamlit/' title='Vidigi Playground'></iframe>
+```
