@@ -17,6 +17,7 @@ grid:
 <iframe width='1280' height='500' src='https://docs.google.com/spreadsheets/d/e/2PACX-1vRFmR7cVQMgkC5A4xSk4zdQl_sVhJLK8k98D7C1ozoBnZj3yI_-gz8TtqwgdHtxwuAx_cMJDs3nqZkn/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false' title='Quarto Documentation'></iframe>
 ```
 
+Click [here](https://docs.google.com/spreadsheets/d/1XLAVy8KAFmkYKRLZU2RxCOrApnFvU-UY2gQpQNYhf2Y/edit?usp=sharing) to open in a new window.
 
 ## Slides
 
@@ -26,12 +27,16 @@ grid:
 <iframe width='1280' height='600' src='https://docs.google.com/presentation/d/1uN0PsRhS8JVBUdSLZfYA4MXKmgg0X6UHP57CxQYuCas/embed?start=false&loop=false&delayms=3000' title='Quarto Documentation'></iframe>
 ```
 
+Click [here](https://docs.google.com/presentation/d/1uN0PsRhS8JVBUdSLZfYA4MXKmgg0X6UHP57CxQYuCas/edit?usp=sharing) to open in a new window.
+
 
 ### Part 2
 
 ```{=html}
 <iframe width='1280' height='600' src='https://hsma-programme.github.io/nhs_oa_vidigi_slides/ ' title='Quarto Documentation'></iframe>
 ```
+
+Click [here](https://hsma-programme.github.io/nhs_oa_vidigi_slides/) to open in a new window.
 
 
 
@@ -43,8 +48,13 @@ grid:
 <iframe width='1280' height='700' src='https://playground.hsma.co.uk' title='DES Playground'></iframe>
 ```
 
+Click [here](https://playground.hsma.co.uk) to open in a new window.
+
+
 ### Vidigi Playground
 
 ```{=html}
 <iframe width='1280' height='700' src='https://hsma-programme.github.io/nhs_oa_vidigi_streamlit/' title='Vidigi Playground'></iframe>
 ```
+
+Click [here](https://hsma-programme.github.io/nhs_oa_vidigi_streamlit/) to open in a new window.
