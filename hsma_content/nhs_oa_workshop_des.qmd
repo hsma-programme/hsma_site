@@ -19,6 +19,8 @@ grid:
 
 Click [here](https://docs.google.com/spreadsheets/d/1XLAVy8KAFmkYKRLZU2RxCOrApnFvU-UY2gQpQNYhf2Y/edit?usp=sharing) to open in a new window.
 
+[Click here to download the itinerary (PDF)](nhs_oa_workshop_des/NHS_OA_DES_Workshop_Itinerary%20-%20Sheet1.pdf){download=""}
+
 ## Slides
 
 ### Part 1
@@ -29,6 +31,8 @@ Click [here](https://docs.google.com/spreadsheets/d/1XLAVy8KAFmkYKRLZU2RxCOrApnF
 
 Click [here](https://docs.google.com/presentation/d/1uN0PsRhS8JVBUdSLZfYA4MXKmgg0X6UHP57CxQYuCas/edit?usp=sharing) to open in a new window.
 
+[Click here to download the slides for the intro to DES and SimPy as a PDF](nhs_oa_workshop_des/NHS_OA_Intro_to_DES_and_SimPy.pdf){download=""}
+
 
 ### Part 2
 
@@ -38,7 +42,7 @@ Click [here](https://docs.google.com/presentation/d/1uN0PsRhS8JVBUdSLZfYA4MXKmgg
 
 Click [here](https://hsma-programme.github.io/nhs_oa_vidigi_slides/) to open in a new window.
 
-
+- [Download the intro to animation in DES slides (Animaniacs) as a PDF](nhs_oa_workshop_des/NHS%20OA%20Intro%20to%20DES%20and%20SimPy%20slides%20-%20Animaniacs.pdf){download=""}
 
 ## Exercises
 
