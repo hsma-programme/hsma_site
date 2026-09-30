@@ -36,7 +36,7 @@ Click [here](https://docs.google.com/presentation/d/1uN0PsRhS8JVBUdSLZfYA4MXKmgg
 
 #### Chalk's Chips Exercise
 
-![](assets\2026-09-30-11-54-57.png)
+![](assets/2026-09-30-11-54-57.png)
 
 Chalk’s Chips is the number 1 fish and chip establishment in Cornwall, thanks to the passion, ingenuity and foresight of its owner - Dan Chalk.  Nevertheless, Dan is keen to see if things can be improved even further to make things more efficient, and generate even more cash to spend on pasties.  To this end, he’d like to use Discrete Event Simulation to model his chip shop to see how everything’s running, and has asked you to draft a design for what that model might look like.
 
@@ -68,7 +68,7 @@ Chalk’s Chips also has a telephone situated in the lobby, which is located bet
 ::: {.callout-tip collapse="true"}
 ### Click here to view a proposed solution to the exercise
 
-![](assets\2026-09-30-12-06-54.png)
+![](assets/2026-09-30-12-06-54.png)
 :::
 
 
