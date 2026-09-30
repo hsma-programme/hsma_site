@@ -65,6 +65,12 @@ Chalk’s Chips also has a telephone situated in the lobby, which is located bet
 > When we come back we’ll ask a few groups to present their designs.  There are no right or wrong answers here - we do have a “Potential Solution” but model design is an art form, and there may be different ways you come up with to model the system (IMPORTANT - you would also normally design a model based on the “what if?” questions it needs to answer, which you don’t know here)
 
 
+::: {.callout-tip collapse="true"}
+### Click here to view a proposed solution to the exercise
+
+![](assets\2026-09-30-12-06-54.png)
+:::
+
 
 ### Part 2
 
