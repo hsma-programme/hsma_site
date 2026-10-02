@@ -335,42 +335,106 @@ background-size: cover;
 
 
 
-<section id="itinerary" class="level2">
-<h2 class="anchored" data-anchor-id="itinerary">Itinerary</h2>
-<iframe width="1280" height="500" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRFmR7cVQMgkC5A4xSk4zdQl_sVhJLK8k98D7C1ozoBnZj3yI_-gz8TtqwgdHtxwuAx_cMJDs3nqZkn/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" title="Quarto Documentation"></iframe>
-<p>Click <a href="https://docs.google.com/spreadsheets/d/1XLAVy8KAFmkYKRLZU2RxCOrApnFvU-UY2gQpQNYhf2Y/edit?usp=sharing">here</a> to open in a new window.</p>
-<p><a href="nhs_oa_workshop_des/NHS_OA_DES_Workshop_Itinerary - Sheet1.pdf" download="">Click here to download the itinerary (PDF)</a></p>
+<p><strong>Let’s Go! An Introduction to Discrete Event Simulation and SimPy</strong></p>
+<p>A standalone workshop for the NHS-OA community from the team behind the ARC South West Health Service Modelling Associates (HSMA) Programme.</p>
+<p>Start with the overview, check the itinerary, or go straight to the slides and exercises in Part 1 and Part 2. Visit Additional resources and next steps to keep learning after the workshop.</p>
+<style>
+#workshop-tabs .nav-tabs {
+  flex-wrap: wrap;
+}
+#workshop-tabs iframe {
+  width: 100%;
+  max-width: 100%;
+  border: 0;
+}
+#workshop-tabs .workshop-slides {
+  height: auto;
+  aspect-ratio: 16 / 9;
+}
+</style>
+<div class="tabset-margin-container"></div><div id="workshop-tabs" class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-4-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-1" role="tab" aria-controls="tabset-4-1" aria-selected="true" href="">Overview</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-2" role="tab" aria-controls="tabset-4-2" aria-selected="false" href="">Itinerary</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-3" role="tab" aria-controls="tabset-4-3" aria-selected="false" href="">Part 1: DES &amp; SimPy</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-4" role="tab" aria-controls="tabset-4-4" aria-selected="false" href="">Part 2: Visualisation &amp; vidigi</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-4-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-4-5" role="tab" aria-controls="tabset-4-5" aria-selected="false" href="">Additional resources and next steps</a></li></ul>
+<div id="workshop-tabs" class="tab-content">
+<div id="tabset-4-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-4-1-tab">
+<section id="why-discrete-event-simulation" class="level3">
+<h3 class="anchored" data-anchor-id="why-discrete-event-simulation">Why discrete event simulation?</h3>
+<p>Discrete Event Simulation (DES) is a simulation modelling technique that helps us tackle queuing problems in health and social care. These might include identifying delays in patient pathways and testing the impact of reconfiguring processes and resources to reduce those delays.</p>
+<p>DES projects in the HSMA Programme have led to significant impact nationally, including:</p>
+<ul>
+<li><strong>Mental health care in Devon:</strong> the construction of an £11.8 million new mental health ward to allow patients in crisis to be seen closer to home. <a href="https://hsma.co.uk/impact_posters/Out%20of%20Area%20Reduction%20in%20Mental%20Health.png">Read the project poster</a>.</li>
+<li><strong>Urgent care in London:</strong> transformative improvements to urgent care delivery. <a href="https://hsma.co.uk/impact_posters/UTC%20Flow.png">Read the project poster</a>.</li>
+<li><strong>Stroke care in Kent:</strong> potential annual savings of £1 million or more and improved patient outcomes. <a href="https://hsma.co.uk/impact_posters/Using%20Simulation%20to%20Improve%20Stroke%20Care%20and%20Reduce%20Costs.png">Read the project poster</a>.</li>
+</ul>
 </section>
-<section id="part-1---an-introduction-to-des-concepts-and-simpy" class="level2">
-<h2 class="anchored" data-anchor-id="part-1---an-introduction-to-des-concepts-and-simpy">Part 1 - An introduction to DES concepts and SimPy</h2>
-<iframe width="1280" height="600" src="https://docs.google.com/presentation/d/1uN0PsRhS8JVBUdSLZfYA4MXKmgg0X6UHP57CxQYuCas/embed?start=false&amp;loop=false&amp;delayms=3000" title="Quarto Documentation"></iframe>
-<p>Click <a href="https://docs.google.com/presentation/d/1uN0PsRhS8JVBUdSLZfYA4MXKmgg0X6UHP57CxQYuCas/edit?usp=sharing">here</a> to open in a new window.</p>
-<p><a href="nhs_oa_workshop_des/NHS_OA_Intro_to_DES_and_SimPy.pdf" download="">Click here to download the slides for the intro to DES and SimPy as a PDF</a></p>
-<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/vUtObBS0XVk" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
-<section id="exercise-1-exploring-the-des-playground" class="level3">
-<h3 class="anchored" data-anchor-id="exercise-1-exploring-the-des-playground">Exercise 1: Exploring the DES Playground</h3>
-<iframe width="1280" height="700" src="https://playground.hsma.co.uk" title="DES Playground"></iframe>
-<p>Click <a href="https://playground.hsma.co.uk">here</a> to open in a new window.</p>
-</section>
-<section id="exercise-2-chalks-chips" class="level3">
-<h3 class="anchored" data-anchor-id="exercise-2-chalks-chips">Exercise 2: Chalk’s Chips</h3>
-<div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<section id="what-you-will-learn" class="level3">
+<h3 class="anchored" data-anchor-id="what-you-will-learn">What you will learn</h3>
+<ul>
+<li>The principles of DES and the kinds of problems this modelling approach can tackle.</li>
+<li>The importance of variability and stochasticity in simulation modelling.</li>
+<li>How to design reproducible stochastic models.</li>
+<li>How to build these models in Python using SimPy, including Python generator functions and structuring code using object oriented programming.</li>
+<li>How to add animated visualisations to SimPy models using the vidigi package.</li>
+</ul>
+<div class="callout callout-style-default callout-note callout-titled">
+<div class="callout-header d-flex align-content-center">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Click to view the instructions for this exercise
+<span class="screen-reader-only">Note</span>Experience and preparation
 </div>
-<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><strong>Some prior coding experience is recommended, but no Python experience is assumed.</strong> You will be introduced to the components of a SimPy model and the Python code used to build them, then have a chance to adapt the code to write your own models.</p>
+<p><strong>No local Python installation is required.</strong> We will use Google Colab to write and run code. You will need a free Google account.</p>
+</div>
+</div>
+</section>
+<section id="about-this-workshop" class="level3">
+<h3 class="anchored" data-anchor-id="about-this-workshop">About this workshop</h3>
+<p>This workshop pilots new content and exercises written for the upcoming seventh round of the HSMA Programme, due to launch in 2027. <a href="https://hsma.co.uk/">Find out more about the HSMA Programme</a>.</p>
+</section>
+</div>
+<div id="tabset-4-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-2-tab">
+<p><a href="https://docs.google.com/spreadsheets/d/1XLAVy8KAFmkYKRLZU2RxCOrApnFvU-UY2gQpQNYhf2Y/edit?usp=sharing">Open the itinerary in Google Sheets</a> · <a href="nhs_oa_workshop_des/NHS_OA_DES_Workshop_Itinerary - Sheet1.pdf" download="">Download the itinerary (PDF)</a></p>
+<iframe width="1280" height="500" src="https://docs.google.com/spreadsheets/d/e/2PACX-1vRFmR7cVQMgkC5A4xSk4zdQl_sVhJLK8k98D7C1ozoBnZj3yI_-gz8TtqwgdHtxwuAx_cMJDs3nqZkn/pubhtml?gid=0&amp;single=true&amp;widget=true&amp;headers=false" title="NHS OA DES workshop itinerary"></iframe>
+</div>
+<div id="tabset-4-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-3-tab">
+<p>An introduction to discrete event simulation (DES) concepts and SimPy, followed by three exercises.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-2-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-1" role="tab" aria-controls="tabset-2-1" aria-selected="true" href="">Slides &amp; video</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-2" role="tab" aria-controls="tabset-2-2" aria-selected="false" href="">Exercise 1: DES Playground</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-3" role="tab" aria-controls="tabset-2-3" aria-selected="false" href="">Exercise 2: Chalk’s Chips</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-2-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-2-4" role="tab" aria-controls="tabset-2-4" aria-selected="false" href="">Exercise 3: SimPy model</a></li></ul>
+<div class="tab-content">
+<div id="tabset-2-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-2-1-tab">
+<p><a href="https://docs.google.com/presentation/d/1uN0PsRhS8JVBUdSLZfYA4MXKmgg0X6UHP57CxQYuCas/edit?usp=sharing">Open the DES and SimPy slides</a> · <a href="nhs_oa_workshop_des/NHS_OA_Intro_to_DES_and_SimPy.pdf" download="">Download the slides (PDF)</a></p>
+<iframe class="workshop-slides" width="1280" height="600" src="https://docs.google.com/presentation/d/1uN0PsRhS8JVBUdSLZfYA4MXKmgg0X6UHP57CxQYuCas/embed?start=false&amp;loop=false&amp;delayms=3000" title="Introduction to DES and SimPy slides" loading="lazy" allowfullscreen=""></iframe>
+<section id="video" class="level4">
+<h4 class="anchored" data-anchor-id="video">Video</h4>
+<p>The workshop content begins at the timestamp 10:42.</p>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/vUtObBS0XVk" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+</section>
+</div>
+<div id="tabset-2-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-2-tab">
+<p>Explore the DES Playground to try out simulation concepts.</p>
+<p>Open the DES Playground in a new tab for the best experience - <a href="https://playground.hsma.co.uk">click here: playground.hsma.co.uk</a></p>
+<iframe width="1280" height="700" src="https://playground.hsma.co.uk" title="DES Playground" loading="lazy"></iframe>
+</div>
+<div id="tabset-2-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-3-tab">
+<p>Design a DES model for a fish and chip shop. Read the brief below, then compare your design with the proposed solutions when you are ready.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Exercise instructions
+</div>
+</div>
 <div class="callout-body-container callout-body">
 <p><img src="assets/2026-09-30-11-54-57.png" class="img-fluid"></p>
 <p>Chalk’s Chips is the number 1 fish and chip establishment in Cornwall, thanks to the passion, ingenuity and foresight of its owner - Dan Chalk. Nevertheless, Dan is keen to see if things can be improved even further to make things more efficient, and generate even more cash to spend on pasties. To this end, he’d like to use Discrete Event Simulation to model his chip shop to see how everything’s running, and has asked you to draft a design for what that model might look like.</p>
 <p>Chalk’s Chips offers both a sit-in restaurant service and a takeaway service.</p>
-<section id="restaurant" class="level4">
-<h4 class="anchored" data-anchor-id="restaurant">Restaurant</h4>
+<section id="restaurant" class="level5">
+<h5 class="anchored" data-anchor-id="restaurant">Restaurant</h5>
 <ul>
 <li>The restaurant doesn’t take bookings, and instead operates a walk-in service, with a waiting area where prospective diners can wait for a table, although when it’s particularly busy, customers may either leave if they’re waiting too long, or not enter if they see the waiting area is too busy.</li>
 <li>Once a table is free, customers choose their food and drink from chalkboard menus on the table (nice touch), and shortly after a server will take their order.</li>
@@ -378,8 +442,8 @@ background-size: cover;
 <li>Once diners have finished eating, a server presents them with a bill which they pay for at the table, before leaving.</li>
 </ul>
 </section>
-<section id="takeaway" class="level4">
-<h4 class="anchored" data-anchor-id="takeaway">Takeaway</h4>
+<section id="takeaway" class="level5">
+<h5 class="anchored" data-anchor-id="takeaway">Takeaway</h5>
 <ul>
 <li>The takeaway service operates in a separate part of the building with its own entrance and counter, overlooking the Chalk’s Chips kitchen.</li>
 <li>Customers order at the counter with a member of counter staff, and then wait for the food to be cooked in the kitchen.</li>
@@ -387,12 +451,12 @@ background-size: cover;
 <li>When the takeaway service is particularly busy, some customers may choose not to wait before they’ve ordered their food, or choose not to come in in the first place if they see it’s too busy in there.</li>
 </ul>
 </section>
-<section id="telephone" class="level4">
-<h4 class="anchored" data-anchor-id="telephone">Telephone</h4>
+<section id="telephone" class="level5">
+<h5 class="anchored" data-anchor-id="telephone">Telephone</h5>
 <p>Chalk’s Chips also has a telephone situated in the lobby, which is located between the takeaway and restaurant areas. Phone calls are answered by either restaurant servers or counter staff, depending on whoever’s free at the time, though if there’s no answer for a while, it’s not unusual for the caller to hang up.</p>
 </section>
-<section id="activity" class="level4">
-<h4 class="anchored" data-anchor-id="activity">Activity</h4>
+<section id="activity" class="level5">
+<h5 class="anchored" data-anchor-id="activity">Activity</h5>
 <blockquote class="blockquote">
 <p>You need to draw up a diagram (if you’re stuck for what to use, you might try https://www.drawio.com/) for what a DES model of Chalk’s Chips could look like. In particular, you should clearly indicate : - The generators and sinks, what they represent, and which entities the generators are bringing into being - The activities to be modelled, what resources are needed (if any) for each activity, and what the associated queue represents in terms of the resources it’s waiting for (if applicable)</p>
 <p>If you manage to do all that in the time, consider if there are any attributes that the entities might have that might be useful to model.</p>
@@ -401,48 +465,185 @@ background-size: cover;
 </section>
 </div>
 </div>
-</div>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-3-contents" aria-controls="callout-3" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
 <div class="callout-title-container flex-fill">
-<span class="screen-reader-only">Tip</span>Click here to view a proposed solution to the exercise
+<span class="screen-reader-only">Tip</span>Proposed solutions — expand when you are ready
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-2" class="callout-2-contents callout-collapse collapse">
+<div id="callout-3" class="callout-3-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
-<p><img src="assets/2026-09-30-12-06-54.png" class="img-fluid"></p>
+<p>Explore the workshop example and four proposed solutions created by the groups on the day. These show different approaches to modelling the same system; there is no single correct design. Select a tab to view a solution, and use the full-size image link to inspect the detail.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-1-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-1" role="tab" aria-controls="tabset-1-1" aria-selected="true" href="">Workshop example</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-2" role="tab" aria-controls="tabset-1-2" aria-selected="false" href="">Blockers</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-3-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-3" role="tab" aria-controls="tabset-1-3" aria-selected="false" href="">Bombers</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-4-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-4" role="tab" aria-controls="tabset-1-4" aria-selected="false" href="">Builders</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-1-5-tab" data-bs-toggle="tab" data-bs-target="#tabset-1-5" role="tab" aria-controls="tabset-1-5" aria-selected="false" href="">Floaters</a></li></ul>
+<div class="tab-content">
+<div id="tabset-1-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-1-1-tab">
+<p><a href="assets/2026-09-30-12-06-54.png" target="_blank" rel="noopener">Open the workshop example at full size</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="assets/2026-09-30-12-06-54.png" class="img-fluid figure-img" style="width:100.0%" alt="Workshop example: Chalk's Chips DES model diagram."></p>
+<figcaption>Workshop example of a DES model design for Chalk’s Chips.</figcaption>
+</figure>
+</div>
+</div>
+<div id="tabset-1-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-2-tab">
+<p><a href="nhs_oa_workshop_des/chalks_chips_blockers.png" target="_blank" rel="noopener">Open the Blockers solution at full size</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="nhs_oa_workshop_des/chalks_chips_blockers.png" class="img-fluid figure-img" style="width:100.0%" alt="Blockers group: proposed Chalk's Chips DES model diagram."></p>
+<figcaption>Proposed DES model design for Chalk’s Chips, created by the Blockers group during the workshop.</figcaption>
+</figure>
+</div>
+</div>
+<div id="tabset-1-3" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-3-tab">
+<p><a href="nhs_oa_workshop_des/chalks_chips_bombers.png" target="_blank" rel="noopener">Open the Bombers solution at full size</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="nhs_oa_workshop_des/chalks_chips_bombers.png" class="img-fluid figure-img" style="width:100.0%" alt="Bombers group: proposed Chalk's Chips DES model diagram."></p>
+<figcaption>Proposed DES model design for Chalk’s Chips, created by the Bombers group during the workshop.</figcaption>
+</figure>
+</div>
+</div>
+<div id="tabset-1-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-4-tab">
+<p><a href="nhs_oa_workshop_des/chalks_chips_builders.svg" target="_blank" rel="noopener">Open the Builders solution at full size</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="nhs_oa_workshop_des/chalks_chips_builders.svg" class="img-fluid figure-img" style="width:100.0%" alt="Builders group: proposed Chalk's Chips DES model diagram."></p>
+<figcaption>Proposed DES model design for Chalk’s Chips, created by the Builders group during the workshop.</figcaption>
+</figure>
+</div>
+</div>
+<div id="tabset-1-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-1-5-tab">
+<p><a href="nhs_oa_workshop_des/chalks_chips_floaters.png" target="_blank" rel="noopener">Open the Floaters solution at full size</a></p>
+<div class="quarto-figure quarto-figure-center">
+<figure class="figure">
+<p><img src="nhs_oa_workshop_des/chalks_chips_floaters.png" class="img-fluid figure-img" alt="Floaters group: proposed Chalk's Chips DES model diagram." width="564"></p>
+<figcaption>Proposed DES model design for Chalk’s Chips, created by the Floaters group during the workshop.</figcaption>
+</figure>
 </div>
 </div>
 </div>
-<section id="exercise-3-exploring-and-editing-a-simpy-model" class="level4">
-<h4 class="anchored" data-anchor-id="exercise-3-exploring-and-editing-a-simpy-model">Exercise 3: Exploring and Editing a SimPy Model</h4>
-<p>Notebook: <a href="https://colab.research.google.com/drive/1oXfZvHvxcUFfJIzw51UdIxoijSHOBP0o?usp=sharing">Click here to open the notebook in google colab</a></p>
-<p><a href="../hsma_content/nhs_oa_workshop_des/nhs_oa_des_workbook.html" download="">Click here to download the notebook if you are unable to access Google colab - note you will need an IDE like VSCode or Positron Installed to open it</a></p>
-<p>Solution Notebook: <a href="https://colab.research.google.com/drive/1lzfzRdtRIbQ51oyEJckz8RqyDauOPlCm?usp=sharing">Click here to open the <strong>solution</strong> notebook in google colab</a></p>
-<p><a href="../hsma_content/nhs_oa_workshop_des/nhs_oa_des_workbook_solution.html" download="">Click here to download the <strong>solution</strong> notebook if you are unable to access Google colab - note you will need an IDE like VSCode or Positron Installed to open it</a></p>
-</section>
-</section>
-</section>
-<section id="part-2---visualisation-with-vidigi-resources-to-continue-your-des-journey" class="level2">
-<h2 class="anchored" data-anchor-id="part-2---visualisation-with-vidigi-resources-to-continue-your-des-journey">Part 2 - Visualisation with vidigi &amp; resources to continue your DES journey</h2>
-<iframe width="1280" height="600" src="https://hsma-programme.github.io/nhs_oa_vidigi_slides/ " title="Quarto Documentation"></iframe>
-<p>Click <a href="https://hsma-programme.github.io/nhs_oa_vidigi_slides/">here</a> to open in a new window.</p>
-<ul>
-<li><a href="nhs_oa_workshop_des/NHS OA Intro to DES and SimPy slides - Animaniacs.pdf" download="">Download the intro to animation in DES slides (Animaniacs) as a PDF</a></li>
-</ul>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-2-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-2-4-tab">
+<p>Explore and edit a SimPy model using the workshop notebook.</p>
+<p><a href="https://colab.research.google.com/drive/1oXfZvHvxcUFfJIzw51UdIxoijSHOBP0o?usp=sharing">Open the notebook in Google Colab</a> · <a href="../hsma_content/nhs_oa_workshop_des/nhs_oa_des_workbook.html" download="">Download the notebook (.ipynb)</a></p>
+<p>If you cannot access Google Colab, download the notebook and open it in an IDE such as VS Code or Positron.</p>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-4-contents" aria-controls="callout-4" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Solution notebook — expand when you are ready
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-4" class="callout-4-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
+<p><a href="https://colab.research.google.com/drive/1lzfzRdtRIbQ51oyEJckz8RqyDauOPlCm?usp=sharing">Open the solution in Google Colab</a> · <a href="../hsma_content/nhs_oa_workshop_des/nhs_oa_des_workbook_solution.html" download="">Download the solution notebook (.ipynb)</a></p>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-4-4" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-4-tab">
+<p>Visualisation with vidigi and resources to continue your DES journey.</p>
+<div class="tabset-margin-container"></div><div class="panel-tabset">
+<ul class="nav nav-tabs" role="tablist"><li class="nav-item" role="presentation"><a class="nav-link active" id="tabset-3-1-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-1" role="tab" aria-controls="tabset-3-1" aria-selected="true" href="">Slides &amp; video</a></li><li class="nav-item" role="presentation"><a class="nav-link" id="tabset-3-2-tab" data-bs-toggle="tab" data-bs-target="#tabset-3-2" role="tab" aria-controls="tabset-3-2" aria-selected="false" href="">Exercises: vidigi Playground</a></li></ul>
+<div class="tab-content">
+<div id="tabset-3-1" class="tab-pane active" role="tabpanel" aria-labelledby="tabset-3-1-tab">
+<p><a href="https://hsma-programme.github.io/nhs_oa_vidigi_slides/">Open the vidigi slides on the web</a> · <a href="nhs_oa_workshop_des/NHS OA Intro to DES and SimPy slides - Animaniacs.pdf" download="">Download the introduction to animation in DES slides (Animaniacs PDF)</a></p>
+<p>For the best experience, use the ‘on the web’ link above or the preview below. Use your left and right arrow keys to navigate through the slides, or click the three horizontal lines in the bottom left corner to open up the table of contents.</p>
+<iframe class="workshop-slides" width="1280" height="600" src="https://hsma-programme.github.io/nhs_oa_vidigi_slides/" title="Visualisation with vidigi slides" loading="lazy" allowfullscreen=""></iframe>
+<section id="video-1" class="level4">
+<h4 class="anchored" data-anchor-id="video-1">Video</h4>
 <div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/twN-B6LW1tU" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
-<section id="exercises---the-vidigi-playground" class="level2">
-<h2 class="anchored" data-anchor-id="exercises---the-vidigi-playground">Exercises - the vidigi Playground</h2>
-<iframe width="1280" height="700" src="https://hsma-programme.github.io/nhs_oa_vidigi_streamlit/" title="Vidigi Playground"></iframe>
-<p>Click <a href="https://hsma-programme.github.io/nhs_oa_vidigi_streamlit/">here</a> to open in a new window.</p>
-
-
+</div>
+<div id="tabset-3-2" class="tab-pane" role="tabpanel" aria-labelledby="tabset-3-2-tab">
+<p>Use the vidigi Playground for the visualisation exercises.</p>
+<p>Open the vidigi Playground in a new tab for the best experience - <a href="https://hsma-programme.github.io/nhs_oa_vidigi_streamlit/">click here: hsma-programme.github.io/nhs_oa_vidigi_streamlit</a></p>
+<iframe width="1280" height="700" src="https://hsma-programme.github.io/nhs_oa_vidigi_streamlit/" title="vidigi Playground" loading="lazy"></iframe>
+</div>
+</div>
+</div>
+</div>
+<div id="tabset-4-5" class="tab-pane" role="tabpanel" aria-labelledby="tabset-4-5-tab">
+<p>Continue your DES journey with the resources and opportunities from slides 82–93 of the workshop presentation.</p>
+<section id="keep-learning" class="level3">
+<h3 class="anchored" data-anchor-id="keep-learning">Keep learning</h3>
+<table class="caption-top table">
+<thead>
+<tr class="header">
+<th>Resource</th>
+<th>What you will find</th>
+</tr>
+</thead>
+<tbody>
+<tr class="odd">
+<td><a href="../des.html">HSMA 6 DES recordings</a></td>
+<td>Full recordings and exercises from the DES module. Explore the <a href="../modules.html">other HSMA modules</a> too.</td>
+</tr>
+<tr class="even">
+<td><a href="https://des.hsma.co.uk/">The Little Book of DES</a></td>
+<td>A free book covering the HSMA 6 DES material and more advanced concepts.</td>
+</tr>
+<tr class="odd">
+<td><a href="https://pythonhealthdatascience.github.io/des_rap_book/">DES RAP Book</a></td>
+<td>Amy Heather’s guide to reproducible DES modelling in Python and R.</td>
+</tr>
+<tr class="even">
+<td><a href="https://atlas.hsma.co.uk/techniques/des/">Healthcare Services Analytics &amp; Decision Support Atlas</a></td>
+<td>DES resources and models from the NHS and related organisations.</td>
+</tr>
+<tr class="odd">
+<td><a href="https://hsma-tools.github.io/vidigi/">vidigi documentation</a></td>
+<td>A getting started guide and examples for adding animation to your own models.</td>
+</tr>
+</tbody>
+</table>
+<p>The HSMA 6 recordings and Little Book of DES use an earlier model structure than the one taught in this workshop, but remain useful for developing your understanding.</p>
 </section>
+<section id="put-your-learning-into-practice" class="level3">
+<h3 class="anchored" data-anchor-id="put-your-learning-into-practice">Put your learning into practice</h3>
+<ul>
+<li><strong>Read, run and reuse an existing model.</strong> The Strategy Unit’s <a href="https://the-strategy-unit.github.io/ReModel-docs/">ReModel Club</a> brings people together to run, assess and adapt open healthcare simulation models. <a href="https://the-strategy-unit.github.io/ReModel-docs/join-us/#register-for-remodel">Find out how to join</a>.</li>
+<li><strong>Share what you build.</strong> If you create a model after this workshop, we would love to hear about it. Email <a href="mailto:penchord@exeter.ac.uk">penchord@exeter.ac.uk</a> or tag the team in the NHS-OA Slack.</li>
+<li><strong>Keep in touch.</strong> Email <a href="mailto:penchord@exeter.ac.uk?subject=HSMA%20mailing%20list">penchord@exeter.ac.uk</a> to ask to join the HSMA mailing list, or <a href="https://www.linkedin.com/company/hsma-programme/">follow HSMA on LinkedIn</a>.</li>
+</ul>
+</section>
+<section id="take-the-next-step-with-hsma-7" class="level3">
+<h3 class="anchored" data-anchor-id="take-the-next-step-with-hsma-7">Take the next step with HSMA 7</h3>
+<p>HSMA 7 will include an expanded DES module with over 30 hours of content. Alongside DES, HSMA 7 will cover geographic modelling and machine learning, as well as developing skills in web application development, interactive reporting, data visualisation and automation.</p>
+<p>The programme combines learning with a project for your organisation:</p>
+<ol type="1">
+<li><strong>Learn:</strong> six months of training, one day a week.</li>
+<li><strong>Apply:</strong> nine months working on a real project, with an expectation of one day a week and guidance and support.</li>
+<li><strong>Implement:</strong> support for implementation and gathering evidence of impact from month 15 onwards.</li>
+</ol>
+<p><a href="../hsma7.html">Explore HSMA 7 and the latest application information</a>.</p>
+</section>
+<section id="revisit-the-additional-resource-slides" class="level3">
+<h3 class="anchored" data-anchor-id="revisit-the-additional-resource-slides">Revisit the additional resource slides</h3>
+<p><a href="nhs_oa_workshop_des/NHS_OA_Additional_Resources_and_Next_Steps.pdf" download="">Download slides 82–93 (PDF)</a> · <a href="https://docs.google.com/presentation/d/1uN0PsRhS8JVBUdSLZfYA4MXKmgg0X6UHP57CxQYuCas/edit?usp=sharing">Open the full presentation in Google Slides</a></p>
+<p>The excerpt from the part 1 slides below includes the resource links, HSMA programme information and participant feedback shown in the workshop. If the preview is unavailable on your device, use the PDF download link above.</p>
+<iframe width="1280" height="700" src="nhs_oa_workshop_des/NHS_OA_Additional_Resources_and_Next_Steps.pdf" title="Additional resources and next steps: workshop slides 82 to 93" loading="lazy"></iframe>
+</section>
+</div>
+</div>
+</div>
+
+
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
