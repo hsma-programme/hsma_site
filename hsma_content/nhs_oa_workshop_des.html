@@ -341,20 +341,36 @@ background-size: cover;
 <p>Click <a href="https://docs.google.com/spreadsheets/d/1XLAVy8KAFmkYKRLZU2RxCOrApnFvU-UY2gQpQNYhf2Y/edit?usp=sharing">here</a> to open in a new window.</p>
 <p><a href="nhs_oa_workshop_des/NHS_OA_DES_Workshop_Itinerary - Sheet1.pdf" download="">Click here to download the itinerary (PDF)</a></p>
 </section>
-<section id="slides" class="level2">
-<h2 class="anchored" data-anchor-id="slides">Slides</h2>
-<section id="part-1" class="level3">
-<h3 class="anchored" data-anchor-id="part-1">Part 1</h3>
+<section id="part-1---an-introduction-to-des-concepts-and-simpy" class="level2">
+<h2 class="anchored" data-anchor-id="part-1---an-introduction-to-des-concepts-and-simpy">Part 1 - An introduction to DES concepts and SimPy</h2>
 <iframe width="1280" height="600" src="https://docs.google.com/presentation/d/1uN0PsRhS8JVBUdSLZfYA4MXKmgg0X6UHP57CxQYuCas/embed?start=false&amp;loop=false&amp;delayms=3000" title="Quarto Documentation"></iframe>
 <p>Click <a href="https://docs.google.com/presentation/d/1uN0PsRhS8JVBUdSLZfYA4MXKmgg0X6UHP57CxQYuCas/edit?usp=sharing">here</a> to open in a new window.</p>
 <p><a href="nhs_oa_workshop_des/NHS_OA_Intro_to_DES_and_SimPy.pdf" download="">Click here to download the slides for the intro to DES and SimPy as a PDF</a></p>
-<section id="chalks-chips-exercise" class="level4">
-<h4 class="anchored" data-anchor-id="chalks-chips-exercise">Chalk’s Chips Exercise</h4>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/vUtObBS0XVk" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
+<section id="exercise-1-exploring-the-des-playground" class="level3">
+<h3 class="anchored" data-anchor-id="exercise-1-exploring-the-des-playground">Exercise 1: Exploring the DES Playground</h3>
+<iframe width="1280" height="700" src="https://playground.hsma.co.uk" title="DES Playground"></iframe>
+<p>Click <a href="https://playground.hsma.co.uk">here</a> to open in a new window.</p>
+</section>
+<section id="exercise-2-chalks-chips" class="level3">
+<h3 class="anchored" data-anchor-id="exercise-2-chalks-chips">Exercise 2: Chalk’s Chips</h3>
+<div class="callout callout-style-default callout-tip callout-titled">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-icon-container">
+<i class="callout-icon"></i>
+</div>
+<div class="callout-title-container flex-fill">
+<span class="screen-reader-only">Tip</span>Click to view the instructions for this exercise
+</div>
+<div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
+</div>
+<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div class="callout-body-container callout-body">
 <p><img src="assets/2026-09-30-11-54-57.png" class="img-fluid"></p>
 <p>Chalk’s Chips is the number 1 fish and chip establishment in Cornwall, thanks to the passion, ingenuity and foresight of its owner - Dan Chalk. Nevertheless, Dan is keen to see if things can be improved even further to make things more efficient, and generate even more cash to spend on pasties. To this end, he’d like to use Discrete Event Simulation to model his chip shop to see how everything’s running, and has asked you to draft a design for what that model might look like.</p>
 <p>Chalk’s Chips offers both a sit-in restaurant service and a takeaway service.</p>
-<section id="restaurant" class="level5">
-<h5 class="anchored" data-anchor-id="restaurant">Restaurant</h5>
+<section id="restaurant" class="level4">
+<h4 class="anchored" data-anchor-id="restaurant">Restaurant</h4>
 <ul>
 <li>The restaurant doesn’t take bookings, and instead operates a walk-in service, with a waiting area where prospective diners can wait for a table, although when it’s particularly busy, customers may either leave if they’re waiting too long, or not enter if they see the waiting area is too busy.</li>
 <li>Once a table is free, customers choose their food and drink from chalkboard menus on the table (nice touch), and shortly after a server will take their order.</li>
@@ -362,8 +378,8 @@ background-size: cover;
 <li>Once diners have finished eating, a server presents them with a bill which they pay for at the table, before leaving.</li>
 </ul>
 </section>
-<section id="takeaway" class="level5">
-<h5 class="anchored" data-anchor-id="takeaway">Takeaway</h5>
+<section id="takeaway" class="level4">
+<h4 class="anchored" data-anchor-id="takeaway">Takeaway</h4>
 <ul>
 <li>The takeaway service operates in a separate part of the building with its own entrance and counter, overlooking the Chalk’s Chips kitchen.</li>
 <li>Customers order at the counter with a member of counter staff, and then wait for the food to be cooked in the kitchen.</li>
@@ -371,19 +387,23 @@ background-size: cover;
 <li>When the takeaway service is particularly busy, some customers may choose not to wait before they’ve ordered their food, or choose not to come in in the first place if they see it’s too busy in there.</li>
 </ul>
 </section>
-<section id="telephone" class="level5">
-<h5 class="anchored" data-anchor-id="telephone">Telephone</h5>
+<section id="telephone" class="level4">
+<h4 class="anchored" data-anchor-id="telephone">Telephone</h4>
 <p>Chalk’s Chips also has a telephone situated in the lobby, which is located between the takeaway and restaurant areas. Phone calls are answered by either restaurant servers or counter staff, depending on whoever’s free at the time, though if there’s no answer for a while, it’s not unusual for the caller to hang up.</p>
 </section>
-<section id="activity" class="level5">
-<h5 class="anchored" data-anchor-id="activity">Activity</h5>
+<section id="activity" class="level4">
+<h4 class="anchored" data-anchor-id="activity">Activity</h4>
 <blockquote class="blockquote">
 <p>You need to draw up a diagram (if you’re stuck for what to use, you might try https://www.drawio.com/) for what a DES model of Chalk’s Chips could look like. In particular, you should clearly indicate : - The generators and sinks, what they represent, and which entities the generators are bringing into being - The activities to be modelled, what resources are needed (if any) for each activity, and what the associated queue represents in terms of the resources it’s waiting for (if applicable)</p>
 <p>If you manage to do all that in the time, consider if there are any attributes that the entities might have that might be useful to model.</p>
 <p>When we come back we’ll ask a few groups to present their designs. There are no right or wrong answers here - we do have a “Potential Solution” but model design is an art form, and there may be different ways you come up with to model the system (IMPORTANT - you would also normally design a model based on the “what if?” questions it needs to answer, which you don’t know here)</p>
 </blockquote>
+</section>
+</div>
+</div>
+</div>
 <div class="callout callout-style-default callout-tip callout-titled">
-<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-1-contents" aria-controls="callout-1" aria-expanded="false" aria-label="Toggle callout">
+<div class="callout-header d-flex align-content-center collapsed" data-bs-toggle="collapse" data-bs-target=".callout-2-contents" aria-controls="callout-2" aria-expanded="false" aria-label="Toggle callout">
 <div class="callout-icon-container">
 <i class="callout-icon"></i>
 </div>
@@ -392,43 +412,36 @@ background-size: cover;
 </div>
 <div class="callout-btn-toggle d-inline-block border-0 py-1 ps-1 pe-0 float-end"><i class="callout-toggle"></i></div>
 </div>
-<div id="callout-1" class="callout-1-contents callout-collapse collapse">
+<div id="callout-2" class="callout-2-contents callout-collapse collapse">
 <div class="callout-body-container callout-body">
 <p><img src="assets/2026-09-30-12-06-54.png" class="img-fluid"></p>
 </div>
 </div>
 </div>
-</section>
-<section id="activity-2" class="level5">
-<h5 class="anchored" data-anchor-id="activity-2">Activity 2</h5>
+<section id="exercise-3-exploring-and-editing-a-simpy-model" class="level4">
+<h4 class="anchored" data-anchor-id="exercise-3-exploring-and-editing-a-simpy-model">Exercise 3: Exploring and Editing a SimPy Model</h4>
 <p>Notebook: <a href="https://colab.research.google.com/drive/1oXfZvHvxcUFfJIzw51UdIxoijSHOBP0o?usp=sharing">Click here to open the notebook in google colab</a></p>
 <p><a href="../hsma_content/nhs_oa_workshop_des/nhs_oa_des_workbook.html" download="">Click here to download the notebook if you are unable to access Google colab - note you will need an IDE like VSCode or Positron Installed to open it</a></p>
+<p>Solution Notebook: <a href="https://colab.research.google.com/drive/1lzfzRdtRIbQ51oyEJckz8RqyDauOPlCm?usp=sharing">Click here to open the <strong>solution</strong> notebook in google colab</a></p>
+<p><a href="../hsma_content/nhs_oa_workshop_des/nhs_oa_des_workbook_solution.html" download="">Click here to download the <strong>solution</strong> notebook if you are unable to access Google colab - note you will need an IDE like VSCode or Positron Installed to open it</a></p>
 </section>
 </section>
 </section>
-<section id="part-2" class="level3">
-<h3 class="anchored" data-anchor-id="part-2">Part 2</h3>
+<section id="part-2---visualisation-with-vidigi-resources-to-continue-your-des-journey" class="level2">
+<h2 class="anchored" data-anchor-id="part-2---visualisation-with-vidigi-resources-to-continue-your-des-journey">Part 2 - Visualisation with vidigi &amp; resources to continue your DES journey</h2>
 <iframe width="1280" height="600" src="https://hsma-programme.github.io/nhs_oa_vidigi_slides/ " title="Quarto Documentation"></iframe>
 <p>Click <a href="https://hsma-programme.github.io/nhs_oa_vidigi_slides/">here</a> to open in a new window.</p>
 <ul>
 <li><a href="nhs_oa_workshop_des/NHS OA Intro to DES and SimPy slides - Animaniacs.pdf" download="">Download the intro to animation in DES slides (Animaniacs) as a PDF</a></li>
 </ul>
+<div class="quarto-video ratio ratio-16x9"><iframe data-external="1" src="https://www.youtube.com/embed/twN-B6LW1tU" title="" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture" allowfullscreen=""></iframe></div>
 </section>
-</section>
-<section id="exercises" class="level2">
-<h2 class="anchored" data-anchor-id="exercises">Exercises</h2>
-<section id="des-playground" class="level3">
-<h3 class="anchored" data-anchor-id="des-playground">DES Playground</h3>
-<iframe width="1280" height="700" src="https://playground.hsma.co.uk" title="DES Playground"></iframe>
-<p>Click <a href="https://playground.hsma.co.uk">here</a> to open in a new window.</p>
-</section>
-<section id="vidigi-playground" class="level3">
-<h3 class="anchored" data-anchor-id="vidigi-playground">Vidigi Playground</h3>
+<section id="exercises---the-vidigi-playground" class="level2">
+<h2 class="anchored" data-anchor-id="exercises---the-vidigi-playground">Exercises - the vidigi Playground</h2>
 <iframe width="1280" height="700" src="https://hsma-programme.github.io/nhs_oa_vidigi_streamlit/" title="Vidigi Playground"></iframe>
 <p>Click <a href="https://hsma-programme.github.io/nhs_oa_vidigi_streamlit/">here</a> to open in a new window.</p>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

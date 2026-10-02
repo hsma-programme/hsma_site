@@ -1,0 +1,1605 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
+
+<meta charset="utf-8">
+<meta name="generator" content="quarto-1.10.18">
+
+<meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
+
+
+<title>HSMA NHS-OA DES Workshop CoLab - SOLUTION – HSMA</title>
+<style>
+/* Default styles provided by pandoc.
+** See https://pandoc.org/MANUAL.html#variables-for-html for config info.
+*/
+span.smallcaps{font-variant: small-caps;}
+div.columns{display: flex; gap: 1.5em;}
+div.column{flex: auto;}
+@media screen {
+div.columns{gap: min(4vw, 1.5em);}
+div.column{overflow-x: auto;}
+}
+div.hanging-indent{margin-left: 1.5em; text-indent: -1.5em;}
+ul.task-list{list-style: none;}
+ul.task-list li input[type="checkbox"] {
+  width: 0.8em;
+  margin: 0 0.8em 0.2em -1em; /* quarto-specific, see https://github.com/quarto-dev/quarto-cli/issues/4556 */ 
+  vertical-align: middle;
+}
+/* CSS for syntax highlighting */
+html { -webkit-text-size-adjust: 100%; }
+pre > code.sourceCode { white-space: pre; position: relative; }
+pre > code.sourceCode > span { display: inline-block; line-height: 1.25; }
+pre > code.sourceCode > span:empty { height: 1.2em; }
+.sourceCode { overflow: visible; }
+code.sourceCode > span { color: inherit; text-decoration: inherit; }
+div.sourceCode { margin: 1em 0; }
+pre.sourceCode { margin: 0; }
+@media screen {
+div.sourceCode { overflow: auto; }
+}
+@media print {
+pre > code.sourceCode { white-space: pre-wrap; }
+pre > code.sourceCode > span { text-indent: -5em; padding-left: 5em; }
+}
+pre.numberSource code
+  { counter-reset: source-line 0; }
+pre.numberSource code > span
+  { position: relative; left: -4em; counter-increment: source-line; }
+pre.numberSource code > span > a:first-child::before
+  { content: counter(source-line);
+    position: relative; left: -1em; text-align: right; vertical-align: baseline;
+    border: none; display: inline-block;
+    -webkit-touch-callout: none; -webkit-user-select: none;
+    -khtml-user-select: none; -moz-user-select: none;
+    -ms-user-select: none; user-select: none;
+    padding: 0 4px; width: 4em;
+  }
+pre.numberSource { margin-left: 3em;  padding-left: 4px; }
+div.sourceCode
+  {   }
+@media screen {
+pre > code.sourceCode > span > a:first-child::before { text-decoration: underline; }
+}
+</style>
+
+
+<script src="../../site_libs/quarto-nav/quarto-nav.js"></script>
+<script src="../../site_libs/quarto-nav/headroom.min.js"></script>
+<script src="../../site_libs/clipboard/clipboard.min.js"></script>
+<script src="../../site_libs/quarto-search/autocomplete.umd.js"></script>
+<script src="../../site_libs/quarto-search/fuse.min.js"></script>
+<script src="../../site_libs/quarto-search/quarto-search.js"></script>
+<meta name="quarto:offset" content="../../">
+<link href="../../resources/favicon.png" rel="icon" type="image/png">
+<script src="../../site_libs/cookie-consent/cookie-consent.js"></script>
+<link href="../../site_libs/cookie-consent/cookie-consent.css" rel="stylesheet">
+<script src="../../site_libs/quarto-html/quarto.js" type="module"></script>
+<script src="../../site_libs/quarto-html/tabsets/tabsets.js" type="module"></script>
+<script src="../../site_libs/quarto-html/popper.min.js"></script>
+<script src="../../site_libs/quarto-html/tippy.umd.min.js"></script>
+<script src="../../site_libs/quarto-html/anchor.min.js"></script>
+<link href="../../site_libs/quarto-html/tippy.css" rel="stylesheet">
+<link href="../../site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<script src="../../site_libs/bootstrap/bootstrap.min.js"></script>
+<link href="../../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
+<link href="../../site_libs/bootstrap/bootstrap-bd924ac9a7ff46ba0077aaccd0f77dd4.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<script id="quarto-search-options" type="application/json">{
+  "location": "navbar",
+  "copy-button": false,
+  "collapse-after": 3,
+  "panel-placement": "end",
+  "type": "overlay",
+  "limit": 50,
+  "keyboard-shortcut": [
+    "f",
+    "/",
+    "s"
+  ],
+  "show-item-context": false,
+  "language": {
+    "search-no-results-text": "No results",
+    "search-matching-documents-text": "matching documents",
+    "search-copy-link-title": "Copy link to search",
+    "search-hide-matches-text": "Hide additional matches",
+    "search-more-match-text": "more match in this document",
+    "search-more-matches-text": "more matches in this document",
+    "search-clear-button-title": "Clear",
+    "search-text-placeholder": "",
+    "search-detached-cancel-button-title": "Cancel",
+    "search-submit-button-title": "Submit",
+    "search-label": "Search"
+  }
+}</script>
+<script async="" src="https://www.googletagmanager.com/gtag/js?id=G-9D93EVJKF5"></script>
+
+<script type="text/plain" cookie-consent="tracking">
+
+window.dataLayer = window.dataLayer || [];
+function gtag(){dataLayer.push(arguments);}
+gtag('js', new Date());
+gtag('config', 'G-9D93EVJKF5', { 'anonymize_ip': true});
+</script>
+
+<script type="text/javascript" charset="UTF-8">
+document.addEventListener('DOMContentLoaded', function () {
+cookieconsent.run({
+  "notice_banner_type":"simple",
+  "consent_type":"express",
+  "palette":"dark",
+  "language":"en",
+  "page_load_consent_levels":["strictly-necessary"],
+  "notice_banner_reject_button_hide":false,
+  "preferences_center_close_button_hide":false,
+  "website_name":""
+  ,
+"language":"en"
+  });
+});
+</script> 
+  
+<style>
+
+      .quarto-title-block .quarto-title-banner {
+        background: /resources/banner.png;
+      }
+</style>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+
+
+<link rel="stylesheet" href="../../styles.css">
+</head>
+
+<body class="nav-fixed quarto-light">
+
+<div id="quarto-search-results"></div>
+  <header id="quarto-header" class="headroom fixed-top quarto-banner">
+    <nav class="navbar navbar-expand-xl " data-bs-theme="dark">
+      <div class="navbar-container container-fluid">
+      <div class="navbar-brand-container mx-auto">
+    <a href="../../index.html" class="navbar-brand navbar-brand-logo">
+    <img src="../../resources/Chalky HSMA-07-wide white logo.png" alt="" class="navbar-logo light-content">
+    <img src="../../resources/Chalky HSMA-07-wide white logo.png" alt="" class="navbar-logo dark-content">
+    </a>
+  </div>
+            <div id="quarto-search" class="" title="Search"></div>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" role="menu" aria-expanded="false" aria-label="Toggle navigation" onclick="if (window.quartoToggleHeadroom) { window.quartoToggleHeadroom(); }">
+  <span class="navbar-toggler-icon"></span>
+</button>
+          <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll ms-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="../../index.html"> 
+<span class="menu-text">Welcome</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../hsma7.html"> 
+<span class="menu-text">HSMA 7</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../lambda.html"> 
+<span class="menu-text">Lambda</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../books.html"> 
+<span class="menu-text">Books</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../modules.html"> 
+<span class="menu-text">Modules</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../news.html"> 
+<span class="menu-text">News</span></a>
+  </li>  
+  <li class="nav-item">
+    <a class="nav-link" href="../../impact.html"> 
+<span class="menu-text">Impact</span></a>
+  </li>  
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-projects" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Projects</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-projects">    
+        <li>
+    <a class="dropdown-item" href="../../previous_projects/projects_by_service_area.html">
+ <span class="dropdown-text">Projects by Area of Care</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../previous_projects/projects_by_service_type_location.html">
+ <span class="dropdown-text">Projects by Care Delivery Location</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../previous_projects/projects_by_organisation.html">
+ <span class="dropdown-text">Projects by Organisation</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../previous_projects/projects_by_methods.html">
+ <span class="dropdown-text">Projects by Method</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../previous_projects/projects_by_cohort.html">
+ <span class="dropdown-text">Projects by HSMA Cohort</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../previous_projects/projects_with_code.html">
+ <span class="dropdown-text">Projects With Code Shared</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../previous_projects/projects_in_progress.html">
+ <span class="dropdown-text">Projects In Progress</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../previous_projects/completed_projects.html">
+ <span class="dropdown-text">Completed Projects</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-resources" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Resources</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-resources">    
+        <li>
+    <a class="dropdown-item" href="../../hsma_content/des_playground.html">
+ <span class="dropdown-text">The DES Playground</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../hsma_content/reinforcement_learning_game.html">
+ <span class="dropdown-text">Reinforcement Learning Game</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../hsma_content/desperately_seeking_simulation_workshop.html">
+ <span class="dropdown-text">HSMA Lambda Pilot - Simulation Workshop</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../hsma_content/nhs_oa_workshop_des.html">
+ <span class="dropdown-text">NHS OA DES Workshop - 30/09/26</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-student-area" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">Student Area</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-student-area">    
+        <li>
+    <a class="dropdown-item" href="../../project_log_recording_app.html">
+ <span class="dropdown-text">Project Log Recording App</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../assessment_faqs.html">
+ <span class="dropdown-text">Certification Guidance</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../phase_2_details.html">
+ <span class="dropdown-text">Phase 2 Dates &amp; Events</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../registering_a_project.html">
+ <span class="dropdown-text">Registering a Project</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../project_faqs.html">
+ <span class="dropdown-text">Project FAQs</span></a>
+  </li>  
+    </ul>
+  </li>
+  <li class="nav-item dropdown ">
+    <a class="nav-link dropdown-toggle" href="#" id="nav-menu-about" role="link" data-bs-toggle="dropdown" aria-expanded="false">
+ <span class="menu-text">About</span>
+    </a>
+    <ul class="dropdown-menu dropdown-menu-end" aria-labelledby="nav-menu-about">    
+        <li>
+    <a class="dropdown-item" href="../../about-hsma.html">
+ <span class="dropdown-text">The HSMA Programme</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../staff.html">
+ <span class="dropdown-text">HSMA Staff</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../foss.html">
+ <span class="dropdown-text">HSMA &amp; Open Source Software</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../faqs.html">
+ <span class="dropdown-text">Frequently Asked Questions</span></a>
+  </li>  
+        <li>
+    <a class="dropdown-item" href="../../policies_and_procedures.html">
+ <span class="dropdown-text">Policies and Procedures</span></a>
+  </li>  
+    </ul>
+  </li>
+</ul>
+          </div> <!-- /navcollapse -->
+            <div class="quarto-navbar-tools tools-wide">
+    <a href="https://www.youtube.com/@hsma" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-youtube"></i></a>
+    <div class="dropdown">
+      <a href="" title="" id="quarto-navigation-tool-dropdown-0" class="quarto-navigation-tool dropdown-toggle px-1" data-bs-toggle="dropdown" aria-expanded="false" role="link" aria-label=""><i class="bi bi-github"></i></a>
+      <ul class="dropdown-menu" aria-labelledby="quarto-navigation-tool-dropdown-0">
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/hsma-programme">
+            View the HSMA Github
+            </a>
+          </li>
+          <li>
+            <a class="dropdown-item quarto-navbar-tools-item" href="https://github.com/hsma-programme/hsma_site">
+            View the code for this website
+            </a>
+          </li>
+      </ul>
+    </div>
+    <a href="mailto:penchord@exeter.ac.uk?subject=Contact%20from%20HSMA%20Website%20&amp;body=If%20you%20would%20like%20to%20be%20added%20to%20the%20HSMA%20mailing%20list%2C%20please%20complete%20the%20fields%20below.%0A%0AFull%20Name%3A%0A%0AOrganisation%3A%0A%0AIf%20you%20have%20a%20different%20query%2C%20please%20replace%20the%20content%20of%20this%20message%20with%20your%20own.%20%0A%0A**This%20is%20an%20automatically%20generated%20email%20from%20a%20link%20on%20the%20HSMA%20website**" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-envelope"></i></a>
+    <a href="https://www.linkedin.com/company/hsma-programme/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-linkedin"></i></a>
+    <a href="https://podcast.hsma.co.uk/" title="" class="quarto-navigation-tool px-1" aria-label=""><i class="bi bi-broadcast-pin"></i></a>
+</div>
+      </div> <!-- /container-fluid -->
+    </nav>
+  <div id="quarto-announcement" data-announcement-id="825e986ded40fdd8e8c204e59a18fc80" class="alert alert-info hidden"><i class="bi bi-megaphone quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><strong>We hope to launch our brand new HSMA-λ (HSMA lambda) courses, aimed at leaders and decision makers, in <em>Winter/Spring 2026</em>, and HSMA 7 in <em>Spring/Summer 2027</em>.<br>Want to hear when we open up applications for either of these? Send us an email at <a href="mailto:penchord@exeter.ac.uk?subject=Contact%20from%20HSMA%20Website%20&amp;body=If%20you%20would%20like%20to%20be%20added%20to%20the%20HSMA%20mailing%20list%2C%20please%20complete%20the%20fields%20below.%0A%0AFull%20Name%3A%0A%0AOrganisation%3A%0A%0AIf%20you%20have%20a%20different%20query%2C%20please%20replace%20the%20content%20of%20this%20message%20with%20your%20own.%20%0A%0AThis%20is%20an%20automatically%20generated%20email%20from%20a%20link%20on%20the%20HSMA%20website">penchord@exeter.ac.uk</a> (stating your full name and organisation) to be added to our mailing list.</strong></p>
+</div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
+</header>
+<!-- content -->
+<header id="title-block-header" class="quarto-title-block default page-columns page-full">
+  <div class="quarto-title-banner page-columns page-full">
+    <div class="quarto-title column-body">
+      <h1 class="title">HSMA NHS-OA DES Workshop CoLab - SOLUTION</h1>
+                      </div>
+  </div>
+    
+  
+  <div class="quarto-title-meta">
+
+      
+    
+      
+    </div>
+    
+  
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
+<!-- sidebar -->
+<!-- margin-sidebar -->
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar">
+        <nav id="TOC" role="doc-toc" class="toc-active">
+    <h2 id="toc-title">On this page</h2>
+   
+  <ul>
+  <li><a href="#part-a" id="toc-part-a" class="nav-link active" data-scroll-target="#part-a">Part A</a></li>
+  <li><a href="#part-b" id="toc-part-b" class="nav-link" data-scroll-target="#part-b">Part B</a></li>
+  </ul>
+</nav>
+    </div>
+<!-- main -->
+<main class="content quarto-banner-title-block" id="quarto-document-content">
+
+
+
+
+
+<section id="part-a" class="level2">
+<h2 class="anchored" data-anchor-id="part-a">Part A</h2>
+<p>In your groups, study each code cell. In the cell above it, double click and write a description of what you think that block of code is doing. Try to work out what each line of code is doing.</p>
+<p>Make sure you run the following cell first - this will install and import the necessary packages into this session. You do not need to write an explanation of this code block.</p>
+<div id="cell-3" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb1"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install simpy</span>
+<span id="cb1-2"><a href="#cb1-2" aria-hidden="true" tabindex="-1"></a><span class="op">!</span>pip install sim_tools</span>
+<span id="cb1-3"><a href="#cb1-3" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> simpy</span>
+<span id="cb1-4"><a href="#cb1-4" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> sim_tools.distributions <span class="im">import</span> Exponential, Lognormal</span>
+<span id="cb1-5"><a href="#cb1-5" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> pandas <span class="im">as</span> pd</span>
+<span id="cb1-6"><a href="#cb1-6" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> math</span>
+<span id="cb1-7"><a href="#cb1-7" aria-hidden="true" tabindex="-1"></a><span class="im">from</span> scipy <span class="im">import</span> stats</span>
+<span id="cb1-8"><a href="#cb1-8" aria-hidden="true" tabindex="-1"></a><span class="im">import</span> numpy <span class="im">as</span> np</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>The following code block creates a new class called Patient and defines its constructor (the <code>__init__</code> method). When creating a patient we pass in the patient ID. As with all Python class definitions, we also pass in self (the copy of the class that will store the specific instance when created), but Python does this for us automatically when we create a new object.</p>
+<p>We then assign this patient ID to an attribute of the patient object, and create another couple of attributes that will store the patient’s queuing time for registration and the nurse. We start these values as NaN values as we won’t have values for this until they queue.</p>
+<div id="cell-5" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb2"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb2-1"><a href="#cb2-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Patient:</span>
+<span id="cb2-2"><a href="#cb2-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, p_id):</span>
+<span id="cb2-3"><a href="#cb2-3" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.<span class="bu">id</span> <span class="op">=</span> p_id</span>
+<span id="cb2-4"><a href="#cb2-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb2-5"><a href="#cb2-5" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.q_time_registration <span class="op">=</span> pd.NA</span>
+<span id="cb2-6"><a href="#cb2-6" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.q_time_nurse <span class="op">=</span> pd.NA</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>The following code block creates a new class called Param and defines its constructor. This contains a number of parameters that we can pass in, all of which are optional - we specify default values in case they are not specified when we create a new instance of the Param class.</p>
+<p>These parameter values are then stored against attributes of the Param object.</p>
+<div id="cell-7" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb3"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb3-1"><a href="#cb3-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Param:</span>
+<span id="cb3-2"><a href="#cb3-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(</span>
+<span id="cb3-3"><a href="#cb3-3" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>,</span>
+<span id="cb3-4"><a href="#cb3-4" aria-hidden="true" tabindex="-1"></a>        mean_patient_inter <span class="op">=</span> <span class="dv">3</span>,</span>
+<span id="cb3-5"><a href="#cb3-5" aria-hidden="true" tabindex="-1"></a>        mean_registration_time <span class="op">=</span> <span class="dv">3</span>,</span>
+<span id="cb3-6"><a href="#cb3-6" aria-hidden="true" tabindex="-1"></a>        sd_registration_time <span class="op">=</span> <span class="fl">0.5</span>,</span>
+<span id="cb3-7"><a href="#cb3-7" aria-hidden="true" tabindex="-1"></a>        mean_nurse_consult_time <span class="op">=</span> <span class="dv">6</span>,</span>
+<span id="cb3-8"><a href="#cb3-8" aria-hidden="true" tabindex="-1"></a>        sd_nurse_consult_time <span class="op">=</span> <span class="dv">1</span>,</span>
+<span id="cb3-9"><a href="#cb3-9" aria-hidden="true" tabindex="-1"></a>        num_receptionists <span class="op">=</span> <span class="dv">1</span>,</span>
+<span id="cb3-10"><a href="#cb3-10" aria-hidden="true" tabindex="-1"></a>        num_nurses <span class="op">=</span> <span class="dv">1</span>,</span>
+<span id="cb3-11"><a href="#cb3-11" aria-hidden="true" tabindex="-1"></a>        sim_duration <span class="op">=</span> <span class="dv">120</span>,</span>
+<span id="cb3-12"><a href="#cb3-12" aria-hidden="true" tabindex="-1"></a>        num_replications <span class="op">=</span> <span class="dv">5</span></span>
+<span id="cb3-13"><a href="#cb3-13" aria-hidden="true" tabindex="-1"></a>    ):</span>
+<span id="cb3-14"><a href="#cb3-14" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.mean_patient_inter <span class="op">=</span> mean_patient_inter</span>
+<span id="cb3-15"><a href="#cb3-15" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.mean_registration_time <span class="op">=</span> mean_registration_time</span>
+<span id="cb3-16"><a href="#cb3-16" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.sd_registration_time <span class="op">=</span> sd_registration_time</span>
+<span id="cb3-17"><a href="#cb3-17" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.mean_nurse_consult_time <span class="op">=</span> mean_nurse_consult_time</span>
+<span id="cb3-18"><a href="#cb3-18" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.sd_nurse_consult_time <span class="op">=</span> sd_nurse_consult_time</span>
+<span id="cb3-19"><a href="#cb3-19" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.num_receptionists <span class="op">=</span> num_receptionists</span>
+<span id="cb3-20"><a href="#cb3-20" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.num_nurses <span class="op">=</span> num_nurses</span>
+<span id="cb3-21"><a href="#cb3-21" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.sim_duration <span class="op">=</span> sim_duration</span>
+<span id="cb3-22"><a href="#cb3-22" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.num_replications <span class="op">=</span> num_replications</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>IMPORTANT NOTE : The following code cells split the large Model class definition over multiple cells. Because of this, we use something in Object Oriented Programming known as <em>Inheritance</em>, which is where we say that a class is like another class but with these differences. It’s used here to add a new method to the same Model class in each code block - hence you will see</p>
+<pre><code>class Model(Model)</code></pre>
+<p>as the first line on each code cell after the first one. You wouldn’t normally do this in a real world model - we’re only doing it here to ensure that the code cells all work independently. So you can ignore that first line in each and just interpret the rest of the code in that cell as another method in the Model class definition.</p>
+<p>Later, you’ll see we do the same for the Trial class.</p>
+<p>The following code block defines the Model class and its constructor. When creating a new Model object, we pass in the parameter set we want to use (an instance of the Param class) and an ID to identify which replication number we’re running. The constructor stores both of these things as attributes of the Model object.</p>
+<p>The constructor then sets up a number of additional attributes :</p>
+<ul>
+<li>One that stores the SimPy Environment</li>
+<li>A patient counter, that starts at 0, and which we’ll use to give ID numbers to patients</li>
+<li>The resources we want in our model - for each, we give it a name, the environment in which it lives, and how many of that resource we want</li>
+<li>We generate some random seeds using a NumPy method, giving it the replication ID as its seed. This will then produce however many random seeds we ask for. These are then plugged into some distributions that we store as attributes - one an Exponential distribution that we’ll use for sampling our inter-arrival times, and two Lognormal distributions for sampling activity times for our two activities. In each case, as well as the random seed, we also pass in the required information to define these distributions (mean for an Exponential distribution, mean and standard deviation for a Lognormal distribution)</li>
+<li>We create an empty list that will store a list of patients that are created in this replication of the model</li>
+<li>We also have attributes that will store the mean, standard deviation and 90th percentile queuing time results for this run, for each of our queues.</li>
+</ul>
+<div id="cell-10" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb5"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb5-1"><a href="#cb5-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Model:</span>
+<span id="cb5-2"><a href="#cb5-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, param, replication_id):</span>
+<span id="cb5-3"><a href="#cb5-3" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.param <span class="op">=</span> param</span>
+<span id="cb5-4"><a href="#cb5-4" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.replication_id <span class="op">=</span> replication_id</span>
+<span id="cb5-5"><a href="#cb5-5" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.env <span class="op">=</span> simpy.Environment()</span>
+<span id="cb5-6"><a href="#cb5-6" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.patient_counter <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb5-7"><a href="#cb5-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-8"><a href="#cb5-8" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.receptionist <span class="op">=</span> simpy.Resource(</span>
+<span id="cb5-9"><a href="#cb5-9" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.env, capacity<span class="op">=</span><span class="va">self</span>.param.num_receptionists</span>
+<span id="cb5-10"><a href="#cb5-10" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb5-11"><a href="#cb5-11" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.nurse <span class="op">=</span> simpy.Resource(<span class="va">self</span>.env, capacity<span class="op">=</span><span class="va">self</span>.param.num_nurses)</span>
+<span id="cb5-12"><a href="#cb5-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-13"><a href="#cb5-13" aria-hidden="true" tabindex="-1"></a>        ss <span class="op">=</span> np.random.SeedSequence(<span class="va">self</span>.replication_id)</span>
+<span id="cb5-14"><a href="#cb5-14" aria-hidden="true" tabindex="-1"></a>        seeds <span class="op">=</span> ss.spawn(<span class="dv">3</span>)</span>
+<span id="cb5-15"><a href="#cb5-15" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.patient_inter_dist <span class="op">=</span> Exponential(</span>
+<span id="cb5-16"><a href="#cb5-16" aria-hidden="true" tabindex="-1"></a>            mean<span class="op">=</span><span class="va">self</span>.param.mean_patient_inter,</span>
+<span id="cb5-17"><a href="#cb5-17" aria-hidden="true" tabindex="-1"></a>            random_seed<span class="op">=</span>seeds[<span class="dv">0</span>]</span>
+<span id="cb5-18"><a href="#cb5-18" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb5-19"><a href="#cb5-19" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.registration_time_dist <span class="op">=</span> Lognormal(</span>
+<span id="cb5-20"><a href="#cb5-20" aria-hidden="true" tabindex="-1"></a>            mean<span class="op">=</span><span class="va">self</span>.param.mean_registration_time,</span>
+<span id="cb5-21"><a href="#cb5-21" aria-hidden="true" tabindex="-1"></a>            stdev<span class="op">=</span><span class="va">self</span>.param.sd_registration_time,</span>
+<span id="cb5-22"><a href="#cb5-22" aria-hidden="true" tabindex="-1"></a>            random_seed<span class="op">=</span>seeds[<span class="dv">1</span>]</span>
+<span id="cb5-23"><a href="#cb5-23" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb5-24"><a href="#cb5-24" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.nurse_consult_time_dist <span class="op">=</span> Lognormal(</span>
+<span id="cb5-25"><a href="#cb5-25" aria-hidden="true" tabindex="-1"></a>            mean<span class="op">=</span><span class="va">self</span>.param.mean_nurse_consult_time,</span>
+<span id="cb5-26"><a href="#cb5-26" aria-hidden="true" tabindex="-1"></a>            stdev<span class="op">=</span><span class="va">self</span>.param.sd_nurse_consult_time,</span>
+<span id="cb5-27"><a href="#cb5-27" aria-hidden="true" tabindex="-1"></a>            random_seed<span class="op">=</span>seeds[<span class="dv">2</span>]</span>
+<span id="cb5-28"><a href="#cb5-28" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb5-29"><a href="#cb5-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb5-30"><a href="#cb5-30" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.list_of_patients <span class="op">=</span> []</span>
+<span id="cb5-31"><a href="#cb5-31" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.mean_q_time_registration <span class="op">=</span> pd.NA</span>
+<span id="cb5-32"><a href="#cb5-32" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.sd_q_time_registration <span class="op">=</span> pd.NA</span>
+<span id="cb5-33"><a href="#cb5-33" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.perc_90_q_time_registration <span class="op">=</span> pd.NA</span>
+<span id="cb5-34"><a href="#cb5-34" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.mean_q_time_nurse <span class="op">=</span> pd.NA</span>
+<span id="cb5-35"><a href="#cb5-35" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.sd_q_time_nurse <span class="op">=</span> pd.NA</span>
+<span id="cb5-36"><a href="#cb5-36" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.perc_90_q_time_nurse <span class="op">=</span> pd.NA</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>The following code block defines the the attend_clinic method of our Model class. This describes the patient pathway of patients in our clinic. We pass in a patient to go through this pathway.</p>
+<p>We first record what time in the simulation it is now, when the patient starts queuing. Then we request a receptionist resource and wait until that request can be met (the <code>yield</code> statement identifies this as a generator function that will resume from this point when control is passed back).</p>
+<p>Once the request is met, the patient stops queuing as the receptionist is now ready, so we record the time now, calculate how long they spent waiting and record this information in the patient’s attribute.</p>
+<p>Next, we sample from our registration activity time distribution to determine how long the patient will spend being registered. The function then freezes in place (still with the receptionist) for that amount of time. This ensures that the receptionist can’t be used elsewhere during this time.</p>
+<p>We then do the same thing again for the nurse activity.</p>
+<div id="cell-12" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb6"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb6-1"><a href="#cb6-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Model(Model):</span>
+<span id="cb6-2"><a href="#cb6-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> attend_clinic(<span class="va">self</span>, patient):</span>
+<span id="cb6-3"><a href="#cb6-3" aria-hidden="true" tabindex="-1"></a>        start_q_registration <span class="op">=</span> <span class="va">self</span>.env.now</span>
+<span id="cb6-4"><a href="#cb6-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-5"><a href="#cb6-5" aria-hidden="true" tabindex="-1"></a>        <span class="cf">with</span> <span class="va">self</span>.receptionist.request() <span class="im">as</span> req:</span>
+<span id="cb6-6"><a href="#cb6-6" aria-hidden="true" tabindex="-1"></a>            <span class="cf">yield</span> req</span>
+<span id="cb6-7"><a href="#cb6-7" aria-hidden="true" tabindex="-1"></a>            end_q_registration <span class="op">=</span> <span class="va">self</span>.env.now</span>
+<span id="cb6-8"><a href="#cb6-8" aria-hidden="true" tabindex="-1"></a>            patient.q_time_registration <span class="op">=</span> (</span>
+<span id="cb6-9"><a href="#cb6-9" aria-hidden="true" tabindex="-1"></a>                end_q_registration <span class="op">-</span> start_q_registration</span>
+<span id="cb6-10"><a href="#cb6-10" aria-hidden="true" tabindex="-1"></a>            )</span>
+<span id="cb6-11"><a href="#cb6-11" aria-hidden="true" tabindex="-1"></a>            sampled_reg_act_time <span class="op">=</span> <span class="va">self</span>.registration_time_dist.sample()</span>
+<span id="cb6-12"><a href="#cb6-12" aria-hidden="true" tabindex="-1"></a>            <span class="cf">yield</span> <span class="va">self</span>.env.timeout(sampled_reg_act_time)</span>
+<span id="cb6-13"><a href="#cb6-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-14"><a href="#cb6-14" aria-hidden="true" tabindex="-1"></a>        start_q_nurse <span class="op">=</span> <span class="va">self</span>.env.now</span>
+<span id="cb6-15"><a href="#cb6-15" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb6-16"><a href="#cb6-16" aria-hidden="true" tabindex="-1"></a>        <span class="cf">with</span> <span class="va">self</span>.nurse.request() <span class="im">as</span> req:</span>
+<span id="cb6-17"><a href="#cb6-17" aria-hidden="true" tabindex="-1"></a>            <span class="cf">yield</span> req</span>
+<span id="cb6-18"><a href="#cb6-18" aria-hidden="true" tabindex="-1"></a>            end_q_nurse <span class="op">=</span> <span class="va">self</span>.env.now</span>
+<span id="cb6-19"><a href="#cb6-19" aria-hidden="true" tabindex="-1"></a>            patient.q_time_nurse <span class="op">=</span> end_q_nurse <span class="op">-</span> start_q_nurse</span>
+<span id="cb6-20"><a href="#cb6-20" aria-hidden="true" tabindex="-1"></a>            sampled_nurse_act_time <span class="op">=</span> <span class="va">self</span>.nurse_consult_time_dist.sample()</span>
+<span id="cb6-21"><a href="#cb6-21" aria-hidden="true" tabindex="-1"></a>            <span class="cf">yield</span> <span class="va">self</span>.env.timeout(sampled_nurse_act_time)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>The following code block defines the patient generator function of the Model class. In an infinite loop (True is always True), the function will : * increment the patient counter by 1 * create a new patient and give them the current value of the counter as their ID * add them to the list of patients * create a new instance of the pathway generator function (above) and chuck the patient into it * sample from our inter-arrival time distribution to work out how long to wait until the next patient arrives * freeze in place for that amount of time</p>
+<div id="cell-14" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb7"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb7-1"><a href="#cb7-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Model(Model):</span>
+<span id="cb7-2"><a href="#cb7-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> generator_patient_arrivals(<span class="va">self</span>):</span>
+<span id="cb7-3"><a href="#cb7-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">while</span> <span class="va">True</span>:</span>
+<span id="cb7-4"><a href="#cb7-4" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.patient_counter <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb7-5"><a href="#cb7-5" aria-hidden="true" tabindex="-1"></a>            p <span class="op">=</span> Patient(<span class="va">self</span>.patient_counter)</span>
+<span id="cb7-6"><a href="#cb7-6" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.list_of_patients.append(p)</span>
+<span id="cb7-7"><a href="#cb7-7" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.env.process(<span class="va">self</span>.attend_clinic(p))</span>
+<span id="cb7-8"><a href="#cb7-8" aria-hidden="true" tabindex="-1"></a>            sampled_inter <span class="op">=</span> <span class="va">self</span>.patient_inter_dist.sample()</span>
+<span id="cb7-9"><a href="#cb7-9" aria-hidden="true" tabindex="-1"></a>            <span class="cf">yield</span> <span class="va">self</span>.env.timeout(sampled_inter)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>The following code block defines the method of the Model class that will run the model. It simply starts up the patient generator, and then tells SimPy to run the model for the duration specified in the Param object.</p>
+<div id="cell-16" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb8"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb8-1"><a href="#cb8-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Model(Model):</span>
+<span id="cb8-2"><a href="#cb8-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> run_model(<span class="va">self</span>):</span>
+<span id="cb8-3"><a href="#cb8-3" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.env.process(<span class="va">self</span>.generator_patient_arrivals())</span>
+<span id="cb8-4"><a href="#cb8-4" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.env.run(until<span class="op">=</span><span class="va">self</span>.param.sim_duration)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>I’ll give you a couple tips on this next one as it’s tough if you don’t know Python.</p>
+<p>Tip 1 : In Python there is something know as <em>list comprehension</em>. This is where you can use a shortcut to create a list based on another list, potentially where certain criteria are met too. For example :</p>
+<pre><code>list_b = [patient.age for patient in list_a if age&gt;60]</code></pre>
+<p>would create a second list (list_b) that contains only patient ages (and only those over 60) from list_a</p>
+<p>Tip 2 : <code>object.__dict__</code> extracts all of the attributes belonging to an object</p>
+<p>The following code block defines a method in the Model class that takes in a list of entities, pulls out all of the attributes from those entities, creates a Pandas DataFrame from them, and then returns that DataFrame.</p>
+<div id="cell-19" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb10"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb10-1"><a href="#cb10-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Model(Model):</span>
+<span id="cb10-2"><a href="#cb10-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> convert_entity_list_to_dataframe(<span class="va">self</span>, entity_list):</span>
+<span id="cb10-3"><a href="#cb10-3" aria-hidden="true" tabindex="-1"></a>        entity_dateframe <span class="op">=</span> pd.DataFrame(</span>
+<span id="cb10-4"><a href="#cb10-4" aria-hidden="true" tabindex="-1"></a>            entity.__dict__ <span class="cf">for</span> entity <span class="kw">in</span> entity_list</span>
+<span id="cb10-5"><a href="#cb10-5" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb10-6"><a href="#cb10-6" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb10-7"><a href="#cb10-7" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> entity_dateframe</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>The following code block defines a method in the Model class that calculates the results for this replication (run) of the model. It takes in the entity dataframe processed in the method above - this will have separate columns for each of the patient attributes. We can then calculate the mean, standard deviation and 90th percentile across patients of the queue times for registration and the nurse. These calculation results are stored in the appropriate attributes of the Model class.</p>
+<div id="cell-21" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb11"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb11-1"><a href="#cb11-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Model(Model):</span>
+<span id="cb11-2"><a href="#cb11-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> calculate_run_results(<span class="va">self</span>, entity_dataframe):</span>
+<span id="cb11-3"><a href="#cb11-3" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.mean_q_time_registration <span class="op">=</span> (</span>
+<span id="cb11-4"><a href="#cb11-4" aria-hidden="true" tabindex="-1"></a>            entity_dataframe[<span class="st">"q_time_registration"</span>].mean()</span>
+<span id="cb11-5"><a href="#cb11-5" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb11-6"><a href="#cb11-6" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.sd_q_time_registration <span class="op">=</span> (</span>
+<span id="cb11-7"><a href="#cb11-7" aria-hidden="true" tabindex="-1"></a>            entity_dataframe[<span class="st">"q_time_registration"</span>].std()</span>
+<span id="cb11-8"><a href="#cb11-8" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb11-9"><a href="#cb11-9" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.perc_90_q_time_registration <span class="op">=</span> (</span>
+<span id="cb11-10"><a href="#cb11-10" aria-hidden="true" tabindex="-1"></a>            entity_dataframe[<span class="st">"q_time_registration"</span>].quantile(<span class="fl">0.9</span>)</span>
+<span id="cb11-11"><a href="#cb11-11" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb11-12"><a href="#cb11-12" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb11-13"><a href="#cb11-13" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.mean_q_time_nurse <span class="op">=</span> (</span>
+<span id="cb11-14"><a href="#cb11-14" aria-hidden="true" tabindex="-1"></a>            entity_dataframe[<span class="st">"q_time_nurse"</span>].mean()</span>
+<span id="cb11-15"><a href="#cb11-15" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb11-16"><a href="#cb11-16" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.sd_q_time_nurse <span class="op">=</span> entity_dataframe[<span class="st">"q_time_nurse"</span>].std()</span>
+<span id="cb11-17"><a href="#cb11-17" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.perc_90_q_time_nurse <span class="op">=</span> (</span>
+<span id="cb11-18"><a href="#cb11-18" aria-hidden="true" tabindex="-1"></a>            entity_dataframe[<span class="st">"q_time_nurse"</span>].quantile(<span class="fl">0.9</span>)</span>
+<span id="cb11-19"><a href="#cb11-19" aria-hidden="true" tabindex="-1"></a>        )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>The following code block defines the Trial class and its constructor. We have attributes that store the instance of the Param class to be used, an empty list that we’ll use to store a list of the replications (as Model objects) in the trial, and then a set of attributes for all of the trial-level results we want to calculate and store.</p>
+<div id="cell-23" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb12"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb12-1"><a href="#cb12-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Trial:</span>
+<span id="cb12-2"><a href="#cb12-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, param):</span>
+<span id="cb12-3"><a href="#cb12-3" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.param <span class="op">=</span> param</span>
+<span id="cb12-4"><a href="#cb12-4" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.list_of_simulation_replications <span class="op">=</span> []</span>
+<span id="cb12-5"><a href="#cb12-5" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_mean_q_time_registration <span class="op">=</span> pd.NA</span>
+<span id="cb12-6"><a href="#cb12-6" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_sd_q_time_registration <span class="op">=</span> pd.NA</span>
+<span id="cb12-7"><a href="#cb12-7" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_perc_90_q_time_registration <span class="op">=</span> pd.NA</span>
+<span id="cb12-8"><a href="#cb12-8" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_mean_q_time_nurse <span class="op">=</span> pd.NA</span>
+<span id="cb12-9"><a href="#cb12-9" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_sd_q_time_nurse <span class="op">=</span> pd.NA</span>
+<span id="cb12-10"><a href="#cb12-10" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_perc_90_q_time_nurse <span class="op">=</span> pd.NA</span>
+<span id="cb12-11"><a href="#cb12-11" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.ci_lower_q_time_registration <span class="op">=</span> pd.NA</span>
+<span id="cb12-12"><a href="#cb12-12" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.ci_upper_q_time_registration <span class="op">=</span> pd.NA</span>
+<span id="cb12-13"><a href="#cb12-13" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.se_q_time_registration <span class="op">=</span> pd.NA</span>
+<span id="cb12-14"><a href="#cb12-14" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.ci_lower_q_time_nurse <span class="op">=</span> pd.NA</span>
+<span id="cb12-15"><a href="#cb12-15" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.ci_upper_q_time_nurse <span class="op">=</span> pd.NA</span>
+<span id="cb12-16"><a href="#cb12-16" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.se_q_time_nurse <span class="op">=</span> pd.NA</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>The following code block defines the method of the Trial class that runs a trial. It loops through the number of replications specified in our parameter set, and each loop through it : * Creates a new Model object, passing in the parameter set to be used, and the current replication number (taken from the iterator in the for loop) * Calls the run_model() method of the Model object to run the model * Calls the convert_entity_list_to_dataframe() method on the Model object to get out the dataframe for the patients in this run * Passes this dataframe over to the calculate_run_results method to calculate results for this replication * Adds the Model object for this replication to our list of replications</p>
+<div id="cell-25" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb13"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb13-1"><a href="#cb13-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Trial(Trial):</span>
+<span id="cb13-2"><a href="#cb13-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> run_trial(<span class="va">self</span>):</span>
+<span id="cb13-3"><a href="#cb13-3" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> replication_id <span class="kw">in</span> <span class="bu">range</span>(<span class="va">self</span>.param.num_replications):</span>
+<span id="cb13-4"><a href="#cb13-4" aria-hidden="true" tabindex="-1"></a>            model_replication <span class="op">=</span> Model(<span class="va">self</span>.param, replication_id)</span>
+<span id="cb13-5"><a href="#cb13-5" aria-hidden="true" tabindex="-1"></a>            model_replication.run_model()</span>
+<span id="cb13-6"><a href="#cb13-6" aria-hidden="true" tabindex="-1"></a>            patient_df <span class="op">=</span> model_replication.convert_entity_list_to_dataframe(</span>
+<span id="cb13-7"><a href="#cb13-7" aria-hidden="true" tabindex="-1"></a>                model_replication.list_of_patients</span>
+<span id="cb13-8"><a href="#cb13-8" aria-hidden="true" tabindex="-1"></a>            )</span>
+<span id="cb13-9"><a href="#cb13-9" aria-hidden="true" tabindex="-1"></a>            model_replication.calculate_run_results(patient_df)</span>
+<span id="cb13-10"><a href="#cb13-10" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.list_of_simulation_replications.append(model_replication)</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>The following code block defines the method of the Trial class that calculates results over the trial. It extracts the attributes from the Model objects stored in our list of replications. It then calculates means, standard deviations, and 90th percetiles across the queuing means from each replication.</p>
+<p>It also calculates the standard error for each mean queuing time, as well as confidence intervals.</p>
+<div id="cell-27" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb14"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb14-1"><a href="#cb14-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Trial(Trial):</span>
+<span id="cb14-2"><a href="#cb14-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> calculate_trial_results(<span class="va">self</span>):</span>
+<span id="cb14-3"><a href="#cb14-3" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.replication_df <span class="op">=</span> pd.DataFrame(</span>
+<span id="cb14-4"><a href="#cb14-4" aria-hidden="true" tabindex="-1"></a>            replication.__dict__ <span class="cf">for</span> replication <span class="kw">in</span></span>
+<span id="cb14-5"><a href="#cb14-5" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.list_of_simulation_replications</span>
+<span id="cb14-6"><a href="#cb14-6" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb14-7"><a href="#cb14-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-8"><a href="#cb14-8" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_mean_q_time_registration <span class="op">=</span> (</span>
+<span id="cb14-9"><a href="#cb14-9" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.replication_df[<span class="st">"mean_q_time_registration"</span>].mean()</span>
+<span id="cb14-10"><a href="#cb14-10" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb14-11"><a href="#cb14-11" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_sd_q_time_registration <span class="op">=</span> (</span>
+<span id="cb14-12"><a href="#cb14-12" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.replication_df[<span class="st">"mean_q_time_registration"</span>].std()</span>
+<span id="cb14-13"><a href="#cb14-13" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb14-14"><a href="#cb14-14" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_perc_90_q_time_registration <span class="op">=</span> (</span>
+<span id="cb14-15"><a href="#cb14-15" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.replication_df[<span class="st">"mean_q_time_registration"</span>].quantile(<span class="fl">0.9</span>)</span>
+<span id="cb14-16"><a href="#cb14-16" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb14-17"><a href="#cb14-17" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-18"><a href="#cb14-18" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_mean_q_time_nurse <span class="op">=</span> (</span>
+<span id="cb14-19"><a href="#cb14-19" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.replication_df[<span class="st">"mean_q_time_nurse"</span>].mean()</span>
+<span id="cb14-20"><a href="#cb14-20" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb14-21"><a href="#cb14-21" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_sd_q_time_nurse <span class="op">=</span> (</span>
+<span id="cb14-22"><a href="#cb14-22" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.replication_df[<span class="st">"mean_q_time_nurse"</span>].std()</span>
+<span id="cb14-23"><a href="#cb14-23" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb14-24"><a href="#cb14-24" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_perc_90_q_time_nurse <span class="op">=</span> (</span>
+<span id="cb14-25"><a href="#cb14-25" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.replication_df[<span class="st">"mean_q_time_nurse"</span>].quantile(<span class="fl">0.9</span>)</span>
+<span id="cb14-26"><a href="#cb14-26" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb14-27"><a href="#cb14-27" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-28"><a href="#cb14-28" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.se_q_time_registration <span class="op">=</span> (</span>
+<span id="cb14-29"><a href="#cb14-29" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.trial_sd_q_time_registration <span class="op">/</span> math.sqrt(</span>
+<span id="cb14-30"><a href="#cb14-30" aria-hidden="true" tabindex="-1"></a>                <span class="va">self</span>.param.num_replications</span>
+<span id="cb14-31"><a href="#cb14-31" aria-hidden="true" tabindex="-1"></a>            )</span>
+<span id="cb14-32"><a href="#cb14-32" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb14-33"><a href="#cb14-33" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-34"><a href="#cb14-34" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.se_q_time_nurse <span class="op">=</span> (</span>
+<span id="cb14-35"><a href="#cb14-35" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.trial_sd_q_time_nurse <span class="op">/</span> math.sqrt(<span class="va">self</span>.param.num_replications)</span>
+<span id="cb14-36"><a href="#cb14-36" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb14-37"><a href="#cb14-37" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-38"><a href="#cb14-38" aria-hidden="true" tabindex="-1"></a>        t <span class="op">=</span> stats.t.ppf(<span class="fl">0.975</span>, df<span class="op">=</span><span class="va">self</span>.param.num_replications<span class="op">-</span><span class="dv">1</span>)</span>
+<span id="cb14-39"><a href="#cb14-39" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-40"><a href="#cb14-40" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.ci_lower_q_time_registration <span class="op">=</span> (</span>
+<span id="cb14-41"><a href="#cb14-41" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.trial_mean_q_time_registration <span class="op">-</span> (</span>
+<span id="cb14-42"><a href="#cb14-42" aria-hidden="true" tabindex="-1"></a>                t <span class="op">*</span> <span class="va">self</span>.se_q_time_registration</span>
+<span id="cb14-43"><a href="#cb14-43" aria-hidden="true" tabindex="-1"></a>            )</span>
+<span id="cb14-44"><a href="#cb14-44" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb14-45"><a href="#cb14-45" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.ci_upper_q_time_registration <span class="op">=</span> (</span>
+<span id="cb14-46"><a href="#cb14-46" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.trial_mean_q_time_registration <span class="op">+</span> (</span>
+<span id="cb14-47"><a href="#cb14-47" aria-hidden="true" tabindex="-1"></a>                t <span class="op">*</span> <span class="va">self</span>.se_q_time_registration</span>
+<span id="cb14-48"><a href="#cb14-48" aria-hidden="true" tabindex="-1"></a>            )</span>
+<span id="cb14-49"><a href="#cb14-49" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb14-50"><a href="#cb14-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb14-51"><a href="#cb14-51" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.ci_lower_q_time_nurse <span class="op">=</span> (</span>
+<span id="cb14-52"><a href="#cb14-52" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.trial_mean_q_time_nurse <span class="op">-</span> (t <span class="op">*</span> <span class="va">self</span>.se_q_time_nurse)</span>
+<span id="cb14-53"><a href="#cb14-53" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb14-54"><a href="#cb14-54" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.ci_upper_q_time_nurse <span class="op">=</span> (</span>
+<span id="cb14-55"><a href="#cb14-55" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.trial_mean_q_time_nurse <span class="op">+</span> (t <span class="op">*</span> <span class="va">self</span>.se_q_time_nurse)</span>
+<span id="cb14-56"><a href="#cb14-56" aria-hidden="true" tabindex="-1"></a>        )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>The following code block creates a new instance of the Param class with default parameter values, and stores this as the base case parameter set. This is then passed into a new instance of the Trial object representing the base case trial. The trial is then run and the results for the trial are calculated.</p>
+<p>We then do the same for the “what if?” trial, except we adjust the parameter values of the number of nurses and receptionists to be 2 each.</p>
+<div id="cell-29" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb15"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb15-1"><a href="#cb15-1" aria-hidden="true" tabindex="-1"></a>base_case_params <span class="op">=</span> Param()</span>
+<span id="cb15-2"><a href="#cb15-2" aria-hidden="true" tabindex="-1"></a>base_case_trial <span class="op">=</span> Trial(base_case_params)</span>
+<span id="cb15-3"><a href="#cb15-3" aria-hidden="true" tabindex="-1"></a>base_case_trial.run_trial()</span>
+<span id="cb15-4"><a href="#cb15-4" aria-hidden="true" tabindex="-1"></a>base_case_trial.calculate_trial_results()</span>
+<span id="cb15-5"><a href="#cb15-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb15-6"><a href="#cb15-6" aria-hidden="true" tabindex="-1"></a>what_if_params <span class="op">=</span> Param(num_nurses<span class="op">=</span><span class="dv">2</span>, num_receptionists<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb15-7"><a href="#cb15-7" aria-hidden="true" tabindex="-1"></a>what_if_trial <span class="op">=</span> Trial(what_if_params)</span>
+<span id="cb15-8"><a href="#cb15-8" aria-hidden="true" tabindex="-1"></a>what_if_trial.run_trial()</span>
+<span id="cb15-9"><a href="#cb15-9" aria-hidden="true" tabindex="-1"></a>what_if_trial.calculate_trial_results()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<p>The following code block prints out the results of both the base case and “what if?” trials, rounding each result to 2 decimal places.</p>
+<div id="cell-31" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb16"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb16-1"><a href="#cb16-1" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="st">"BASE CASE TRIAL RESULTS"</span>)</span>
+<span id="cb16-2"><a href="#cb16-2" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="st">"-----------------------"</span>)</span>
+<span id="cb16-3"><a href="#cb16-3" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="st">"Queuing Time for Registration"</span>)</span>
+<span id="cb16-4"><a href="#cb16-4" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"Mean : </span><span class="sc">{</span>base_case_trial<span class="sc">.</span>trial_mean_q_time_registration<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb16-5"><a href="#cb16-5" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"SD : </span><span class="sc">{</span>base_case_trial<span class="sc">.</span>trial_sd_q_time_registration<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb16-6"><a href="#cb16-6" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (</span>
+<span id="cb16-7"><a href="#cb16-7" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"90th Perc : </span><span class="sc">{</span>base_case_trial<span class="sc">.</span>trial_perc_90_q_time_registration<span class="sc">:.2f}</span><span class="ss">"</span>,</span>
+<span id="cb16-8"><a href="#cb16-8" aria-hidden="true" tabindex="-1"></a>    <span class="st">"minutes"</span></span>
+<span id="cb16-9"><a href="#cb16-9" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb16-10"><a href="#cb16-10" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"Standard Error : </span><span class="sc">{</span>base_case_trial<span class="sc">.</span>se_q_time_registration<span class="sc">:.2f}</span><span class="ss">"</span>)</span>
+<span id="cb16-11"><a href="#cb16-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (</span>
+<span id="cb16-12"><a href="#cb16-12" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"95% CI : (</span><span class="sc">{</span>base_case_trial<span class="sc">.</span>ci_lower_q_time_registration<span class="sc">:.2f}</span><span class="ss">, "</span>,</span>
+<span id="cb16-13"><a href="#cb16-13" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"</span><span class="sc">{</span>base_case_trial<span class="sc">.</span>ci_upper_q_time_registration<span class="sc">:.2f}</span><span class="ss">) minutes"</span></span>
+<span id="cb16-14"><a href="#cb16-14" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb16-15"><a href="#cb16-15" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> ()</span>
+<span id="cb16-16"><a href="#cb16-16" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="st">"Queuing Time for the Nurse"</span>)</span>
+<span id="cb16-17"><a href="#cb16-17" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"Mean : </span><span class="sc">{</span>base_case_trial<span class="sc">.</span>trial_mean_q_time_nurse<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb16-18"><a href="#cb16-18" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"SD : </span><span class="sc">{</span>base_case_trial<span class="sc">.</span>trial_sd_q_time_nurse<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb16-19"><a href="#cb16-19" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"90th Perc : </span><span class="sc">{</span>base_case_trial<span class="sc">.</span>trial_perc_90_q_time_nurse<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb16-20"><a href="#cb16-20" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"Standard Error : </span><span class="sc">{</span>base_case_trial<span class="sc">.</span>se_q_time_nurse<span class="sc">:.2f}</span><span class="ss">"</span>)</span>
+<span id="cb16-21"><a href="#cb16-21" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (</span>
+<span id="cb16-22"><a href="#cb16-22" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"95% CI : (</span><span class="sc">{</span>base_case_trial<span class="sc">.</span>ci_lower_q_time_nurse<span class="sc">:.2f}</span><span class="ss">, "</span>,</span>
+<span id="cb16-23"><a href="#cb16-23" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"</span><span class="sc">{</span>base_case_trial<span class="sc">.</span>ci_upper_q_time_nurse<span class="sc">:.2f}</span><span class="ss">) minutes"</span></span>
+<span id="cb16-24"><a href="#cb16-24" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb16-25"><a href="#cb16-25" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> ()</span>
+<span id="cb16-26"><a href="#cb16-26" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-27"><a href="#cb16-27" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="st">"2 NURSES, 2 RECEPTIONISTS TRIAL RESULTS"</span>)</span>
+<span id="cb16-28"><a href="#cb16-28" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="st">"----------------------"</span>)</span>
+<span id="cb16-29"><a href="#cb16-29" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="st">"Queuing Time for Registration"</span>)</span>
+<span id="cb16-30"><a href="#cb16-30" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"Mean : </span><span class="sc">{</span>what_if_trial<span class="sc">.</span>trial_mean_q_time_registration<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb16-31"><a href="#cb16-31" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"SD : </span><span class="sc">{</span>what_if_trial<span class="sc">.</span>trial_sd_q_time_registration<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb16-32"><a href="#cb16-32" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (</span>
+<span id="cb16-33"><a href="#cb16-33" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"90th Perc : </span><span class="sc">{</span>what_if_trial<span class="sc">.</span>trial_perc_90_q_time_registration<span class="sc">:.2f}</span><span class="ss">"</span>,</span>
+<span id="cb16-34"><a href="#cb16-34" aria-hidden="true" tabindex="-1"></a>    <span class="st">"minutes"</span></span>
+<span id="cb16-35"><a href="#cb16-35" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb16-36"><a href="#cb16-36" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"Standard Error : </span><span class="sc">{</span>what_if_trial<span class="sc">.</span>se_q_time_registration<span class="sc">:.2f}</span><span class="ss">"</span>)</span>
+<span id="cb16-37"><a href="#cb16-37" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (</span>
+<span id="cb16-38"><a href="#cb16-38" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"95% CI : (</span><span class="sc">{</span>what_if_trial<span class="sc">.</span>ci_lower_q_time_registration<span class="sc">:.2f}</span><span class="ss">, "</span>,</span>
+<span id="cb16-39"><a href="#cb16-39" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"</span><span class="sc">{</span>what_if_trial<span class="sc">.</span>ci_upper_q_time_registration<span class="sc">:.2f}</span><span class="ss">) minutes"</span></span>
+<span id="cb16-40"><a href="#cb16-40" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb16-41"><a href="#cb16-41" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> ()</span>
+<span id="cb16-42"><a href="#cb16-42" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb16-43"><a href="#cb16-43" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="st">"Queuing Time for the Nurse"</span>)</span>
+<span id="cb16-44"><a href="#cb16-44" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"Mean : </span><span class="sc">{</span>what_if_trial<span class="sc">.</span>trial_mean_q_time_nurse<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb16-45"><a href="#cb16-45" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"SD : </span><span class="sc">{</span>what_if_trial<span class="sc">.</span>trial_sd_q_time_nurse<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb16-46"><a href="#cb16-46" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"90th Perc : </span><span class="sc">{</span>what_if_trial<span class="sc">.</span>trial_perc_90_q_time_nurse<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb16-47"><a href="#cb16-47" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"Standard Error : </span><span class="sc">{</span>what_if_trial<span class="sc">.</span>se_q_time_nurse<span class="sc">:.2f}</span><span class="ss">"</span>)</span>
+<span id="cb16-48"><a href="#cb16-48" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (</span>
+<span id="cb16-49"><a href="#cb16-49" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"95% CI : (</span><span class="sc">{</span>what_if_trial<span class="sc">.</span>ci_lower_q_time_nurse<span class="sc">:.2f}</span><span class="ss">, "</span>,</span>
+<span id="cb16-50"><a href="#cb16-50" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"</span><span class="sc">{</span>what_if_trial<span class="sc">.</span>ci_upper_q_time_nurse<span class="sc">:.2f}</span><span class="ss">) minutes"</span></span>
+<span id="cb16-51"><a href="#cb16-51" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb16-52"><a href="#cb16-52" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> ()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+</section>
+<section id="part-b" class="level2">
+<h2 class="anchored" data-anchor-id="part-b">Part B</h2>
+<p>After you have interpreted and run all of the code cells above, try the following tasks.</p>
+<ol type="1">
+<li>Write a second “What If?” scenario that tests having 1 receptionist, 2 nurses, but average (and standard deviation) of registration and nurse consultation times tripled. Run this scenario, then print the results.</li>
+</ol>
+<div id="cell-34" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb17"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb17-1"><a href="#cb17-1" aria-hidden="true" tabindex="-1"></a><span class="co"># INSERT CODE FOR </span><span class="al">TASK</span><span class="co"> 1 BELOW</span></span>
+<span id="cb17-2"><a href="#cb17-2" aria-hidden="true" tabindex="-1"></a>what_if_2_params <span class="op">=</span> Param(</span>
+<span id="cb17-3"><a href="#cb17-3" aria-hidden="true" tabindex="-1"></a>    num_nurses<span class="op">=</span><span class="dv">2</span>,</span>
+<span id="cb17-4"><a href="#cb17-4" aria-hidden="true" tabindex="-1"></a>    num_receptionists<span class="op">=</span><span class="dv">1</span>,</span>
+<span id="cb17-5"><a href="#cb17-5" aria-hidden="true" tabindex="-1"></a>    mean_registration_time<span class="op">=</span><span class="dv">9</span>,</span>
+<span id="cb17-6"><a href="#cb17-6" aria-hidden="true" tabindex="-1"></a>    sd_registration_time<span class="op">=</span><span class="fl">1.5</span>,</span>
+<span id="cb17-7"><a href="#cb17-7" aria-hidden="true" tabindex="-1"></a>    mean_nurse_consult_time<span class="op">=</span><span class="dv">18</span>,</span>
+<span id="cb17-8"><a href="#cb17-8" aria-hidden="true" tabindex="-1"></a>    sd_nurse_consult_time<span class="op">=</span><span class="dv">3</span></span>
+<span id="cb17-9"><a href="#cb17-9" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb17-10"><a href="#cb17-10" aria-hidden="true" tabindex="-1"></a>what_if_2_trial <span class="op">=</span> Trial(what_if_2_params)</span>
+<span id="cb17-11"><a href="#cb17-11" aria-hidden="true" tabindex="-1"></a>what_if_2_trial.run_trial()</span>
+<span id="cb17-12"><a href="#cb17-12" aria-hidden="true" tabindex="-1"></a>what_if_2_trial.calculate_trial_results()</span>
+<span id="cb17-13"><a href="#cb17-13" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-14"><a href="#cb17-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="st">"2 NURSES, 1 RECEPTIONIST, TRIPLED ACTIVITY TIMES TRIAL RESULTS"</span>)</span>
+<span id="cb17-15"><a href="#cb17-15" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="st">"----------------------"</span>)</span>
+<span id="cb17-16"><a href="#cb17-16" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="st">"Queuing Time for Registration"</span>)</span>
+<span id="cb17-17"><a href="#cb17-17" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"Mean : </span><span class="sc">{</span>what_if_2_trial<span class="sc">.</span>trial_mean_q_time_registration<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb17-18"><a href="#cb17-18" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"SD : </span><span class="sc">{</span>what_if_2_trial<span class="sc">.</span>trial_sd_q_time_registration<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb17-19"><a href="#cb17-19" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (</span>
+<span id="cb17-20"><a href="#cb17-20" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"90th Perc : </span><span class="sc">{</span>what_if_2_trial<span class="sc">.</span>trial_perc_90_q_time_registration<span class="sc">:.2f}</span><span class="ss">"</span>,</span>
+<span id="cb17-21"><a href="#cb17-21" aria-hidden="true" tabindex="-1"></a>    <span class="st">"minutes"</span></span>
+<span id="cb17-22"><a href="#cb17-22" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb17-23"><a href="#cb17-23" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"Standard Error : </span><span class="sc">{</span>what_if_2_trial<span class="sc">.</span>se_q_time_registration<span class="sc">:.2f}</span><span class="ss">"</span>)</span>
+<span id="cb17-24"><a href="#cb17-24" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (</span>
+<span id="cb17-25"><a href="#cb17-25" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"95% CI : (</span><span class="sc">{</span>what_if_2_trial<span class="sc">.</span>ci_lower_q_time_registration<span class="sc">:.2f}</span><span class="ss">, "</span>,</span>
+<span id="cb17-26"><a href="#cb17-26" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"</span><span class="sc">{</span>what_if_2_trial<span class="sc">.</span>ci_upper_q_time_registration<span class="sc">:.2f}</span><span class="ss">) minutes"</span></span>
+<span id="cb17-27"><a href="#cb17-27" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb17-28"><a href="#cb17-28" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> ()</span>
+<span id="cb17-29"><a href="#cb17-29" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb17-30"><a href="#cb17-30" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="st">"Queuing Time for the Nurse"</span>)</span>
+<span id="cb17-31"><a href="#cb17-31" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"Mean : </span><span class="sc">{</span>what_if_2_trial<span class="sc">.</span>trial_mean_q_time_nurse<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb17-32"><a href="#cb17-32" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"SD : </span><span class="sc">{</span>what_if_2_trial<span class="sc">.</span>trial_sd_q_time_nurse<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb17-33"><a href="#cb17-33" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"90th Perc : </span><span class="sc">{</span>what_if_2_trial<span class="sc">.</span>trial_perc_90_q_time_nurse<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb17-34"><a href="#cb17-34" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"Standard Error : </span><span class="sc">{</span>what_if_2_trial<span class="sc">.</span>se_q_time_nurse<span class="sc">:.2f}</span><span class="ss">"</span>)</span>
+<span id="cb17-35"><a href="#cb17-35" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (</span>
+<span id="cb17-36"><a href="#cb17-36" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"95% CI : (</span><span class="sc">{</span>what_if_2_trial<span class="sc">.</span>ci_lower_q_time_nurse<span class="sc">:.2f}</span><span class="ss">, "</span>,</span>
+<span id="cb17-37"><a href="#cb17-37" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"</span><span class="sc">{</span>what_if_2_trial<span class="sc">.</span>ci_upper_q_time_nurse<span class="sc">:.2f}</span><span class="ss">) minutes"</span></span>
+<span id="cb17-38"><a href="#cb17-38" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb17-39"><a href="#cb17-39" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> ()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<ol start="2" type="1">
+<li>Change the pathway being modelled so that, after seeing the nurse, there is a 40% chance that a patient will go on to see a doctor. Patients who don’t simply leave. The mean consultation time with the doctor is 10 minutes, and has a standard deviation of 3 minutes. There is currently 1 doctor.</li>
+</ol>
+<p>In each of the code cells below, insert or modify code where indicated, and make sure you run the cells after making changes.</p>
+<p>Here are some things that will be useful for you to know for this activity :</p>
+<ul>
+<li>It is good practice not to hard code things like probabilities in your models. You should consider making it a changeable parameter.</li>
+<li>We can use <em>conditional logic</em> to determine whether a block of indented code runs or not. Here’s an example of a piece of Python code that would print a different message depending on if the patient’s age is less than 18 or not :</li>
+</ul>
+<pre><code>if patient.age &lt; 18:
+    print ("You're young!")
+else:
+    print ("You're young at heart, I'm sure")</code></pre>
+<ul>
+<li>If statements do not have to include an else condition</li>
+<li>One way of deciding something randomly is to sample a random number between 0 and 1. If the number sampled is less than the probability of the event happening, then we say it happened. This works because the probability of picking a value between 0 and the given probability value is exactly equal to the probability value when sampling from a uniform distribution (where all possibilities are equally likely)</li>
+<li>If we want our models to be reproducible, then EVERY point of randomness in our models must be seeded with a random seed</li>
+<li>The NumPy package contains something known as a <em>default_rng</em>, which is a random number generator (RNG) from which we can sample numbers, and provide a random seed. The following two lines of code will create a new default_rng (line 1), sample a value between 0 and 1 from that RNG (line 2) :</li>
+</ul>
+<pre><code>name_of_my_rng = np.random.default_rng(my_random_seed)
+sampled_value = name_of_my_rng.random()</code></pre>
+<div id="cell-36" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb20"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb20-1"><a href="#cb20-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Patient:</span>
+<span id="cb20-2"><a href="#cb20-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, p_id):</span>
+<span id="cb20-3"><a href="#cb20-3" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.<span class="bu">id</span> <span class="op">=</span> p_id</span>
+<span id="cb20-4"><a href="#cb20-4" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb20-5"><a href="#cb20-5" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.q_time_registration <span class="op">=</span> pd.NA</span>
+<span id="cb20-6"><a href="#cb20-6" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.q_time_nurse <span class="op">=</span> pd.NA</span>
+<span id="cb20-7"><a href="#cb20-7" aria-hidden="true" tabindex="-1"></a>        <span class="co"># WRITE YOUR NEW CODE BELOW</span></span>
+<span id="cb20-8"><a href="#cb20-8" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.q_time_doctor <span class="op">=</span> pd.NA</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="cell-37" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb21"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb21-1"><a href="#cb21-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Param:</span>
+<span id="cb21-2"><a href="#cb21-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(</span>
+<span id="cb21-3"><a href="#cb21-3" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>,</span>
+<span id="cb21-4"><a href="#cb21-4" aria-hidden="true" tabindex="-1"></a>        mean_patient_inter <span class="op">=</span> <span class="dv">5</span>,</span>
+<span id="cb21-5"><a href="#cb21-5" aria-hidden="true" tabindex="-1"></a>        mean_registration_time <span class="op">=</span> <span class="dv">3</span>,</span>
+<span id="cb21-6"><a href="#cb21-6" aria-hidden="true" tabindex="-1"></a>        sd_registration_time <span class="op">=</span> <span class="fl">0.5</span>,</span>
+<span id="cb21-7"><a href="#cb21-7" aria-hidden="true" tabindex="-1"></a>        mean_nurse_consult_time <span class="op">=</span> <span class="dv">6</span>,</span>
+<span id="cb21-8"><a href="#cb21-8" aria-hidden="true" tabindex="-1"></a>        sd_nurse_consult_time <span class="op">=</span> <span class="dv">1</span>,</span>
+<span id="cb21-9"><a href="#cb21-9" aria-hidden="true" tabindex="-1"></a>        num_receptionists <span class="op">=</span> <span class="dv">1</span>,</span>
+<span id="cb21-10"><a href="#cb21-10" aria-hidden="true" tabindex="-1"></a>        num_nurses <span class="op">=</span> <span class="dv">1</span>,</span>
+<span id="cb21-11"><a href="#cb21-11" aria-hidden="true" tabindex="-1"></a>        sim_duration <span class="op">=</span> <span class="dv">120</span>,</span>
+<span id="cb21-12"><a href="#cb21-12" aria-hidden="true" tabindex="-1"></a>        num_replications <span class="op">=</span> <span class="dv">5</span>,</span>
+<span id="cb21-13"><a href="#cb21-13" aria-hidden="true" tabindex="-1"></a>        <span class="co"># WRITE YOUR NEW CODE BELOW</span></span>
+<span id="cb21-14"><a href="#cb21-14" aria-hidden="true" tabindex="-1"></a>        mean_doctor_consult_time <span class="op">=</span> <span class="dv">10</span>,</span>
+<span id="cb21-15"><a href="#cb21-15" aria-hidden="true" tabindex="-1"></a>        sd_doctor_consult_time <span class="op">=</span> <span class="dv">3</span>,</span>
+<span id="cb21-16"><a href="#cb21-16" aria-hidden="true" tabindex="-1"></a>        num_doctors <span class="op">=</span> <span class="dv">1</span>,</span>
+<span id="cb21-17"><a href="#cb21-17" aria-hidden="true" tabindex="-1"></a>        prob_seeing_doctor <span class="op">=</span> <span class="fl">0.4</span>,</span>
+<span id="cb21-18"><a href="#cb21-18" aria-hidden="true" tabindex="-1"></a>    ):</span>
+<span id="cb21-19"><a href="#cb21-19" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.mean_patient_inter <span class="op">=</span> mean_patient_inter</span>
+<span id="cb21-20"><a href="#cb21-20" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.mean_registration_time <span class="op">=</span> mean_registration_time</span>
+<span id="cb21-21"><a href="#cb21-21" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.sd_registration_time <span class="op">=</span> sd_registration_time</span>
+<span id="cb21-22"><a href="#cb21-22" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.mean_nurse_consult_time <span class="op">=</span> mean_nurse_consult_time</span>
+<span id="cb21-23"><a href="#cb21-23" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.sd_nurse_consult_time <span class="op">=</span> sd_nurse_consult_time</span>
+<span id="cb21-24"><a href="#cb21-24" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.num_receptionists <span class="op">=</span> num_receptionists</span>
+<span id="cb21-25"><a href="#cb21-25" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.num_nurses <span class="op">=</span> num_nurses</span>
+<span id="cb21-26"><a href="#cb21-26" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.sim_duration <span class="op">=</span> sim_duration</span>
+<span id="cb21-27"><a href="#cb21-27" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.num_replications <span class="op">=</span> num_replications</span>
+<span id="cb21-28"><a href="#cb21-28" aria-hidden="true" tabindex="-1"></a>        <span class="co"># WRITE YOUR NEW CODE BELOW</span></span>
+<span id="cb21-29"><a href="#cb21-29" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.mean_doctor_consult_time <span class="op">=</span> mean_doctor_consult_time</span>
+<span id="cb21-30"><a href="#cb21-30" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.sd_doctor_consult_time <span class="op">=</span> sd_doctor_consult_time</span>
+<span id="cb21-31"><a href="#cb21-31" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.num_doctors <span class="op">=</span> num_doctors</span>
+<span id="cb21-32"><a href="#cb21-32" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.prob_seeing_doctor <span class="op">=</span> prob_seeing_doctor</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="cell-38" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb22"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb22-1"><a href="#cb22-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Model:</span>
+<span id="cb22-2"><a href="#cb22-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, param, replication_id):</span>
+<span id="cb22-3"><a href="#cb22-3" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.param <span class="op">=</span> param</span>
+<span id="cb22-4"><a href="#cb22-4" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.replication_id <span class="op">=</span> replication_id</span>
+<span id="cb22-5"><a href="#cb22-5" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.env <span class="op">=</span> simpy.Environment()</span>
+<span id="cb22-6"><a href="#cb22-6" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.patient_counter <span class="op">=</span> <span class="dv">0</span></span>
+<span id="cb22-7"><a href="#cb22-7" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-8"><a href="#cb22-8" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.receptionist <span class="op">=</span> simpy.Resource(</span>
+<span id="cb22-9"><a href="#cb22-9" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.env, capacity<span class="op">=</span><span class="va">self</span>.param.num_receptionists</span>
+<span id="cb22-10"><a href="#cb22-10" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb22-11"><a href="#cb22-11" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.nurse <span class="op">=</span> simpy.Resource(<span class="va">self</span>.env, capacity<span class="op">=</span><span class="va">self</span>.param.num_nurses)</span>
+<span id="cb22-12"><a href="#cb22-12" aria-hidden="true" tabindex="-1"></a>        <span class="co"># WRITE YOUR NEW CODE BELOW</span></span>
+<span id="cb22-13"><a href="#cb22-13" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.doctor <span class="op">=</span> simpy.Resource(</span>
+<span id="cb22-14"><a href="#cb22-14" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.env, capacity<span class="op">=</span><span class="va">self</span>.param.num_doctors</span>
+<span id="cb22-15"><a href="#cb22-15" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb22-16"><a href="#cb22-16" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-17"><a href="#cb22-17" aria-hidden="true" tabindex="-1"></a>        ss <span class="op">=</span> np.random.SeedSequence(<span class="va">self</span>.replication_id)</span>
+<span id="cb22-18"><a href="#cb22-18" aria-hidden="true" tabindex="-1"></a>        <span class="co"># ADAPT THE LINE OF CODE BELOW</span></span>
+<span id="cb22-19"><a href="#cb22-19" aria-hidden="true" tabindex="-1"></a>        seeds <span class="op">=</span> ss.spawn(<span class="dv">5</span>)</span>
+<span id="cb22-20"><a href="#cb22-20" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.patient_inter_dist <span class="op">=</span> Exponential(</span>
+<span id="cb22-21"><a href="#cb22-21" aria-hidden="true" tabindex="-1"></a>            mean<span class="op">=</span><span class="va">self</span>.param.mean_patient_inter,</span>
+<span id="cb22-22"><a href="#cb22-22" aria-hidden="true" tabindex="-1"></a>            random_seed<span class="op">=</span>seeds[<span class="dv">0</span>]</span>
+<span id="cb22-23"><a href="#cb22-23" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb22-24"><a href="#cb22-24" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.registration_time_dist <span class="op">=</span> Lognormal(</span>
+<span id="cb22-25"><a href="#cb22-25" aria-hidden="true" tabindex="-1"></a>            mean<span class="op">=</span><span class="va">self</span>.param.mean_registration_time,</span>
+<span id="cb22-26"><a href="#cb22-26" aria-hidden="true" tabindex="-1"></a>            stdev<span class="op">=</span><span class="va">self</span>.param.sd_registration_time,</span>
+<span id="cb22-27"><a href="#cb22-27" aria-hidden="true" tabindex="-1"></a>            random_seed<span class="op">=</span>seeds[<span class="dv">1</span>]</span>
+<span id="cb22-28"><a href="#cb22-28" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb22-29"><a href="#cb22-29" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.nurse_consult_time_dist <span class="op">=</span> Lognormal(</span>
+<span id="cb22-30"><a href="#cb22-30" aria-hidden="true" tabindex="-1"></a>            mean<span class="op">=</span><span class="va">self</span>.param.mean_nurse_consult_time,</span>
+<span id="cb22-31"><a href="#cb22-31" aria-hidden="true" tabindex="-1"></a>            stdev<span class="op">=</span><span class="va">self</span>.param.sd_nurse_consult_time,</span>
+<span id="cb22-32"><a href="#cb22-32" aria-hidden="true" tabindex="-1"></a>            random_seed<span class="op">=</span>seeds[<span class="dv">2</span>]</span>
+<span id="cb22-33"><a href="#cb22-33" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb22-34"><a href="#cb22-34" aria-hidden="true" tabindex="-1"></a>        <span class="co"># WRITE YOUR NEW CODE BELOW</span></span>
+<span id="cb22-35"><a href="#cb22-35" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.doctor_consult_time_dist <span class="op">=</span> Lognormal(</span>
+<span id="cb22-36"><a href="#cb22-36" aria-hidden="true" tabindex="-1"></a>            mean<span class="op">=</span><span class="va">self</span>.param.mean_doctor_consult_time,</span>
+<span id="cb22-37"><a href="#cb22-37" aria-hidden="true" tabindex="-1"></a>            stdev<span class="op">=</span><span class="va">self</span>.param.sd_doctor_consult_time,</span>
+<span id="cb22-38"><a href="#cb22-38" aria-hidden="true" tabindex="-1"></a>            random_seed<span class="op">=</span>seeds[<span class="dv">3</span>]</span>
+<span id="cb22-39"><a href="#cb22-39" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb22-40"><a href="#cb22-40" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.doctor_branch_prob_rng <span class="op">=</span> (</span>
+<span id="cb22-41"><a href="#cb22-41" aria-hidden="true" tabindex="-1"></a>            np.random.default_rng(seeds[<span class="dv">4</span>])</span>
+<span id="cb22-42"><a href="#cb22-42" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb22-43"><a href="#cb22-43" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-44"><a href="#cb22-44" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.list_of_patients <span class="op">=</span> []</span>
+<span id="cb22-45"><a href="#cb22-45" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.mean_q_time_registration <span class="op">=</span> pd.NA</span>
+<span id="cb22-46"><a href="#cb22-46" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.sd_q_time_registration <span class="op">=</span> pd.NA</span>
+<span id="cb22-47"><a href="#cb22-47" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.perc_90_q_time_registration <span class="op">=</span> pd.NA</span>
+<span id="cb22-48"><a href="#cb22-48" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.mean_q_time_nurse <span class="op">=</span> pd.NA</span>
+<span id="cb22-49"><a href="#cb22-49" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.sd_q_time_nurse <span class="op">=</span> pd.NA</span>
+<span id="cb22-50"><a href="#cb22-50" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.perc_90_q_time_nurse <span class="op">=</span> pd.NA</span>
+<span id="cb22-51"><a href="#cb22-51" aria-hidden="true" tabindex="-1"></a>        <span class="co"># WRITE YOUR NEW CODE BELOW</span></span>
+<span id="cb22-52"><a href="#cb22-52" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.mean_q_time_doctor <span class="op">=</span> pd.NA</span>
+<span id="cb22-53"><a href="#cb22-53" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.sd_q_time_doctor <span class="op">=</span> pd.NA</span>
+<span id="cb22-54"><a href="#cb22-54" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.perc_90_q_time_doctor <span class="op">=</span> pd.NA</span>
+<span id="cb22-55"><a href="#cb22-55" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-56"><a href="#cb22-56" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> attend_clinic(<span class="va">self</span>, patient):</span>
+<span id="cb22-57"><a href="#cb22-57" aria-hidden="true" tabindex="-1"></a>        start_q_registration <span class="op">=</span> <span class="va">self</span>.env.now</span>
+<span id="cb22-58"><a href="#cb22-58" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-59"><a href="#cb22-59" aria-hidden="true" tabindex="-1"></a>        <span class="cf">with</span> <span class="va">self</span>.receptionist.request() <span class="im">as</span> req:</span>
+<span id="cb22-60"><a href="#cb22-60" aria-hidden="true" tabindex="-1"></a>            <span class="cf">yield</span> req</span>
+<span id="cb22-61"><a href="#cb22-61" aria-hidden="true" tabindex="-1"></a>            end_q_registration <span class="op">=</span> <span class="va">self</span>.env.now</span>
+<span id="cb22-62"><a href="#cb22-62" aria-hidden="true" tabindex="-1"></a>            patient.q_time_registration <span class="op">=</span> (</span>
+<span id="cb22-63"><a href="#cb22-63" aria-hidden="true" tabindex="-1"></a>                end_q_registration <span class="op">-</span> start_q_registration</span>
+<span id="cb22-64"><a href="#cb22-64" aria-hidden="true" tabindex="-1"></a>            )</span>
+<span id="cb22-65"><a href="#cb22-65" aria-hidden="true" tabindex="-1"></a>            sampled_reg_act_time <span class="op">=</span> <span class="va">self</span>.registration_time_dist.sample()</span>
+<span id="cb22-66"><a href="#cb22-66" aria-hidden="true" tabindex="-1"></a>            <span class="cf">yield</span> <span class="va">self</span>.env.timeout(sampled_reg_act_time)</span>
+<span id="cb22-67"><a href="#cb22-67" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-68"><a href="#cb22-68" aria-hidden="true" tabindex="-1"></a>        start_q_nurse <span class="op">=</span> <span class="va">self</span>.env.now</span>
+<span id="cb22-69"><a href="#cb22-69" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-70"><a href="#cb22-70" aria-hidden="true" tabindex="-1"></a>        <span class="cf">with</span> <span class="va">self</span>.nurse.request() <span class="im">as</span> req:</span>
+<span id="cb22-71"><a href="#cb22-71" aria-hidden="true" tabindex="-1"></a>            <span class="cf">yield</span> req</span>
+<span id="cb22-72"><a href="#cb22-72" aria-hidden="true" tabindex="-1"></a>            end_q_nurse <span class="op">=</span> <span class="va">self</span>.env.now</span>
+<span id="cb22-73"><a href="#cb22-73" aria-hidden="true" tabindex="-1"></a>            patient.q_time_nurse <span class="op">=</span> end_q_nurse <span class="op">-</span> start_q_nurse</span>
+<span id="cb22-74"><a href="#cb22-74" aria-hidden="true" tabindex="-1"></a>            sampled_nurse_act_time <span class="op">=</span> <span class="va">self</span>.nurse_consult_time_dist.sample()</span>
+<span id="cb22-75"><a href="#cb22-75" aria-hidden="true" tabindex="-1"></a>            <span class="cf">yield</span> <span class="va">self</span>.env.timeout(sampled_nurse_act_time)</span>
+<span id="cb22-76"><a href="#cb22-76" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-77"><a href="#cb22-77" aria-hidden="true" tabindex="-1"></a>        <span class="co"># WRITE YOUR NEW CODE BELOW</span></span>
+<span id="cb22-78"><a href="#cb22-78" aria-hidden="true" tabindex="-1"></a>        <span class="cf">if</span> (</span>
+<span id="cb22-79"><a href="#cb22-79" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.doctor_branch_prob_rng.random() <span class="op">&lt;</span></span>
+<span id="cb22-80"><a href="#cb22-80" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.param.prob_seeing_doctor</span>
+<span id="cb22-81"><a href="#cb22-81" aria-hidden="true" tabindex="-1"></a>        ):</span>
+<span id="cb22-82"><a href="#cb22-82" aria-hidden="true" tabindex="-1"></a>            start_q_doctor <span class="op">=</span> <span class="va">self</span>.env.now</span>
+<span id="cb22-83"><a href="#cb22-83" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-84"><a href="#cb22-84" aria-hidden="true" tabindex="-1"></a>            <span class="cf">with</span> <span class="va">self</span>.doctor.request() <span class="im">as</span> req:</span>
+<span id="cb22-85"><a href="#cb22-85" aria-hidden="true" tabindex="-1"></a>                <span class="cf">yield</span> req</span>
+<span id="cb22-86"><a href="#cb22-86" aria-hidden="true" tabindex="-1"></a>                end_q_doctor <span class="op">=</span> <span class="va">self</span>.env.now</span>
+<span id="cb22-87"><a href="#cb22-87" aria-hidden="true" tabindex="-1"></a>                patient.q_time_doctor <span class="op">=</span> end_q_doctor <span class="op">-</span> start_q_doctor</span>
+<span id="cb22-88"><a href="#cb22-88" aria-hidden="true" tabindex="-1"></a>                sampled_doc_act_time <span class="op">=</span> <span class="va">self</span>.doctor_consult_time_dist.sample()</span>
+<span id="cb22-89"><a href="#cb22-89" aria-hidden="true" tabindex="-1"></a>                <span class="cf">yield</span> <span class="va">self</span>.env.timeout(sampled_doc_act_time)</span>
+<span id="cb22-90"><a href="#cb22-90" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-91"><a href="#cb22-91" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> generator_patient_arrivals(<span class="va">self</span>):</span>
+<span id="cb22-92"><a href="#cb22-92" aria-hidden="true" tabindex="-1"></a>        <span class="cf">while</span> <span class="va">True</span>:</span>
+<span id="cb22-93"><a href="#cb22-93" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.patient_counter <span class="op">+=</span> <span class="dv">1</span></span>
+<span id="cb22-94"><a href="#cb22-94" aria-hidden="true" tabindex="-1"></a>            p <span class="op">=</span> Patient(<span class="va">self</span>.patient_counter)</span>
+<span id="cb22-95"><a href="#cb22-95" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.list_of_patients.append(p)</span>
+<span id="cb22-96"><a href="#cb22-96" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.env.process(<span class="va">self</span>.attend_clinic(p))</span>
+<span id="cb22-97"><a href="#cb22-97" aria-hidden="true" tabindex="-1"></a>            sampled_inter <span class="op">=</span> <span class="va">self</span>.patient_inter_dist.sample()</span>
+<span id="cb22-98"><a href="#cb22-98" aria-hidden="true" tabindex="-1"></a>            <span class="cf">yield</span> <span class="va">self</span>.env.timeout(sampled_inter)</span>
+<span id="cb22-99"><a href="#cb22-99" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-100"><a href="#cb22-100" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> run_model(<span class="va">self</span>):</span>
+<span id="cb22-101"><a href="#cb22-101" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.env.process(<span class="va">self</span>.generator_patient_arrivals())</span>
+<span id="cb22-102"><a href="#cb22-102" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.env.run(until<span class="op">=</span><span class="va">self</span>.param.sim_duration)</span>
+<span id="cb22-103"><a href="#cb22-103" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-104"><a href="#cb22-104" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> convert_entity_list_to_dataframe(<span class="va">self</span>, entity_list):</span>
+<span id="cb22-105"><a href="#cb22-105" aria-hidden="true" tabindex="-1"></a>        entity_dateframe <span class="op">=</span> pd.DataFrame(</span>
+<span id="cb22-106"><a href="#cb22-106" aria-hidden="true" tabindex="-1"></a>            entity.__dict__ <span class="cf">for</span> entity <span class="kw">in</span> entity_list</span>
+<span id="cb22-107"><a href="#cb22-107" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb22-108"><a href="#cb22-108" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-109"><a href="#cb22-109" aria-hidden="true" tabindex="-1"></a>        <span class="cf">return</span> entity_dateframe</span>
+<span id="cb22-110"><a href="#cb22-110" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-111"><a href="#cb22-111" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> calculate_run_results(<span class="va">self</span>, entity_dataframe):</span>
+<span id="cb22-112"><a href="#cb22-112" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.mean_q_time_registration <span class="op">=</span> (</span>
+<span id="cb22-113"><a href="#cb22-113" aria-hidden="true" tabindex="-1"></a>            entity_dataframe[<span class="st">"q_time_registration"</span>].mean()</span>
+<span id="cb22-114"><a href="#cb22-114" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb22-115"><a href="#cb22-115" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.sd_q_time_registration <span class="op">=</span> (</span>
+<span id="cb22-116"><a href="#cb22-116" aria-hidden="true" tabindex="-1"></a>            entity_dataframe[<span class="st">"q_time_registration"</span>].std()</span>
+<span id="cb22-117"><a href="#cb22-117" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb22-118"><a href="#cb22-118" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.perc_90_q_time_registration <span class="op">=</span> (</span>
+<span id="cb22-119"><a href="#cb22-119" aria-hidden="true" tabindex="-1"></a>            entity_dataframe[<span class="st">"q_time_registration"</span>].quantile(<span class="fl">0.9</span>)</span>
+<span id="cb22-120"><a href="#cb22-120" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb22-121"><a href="#cb22-121" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-122"><a href="#cb22-122" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.mean_q_time_nurse <span class="op">=</span> (</span>
+<span id="cb22-123"><a href="#cb22-123" aria-hidden="true" tabindex="-1"></a>            entity_dataframe[<span class="st">"q_time_nurse"</span>].mean()</span>
+<span id="cb22-124"><a href="#cb22-124" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb22-125"><a href="#cb22-125" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.sd_q_time_nurse <span class="op">=</span> entity_dataframe[<span class="st">"q_time_nurse"</span>].std()</span>
+<span id="cb22-126"><a href="#cb22-126" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.perc_90_q_time_nurse <span class="op">=</span> (</span>
+<span id="cb22-127"><a href="#cb22-127" aria-hidden="true" tabindex="-1"></a>            entity_dataframe[<span class="st">"q_time_nurse"</span>].quantile(<span class="fl">0.9</span>)</span>
+<span id="cb22-128"><a href="#cb22-128" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb22-129"><a href="#cb22-129" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb22-130"><a href="#cb22-130" aria-hidden="true" tabindex="-1"></a>        <span class="co"># WRITE YOUR NEW CODE BELOW</span></span>
+<span id="cb22-131"><a href="#cb22-131" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.mean_q_time_doctor <span class="op">=</span> (</span>
+<span id="cb22-132"><a href="#cb22-132" aria-hidden="true" tabindex="-1"></a>            entity_dataframe[<span class="st">"q_time_doctor"</span>].mean()</span>
+<span id="cb22-133"><a href="#cb22-133" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb22-134"><a href="#cb22-134" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.sd_q_time_doctor <span class="op">=</span> (</span>
+<span id="cb22-135"><a href="#cb22-135" aria-hidden="true" tabindex="-1"></a>            entity_dataframe[<span class="st">"q_time_doctor"</span>].std()</span>
+<span id="cb22-136"><a href="#cb22-136" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb22-137"><a href="#cb22-137" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.perc_90_q_time_doctor <span class="op">=</span> (</span>
+<span id="cb22-138"><a href="#cb22-138" aria-hidden="true" tabindex="-1"></a>            entity_dataframe[<span class="st">"q_time_doctor"</span>].quantile(<span class="fl">0.9</span>)</span>
+<span id="cb22-139"><a href="#cb22-139" aria-hidden="true" tabindex="-1"></a>        )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="cell-39" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb23"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb23-1"><a href="#cb23-1" aria-hidden="true" tabindex="-1"></a><span class="kw">class</span> Trial:</span>
+<span id="cb23-2"><a href="#cb23-2" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> <span class="fu">__init__</span>(<span class="va">self</span>, param):</span>
+<span id="cb23-3"><a href="#cb23-3" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.param <span class="op">=</span> param</span>
+<span id="cb23-4"><a href="#cb23-4" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.list_of_simulation_replications <span class="op">=</span> []</span>
+<span id="cb23-5"><a href="#cb23-5" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_mean_q_time_registration <span class="op">=</span> pd.NA</span>
+<span id="cb23-6"><a href="#cb23-6" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_sd_q_time_registration <span class="op">=</span> pd.NA</span>
+<span id="cb23-7"><a href="#cb23-7" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_perc_90_q_time_registration <span class="op">=</span> pd.NA</span>
+<span id="cb23-8"><a href="#cb23-8" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_mean_q_time_nurse <span class="op">=</span> pd.NA</span>
+<span id="cb23-9"><a href="#cb23-9" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_sd_q_time_nurse <span class="op">=</span> pd.NA</span>
+<span id="cb23-10"><a href="#cb23-10" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_perc_90_q_time_nurse <span class="op">=</span> pd.NA</span>
+<span id="cb23-11"><a href="#cb23-11" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.ci_lower_q_time_registration <span class="op">=</span> pd.NA</span>
+<span id="cb23-12"><a href="#cb23-12" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.ci_upper_q_time_registration <span class="op">=</span> pd.NA</span>
+<span id="cb23-13"><a href="#cb23-13" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.se_q_time_registration <span class="op">=</span> pd.NA</span>
+<span id="cb23-14"><a href="#cb23-14" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.ci_lower_q_time_nurse <span class="op">=</span> pd.NA</span>
+<span id="cb23-15"><a href="#cb23-15" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.ci_upper_q_time_nurse <span class="op">=</span> pd.NA</span>
+<span id="cb23-16"><a href="#cb23-16" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.se_q_time_nurse <span class="op">=</span> pd.NA</span>
+<span id="cb23-17"><a href="#cb23-17" aria-hidden="true" tabindex="-1"></a>        <span class="co"># WRITE YOUR NEW CODE BELOW</span></span>
+<span id="cb23-18"><a href="#cb23-18" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_mean_q_time_doctor <span class="op">=</span> pd.NA</span>
+<span id="cb23-19"><a href="#cb23-19" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_sd_q_time_doctor <span class="op">=</span> pd.NA</span>
+<span id="cb23-20"><a href="#cb23-20" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_perc_90_q_time_doctor <span class="op">=</span> pd.NA</span>
+<span id="cb23-21"><a href="#cb23-21" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.ci_lower_q_time_doctor <span class="op">=</span> pd.NA</span>
+<span id="cb23-22"><a href="#cb23-22" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.ci_upper_q_time_doctor <span class="op">=</span> pd.NA</span>
+<span id="cb23-23"><a href="#cb23-23" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.se_q_time_doctor <span class="op">=</span> pd.NA</span>
+<span id="cb23-24"><a href="#cb23-24" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-25"><a href="#cb23-25" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> run_trial(<span class="va">self</span>):</span>
+<span id="cb23-26"><a href="#cb23-26" aria-hidden="true" tabindex="-1"></a>        <span class="cf">for</span> replication_id <span class="kw">in</span> <span class="bu">range</span>(<span class="va">self</span>.param.num_replications):</span>
+<span id="cb23-27"><a href="#cb23-27" aria-hidden="true" tabindex="-1"></a>            model_replication <span class="op">=</span> Model(<span class="va">self</span>.param, replication_id)</span>
+<span id="cb23-28"><a href="#cb23-28" aria-hidden="true" tabindex="-1"></a>            model_replication.run_model()</span>
+<span id="cb23-29"><a href="#cb23-29" aria-hidden="true" tabindex="-1"></a>            patient_df <span class="op">=</span> model_replication.convert_entity_list_to_dataframe(</span>
+<span id="cb23-30"><a href="#cb23-30" aria-hidden="true" tabindex="-1"></a>                model_replication.list_of_patients</span>
+<span id="cb23-31"><a href="#cb23-31" aria-hidden="true" tabindex="-1"></a>            )</span>
+<span id="cb23-32"><a href="#cb23-32" aria-hidden="true" tabindex="-1"></a>            model_replication.calculate_run_results(patient_df)</span>
+<span id="cb23-33"><a href="#cb23-33" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.list_of_simulation_replications.append(model_replication)</span>
+<span id="cb23-34"><a href="#cb23-34" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-35"><a href="#cb23-35" aria-hidden="true" tabindex="-1"></a>    <span class="kw">def</span> calculate_trial_results(<span class="va">self</span>):</span>
+<span id="cb23-36"><a href="#cb23-36" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.replication_df <span class="op">=</span> pd.DataFrame(</span>
+<span id="cb23-37"><a href="#cb23-37" aria-hidden="true" tabindex="-1"></a>            replication.__dict__ <span class="cf">for</span> replication <span class="kw">in</span></span>
+<span id="cb23-38"><a href="#cb23-38" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.list_of_simulation_replications</span>
+<span id="cb23-39"><a href="#cb23-39" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb23-40"><a href="#cb23-40" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-41"><a href="#cb23-41" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_mean_q_time_registration <span class="op">=</span> (</span>
+<span id="cb23-42"><a href="#cb23-42" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.replication_df[<span class="st">"mean_q_time_registration"</span>].mean()</span>
+<span id="cb23-43"><a href="#cb23-43" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb23-44"><a href="#cb23-44" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_sd_q_time_registration <span class="op">=</span> (</span>
+<span id="cb23-45"><a href="#cb23-45" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.replication_df[<span class="st">"mean_q_time_registration"</span>].std()</span>
+<span id="cb23-46"><a href="#cb23-46" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb23-47"><a href="#cb23-47" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_perc_90_q_time_registration <span class="op">=</span> (</span>
+<span id="cb23-48"><a href="#cb23-48" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.replication_df[<span class="st">"mean_q_time_registration"</span>].quantile(<span class="fl">0.9</span>)</span>
+<span id="cb23-49"><a href="#cb23-49" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb23-50"><a href="#cb23-50" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-51"><a href="#cb23-51" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_mean_q_time_nurse <span class="op">=</span> (</span>
+<span id="cb23-52"><a href="#cb23-52" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.replication_df[<span class="st">"mean_q_time_nurse"</span>].mean()</span>
+<span id="cb23-53"><a href="#cb23-53" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb23-54"><a href="#cb23-54" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_sd_q_time_nurse <span class="op">=</span> (</span>
+<span id="cb23-55"><a href="#cb23-55" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.replication_df[<span class="st">"mean_q_time_nurse"</span>].std()</span>
+<span id="cb23-56"><a href="#cb23-56" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb23-57"><a href="#cb23-57" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_perc_90_q_time_nurse <span class="op">=</span> (</span>
+<span id="cb23-58"><a href="#cb23-58" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.replication_df[<span class="st">"mean_q_time_nurse"</span>].quantile(<span class="fl">0.9</span>)</span>
+<span id="cb23-59"><a href="#cb23-59" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb23-60"><a href="#cb23-60" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-61"><a href="#cb23-61" aria-hidden="true" tabindex="-1"></a>        <span class="co"># WRITE YOUR NEW CODE BELOW</span></span>
+<span id="cb23-62"><a href="#cb23-62" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_mean_q_time_doctor <span class="op">=</span> (</span>
+<span id="cb23-63"><a href="#cb23-63" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.replication_df[<span class="st">"mean_q_time_doctor"</span>].mean()</span>
+<span id="cb23-64"><a href="#cb23-64" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb23-65"><a href="#cb23-65" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_sd_q_time_doctor <span class="op">=</span> (</span>
+<span id="cb23-66"><a href="#cb23-66" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.replication_df[<span class="st">"mean_q_time_doctor"</span>].std()</span>
+<span id="cb23-67"><a href="#cb23-67" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb23-68"><a href="#cb23-68" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.trial_perc_90_q_time_doctor <span class="op">=</span> (</span>
+<span id="cb23-69"><a href="#cb23-69" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.replication_df[<span class="st">"mean_q_time_doctor"</span>].quantile(<span class="fl">0.9</span>)</span>
+<span id="cb23-70"><a href="#cb23-70" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb23-71"><a href="#cb23-71" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-72"><a href="#cb23-72" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.se_q_time_registration <span class="op">=</span> (</span>
+<span id="cb23-73"><a href="#cb23-73" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.trial_sd_q_time_registration <span class="op">/</span> math.sqrt(</span>
+<span id="cb23-74"><a href="#cb23-74" aria-hidden="true" tabindex="-1"></a>                <span class="va">self</span>.param.num_replications</span>
+<span id="cb23-75"><a href="#cb23-75" aria-hidden="true" tabindex="-1"></a>            )</span>
+<span id="cb23-76"><a href="#cb23-76" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb23-77"><a href="#cb23-77" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-78"><a href="#cb23-78" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.se_q_time_nurse <span class="op">=</span> (</span>
+<span id="cb23-79"><a href="#cb23-79" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.trial_sd_q_time_nurse <span class="op">/</span> math.sqrt(<span class="va">self</span>.param.num_replications)</span>
+<span id="cb23-80"><a href="#cb23-80" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb23-81"><a href="#cb23-81" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-82"><a href="#cb23-82" aria-hidden="true" tabindex="-1"></a>        <span class="co"># WRITE YOUR NEW CODE BELOW</span></span>
+<span id="cb23-83"><a href="#cb23-83" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.se_q_time_doctor <span class="op">=</span> (</span>
+<span id="cb23-84"><a href="#cb23-84" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.trial_sd_q_time_doctor <span class="op">/</span> math.sqrt(<span class="va">self</span>.param.num_replications)</span>
+<span id="cb23-85"><a href="#cb23-85" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb23-86"><a href="#cb23-86" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-87"><a href="#cb23-87" aria-hidden="true" tabindex="-1"></a>        t <span class="op">=</span> stats.t.ppf(<span class="fl">0.975</span>, df<span class="op">=</span><span class="va">self</span>.param.num_replications<span class="op">-</span><span class="dv">1</span>)</span>
+<span id="cb23-88"><a href="#cb23-88" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-89"><a href="#cb23-89" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.ci_lower_q_time_registration <span class="op">=</span> (</span>
+<span id="cb23-90"><a href="#cb23-90" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.trial_mean_q_time_registration <span class="op">-</span> (</span>
+<span id="cb23-91"><a href="#cb23-91" aria-hidden="true" tabindex="-1"></a>                t <span class="op">*</span> <span class="va">self</span>.se_q_time_registration</span>
+<span id="cb23-92"><a href="#cb23-92" aria-hidden="true" tabindex="-1"></a>            )</span>
+<span id="cb23-93"><a href="#cb23-93" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb23-94"><a href="#cb23-94" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.ci_upper_q_time_registration <span class="op">=</span> (</span>
+<span id="cb23-95"><a href="#cb23-95" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.trial_mean_q_time_registration <span class="op">+</span> (</span>
+<span id="cb23-96"><a href="#cb23-96" aria-hidden="true" tabindex="-1"></a>                t <span class="op">*</span> <span class="va">self</span>.se_q_time_registration</span>
+<span id="cb23-97"><a href="#cb23-97" aria-hidden="true" tabindex="-1"></a>            )</span>
+<span id="cb23-98"><a href="#cb23-98" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb23-99"><a href="#cb23-99" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-100"><a href="#cb23-100" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.ci_lower_q_time_nurse <span class="op">=</span> (</span>
+<span id="cb23-101"><a href="#cb23-101" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.trial_mean_q_time_nurse <span class="op">-</span> (t <span class="op">*</span> <span class="va">self</span>.se_q_time_nurse)</span>
+<span id="cb23-102"><a href="#cb23-102" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb23-103"><a href="#cb23-103" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.ci_upper_q_time_nurse <span class="op">=</span> (</span>
+<span id="cb23-104"><a href="#cb23-104" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.trial_mean_q_time_nurse <span class="op">+</span> (t <span class="op">*</span> <span class="va">self</span>.se_q_time_nurse)</span>
+<span id="cb23-105"><a href="#cb23-105" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb23-106"><a href="#cb23-106" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb23-107"><a href="#cb23-107" aria-hidden="true" tabindex="-1"></a>        <span class="co"># WRITE YOUR NEW CODE BELOW</span></span>
+<span id="cb23-108"><a href="#cb23-108" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.ci_lower_q_time_doctor <span class="op">=</span> (</span>
+<span id="cb23-109"><a href="#cb23-109" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.trial_mean_q_time_doctor <span class="op">-</span> (t <span class="op">*</span> <span class="va">self</span>.se_q_time_doctor)</span>
+<span id="cb23-110"><a href="#cb23-110" aria-hidden="true" tabindex="-1"></a>        )</span>
+<span id="cb23-111"><a href="#cb23-111" aria-hidden="true" tabindex="-1"></a>        <span class="va">self</span>.ci_upper_q_time_doctor <span class="op">=</span> (</span>
+<span id="cb23-112"><a href="#cb23-112" aria-hidden="true" tabindex="-1"></a>            <span class="va">self</span>.trial_mean_q_time_doctor <span class="op">+</span> (t <span class="op">*</span> <span class="va">self</span>.se_q_time_doctor)</span>
+<span id="cb23-113"><a href="#cb23-113" aria-hidden="true" tabindex="-1"></a>        )</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+<div id="cell-40" class="cell">
+<div class="code-copy-outer-scaffold"><div class="sourceCode cell-code" id="cb24"><pre class="sourceCode python code-with-copy"><code class="sourceCode python"><span id="cb24-1"><a href="#cb24-1" aria-hidden="true" tabindex="-1"></a>base_case_params <span class="op">=</span> Param()</span>
+<span id="cb24-2"><a href="#cb24-2" aria-hidden="true" tabindex="-1"></a>base_case_trial <span class="op">=</span> Trial(base_case_params)</span>
+<span id="cb24-3"><a href="#cb24-3" aria-hidden="true" tabindex="-1"></a>base_case_trial.run_trial()</span>
+<span id="cb24-4"><a href="#cb24-4" aria-hidden="true" tabindex="-1"></a>base_case_trial.calculate_trial_results()</span>
+<span id="cb24-5"><a href="#cb24-5" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-6"><a href="#cb24-6" aria-hidden="true" tabindex="-1"></a>what_if_params <span class="op">=</span> Param(num_nurses<span class="op">=</span><span class="dv">2</span>, num_receptionists<span class="op">=</span><span class="dv">2</span>)</span>
+<span id="cb24-7"><a href="#cb24-7" aria-hidden="true" tabindex="-1"></a>what_if_trial <span class="op">=</span> Trial(what_if_params)</span>
+<span id="cb24-8"><a href="#cb24-8" aria-hidden="true" tabindex="-1"></a>what_if_trial.run_trial()</span>
+<span id="cb24-9"><a href="#cb24-9" aria-hidden="true" tabindex="-1"></a>what_if_trial.calculate_trial_results()</span>
+<span id="cb24-10"><a href="#cb24-10" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-11"><a href="#cb24-11" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="st">"BASE CASE TRIAL RESULTS"</span>)</span>
+<span id="cb24-12"><a href="#cb24-12" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="st">"-----------------------"</span>)</span>
+<span id="cb24-13"><a href="#cb24-13" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="st">"Queuing Time for Registration"</span>)</span>
+<span id="cb24-14"><a href="#cb24-14" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"Mean : </span><span class="sc">{</span>base_case_trial<span class="sc">.</span>trial_mean_q_time_registration<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb24-15"><a href="#cb24-15" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"SD : </span><span class="sc">{</span>base_case_trial<span class="sc">.</span>trial_sd_q_time_registration<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb24-16"><a href="#cb24-16" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (</span>
+<span id="cb24-17"><a href="#cb24-17" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"90th Perc : </span><span class="sc">{</span>base_case_trial<span class="sc">.</span>trial_perc_90_q_time_registration<span class="sc">:.2f}</span><span class="ss">"</span>,</span>
+<span id="cb24-18"><a href="#cb24-18" aria-hidden="true" tabindex="-1"></a>    <span class="st">"minutes"</span></span>
+<span id="cb24-19"><a href="#cb24-19" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb24-20"><a href="#cb24-20" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"Standard Error : </span><span class="sc">{</span>base_case_trial<span class="sc">.</span>se_q_time_registration<span class="sc">:.2f}</span><span class="ss">"</span>)</span>
+<span id="cb24-21"><a href="#cb24-21" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (</span>
+<span id="cb24-22"><a href="#cb24-22" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"95% CI : (</span><span class="sc">{</span>base_case_trial<span class="sc">.</span>ci_lower_q_time_registration<span class="sc">:.2f}</span><span class="ss">, "</span>,</span>
+<span id="cb24-23"><a href="#cb24-23" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"</span><span class="sc">{</span>base_case_trial<span class="sc">.</span>ci_upper_q_time_registration<span class="sc">:.2f}</span><span class="ss">) minutes"</span></span>
+<span id="cb24-24"><a href="#cb24-24" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb24-25"><a href="#cb24-25" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> ()</span>
+<span id="cb24-26"><a href="#cb24-26" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="st">"Queuing Time for the Nurse"</span>)</span>
+<span id="cb24-27"><a href="#cb24-27" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"Mean : </span><span class="sc">{</span>base_case_trial<span class="sc">.</span>trial_mean_q_time_nurse<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb24-28"><a href="#cb24-28" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"SD : </span><span class="sc">{</span>base_case_trial<span class="sc">.</span>trial_sd_q_time_nurse<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb24-29"><a href="#cb24-29" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"90th Perc : </span><span class="sc">{</span>base_case_trial<span class="sc">.</span>trial_perc_90_q_time_nurse<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb24-30"><a href="#cb24-30" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"Standard Error : </span><span class="sc">{</span>base_case_trial<span class="sc">.</span>se_q_time_nurse<span class="sc">:.2f}</span><span class="ss">"</span>)</span>
+<span id="cb24-31"><a href="#cb24-31" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (</span>
+<span id="cb24-32"><a href="#cb24-32" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"95% CI : (</span><span class="sc">{</span>base_case_trial<span class="sc">.</span>ci_lower_q_time_nurse<span class="sc">:.2f}</span><span class="ss">, "</span>,</span>
+<span id="cb24-33"><a href="#cb24-33" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"</span><span class="sc">{</span>base_case_trial<span class="sc">.</span>ci_upper_q_time_nurse<span class="sc">:.2f}</span><span class="ss">) minutes"</span></span>
+<span id="cb24-34"><a href="#cb24-34" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb24-35"><a href="#cb24-35" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> ()</span>
+<span id="cb24-36"><a href="#cb24-36" aria-hidden="true" tabindex="-1"></a><span class="co"># WRITE YOUR NEW CODE BELOW</span></span>
+<span id="cb24-37"><a href="#cb24-37" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="st">"Queuing Time for the Doctor"</span>)</span>
+<span id="cb24-38"><a href="#cb24-38" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"Mean : </span><span class="sc">{</span>base_case_trial<span class="sc">.</span>trial_mean_q_time_doctor<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb24-39"><a href="#cb24-39" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"SD : </span><span class="sc">{</span>base_case_trial<span class="sc">.</span>trial_sd_q_time_doctor<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb24-40"><a href="#cb24-40" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"90th Perc : </span><span class="sc">{</span>base_case_trial<span class="sc">.</span>trial_perc_90_q_time_doctor<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb24-41"><a href="#cb24-41" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"Standard Error : </span><span class="sc">{</span>base_case_trial<span class="sc">.</span>se_q_time_doctor<span class="sc">:.2f}</span><span class="ss">"</span>)</span>
+<span id="cb24-42"><a href="#cb24-42" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (</span>
+<span id="cb24-43"><a href="#cb24-43" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"95% CI : (</span><span class="sc">{</span>base_case_trial<span class="sc">.</span>ci_lower_q_time_doctor<span class="sc">:.2f}</span><span class="ss">, "</span>,</span>
+<span id="cb24-44"><a href="#cb24-44" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"</span><span class="sc">{</span>base_case_trial<span class="sc">.</span>ci_upper_q_time_doctor<span class="sc">:.2f}</span><span class="ss">) minutes"</span></span>
+<span id="cb24-45"><a href="#cb24-45" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb24-46"><a href="#cb24-46" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> ()</span>
+<span id="cb24-47"><a href="#cb24-47" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-48"><a href="#cb24-48" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="st">"2 NURSES, 2 RECEPTIONISTS TRIAL RESULTS"</span>)</span>
+<span id="cb24-49"><a href="#cb24-49" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="st">"----------------------"</span>)</span>
+<span id="cb24-50"><a href="#cb24-50" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="st">"Queuing Time for Registration"</span>)</span>
+<span id="cb24-51"><a href="#cb24-51" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"Mean : </span><span class="sc">{</span>what_if_trial<span class="sc">.</span>trial_mean_q_time_registration<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb24-52"><a href="#cb24-52" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"SD : </span><span class="sc">{</span>what_if_trial<span class="sc">.</span>trial_sd_q_time_registration<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb24-53"><a href="#cb24-53" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (</span>
+<span id="cb24-54"><a href="#cb24-54" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"90th Perc : </span><span class="sc">{</span>what_if_trial<span class="sc">.</span>trial_perc_90_q_time_registration<span class="sc">:.2f}</span><span class="ss">"</span>,</span>
+<span id="cb24-55"><a href="#cb24-55" aria-hidden="true" tabindex="-1"></a>    <span class="st">"minutes"</span></span>
+<span id="cb24-56"><a href="#cb24-56" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb24-57"><a href="#cb24-57" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"Standard Error : </span><span class="sc">{</span>what_if_trial<span class="sc">.</span>se_q_time_registration<span class="sc">:.2f}</span><span class="ss">"</span>)</span>
+<span id="cb24-58"><a href="#cb24-58" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (</span>
+<span id="cb24-59"><a href="#cb24-59" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"95% CI : (</span><span class="sc">{</span>what_if_trial<span class="sc">.</span>ci_lower_q_time_registration<span class="sc">:.2f}</span><span class="ss">, "</span>,</span>
+<span id="cb24-60"><a href="#cb24-60" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"</span><span class="sc">{</span>what_if_trial<span class="sc">.</span>ci_upper_q_time_registration<span class="sc">:.2f}</span><span class="ss">) minutes"</span></span>
+<span id="cb24-61"><a href="#cb24-61" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb24-62"><a href="#cb24-62" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> ()</span>
+<span id="cb24-63"><a href="#cb24-63" aria-hidden="true" tabindex="-1"></a></span>
+<span id="cb24-64"><a href="#cb24-64" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="st">"Queuing Time for the Nurse"</span>)</span>
+<span id="cb24-65"><a href="#cb24-65" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"Mean : </span><span class="sc">{</span>what_if_trial<span class="sc">.</span>trial_mean_q_time_nurse<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb24-66"><a href="#cb24-66" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"SD : </span><span class="sc">{</span>what_if_trial<span class="sc">.</span>trial_sd_q_time_nurse<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb24-67"><a href="#cb24-67" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"90th Perc : </span><span class="sc">{</span>what_if_trial<span class="sc">.</span>trial_perc_90_q_time_nurse<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb24-68"><a href="#cb24-68" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"Standard Error : </span><span class="sc">{</span>what_if_trial<span class="sc">.</span>se_q_time_nurse<span class="sc">:.2f}</span><span class="ss">"</span>)</span>
+<span id="cb24-69"><a href="#cb24-69" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (</span>
+<span id="cb24-70"><a href="#cb24-70" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"95% CI : (</span><span class="sc">{</span>what_if_trial<span class="sc">.</span>ci_lower_q_time_nurse<span class="sc">:.2f}</span><span class="ss">, "</span>,</span>
+<span id="cb24-71"><a href="#cb24-71" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"</span><span class="sc">{</span>what_if_trial<span class="sc">.</span>ci_upper_q_time_nurse<span class="sc">:.2f}</span><span class="ss">) minutes"</span></span>
+<span id="cb24-72"><a href="#cb24-72" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb24-73"><a href="#cb24-73" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> ()</span>
+<span id="cb24-74"><a href="#cb24-74" aria-hidden="true" tabindex="-1"></a><span class="co"># WRITE YOUR NEW CODE BELOW</span></span>
+<span id="cb24-75"><a href="#cb24-75" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="st">"Queuing Time for the Doctor"</span>)</span>
+<span id="cb24-76"><a href="#cb24-76" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"Mean : </span><span class="sc">{</span>what_if_trial<span class="sc">.</span>trial_mean_q_time_doctor<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb24-77"><a href="#cb24-77" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"SD : </span><span class="sc">{</span>what_if_trial<span class="sc">.</span>trial_sd_q_time_doctor<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb24-78"><a href="#cb24-78" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"90th Perc : </span><span class="sc">{</span>what_if_trial<span class="sc">.</span>trial_perc_90_q_time_doctor<span class="sc">:.2f}</span><span class="ss"> minutes"</span>)</span>
+<span id="cb24-79"><a href="#cb24-79" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (<span class="ss">f"Standard Error : </span><span class="sc">{</span>what_if_trial<span class="sc">.</span>se_q_time_doctor<span class="sc">:.2f}</span><span class="ss">"</span>)</span>
+<span id="cb24-80"><a href="#cb24-80" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> (</span>
+<span id="cb24-81"><a href="#cb24-81" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"95% CI : (</span><span class="sc">{</span>what_if_trial<span class="sc">.</span>ci_lower_q_time_doctor<span class="sc">:.2f}</span><span class="ss">, "</span>,</span>
+<span id="cb24-82"><a href="#cb24-82" aria-hidden="true" tabindex="-1"></a>    <span class="ss">f"</span><span class="sc">{</span>what_if_trial<span class="sc">.</span>ci_upper_q_time_doctor<span class="sc">:.2f}</span><span class="ss">) minutes"</span></span>
+<span id="cb24-83"><a href="#cb24-83" aria-hidden="true" tabindex="-1"></a>)</span>
+<span id="cb24-84"><a href="#cb24-84" aria-hidden="true" tabindex="-1"></a><span class="bu">print</span> ()</span></code></pre></div><button title="Copy to Clipboard" class="code-copy-button"><i class="bi"></i></button></div>
+</div>
+
+
+</section>
+
+</main> <!-- /main -->
+<script id="quarto-html-after-body" type="application/javascript">
+  window.document.addEventListener("DOMContentLoaded", function (event) {
+    const icon = "";
+    const anchorJS = new window.AnchorJS();
+    anchorJS.options = {
+      placement: 'right',
+      icon: icon
+    };
+    anchorJS.add('.anchored');
+    const isCodeAnnotation = (el) => {
+      for (const clz of el.classList) {
+        if (clz.startsWith('code-annotation-')) {                     
+          return true;
+        }
+      }
+      return false;
+    }
+    const onCopySuccess = function(e) {
+      // button target
+      const button = e.trigger;
+      // don't keep focus
+      button.blur();
+      // flash "checked"
+      button.classList.add('code-copy-button-checked');
+      var currentTitle = button.getAttribute("title");
+      button.setAttribute("title", "Copied!");
+      let tooltip;
+      if (window.bootstrap) {
+        button.setAttribute("data-bs-toggle", "tooltip");
+        button.setAttribute("data-bs-placement", "left");
+        button.setAttribute("data-bs-title", "Copied!");
+        tooltip = new bootstrap.Tooltip(button, 
+          { trigger: "manual", 
+            customClass: "code-copy-button-tooltip",
+            offset: [0, -8]});
+        tooltip.show();    
+      }
+      setTimeout(function() {
+        if (tooltip) {
+          tooltip.hide();
+          button.removeAttribute("data-bs-title");
+          button.removeAttribute("data-bs-toggle");
+          button.removeAttribute("data-bs-placement");
+        }
+        button.setAttribute("title", currentTitle);
+        button.classList.remove('code-copy-button-checked');
+      }, 1000);
+      // clear code selection
+      e.clearSelection();
+    }
+    const getTextToCopy = function(trigger) {
+      const outerScaffold = trigger.parentElement.cloneNode(true);
+      const codeEl = outerScaffold.querySelector('code');
+      for (const childEl of codeEl.children) {
+        if (isCodeAnnotation(childEl)) {
+          childEl.remove();
+        }
+      }
+      return codeEl.innerText;
+    }
+    const clipboard = new window.ClipboardJS('.code-copy-button:not([data-in-quarto-modal])', {
+      text: getTextToCopy
+    });
+    clipboard.on('success', onCopySuccess);
+    if (window.document.getElementById('quarto-embedded-source-code-modal')) {
+      const clipboardModal = new window.ClipboardJS('.code-copy-button[data-in-quarto-modal]', {
+        text: getTextToCopy,
+        container: window.document.getElementById('quarto-embedded-source-code-modal')
+      });
+      clipboardModal.on('success', onCopySuccess);
+    }
+      var localhostRegex = new RegExp(/^(?:http|https):\/\/localhost\:?[0-9]*\//);
+      var mailtoRegex = new RegExp(/^mailto:/);
+        var filterRegex = new RegExp("https:\/\/www\.hsma\.co\.uk");
+      var isInternal = (href) => {
+          return filterRegex.test(href) || localhostRegex.test(href) || mailtoRegex.test(href);
+      }
+      // Inspect non-navigation links and adorn them if external
+     var links = window.document.querySelectorAll('a[href]:not(.nav-link):not(.navbar-brand):not(.toc-action):not(.sidebar-link):not(.sidebar-item-toggle):not(.pagination-link):not(.no-external):not([aria-hidden]):not(.dropdown-item):not(.quarto-navigation-tool):not(.about-link)');
+      for (var i=0; i<links.length; i++) {
+        const link = links[i];
+        if (!isInternal(link.href)) {
+          // undo the damage that might have been done by quarto-nav.js in the case of
+          // links that we want to consider external
+          if (link.dataset.originalHref !== undefined) {
+            link.href = link.dataset.originalHref;
+          }
+        }
+      }
+    function tippyHover(el, contentFn, onTriggerFn, onUntriggerFn) {
+      const config = {
+        allowHTML: true,
+        maxWidth: 500,
+        delay: 100,
+        arrow: false,
+        appendTo: function(el) {
+            return el.parentElement;
+        },
+        interactive: true,
+        interactiveBorder: 10,
+        theme: 'quarto',
+        placement: 'bottom-start',
+      };
+      if (contentFn) {
+        config.content = contentFn;
+      }
+      if (onTriggerFn) {
+        config.onTrigger = onTriggerFn;
+      }
+      if (onUntriggerFn) {
+        config.onUntrigger = onUntriggerFn;
+      }
+      window.tippy(el, config); 
+    }
+    const noterefs = window.document.querySelectorAll('a[role="doc-noteref"]');
+    for (var i=0; i<noterefs.length; i++) {
+      const ref = noterefs[i];
+      tippyHover(ref, function() {
+        // use id or data attribute instead here
+        let href = ref.getAttribute('data-footnote-href') || ref.getAttribute('href');
+        try { href = new URL(href).hash; } catch {}
+        const id = href.replace(/^#\/?/, "");
+        const note = window.document.getElementById(id);
+        if (note) {
+          return note.innerHTML;
+        } else {
+          return "";
+        }
+      });
+    }
+    const xrefs = window.document.querySelectorAll('a.quarto-xref');
+    const processXRef = (id, note) => {
+      // Strip column container classes
+      const stripColumnClz = (el) => {
+        el.classList.remove("page-full", "page-columns");
+        if (el.children) {
+          for (const child of el.children) {
+            stripColumnClz(child);
+          }
+        }
+      }
+      stripColumnClz(note)
+      if (id === null || id.startsWith('sec-')) {
+        // Special case sections, only their first couple elements
+        const container = document.createElement("div");
+        if (note.children && note.children.length > 2) {
+          container.appendChild(note.children[0].cloneNode(true));
+          for (let i = 1; i < note.children.length; i++) {
+            const child = note.children[i];
+            if (child.tagName === "P" && child.innerText === "") {
+              continue;
+            } else {
+              container.appendChild(child.cloneNode(true));
+              break;
+            }
+          }
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(container);
+          }
+          return container.innerHTML
+        } else {
+          if (window.Quarto?.typesetMath) {
+            window.Quarto.typesetMath(note);
+          }
+          return note.innerHTML;
+        }
+      } else {
+        // Remove any anchor links if they are present
+        const anchorLink = note.querySelector('a.anchorjs-link');
+        if (anchorLink) {
+          anchorLink.remove();
+        }
+        if (window.Quarto?.typesetMath) {
+          window.Quarto.typesetMath(note);
+        }
+        if (note.classList.contains("callout")) {
+          return note.outerHTML;
+        } else {
+          return note.innerHTML;
+        }
+      }
+    }
+    for (var i=0; i<xrefs.length; i++) {
+      const xref = xrefs[i];
+      tippyHover(xref, undefined, function(instance) {
+        instance.disable();
+        let url = xref.getAttribute('href');
+        let hash = undefined; 
+        if (url.startsWith('#')) {
+          hash = url;
+        } else {
+          try { hash = new URL(url).hash; } catch {}
+        }
+        if (hash) {
+          const id = hash.replace(/^#\/?/, "");
+          const note = window.document.getElementById(id);
+          if (note !== null) {
+            try {
+              const html = processXRef(id, note.cloneNode(true));
+              instance.setContent(html);
+            } finally {
+              instance.enable();
+              instance.show();
+            }
+          } else {
+            // See if we can fetch this
+            fetch(url.split('#')[0])
+            .then(res => res.text())
+            .then(html => {
+              const parser = new DOMParser();
+              const htmlDoc = parser.parseFromString(html, "text/html");
+              const note = htmlDoc.getElementById(id);
+              if (note !== null) {
+                const html = processXRef(id, note);
+                instance.setContent(html);
+              } 
+            }).finally(() => {
+              instance.enable();
+              instance.show();
+            });
+          }
+        } else {
+          // See if we can fetch a full url (with no hash to target)
+          // This is a special case and we should probably do some content thinning / targeting
+          fetch(url)
+          .then(res => res.text())
+          .then(html => {
+            const parser = new DOMParser();
+            const htmlDoc = parser.parseFromString(html, "text/html");
+            const note = htmlDoc.querySelector('main.content');
+            if (note !== null) {
+              // This should only happen for chapter cross references
+              // (since there is no id in the URL)
+              // remove the first header
+              if (note.children.length > 0 && note.children[0].tagName === "HEADER") {
+                note.children[0].remove();
+              }
+              const html = processXRef(null, note);
+              instance.setContent(html);
+            } 
+          }).finally(() => {
+            instance.enable();
+            instance.show();
+          });
+        }
+      }, function(instance) {
+      });
+    }
+        let selectedAnnoteEl;
+        const selectorForAnnotation = ( cell, annotation) => {
+          let cellAttr = 'data-code-cell="' + cell + '"';
+          let lineAttr = 'data-code-annotation="' +  annotation + '"';
+          const selector = 'span[' + cellAttr + '][' + lineAttr + ']';
+          return selector;
+        }
+        const selectCodeLines = (annoteEl) => {
+          const doc = window.document;
+          const targetCell = annoteEl.getAttribute("data-target-cell");
+          const targetAnnotation = annoteEl.getAttribute("data-target-annotation");
+          const annoteSpan = window.document.querySelector(selectorForAnnotation(targetCell, targetAnnotation));
+          const lines = annoteSpan.getAttribute("data-code-lines").split(",");
+          const lineIds = lines.map((line) => {
+            return targetCell + "-" + line;
+          })
+          let top = null;
+          let height = null;
+          let parent = null;
+          if (lineIds.length > 0) {
+              //compute the position of the single el (top and bottom and make a div)
+              const el = window.document.getElementById(lineIds[0]);
+              top = el.offsetTop;
+              height = el.offsetHeight;
+              parent = el.parentElement.parentElement;
+            if (lineIds.length > 1) {
+              const lastEl = window.document.getElementById(lineIds[lineIds.length - 1]);
+              const bottom = lastEl.offsetTop + lastEl.offsetHeight;
+              height = bottom - top;
+            }
+            if (top !== null && height !== null && parent !== null) {
+              // cook up a div (if necessary) and position it 
+              let div = window.document.getElementById("code-annotation-line-highlight");
+              if (div === null) {
+                div = window.document.createElement("div");
+                div.setAttribute("id", "code-annotation-line-highlight");
+                div.style.position = 'absolute';
+                parent.appendChild(div);
+              }
+              div.style.top = top - 2 + "px";
+              div.style.height = height + 4 + "px";
+              div.style.left = 0;
+              let gutterDiv = window.document.getElementById("code-annotation-line-highlight-gutter");
+              if (gutterDiv === null) {
+                gutterDiv = window.document.createElement("div");
+                gutterDiv.setAttribute("id", "code-annotation-line-highlight-gutter");
+                gutterDiv.style.position = 'absolute';
+                const codeCell = window.document.getElementById(targetCell);
+                const gutter = codeCell.querySelector('.code-annotation-gutter');
+                gutter.appendChild(gutterDiv);
+              }
+              gutterDiv.style.top = top - 2 + "px";
+              gutterDiv.style.height = height + 4 + "px";
+            }
+            selectedAnnoteEl = annoteEl;
+          }
+        };
+        const unselectCodeLines = () => {
+          const elementsIds = ["code-annotation-line-highlight", "code-annotation-line-highlight-gutter"];
+          elementsIds.forEach((elId) => {
+            const div = window.document.getElementById(elId);
+            if (div) {
+              div.remove();
+            }
+          });
+          selectedAnnoteEl = undefined;
+        };
+          // Handle positioning of the toggle
+      window.addEventListener(
+        "resize",
+        throttle(() => {
+          elRect = undefined;
+          if (selectedAnnoteEl) {
+            selectCodeLines(selectedAnnoteEl);
+          }
+        }, 10)
+      );
+      function throttle(fn, ms) {
+      let throttle = false;
+      let timer;
+        return (...args) => {
+          if(!throttle) { // first call gets through
+              fn.apply(this, args);
+              throttle = true;
+          } else { // all the others get throttled
+              if(timer) clearTimeout(timer); // cancel #2
+              timer = setTimeout(() => {
+                fn.apply(this, args);
+                timer = throttle = false;
+              }, ms);
+          }
+        };
+      }
+        // Attach click handler to the DT
+        const annoteDls = window.document.querySelectorAll('dt[data-target-cell]');
+        for (const annoteDlNode of annoteDls) {
+          annoteDlNode.addEventListener('click', (event) => {
+            const clickedEl = event.target;
+            if (clickedEl !== selectedAnnoteEl) {
+              unselectCodeLines();
+              const activeEl = window.document.querySelector('dt[data-target-cell].code-annotation-active');
+              if (activeEl) {
+                activeEl.classList.remove('code-annotation-active');
+              }
+              selectCodeLines(clickedEl);
+              clickedEl.classList.add('code-annotation-active');
+            } else {
+              // Unselect the line
+              unselectCodeLines();
+              clickedEl.classList.remove('code-annotation-active');
+            }
+          });
+        }
+    const findCites = (el) => {
+      const parentEl = el.parentElement;
+      if (parentEl) {
+        const cites = parentEl.dataset.cites;
+        if (cites) {
+          return {
+            el,
+            cites: cites.split(' ')
+          };
+        } else {
+          return findCites(el.parentElement)
+        }
+      } else {
+        return undefined;
+      }
+    };
+    var bibliorefs = window.document.querySelectorAll('a[role="doc-biblioref"]');
+    for (var i=0; i<bibliorefs.length; i++) {
+      const ref = bibliorefs[i];
+      const citeInfo = findCites(ref);
+      if (citeInfo) {
+        tippyHover(citeInfo.el, function() {
+          var popup = window.document.createElement('div');
+          citeInfo.cites.forEach(function(cite) {
+            var citeDiv = window.document.createElement('div');
+            citeDiv.classList.add('hanging-indent');
+            citeDiv.classList.add('csl-entry');
+            var biblioDiv = window.document.getElementById('ref-' + cite);
+            if (biblioDiv) {
+              citeDiv.innerHTML = biblioDiv.innerHTML;
+            }
+            popup.appendChild(citeDiv);
+          });
+          return popup.innerHTML;
+        });
+      }
+    }
+  });
+  </script>
+</div> <!-- /content -->
+<footer class="footer">
+  <div class="nav-footer">
+    <div class="nav-footer-left">
+      &nbsp;
+    </div>   
+    <div class="nav-footer-center">
+<p><a href="https://arc-sw.nihr.ac.uk/"><img src="../../resources/nihr_logo.png" class="img-fluid" width="250"></a><br><br> <em>This work is independent research supported by the National Institute for Health and Care Research Applied Research Collaboration South West. The views expressed in this publication are those of the author(s) and not necessarily those of the National Institute for Health and Care Research or the Department of Health and Social Care.</em> <br><br> <a href="../../policies_procedures/accessibility_statement.html">Accessibility Statement</a> <br> <a href="../../policies_procedures/code_of_conduct.html">Code of Conduct</a> <br> <a href="../../policies_procedures/concerns_and_complaints.html">Concerns and Complaints</a></p>
+<div class="cookie-consent-footer"><a href="#" id="open_preferences_center">Cookie Preferences</a></div></div>
+    <div class="nav-footer-right">
+      &nbsp;
+    </div>
+  </div>
+</footer>
+
+
+
+
+</body></html>
