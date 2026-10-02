@@ -21,9 +21,7 @@ Click [here](https://docs.google.com/spreadsheets/d/1XLAVy8KAFmkYKRLZU2RxCOrApnF
 
 [Click here to download the itinerary (PDF)](nhs_oa_workshop_des/NHS_OA_DES_Workshop_Itinerary%20-%20Sheet1.pdf){download=""}
 
-## Slides
-
-### Part 1
+## Part 1 - An introduction to DES concepts and SimPy
 
 ```{=html}
 <iframe width='1280' height='600' src='https://docs.google.com/presentation/d/1uN0PsRhS8JVBUdSLZfYA4MXKmgg0X6UHP57CxQYuCas/embed?start=false&loop=false&delayms=3000' title='Quarto Documentation'></iframe>
@@ -34,7 +32,23 @@ Click [here](https://docs.google.com/presentation/d/1uN0PsRhS8JVBUdSLZfYA4MXKmgg
 [Click here to download the slides for the intro to DES and SimPy as a PDF](nhs_oa_workshop_des/NHS_OA_Intro_to_DES_and_SimPy.pdf){download=""}
 
 
-#### Chalk's Chips Exercise
+{{< video https://www.youtube.com/watch?v=vUtObBS0XVk&list=PLYdeZL7U9wI0&index=2 >}}
+
+
+### Exercise 1: Exploring the DES Playground
+
+```{=html}
+<iframe width='1280' height='700' src='https://playground.hsma.co.uk' title='DES Playground'></iframe>
+```
+
+Click [here](https://playground.hsma.co.uk) to open in a new window.
+
+
+### Exercise 2: Chalk's Chips
+
+
+::: {.callout-tip collapse="true"}
+### Click to view the instructions for this exercise
 
 ![](assets/2026-09-30-11-54-57.png)
 
@@ -42,25 +56,25 @@ Chalk’s Chips is the number 1 fish and chip establishment in Cornwall, thanks 
 
 Chalk’s Chips offers both a sit-in restaurant service and a takeaway service.
 
-##### Restaurant
+#### Restaurant
 
 - The restaurant doesn’t take bookings, and instead operates a walk-in service, with a waiting area where prospective diners can wait for a table, although when it’s particularly busy, customers may either leave if they’re waiting too long, or not enter if they see the waiting area is too busy.
 - Once a table is free, customers choose their food and drink from chalkboard menus on the table (nice touch), and shortly after a server will take their order.
 - The server passes the order over to the kitchen, and when the cooks are free, the meals are cooked up, and left on the serving counter for a server to take to the table.
 - Once diners have finished eating, a server presents them with a bill which they pay for at the table, before leaving.
 
-##### Takeaway
+#### Takeaway
 
 - The takeaway service operates in a separate part of the building with its own entrance and counter, overlooking the Chalk’s Chips kitchen.
 - Customers order at the counter with a member of counter staff, and then wait for the food to be cooked in the kitchen.
 - Once the order’s ready it’s placed into the hot counter, and when a member of counter staff is ready, they call out the customer’s name, ask them if they want salt and vinegar to be applied, and bag up the order before handing it to the customer, who then leaves.
 - When the takeaway service is particularly busy, some customers may choose not to wait before they’ve ordered their food, or choose not to come in in the first place if they see it’s too busy in there.
 
-##### Telephone
+#### Telephone
 
 Chalk’s Chips also has a telephone situated in the lobby, which is located between the takeaway and restaurant areas.  Phone calls are answered by either restaurant servers or counter staff, depending on whoever’s free at the time, though if there’s no answer for a while, it’s not unusual for the caller to hang up.
 
-##### Activity
+#### Activity
 
 > You need to draw up a diagram (if you’re stuck for what to use, you might try https://www.drawio.com/)  for what a DES model of Chalk’s Chips could look like.  In particular, you should clearly indicate :
 > - The generators and sinks, what they represent, and which entities the generators are bringing into being
@@ -69,6 +83,7 @@ Chalk’s Chips also has a telephone situated in the lobby, which is located bet
 > If you manage to do all that in the time, consider if there are any attributes that the entities might have that might be useful to model.
 >
 > When we come back we’ll ask a few groups to present their designs.  There are no right or wrong answers here - we do have a “Potential Solution” but model design is an art form, and there may be different ways you come up with to model the system (IMPORTANT - you would also normally design a model based on the “what if?” questions it needs to answer, which you don’t know here)
+:::
 
 
 ::: {.callout-tip collapse="true"}
@@ -78,14 +93,19 @@ Chalk’s Chips also has a telephone situated in the lobby, which is located bet
 :::
 
 
-##### Activity 2
+#### Exercise 3: Exploring and Editing a SimPy Model
 
 Notebook: [Click here to open the notebook in google colab](https://colab.research.google.com/drive/1oXfZvHvxcUFfJIzw51UdIxoijSHOBP0o?usp=sharing)
 
 [Click here to download the notebook if you are unable to access Google colab - note you will need an IDE like VSCode or Positron Installed to open it](nhs_oa_workshop_des/nhs_oa_des_workbook.ipynb){download=""}
 
+Solution Notebook: [Click here to open the **solution** notebook in google colab](https://colab.research.google.com/drive/1lzfzRdtRIbQ51oyEJckz8RqyDauOPlCm?usp=sharing)
 
-### Part 2
+[Click here to download the **solution** notebook if you are unable to access Google colab - note you will need an IDE like VSCode or Positron Installed to open it](nhs_oa_workshop_des/nhs_oa_des_workbook_solution.ipynb){download=""}
+
+
+
+## Part 2 - Visualisation with vidigi & resources to continue your DES journey
 
 ```{=html}
 <iframe width='1280' height='600' src='https://hsma-programme.github.io/nhs_oa_vidigi_slides/ ' title='Quarto Documentation'></iframe>
@@ -95,18 +115,10 @@ Click [here](https://hsma-programme.github.io/nhs_oa_vidigi_slides/) to open in 
 
 - [Download the intro to animation in DES slides (Animaniacs) as a PDF](nhs_oa_workshop_des/NHS%20OA%20Intro%20to%20DES%20and%20SimPy%20slides%20-%20Animaniacs.pdf){download=""}
 
-## Exercises
-
-### DES Playground
-
-```{=html}
-<iframe width='1280' height='700' src='https://playground.hsma.co.uk' title='DES Playground'></iframe>
-```
-
-Click [here](https://playground.hsma.co.uk) to open in a new window.
+{{< video https://www.youtube.com/watch?v=twN-B6LW1tU&list=PLYdeZL7U9wI0&index=1 >}}
 
 
-### Vidigi Playground
+## Exercises - the vidigi Playground
 
 ```{=html}
 <iframe width='1280' height='700' src='https://hsma-programme.github.io/nhs_oa_vidigi_streamlit/' title='Vidigi Playground'></iframe>
