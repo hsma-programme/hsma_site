@@ -80,11 +80,6 @@ filters:
     }
 }
 
-/* Keeps the lowercase λ from being uppercased to Λ in otherwise-uppercase headings */
-#quarto-document-content h2 .keep-case {
-    text-transform: none;
-}
-
 /* ---- Main image carousel: split card layout ---- */
 .splide-carousel {
     position: relative;
@@ -294,7 +289,7 @@ filters:
     box-shadow: 0 0 8px rgba(224, 33, 138, 0.6);
 }
 
-/* CRT-style screen over the carousel image: a rolling refresh band, vignette and edge glow
+/* CRT-style screen over the carousel image: faint pulsing scanlines, vignette and edge glow
    (pointer-events off so clicks still open the lightbox) */
 .splide-carousel .splide__slide::after {
     content: "";
@@ -305,20 +300,12 @@ filters:
     bottom: calc(var(--card-inset-bottom) + 1px);
     border-radius: 13px 0 0 13px;
     pointer-events: none;
-    /* Layers: rolling refresh band, vignette */
+    /* Layers: scanlines, vignette */
     background:
-        linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0.07) 45%, rgba(255, 140, 200, 0.09) 50%, rgba(255, 255, 255, 0.07) 55%, transparent 100%),
+        repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.12) 0 1px, transparent 1px 3px),
         radial-gradient(ellipse at center, transparent 60%, rgba(0, 0, 0, 0.35) 100%);
-    background-size: 100% 22%, 100% 100%;
-    background-repeat: no-repeat, no-repeat;
-    background-position: 0 -30%, 0 0;
     box-shadow: inset 0 0 28px rgba(0, 0, 0, 0.55), inset 0 0 2px rgba(255, 120, 180, 0.25);
-    animation: crt-refresh 7s linear infinite, crt-pulse 3.5s ease-in-out infinite;
-}
-
-@keyframes crt-refresh {
-    from { background-position: 0 -30%, 0 0; }
-    to   { background-position: 0 130%, 0 0; }
+    animation: crt-pulse 3.5s ease-in-out infinite;
 }
 
 @keyframes crt-pulse {
@@ -329,7 +316,6 @@ filters:
 @media (prefers-reduced-motion: reduce) {
     .splide-carousel .splide__slide::after {
         animation: none;
-        background-position: 0 -100%, 0 0;
     }
 }
 
@@ -471,27 +457,6 @@ filters:
     margin-right: 0.5rem;
 }
 
-.lambda-card {
-    margin: 1.5rem auto 0 auto;
-    max-width: 780px;
-    padding: 2rem 2.5rem;
-    border: 1px solid #3498db;
-    border-radius: 12px;
-    background: linear-gradient(135deg, rgba(52, 152, 219, 0.18) 0%, rgba(52, 152, 219, 0.04) 100%);
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
-}
-
-.lambda-card .lambda-symbol {
-    font-size: 3.5rem;
-    line-height: 1;
-    color: #5dade2;
-    margin-bottom: 0.75rem;
-}
-
-.lambda-card .cta-row {
-    margin-bottom: 0;
-}
-
 .value-grid-box-4 {
     display: grid;
     grid-template-columns: repeat(4, minmax(0, 1fr));
@@ -545,10 +510,6 @@ filters:
 @media (max-width: 600px) {
     .support-row {
         grid-template-columns: 1fr;
-    }
-
-    .lambda-card {
-        padding: 1.5rem 1.25rem;
     }
 }
 
@@ -606,9 +567,33 @@ filters:
 
 .updates-grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: minmax(0, 35fr) minmax(0, 65fr);
     gap: 1.25rem;
     padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.update-workshops {
+    list-style: none;
+    width: 100%;
+    margin: 0 0 0.9rem 0;
+    padding: 0;
+}
+
+.update-workshops li {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    margin-bottom: 0.4rem;
+    padding: 0.45rem 0.75rem;
+    border-left: 3px solid var(--neon-blue);
+    border-radius: 6px;
+    background-color: rgba(47, 140, 255, 0.08);
+    font-weight: 500;
+}
+
+.update-workshops li i {
+    color: #8cc8f0;
+    font-size: 1.1rem;
 }
 
 .update-item {
@@ -650,6 +635,11 @@ filters:
 }
 
 .update-item p {
+    margin-bottom: 0.75rem;
+}
+
+/* The last paragraph grows so the links line up along the bottom of both cards */
+.update-item p:last-of-type {
     flex-grow: 1;
     margin-bottom: 1rem;
 }
@@ -1047,7 +1037,13 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="update-item update-lambda">
       <span class="update-badge"><i class="bi bi-calendar-event"></i>Winter 2026/27 – spring 2027</span>
       <h3>HSMA-λ (lambda)</h3>
-      <p>We are also putting together a new series of standalone workshops aimed at senior leaders and decision makers.</p>
+      <p>We are also putting together a new series of three standalone 3-hour workshops for senior leaders and <strong>decision makers</strong> in the health service:</p>
+      <ul class="update-workshops">
+        <li><i class="bi bi-diagram-3" aria-hidden="true"></i>Simulation Modelling for Pathway Problems</li>
+        <li><i class="bi bi-geo-alt" aria-hidden="true"></i>Location Optimisation for Equity and Efficiency</li>
+        <li><i class="bi bi-cpu" aria-hidden="true"></i>Machine Learning for Operational Improvements</li>
+      </ul>
+      <p>Workshops focus on understanding the advanced techniques taught on HSMA, empowering participants to <strong>ask the right questions</strong> and <strong>interpret project outputs</strong>. No prior experience in mathematics, data science, operational research or programming is needed.</p>
       <a class="update-link" href="lambda.html">Find out more about HSMA-λ <i class="bi bi-arrow-right"></i></a>
     </div>
   </div>
@@ -1133,27 +1129,6 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 ```
-
-## HSMA-[λ]{.keep-case} (Lambda)
-
-::: {.lambda-card}
-
-```{=html}
-<div class="lambda-symbol">λ</div>
-```
-
-HSMA-λ is a new series of standalone 3-hour workshops for **decision makers** in the health service, launching in **winter 2026/27 – spring 2027**.
-
-It focuses on understanding the advanced techniques taught on HSMA, empowering participants to **ask the right questions** and **interpret project outputs**. No prior experience in mathematics, data science, operational research or programming is needed.
-
-```{=html}
-<div class="cta-row">
-  <a class="custom-button" href="lambda.html"><i class="bi bi-arrow-right-circle"></i>Find out more</a>
-  <a class="custom-button" href="https://forms.cloud.microsoft/e/spFr8qr2pP"><i class="bi bi-pencil-square"></i>Register interest</a>
-</div>
-```
-
-:::
 
 ## Our Materials
 
