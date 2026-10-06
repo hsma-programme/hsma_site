@@ -1163,24 +1163,24 @@ document.addEventListener('DOMContentLoaded', function () {
     })();
   }
 
-  // "Boot-up" reveal: draws the slide's image onto a canvas laid over it at decreasing
-  // pixel block sizes, then removes the canvas so the real (sharp) image shows.
+  // "Boot-up" reveal. Splide only marks a slide active once it has finished sliding in, so
+  // revealing on activation alone would flash the sharp image first. Instead, every slide
+  // that isn't active waits under a fully pixelated canvas (so it slides in chunky), and
+  // the active slide steps down through finer block sizes before the canvas is removed.
   var PIXEL_STEPS = [24, 12, 6, 3];
   var PIXEL_STEP_MS = 140;
   var revealTimers = new WeakMap();
+  var small = document.createElement('canvas');
+  var smallCtx = small.getContext('2d');
 
-  function pixelReveal(slide) {
+  function imageReady(img) {
+    return img && img.complete && img.naturalWidth > 0;
+  }
+
+  // Draws the slide's image onto its overlay canvas at the given block size,
+  // creating or resizing the canvas to sit exactly over the image
+  function drawPixelated(slide, block) {
     var img = slide.querySelector('img');
-    if (reduceMotion || !img) return;
-    if (!img.complete || !img.naturalWidth) {
-      img.addEventListener('load', function () { pixelReveal(slide); }, { once: true });
-      return;
-    }
-
-    var old = slide.querySelector('.pixel-reveal');
-    if (old) old.remove();
-    clearTimeout(revealTimers.get(slide));
-
     var boxW = img.offsetWidth;
     var boxH = img.offsetHeight;
     if (!boxW || !boxH) return;
@@ -1197,46 +1197,102 @@ document.addEventListener('DOMContentLoaded', function () {
     var drawX = padX + (innerW - drawW) / 2;
     var drawY = padY + (innerH - drawH) / 2;
 
+    var canvas = slide.querySelector('.pixel-reveal');
+    if (!canvas) {
+      canvas = document.createElement('canvas');
+      canvas.className = 'pixel-reveal';
+      canvas.setAttribute('aria-hidden', 'true');
+      slide.appendChild(canvas);
+    }
+
     var dpr = window.devicePixelRatio || 1;
-    var canvas = document.createElement('canvas');
-    canvas.className = 'pixel-reveal';
-    canvas.setAttribute('aria-hidden', 'true');
-    canvas.width = Math.round(boxW * dpr);
-    canvas.height = Math.round(boxH * dpr);
+    var pxW = Math.round(boxW * dpr);
+    var pxH = Math.round(boxH * dpr);
+    if (canvas.width !== pxW || canvas.height !== pxH) {
+      canvas.width = pxW;
+      canvas.height = pxH;
+    }
     canvas.style.left = img.offsetLeft + 'px';
     canvas.style.top = img.offsetTop + 'px';
     canvas.style.width = boxW + 'px';
     canvas.style.height = boxH + 'px';
     canvas.style.borderRadius = style.borderRadius;
     canvas.style.filter = style.filter; // keep the colour grade consistent while pixelated
-    slide.appendChild(canvas);
+
+    small.width = Math.max(1, Math.ceil(drawW / block));
+    small.height = Math.max(1, Math.ceil(drawH / block));
+    smallCtx.imageSmoothingEnabled = true;
+    smallCtx.drawImage(img, 0, 0, small.width, small.height);
 
     var ctx = canvas.getContext('2d');
-    var small = document.createElement('canvas');
-    var smallCtx = small.getContext('2d');
-    ctx.scale(dpr, dpr);
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.fillStyle = style.backgroundColor;
+    ctx.fillRect(0, 0, boxW, boxH);
+    ctx.imageSmoothingEnabled = false;
+    ctx.drawImage(small, drawX, drawY, drawW, drawH);
+  }
 
-    function drawStep(i) {
-      if (i >= PIXEL_STEPS.length) {
-        canvas.remove();
-        return;
-      }
-      var block = PIXEL_STEPS[i];
-      small.width = Math.max(1, Math.ceil(drawW / block));
-      small.height = Math.max(1, Math.ceil(drawH / block));
-      smallCtx.imageSmoothingEnabled = true;
-      smallCtx.drawImage(img, 0, 0, small.width, small.height);
+  function clearPixelated(slide) {
+    clearTimeout(revealTimers.get(slide));
+    var canvas = slide.querySelector('.pixel-reveal');
+    if (canvas) canvas.remove();
+  }
 
-      ctx.fillStyle = style.backgroundColor;
-      ctx.fillRect(0, 0, boxW, boxH);
-      ctx.imageSmoothingEnabled = false;
-      ctx.drawImage(small, drawX, drawY, drawW, drawH);
+  // Leaves the slide's image fully pixelated, ready to slide into view
+  function cover(slide) {
+    var img = slide.querySelector('img');
+    if (reduceMotion || !img) return;
+    clearTimeout(revealTimers.get(slide));
+    if (!imageReady(img)) {
+      img.addEventListener('load', function () {
+        if (slide.classList.contains('is-active') && !slide.classList.contains('splide__slide--clone')) {
+          reveal(slide);
+        } else {
+          cover(slide);
+        }
+      }, { once: true });
+      return;
+    }
+    drawPixelated(slide, PIXEL_STEPS[0]);
+  }
 
-      revealTimers.set(slide, setTimeout(function () { drawStep(i + 1); }, PIXEL_STEP_MS));
+  // Steps the active slide's image from chunky to sharp, then removes the canvas
+  function reveal(slide) {
+    var img = slide.querySelector('img');
+    if (reduceMotion || !img) return;
+    clearTimeout(revealTimers.get(slide));
+    if (!imageReady(img)) {
+      img.addEventListener('load', function () {
+        if (slide.classList.contains('is-active')) reveal(slide);
+      }, { once: true });
+      return;
     }
 
-    drawStep(0);
+    (function step(i) {
+      if (i >= PIXEL_STEPS.length) {
+        clearPixelated(slide);
+        return;
+      }
+      drawPixelated(slide, PIXEL_STEPS[i]);
+      revealTimers.set(slide, setTimeout(function () { step(i + 1); }, PIXEL_STEP_MS));
+    })(0);
   }
+
+  // Image sizes change with the layout, so redraw the waiting canvases after a resize
+  var resizeTimer;
+  window.addEventListener('resize', function () {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function () {
+      carousel.querySelectorAll('.splide__slide').forEach(function (slide) {
+        var isClone = slide.classList.contains('splide__slide--clone');
+        if (slide.classList.contains('is-active') && !isClone) {
+          clearPixelated(slide);
+        } else {
+          cover(slide);
+        }
+      });
+    }, 150);
+  });
 
   // Slide numbers come from the real (non-clone) slide order; clones reuse the matching number
   realSlides.forEach(function (slide, idx) {
@@ -1259,21 +1315,27 @@ document.addEventListener('DOMContentLoaded', function () {
     buildTerminal(caption, Number(number));
 
     // Clones are only glimpsed mid-transition at the loop seam, so they show the full text
+    // and stay pixelated, matching the real slide they hand over to
     if (slide.classList.contains('splide__slide--clone')) {
       showFull(caption);
+      cover(slide);
       return;
     }
 
     if (slide.classList.contains('is-active')) {
       typeOut(caption);
-      pixelReveal(slide);
+      reveal(slide);
+    } else {
+      cover(slide);
     }
 
     new MutationObserver(function () {
       var nowActive = slide.classList.contains('is-active');
       if (nowActive && !slide.dataset.termWasActive) {
         typeOut(caption);
-        pixelReveal(slide);
+        reveal(slide);
+      } else if (!nowActive && slide.dataset.termWasActive) {
+        cover(slide);
       }
       slide.dataset.termWasActive = nowActive ? '1' : '';
     }).observe(slide, { attributes: true, attributeFilter: ['class'] });
