@@ -19,11 +19,47 @@ filters:
 	text-align: center;
 }
 
-h2 {
+#quarto-document-content h2 {
     text-transform: uppercase;
-    font-weight: 400;
+    font-size: 2rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
     text-align: center;
-    margin-top: 4rem;
+    margin-top: 4.5rem;
+    margin-bottom: 1.75rem;
+    /* Balances the trailing letter-spacing after the last letter so the text centres over the bar */
+    padding-left: 0.12em;
+    padding-bottom: 0;
+    border-bottom: none;
+    position: relative;
+}
+
+/* Take Quarto's hover anchor link out of the flow so it doesn't push the heading text off-centre */
+#quarto-document-content h2 .anchorjs-link {
+    position: absolute;
+    padding-left: 0.4em;
+}
+
+#quarto-document-content #what-is-hsma > h2 {
+    margin-top: 1.5rem;
+}
+
+/* Short red accent bar under each section heading */
+#quarto-document-content h2::after {
+    content: "";
+    display: block;
+    width: 110px;
+    height: 4px;
+    margin: 0.85rem auto 0 auto;
+    border-radius: 2px;
+    background-color: #c4161c;
+}
+
+@media (max-width: 600px) {
+    #quarto-document-content h2 {
+        font-size: 1.5rem;
+        letter-spacing: 0.08em;
+    }
 }
 
 /* Keeps the lowercase λ from being uppercased to Λ */
