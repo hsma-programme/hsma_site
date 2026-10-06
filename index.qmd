@@ -123,6 +123,14 @@ filters:
     background-color: #161616;
     border-radius: 13px 0 0 13px;
     cursor: zoom-in;
+    /* CRT "phosphor" grade: soft highlight bloom (SVG filter defined beside the carousel), plus a little punch */
+    filter: url(#crt-bloom) contrast(1.06) saturate(1.15);
+}
+
+/* Canvas used for the pixelated "boot-up" reveal; sits over the image, under the screen overlay */
+.splide-carousel .pixel-reveal {
+    position: absolute;
+    pointer-events: none;
 }
 
 /* Captions styled as a terminal window (the markup is built by the script after the carousel) */
@@ -300,10 +308,11 @@ filters:
     bottom: calc(var(--card-inset-bottom) + 1px);
     border-radius: 13px 0 0 13px;
     pointer-events: none;
-    /* Layers: scanlines, vignette */
+    /* Layers: scanlines, vignette, faint magenta-to-blue phosphor tint */
     background:
         repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.12) 0 1px, transparent 1px 3px),
-        radial-gradient(ellipse at center, transparent 60%, rgba(0, 0, 0, 0.35) 100%);
+        radial-gradient(ellipse at center, transparent 60%, rgba(0, 0, 0, 0.35) 100%),
+        linear-gradient(135deg, rgba(224, 33, 138, 0.07), rgba(47, 140, 255, 0.07));
     box-shadow: inset 0 0 28px rgba(0, 0, 0, 0.55), inset 0 0 2px rgba(255, 120, 180, 0.25);
     animation: crt-pulse 3.5s ease-in-out infinite;
 }
@@ -896,69 +905,35 @@ filters:
 
 .quotes-splide .splide__slide {
     display: flex;
-    padding: 12px 0 6px 0; /* room for the neon glow and hover lift inside the clipped track */
+    padding: 8px 0 10px 0; /* room for the hover lift and shadow inside the clipped track */
 }
 
-/* Dark cards with a glowing neon top edge, matching the updates panel. The accent is set
-   per card by a class (not nth-child) so Splide's loop clones keep the same colour. */
+/* Same treatment as the featured quote above: red left edge and a soft red-to-dark gradient */
 .quote-card {
-    --accent: var(--neon-red);
-    --accent-glow: rgba(255, 45, 63, 0.55);
-    --accent-soft: #ff8a90;
-    position: relative;
     display: flex;
     flex-direction: column;
     justify-content: center;
     width: 100%;
     height: 100%;
-    padding: 1.9rem 1.5rem 1.5rem 1.5rem;
+    padding: 1.75rem 1.5rem 1.5rem 1.5rem;
+    border-left: 5px solid #9c000d;
     border-radius: 10px;
-    overflow: hidden;
-    background-color: #1c1c1c;
-    border: 1px solid #2e2e2e;
+    background: linear-gradient(135deg, rgba(156, 0, 13, 0.35) 0%, rgba(116, 0, 0, 0.12) 60%, rgba(255, 255, 255, 0.03) 100%);
     color: white;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.25);
-    transition: transform 0.2s ease, box-shadow 0.2s ease;
-}
-
-.quote-card::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background-color: var(--accent);
-    box-shadow: 0 0 12px var(--accent-glow);
-}
-
-.quote-card--magenta {
-    --accent: var(--neon-magenta);
-    --accent-glow: rgba(224, 33, 138, 0.55);
-    --accent-soft: #f08cc4;
-}
-
-.quote-card--blue {
-    --accent: var(--neon-blue);
-    --accent-glow: rgba(47, 140, 255, 0.55);
-    --accent-soft: #8cc8f0;
-}
-
-.quote-card--green {
-    --accent: var(--neon-green);
-    --accent-glow: rgba(25, 211, 154, 0.5);
-    --accent-soft: #8de8c9;
+    text-align: left;
+    /* Smaller than the featured quote's shadow so the carousel track doesn't clip it */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
 }
 
 .quote-card:hover {
     transform: translateY(-4px);
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35), 0 0 0 1px var(--accent-glow);
 }
 
 .quote-card .quote-icon {
     font-size: 1.6rem;
-    color: var(--accent-soft);
-    opacity: 0.8;
+    color: #e04a55;
+    opacity: 0.6;
     margin-bottom: 0.75rem;
 }
 
@@ -1050,6 +1025,23 @@ The Health Service Modelling Associates (HSMA) Programme is an **online** progra
 
 Recordings of previous course sessions, as well as all of our course materials and code, are offered **free of charge** to anyone, anywhere in the world for personal use and adaptation.
 
+```{=html}
+<!-- Soft highlight bloom for the carousel images' CRT colour grade: blurs the image, keeps only
+     the brighter parts of the blur, and screens them back over the original -->
+<svg width="0" height="0" style="position: absolute;" aria-hidden="true" focusable="false">
+  <filter id="crt-bloom" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"/>
+    <feComponentTransfer in="blur" result="highlights">
+      <feFuncR type="linear" slope="1.6" intercept="-0.6"/>
+      <feFuncG type="linear" slope="1.6" intercept="-0.6"/>
+      <feFuncB type="linear" slope="1.6" intercept="-0.6"/>
+      <feFuncA type="linear" slope="0.5"/>
+    </feComponentTransfer>
+    <feBlend in="SourceGraphic" in2="highlights" mode="screen"/>
+  </filter>
+</svg>
+```
+
 ::: {.splide-carousel preview="false" default-width="150px" toggle-text-color="#ffffff" progress="true"}
 
 ![The HSMA programme is a 15 month online training and mentorship course delivered by Dr Daniel Chalk and Sammi Rosser, making training on advanced data science and operational research techniques available to people working in the NHS and other public healthcare organisations.](resources/photos/DSC_0114.JPG)
@@ -1086,7 +1078,8 @@ Recordings of previous course sessions, as well as all of our course materials a
 ```{=html}
 <script>
 // Turns the main carousel's captions into terminal windows that "type" their text
-// each time a slide becomes active. Runs after the splide-carousel filter's own
+// each time a slide becomes active, and gives the image a pixelated "boot-up" reveal.
+// Runs after the splide-carousel filter's own
 // DOMContentLoaded handler (registered earlier in the page), so loop clones exist.
 document.addEventListener('DOMContentLoaded', function () {
   var carousel = document.querySelector('#quarto-document-content .splide-carousel');
@@ -1170,6 +1163,81 @@ document.addEventListener('DOMContentLoaded', function () {
     })();
   }
 
+  // "Boot-up" reveal: draws the slide's image onto a canvas laid over it at decreasing
+  // pixel block sizes, then removes the canvas so the real (sharp) image shows.
+  var PIXEL_STEPS = [24, 12, 6, 3];
+  var PIXEL_STEP_MS = 140;
+  var revealTimers = new WeakMap();
+
+  function pixelReveal(slide) {
+    var img = slide.querySelector('img');
+    if (reduceMotion || !img) return;
+    if (!img.complete || !img.naturalWidth) {
+      img.addEventListener('load', function () { pixelReveal(slide); }, { once: true });
+      return;
+    }
+
+    var old = slide.querySelector('.pixel-reveal');
+    if (old) old.remove();
+    clearTimeout(revealTimers.get(slide));
+
+    var boxW = img.offsetWidth;
+    var boxH = img.offsetHeight;
+    if (!boxW || !boxH) return;
+
+    // Match the image's object-fit: contain placement inside its padding
+    var style = getComputedStyle(img);
+    var padX = parseFloat(style.paddingLeft) || 0;
+    var padY = parseFloat(style.paddingTop) || 0;
+    var innerW = boxW - padX - (parseFloat(style.paddingRight) || 0);
+    var innerH = boxH - padY - (parseFloat(style.paddingBottom) || 0);
+    var scale = Math.min(innerW / img.naturalWidth, innerH / img.naturalHeight);
+    var drawW = img.naturalWidth * scale;
+    var drawH = img.naturalHeight * scale;
+    var drawX = padX + (innerW - drawW) / 2;
+    var drawY = padY + (innerH - drawH) / 2;
+
+    var dpr = window.devicePixelRatio || 1;
+    var canvas = document.createElement('canvas');
+    canvas.className = 'pixel-reveal';
+    canvas.setAttribute('aria-hidden', 'true');
+    canvas.width = Math.round(boxW * dpr);
+    canvas.height = Math.round(boxH * dpr);
+    canvas.style.left = img.offsetLeft + 'px';
+    canvas.style.top = img.offsetTop + 'px';
+    canvas.style.width = boxW + 'px';
+    canvas.style.height = boxH + 'px';
+    canvas.style.borderRadius = style.borderRadius;
+    canvas.style.filter = style.filter; // keep the colour grade consistent while pixelated
+    slide.appendChild(canvas);
+
+    var ctx = canvas.getContext('2d');
+    var small = document.createElement('canvas');
+    var smallCtx = small.getContext('2d');
+    ctx.scale(dpr, dpr);
+
+    function drawStep(i) {
+      if (i >= PIXEL_STEPS.length) {
+        canvas.remove();
+        return;
+      }
+      var block = PIXEL_STEPS[i];
+      small.width = Math.max(1, Math.ceil(drawW / block));
+      small.height = Math.max(1, Math.ceil(drawH / block));
+      smallCtx.imageSmoothingEnabled = true;
+      smallCtx.drawImage(img, 0, 0, small.width, small.height);
+
+      ctx.fillStyle = style.backgroundColor;
+      ctx.fillRect(0, 0, boxW, boxH);
+      ctx.imageSmoothingEnabled = false;
+      ctx.drawImage(small, drawX, drawY, drawW, drawH);
+
+      revealTimers.set(slide, setTimeout(function () { drawStep(i + 1); }, PIXEL_STEP_MS));
+    }
+
+    drawStep(0);
+  }
+
   // Slide numbers come from the real (non-clone) slide order; clones reuse the matching number
   realSlides.forEach(function (slide, idx) {
     slide.dataset.termNumber = idx + 1;
@@ -1198,12 +1266,14 @@ document.addEventListener('DOMContentLoaded', function () {
 
     if (slide.classList.contains('is-active')) {
       typeOut(caption);
+      pixelReveal(slide);
     }
 
     new MutationObserver(function () {
       var nowActive = slide.classList.contains('is-active');
       if (nowActive && !slide.dataset.termWasActive) {
         typeOut(caption);
+        pixelReveal(slide);
       }
       slide.dataset.termWasActive = nowActive ? '1' : '';
     }).observe(slide, { attributes: true, attributeFilter: ['class'] });
@@ -1273,32 +1343,32 @@ document.addEventListener('DOMContentLoaded', function () {
         </div>
       </li>
       <li class="splide__slide">
-        <div class="quote-card quote-card--magenta">
+        <div class="quote-card">
           <i class="fa-solid fa-quote-left quote-icon" aria-hidden="true"></i>
           <p>I can honestly say it is the best training I've ever participated in. For the first time in a long time I feel really enthused about my work.</p>
         </div>
       </li>
       <li class="splide__slide">
-        <div class="quote-card quote-card--blue">
+        <div class="quote-card">
           <i class="fa-solid fa-quote-left quote-icon" aria-hidden="true"></i>
           <p>The HSMA community is just wonderful - really friendly, open and collaborative. The teaching was well paced and I was made to feel like there were no silly questions. As a complete code novice, I really appreciated it!</p>
         </div>
       </li>
       <li class="splide__slide">
-        <div class="quote-card quote-card--green">
+        <div class="quote-card">
           <i class="fa-solid fa-quote-left quote-icon" aria-hidden="true"></i>
           <p>The wealth of information and resources made available to me from this course will continue to be used for years.</p>
         </div>
       </li>
       <li class="splide__slide">
-        <div class="quote-card quote-card--long quote-card--magenta">
+        <div class="quote-card quote-card--long">
           <i class="fa-solid fa-quote-left quote-icon" aria-hidden="true"></i>
           <p>Since completing the HSMA programme, I’ve found myself coding a lot more in my day-to-day role, which has really improved both the efficiency and depth of my work.</p>
           <p>It’s also shifted how I approach problem-solving. I now think more analytically and am more confident in exploring data-driven solutions.</p>
         </div>
       </li>
       <li class="splide__slide">
-        <div class="quote-card quote-card--blue">
+        <div class="quote-card">
           <i class="fa-solid fa-quote-left quote-icon" aria-hidden="true"></i>
           <p>This is by far the most enjoyable course I've undertaken in this career to date.</p>
         </div>
