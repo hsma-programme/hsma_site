@@ -62,8 +62,8 @@ filters:
     }
 }
 
-/* Keeps the lowercase λ from being uppercased to Λ */
-h2.no-caps, .no-caps h2 {
+/* Keeps the lowercase λ from being uppercased to Λ in otherwise-uppercase headings */
+#quarto-document-content h2 .keep-case {
     text-transform: none;
 }
 
@@ -789,7 +789,7 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
 ```
 
-## HSMA-λ (Lambda) {.no-caps}
+## HSMA-[λ]{.keep-case} (Lambda)
 
 ::: {.lambda-card}
 
