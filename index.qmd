@@ -67,11 +67,199 @@ h2.no-caps, .no-caps h2 {
     text-transform: none;
 }
 
-.splide__slide img {
-  max-height: 450px;
-  max-width: 80%;
-  width: auto;
-  height: auto;
+/* ---- Main image carousel: split card layout ---- */
+.splide-carousel {
+    position: relative;
+    margin: 2.5rem 0 1rem 0;
+    padding-bottom: 3.5rem; /* room for the control bar */
+}
+
+/* The track clips anything outside each slide, so the card (background, border, shadow) is
+   drawn by a ::before inset within the slide, leaving a margin for the shadow to fade out in */
+.splide-carousel .splide__slide {
+    --card-inset-x: 24px;
+    --card-inset-bottom: 34px;
+    position: relative;
+    isolation: isolate;
+    display: grid;
+    grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+    align-items: stretch;
+    padding: 9px calc(var(--card-inset-x) + 1px) calc(var(--card-inset-bottom) + 1px) calc(var(--card-inset-x) + 1px);
+}
+
+.splide-carousel .splide__slide::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: var(--card-inset-x);
+    right: var(--card-inset-x);
+    bottom: var(--card-inset-bottom);
+    z-index: -1;
+    border-radius: 14px;
+    background-color: #2b2b2b;
+    border: 1px solid #3d3d3d;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.55);
+}
+
+.splide-carousel .splide__slide img {
+    width: 100%;
+    height: 380px;
+    max-height: none;
+    padding: 1rem;
+    object-fit: contain;
+    background-color: #161616;
+    border-radius: 13px 0 0 13px;
+    cursor: zoom-in;
+}
+
+.splide-carousel .splide_caption {
+    display: flex;
+    align-items: center;
+    padding: 1.75rem 2rem;
+    text-align: left;
+    font-size: 1rem;
+    font-weight: 300;
+    line-height: 1.6;
+    border-left: 4px solid #9c000d;
+    border-radius: 0 13px 13px 0;
+}
+
+/* Control bar: arrows bottom-left, dots centre, play/pause bottom-right */
+.splide-carousel .splide__arrow {
+    top: auto;
+    bottom: 0;
+    transform: none;
+    width: 2.4rem;
+    height: 2.4rem;
+    background: #9c000d;
+    opacity: 0.9;
+}
+
+.splide-carousel .splide__arrow:hover:not(:disabled) {
+    opacity: 1;
+    background: #c4161c;
+}
+
+.splide-carousel .splide__arrow svg {
+    fill: white;
+    width: 1em;
+    height: 1em;
+}
+
+.splide-carousel .splide__arrow--prev {
+    left: 0;
+}
+
+.splide-carousel .splide__arrow--next {
+    left: 2.9rem;
+    right: auto;
+}
+
+.splide-carousel .splide__pagination {
+    bottom: 0.9rem;
+}
+
+.splide-carousel .splide__pagination__page {
+    width: 18px;
+    height: 5px;
+    margin: 0 3px;
+    border-radius: 3px;
+    background: #666;
+    opacity: 1;
+    transform: none;
+    transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.splide-carousel .splide__pagination__page.is-active {
+    width: 36px;
+    background: #c4161c;
+    transform: none;
+}
+
+.splide-carousel .splide__progress {
+    margin-top: 0;
+    height: 3px;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+}
+
+.splide-carousel .splide__progress__bar {
+    height: 3px;
+    background: #c4161c;
+}
+
+.splide-carousel .splide__optional-button-container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+.splide-carousel .splide__toggle {
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    border: 1px solid #666;
+    background-color: transparent;
+    transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.splide-carousel .splide__toggle:hover {
+    border-color: #c4161c;
+    background-color: rgba(196, 22, 28, 0.15);
+}
+
+.splide-carousel .splide__toggle a {
+    padding: 0;
+}
+
+/* Hide the toggle's text visually but keep it for screen readers */
+.splide-carousel .splide__toggle span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
+
+/* 14 slides' worth of pills: shrink them before they collide with the arrows */
+@media (max-width: 900px) {
+    .splide-carousel .splide__pagination__page {
+        width: 10px;
+        margin: 0 2px;
+    }
+
+    .splide-carousel .splide__pagination__page.is-active {
+        width: 22px;
+    }
+}
+
+@media (max-width: 700px) {
+    .splide-carousel .splide__slide {
+        --card-inset-x: 12px;
+        --card-inset-bottom: 26px;
+        grid-template-columns: 1fr;
+    }
+
+    .splide-carousel .splide__slide img {
+        height: 240px;
+        border-radius: 13px 13px 0 0;
+    }
+
+    .splide-carousel .splide_caption {
+        padding: 1.25rem 1.25rem;
+        font-size: 0.95rem;
+        border-left: none;
+        border-top: 4px solid #9c000d;
+        border-radius: 0 0 13px 13px;
+    }
+
+    .splide-carousel .splide__pagination {
+        display: none;
+    }
 }
 
 .stat-grid {
@@ -363,7 +551,7 @@ The Health Service Modelling Associates (HSMA) Programme is an **online** progra
 
 Recordings of previous course sessions, as well as all of our course materials and code, are offered **free of charge** to anyone, anywhere in the world for personal use and adaptation.
 
-::: {.splide-carousel preview="false" default-width="150px" toggle-text-color="#ffffff"}
+::: {.splide-carousel preview="false" default-width="150px" toggle-text-color="#ffffff" progress="true"}
 
 ![The HSMA programme is a 15 month online training and mentorship course delivered by Dr Daniel Chalk and Sammi Rosser, making training on advanced data science and operational research techniques available to people working in the NHS and other public healthcare organisations.](resources/photos/DSC_0114.JPG)
 

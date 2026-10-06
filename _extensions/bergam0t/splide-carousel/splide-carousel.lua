@@ -28,6 +28,9 @@
   --                            omit to just use the CSS default
   -- toggle-text-color="#fff"   text/icon colour of the play/pause toggle button --
   --                            same override behaviour as toggle-bg-color above
+  -- progress="true"            adds Splide's autoplay progress bar under the
+  --                            slides (default "false"); style it via
+  --                            .splide__progress / .splide__progress__bar
 --
 -- OPTIONAL PER-IMAGE ATTRIBUTE
 --   ![caption](src){width="150px"}   overrides the slide width for just that image
@@ -167,6 +170,11 @@ local function build_carousel(div)
   local toggle_text_color = raw_attr(div, "toggle-text-color")
   local style_override = build_style_override(toggle_bg_color, toggle_text_color)
 
+  local progress_html = ""
+  if get_attr(div, "progress", "false") == "true" then
+    progress_html = '\n  <div class="splide__progress"><div class="splide__progress__bar"></div></div>'
+  end
+
   local slides = {}
   for _, img in ipairs(images) do
     table.insert(slides, build_slide(img, default_width))
@@ -184,7 +192,7 @@ local function build_carousel(div)
     <ul class="splide__list">
 %s
     </ul>
-  </div>
+  </div>%s
 </section>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
@@ -210,7 +218,7 @@ document.addEventListener('DOMContentLoaded', function () {
   });
 });
 </script>
-]], id, style_override, table.concat(slides, "\n"), id, padding, autoplay_js, interval, focus_js, id)
+]], id, style_override, table.concat(slides, "\n"), progress_html, id, padding, autoplay_js, interval, focus_js, id)
 
   include_head_resources()
 
