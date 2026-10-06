@@ -567,7 +567,7 @@ filters:
 
 .updates-grid {
     display: grid;
-    grid-template-columns: minmax(0, 35fr) minmax(0, 65fr);
+    grid-template-columns: minmax(0, 40fr) minmax(0, 60fr);
     gap: 1.25rem;
     padding: 1.5rem 1.5rem 0 1.5rem;
 }
@@ -594,6 +594,45 @@ filters:
 .update-workshops li i {
     color: #8cc8f0;
     font-size: 1.1rem;
+}
+
+/* Inline neon highlight in the λ card's blue-to-green accent (plain light blue where gradient text isn't supported) */
+.neon-text {
+    color: #8cc8f0;
+    font-weight: 600;
+}
+
+@supports ((-webkit-background-clip: text) or (background-clip: text)) {
+    .neon-text {
+        background: linear-gradient(90deg, #6fb2ff, #5fe6bd);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+        filter: drop-shadow(0 0 6px rgba(47, 140, 255, 0.55));
+    }
+}
+
+/* HSMA 7 sneak-peek list: red variant of the workshop rows, growing so the link sits at the bottom */
+.update-teasers {
+    flex-grow: 1;
+}
+
+.update-teasers li {
+    border-left-color: var(--neon-red);
+    background-color: rgba(255, 45, 63, 0.08);
+    font-size: 0.92rem;
+    line-height: 1.35;
+}
+
+.update-teasers li i {
+    color: #ff8a90;
+}
+
+/* Extra specificity: this must beat the general .update-item p:last-of-type rule further down */
+.update-item.update-hsma7 p:last-of-type {
+    flex-grow: 0;
 }
 
 .update-item {
@@ -679,11 +718,50 @@ filters:
 }
 
 .updates-footer {
-    padding: 1.5rem 1.5rem 1.75rem 1.5rem;
+    position: relative;
+    margin-top: 1.5rem;
+    padding: 1.6rem 1.5rem 1.75rem 1.5rem;
+}
+
+/* Neon divider separating the call to action from the update cards */
+.updates-footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 15%;
+    right: 15%;
+    height: 2px;
+    background: var(--neon-gradient);
+    box-shadow: 0 0 10px rgba(224, 33, 138, 0.5);
+    opacity: 0.8;
 }
 
 .updates-footer p {
+    display: inline-block; /* so the gradient spans the text, not the full panel width */
     margin-bottom: 0;
+    font-family: var(--display-font);
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: 0.05em;
+    color: white;
+}
+
+/* Neon gradient lettering where supported; plain white otherwise */
+@supports ((-webkit-background-clip: text) or (background-clip: text)) {
+    .updates-footer p {
+        background: linear-gradient(90deg, #ff6b78, #f06ab8 40%, #6fb2ff 75%, #5fe6bd);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        filter: drop-shadow(0 0 8px rgba(224, 33, 138, 0.35));
+    }
+}
+
+@media (max-width: 600px) {
+    .updates-footer p {
+        font-size: 1.6rem;
+    }
 }
 
 .updates-footer .cta-row {
@@ -1070,13 +1148,19 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="update-item update-hsma7">
       <span class="update-badge"><i class="bi bi-calendar-event"></i>Spring/summer 2027</span>
       <h3>HSMA 7</h3>
-      <p>We are currently working on updating and improving HSMA ahead of the 7<sup>th</sup> round of the programme. There's some really exciting stuff planned for this round, so stay tuned!</p>
+      <p>We're busy giving HSMA its biggest rewrite since the programme began ten years ago. A sneak peek at what's new:</p>
+      <ul class="update-workshops update-teasers">
+        <li><i class="bi bi-hourglass-split" aria-hidden="true"></i>Simulation content expanded from 9 to 30+ hours</li>
+        <li><i class="bi bi-stars" aria-hidden="true"></i>Brand new content on simulation visualisation and advanced location optimisation</li>
+        <li><i class="bi bi-currency-pound" aria-hidden="true"></i>Cost analysis to evidence your project's impact</li>
+        <li><i class="bi bi-signpost-split" aria-hidden="true"></i>New phases for project planning and implementation</li>
+      </ul>
       <a class="update-link" href="hsma7.html">What we'll teach, what's changed since HSMA 6, and FAQs <i class="bi bi-arrow-right"></i></a>
     </div>
     <div class="update-item update-lambda">
       <span class="update-badge"><i class="bi bi-calendar-event"></i>Winter 2026/27 – spring 2027</span>
       <h3>HSMA-λ (lambda)</h3>
-      <p>We are also putting together a new series of three standalone 3-hour workshops for senior leaders and <strong>decision makers</strong> in the health service:</p>
+      <p>We are also putting together a new series of three standalone 3-hour workshops for senior leaders and <strong class="neon-text">decision makers</strong> in the health service:</p>
       <ul class="update-workshops">
         <li><i class="bi bi-diagram-3" aria-hidden="true"></i>Simulation Modelling for Pathway Problems</li>
         <li><i class="bi bi-geo-alt" aria-hidden="true"></i>Location Optimisation for Equity and Efficiency</li>
