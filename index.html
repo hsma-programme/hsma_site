@@ -2,7 +2,7 @@
 <html xmlns="http://www.w3.org/1999/xhtml" lang="en" xml:lang="en"><head>
 
 <meta charset="utf-8">
-<meta name="generator" content="quarto-1.10.18">
+<meta name="generator" content="quarto-1.10.19">
 
 <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=yes">
 
@@ -45,7 +45,7 @@ ul.task-list li input[type="checkbox"] {
 <script src="site_libs/quarto-html/tippy.umd.min.js"></script>
 <script src="site_libs/quarto-html/anchor.min.js"></script>
 <link href="site_libs/quarto-html/tippy.css" rel="stylesheet">
-<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b85bc7c33db8c58e0ec93c3465666fed.css" rel="stylesheet" id="quarto-text-highlighting-styles">
+<link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-b626d73c4c936ccc3cb08be7d45d1df6.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
 <link href="site_libs/bootstrap/bootstrap-3781717b26c9b5967746f9270efe237e.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
@@ -308,15 +308,15 @@ background-size: cover;
 </div>
       </div> <!-- /container-fluid -->
     </nav>
-  <div id="quarto-announcement" data-announcement-id="825e986ded40fdd8e8c204e59a18fc80" class="alert alert-info hidden"><i class="bi bi-megaphone quarto-announcement-icon"></i><div class="quarto-announcement-content">
-<p><strong>We hope to launch our brand new HSMA-λ (HSMA lambda) courses, aimed at leaders and decision makers, in <em>Winter/Spring 2026</em>, and HSMA 7 in <em>Spring/Summer 2027</em>.<br>Want to hear when we open up applications for either of these? Send us an email at <a href="mailto:penchord@exeter.ac.uk?subject=Contact%20from%20HSMA%20Website%20&amp;body=If%20you%20would%20like%20to%20be%20added%20to%20the%20HSMA%20mailing%20list%2C%20please%20complete%20the%20fields%20below.%0A%0AFull%20Name%3A%0A%0AOrganisation%3A%0A%0AIf%20you%20have%20a%20different%20query%2C%20please%20replace%20the%20content%20of%20this%20message%20with%20your%20own.%20%0A%0AThis%20is%20an%20automatically%20generated%20email%20from%20a%20link%20on%20the%20HSMA%20website">penchord@exeter.ac.uk</a> (stating your full name and organisation) to be added to our mailing list.</strong></p>
+  <div id="quarto-announcement" data-announcement-id="10398eb035c15829d45965930fab40c1" class="alert alert-info hidden"><i class="bi bi-megaphone quarto-announcement-icon"></i><div class="quarto-announcement-content">
+<p><strong>We hope to launch our brand new HSMA-λ (HSMA lambda) courses, aimed at leaders and decision makers, in <em>winter 2026/27 – spring 2027</em>, and HSMA 7 in <em>spring/summer 2027</em>.<br>Want to hear when we open up applications for either of these? Send us an email at <a href="mailto:penchord@exeter.ac.uk?subject=Contact%20from%20HSMA%20Website%20&amp;body=If%20you%20would%20like%20to%20be%20added%20to%20the%20HSMA%20mailing%20list%2C%20please%20complete%20the%20fields%20below.%0A%0AFull%20Name%3A%0A%0AOrganisation%3A%0A%0AIf%20you%20have%20a%20different%20query%2C%20please%20replace%20the%20content%20of%20this%20message%20with%20your%20own.%20%0A%0AThis%20is%20an%20automatically%20generated%20email%20from%20a%20link%20on%20the%20HSMA%20website">penchord@exeter.ac.uk</a> (stating your full name and organisation) to be added to our mailing list.</strong></p>
 </div><i class="bi bi-x-lg quarto-announcement-action"></i></div>
 </header>
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page">
-      <h1 class="title"><img src="resources/Chalky HSMA-07-wide.png" class="img-fluid" data-max-height="300px" alt="Welcome"></h1>
+      <h1 class="title"><img src="resources/Chalky HSMA-07-wide white logo - new tagline.png" class="img-fluid" data-max-height="300px" alt="Welcome"></h1>
                       </div>
   </div>
     
@@ -341,59 +341,1025 @@ background-size: cover;
 
 
 <style>
-body {
+/* Bebas Neue echoes the condensed lettering of the HSMA logo tagline; VT323 is a retro terminal font */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400&family=VT323&display=swap');
+
+/* Neon colours sampled from the site banner */
+:root {
+    --hsma-red: #c4161c;
+    --neon-red: #ff2d3f;
+    --neon-magenta: #e0218a;
+    --neon-blue: #2f8cff;
+    --neon-green: #19d39a;
+    --neon-gradient: linear-gradient(90deg, var(--neon-red), var(--neon-magenta) 35%, var(--neon-blue) 70%, var(--neon-green));
+    --display-font: 'Bebas Neue', 'Lexend', sans-serif;
+    --terminal-font: 'VT323', ui-monospace, monospace;
+}
+
+/* Centre the page content and title only, not the site-wide announcement banner */
+#title-block-header,
+#quarto-document-content {
     text-align: center;
 }
 
-h2 {
+#quarto-document-content h2 {
+    font-family: var(--display-font);
     text-transform: uppercase;
+    font-size: 2.9rem;
     font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.12em;
     text-align: center;
+    margin-top: 4.5rem;
+    margin-bottom: 1.75rem;
+    /* Balances the trailing letter-spacing after the last letter so the text centres over the bar */
+    padding-left: 0.12em;
+    padding-bottom: 0;
+    border-bottom: none;
+    position: relative;
 }
 
-.splide__slide img {
-  max-height: 450px;
-  max-width: 80%;
-  width: auto;
-  height: auto;
+/* Take Quarto's hover anchor link out of the flow so it doesn't push the heading text off-centre */
+#quarto-document-content h2 .anchorjs-link {
+    position: absolute;
+    padding-left: 0.4em;
 }
 
-h2-uncap {
-    font-weight: 400;
-    text-align: center;
-    border-bottom: 1px solid rgb(67.15, 67.15, 67.15);
-    padding-bottom: .5rem;
-    margin-bottom: 1rem;
-    color: inherit;
-    font-size: calc(1.29rem + 0.48vw);
-    line-height: 1.2;
+#quarto-document-content #what-is-hsma > h2 {
+    margin-top: 1.5rem;
+}
+
+/* Short neon accent bar under each section heading */
+#quarto-document-content h2::after {
+    content: "";
     display: block;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
+    width: 110px;
+    height: 4px;
+    margin: 0.85rem auto 0 auto;
+    border-radius: 2px;
+    background: var(--neon-gradient);
+    box-shadow: 0 0 10px rgba(224, 33, 138, 0.55), 0 0 2px rgba(255, 255, 255, 0.4);
 }
 
-.hsma_caption {
-    padding: 30px 40px;
-    font-weight:200;
+@media (max-width: 600px) {
+    #quarto-document-content h2 {
+        font-size: 2.2rem;
+        letter-spacing: 0.08em;
+    }
 }
 
-.callout-title-container {
-    font-size: 24px
+/* ---- Main image carousel: split card layout ---- */
+.splide-carousel {
+    position: relative;
+    margin: 2.5rem 0 1rem 0;
+    padding-bottom: 3.5rem; /* room for the control bar */
 }
 
-.callout-body p {
-    font-size: 16px
+/* The track clips anything outside each slide, so the card (background, border, shadow) is
+   drawn by a ::before inset within the slide, leaving a margin for the shadow to fade out in */
+.splide-carousel .splide__slide {
+    --card-inset-x: 24px;
+    --card-inset-bottom: 34px;
+    position: relative;
+    isolation: isolate;
+    display: grid;
+    grid-template-columns: minmax(0, 3fr) minmax(0, 2fr);
+    align-items: stretch;
+    padding: 9px calc(var(--card-inset-x) + 1px) calc(var(--card-inset-bottom) + 1px) calc(var(--card-inset-x) + 1px);
+}
+
+.splide-carousel .splide__slide::before {
+    content: "";
+    position: absolute;
+    top: 8px;
+    left: var(--card-inset-x);
+    right: var(--card-inset-x);
+    bottom: var(--card-inset-bottom);
+    z-index: -1;
+    border-radius: 14px;
+    background-color: #2b2b2b;
+    border: 1px solid #3d3d3d;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.55);
+}
+
+.splide-carousel .splide__slide img {
+    width: 100%;
+    height: 380px;
+    max-height: none;
+    padding: 1rem;
+    object-fit: contain;
+    background-color: #161616;
+    border-radius: 13px 0 0 13px;
+    cursor: zoom-in;
+    /* CRT "phosphor" grade: soft highlight bloom (SVG filter defined beside the carousel), plus a little punch */
+    filter: url(#crt-bloom) contrast(1.06) saturate(1.15);
+}
+
+/* Canvas used for the pixelated "boot-up" reveal; sits over the image, under the screen overlay */
+.splide-carousel .pixel-reveal {
+    position: absolute;
+    pointer-events: none;
+}
+
+/* Captions styled as a terminal window (the markup is built by the script after the carousel) */
+.splide-carousel .splide_caption {
+    display: flex;
+    flex-direction: column;
+    text-align: left;
+    background-color: #0e0e10;
+    border-left: 4px solid #9c000d;
+    border-radius: 0 13px 13px 0;
+    overflow: hidden;
+}
+
+.term-bar {
+    display: flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.5rem 0.9rem;
+    background-color: #1f1f23;
+    border-bottom: 1px solid #2e2e33;
+    font-family: var(--terminal-font);
+    font-size: 1.05rem;
+    color: #8a8a93;
+}
+
+.term-dot {
+    width: 0.7rem;
+    height: 0.7rem;
+    border-radius: 50%;
+    background-color: var(--neon-red);
+}
+
+.term-dot:nth-child(2) { background-color: var(--neon-magenta); }
+.term-dot:nth-child(3) { background-color: var(--neon-blue); }
+
+.term-title {
+    margin-left: 0.5rem;
+}
+
+.term-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.1rem 1.4rem 1.4rem 1.4rem;
+    font-family: 'IBM Plex Mono', ui-monospace, monospace;
+    font-size: 0.86rem;
+    line-height: 1.6;
+    color: #e4e4e8;
+}
+
+.term-prompt {
+    margin-bottom: 0.6rem;
+    color: #ff8a90;
+}
+
+.term-prompt .term-path {
+    color: #8cc8f0;
+}
+
+/* The invisible full-text copy reserves the final height so the card never jumps while typing */
+.term-text {
+    display: grid;
+}
+
+.term-ghost,
+.term-live {
+    grid-area: 1 / 1;
+}
+
+.term-ghost {
+    visibility: hidden;
+}
+
+.term-caret {
+    display: inline-block;
+    width: 0.6em;
+    height: 1.1em;
+    margin-left: 1px;
+    vertical-align: -0.2em;
+    background-color: var(--neon-red);
+    box-shadow: 0 0 6px rgba(255, 45, 63, 0.7);
+    animation: cursor-blink 1.1s steps(1) infinite;
+}
+
+.term-visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .term-caret {
+        animation: none;
+    }
+}
+
+/* Control bar: arrows bottom-left, dots centre, play/pause bottom-right */
+.splide-carousel .splide__arrow {
+    top: auto;
+    bottom: 0;
+    transform: none;
+    width: 2.4rem;
+    height: 2.4rem;
+    background: #9c000d;
+    opacity: 0.9;
+}
+
+.splide-carousel .splide__arrow:hover:not(:disabled) {
+    opacity: 1;
+    background: #c4161c;
+}
+
+.splide-carousel .splide__arrow svg {
+    fill: white;
+    width: 1em;
+    height: 1em;
+}
+
+.splide-carousel .splide__arrow--prev {
+    left: 0;
+}
+
+.splide-carousel .splide__arrow--next {
+    left: 2.9rem;
+    right: auto;
+}
+
+.splide-carousel .splide__pagination {
+    bottom: 0.9rem;
+}
+
+.splide-carousel .splide__pagination__page {
+    width: 18px;
+    height: 5px;
+    margin: 0 3px;
+    border-radius: 3px;
+    background: #666;
+    opacity: 1;
+    transform: none;
+    transition: width 0.3s ease, background-color 0.3s ease;
+}
+
+.splide-carousel .splide__pagination__page.is-active {
+    width: 36px;
+    background: #c4161c;
+    transform: none;
+}
+
+.splide-carousel .splide__progress {
+    margin-top: 0;
+    height: 3px;
+    border-radius: 2px;
+    background: rgba(255, 255, 255, 0.1);
+    overflow: hidden;
+}
+
+.splide-carousel .splide__progress__bar {
+    height: 3px;
+    background: var(--neon-gradient);
+    box-shadow: 0 0 8px rgba(224, 33, 138, 0.6);
+}
+
+/* CRT-style screen over the carousel image: faint pulsing scanlines, vignette and edge glow
+   (pointer-events off so clicks still open the lightbox) */
+.splide-carousel .splide__slide::after {
+    content: "";
+    position: absolute;
+    top: 9px;
+    left: calc(var(--card-inset-x) + 1px);
+    width: calc((100% - 2 * (var(--card-inset-x) + 1px)) * 0.6);
+    bottom: calc(var(--card-inset-bottom) + 1px);
+    border-radius: 13px 0 0 13px;
+    pointer-events: none;
+    /* Layers: scanlines, vignette, faint magenta-to-blue phosphor tint */
+    background:
+        repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.12) 0 1px, transparent 1px 3px),
+        radial-gradient(ellipse at center, transparent 60%, rgba(0, 0, 0, 0.35) 100%),
+        linear-gradient(135deg, rgba(224, 33, 138, 0.07), rgba(47, 140, 255, 0.07));
+    box-shadow: inset 0 0 28px rgba(0, 0, 0, 0.55), inset 0 0 2px rgba(255, 120, 180, 0.25);
+    animation: crt-pulse 3.5s ease-in-out infinite;
+}
+
+@keyframes crt-pulse {
+    0%, 100% { opacity: 0.7; }
+    50%      { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .splide-carousel .splide__slide::after {
+        animation: none;
+    }
+}
+
+.splide-carousel .splide__optional-button-container {
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    margin: 0;
+    z-index: 1;
+}
+
+.splide-carousel .splide__toggle {
+    width: 2.4rem;
+    height: 2.4rem;
+    border-radius: 50%;
+    border: 1px solid #666;
+    background-color: transparent;
+    transition: border-color 0.2s ease, background-color 0.2s ease;
+}
+
+.splide-carousel .splide__toggle:hover {
+    border-color: #c4161c;
+    background-color: rgba(196, 22, 28, 0.15);
+}
+
+.splide-carousel .splide__toggle a {
+    padding: 0;
+}
+
+/* Hide the toggle's text visually but keep it for screen readers */
+.splide-carousel .splide__toggle span {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+}
+
+/* 14 slides' worth of pills: shrink them before they collide with the arrows */
+@media (max-width: 900px) {
+    .splide-carousel .splide__pagination__page {
+        width: 10px;
+        margin: 0 2px;
+    }
+
+    .splide-carousel .splide__pagination__page.is-active {
+        width: 22px;
+    }
+}
+
+@media (max-width: 700px) {
+    .splide-carousel .splide__slide {
+        --card-inset-x: 12px;
+        --card-inset-bottom: 26px;
+        grid-template-columns: 1fr;
+    }
+
+    .splide-carousel .splide__slide img {
+        height: 240px;
+        border-radius: 13px 13px 0 0;
+    }
+
+    /* Image stacks on top here, so the screen overlay covers the full width for the image's height */
+    .splide-carousel .splide__slide::after {
+        width: calc(100% - 2 * (var(--card-inset-x) + 1px));
+        bottom: auto;
+        height: 240px;
+        border-radius: 13px 13px 0 0;
+    }
+
+    .splide-carousel .splide_caption {
+        border-left: none;
+        border-top: 4px solid #9c000d;
+        border-radius: 0 0 13px 13px;
+    }
+
+    .term-body {
+        padding: 1rem 1.1rem 1.2rem 1.1rem;
+        font-size: 0.82rem;
+    }
+
+    .splide-carousel .splide__pagination {
+        display: none;
+    }
+}
+
+.stat-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
+}
+
+.stat-tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.25rem 0.75rem;
+    border-radius: 10px;
+    background-color: #9c000d;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+/* Outlined numbers echoing the HSMA logo lettering */
+.stat-tile .stat-value {
+    font-family: var(--display-font);
+    font-size: 3.4rem;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.06em;
+}
+
+@supports (-webkit-text-stroke: 1px white) {
+    .stat-tile .stat-value {
+        color: transparent;
+        -webkit-text-stroke: 1.5px white;
+        text-shadow: 0 0 12px rgba(255, 255, 255, 0.25);
+    }
+}
+
+.stat-tile .stat-label {
+    margin-top: 0.4rem;
+    font-size: 0.9rem;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+.cta-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    margin: 1.5rem 0 0.5rem 0;
+}
+
+.cta-row .custom-button i {
+    margin-right: 0.5rem;
+}
+
+.value-grid-box-4 {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.value-grid-box-4 .value-box {
+    min-height: 120px;
+    padding: 1rem;
+}
+
+.value-grid-box-4 .value-box .icon {
+    font-size: 1.6rem;
+}
+
+/* Dark link tiles with a neon top edge, matching the updates panel and quote cards.
+   Hierarchy comes from size and glow rather than different shades of red. */
+.neon-tile {
+    --accent: var(--neon-red);
+    --accent-glow: rgba(255, 45, 63, 0.55);
+    --accent-soft: #ff8a90;
+    position: relative;
+    overflow: hidden;
+    background-color: #1c1c1c;
+    border: 1px solid #2e2e2e;
+    color: white;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.neon-tile::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--accent);
+    box-shadow: 0 0 12px var(--accent-glow);
+}
+
+.neon-tile .icon {
+    color: var(--accent-soft);
+}
+
+.neon-tile:hover {
+    border-color: var(--accent-glow);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35), 0 0 14px var(--accent-glow);
+}
+
+.neon-tile--magenta {
+    --accent: var(--neon-magenta);
+    --accent-glow: rgba(224, 33, 138, 0.55);
+    --accent-soft: #f08cc4;
+}
+
+.neon-tile--blue {
+    --accent: var(--neon-blue);
+    --accent-glow: rgba(47, 140, 255, 0.55);
+    --accent-soft: #8cc8f0;
+}
+
+.neon-tile--green {
+    --accent: var(--neon-green);
+    --accent-glow: rgba(25, 211, 154, 0.5);
+    --accent-soft: #8de8c9;
+}
+
+/* Headline tile: full neon gradient edge and a standing glow */
+.neon-tile--feature {
+    --accent: var(--neon-gradient);
+    --accent-glow: rgba(224, 33, 138, 0.5);
+    --accent-soft: #f08cc4;
+    border-color: rgba(224, 33, 138, 0.35);
+    box-shadow: 0 0 18px rgba(224, 33, 138, 0.18);
+}
+
+/* Secondary "browse by" tiles: no top edge, just a neon icon, lighting up on hover */
+.neon-tile--quiet {
+    background-color: #181818;
+}
+
+.neon-tile--quiet::before {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.neon-tile--quiet:hover::before {
+    opacity: 1;
+}
+
+.neon-tile--quiet .details {
+    opacity: 0.85;
+}
+
+@media (max-width: 900px) {
+    .stat-grid,
+    .value-grid-box-4 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+.support-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2.5rem;
+    align-items: start;
+    margin-top: 2rem;
+}
+
+.support-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.support-item img.support-logo-img {
+    height: 110px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+@media (max-width: 600px) {
+    .support-row {
+        grid-template-columns: 1fr;
+    }
+}
+
+.updates-panel {
+    margin: 2.5rem 0 1rem 0;
+    border-radius: 14px;
+    background-color: #262626;
+    border: 1px solid #3d3d3d;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.45);
+    overflow: hidden;
+}
+
+/* Terminal-style header: dark red-to-magenta band, neon underline, prompt and blinking cursor */
+.updates-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    padding: 0.7rem 1.5rem;
+    background: linear-gradient(90deg, #7a000b, #9c000d 45%, #6d0f4f);
+    border-bottom: 2px solid transparent;
+    border-image: var(--neon-gradient) 1;
+    color: white;
+    font-family: var(--terminal-font);
+    font-size: 1.7rem;
+    line-height: 1.2;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    text-shadow: 0 0 8px rgba(255, 120, 140, 0.55);
+}
+
+.updates-header .prompt {
+    color: #ff8a90;
+}
+
+.updates-header .cursor {
+    display: inline-block;
+    width: 0.55em;
+    height: 1em;
+    margin-left: 0.1em;
+    background-color: currentColor;
+    vertical-align: -0.12em;
+    animation: cursor-blink 1.1s steps(1) infinite;
+}
+
+@keyframes cursor-blink {
+    50% { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .updates-header .cursor {
+        animation: none;
+    }
+}
+
+.updates-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 40fr) minmax(0, 60fr);
+    gap: 1.25rem;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.update-workshops {
+    list-style: none;
+    width: 100%;
+    margin: 0 0 0.9rem 0;
+    padding: 0;
+}
+
+.update-workshops li {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    margin-bottom: 0.4rem;
+    padding: 0.45rem 0.75rem;
+    border-left: 3px solid var(--neon-blue);
+    border-radius: 6px;
+    background-color: rgba(47, 140, 255, 0.08);
+    font-weight: 500;
+}
+
+.update-workshops li i {
+    color: #8cc8f0;
+    font-size: 1.1rem;
+}
+
+/* Inline neon highlight in the λ card's blue-to-green accent (plain light blue where gradient text isn't supported) */
+.neon-text {
+    color: #8cc8f0;
+    font-weight: 600;
+}
+
+@supports ((-webkit-background-clip: text) or (background-clip: text)) {
+    .neon-text {
+        background: linear-gradient(90deg, #6fb2ff, #5fe6bd);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+        filter: drop-shadow(0 0 6px rgba(47, 140, 255, 0.55));
+    }
+}
+
+/* HSMA 7 sneak-peek list: red variant of the workshop rows, growing so the link sits at the bottom */
+.update-teasers {
+    flex-grow: 1;
+}
+
+.update-teasers li {
+    border-left-color: var(--neon-red);
+    background-color: rgba(255, 45, 63, 0.08);
+    font-size: 0.92rem;
+    line-height: 1.35;
+}
+
+.update-teasers li i {
+    color: #ff8a90;
+}
+
+/* Extra specificity: this must beat the general .update-item p:last-of-type rule further down */
+.update-item.update-hsma7 p:last-of-type {
+    flex-grow: 0;
+}
+
+.update-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.25rem 1.4rem;
+    border-radius: 10px;
+    position: relative;
+    overflow: hidden;
+    background-color: #1c1c1c;
+    text-align: left;
+}
+
+/* Neon top edge (a pseudo-element rather than border-image, which ignores border-radius) */
+.update-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--neon-red), var(--neon-magenta));
+    box-shadow: 0 0 10px rgba(224, 33, 138, 0.6);
+}
+
+.update-item.update-lambda::before {
+    background: linear-gradient(90deg, var(--neon-blue), var(--neon-green));
+    box-shadow: 0 0 10px rgba(47, 140, 255, 0.6);
+}
+
+.update-item h3 {
+    margin: 0.75rem 0 0.4rem 0;
+    font-family: var(--display-font);
+    font-size: 2.1rem;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.05em;
+}
+
+.update-item p {
+    margin-bottom: 0.75rem;
+}
+
+/* The last paragraph grows so the links line up along the bottom of both cards */
+.update-item p:last-of-type {
+    flex-grow: 1;
+    margin-bottom: 1rem;
+}
+
+.update-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.1rem 0.7rem;
+    border-radius: 4px;
+    font-family: var(--terminal-font);
+    font-size: 1.15rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    background-color: rgba(196, 22, 28, 0.2);
+    color: #ff8a90;
+}
+
+.update-lambda .update-badge {
+    background-color: rgba(52, 152, 219, 0.2);
+    color: #8cc8f0;
+}
+
+.update-link {
+    padding: 0;
+    font-size: 0.95rem;
+    text-decoration: none;
+}
+
+.update-link i {
+    margin-left: 0.25rem;
+    transition: margin-left 0.2s ease;
+}
+
+.update-link:hover i {
+    margin-left: 0.55rem;
+}
+
+.updates-footer {
+    position: relative;
+    margin-top: 1.5rem;
+    padding: 1.6rem 1.5rem 1.75rem 1.5rem;
+}
+
+/* Neon divider separating the call to action from the update cards */
+.updates-footer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 15%;
+    right: 15%;
+    height: 2px;
+    background: var(--neon-gradient);
+    box-shadow: 0 0 10px rgba(224, 33, 138, 0.5);
+    opacity: 0.8;
+}
+
+.updates-footer p {
+    display: inline-block; /* so the gradient spans the text, not the full panel width */
+    margin-bottom: 0;
+    font-family: var(--display-font);
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.1;
+    letter-spacing: 0.05em;
+    color: white;
+}
+
+/* Neon gradient lettering where supported; plain white otherwise */
+@supports ((-webkit-background-clip: text) or (background-clip: text)) {
+    .updates-footer p {
+        background: linear-gradient(90deg, #ff6b78, #f06ab8 40%, #6fb2ff 75%, #5fe6bd);
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        filter: drop-shadow(0 0 8px rgba(224, 33, 138, 0.35));
+    }
+}
+
+@media (max-width: 600px) {
+    .updates-footer p {
+        font-size: 1.6rem;
+    }
+}
+
+.updates-footer .cta-row {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+@media (max-width: 700px) {
+    .updates-grid {
+        grid-template-columns: 1fr;
+        padding: 1.25rem 1rem 0 1rem;
+    }
+
+    .updates-header {
+        font-size: 1.35rem;
+        letter-spacing: 0.04em;
+    }
+}
+
+.featured-quote {
+    position: relative;
+    margin: 1.5rem auto 2rem auto;
+    padding: 2.5rem 3rem 2rem 3rem;
+    max-width: 820px;
+    border-left: 6px solid #9c000d;
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgba(156, 0, 13, 0.35) 0%, rgba(116, 0, 0, 0.12) 60%, rgba(255, 255, 255, 0.03) 100%);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+    text-align: left;
+}
+
+.featured-quote .quote-icon {
+    position: absolute;
+    top: -0.9rem;
+    left: 1.25rem;
+    font-size: 3.5rem;
+    color: #e04a55;
+    opacity: 0.6;
+}
+
+.featured-quote p {
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.featured-quote footer {
+    text-align: right;
+    font-size: 0.95rem;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.quotes-splide {
+    padding: 0 3rem 2.5rem 3rem;
+}
+
+.quotes-splide .splide__slide {
+    display: flex;
+    padding: 8px 0 10px 0; /* room for the hover lift and shadow inside the clipped track */
+}
+
+/* Same treatment as the featured quote above: red left edge and a soft red-to-dark gradient */
+.quote-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 1.75rem 1.5rem 1.5rem 1.5rem;
+    border-left: 5px solid #9c000d;
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgba(156, 0, 13, 0.35) 0%, rgba(116, 0, 0, 0.12) 60%, rgba(255, 255, 255, 0.03) 100%);
+    color: white;
+    text-align: left;
+    /* Smaller than the featured quote's shadow so the carousel track doesn't clip it */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+}
+
+.quote-card:hover {
+    transform: translateY(-4px);
+}
+
+.quote-card .quote-icon {
+    font-size: 1.6rem;
+    color: #e04a55;
+    opacity: 0.6;
+    margin-bottom: 0.75rem;
+}
+
+.quote-card p {
+    font-size: 1.05rem;
+    font-style: italic;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+
+.quote-card--long p {
+    font-size: 0.92rem;
+}
+
+.quotes-splide .splide__arrow {
+    background: #9c000d;
+    opacity: 0.85;
+}
+
+.quotes-splide .splide__arrow svg {
+    fill: white;
+}
+
+.quotes-splide .splide__arrow--prev {
+    left: 0;
+}
+
+.quotes-splide .splide__arrow--next {
+    right: 0;
+}
+
+.quotes-splide .splide__pagination {
+    bottom: 0;
+}
+
+.quotes-splide .splide__pagination__page {
+    background: #888;
+}
+
+.quotes-splide .splide__pagination__page.is-active {
+    background: #e04a55;
+}
+
+@media (max-width: 600px) {
+    .featured-quote {
+        padding: 2.25rem 1.25rem 1.5rem 1.25rem;
+    }
+
+    .featured-quote p {
+        font-size: 1.1rem;
+    }
+
+    .quotes-splide {
+        padding: 0 0 2.5rem 0;
+    }
+
+    .quotes-splide .splide__arrows {
+        display: none;
+    }
 }
 </style>
 
 <section id="what-is-hsma" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-hsma">What is HSMA?</h2>
 <p>The Health Service Modelling Associates (HSMA) Programme is an <strong>online</strong> programme teaching public sector analysts, clinicians and managers how to use <strong>data science</strong> and <strong>operational research</strong> techniques, as well as supporting them to apply these techniques in their organisations.</p>
-<p>The full HSMA course experience is provided <strong>free of charge</strong> to people working in health, social care and policing organisations in England.</p>
+<div class="stat-grid">
+  <div class="stat-tile">
+    <div class="stat-value">2016</div>
+    <div class="stat-label">First HSMA cohort</div>
+  </div>
+  <div class="stat-tile">
+    <div class="stat-value">400+</div>
+    <div class="stat-label">People supported over 6 cohorts</div>
+  </div>
+  <div class="stat-tile">
+    <div class="stat-value">15</div>
+    <div class="stat-label">Months of training and mentorship, for one day a week</div>
+  </div>
+  <div class="stat-tile">
+    <div class="stat-value">£0</div>
+    <div class="stat-label">Course fees for health, social care and policing in England</div>
+  </div>
+</div>
 <p>Recordings of previous course sessions, as well as all of our course materials and code, are offered <strong>free of charge</strong> to anyone, anywhere in the world for personal use and adaptation.</p>
+<!-- Soft highlight bloom for the carousel images' CRT colour grade: blurs the image, keeps only
+     the brighter parts of the blur, and screens them back over the original -->
+<svg width="0" height="0" style="position: absolute;" aria-hidden="true" focusable="false">
+  <filter id="crt-bloom" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+    <fegaussianblur in="SourceGraphic" stddeviation="5" result="blur"></fegaussianblur>
+    <fecomponenttransfer in="blur" result="highlights">
+      <fefuncr type="linear" slope="1.6" intercept="-0.6"></fefuncr>
+      <fefuncg type="linear" slope="1.6" intercept="-0.6"></fefuncg>
+      <fefuncb type="linear" slope="1.6" intercept="-0.6"></fefuncb>
+      <fefunca type="linear" slope="0.5"></fefunca>
+    </fecomponenttransfer>
+    <feblend in="SourceGraphic" in2="highlights" mode="screen"></feblend>
+  </filter>
+</svg>
 <section id="splide-carousel-1" class="splide splide-carousel" aria-label="Beautiful Images" style="--splide-toggle-color: #ffffff;">
   <div class="splide__optional-button-container">
     <button class="splide__toggle" type="button">
@@ -412,16 +1378,16 @@ h2-uncap {
         <div class="splide_caption">The course provides lectures, exercises, sample code and more for a diverse range of data science and operational research topics – all using the Python programming language or other free and open source tools. Non-participants can still access all of the course materials and recordings for free via this site!</div>
       </li>
       <li class="splide__slide" style="width: 150px">
-        <img src="resources/photos/20250716_120702.jpg" alt="Conceived and run by Dr Daniel Chalk — an operational researcher with years of experience working on projects with healthcare services — and NIHR PenARC, HSMA is designed to build data science and operational research capacity within organisations so that those who know the data and services best are able to make t he most of the data their organisations hold." class="glightbox">
-        <div class="splide_caption">Conceived and run by Dr Daniel Chalk — an operational researcher with years of experience working on projects with healthcare services — and NIHR PenARC, HSMA is designed to build data science and operational research capacity within organisations so that those who know the data and services best are able to make t he most of the data their organisations hold.</div>
+        <img src="resources/photos/20250716_120702.jpg" alt="Conceived and run by Dr Daniel Chalk — an operational researcher with years of experience working on projects with healthcare services — and NIHR PenARC, HSMA is designed to build data science and operational research capacity within organisations so that those who know the data and services best are able to make the most of the data their organisations hold." class="glightbox">
+        <div class="splide_caption">Conceived and run by Dr Daniel Chalk — an operational researcher with years of experience working on projects with healthcare services — and NIHR PenARC, HSMA is designed to build data science and operational research capacity within organisations so that those who know the data and services best are able to make the most of the data their organisations hold.</div>
       </li>
       <li class="splide__slide" style="width: 150px">
-        <img src="resources/photos/thoCeZ5Q.jpeg" alt="The HSMA programme has supported over 400 people since its inception in 2016, helping analysts, clinicians, service managers and more to produce transformational data projects in their organisations. HSMA proejcts have lead to the building of new wards, the setup of dedicated data science teams, and much more. HSMA can help you to understand and communicate the power of operational research and data science techniques in your organisations – and start doing the work yourself." class="glightbox">
-        <div class="splide_caption">The HSMA programme has supported over 400 people since its inception in 2016, helping analysts, clinicians, service managers and more to produce transformational data projects in their organisations. HSMA proejcts have lead to the building of new wards, the setup of dedicated data science teams, and much more. HSMA can help you to understand and communicate the power of operational research and data science techniques in your organisations – and start doing the work yourself.</div>
+        <img src="resources/photos/thoCeZ5Q.jpeg" alt="The HSMA programme has supported over 400 people since its inception in 2016, helping analysts, clinicians, service managers and more to produce transformational data projects in their organisations. HSMA projects have led to the building of new wards, the setup of dedicated data science teams, and much more. HSMA can help you to understand and communicate the power of operational research and data science techniques in your organisations – and start doing the work yourself." class="glightbox">
+        <div class="splide_caption">The HSMA programme has supported over 400 people since its inception in 2016, helping analysts, clinicians, service managers and more to produce transformational data projects in their organisations. HSMA projects have led to the building of new wards, the setup of dedicated data science teams, and much more. HSMA can help you to understand and communicate the power of operational research and data science techniques in your organisations – and start doing the work yourself.</div>
       </li>
       <li class="splide__slide" style="width: 150px">
-        <img src="resources/lecture_examples/chrome_p6pReINw8Y.gif" alt="With bespoke games, countless references to the 1980s, retro computing and more, HSMA is designed to be a fun, friendly space in which to learn to serious stuff." class="glightbox">
-        <div class="splide_caption">With bespoke games, countless references to the 1980s, retro computing and more, HSMA is designed to be a fun, friendly space in which to learn to serious stuff.</div>
+        <img src="resources/lecture_examples/chrome_p6pReINw8Y.gif" alt="With bespoke games, countless references to the 1980s, retro computing and more, HSMA is designed to be a fun, friendly space in which to learn the serious stuff." class="glightbox">
+        <div class="splide_caption">With bespoke games, countless references to the 1980s, retro computing and more, HSMA is designed to be a fun, friendly space in which to learn the serious stuff.</div>
       </li>
       <li class="splide__slide" style="width: 150px">
         <img src="resources/lecture_examples/conditional_logic.png" alt="The course provides everything you need to get started, including teaching the Python programming language from scratch." class="glightbox">
@@ -465,6 +1431,7 @@ h2-uncap {
       </li>
     </ul>
   </div>
+  <div class="splide__progress"><div class="splide__progress__bar"></div></div>
 </section>
 <script>
 document.addEventListener('DOMContentLoaded', function () {
@@ -491,28 +1458,381 @@ document.addEventListener('DOMContentLoaded', function () {
 });
 </script>
 
-<br>
-<div class="callout callout-style-simple callout-important no-icon">
-<div class="callout-body d-flex">
-<div class="callout-icon-container">
-<i class="callout-icon no-icon"></i>
+<script>
+// Turns the main carousel's captions into terminal windows that "type" their text
+// each time a slide becomes active, and gives the image a pixelated "boot-up" reveal.
+// Runs after the splide-carousel filter's own
+// DOMContentLoaded handler (registered earlier in the page), so loop clones exist.
+document.addEventListener('DOMContentLoaded', function () {
+  var carousel = document.querySelector('#quarto-document-content .splide-carousel');
+  if (!carousel) return;
+
+  var reduceMotion = window.matchMedia('(prefers-reduced-motion: reduce)').matches;
+  var TARGET_DURATION_MS = 3500; // longest captions finish well within the autoplay interval
+  var MAX_CHAR_DELAY_MS = 28;
+  var realSlides = carousel.querySelectorAll('.splide__slide:not(.splide__slide--clone)');
+  var timers = new WeakMap();
+
+  function pad(n) { return n < 10 ? '0' + n : String(n); }
+
+  function buildTerminal(caption, slideNumber) {
+    var text = caption.textContent.trim();
+    caption.textContent = '';
+    caption.dataset.fullText = text;
+
+    var bar = document.createElement('div');
+    bar.className = 'term-bar';
+    bar.setAttribute('aria-hidden', 'true');
+    bar.innerHTML = '<span class="term-dot"></span><span class="term-dot"></span><span class="term-dot"></span>' +
+      '<span class="term-title">hsma@programme: ~</span>';
+
+    var body = document.createElement('div');
+    body.className = 'term-body';
+
+    var prompt = document.createElement('div');
+    prompt.className = 'term-prompt';
+    prompt.setAttribute('aria-hidden', 'true');
+    prompt.innerHTML = '<span class="term-path">~</span> $ cat slide_' + pad(slideNumber) + '.txt';
+
+    var textWrap = document.createElement('div');
+    textWrap.className = 'term-text';
+
+    var ghost = document.createElement('span');
+    ghost.className = 'term-ghost';
+    ghost.setAttribute('aria-hidden', 'true');
+    ghost.textContent = text + String.fromCharCode(160, 160); // room for the caret on the last line
+
+    var live = document.createElement('span');
+    live.className = 'term-live';
+    live.setAttribute('aria-hidden', 'true');
+    live.innerHTML = '<span class="term-typed"></span><span class="term-caret"></span>';
+
+    var srText = document.createElement('span');
+    srText.className = 'term-visually-hidden';
+    srText.textContent = text;
+
+    textWrap.append(ghost, live);
+    body.append(prompt, textWrap, srText);
+    caption.append(bar, body);
+  }
+
+  function showFull(caption) {
+    caption.querySelector('.term-typed').textContent = caption.dataset.fullText;
+  }
+
+  function typeOut(caption) {
+    var typed = caption.querySelector('.term-typed');
+    var text = caption.dataset.fullText;
+    clearTimeout(timers.get(caption));
+
+    if (reduceMotion || !text) {
+      showFull(caption);
+      return;
+    }
+
+    var delay = Math.min(MAX_CHAR_DELAY_MS, TARGET_DURATION_MS / text.length);
+    // At very short delays, add several characters per tick so timers stay smooth
+    var step = Math.max(1, Math.round(16 / delay));
+    var i = 0;
+    typed.textContent = '';
+
+    (function tick() {
+      i = Math.min(text.length, i + step);
+      typed.textContent = text.slice(0, i);
+      if (i < text.length) {
+        timers.set(caption, setTimeout(tick, delay * step));
+      }
+    })();
+  }
+
+  // "Boot-up" reveal. Splide only marks a slide active once it has finished sliding in, so
+  // revealing on activation alone would flash the sharp image first. Instead, every slide
+  // that isn't active waits under a fully pixelated canvas (so it slides in chunky), and
+  // the active slide steps down through finer block sizes before the canvas is removed.
+  var PIXEL_STEPS = [24, 12, 6, 3];
+  var PIXEL_STEP_MS = 140;
+  var revealTimers = new WeakMap();
+  var small = document.createElement('canvas');
+  var smallCtx = small.getContext('2d');
+
+  function imageReady(img) {
+    return img && img.complete && img.naturalWidth > 0;
+  }
+
+  // Draws the slide's image onto its overlay canvas at the given block size,
+  // creating or resizing the canvas to sit exactly over the image
+  function drawPixelated(slide, block) {
+    var img = slide.querySelector('img');
+    var boxW = img.offsetWidth;
+    var boxH = img.offsetHeight;
+    if (!boxW || !boxH) return;
+
+    // Match the image's object-fit: contain placement inside its padding
+    var style = getComputedStyle(img);
+    var padX = parseFloat(style.paddingLeft) || 0;
+    var padY = parseFloat(style.paddingTop) || 0;
+    var innerW = boxW - padX - (parseFloat(style.paddingRight) || 0);
+    var innerH = boxH - padY - (parseFloat(style.paddingBottom) || 0);
+    var scale = Math.min(innerW / img.naturalWidth, innerH / img.naturalHeight);
+    var drawW = img.naturalWidth * scale;
+    var drawH = img.naturalHeight * scale;
+    var drawX = padX + (innerW - drawW) / 2;
+    var drawY = padY + (innerH - drawH) / 2;
+
+    var canvas = slide.querySelector('.pixel-reveal');
+    if (!canvas) {
+      canvas = document.createElement('canvas');
+      canvas.className = 'pixel-reveal';
+      canvas.setAttribute('aria-hidden', 'true');
+      slide.appendChild(canvas);
+    }
+
+    var dpr = window.devicePixelRatio || 1;
+    var pxW = Math.round(boxW * dpr);
+    var pxH = Math.round(boxH * dpr);
+    if (canvas.width !== pxW || canvas.height !== pxH) {
+      canvas.width = pxW;
+      canvas.height = pxH;
+    }
+    canvas.style.left = img.offsetLeft + 'px';
+    canvas.style.top = img.offsetTop + 'px';
+    canvas.style.width = boxW + 'px';
+    canvas.style.height = boxH + 'px';
+    canvas.style.borderRadius = style.borderRadius;
+    canvas.style.filter = style.filter; // keep the colour grade consistent while pixelated
+
+    small.width = Math.max(1, Math.ceil(drawW / block));
+    small.height = Math.max(1, Math.ceil(drawH / block));
+    smallCtx.imageSmoothingEnabled = true;
+    smallCtx.drawImage(img, 0, 0, small.width, small.height);
+
+    var ctx = canvas.getContext('2d');
+    ctx.setTransform(dpr, 0, 0, dpr, 0, 0);
+    ctx.fillStyle = style.backgroundColor;
+    ctx.fillRect(0, 0, boxW, boxH);
+    ctx.imageSmoothingEnabled = false;
+    ctx.drawImage(small, drawX, drawY, drawW, drawH);
+  }
+
+  function clearPixelated(slide) {
+    clearTimeout(revealTimers.get(slide));
+    var canvas = slide.querySelector('.pixel-reveal');
+    if (canvas) canvas.remove();
+  }
+
+  // Leaves the slide's image fully pixelated, ready to slide into view
+  function cover(slide) {
+    var img = slide.querySelector('img');
+    if (reduceMotion || !img) return;
+    clearTimeout(revealTimers.get(slide));
+    if (!imageReady(img)) {
+      img.addEventListener('load', function () {
+        if (slide.classList.contains('is-active') && !slide.classList.contains('splide__slide--clone')) {
+          reveal(slide);
+        } else {
+          cover(slide);
+        }
+      }, { once: true });
+      return;
+    }
+    drawPixelated(slide, PIXEL_STEPS[0]);
+  }
+
+  // Steps the active slide's image from chunky to sharp, then removes the canvas
+  function reveal(slide) {
+    var img = slide.querySelector('img');
+    if (reduceMotion || !img) return;
+    clearTimeout(revealTimers.get(slide));
+    if (!imageReady(img)) {
+      img.addEventListener('load', function () {
+        if (slide.classList.contains('is-active')) reveal(slide);
+      }, { once: true });
+      return;
+    }
+
+    (function step(i) {
+      if (i >= PIXEL_STEPS.length) {
+        clearPixelated(slide);
+        return;
+      }
+      drawPixelated(slide, PIXEL_STEPS[i]);
+      revealTimers.set(slide, setTimeout(function () { step(i + 1); }, PIXEL_STEP_MS));
+    })(0);
+  }
+
+  // Image sizes change with the layout, so redraw the waiting canvases after a resize
+  var resizeTimer;
+  window.addEventListener('resize', function () {
+    clearTimeout(resizeTimer);
+    resizeTimer = setTimeout(function () {
+      carousel.querySelectorAll('.splide__slide').forEach(function (slide) {
+        var isClone = slide.classList.contains('splide__slide--clone');
+        if (slide.classList.contains('is-active') && !isClone) {
+          clearPixelated(slide);
+        } else {
+          cover(slide);
+        }
+      });
+    }, 150);
+  });
+
+  // Slide numbers come from the real (non-clone) slide order; clones reuse the matching number
+  realSlides.forEach(function (slide, idx) {
+    slide.dataset.termNumber = idx + 1;
+  });
+
+  carousel.querySelectorAll('.splide__slide').forEach(function (slide) {
+    var caption = slide.querySelector('.splide_caption');
+    if (!caption || !caption.textContent.trim()) return;
+
+    var number = slide.dataset.termNumber;
+    if (!number) {
+      // Splide clones keep the original's caption text, so match on that to recover the number
+      var match = Array.prototype.find.call(realSlides, function (real) {
+        var realCaption = real.querySelector('.splide_caption');
+        return realCaption && (realCaption.dataset.fullText || realCaption.textContent.trim()) === caption.textContent.trim();
+      });
+      number = match ? match.dataset.termNumber : 0;
+    }
+    buildTerminal(caption, Number(number));
+
+    // Clones are only glimpsed mid-transition at the loop seam, so they show the full text
+    // and stay pixelated, matching the real slide they hand over to
+    if (slide.classList.contains('splide__slide--clone')) {
+      showFull(caption);
+      cover(slide);
+      return;
+    }
+
+    if (slide.classList.contains('is-active')) {
+      typeOut(caption);
+      reveal(slide);
+    } else {
+      cover(slide);
+    }
+
+    new MutationObserver(function () {
+      var nowActive = slide.classList.contains('is-active');
+      if (nowActive && !slide.dataset.termWasActive) {
+        typeOut(caption);
+        reveal(slide);
+      } else if (!nowActive && slide.dataset.termWasActive) {
+        cover(slide);
+      }
+      slide.dataset.termWasActive = nowActive ? '1' : '';
+    }).observe(slide, { attributes: true, attributeFilter: ['class'] });
+
+    slide.dataset.termWasActive = slide.classList.contains('is-active') ? '1' : '';
+  });
+});
+</script>
+<div class="updates-panel">
+  <div class="updates-header"><span><span class="prompt" aria-hidden="true">&gt; </span>Updates from the HSMA team<span class="cursor" aria-hidden="true"></span></span></div>
+  <div class="updates-grid">
+    <div class="update-item update-hsma7">
+      <span class="update-badge"><i class="bi bi-calendar-event"></i>Spring/summer 2027</span>
+      <h3 class="anchored">HSMA 7</h3>
+      <p>We're busy giving HSMA its biggest rewrite since the programme began ten years ago. A sneak peek at what's new:</p>
+      <ul class="update-workshops update-teasers">
+        <li><i class="bi bi-hourglass-split" aria-hidden="true"></i>Simulation content expanded from 9 to 30+ hours</li>
+        <li><i class="bi bi-stars" aria-hidden="true"></i>Brand new content on simulation visualisation and advanced location optimisation</li>
+        <li><i class="bi bi-currency-pound" aria-hidden="true"></i>Cost analysis to evidence your project's impact</li>
+        <li><i class="bi bi-signpost-split" aria-hidden="true"></i>New phases for project planning and implementation</li>
+      </ul>
+      <a class="update-link" href="hsma7.html">What we'll teach, what's changed since HSMA 6, and FAQs <i class="bi bi-arrow-right"></i></a>
+    </div>
+    <div class="update-item update-lambda">
+      <span class="update-badge"><i class="bi bi-calendar-event"></i>Winter 2026/27 – spring 2027</span>
+      <h3 class="anchored">HSMA-λ (lambda)</h3>
+      <p>We are also putting together a new series of three standalone 3-hour workshops for senior leaders and <strong class="neon-text">decision makers</strong> in the health service:</p>
+      <ul class="update-workshops">
+        <li><i class="bi bi-diagram-3" aria-hidden="true"></i>Simulation Modelling for Pathway Problems</li>
+        <li><i class="bi bi-geo-alt" aria-hidden="true"></i>Location Optimisation for Equity and Efficiency</li>
+        <li><i class="bi bi-cpu" aria-hidden="true"></i>Machine Learning for Operational Improvements</li>
+      </ul>
+      <p>Workshops focus on understanding the advanced techniques taught on HSMA, empowering participants to <strong>ask the right questions</strong> and <strong>interpret project outputs</strong>. No prior experience in mathematics, data science, operational research or programming is needed.</p>
+      <a class="update-link" href="lambda.html">Find out more about HSMA-λ <i class="bi bi-arrow-right"></i></a>
+    </div>
+  </div>
+  <div class="updates-footer">
+    <p>Want to hear when applications for HSMA 7 or HSMA-λ open?</p>
+<div class="cta-row">
+  <a class="custom-button" href="mailto:penchord@exeter.ac.uk?subject=Add%20me%20to%20the%20HSMA%20Mailing%20List%2C%20Please!&amp;body=Please%20complete%20the%20fields%20below%20to%20be%20added%20to%20the%20HSMA%20mailing%20list%0A%0AFull%20Name%3A%0A%0AOrganisation%3A%0A%0A**This%20is%20an%20automatically%20generated%20email%20from%20a%20link%20on%20the%20HSMA%20website**"><i class="bi bi-envelope"></i>Join the mailing list</a>
+  <a class="custom-button" href="https://forms.cloud.microsoft/e/spFr8qr2pP"><i class="bi bi-pencil-square"></i>Register λ interest</a>
+  <a class="custom-button" href="https://www.linkedin.com/company/hsma-programme/"><i class="bi bi-linkedin"></i>Follow on LinkedIn</a>
 </div>
-<div class="callout-body-container">
-<p>We are currently working on updating and improving HSMA ahead of the 7<sup>th</sup> round of the programme, which we hope to launch in <strong>early 2027</strong>. There’s some really exciting stuff planned for this round, so stay tuned! In the meantime, head to our <a href="./hsma7.html">HSMA 7 page</a> to find out more about what we’ll be teaching, what’s changed since HSMA 6, and answers to common questions.</p>
-<p>We are also putting together a new series of standalone workshops aimed at senior leaders, called HSMA-λ (lambda), which we hope to run in <strong>Autumn 2026</strong>. Click <a href="./lambda.html">here</a> to find out more, and let us know you’re interested by filling in <a href="https://forms.cloud.microsoft/e/spFr8qr2pP">this form</a>.</p>
-<p>If you are interested in being kept up to date with HSMA and being notified of when applications for HSMA 7 or HSMA-λ open, please <a href="mailto:penchord@exeter.ac.uk?subject=Add%20me%20to%20the%20HSMA%20Mailing%20List%2C%20Please!&amp;body=Please%20complete%20the%20fields%20below%20to%20be%20added%20to%20the%20HSMA%20mailing%20list%0A%0AFull%20Name%3A%0A%0AOrganisation%3A%0A%0A**This%20is%20an%20automatically%20generated%20email%20from%20a%20link%20on%20the%20HSMA%20website**">drop us an email</a> and we will keep you informed via our mailing list.</p>
-<p>You can also follow us on <a href="https://www.linkedin.com/company/hsma-programme/">LinkedIn</a>.</p>
+  </div>
 </div>
-</div>
-</div>
-<br>
-<br><br>
-<p><h2-uncap>HSMA-λ (LAMBDA)</h2-uncap></p>
-<p>In Autumn 2026, we are planning to launch a new series of standalone 3-hour workshops targeted at decision makers in the health service.</p>
-<p>HSMA-λ will focus on supporting participants to understand the advanced techniques that are taught on HSMA, empowering participants to <strong>ask the right questions</strong> and <strong>interpret project outputs</strong>.</p>
-<p>Attendees will not require any prior experience in mathematics, data science, operational research or computer programming.</p>
-<p>To find out more about our plans for HSMA-λ, head to <a href="./lambda.html">this page</a>.</p>
-<br><br>
+</section>
+<section id="what-our-students-say" class="level2">
+<h2 class="anchored" data-anchor-id="what-our-students-say">What Our Students Say</h2>
+<blockquote class="featured-quote blockquote">
+  <i class="fa-solid fa-quote-left quote-icon" aria-hidden="true"></i>
+  <p>Overall, my HSMA journey has been a transformative experience, opening me up to new approaches to analytics in the NHS. I found the real-world problem-solving expertise and the community support invaluable. From an organisational perspective, it’s a strategic investment in operational service development and decision-making ability.</p>
+  <footer>— HSMA Alumni</footer>
+</blockquote>
+
+<section id="student-quotes" class="splide quotes-splide" aria-label="Quotes from previous HSMA students">
+  <div class="splide__track">
+    <ul class="splide__list">
+      <li class="splide__slide">
+        <div class="quote-card">
+          <i class="fa-solid fa-quote-left quote-icon" aria-hidden="true"></i>
+          <p>HSMA is an absolutely amazing programme that's taken me from zero coding knowledge to inspiring me to want to go off and explore on my own.</p>
+        </div>
+      </li>
+      <li class="splide__slide">
+        <div class="quote-card">
+          <i class="fa-solid fa-quote-left quote-icon" aria-hidden="true"></i>
+          <p>I can honestly say it is the best training I've ever participated in. For the first time in a long time I feel really enthused about my work.</p>
+        </div>
+      </li>
+      <li class="splide__slide">
+        <div class="quote-card">
+          <i class="fa-solid fa-quote-left quote-icon" aria-hidden="true"></i>
+          <p>The HSMA community is just wonderful - really friendly, open and collaborative. The teaching was well paced and I was made to feel like there were no silly questions. As a complete code novice, I really appreciated it!</p>
+        </div>
+      </li>
+      <li class="splide__slide">
+        <div class="quote-card">
+          <i class="fa-solid fa-quote-left quote-icon" aria-hidden="true"></i>
+          <p>The wealth of information and resources made available to me from this course will continue to be used for years.</p>
+        </div>
+      </li>
+      <li class="splide__slide">
+        <div class="quote-card quote-card--long">
+          <i class="fa-solid fa-quote-left quote-icon" aria-hidden="true"></i>
+          <p>Since completing the HSMA programme, I’ve found myself coding a lot more in my day-to-day role, which has really improved both the efficiency and depth of my work.</p>
+          <p>It’s also shifted how I approach problem-solving. I now think more analytically and am more confident in exploring data-driven solutions.</p>
+        </div>
+      </li>
+      <li class="splide__slide">
+        <div class="quote-card">
+          <i class="fa-solid fa-quote-left quote-icon" aria-hidden="true"></i>
+          <p>This is by far the most enjoyable course I've undertaken in this career to date.</p>
+        </div>
+      </li>
+    </ul>
+  </div>
+</section>
+
+<script>
+document.addEventListener('DOMContentLoaded', function () {
+  new Splide('#student-quotes', {
+    type: 'loop',
+    perPage: 3,
+    perMove: 1,
+    gap: '1.25rem',
+    autoplay: true,
+    interval: 7000,
+    pauseOnHover: true,
+    breakpoints: {
+      900: { perPage: 2 },
+      600: { perPage: 1 }
+    }
+  }).mount();
+});
+</script>
 </section>
 <section id="our-materials" class="level2">
 <h2 class="anchored" data-anchor-id="our-materials">Our Materials</h2>
@@ -527,36 +1847,55 @@ document.addEventListener('DOMContentLoaded', function () {
     <div class="details">Click here to view our teach-yourself ebooks on Python, geographic modelling, simulation (and more)</div>
   </a>
 </div>
-<br><br>
 </section>
 <section id="our-projects" class="level2">
 <h2 class="anchored" data-anchor-id="our-projects">Our Projects</h2>
 <p>While HSMA involves a large training element, the main focus of the programme is to support participants to undertake their own projects in their organisations.</p>
-<p>On the website you can find more out about our <a href="./previous_projects/projects_in_progress.html">projects that are currently in progress</a> or <a href="./previous_projects/completed_projects.html">projects that have previously been undertaken</a>.</p>
-<p>You can also view projects <a href="./previous_projects/projects_by_methods.html">by method</a>, <a href="./previous_projects/projects_by_service_area.html">by area of application</a>, <a href="./previous_projects/projects_by_cohort.html">by HSMA cohort</a> or <a href="./previous_projects/projects_by_organisation.html">by service</a>.</p>
-<br><br>
+<div class="value-grid-box-2" style="grid-template-columns: 1fr;">
+  <a href="impact.html" class="value-box neon-tile neon-tile--feature" style="flex-direction: row; align-items: center; justify-content: center; gap: 1.25rem; min-height: 130px;">
+    <div class="icon" style="font-size: 2.75rem; margin-bottom: 0;"><i class="bi bi-graph-up-arrow"></i></div>
+    <div class="details" style="font-size: 1.6rem; font-weight: 500; text-align: left;">The impact of HSMA projects</div>
+  </a>
+</div>
+<div class="value-grid-box-2">
+  <a href="previous_projects/projects_in_progress.html" class="value-box neon-tile" style="min-height: 130px; padding: 1rem;">
+    <div class="icon" style="font-size: 2rem;"><i class="bi bi-hourglass-split"></i></div>
+    <div class="details">Projects currently in progress</div>
+  </a>
+  <a href="previous_projects/completed_projects.html" class="value-box neon-tile neon-tile--magenta" style="min-height: 130px; padding: 1rem;">
+    <div class="icon" style="font-size: 2rem;"><i class="bi bi-check2-circle"></i></div>
+    <div class="details">Completed projects</div>
+  </a>
+</div>
+<div class="value-grid-box-4">
+  <a href="previous_projects/projects_by_methods.html" class="value-box neon-tile neon-tile--quiet">
+    <div class="icon"><i class="bi bi-diagram-3"></i></div>
+    <div class="details">Browse by method</div>
+  </a>
+  <a href="previous_projects/projects_by_service_area.html" class="value-box neon-tile neon-tile--quiet neon-tile--magenta">
+    <div class="icon"><i class="bi bi-heart-pulse"></i></div>
+    <div class="details">Browse by area of care</div>
+  </a>
+  <a href="previous_projects/projects_by_cohort.html" class="value-box neon-tile neon-tile--quiet neon-tile--blue">
+    <div class="icon"><i class="bi bi-people"></i></div>
+    <div class="details">Browse by HSMA cohort</div>
+  </a>
+  <a href="previous_projects/projects_by_organisation.html" class="value-box neon-tile neon-tile--quiet neon-tile--green">
+    <div class="icon"><i class="bi bi-building"></i></div>
+    <div class="details">Browse by organisation</div>
+  </a>
+</div>
 </section>
 <section id="support-and-accreditation" class="level2">
 <h2 class="anchored" data-anchor-id="support-and-accreditation">Support and Accreditation</h2>
-<div class="columns">
-<div class="column" style="width:35%;">
-<br><br>
-<p><img src="resources/ARC-logo-horizontal-white.svg" class="img-fluid" data-max-height="200"></p>
-</div><div class="column" style="width:5%;">
-
-</div><div class="column" style="width:60%;">
-<br><br>
+<div class="support-row">
+<div class="support-item">
+<p><img src="resources/ARC-logo-horizontal-white.svg" class="support-logo-img img-fluid" alt="NIHR ARC South West logo"></p>
 <p>HSMA is supported by the <a href="https://www.england.nhs.uk/digitaltechnology/nhs-digital-academy/">NHS Digital Academy</a> and delivered by a team belonging to the <a href="https://arc-swp.nihr.ac.uk/">NIHR Applied Research Collaboration South West (ARC South West)</a>.</p>
 </div>
-</div>
-<div class="columns">
-<div class="column" style="width:25%;">
-<p><img src="resources/Apha-Logo.svg" class="img-fluid" data-max-height="200"></p>
-</div><div class="column" style="width:15%;">
-
-</div><div class="column" style="width:60%;">
-<br><br>
-<p>The programme is accredited by the <a href="https://www.aphanalysts.org/">Association of Professional Healthcare Analysts (AphA)</a></p>
+<div class="support-item">
+<p><img src="resources/Apha-Logo.svg" class="support-logo-img img-fluid" alt="AphA logo"></p>
+<p>The programme is accredited by the <a href="https://www.aphanalysts.org/">Association of Professional Healthcare Analysts (AphA)</a>.</p>
 </div>
 </div>
 <br><br>
