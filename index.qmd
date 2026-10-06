@@ -386,12 +386,117 @@ h2.no-caps, .no-caps h2 {
     }
 }
 
-.callout-title-container {
-    font-size: 24px
+.updates-panel {
+    margin: 2.5rem 0 1rem 0;
+    border-radius: 14px;
+    background-color: #262626;
+    border: 1px solid #3d3d3d;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.45);
+    overflow: hidden;
 }
 
-.callout-body p {
-    font-size: 16px
+.updates-header {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    padding: 0.9rem 1.5rem;
+    background-color: #9c000d;
+    color: white;
+    font-size: 1rem;
+    font-weight: 600;
+    letter-spacing: 0.12em;
+    text-transform: uppercase;
+}
+
+.updates-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.25rem;
+    padding: 1.5rem 1.5rem 0 1.5rem;
+}
+
+.update-item {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 1.25rem 1.4rem;
+    border-radius: 10px;
+    background-color: #1c1c1c;
+    border-top: 4px solid #c4161c;
+    text-align: left;
+}
+
+.update-item.update-lambda {
+    border-top-color: #3498db;
+}
+
+.update-item h3 {
+    margin: 0.75rem 0 0.5rem 0;
+    font-size: 1.4rem;
+    font-weight: 600;
+}
+
+.update-item p {
+    flex-grow: 1;
+    margin-bottom: 1rem;
+}
+
+.update-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.25rem 0.75rem;
+    border-radius: 999px;
+    font-size: 0.8rem;
+    font-weight: 500;
+    background-color: rgba(196, 22, 28, 0.2);
+    color: #ff8a90;
+}
+
+.update-lambda .update-badge {
+    background-color: rgba(52, 152, 219, 0.2);
+    color: #8cc8f0;
+}
+
+.update-link {
+    padding: 0;
+    font-size: 0.95rem;
+    text-decoration: none;
+}
+
+.update-link i {
+    margin-left: 0.25rem;
+    transition: margin-left 0.2s ease;
+}
+
+.update-link:hover i {
+    margin-left: 0.55rem;
+}
+
+.updates-footer {
+    padding: 1.5rem 1.5rem 1.75rem 1.5rem;
+}
+
+.updates-footer p {
+    margin-bottom: 0;
+}
+
+.updates-footer .cta-row {
+    margin-top: 1rem;
+    margin-bottom: 0;
+}
+
+@media (max-width: 700px) {
+    .updates-grid {
+        grid-template-columns: 1fr;
+        padding: 1.25rem 1rem 0 1rem;
+    }
+
+    .updates-header {
+        font-size: 0.9rem;
+        letter-spacing: 0.08em;
+    }
 }
 
 .featured-quote {
@@ -584,22 +689,33 @@ Recordings of previous course sessions, as well as all of our course materials a
 ![Students are given the opportunity to present their project work to a large audience of their peers and people from the wider world of health, policing and social care, encouraging the wider reuse of project work created on the programme.](resources/photos/zWhfxQKU.jpeg)
 :::
 
-:::{.callout-important appearance="minimal"}
-We are currently working on updating and improving HSMA ahead of the 7^th^ round of the programme, which we hope to launch in **spring/summer 2027**. There's some really exciting stuff planned for this round, so stay tuned! In the meantime, head to our [HSMA 7 page](hsma7.qmd) to find out more about what we'll be teaching, what's changed since HSMA 6, and answers to common questions.
-
-We are also putting together a new series of standalone workshops aimed at senior leaders, called HSMA-λ (lambda), which we hope to run in **winter 2026/27 – spring 2027**.
-
-Want to hear when applications for HSMA 7 or HSMA-λ open? Join our mailing list, register your interest in HSMA-λ, or follow us on LinkedIn.
-
 ```{=html}
+<div class="updates-panel">
+  <div class="updates-header"><i class="bi bi-megaphone-fill"></i>Updates from the HSMA team</div>
+  <div class="updates-grid">
+    <div class="update-item update-hsma7">
+      <span class="update-badge"><i class="bi bi-calendar-event"></i>Spring/summer 2027</span>
+      <h3>HSMA 7</h3>
+      <p>We are currently working on updating and improving HSMA ahead of the 7<sup>th</sup> round of the programme. There's some really exciting stuff planned for this round, so stay tuned!</p>
+      <a class="update-link" href="hsma7.html">What we'll teach, what's changed since HSMA 6, and FAQs <i class="bi bi-arrow-right"></i></a>
+    </div>
+    <div class="update-item update-lambda">
+      <span class="update-badge"><i class="bi bi-calendar-event"></i>Winter 2026/27 – spring 2027</span>
+      <h3>HSMA-λ (lambda)</h3>
+      <p>We are also putting together a new series of standalone workshops aimed at senior leaders and decision makers.</p>
+      <a class="update-link" href="lambda.html">Find out more about HSMA-λ <i class="bi bi-arrow-right"></i></a>
+    </div>
+  </div>
+  <div class="updates-footer">
+    <p>Want to hear when applications for HSMA 7 or HSMA-λ open?</p>
 <div class="cta-row">
   <a class="custom-button" href="mailto:penchord@exeter.ac.uk?subject=Add%20me%20to%20the%20HSMA%20Mailing%20List%2C%20Please!&body=Please%20complete%20the%20fields%20below%20to%20be%20added%20to%20the%20HSMA%20mailing%20list%0A%0AFull%20Name%3A%0A%0AOrganisation%3A%0A%0A**This%20is%20an%20automatically%20generated%20email%20from%20a%20link%20on%20the%20HSMA%20website**"><i class="bi bi-envelope"></i>Join the mailing list</a>
   <a class="custom-button" href="https://forms.cloud.microsoft/e/spFr8qr2pP"><i class="bi bi-pencil-square"></i>Register λ interest</a>
   <a class="custom-button" href="https://www.linkedin.com/company/hsma-programme/"><i class="bi bi-linkedin"></i>Follow on LinkedIn</a>
 </div>
+  </div>
+</div>
 ```
-
-:::
 
 ## What Our Students Say
 
