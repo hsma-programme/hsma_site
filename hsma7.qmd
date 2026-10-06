@@ -141,7 +141,7 @@ details > p:last-child {
 :::: {.columns}
 
 ::: {.column width='50%'}
-Launching in **Spring 2027**, our seventh round of the Health Service Modelling Associates (HSMA) programme is a **free of charge** training and mentoring programme for people working in health and social care organisations.
+Launching in **spring/summer 2027**, our seventh round of the Health Service Modelling Associates (HSMA) programme is a **free of charge** training and mentoring programme for people working in health and social care organisations.
 
 Lasting **15 months** with a **1 day a week commitment** and delivered **fully online**, HSMA teaches skills in programming, data science and operational research, before we then support participants to use these new skills on **real projects** for their organisation.
 

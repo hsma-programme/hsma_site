@@ -6,7 +6,7 @@ include-back-link: false
 page-layout: full
 ---
 
-Launching in **Autumn 2026**, our new HSMA-λ (HSMA lambda) offering is a series of **standalone workshops** targeted at decision makers in the health service.
+Launching in **winter 2026/27 – spring 2027**, our new HSMA-λ (HSMA lambda) offering is a series of **standalone workshops** targeted at decision makers in the health service.
 
 HSMA-λ will focus on supporting participants to understand the advanced techniques that are taught on HSMA so you can **ask the right questions** and **interpret project outputs**.
 
@@ -118,7 +118,7 @@ We would be delighted if you could fill in our **expression of interest form** f
 
 This will help us to ensure we offer enough dates for each workshop.
 
-We will then circulate the workshop dates in Autumn 2026 and contact you with details of how to book at that time.
+We will then circulate the workshop dates ahead of launch and contact you with details of how to book at that time.
 
 Please note that completing this expression of interest does not guarantee a place at the workshops.
 
@@ -134,7 +134,7 @@ No – but you will learn enough to be able to design and support projects using
 
 You will also have the opportunity to propose project ideas to be worked on in HSMA 7 as HSMA projects, as well as nominating candidates from your organisation for the HSMA programme.
 
-If you want to learn how to write the code required to create these models yourself, keep an eye out for registration opening up for HSMA 7 (hopefully launching in early 2027) or access our [HSMA 6 recordings](https://hsma.co.uk/hsma_content/modules/modules.html) or [teach-yourself ebooks](https://hsma.co.uk/hsma_content/books/books.html).
+If you want to learn how to write the code required to create these models yourself, keep an eye out for registration opening up for HSMA 7 (hopefully launching in spring/summer 2027) or access our [HSMA 6 recordings](https://hsma.co.uk/hsma_content/modules/modules.html) or [teach-yourself ebooks](https://hsma.co.uk/hsma_content/books/books.html).
 
 ### Do I need any technical background?
 

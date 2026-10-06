@@ -1,5 +1,5 @@
 ---
-title: "![Welcome](resources/Chalky%20HSMA-07-wide.png){max-height=300px}"
+title: "![Welcome](resources/Chalky%20HSMA-07-wide white logo - new tagline.png){max-height=300px}"
 pagetitle: Welcome
 title-block-banner: resources/banner.png
 page-layout: full
@@ -13,7 +13,9 @@ filters:
 
 ```{=html}
 <style>
-body {
+/* Centre the page content and title only, not the site-wide announcement banner */
+#title-block-header,
+#quarto-document-content {
 	text-align: center;
 }
 
@@ -21,6 +23,12 @@ h2 {
     text-transform: uppercase;
     font-weight: 400;
     text-align: center;
+    margin-top: 4rem;
+}
+
+/* Keeps the lowercase λ from being uppercased to Λ */
+h2.no-caps, .no-caps h2 {
+    text-transform: none;
 }
 
 .splide__slide img {
@@ -30,26 +38,128 @@ h2 {
   height: auto;
 }
 
-h2-uncap {
-    font-weight: 400;
-    text-align: center;
-    border-bottom: 1px solid rgb(67.15, 67.15, 67.15);
-    padding-bottom: .5rem;
-    margin-bottom: 1rem;
-    color: inherit;
-    font-size: calc(1.29rem + 0.48vw);
-    line-height: 1.2;
-    display: block;
-    margin-block-start: 0.83em;
-    margin-block-end: 0.83em;
-    margin-inline-start: 0px;
-    margin-inline-end: 0px;
-    unicode-bidi: isolate;
+.stat-grid {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+    margin: 2rem 0;
 }
 
-.hsma_caption {
-    padding: 30px 40px;
-    font-weight:200;
+.stat-tile {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 1.25rem 0.75rem;
+    border-radius: 10px;
+    background-color: #9c000d;
+    color: white;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
+}
+
+.stat-tile .stat-value {
+    font-size: 2.2rem;
+    font-weight: bold;
+    line-height: 1.1;
+}
+
+.stat-tile .stat-label {
+    margin-top: 0.4rem;
+    font-size: 0.9rem;
+    font-weight: 300;
+    opacity: 0.9;
+}
+
+.cta-row {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 0.75rem;
+    margin: 1.5rem 0 0.5rem 0;
+}
+
+.cta-row .custom-button i {
+    margin-right: 0.5rem;
+}
+
+.lambda-card {
+    margin: 1.5rem auto 0 auto;
+    max-width: 780px;
+    padding: 2rem 2.5rem;
+    border: 1px solid #3498db;
+    border-radius: 12px;
+    background: linear-gradient(135deg, rgba(52, 152, 219, 0.18) 0%, rgba(52, 152, 219, 0.04) 100%);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.3);
+}
+
+.lambda-card .lambda-symbol {
+    font-size: 3.5rem;
+    line-height: 1;
+    color: #5dade2;
+    margin-bottom: 0.75rem;
+}
+
+.lambda-card .cta-row {
+    margin-bottom: 0;
+}
+
+.value-grid-box-4 {
+    display: grid;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    gap: 1rem;
+    margin-top: 1rem;
+}
+
+.value-grid-box-4 .value-box {
+    min-height: 120px;
+    padding: 1rem;
+    background-color: #5a0000;
+}
+
+.value-grid-box-4 .value-box .icon {
+    font-size: 1.6rem;
+}
+
+.value-grid-box a.value-box,
+.value-grid-box-4 a.value-box {
+    color: white;
+}
+
+@media (max-width: 900px) {
+    .stat-grid,
+    .value-grid-box-4 {
+        grid-template-columns: repeat(2, minmax(0, 1fr));
+    }
+}
+
+.support-row {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 2.5rem;
+    align-items: start;
+    margin-top: 2rem;
+}
+
+.support-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.support-item img.support-logo-img {
+    height: 110px;
+    max-width: 100%;
+    object-fit: contain;
+}
+
+@media (max-width: 600px) {
+    .support-row {
+        grid-template-columns: 1fr;
+    }
+
+    .lambda-card {
+        padding: 1.5rem 1.25rem;
+    }
 }
 
 .callout-title-container {
@@ -194,7 +304,26 @@ h2-uncap {
 
 The Health Service Modelling Associates (HSMA) Programme is an **online** programme teaching public sector analysts, clinicians and managers how to use **data science** and **operational research** techniques, as well as supporting them to apply these techniques in their organisations.
 
-The full HSMA course experience is provided **free of charge** to people working in health, social care and policing organisations in England.
+```{=html}
+<div class="stat-grid">
+  <div class="stat-tile">
+    <div class="stat-value">2016</div>
+    <div class="stat-label">First HSMA cohort</div>
+  </div>
+  <div class="stat-tile">
+    <div class="stat-value">400+</div>
+    <div class="stat-label">People supported over 6 cohorts</div>
+  </div>
+  <div class="stat-tile">
+    <div class="stat-value">15</div>
+    <div class="stat-label">Months of training and mentorship, for one day a week</div>
+  </div>
+  <div class="stat-tile">
+    <div class="stat-value">£0</div>
+    <div class="stat-label">Course fees for health, social care and policing in England</div>
+  </div>
+</div>
+```
 
 Recordings of previous course sessions, as well as all of our course materials and code, are offered **free of charge** to anyone, anywhere in the world for personal use and adaptation.
 
@@ -204,11 +333,11 @@ Recordings of previous course sessions, as well as all of our course materials a
 
 ![The course provides lectures, exercises, sample code and more for a diverse range of data science and operational research topics – all using the Python programming language or other free and open source tools. Non-participants can still access all of the course materials and recordings for free via this site!](resources/lecture_examples/abs.png)
 
-![Conceived and run by Dr Daniel Chalk — an operational researcher with years of experience working on projects with healthcare services — and NIHR PenARC, HSMA is designed to build data science and operational research capacity within organisations so that those who know the data and services best are able to make t he most of the data their organisations hold.](resources/photos/20250716_120702.jpg)
+![Conceived and run by Dr Daniel Chalk — an operational researcher with years of experience working on projects with healthcare services — and NIHR PenARC, HSMA is designed to build data science and operational research capacity within organisations so that those who know the data and services best are able to make the most of the data their organisations hold.](resources/photos/20250716_120702.jpg)
 
-![The HSMA programme has supported over 400 people since its inception in 2016, helping analysts, clinicians, service managers and more to produce transformational data projects in their organisations. HSMA proejcts have lead to the building of new wards, the setup of dedicated data science teams, and much more. HSMA can help you to understand and communicate the power of operational research and data science techniques in your organisations – and start doing the work yourself.](resources/photos/thoCeZ5Q.jpeg)
+![The HSMA programme has supported over 400 people since its inception in 2016, helping analysts, clinicians, service managers and more to produce transformational data projects in their organisations. HSMA projects have led to the building of new wards, the setup of dedicated data science teams, and much more. HSMA can help you to understand and communicate the power of operational research and data science techniques in your organisations – and start doing the work yourself.](resources/photos/thoCeZ5Q.jpeg)
 
-![With bespoke games, countless references to the 1980s, retro computing and more, HSMA is designed to be a fun, friendly space in which to learn to serious stuff.](resources/lecture_examples/chrome_p6pReINw8Y.gif)
+![With bespoke games, countless references to the 1980s, retro computing and more, HSMA is designed to be a fun, friendly space in which to learn the serious stuff.](resources/lecture_examples/chrome_p6pReINw8Y.gif)
 
 ![The course provides everything you need to get started, including teaching the Python programming language from scratch.](resources/lecture_examples/conditional_logic.png)
 
@@ -231,24 +360,22 @@ Recordings of previous course sessions, as well as all of our course materials a
 ![Students are given the opportunity to present their project work to a large audience of their peers and people from the wider world of health, policing and social care, encouraging the wider reuse of project work created on the programme.](resources/photos/zWhfxQKU.jpeg)
 :::
 
-```{=html}
-<br/>
-```
-
 :::{.callout-important appearance="minimal"}
-We are currently working on updating and improving HSMA ahead of the 7^th^ round of the programme, which we hope to launch in **early 2027**. There's some really exciting stuff planned for this round, so stay tuned! In the meantime, head to our [HSMA 7 page](hsma7.qmd) to find out more about what we'll be teaching, what's changed since HSMA 6, and answers to common questions.
+We are currently working on updating and improving HSMA ahead of the 7^th^ round of the programme, which we hope to launch in **spring/summer 2027**. There's some really exciting stuff planned for this round, so stay tuned! In the meantime, head to our [HSMA 7 page](hsma7.qmd) to find out more about what we'll be teaching, what's changed since HSMA 6, and answers to common questions.
 
-We are also putting together a new series of standalone workshops aimed at senior leaders, called HSMA-λ (lambda), which we hope to run in **Autumn 2026**. Click [here](lambda.qmd) to find out more, and let us know you're interested by filling in [this form](https://forms.cloud.microsoft/e/spFr8qr2pP).
+We are also putting together a new series of standalone workshops aimed at senior leaders, called HSMA-λ (lambda), which we hope to run in **winter 2026/27 – spring 2027**.
 
-If you are interested in being kept up to date with HSMA and being notified of when applications for HSMA 7 or HSMA-λ open, please [drop us an email](mailto:penchord@exeter.ac.uk?subject=Add%20me%20to%20the%20HSMA%20Mailing%20List%2C%20Please!&body=Please%20complete%20the%20fields%20below%20to%20be%20added%20to%20the%20HSMA%20mailing%20list%0A%0AFull%20Name%3A%0A%0AOrganisation%3A%0A%0A**This%20is%20an%20automatically%20generated%20email%20from%20a%20link%20on%20the%20HSMA%20website**) and we will keep you informed via our mailing list.
+Want to hear when applications for HSMA 7 or HSMA-λ open? Join our mailing list, register your interest in HSMA-λ, or follow us on LinkedIn.
 
-You can also follow us on [LinkedIn](https://www.linkedin.com/company/hsma-programme/).
+```{=html}
+<div class="cta-row">
+  <a class="custom-button" href="mailto:penchord@exeter.ac.uk?subject=Add%20me%20to%20the%20HSMA%20Mailing%20List%2C%20Please!&body=Please%20complete%20the%20fields%20below%20to%20be%20added%20to%20the%20HSMA%20mailing%20list%0A%0AFull%20Name%3A%0A%0AOrganisation%3A%0A%0A**This%20is%20an%20automatically%20generated%20email%20from%20a%20link%20on%20the%20HSMA%20website**"><i class="bi bi-envelope"></i>Join the mailing list</a>
+  <a class="custom-button" href="https://forms.cloud.microsoft/e/spFr8qr2pP"><i class="bi bi-pencil-square"></i>Register λ interest</a>
+  <a class="custom-button" href="https://www.linkedin.com/company/hsma-programme/"><i class="bi bi-linkedin"></i>Follow on LinkedIn</a>
+</div>
+```
 
 :::
-
-```{=html}
-<br/>
-```
 
 ## What Our Students Say
 
@@ -322,24 +449,26 @@ document.addEventListener('DOMContentLoaded', function () {
 </script>
 ```
 
-```{=html}
-<br/><br/>
-```
+## HSMA-λ (Lambda) {.no-caps}
 
-<h2-uncap>HSMA-λ (LAMBDA)</h2-uncap>
-
-In Autumn 2026, we are planning to launch a new series of standalone 3-hour workshops targeted at decision makers in the health service.
-
-HSMA-λ will focus on supporting participants to understand the advanced techniques that are taught on HSMA, empowering participants to **ask the right questions** and **interpret project outputs**.
-
-Attendees will not require any prior experience in mathematics, data science, operational research or computer programming.
-
-To find out more about our plans for HSMA-λ, head to [this page](lambda.qmd).
+::: {.lambda-card}
 
 ```{=html}
-<br/><br/>
+<div class="lambda-symbol">λ</div>
 ```
 
+HSMA-λ is a new series of standalone 3-hour workshops for **decision makers** in the health service, launching in **winter 2026/27 – spring 2027**.
+
+It focuses on understanding the advanced techniques taught on HSMA, empowering participants to **ask the right questions** and **interpret project outputs**. No prior experience in mathematics, data science, operational research or programming is needed.
+
+```{=html}
+<div class="cta-row">
+  <a class="custom-button" href="lambda.html"><i class="bi bi-arrow-right-circle"></i>Find out more</a>
+  <a class="custom-button" href="https://forms.cloud.microsoft/e/spFr8qr2pP"><i class="bi bi-pencil-square"></i>Register interest</a>
+</div>
+```
+
+:::
 
 ## Our Materials
 
@@ -358,76 +487,64 @@ Whether you are an alumni, current participant, or someone who is looking to lea
 </div>
 ```
 
-```{=html}
-<br/><br/>
-```
-
-
 ## Our Projects
 
 While HSMA involves a large training element, the main focus of the programme is to support participants to undertake their own projects in their organisations.
 
-On the website you can find more out about our [projects that are currently in progress](previous_projects/projects_in_progress.qmd) or [projects that have previously been undertaken](previous_projects/completed_projects.qmd).
-
-You can also view projects [by method](previous_projects/projects_by_methods.qmd), [by area of application](previous_projects/projects_by_service_area.qmd), [by HSMA cohort](previous_projects/projects_by_cohort.qmd) or [by service](previous_projects/projects_by_organisation.qmd).
-
 ```{=html}
-<br/><br/>
+<div class="value-grid-box-2" style="grid-template-columns: 1fr;">
+  <a href="impact.html" class="value-box" style="background-color: #c4161c; flex-direction: row; align-items: center; justify-content: center; gap: 1.25rem; min-height: 130px;">
+    <div class="icon" style="font-size: 2.75rem; margin-bottom: 0;"><i class="bi bi-graph-up-arrow"></i></div>
+    <div class="details" style="font-size: 1.6rem; font-weight: 500; text-align: left;">The impact of HSMA projects</div>
+  </a>
+</div>
+<div class="value-grid-box-2">
+  <a href="previous_projects/projects_in_progress.html" class="value-box bg-red" style="min-height: 130px; padding: 1rem;">
+    <div class="icon" style="font-size: 2rem;"><i class="bi bi-hourglass-split"></i></div>
+    <div class="details">Projects currently in progress</div>
+  </a>
+  <a href="previous_projects/completed_projects.html" class="value-box bg-red" style="min-height: 130px; padding: 1rem;">
+    <div class="icon" style="font-size: 2rem;"><i class="bi bi-check2-circle"></i></div>
+    <div class="details">Completed projects</div>
+  </a>
+</div>
+<div class="value-grid-box-4">
+  <a href="previous_projects/projects_by_methods.html" class="value-box">
+    <div class="icon"><i class="bi bi-diagram-3"></i></div>
+    <div class="details">Browse by method</div>
+  </a>
+  <a href="previous_projects/projects_by_service_area.html" class="value-box">
+    <div class="icon"><i class="bi bi-heart-pulse"></i></div>
+    <div class="details">Browse by area of care</div>
+  </a>
+  <a href="previous_projects/projects_by_cohort.html" class="value-box">
+    <div class="icon"><i class="bi bi-people"></i></div>
+    <div class="details">Browse by HSMA cohort</div>
+  </a>
+  <a href="previous_projects/projects_by_organisation.html" class="value-box">
+    <div class="icon"><i class="bi bi-building"></i></div>
+    <div class="details">Browse by organisation</div>
+  </a>
+</div>
 ```
-
 
 ## Support and Accreditation
 
+:::: {.support-row}
 
-:::: {.columns}
+::: {.support-item}
 
-::: {.column width="35%"}
-
-```{=html}
-<br/><br/>
-```
-
-![](resources/ARC-logo-horizontal-white.svg){max-height=200}
-
-:::
-
-::: {.column width="5%"}
-
-:::
-
-::: {.column width="60%"}
-
-```{=html}
-<br/><br/>
-```
+![](resources/ARC-logo-horizontal-white.svg){.support-logo-img fig-alt="NIHR ARC South West logo"}
 
 HSMA is supported by the [NHS Digital Academy](https://www.england.nhs.uk/digitaltechnology/nhs-digital-academy/) and delivered by a team belonging to the [NIHR Applied Research Collaboration South West (ARC South West)](https://arc-swp.nihr.ac.uk/).
 
-
 :::
 
-::::
+::: {.support-item}
 
+![](resources/Apha-Logo.svg){.support-logo-img fig-alt="AphA logo"}
 
-:::: {.columns}
-
-::: {.column width="25%"}
-
-![](resources/Apha-Logo.svg){max-height=200}
-
-:::
-
-::: {.column width="15%"}
-
-:::
-
-::: {.column width="60%"}
-
-```{=html}
-<br/><br/>
-```
-
-The programme is accredited by the [Association of Professional Healthcare Analysts (AphA)](https://www.aphanalysts.org/)
+The programme is accredited by the [Association of Professional Healthcare Analysts (AphA)](https://www.aphanalysts.org/).
 
 :::
 
