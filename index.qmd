@@ -467,16 +467,89 @@ filters:
 .value-grid-box-4 .value-box {
     min-height: 120px;
     padding: 1rem;
-    background-color: #5a0000;
 }
 
 .value-grid-box-4 .value-box .icon {
     font-size: 1.6rem;
 }
 
-.value-grid-box a.value-box,
-.value-grid-box-4 a.value-box {
+/* Dark link tiles with a neon top edge, matching the updates panel and quote cards.
+   Hierarchy comes from size and glow rather than different shades of red. */
+.neon-tile {
+    --accent: var(--neon-red);
+    --accent-glow: rgba(255, 45, 63, 0.55);
+    --accent-soft: #ff8a90;
+    position: relative;
+    overflow: hidden;
+    background-color: #1c1c1c;
+    border: 1px solid #2e2e2e;
     color: white;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.neon-tile::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--accent);
+    box-shadow: 0 0 12px var(--accent-glow);
+}
+
+.neon-tile .icon {
+    color: var(--accent-soft);
+}
+
+.neon-tile:hover {
+    border-color: var(--accent-glow);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35), 0 0 14px var(--accent-glow);
+}
+
+.neon-tile--magenta {
+    --accent: var(--neon-magenta);
+    --accent-glow: rgba(224, 33, 138, 0.55);
+    --accent-soft: #f08cc4;
+}
+
+.neon-tile--blue {
+    --accent: var(--neon-blue);
+    --accent-glow: rgba(47, 140, 255, 0.55);
+    --accent-soft: #8cc8f0;
+}
+
+.neon-tile--green {
+    --accent: var(--neon-green);
+    --accent-glow: rgba(25, 211, 154, 0.5);
+    --accent-soft: #8de8c9;
+}
+
+/* Headline tile: full neon gradient edge and a standing glow */
+.neon-tile--feature {
+    --accent: var(--neon-gradient);
+    --accent-glow: rgba(224, 33, 138, 0.5);
+    --accent-soft: #f08cc4;
+    border-color: rgba(224, 33, 138, 0.35);
+    box-shadow: 0 0 18px rgba(224, 33, 138, 0.18);
+}
+
+/* Secondary "browse by" tiles: no top edge, just a neon icon, lighting up on hover */
+.neon-tile--quiet {
+    background-color: #181818;
+}
+
+.neon-tile--quiet::before {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+.neon-tile--quiet:hover::before {
+    opacity: 1;
+}
+
+.neon-tile--quiet .details {
+    opacity: 0.85;
 }
 
 @media (max-width: 900px) {
@@ -1276,35 +1349,35 @@ While HSMA involves a large training element, the main focus of the programme is
 
 ```{=html}
 <div class="value-grid-box-2" style="grid-template-columns: 1fr;">
-  <a href="impact.html" class="value-box" style="background-color: #c4161c; flex-direction: row; align-items: center; justify-content: center; gap: 1.25rem; min-height: 130px;">
+  <a href="impact.html" class="value-box neon-tile neon-tile--feature" style="flex-direction: row; align-items: center; justify-content: center; gap: 1.25rem; min-height: 130px;">
     <div class="icon" style="font-size: 2.75rem; margin-bottom: 0;"><i class="bi bi-graph-up-arrow"></i></div>
     <div class="details" style="font-size: 1.6rem; font-weight: 500; text-align: left;">The impact of HSMA projects</div>
   </a>
 </div>
 <div class="value-grid-box-2">
-  <a href="previous_projects/projects_in_progress.html" class="value-box bg-red" style="min-height: 130px; padding: 1rem;">
+  <a href="previous_projects/projects_in_progress.html" class="value-box neon-tile" style="min-height: 130px; padding: 1rem;">
     <div class="icon" style="font-size: 2rem;"><i class="bi bi-hourglass-split"></i></div>
     <div class="details">Projects currently in progress</div>
   </a>
-  <a href="previous_projects/completed_projects.html" class="value-box bg-red" style="min-height: 130px; padding: 1rem;">
+  <a href="previous_projects/completed_projects.html" class="value-box neon-tile neon-tile--magenta" style="min-height: 130px; padding: 1rem;">
     <div class="icon" style="font-size: 2rem;"><i class="bi bi-check2-circle"></i></div>
     <div class="details">Completed projects</div>
   </a>
 </div>
 <div class="value-grid-box-4">
-  <a href="previous_projects/projects_by_methods.html" class="value-box">
+  <a href="previous_projects/projects_by_methods.html" class="value-box neon-tile neon-tile--quiet">
     <div class="icon"><i class="bi bi-diagram-3"></i></div>
     <div class="details">Browse by method</div>
   </a>
-  <a href="previous_projects/projects_by_service_area.html" class="value-box">
+  <a href="previous_projects/projects_by_service_area.html" class="value-box neon-tile neon-tile--quiet neon-tile--magenta">
     <div class="icon"><i class="bi bi-heart-pulse"></i></div>
     <div class="details">Browse by area of care</div>
   </a>
-  <a href="previous_projects/projects_by_cohort.html" class="value-box">
+  <a href="previous_projects/projects_by_cohort.html" class="value-box neon-tile neon-tile--quiet neon-tile--blue">
     <div class="icon"><i class="bi bi-people"></i></div>
     <div class="details">Browse by HSMA cohort</div>
   </a>
-  <a href="previous_projects/projects_by_organisation.html" class="value-box">
+  <a href="previous_projects/projects_by_organisation.html" class="value-box neon-tile neon-tile--quiet neon-tile--green">
     <div class="icon"><i class="bi bi-building"></i></div>
     <div class="details">Browse by organisation</div>
   </a>
