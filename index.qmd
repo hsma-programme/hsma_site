@@ -13,6 +13,21 @@ filters:
 
 ```{=html}
 <style>
+/* Bebas Neue echoes the condensed lettering of the HSMA logo tagline; VT323 is a retro terminal font */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=VT323&display=swap');
+
+/* Neon colours sampled from the site banner */
+:root {
+    --hsma-red: #c4161c;
+    --neon-red: #ff2d3f;
+    --neon-magenta: #e0218a;
+    --neon-blue: #2f8cff;
+    --neon-green: #19d39a;
+    --neon-gradient: linear-gradient(90deg, var(--neon-red), var(--neon-magenta) 35%, var(--neon-blue) 70%, var(--neon-green));
+    --display-font: 'Bebas Neue', 'Lexend', sans-serif;
+    --terminal-font: 'VT323', ui-monospace, monospace;
+}
+
 /* Centre the page content and title only, not the site-wide announcement banner */
 #title-block-header,
 #quarto-document-content {
@@ -20,9 +35,11 @@ filters:
 }
 
 #quarto-document-content h2 {
+    font-family: var(--display-font);
     text-transform: uppercase;
-    font-size: 2rem;
-    font-weight: 600;
+    font-size: 2.9rem;
+    font-weight: 400;
+    line-height: 1;
     letter-spacing: 0.12em;
     text-align: center;
     margin-top: 4.5rem;
@@ -44,7 +61,7 @@ filters:
     margin-top: 1.5rem;
 }
 
-/* Short red accent bar under each section heading */
+/* Short neon accent bar under each section heading */
 #quarto-document-content h2::after {
     content: "";
     display: block;
@@ -52,12 +69,13 @@ filters:
     height: 4px;
     margin: 0.85rem auto 0 auto;
     border-radius: 2px;
-    background-color: #c4161c;
+    background: var(--neon-gradient);
+    box-shadow: 0 0 10px rgba(224, 33, 138, 0.55), 0 0 2px rgba(255, 255, 255, 0.4);
 }
 
 @media (max-width: 600px) {
     #quarto-document-content h2 {
-        font-size: 1.5rem;
+        font-size: 2.2rem;
         letter-spacing: 0.08em;
     }
 }
@@ -186,7 +204,47 @@ filters:
 
 .splide-carousel .splide__progress__bar {
     height: 3px;
-    background: #c4161c;
+    background: var(--neon-gradient);
+    box-shadow: 0 0 8px rgba(224, 33, 138, 0.6);
+}
+
+/* CRT-style screen over the carousel image: a rolling refresh band, vignette and edge glow
+   (pointer-events off so clicks still open the lightbox) */
+.splide-carousel .splide__slide::after {
+    content: "";
+    position: absolute;
+    top: 9px;
+    left: calc(var(--card-inset-x) + 1px);
+    width: calc((100% - 2 * (var(--card-inset-x) + 1px)) * 0.6);
+    bottom: calc(var(--card-inset-bottom) + 1px);
+    border-radius: 13px 0 0 13px;
+    pointer-events: none;
+    /* Layers: rolling refresh band, vignette */
+    background:
+        linear-gradient(180deg, transparent 0%, rgba(255, 255, 255, 0.07) 45%, rgba(255, 140, 200, 0.09) 50%, rgba(255, 255, 255, 0.07) 55%, transparent 100%),
+        radial-gradient(ellipse at center, transparent 60%, rgba(0, 0, 0, 0.35) 100%);
+    background-size: 100% 22%, 100% 100%;
+    background-repeat: no-repeat, no-repeat;
+    background-position: 0 -30%, 0 0;
+    box-shadow: inset 0 0 28px rgba(0, 0, 0, 0.55), inset 0 0 2px rgba(255, 120, 180, 0.25);
+    animation: crt-refresh 7s linear infinite, crt-pulse 3.5s ease-in-out infinite;
+}
+
+@keyframes crt-refresh {
+    from { background-position: 0 -30%, 0 0; }
+    to   { background-position: 0 130%, 0 0; }
+}
+
+@keyframes crt-pulse {
+    0%, 100% { opacity: 0.7; }
+    50%      { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .splide-carousel .splide__slide::after {
+        animation: none;
+        background-position: 0 -100%, 0 0;
+    }
 }
 
 .splide-carousel .splide__optional-button-container {
@@ -249,6 +307,14 @@ filters:
         border-radius: 13px 13px 0 0;
     }
 
+    /* Image stacks on top here, so the scanlines cover the full width for the image's height */
+    .splide-carousel .splide__slide::after {
+        width: calc(100% - 2 * (var(--card-inset-x) + 1px));
+        bottom: auto;
+        height: 240px;
+        border-radius: 13px 13px 0 0;
+    }
+
     .splide-carousel .splide_caption {
         padding: 1.25rem 1.25rem;
         font-size: 0.95rem;
@@ -280,10 +346,21 @@ filters:
     box-shadow: 0 4px 8px rgba(0, 0, 0, 0.15);
 }
 
+/* Outlined numbers echoing the HSMA logo lettering */
 .stat-tile .stat-value {
-    font-size: 2.2rem;
-    font-weight: bold;
-    line-height: 1.1;
+    font-family: var(--display-font);
+    font-size: 3.4rem;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.06em;
+}
+
+@supports (-webkit-text-stroke: 1px white) {
+    .stat-tile .stat-value {
+        color: transparent;
+        -webkit-text-stroke: 1.5px white;
+        text-shadow: 0 0 12px rgba(255, 255, 255, 0.25);
+    }
 }
 
 .stat-tile .stat-label {
@@ -395,18 +472,47 @@ filters:
     overflow: hidden;
 }
 
+/* Terminal-style header: dark red-to-magenta band, neon underline, prompt and blinking cursor */
 .updates-header {
     display: flex;
     align-items: center;
     justify-content: center;
     gap: 0.6rem;
-    padding: 0.9rem 1.5rem;
-    background-color: #9c000d;
+    padding: 0.7rem 1.5rem;
+    background: linear-gradient(90deg, #7a000b, #9c000d 45%, #6d0f4f);
+    border-bottom: 2px solid transparent;
+    border-image: var(--neon-gradient) 1;
     color: white;
-    font-size: 1rem;
-    font-weight: 600;
-    letter-spacing: 0.12em;
+    font-family: var(--terminal-font);
+    font-size: 1.7rem;
+    line-height: 1.2;
+    letter-spacing: 0.06em;
     text-transform: uppercase;
+    text-shadow: 0 0 8px rgba(255, 120, 140, 0.55);
+}
+
+.updates-header .prompt {
+    color: #ff8a90;
+}
+
+.updates-header .cursor {
+    display: inline-block;
+    width: 0.55em;
+    height: 1em;
+    margin-left: 0.1em;
+    background-color: currentColor;
+    vertical-align: -0.12em;
+    animation: cursor-blink 1.1s steps(1) infinite;
+}
+
+@keyframes cursor-blink {
+    50% { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .updates-header .cursor {
+        animation: none;
+    }
 }
 
 .updates-grid {
@@ -422,19 +528,36 @@ filters:
     align-items: flex-start;
     padding: 1.25rem 1.4rem;
     border-radius: 10px;
+    position: relative;
+    overflow: hidden;
     background-color: #1c1c1c;
-    border-top: 4px solid #c4161c;
     text-align: left;
 }
 
-.update-item.update-lambda {
-    border-top-color: #3498db;
+/* Neon top edge (a pseudo-element rather than border-image, which ignores border-radius) */
+.update-item::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, var(--neon-red), var(--neon-magenta));
+    box-shadow: 0 0 10px rgba(224, 33, 138, 0.6);
+}
+
+.update-item.update-lambda::before {
+    background: linear-gradient(90deg, var(--neon-blue), var(--neon-green));
+    box-shadow: 0 0 10px rgba(47, 140, 255, 0.6);
 }
 
 .update-item h3 {
-    margin: 0.75rem 0 0.5rem 0;
-    font-size: 1.4rem;
-    font-weight: 600;
+    margin: 0.75rem 0 0.4rem 0;
+    font-family: var(--display-font);
+    font-size: 2.1rem;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.05em;
 }
 
 .update-item p {
@@ -446,10 +569,12 @@ filters:
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;
-    padding: 0.25rem 0.75rem;
-    border-radius: 999px;
-    font-size: 0.8rem;
-    font-weight: 500;
+    padding: 0.1rem 0.7rem;
+    border-radius: 4px;
+    font-family: var(--terminal-font);
+    font-size: 1.15rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
     background-color: rgba(196, 22, 28, 0.2);
     color: #ff8a90;
 }
@@ -494,8 +619,8 @@ filters:
     }
 
     .updates-header {
-        font-size: 0.9rem;
-        letter-spacing: 0.08em;
+        font-size: 1.35rem;
+        letter-spacing: 0.04em;
     }
 }
 
@@ -691,7 +816,7 @@ Recordings of previous course sessions, as well as all of our course materials a
 
 ```{=html}
 <div class="updates-panel">
-  <div class="updates-header"><i class="bi bi-megaphone-fill"></i>Updates from the HSMA team</div>
+  <div class="updates-header"><span><span class="prompt" aria-hidden="true">&gt; </span>Updates from the HSMA team<span class="cursor" aria-hidden="true"></span></span></div>
   <div class="updates-grid">
     <div class="update-item update-hsma7">
       <span class="update-badge"><i class="bi bi-calendar-event"></i>Spring/summer 2027</span>
