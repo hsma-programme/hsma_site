@@ -8,4 +8,5 @@ pub-info:
         Covering the key concepts of discrete event simulation in beginner-friendly terms before moving on to coding your own simulations in Python using the SimPy package, you'll be identifying bottlenecks and testing out changes to resourcing and pathway designs in no time.
 link: https://hsma-programme.github.io/hsma6_des_book/
 image: "des_cover_image.jpeg"
+accent: blue
 ---

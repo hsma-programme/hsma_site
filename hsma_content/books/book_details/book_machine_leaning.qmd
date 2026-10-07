@@ -10,4 +10,5 @@ pub-info:
         To round this set of notebooks off, we take a dive into how you can calibrate and optimise your models, as well as taking a look at what's going on under the hood with explainable techniques like PDP, ICE and SHAP plots.
 link: https://hsma-programme.github.io/h6_module4_notebooks/
 image: "machine_learning_cover_image.jpeg"
+accent: green
 ---

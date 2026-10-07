@@ -160,7 +160,7 @@ a {
   font-weight: bold;          /* Bold text */
   text-align: center;         /* Center the text */
   text-decoration: none;      /* Remove underline from text */
-  cursor: none;               /* Normal cursor on hover */
+  cursor: default;            /* Normal cursor on hover */
   border-radius: 5px;         /* Rounded corners */
 }
 
@@ -175,7 +175,7 @@ a {
   font-weight: bold;          /* Bold text */
   text-align: center;         /* Center the text */
   text-decoration: none;      /* Remove underline from text */
-  cursor: none;               /* Normal cursor on hover */
+  cursor: default;            /* Normal cursor on hover */
   border-radius: 5px;         /* Rounded corners */
 }
 
@@ -189,7 +189,7 @@ a {
   font-weight: bold;          /* Bold text */
   text-align: center;         /* Center the text */
   text-decoration: none;      /* Remove underline from text */
-  cursor: none;               /* Normal cursor on hover */
+  cursor: default;            /* Normal cursor on hover */
 }
 
 .listing-abstract {
@@ -331,7 +331,7 @@ a {
   font-weight: bold;          /* Bold text */
   text-align: center;         /* Center the text */
   text-decoration: none;      /* Remove underline from text */
-  cursor: none;               /* Normal cursor on hover */
+  cursor: default;            /* Normal cursor on hover */
   border-radius: 5px;         /* Rounded corners */
 }
 
@@ -353,7 +353,7 @@ a {
   font-weight: bold;          /* Bold text */
   text-align: center;         /* Center the text */
   text-decoration: none;      /* Remove underline from text */
-  cursor: none;               /* Normal cursor on hover */
+  cursor: default;            /* Normal cursor on hover */
 }
 
 .session-link-listing-button a {

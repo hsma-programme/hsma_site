@@ -10,4 +10,5 @@ pub-info:
         We also take a brief look at handling data in the popular, industry-standard numpy and pandas packages, as well as a quick introduction to creating static and interactive graphs, making sure you're equipped with the key knowledge a budding data scientist or operational researcher needs!
 link: https://hsma-programme.github.io/hsma6_intro_to_python_book/
 image: "python_cover_image.jpeg"
+accent: red
 ---

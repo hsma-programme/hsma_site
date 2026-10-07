@@ -14,11 +14,174 @@ listing:
       template: html/books/listing.ejs
 ---
 
+```{=html}
+<style>
+/* Shared neon colours, fonts and .neon-tile live in styles.css (neon design language section) */
+
+/* Two books per row, three on very wide screens, one on phones */
+.book-grid {
+    display: grid;
+    grid-template-columns: repeat(2, minmax(0, 1fr));
+    gap: 1.5rem;
+    margin: 1.5rem 0 1rem 0;
+}
+
+/* The page body is capped at ~1140px, so on very wide screens let the grid break out of it, centred */
+@media (min-width: 1921px) {
+    .book-grid {
+        grid-template-columns: repeat(3, minmax(0, 1fr));
+        width: min(1800px, calc(100vw - 6rem));
+        position: relative;
+        left: 50%;
+        transform: translateX(-50%);
+    }
+}
+
+@media (max-width: 800px) {
+    .book-grid {
+        grid-template-columns: 1fr;
+    }
+}
+
+.book-card {
+    border-radius: 12px;
+    padding: 1.5rem;
+    container-type: inline-size;
+}
+
+/* Cover beside the text when the card is wide enough, above it when not */
+.book-card-inner {
+    display: grid;
+    grid-template-columns: minmax(160px, 38%) 1fr;
+    gap: 1.5rem;
+    align-items: start;
+}
+
+@container (max-width: 520px) {
+    .book-card-inner {
+        grid-template-columns: 1fr;
+    }
+
+    .book-cover {
+        max-width: 320px;
+    }
+}
+
+.book-cover {
+    display: block;
+    border-radius: 8px;
+    overflow: hidden;
+    border: 1px solid #2e2e2e;
+    transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
+}
+
+.book-cover img {
+    display: block;
+    width: 100%;
+    height: auto;
+}
+
+.book-cover:hover {
+    transform: translateY(-3px);
+    border-color: var(--accent-soft);
+    box-shadow: 0 0 18px var(--accent-glow);
+}
+
+.book-body {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    height: 100%;
+}
+
+.book-badge {
+    padding: 0.05rem 0.6rem;
+    border-radius: 4px;
+    font-family: var(--terminal-font);
+    font-size: 1.1rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    color: var(--accent-soft);
+    background-color: color-mix(in srgb, var(--accent-soft) 15%, transparent);
+}
+
+.book-badge::before {
+    content: "> ";
+}
+
+/* Override the shared listing title's forced capitalisation, which turns "of" into "Of" */
+.book-card .book-title {
+    margin: 0.75rem 0 0.75rem 0;
+    padding: 0;
+    font-family: var(--display-font);
+    font-size: 2rem;
+    font-weight: 400;
+    line-height: 1.05;
+    letter-spacing: 0.04em;
+    text-transform: none;
+}
+
+.book-abstract {
+    flex-grow: 1;
+    margin-bottom: 1.25rem;
+    font-size: 0.92rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.book-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.55rem 1.3rem;
+    border-radius: 8px;
+    border: 2px solid var(--accent-soft);
+    background-color: color-mix(in srgb, var(--accent-soft) 10%, transparent);
+    color: var(--accent-soft);
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 0 8px var(--accent-glow);
+    transition: box-shadow 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+}
+
+.book-button:hover {
+    color: white;
+    background-color: color-mix(in srgb, var(--accent-soft) 22%, transparent);
+    box-shadow: 0 0 18px var(--accent-glow);
+}
+
+/* Pointer to the modules page, matching the outlined neon buttons elsewhere */
+.modules-jump {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 1.2rem;
+    border-radius: 8px;
+    border: 2px solid var(--neon-red);
+    background-color: rgba(255, 45, 63, 0.08);
+    color: #ff8a90;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(255, 45, 63, 0.3);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+}
+
+.modules-jump:hover {
+    color: #f08cc4;
+    border-color: var(--neon-magenta);
+    box-shadow: 0 0 16px rgba(224, 33, 138, 0.5);
+}
+</style>
+```
+
 To accompany the HSMA course, we have written several eBooks.
 
 These are freely available to all - please share them with anyone you think would find them useful!
 
 Prefer to follow along with the original session recordings, slides and exercises? Head to the [modules](modules.qmd) page instead.
+
+[<i class="bi bi-collection-play"></i> Go to the modules page](modules.qmd){.modules-jump}
 
 :::{#books}
 :::
