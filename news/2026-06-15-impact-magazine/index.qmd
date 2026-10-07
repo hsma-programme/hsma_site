@@ -1,0 +1,52 @@
+---
+title: "HSMA in the OR Society's Impact Magazine"
+title-block-banner: ../banner.png
+author:
+    - "Dr Dan Chalk"
+    - "Sammi Rosser"
+date: "2026-06-15"
+date-modified: "2026-06-15"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    Our article on the HSMA programme features in the spring 2026 issue of the OR Society's Impact magazine - click to find out more!
+image: image.jpg
+image-alt: "Dr Dan Chalk and Sammi Rosser in HSMA t-shirts"
+---
+
+```{=html}
+<style>
+/* Issuu flipbook: full width, a two-page spread on wide screens, tall enough for one page on phones */
+.magazine-embed {
+  width: 100%;
+  aspect-ratio: 5 / 3;
+  min-height: 480px;
+  margin: 1.5rem 0;
+}
+
+.magazine-embed iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 8px;
+}
+</style>
+```
+
+We're delighted to share our article in the spring 2026 issue of *Impact*, the Operational Research Society's magazine.
+
+In "The Health Service Modelling Associates (HSMA) Programme: Where We're Going, We Don't Need Excel", Dan Chalk and Sammi Rosser explain what makes HSMA different from a typical training course: associates don't just learn new skills, they get ongoing support to use them on real projects in their own organisations - all free of charge.
+
+The article looks back at how the programme has grown since it began in 2016, originally based on an idea from PenCHORD founders Prof. Martin Pitt and the late Prof. Ken Stein, and gives an overview of some of the impact HSMA projects have had.
+
+You can read the full article below, or on Issuu: [https://issuu.com/orsimpact/docs/impact_spring_2026](https://issuu.com/orsimpact/docs/impact_spring_2026) (starting on page 23).
+
+<div class="magazine-embed">
+<iframe src="https://e.issuu.com/embed.html?u=orsimpact&d=impact_spring_2026&pageNumber=25" title="HSMA article in the OR Society's Impact magazine, spring 2026" allow="clipboard-write,allow-top-navigation,allow-top-navigation-by-user-activation,allow-downloads,allow-scripts,allow-same-origin,allow-popups,allow-modals,allow-popups-to-escape-sandbox,allow-forms" allowfullscreen="true"></iframe>
+</div>
