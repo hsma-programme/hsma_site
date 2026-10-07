@@ -1018,7 +1018,7 @@ The Health Service Modelling Associates (HSMA) Programme is an **online** progra
   </div>
   <div class="stat-tile">
     <div class="stat-value">£0</div>
-    <div class="stat-label">Course fees for health, social care and policing in England</div>
+    <div class="stat-label">Course fees for health and social care in England</div>
   </div>
 </div>
 ```
@@ -1072,7 +1072,7 @@ Recordings of previous course sessions, as well as all of our course materials a
 
 ![Being part of the HSMA community gives students a chance to gain expert advice from not only the lecturers, but a wider community of operational researchers, data scientists, and programme alumni. Students gain a valuable opportunity to network with like-minded people from across the country, forging links across organisations and sectors.](resources/photos/20250716_140810.jpg)
 
-![Students are given the opportunity to present their project work to a large audience of their peers and people from the wider world of health, policing and social care, encouraging the wider reuse of project work created on the programme.](resources/photos/zWhfxQKU.jpeg)
+![Students are given the opportunity to present their project work to a large audience of their peers and people from the wider world of health and social care, encouraging the wider reuse of project work created on the programme.](resources/photos/zWhfxQKU.jpeg)
 :::
 
 ```{=html}

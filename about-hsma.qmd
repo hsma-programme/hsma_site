@@ -7,9 +7,9 @@ toc: false
 
 ## What is the HSMA Programme?
 
-Operational Research and Data Science approaches – such as Machine Learning – can play a vital role in supporting the delivery of health, social care and policing services. Increasingly, such skills are proving to be important components of the analytical function of organisations in these sectors.
+Operational Research and Data Science approaches – such as Machine Learning – can play a vital role in supporting the delivery of health and social care services. Increasingly, such skills are proving to be important components of the analytical function of organisations in these sectors.
 
-In 2016, [NIHR PenARC](https://arc-swp.nihr.ac.uk/) launched the Health Service Modelling Associates (HSMA) Programme - an innovative and now entirely online training and mentoring programme in which staff working in health, social care and policing organisations are released for a day a week for a year to work on a modelling, simulation or data science project that addresses an issue of importance for their organisation.
+In 2016, [NIHR PenARC](https://arc-swp.nihr.ac.uk/) launched the Health Service Modelling Associates (HSMA) Programme - an innovative and now entirely online training and mentoring programme in which staff working in health and social care organisations are released for a day a week for a year to work on a modelling, simulation or data science project that addresses an issue of importance for their organisation.
 
 HSMA projects have led to
 
@@ -46,5 +46,5 @@ In Phase 1 (6 months), participants are taught a huge range of skills in Operati
 At any point during the programme a HSMA can register a project. By registering a project, the HSMA will receive a dedicated Slack channel that can be used to develop the project proposal, invite collaborators from the HSMA community, post updates of progress and ask for support. Phase 2 (9 months), will allow current HSMAs to undertake their Inception Project - first modelling or data science project - with access to a community of experts and regular drop in sessions for support.
 
 :::{.callout-important appearance="minimal"}
-We will only be able to register and support projects that are related to the modelling and data science areas taught within the HSMA programme and are in the areas of health, social care and policing.
+We will only be able to register and support projects that are related to the modelling and data science areas taught within the HSMA programme and are in the areas of health and social care.
 :::

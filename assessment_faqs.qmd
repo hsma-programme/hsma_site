@@ -89,7 +89,7 @@ Yes please!
 
 #### Does my project need to be registered?
 
-The project must be an officially registered HSMA project (registered on the HSMA Project Register). This ensures that the project is one that uses the skills taught on the programme, and has an application area in health, social care or policing.
+The project must be an officially registered HSMA project (registered on the HSMA Project Register). This ensures that the project is one that uses the skills taught on the programme, and has an application area in health or social care.
 
 If your project is not already registered, you can follow the instructions on [this page](registering_a_project.qmd#registering-your-project).
 
