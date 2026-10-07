@@ -5,9 +5,12 @@ include-back-link: false
 page-layout: full
 grid:
   sidebar-width: 0px
-  body-width: 1100px
+  body-width: 1400px
   margin-width: 300px
   gutter-width: 1.5rem
+toc: false
+filters:
+  - bergam0t/value-box
 ---
 
 ```{=html}
@@ -73,11 +76,33 @@ Originally built for introducing people to Discrete Event Simulation at our open
 
 Try it out below!
 
-:::{.callout-important appearance="minimal"}
-Note that the website will not work in Firefox due to browser restrictions.
-It has been confirmed to work in Chrome, Edge and Safari.
+<div style="display: flex; justify-content: center; align-items: center;">
+
+::: {.value-box fragment="fade-in" icon="fa-solid fa-lightbulb" icon-position="left" align="center" color="bg-green" font-size="1.3rem" width="50%" min-height="80px"}
+Want more of a guided walkthrough?
+
+Keep scrolling!
 :::
+</div>
+
+
 
 ```{=html}
 <iframe class="hsma-iframe" width="90%" src="https://hsma-programme.github.io/Teaching_DES_Concepts_Streamlit/" title="HSMA DES Playground"></iframe>
 ```
+
+<br/>
+
+## HACA 2025 Workshop
+
+Want a bit more of a guided walkthrough of the DES playground?
+
+[Lucy Morgan (now Head of Analytics & Modelling at the Strategy Unit)](https://www.strategyunitwm.nhs.uk/author/lucy-morgan) ran two workshops at the Health and Care Analytics (HACA) conference in 2025 that made use of the DES playground.
+
+If you're brand new to simulation, you might first want to watch part 1 - "An introduction to simulation: The tool that will power up your strategic decision making".
+
+{{< video https://www.youtube.com/watch?v=fhqkM1LqXGs width="1000" height="600" >}}
+
+Part 2 - "A simulation deep dive: Get hands on with the inner workings of a simulation model" - then walks you through modelling with a guided tour of the DES playground.
+
+{{< video https://www.youtube.com/watch?v=LpcojxAegl0 width="1000" height="600" >}}
