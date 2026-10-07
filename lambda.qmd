@@ -4,15 +4,15 @@ toc: false
 title-block-banner: resources/banner.png
 include-back-link: false
 page-layout: full
+body-classes: neon-headings neon-headings--left lambda-theme
 ---
 
 ```{=html}
 <style>
-/* Display and terminal fonts, as used on the homepage */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=VT323&display=swap');
+/* Shared fonts, colours, headings, tiles and highlights live in styles.css (neon design language section) */
 
-/* Expression of interest card, echoing the homepage's λ update card */
-.eoi-card {
+/* Dark feature card echoing the homepage's λ update card */
+.lambda-card {
     position: relative;
     overflow: hidden;
     margin: 1.5rem 0 2rem 0;
@@ -25,24 +25,24 @@ page-layout: full
 }
 
 /* Neon top edge (a pseudo-element rather than border-image, which ignores border-radius) */
-.eoi-card::before {
+.lambda-card::before {
     content: "";
     position: absolute;
     top: 0;
     left: 0;
     right: 0;
     height: 4px;
-    background: linear-gradient(90deg, #2f8cff, #19d39a);
+    background: var(--lambda-gradient);
     box-shadow: 0 0 12px rgba(47, 140, 255, 0.6);
 }
 
-.eoi-badge {
+.lambda-badge {
     display: inline-flex;
     align-items: center;
     gap: 0.4rem;
     padding: 0.1rem 0.7rem;
     border-radius: 4px;
-    font-family: 'VT323', ui-monospace, monospace;
+    font-family: var(--terminal-font);
     font-size: 1.15rem;
     letter-spacing: 0.04em;
     text-transform: uppercase;
@@ -50,18 +50,22 @@ page-layout: full
     color: #8cc8f0;
 }
 
-.eoi-card h3 {
+.lambda-card h3 {
     margin: 0.85rem 0 0.6rem 0;
-    font-family: 'Bebas Neue', 'Lexend', sans-serif;
+    font-family: var(--display-font);
     font-size: 2.6rem;
     font-weight: 400;
     line-height: 1;
     letter-spacing: 0.05em;
 }
 
-.eoi-card p {
+.lambda-card p {
     max-width: 620px;
     margin: 0 auto 0.75rem auto;
+}
+
+.lambda-card p:last-child {
+    margin-bottom: 0;
 }
 
 .eoi-button {
@@ -71,7 +75,7 @@ page-layout: full
     margin: 0.75rem 0 1rem 0;
     padding: 0.8rem 1.8rem;
     border-radius: 8px;
-    background: linear-gradient(90deg, #2f8cff, #19d39a);
+    background: var(--lambda-gradient);
     color: #0d0d0d;
     font-size: 1.15rem;
     font-weight: 700;
@@ -86,11 +90,11 @@ page-layout: full
     box-shadow: 0 0 26px rgba(25, 211, 154, 0.6);
 }
 
-.eoi-card .eoi-note {
+.lambda-card .eoi-note {
     font-size: 0.9rem;
     opacity: 0.75;
-    margin-bottom: 0;
 }
+
 /* Smaller outlined version near the top of the page that jumps down to the card */
 .eoi-jump-row {
     display: flex;
@@ -104,7 +108,7 @@ page-layout: full
     gap: 0.5rem;
     padding: 0.55rem 1.3rem;
     border-radius: 8px;
-    border: 2px solid #2f8cff;
+    border: 2px solid var(--neon-blue);
     background-color: rgba(47, 140, 255, 0.1);
     color: #8cc8f0;
     font-weight: 700;
@@ -115,7 +119,7 @@ page-layout: full
 
 .eoi-jump:hover {
     color: #8de8c9;
-    border-color: #19d39a;
+    border-color: var(--neon-green);
     box-shadow: 0 0 16px rgba(25, 211, 154, 0.5);
 }
 
@@ -123,12 +127,22 @@ page-layout: full
 #register-interest {
     scroll-margin-top: 90px;
 }
+
+/* Thin neon line above each workshop description, matching its tile's colour */
+.workshop-col {
+    padding-top: 1rem;
+    border-top: 3px solid var(--col-accent);
+}
+
+.workshop-col--blue { --col-accent: var(--neon-blue); }
+.workshop-col--magenta { --col-accent: var(--neon-magenta); }
+.workshop-col--green { --col-accent: var(--neon-green); }
 </style>
 ```
 
-Launching in **winter 2026/27 – spring 2027**, our new HSMA-λ (HSMA lambda) offering is a series of **standalone workshops** targeted at decision makers in the health service.
+Launching in **winter 2026/27 – spring 2027**, our new HSMA-λ (HSMA lambda) offering is a series of [**standalone workshops**]{.neon-text} targeted at decision makers in the health service.
 
-HSMA-λ will focus on supporting participants to understand the advanced techniques that are taught on HSMA so you can **ask the right questions** and **interpret project outputs**.
+HSMA-λ will focus on supporting participants to understand the advanced techniques that are taught on HSMA so you can [**ask the right questions**]{.neon-text} and [**interpret project outputs**]{.neon-text}.
 
 ```{=html}
 <div class="eoi-jump-row">
@@ -138,7 +152,8 @@ HSMA-λ will focus on supporting participants to understand the advanced techniq
 
 <br/>
 
-<div class="value-box-simple bg-red" style="justify-content:center; text-align:center;">
+<div class="lambda-card">
+<span class="lambda-badge"><i class="bi bi-terminal"></i>No prior experience needed</span>
 <h3>No code, no technical jargon</h3>
 
 <p>Just teaching focused on real-world application, helping you understand the art of the possible in cutting-edge data science and operational research techniques, whatever your prior level of knowledge.</p>
@@ -150,15 +165,15 @@ Taught by the core HSMA team – applied University of Exeter researchers who ha
 
 ```{=html}
 <div class="value-grid-box" style="justify-content:center; text-align:center;">
-    <div class="value-box bg-red">
+    <div class="value-box neon-tile neon-tile--lambda">
         <div class="icon" style="font-size: 2rem;"><i class="bi bi-cloud"></i></div>
         <div class="details">An interactive online workshop lasting around 3 hours, with plenty of time for group discussions and questions.</div>
     </div>
-    <div class="value-box bg-red">
+    <div class="value-box neon-tile neon-tile--lambda">
         <div class="icon" style="font-size: 2rem;"><i class="bi bi-currency-pound"></i></div>
         <div class="details">Free of charge to people working in a public sector healthcare organisation.</div>
     </div>
-    <div class="value-box bg-red">
+    <div class="value-box neon-tile neon-tile--lambda">
         <div class="icon" style="font-size: 2rem;"><i class="fa-solid fa-users"></i></div>
         <div class="details">Delivered to small groups of under 20 people, made up exclusively of people working in similar roles across the health service.</div>
     </div>
@@ -182,15 +197,15 @@ At each workshop, you will
 
 ```{=html}
 <div class="value-grid-box" style="justify-content:center; text-align:center;">
-    <div class="value-box bg-red">
+    <div class="value-box neon-tile neon-tile--blue">
         <div class="icon" style="font-size: 2rem;"><i class="bi bi-signpost-split"></i></div>
         <div class="details">Simulation Modelling<br>for Pathway Problems</div>
     </div>
-    <div class="value-box bg-red">
+    <div class="value-box neon-tile neon-tile--magenta">
         <div class="icon" style="font-size: 2rem;"><i class="bi bi-globe-americas"></i></div>
         <div class="details">Location Optimization<br>for Equity and Efficiency</div>
     </div>
-    <div class="value-box bg-red">
+    <div class="value-box neon-tile neon-tile--green">
         <div class="icon" style="font-size: 2rem;"><i class="fa-solid fa-brain"></i></div>
         <div class="details">Machine Learning<br>for Operational Improvements</div>
     </div>
@@ -202,7 +217,7 @@ At each workshop, you will
 
 :::: {.columns}
 
-::: {.column width='30%'}
+::: {.column .workshop-col .workshop-col--blue width='30%'}
 In this workshop, we explore the powerful technique of **discrete event simulation (DES)**.
 
 DES allows you to create computer models of pathways, helping you to answer 'what-if' questions about pathway resourcing and configuration in a risk-free environment.
@@ -215,7 +230,7 @@ Understanding the kind of questions that are suited to DES unlocks a powerful ne
 ::: {.column width='5%'}
 :::
 
-::: {.column width='30%'}
+::: {.column .workshop-col .workshop-col--magenta width='30%'}
 In this workshop, we explore how we can better understand the geographical distribution of our demand and make sure our services are in the right place to support our population.
 
 We will explore the powerful location optimization algorithms that the HSMA course teaches analysts to use, helping you manage new sites, service closures, or locating a range of new services in a data-driven way that can account for real-world car and public transport travel times, equity, and emissions.
@@ -224,7 +239,7 @@ We will explore the powerful location optimization algorithms that the HSMA cour
 ::: {.column width='5%'}
 :::
 
-::: {.column width='30%'}
+::: {.column .workshop-col .workshop-col--green width='30%'}
 In this workshop, we focus on how machine learning can be used to drive operational improvements.
 
 Helping to carefully navigate the complexity of how machine learning projects can be used for service improvement, we explore the data requirements, ethics and regulations surrounding machine learning in operational contexts.
@@ -241,8 +256,8 @@ We also equip you with the knowledge you need to ask the right questions about a
 ## Signing Up
 
 ```{=html}
-<div class="eoi-card" id="register-interest">
-  <span class="eoi-badge"><i class="bi bi-calendar-event"></i>Winter 2026/27 – spring 2027</span>
+<div class="lambda-card" id="register-interest">
+  <span class="lambda-badge"><i class="bi bi-calendar-event"></i>Winter 2026/27 – spring 2027</span>
   <h3>Register your interest</h3>
   <p>We would be delighted if you could fill in our expression of interest form for HSMA-λ. This will help us to ensure we offer enough dates for each workshop.</p>
   <a class="eoi-button" href="https://forms.cloud.microsoft/e/spFr8qr2pP"><i class="bi bi-pencil-square"></i>Register λ interest</a>
@@ -257,7 +272,7 @@ You can also follow us on [LinkedIn](https://www.linkedin.com/company/hsma-progr
 
 ## FAQs
 
-::: {.faq}
+::: {.faq .faq--lambda}
 
 <details>
 <summary>Will I learn to undertake these projects myself?</summary>

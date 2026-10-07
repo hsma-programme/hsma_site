@@ -1,3 +1,6 @@
+/* Bebas Neue echoes the condensed lettering of the HSMA logo tagline; VT323 is a retro terminal font.
+   @import must come before any other rule in the file. */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400&family=VT323&display=swap');
 
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 600px) {
@@ -496,4 +499,226 @@ a {
 
 .faq details > p:last-child {
   padding-bottom: 1rem;
+}
+
+/* λ variant: dark panels with a blue neon edge instead of HSMA red */
+.faq--lambda details {
+  background: #1c1c1c;
+  border-color: rgba(47, 140, 255, 0.3);
+  border-left: 3px solid var(--neon-blue);
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.faq--lambda details summary::after {
+  color: #8cc8f0;
+}
+
+.faq--lambda details:hover,
+.faq--lambda details[open] {
+  border-color: rgba(47, 140, 255, 0.55);
+  border-left-color: var(--neon-green);
+  box-shadow: 0 0 12px rgba(47, 140, 255, 0.25);
+}
+
+/* ==== Neon / retro design language (homepage, lambda page) ==== */
+
+/* Neon colours sampled from the site banner */
+:root {
+    --hsma-red: #c4161c;
+    --neon-red: #ff2d3f;
+    --neon-magenta: #e0218a;
+    --neon-blue: #2f8cff;
+    --neon-green: #19d39a;
+    --neon-gradient: linear-gradient(90deg, var(--neon-red), var(--neon-magenta) 35%, var(--neon-blue) 70%, var(--neon-green));
+    /* HSMA-λ's own accent: the blue-to-green end of the banner */
+    --lambda-gradient: linear-gradient(90deg, var(--neon-blue), var(--neon-green));
+    --display-font: 'Bebas Neue', 'Lexend', sans-serif;
+    --terminal-font: 'VT323', ui-monospace, monospace;
+}
+
+/* Section headings in the display font with a short neon bar underneath.
+   Opt in per page with `body-classes: neon-headings` in the front matter;
+   add `neon-headings--left` for left-aligned pages and `lambda-theme` for the blue-green bar. */
+.neon-headings {
+    --heading-bar: var(--neon-gradient);
+    --heading-bar-glow: rgba(224, 33, 138, 0.55);
+}
+
+.neon-headings.lambda-theme {
+    --heading-bar: var(--lambda-gradient);
+    --heading-bar-glow: rgba(47, 140, 255, 0.55);
+}
+
+.neon-headings #quarto-document-content h2 {
+    font-family: var(--display-font);
+    text-transform: uppercase;
+    font-size: 2.9rem;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.12em;
+    text-align: center;
+    margin-top: 4.5rem;
+    margin-bottom: 1.75rem;
+    /* Balances the trailing letter-spacing after the last letter so the text centres over the bar */
+    padding-left: 0.12em;
+    padding-bottom: 0;
+    border-bottom: none;
+    position: relative;
+}
+
+/* Take Quarto's hover anchor link out of the flow so it doesn't push the heading text off-centre */
+.neon-headings #quarto-document-content h2 .anchorjs-link {
+    position: absolute;
+    padding-left: 0.4em;
+}
+
+.neon-headings #quarto-document-content h2::after {
+    content: "";
+    display: block;
+    width: 110px;
+    height: 4px;
+    margin: 0.85rem auto 0 auto;
+    border-radius: 2px;
+    background: var(--heading-bar);
+    box-shadow: 0 0 10px var(--heading-bar-glow), 0 0 2px rgba(255, 255, 255, 0.4);
+}
+
+.neon-headings--left #quarto-document-content h2 {
+    text-align: left;
+    padding-left: 0;
+    margin-top: 3.5rem;
+}
+
+.neon-headings--left #quarto-document-content h2::after {
+    margin-left: 0;
+}
+
+@media (max-width: 600px) {
+    .neon-headings #quarto-document-content h2 {
+        font-size: 2.2rem;
+        letter-spacing: 0.08em;
+    }
+}
+
+/* Dark tiles with a neon top edge, matching the homepage updates panel and quote cards.
+   Hierarchy comes from size and glow rather than different shades of red.
+   Only tiles that are links glow on hover, so information tiles don't look clickable. */
+.neon-tile {
+    --accent: var(--neon-red);
+    --accent-glow: rgba(255, 45, 63, 0.55);
+    --accent-soft: #ff8a90;
+    position: relative;
+    overflow: hidden;
+    background-color: #1c1c1c;
+    border: 1px solid #2e2e2e;
+    color: white;
+    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
+}
+
+.neon-tile::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--accent);
+    box-shadow: 0 0 12px var(--accent-glow);
+}
+
+.neon-tile .icon {
+    color: var(--accent-soft);
+}
+
+a.neon-tile:hover {
+    border-color: var(--accent-glow);
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35), 0 0 14px var(--accent-glow);
+}
+
+.neon-tile--magenta {
+    --accent: var(--neon-magenta);
+    --accent-glow: rgba(224, 33, 138, 0.55);
+    --accent-soft: #f08cc4;
+}
+
+.neon-tile--blue {
+    --accent: var(--neon-blue);
+    --accent-glow: rgba(47, 140, 255, 0.55);
+    --accent-soft: #8cc8f0;
+}
+
+.neon-tile--green {
+    --accent: var(--neon-green);
+    --accent-glow: rgba(25, 211, 154, 0.5);
+    --accent-soft: #8de8c9;
+}
+
+.neon-tile--lambda {
+    --accent: var(--lambda-gradient);
+    --accent-glow: rgba(47, 140, 255, 0.5);
+    --accent-soft: #8cc8f0;
+}
+
+/* Headline tile: full neon gradient edge and a standing glow */
+.neon-tile--feature {
+    --accent: var(--neon-gradient);
+    --accent-glow: rgba(224, 33, 138, 0.5);
+    --accent-soft: #f08cc4;
+    border-color: rgba(224, 33, 138, 0.35);
+    box-shadow: 0 0 18px rgba(224, 33, 138, 0.18);
+}
+
+/* Secondary "browse by" tiles: no top edge, just a neon icon, lighting up on hover */
+.neon-tile--quiet {
+    background-color: #181818;
+}
+
+.neon-tile--quiet::before {
+    opacity: 0;
+    transition: opacity 0.2s ease;
+}
+
+a.neon-tile--quiet:hover::before {
+    opacity: 1;
+}
+
+.neon-tile--quiet .details {
+    opacity: 0.85;
+}
+
+/* Inline neon highlight, blue-to-green by default to match the λ accent (plain colour where gradient text isn't supported).
+   The red and magenta variants walk the rest of the banner gradient. */
+.neon-text {
+    --neon-from: #6fb2ff;
+    --neon-to: #5fe6bd;
+    --neon-glow: rgba(47, 140, 255, 0.55);
+    --neon-fallback: #8cc8f0;
+    color: var(--neon-fallback);
+    font-weight: 600;
+}
+
+.neon-text--red {
+    --neon-from: #ff5a68;
+    --neon-to: #ff4fb0;
+    --neon-glow: rgba(255, 45, 63, 0.55);
+    --neon-fallback: #ff7a85;
+}
+
+.neon-text--magenta {
+    --neon-from: #ff4fb0;
+    --neon-to: #6fb2ff;
+    --neon-glow: rgba(224, 33, 138, 0.55);
+    --neon-fallback: #f07ac0;
+}
+
+@supports ((-webkit-background-clip: text) or (background-clip: text)) {
+    .neon-text {
+        background: linear-gradient(90deg, var(--neon-from), var(--neon-to));
+        -webkit-background-clip: text;
+        background-clip: text;
+        color: transparent;
+        -webkit-box-decoration-break: clone;
+        box-decoration-break: clone;
+        filter: drop-shadow(0 0 6px var(--neon-glow));
+    }
 }
