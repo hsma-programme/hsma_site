@@ -1,0 +1,25 @@
+---
+title: "Lyndsey Allen: HSMA Programme Accreditation"
+title-block-banner: ../banner.png
+author:
+    - "NECS"
+date: "2024-02-01"
+date-modified: "2024-02-01"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    NECS Senior Analytics Consultant Lyndsey Allen shares her experience of completing the HSMA programme - click to find out more!
+---
+
+We're delighted to share this blog post from NECS (North of England Commissioning Support), in which Lyndsey Allen, a Senior Analytics Consultant at NECS Yorkshire and Humber, reflects on her journey through the HSMA programme.
+
+Lyndsey took part in HSMA alongside a colleague, and was able to apply the geographic modelling skills she learned to a client project within just a few weeks. During the project phase of the programme, she built up her Python skills by translating an Excel demand model into Python and exploring alternative approaches, with support from her HSMA mentor.
+
+Lyndsey achieved her HSMA accreditation in December 2023, and describes the experience as "transformative" - particularly valuing the focus on solving real-world problems and the support of the HSMA community.
+
+You can read the full story on the NECS website: [https://www.necsu.nhs.uk/lyndsey-allen-health-service-modelling-associates-hsma-programme-accreditation-2/](https://www.necsu.nhs.uk/lyndsey-allen-health-service-modelling-associates-hsma-programme-accreditation-2/)

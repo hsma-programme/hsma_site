@@ -1,0 +1,27 @@
+---
+title: "HSMA Course Project: Waiting List Data Science Proofs of Concept"
+title-block-banner: ../banner.png
+author:
+    - "Sean Aller"
+    - "Amaia Imaz Blanco"
+    - "NHS England"
+date: "2025-06-27"
+date-modified: "2025-06-27"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    Two NHS England data scientists share their experience of the HSMA programme and their waiting list project - click to find out more!
+---
+
+We're excited to share this blog post from the NHS England Data Science team, written by HSMA associates Sean Aller (Principal Data Scientist) and Amaia Imaz Blanco (Senior Data Scientist).
+
+For their HSMA project, Sean and Amaia used the Waiting List Minimum Dataset (WLMDS) to build a set of proofs of concept, exploring how a range of data science techniques could be applied to waiting list data. Their reusable codebase could become a useful set of tools for NHS England's Elective Recovery team.
+
+They also talk about how they've applied what they learned on the programme to their wider work. Sean has identified uses for geographic modelling and machine learning in upcoming CVD Pathways work, while Amaia has deployed Streamlit apps to communicate with stakeholders on the Primary Care Records project, and says the course gave her "a comprehensive set of notes I can refer to" when choosing the right technique for a problem.
+
+You can read the full story on the NHS England Data Science website: [https://nhsengland.github.io/datascience/articles/2025/06/27/hsma-waiting-lists/](https://nhsengland.github.io/datascience/articles/2025/06/27/hsma-waiting-lists/)
