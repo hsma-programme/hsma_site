@@ -1,10 +1,12 @@
 ---
-title: "HSMA λ (Lambda)"
+title: "HSMA [λ]{.keep-case} (Lambda)"
+pagetitle: "HSMA λ (Lambda)"
+subtitle: "Ask the right questions · Interpret project outputs"
 toc: false
 title-block-banner: resources/banner.png
 include-back-link: false
 page-layout: full
-body-classes: neon-headings neon-headings--left lambda-theme
+body-classes: neon-headings neon-headings--left lambda-theme neon-title
 ---
 
 ```{=html}

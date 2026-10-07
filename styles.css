@@ -905,8 +905,8 @@ a.neon-tile--quiet:hover::before {
     color: #8cc8f0;
 }
 
-/* Upper-casing turns λ into Λ, so keep the symbol's own case */
-.lambda-badge .keep-case {
+/* Upper-casing turns λ into Λ, so keep the symbol's own case (badges, logo-style titles) */
+.keep-case {
     text-transform: none;
 }
 
@@ -926,4 +926,86 @@ a.neon-tile--quiet:hover::before {
 
 .lambda-card p:last-child {
     margin-bottom: 0;
+}
+
+/* Logo-style page titles, echoing the homepage's HSMA logo: the computer icon beside the title in wide,
+   outlined capitals (like the logo lettering), with the page's subtitle as a condensed tagline underneath.
+   Opt in per page with `neon-title` in `body-classes`. */
+.neon-title .quarto-title-banner {
+    padding-top: 2.75rem;
+    padding-bottom: 2.75rem;
+}
+
+.neon-title #title-block-header .quarto-title {
+    grid-column: 1 / -1;
+    display: grid;
+    grid-template-columns: auto auto;
+    justify-content: center;
+    align-items: center;
+    column-gap: clamp(1rem, 3vw, 2.25rem);
+}
+
+.neon-title #title-block-header .quarto-title::before {
+    content: "";
+    grid-row: 1 / span 2;
+    width: clamp(64px, 10vw, 128px);
+    aspect-ratio: 1;
+    background: url("resources/hsma_icon_white.png") center / contain no-repeat;
+    filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.35));
+}
+
+.neon-title #title-block-header h1.title {
+    grid-column: 2;
+    margin: 0;
+    font-family: 'Lexend', sans-serif;
+    font-weight: 700;
+    font-size: clamp(2.2rem, 6vw, 4.75rem);
+    line-height: 1;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: white;
+}
+
+/* Outlined lettering with a soft glow where supported; plain white otherwise */
+@supports (-webkit-text-stroke: 1px white) {
+    .neon-title #title-block-header h1.title {
+        color: transparent;
+        -webkit-text-stroke: 2px white;
+        text-shadow: 0 0 14px rgba(255, 255, 255, 0.3);
+    }
+}
+
+.neon-title #title-block-header .subtitle {
+    grid-column: 2;
+    margin: 0.7rem 0 0 0.15em;
+    font-family: var(--display-font);
+    font-size: clamp(1.1rem, 2.4vw, 1.9rem);
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.3em;
+    text-transform: uppercase;
+    color: white;
+    opacity: 1;
+}
+
+/* Phones: icon above, title and tagline centred beneath it */
+@media (max-width: 600px) {
+    .neon-title #title-block-header .quarto-title {
+        grid-template-columns: auto;
+        justify-items: center;
+        row-gap: 0.9rem;
+        text-align: center;
+    }
+
+    .neon-title #title-block-header .quarto-title::before,
+    .neon-title #title-block-header h1.title,
+    .neon-title #title-block-header .subtitle {
+        grid-column: 1;
+        grid-row: auto;
+    }
+
+    .neon-title #title-block-header .subtitle {
+        margin: 0;
+        letter-spacing: 0.2em;
+    }
 }

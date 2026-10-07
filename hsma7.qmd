@@ -1,9 +1,10 @@
 ---
 title: "HSMA 7"
+subtitle: "Learn · Apply · Implement"
 toc: true
 title-block-banner: resources/banner.png
 include-back-link: false
-body-classes: neon-headings neon-headings--left hsma-theme
+body-classes: neon-headings neon-headings--left hsma-theme neon-title
 filters:
     - value-box
     - splide-carousel

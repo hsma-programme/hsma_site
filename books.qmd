@@ -1,5 +1,7 @@
 ---
 title: "HSMA Books"
+subtitle: "Freely available to all"
+body-classes: neon-title
 toc: false
 title-block-banner: resources/banner.png
 include-back-link: false
