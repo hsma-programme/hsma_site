@@ -678,21 +678,40 @@ filters:
     font-size: 1.1rem;
 }
 
-/* Inline neon highlight in the λ card's blue-to-green accent (plain light blue where gradient text isn't supported) */
+/* Inline neon highlight, blue-to-green by default to match the λ card's accent (plain colour where gradient text isn't supported).
+   The red and magenta variants walk the rest of the banner gradient. */
 .neon-text {
-    color: #8cc8f0;
+    --neon-from: #6fb2ff;
+    --neon-to: #5fe6bd;
+    --neon-glow: rgba(47, 140, 255, 0.55);
+    --neon-fallback: #8cc8f0;
+    color: var(--neon-fallback);
     font-weight: 600;
+}
+
+.neon-text--red {
+    --neon-from: #ff5a68;
+    --neon-to: #ff4fb0;
+    --neon-glow: rgba(255, 45, 63, 0.55);
+    --neon-fallback: #ff7a85;
+}
+
+.neon-text--magenta {
+    --neon-from: #ff4fb0;
+    --neon-to: #6fb2ff;
+    --neon-glow: rgba(224, 33, 138, 0.55);
+    --neon-fallback: #f07ac0;
 }
 
 @supports ((-webkit-background-clip: text) or (background-clip: text)) {
     .neon-text {
-        background: linear-gradient(90deg, #6fb2ff, #5fe6bd);
+        background: linear-gradient(90deg, var(--neon-from), var(--neon-to));
         -webkit-background-clip: text;
         background-clip: text;
         color: transparent;
         -webkit-box-decoration-break: clone;
         box-decoration-break: clone;
-        filter: drop-shadow(0 0 6px rgba(47, 140, 255, 0.55));
+        filter: drop-shadow(0 0 6px var(--neon-glow));
     }
 }
 
@@ -1000,7 +1019,7 @@ filters:
 
 ## What is HSMA?
 
-The Health Service Modelling Associates (HSMA) Programme is an **online** programme teaching public sector analysts, clinicians and managers how to use **data science** and **operational research** techniques, as well as supporting them to apply these techniques in their organisations.
+The Health Service Modelling Associates (HSMA) Programme is an [online]{.neon-text .neon-text--red} programme teaching public sector analysts, clinicians and managers how to use [data science]{.neon-text .neon-text--magenta} and [operational research]{.neon-text} techniques, as well as supporting them to apply these techniques in their organisations.
 
 ```{=html}
 <div class="stat-grid">
