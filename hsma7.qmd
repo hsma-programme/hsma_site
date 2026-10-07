@@ -57,6 +57,13 @@ grid:
   box-shadow: 0 0 16px rgba(224, 33, 138, 0.55);
 }
 
+/* Stack the buttons on phones, where three side by side can't fit their labels */
+@media (max-width: 600px) {
+  .podcast-buttons {
+    flex-direction: column;
+  }
+}
+
 .player-container {
   min-height: 360px;
 }
@@ -133,6 +140,34 @@ grid:
 
 .quote-grid {
   margin: 1.5rem 0;
+}
+
+/* Subtitle under a shortened section heading, as a terminal-style line */
+.section-lead {
+  margin: -0.75rem 0 1.25rem 0;
+  font-family: var(--terminal-font);
+  font-size: 1.4rem;
+  letter-spacing: 0.03em;
+  color: #ff8a90;
+}
+
+.section-lead p::before {
+  content: "> ";
+}
+
+/* Issuu flipbook: full width, a two-page spread on wide screens, tall enough for one page on phones */
+.magazine-embed {
+  width: 100%;
+  aspect-ratio: 5 / 3;
+  min-height: 480px;
+}
+
+.magazine-embed iframe {
+  display: block;
+  width: 100%;
+  height: 100%;
+  border: none;
+  border-radius: 8px;
 }
 
 </style>
@@ -346,12 +381,17 @@ Take a look at our case studies to find out more about the impact of just some o
 
 {{< include impact_carousel.md >}}
 
-## Read more about the programme in the OR Society's Impact magazine
+## HSMA in Impact Magazine {#read-more-about-the-programme-in-the-or-societys-impact-magazine}
+
+::: {.section-lead}
+Read more about the programme in the OR Society's Impact magazine
+:::
 
 Our recent article in the Operational Research Society's Impact magazine provides a great overview of some more HSMA impacts.
 
-
-<iframe src="https://e.issuu.com/embed.html?u=orsimpact&d=impact_spring_2026&pageNumber=25" style="border:none; width: 1000px; height: 600px;" allow="clipboard-write,allow-top-navigation,allow-top-navigation-by-user-activation,allow-downloads,allow-scripts,allow-same-origin,allow-popups,allow-modals,allow-popups-to-escape-sandbox,allow-forms"  allowfullscreen="true"></iframe>
+<div class="magazine-embed">
+<iframe src="https://e.issuu.com/embed.html?u=orsimpact&d=impact_spring_2026&pageNumber=25" title="HSMA article in the OR Society's Impact magazine, spring 2026" allow="clipboard-write,allow-top-navigation,allow-top-navigation-by-user-activation,allow-downloads,allow-scripts,allow-same-origin,allow-popups,allow-modals,allow-popups-to-escape-sandbox,allow-forms"  allowfullscreen="true"></iframe>
+</div>
 
 ## FAQs
 
