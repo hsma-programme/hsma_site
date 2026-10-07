@@ -460,12 +460,40 @@ a {
 
 .bg-amber { background-color:rgb(211, 123, 0) ; }
 
-/* FAQ accordions (wrap in ::: {.faq}) */
+/* FAQ accordions (wrap in ::: {.faq}): dark panels with a neon left edge, HSMA red by default.
+   Add .faq--lambda for the λ blue-green version. */
+.faq {
+  --faq-edge: var(--neon-red);
+  --faq-edge-active: var(--neon-magenta);
+  --faq-border: rgba(255, 45, 63, 0.3);
+  --faq-border-active: rgba(255, 45, 63, 0.55);
+  --faq-glow: rgba(255, 45, 63, 0.25);
+  --faq-icon: #ff8a90;
+}
+
+.faq--lambda {
+  --faq-edge: var(--neon-blue);
+  --faq-edge-active: var(--neon-green);
+  --faq-border: rgba(47, 140, 255, 0.3);
+  --faq-border-active: rgba(47, 140, 255, 0.55);
+  --faq-glow: rgba(47, 140, 255, 0.25);
+  --faq-icon: #8cc8f0;
+}
+
 .faq details {
   margin: 0.75rem 0;
-  border: 1px solid var(--quarto-border-color);
+  border: 1px solid var(--faq-border);
+  border-left: 3px solid var(--faq-edge);
   border-radius: 0.5rem;
-  background: #740000;
+  background: #1c1c1c;
+  transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+
+.faq details:hover,
+.faq details[open] {
+  border-color: var(--faq-border-active);
+  border-left-color: var(--faq-edge-active);
+  box-shadow: 0 0 12px var(--faq-glow);
 }
 
 .faq details summary {
@@ -474,7 +502,6 @@ a {
   cursor: pointer;
   list-style: none;
   color: #DDDDDD;
-
 }
 
 .faq details summary::-webkit-details-marker {
@@ -486,6 +513,7 @@ a {
   float: right;
   font-size: 1.3rem;
   font-weight: 400;
+  color: var(--faq-icon);
 }
 
 .faq details[open] summary::after {
@@ -501,26 +529,7 @@ a {
   padding-bottom: 1rem;
 }
 
-/* λ variant: dark panels with a blue neon edge instead of HSMA red */
-.faq--lambda details {
-  background: #1c1c1c;
-  border-color: rgba(47, 140, 255, 0.3);
-  border-left: 3px solid var(--neon-blue);
-  transition: border-color 0.2s ease, box-shadow 0.2s ease;
-}
-
-.faq--lambda details summary::after {
-  color: #8cc8f0;
-}
-
-.faq--lambda details:hover,
-.faq--lambda details[open] {
-  border-color: rgba(47, 140, 255, 0.55);
-  border-left-color: var(--neon-green);
-  box-shadow: 0 0 12px rgba(47, 140, 255, 0.25);
-}
-
-/* ==== Neon / retro design language (homepage, lambda page) ==== */
+/* ==== Neon / retro design language (homepage, HSMA 7 and lambda pages) ==== */
 
 /* Neon colours sampled from the site banner */
 :root {
@@ -530,6 +539,8 @@ a {
     --neon-blue: #2f8cff;
     --neon-green: #19d39a;
     --neon-gradient: linear-gradient(90deg, var(--neon-red), var(--neon-magenta) 35%, var(--neon-blue) 70%, var(--neon-green));
+    /* HSMA's own accent (as on the homepage HSMA 7 card): the red-to-magenta end of the banner */
+    --hsma-gradient: linear-gradient(90deg, var(--neon-red), var(--neon-magenta));
     /* HSMA-λ's own accent: the blue-to-green end of the banner */
     --lambda-gradient: linear-gradient(90deg, var(--neon-blue), var(--neon-green));
     --display-font: 'Bebas Neue', 'Lexend', sans-serif;
@@ -538,10 +549,16 @@ a {
 
 /* Section headings in the display font with a short neon bar underneath.
    Opt in per page with `body-classes: neon-headings` in the front matter;
-   add `neon-headings--left` for left-aligned pages and `lambda-theme` for the blue-green bar. */
+   add `neon-headings--left` for left-aligned pages, and `hsma-theme` (red-magenta) or `lambda-theme` (blue-green) for the bar.
+   A heading marked {.plain-heading} keeps the default style. */
 .neon-headings {
     --heading-bar: var(--neon-gradient);
     --heading-bar-glow: rgba(224, 33, 138, 0.55);
+}
+
+.neon-headings.hsma-theme {
+    --heading-bar: var(--hsma-gradient);
+    --heading-bar-glow: rgba(255, 45, 63, 0.55);
 }
 
 .neon-headings.lambda-theme {
@@ -549,7 +566,7 @@ a {
     --heading-bar-glow: rgba(47, 140, 255, 0.55);
 }
 
-.neon-headings #quarto-document-content h2 {
+.neon-headings #quarto-document-content h2:not(:where(.plain-heading > h2, h2.plain-heading)) {
     font-family: var(--display-font);
     text-transform: uppercase;
     font-size: 2.9rem;
@@ -567,12 +584,12 @@ a {
 }
 
 /* Take Quarto's hover anchor link out of the flow so it doesn't push the heading text off-centre */
-.neon-headings #quarto-document-content h2 .anchorjs-link {
+.neon-headings #quarto-document-content h2:not(:where(.plain-heading > h2, h2.plain-heading)) .anchorjs-link {
     position: absolute;
     padding-left: 0.4em;
 }
 
-.neon-headings #quarto-document-content h2::after {
+.neon-headings #quarto-document-content h2:not(:where(.plain-heading > h2, h2.plain-heading))::after {
     content: "";
     display: block;
     width: 110px;
@@ -583,18 +600,18 @@ a {
     box-shadow: 0 0 10px var(--heading-bar-glow), 0 0 2px rgba(255, 255, 255, 0.4);
 }
 
-.neon-headings--left #quarto-document-content h2 {
+.neon-headings--left #quarto-document-content h2:not(:where(.plain-heading > h2, h2.plain-heading)) {
     text-align: left;
     padding-left: 0;
     margin-top: 3.5rem;
 }
 
-.neon-headings--left #quarto-document-content h2::after {
+.neon-headings--left #quarto-document-content h2:not(:where(.plain-heading > h2, h2.plain-heading))::after {
     margin-left: 0;
 }
 
 @media (max-width: 600px) {
-    .neon-headings #quarto-document-content h2 {
+    .neon-headings #quarto-document-content h2:not(:where(.plain-heading > h2, h2.plain-heading)) {
         font-size: 2.2rem;
         letter-spacing: 0.08em;
     }
@@ -721,4 +738,187 @@ a.neon-tile--quiet:hover::before {
         box-decoration-break: clone;
         filter: drop-shadow(0 0 6px var(--neon-glow));
     }
+}
+
+/* Rows with a neon left edge and an icon, blue for λ by default (homepage update cards, HSMA 7 changes list) */
+.neon-list {
+    list-style: none;
+    width: 100%;
+    margin: 0 0 0.9rem 0;
+    padding: 0;
+}
+
+.neon-list li {
+    display: flex;
+    align-items: center;
+    gap: 0.65rem;
+    margin-bottom: 0.4rem;
+    padding: 0.45rem 0.75rem;
+    border-left: 3px solid var(--neon-blue);
+    border-radius: 6px;
+    background-color: rgba(47, 140, 255, 0.08);
+    font-weight: 500;
+}
+
+.neon-list li i {
+    color: #8cc8f0;
+    font-size: 1.1rem;
+}
+
+.neon-list--red li {
+    border-left-color: var(--neon-red);
+    background-color: rgba(255, 45, 63, 0.08);
+}
+
+.neon-list--red li i {
+    color: #ff8a90;
+}
+
+/* Student quotes: red left edge and a soft red-to-dark gradient */
+.featured-quote {
+    position: relative;
+    margin: 1.5rem auto 2rem auto;
+    padding: 2.5rem 3rem 2rem 3rem;
+    max-width: 820px;
+    border-left: 6px solid #9c000d;
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgba(156, 0, 13, 0.35) 0%, rgba(116, 0, 0, 0.12) 60%, rgba(255, 255, 255, 0.03) 100%);
+    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
+    text-align: left;
+}
+
+.featured-quote .quote-icon {
+    position: absolute;
+    top: -0.9rem;
+    left: 1.25rem;
+    font-size: 3.5rem;
+    color: #e04a55;
+    opacity: 0.6;
+}
+
+.featured-quote p {
+    font-size: 1.3rem;
+    font-style: italic;
+    font-weight: 300;
+    line-height: 1.6;
+    margin-bottom: 1rem;
+}
+
+.featured-quote footer {
+    text-align: right;
+    font-size: 0.95rem;
+    font-weight: 500;
+    opacity: 0.8;
+}
+
+.quote-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 1.75rem 1.5rem 1.5rem 1.5rem;
+    border-left: 5px solid #9c000d;
+    border-radius: 10px;
+    background: linear-gradient(135deg, rgba(156, 0, 13, 0.35) 0%, rgba(116, 0, 0, 0.12) 60%, rgba(255, 255, 255, 0.03) 100%);
+    color: white;
+    text-align: left;
+    /* Smaller than the featured quote's shadow so the homepage carousel track doesn't clip it */
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: transform 0.2s ease;
+}
+
+.quote-card:hover {
+    transform: translateY(-4px);
+}
+
+.quote-card .quote-icon {
+    font-size: 1.6rem;
+    color: #e04a55;
+    opacity: 0.6;
+    margin-bottom: 0.75rem;
+}
+
+.quote-card p {
+    font-size: 1.05rem;
+    font-style: italic;
+    line-height: 1.5;
+    margin-bottom: 0.5rem;
+}
+
+.quote-card--long p {
+    font-size: 0.92rem;
+}
+
+@media (max-width: 600px) {
+    .featured-quote {
+        padding: 2.25rem 1.25rem 1.5rem 1.25rem;
+    }
+
+    .featured-quote p {
+        font-size: 1.1rem;
+    }
+}
+
+/* Dark feature card with a λ blue-green top edge, echoing the homepage's λ update card */
+.lambda-card {
+    position: relative;
+    overflow: hidden;
+    margin: 1.5rem 0 2rem 0;
+    padding: 1.75rem 1.75rem 2rem 1.75rem;
+    border-radius: 12px;
+    background-color: #1c1c1c;
+    border: 1px solid rgba(47, 140, 255, 0.35);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.45), 0 0 22px rgba(47, 140, 255, 0.15);
+    text-align: center;
+}
+
+/* Neon top edge (a pseudo-element rather than border-image, which ignores border-radius) */
+.lambda-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: var(--lambda-gradient);
+    box-shadow: 0 0 12px rgba(47, 140, 255, 0.6);
+}
+
+/* Terminal-style label */
+.lambda-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.1rem 0.7rem;
+    border-radius: 4px;
+    font-family: var(--terminal-font);
+    font-size: 1.15rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    background-color: rgba(52, 152, 219, 0.2);
+    color: #8cc8f0;
+}
+
+/* Upper-casing turns λ into Λ, so keep the symbol's own case */
+.lambda-badge .keep-case {
+    text-transform: none;
+}
+
+.lambda-card h3 {
+    margin: 0.85rem 0 0.6rem 0;
+    font-family: var(--display-font);
+    font-size: 2.6rem;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.05em;
+}
+
+.lambda-card p {
+    max-width: 620px;
+    margin: 0 auto 0.75rem auto;
+}
+
+.lambda-card p:last-child {
+    margin-bottom: 0;
 }

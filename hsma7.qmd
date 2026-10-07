@@ -3,6 +3,7 @@ title: "HSMA 7"
 toc: true
 title-block-banner: resources/banner.png
 include-back-link: false
+body-classes: neon-headings neon-headings--left hsma-theme
 filters:
     - value-box
     - splide-carousel
@@ -26,36 +27,34 @@ grid:
 
 .podcast-btn {
   flex: 1;
-  background-color: #2563eb;
+  background-color: rgba(255, 45, 63, 0.06);
   color: #d1d5db;
-  border: 2px solid #4b5563;
+  border: 2px solid rgba(255, 45, 63, 0.35);
   padding: 0.8rem 1.2rem;
   font-size: 1rem;
   font-weight: 600;
   text-align: center;
   cursor: pointer;
-  border-radius: 999px;
+  border-radius: 8px;
   transition: all 0.2s ease;
-  background-color: rgba(255,255,255,0.05);
-  border: 2px solid rgba(255,255,255,0.12);
 }
 
 .podcast-btn:hover {
-  background-color: #374151;
-  border-color: #6b7280;
   color: #f9fafb;
+  border-color: var(--neon-red);
+  box-shadow: 0 0 10px rgba(255, 45, 63, 0.35);
 }
 
 .podcast-btn.active {
-  background-color: #2563eb;
+  background-color: rgba(255, 45, 63, 0.18);
   color: white;
-  border-color: #3b82f6;
-  box-shadow: 0 0 0 3px rgba(59, 130, 246, 0.25);
+  border-color: var(--neon-red);
+  box-shadow: 0 0 14px rgba(255, 45, 63, 0.5);
 }
 
 .podcast-btn.active:hover {
-  background-color: #1d4ed8;
-  border-color: #60a5fa;
+  border-color: var(--neon-magenta);
+  box-shadow: 0 0 16px rgba(224, 33, 138, 0.55);
 }
 
 .player-container {
@@ -96,14 +95,54 @@ grid:
   flex-shrink: 0;
 }
 
+/* Shared tiles, quote cards, λ card and lists live in styles.css (neon design language section) */
+
+/* Phase names in the display font, echoing "Learn · Apply · Implement" on the homepage banner */
+.phase-tile .value {
+  font-family: var(--display-font);
+  font-weight: 400;
+  letter-spacing: 0.06em;
+}
+
+/* Module prompts typed in at a terminal */
+.module-tile .title {
+  font-family: var(--terminal-font);
+  font-size: 1.3rem;
+  color: var(--accent-soft);
+  opacity: 1;
+}
+
+.module-tile .title i {
+  font-style: normal;
+}
+
+.module-tile .title::before {
+  content: "> ";
+}
+
+/* The λ card sits in the narrower right-hand column here */
+.lambda-card--compact {
+  margin: 0 0 1.5rem 0;
+  padding: 1.5rem 1.25rem;
+  font-size: 0.95rem;
+}
+
+.lambda-card--compact .lambda-badge {
+  margin-bottom: 0.9rem;
+}
+
+.quote-grid {
+  margin: 1.5rem 0;
+}
+
 </style>
 
 :::: {.columns}
 
 ::: {.column width='50%'}
-Launching in **spring/summer 2027**, our seventh round of the Health Service Modelling Associates (HSMA) programme is a **free of charge** training and mentoring programme for people working in health and social care organisations.
+Launching in **spring/summer 2027**, our seventh round of the Health Service Modelling Associates (HSMA) programme is a [**free of charge**]{.neon-text .neon-text--red} training and mentoring programme for people working in health and social care organisations.
 
-Lasting **15 months** with a **1 day a week commitment** and delivered **fully online**, HSMA teaches skills in programming, data science and operational research, before we then support participants to use these new skills on **real projects** for their organisation.
+Lasting **15 months** with a **1 day a week commitment** and delivered [**fully online**]{.neon-text .neon-text--magenta}, HSMA teaches skills in programming, data science and operational research, before we then support participants to use these new skills on [**real projects**]{.neon-text} for their organisation.
 
 HSMA can benefit people in various roles, including
 
@@ -124,7 +163,9 @@ HSMA can benefit people in various roles, including
 
 ::: {.column width='45%'}
 
-::: {.value-box color="#3498db" align="center" icon="fa-solid fa-lightbulb" icon-position="top" width="90%"}
+::: {.lambda-card .lambda-card--compact}
+<span class="lambda-badge"><i class="bi bi-lightbulb"></i><span>HSMA-<span class="keep-case">λ</span></span></span>
+
 Curious about how to make better decisions with data in your organisation, but not wanting to get involved in writing the code yourself?
 
 You might prefer HSMA-λ (HSMA-lambda) - our programme for decision makers - instead. It is a series of shorter, stand-alone workshops focussed on understanding the principles of the key techniques taught on HSMA, asking better questions, and giving you the knowledge to maximise the impact of HSMA projects in your organisation.
@@ -142,21 +183,22 @@ Find out more on our [λ page](lambda.qmd).
 
 Wondering if HSMA is worthwhile? Don't just take our word for it - see what our previous students have to say.
 
-::::{.value-box-row}
-
-::: {.value-box align="center" color="#740000" font-size="1.2rem"}
-"My HSMA journey has been a transformative experience, opening me up to new approaches to analytics in the NHS."
-:::
-
-::: {.value-box align="center" color="#740000" font-size="1.2rem"}
-"HSMA is an absolutely amazing programme that's taken me from zero coding knowledge to inspiring me to want to go off and explore on my own."
-:::
-
-::: {.value-box align="center" color="#740000" font-size="1.2rem"}
-"I can honestly say it is the best training I've ever participated in. For the first time in a long time I feel really enthused about my work."
-:::
-
-::::
+```{=html}
+<div class="value-grid-box quote-grid">
+  <div class="quote-card">
+    <i class="fa-solid fa-quote-left quote-icon" aria-hidden="true"></i>
+    <p>My HSMA journey has been a transformative experience, opening me up to new approaches to analytics in the NHS.</p>
+  </div>
+  <div class="quote-card">
+    <i class="fa-solid fa-quote-left quote-icon" aria-hidden="true"></i>
+    <p>HSMA is an absolutely amazing programme that's taken me from zero coding knowledge to inspiring me to want to go off and explore on my own.</p>
+  </div>
+  <div class="quote-card">
+    <i class="fa-solid fa-quote-left quote-icon" aria-hidden="true"></i>
+    <p>I can honestly say it is the best training I've ever participated in. For the first time in a long time I feel really enthused about my work.</p>
+  </div>
+</div>
+```
 
 
 
@@ -166,19 +208,19 @@ Wondering if HSMA is worthwhile? Don't just take our word for it - see what our 
 The full HSMA experience is a live, 15-month programme with three distinct phases.
 
 :::{.value-box-grid}
-::: {.value-box value="PHASE 1: Learn" icon="fa-solid fa-person-chalkboard" icon-position="right" color="#3498db" value-font-size="1.4rem" width="90%" }
+::: {.value-box .neon-tile .phase-tile value="PHASE 1: Learn" icon="fa-solid fa-person-chalkboard" icon-position="right" color="#1c1c1c" icon-color="var(--accent-soft)" value-font-size="2.1rem" width="90%" }
 A 6 month training phase in which participants learn the Python programming language, before progressing through simulation modelling, machine learning, website development and more.
 
 Participants are released from their usual role for one day a week - every Tuesday - joining the HSMA trainers online for live lectures and group work.
 :::
 
-::: {.value-box value="PHASE 2: Apply" icon="fa-solid fa-chart-gantt" icon-position="right" color="#3498db" value-font-size="1.4rem" width="90%"}
+::: {.value-box .neon-tile .phase-tile .neon-tile--magenta value="PHASE 2: Apply" icon="fa-solid fa-chart-gantt" icon-position="right" color="#1c1c1c" icon-color="var(--accent-soft)" value-font-size="2.1rem" width="90%"}
 A 9 month project phase in which participants are supported to produce their own project using the new skills they have learned, applying operational research and data science techniques to a real problem within their organisation.
 
 Participants are expected to spend at least one day a week working on their project during this phase. The HSMA team will be available to answer queries on Tuesdays, with mentored projects receiving regular check-ins for guidance and support.
 :::
 
-::: {.value-box value="PHASE 3: Implement" icon="fa-solid fa-chart-line" icon-position="right" color="#3498db" value-font-size="1.4rem" width="90%"}
+::: {.value-box .neon-tile .phase-tile .neon-tile--blue value="PHASE 3: Implement" icon="fa-solid fa-chart-line" icon-position="right" color="#1c1c1c" icon-color="var(--accent-soft)" value-font-size="2.1rem" width="90%"}
 From month 15 onwards, participants will receive support to get their project work implemented, aiming to both generate and capture real impact.
 :::
 :::
@@ -193,13 +235,13 @@ HSMA 7 is centred around 4 key modules:
 
 ::::{.value-box-row columns="2"}
 
-::: {.value-box value="Introduction to Operational Research, Data Science & Programming" icon="ph ph-desktop-tower" value-font-size="1.4rem" color="#740000" width="90%" icon-position="right"}
+::: {.value-box .neon-tile .module-tile value="Introduction to Operational Research, Data Science & Programming" icon="ph ph-desktop-tower" value-font-size="1.4rem" color="#1c1c1c" icon-color="var(--accent-soft)" width="90%" icon-position="right"}
 In this module, students will learn key principles underpinning operational research and data science.
 
 They will also be introduced to key concepts in computer programming and the Python programming language, ensuring even complete coding novices are equipped with the skills they need to access the rest of the course.
 :::
 
-::: {.value-box value="Discrete Event Simulation" icon="ph ph-users-three" value-font-size="1.6rem" color="#740000" title="<i>“I want to fix my delays, and see what works before I try it”</i>"  width="90%" icon-position="right"}
+::: {.value-box .neon-tile .module-tile .neon-tile--blue value="Discrete Event Simulation" icon="ph ph-users-three" value-font-size="1.6rem" color="#1c1c1c" icon-color="var(--accent-soft)" title="<i>“I want to fix my delays, and see what works before I try it”</i>"  width="90%" icon-position="right"}
 
 
 In this module, students are introduced to powerful simulation techniques that allow you to accurately model real-world systems and try out changes in a safe environment to see what works before implementing it in the real world.
@@ -208,13 +250,13 @@ Students learn to develop robust models aligning with best practices, as well as
 :::
 
 
-::: {.value-box value="Geographic Modelling" icon="ph ph-globe-hemisphere-west" value-font-size="1.6rem" color="#740000" title="<i>“Where is demand, and where should I put my services?”</i>" width="90%" icon-position="right"}
+::: {.value-box .neon-tile .module-tile .neon-tile--magenta value="Geographic Modelling" icon="ph ph-globe-hemisphere-west" value-font-size="1.6rem" color="#1c1c1c" icon-color="var(--accent-soft)" title="<i>“Where is demand, and where should I put my services?”</i>" width="90%" icon-position="right"}
 In this module, students learn key geographic principles and how to create high-quality maps.
 
 They are also introduced to advanced operational research techniques for solving problems around where to place services in the face of competing priorities like equity of access, costs, and net zero goals.
 :::
 
-::: {.value-box value="Machine Learning" icon="ph ph-brain" value-font-size="1.6rem" color="#740000" title="<i>“I want to identify patients to target with interventions”</i>" width="90%" icon-position="right"}
+::: {.value-box .neon-tile .module-tile .neon-tile--green value="Machine Learning" icon="ph ph-brain" value-font-size="1.6rem" color="#1c1c1c" icon-color="var(--accent-soft)" title="<i>“I want to identify patients to target with interventions”</i>" width="90%" icon-position="right"}
 In this module, students learn the key principles of supervised machine learning, allowing them to train machine learning models designed to support operational improvements to services through better targeting of interventions.
 
 They are also introduced to issues around model bias, ethics, legal issues, and model explainability.
@@ -229,19 +271,19 @@ Weaved into the modules, HSMAs will also learn valuable techniques for sharing t
 
 ::::{.value-box-row columns="2"}
 
-::: {.value-box value="Web Application Development" icon="fa-solid fa-laptop-code" icon-position="left" value-font-size="1.6rem" color="#3498db" width="90%" }
+::: {.value-box .neon-tile .neon-tile--quiet .neon-tile--blue value="Web Application Development" icon="fa-solid fa-laptop-code" icon-position="left" value-font-size="1.6rem" color="#181818" icon-color="var(--accent-soft)" width="90%" }
 Students will learn to use the Streamlit app framework, allowing them to create engaging interactive web apps to bring powerful techniques like simulation into the hands of non-coders
 :::
 
-::: {.value-box value="Interactive Reporting" icon="fa-solid fa-newspaper" icon-position="left" value-font-size="1.6rem" color="#3498db" width="90%"}
+::: {.value-box .neon-tile .neon-tile--quiet .neon-tile--green value="Interactive Reporting" icon="fa-solid fa-newspaper" icon-position="left" value-font-size="1.6rem" color="#181818" icon-color="var(--accent-soft)" width="90%"}
 Students will learn Quarto, a publishing system that allows them to build parameterised data-driven static and interactive reports
 :::
 
-::: {.value-box value="Data Visualisation" icon="fa-solid fa-chart-simple" icon-position="left" value-font-size="1.6rem" color="#3498db" width="90%"}
+::: {.value-box .neon-tile .neon-tile--quiet .neon-tile--magenta value="Data Visualisation" icon="fa-solid fa-chart-simple" icon-position="left" value-font-size="1.6rem" color="#181818" icon-color="var(--accent-soft)" width="90%"}
 Students will learn to generate engaging static and interactive charts and maps in Python with industry-standard packages
 :::
 
-::: {.value-box value="Automation" icon="fa-solid fa-robot" icon-position="left" value-font-size="1.6rem" color="#3498db" width="90%"}
+::: {.value-box .neon-tile .neon-tile--quiet value="Automation" icon="fa-solid fa-robot" icon-position="left" value-font-size="1.6rem" color="#181818" icon-color="var(--accent-soft)" width="90%"}
 Students can combine these techniques to automate and improve regular reporting
 :::
 
@@ -250,52 +292,52 @@ Students can combine these techniques to automate and improve regular reporting
 
 
 
-## Still not convinced? Let's hear from a few more previous students... {.unnumbered .unlisted}
+## Still not convinced? Let's hear from a few more previous students... {.unnumbered .unlisted .plain-heading}
 
 
-::::{.value-box-row}
-
-
-::: {.value-box align="center" color="#740000" font-size="1.2rem" align="center"}
-"The wealth of information and resources made available to me from this course will continue to be used for years."
-:::
-
-::: {.value-box align="center" color="#740000" font-size="1.2rem" align="center"}
-"The HSMA community is just wonderful - really friendly, open and collaborative. The teaching was well paced and I was made to feel like there were no silly questions. As a complete code novice, I really appreciated it!"
-:::
-
-::: {.value-box align="center" color="#740000" font-size="1.2rem" align="center"}
-"This is by far the most enjoyable course I've undertaken in this career to date."
-:::
-
-::::
-
-<div style="display: flex; justify-content: center; align-items: center;">
-
-::: {.value-box align="center" color="#740000" font-size="1.2rem"}
-"Since completing the HSMA programme, I’ve found myself coding a lot more in my day-to-day role, which has really improved both the efficiency and depth of my work.
-
-It’s also shifted how I approach problem-solving. I now think more analytically and am more confident in exploring data-driven solutions.
-
-Off the back of the course, we’ve even set up a data science group within the team, which has created a space to share knowledge, collaborate on projects, and continue building on what I learned during HSMA."
-:::
-
-
+```{=html}
+<div class="value-grid-box quote-grid">
+  <div class="quote-card">
+    <i class="fa-solid fa-quote-left quote-icon" aria-hidden="true"></i>
+    <p>The wealth of information and resources made available to me from this course will continue to be used for years.</p>
+  </div>
+  <div class="quote-card">
+    <i class="fa-solid fa-quote-left quote-icon" aria-hidden="true"></i>
+    <p>The HSMA community is just wonderful - really friendly, open and collaborative. The teaching was well paced and I was made to feel like there were no silly questions. As a complete code novice, I really appreciated it!</p>
+  </div>
+  <div class="quote-card">
+    <i class="fa-solid fa-quote-left quote-icon" aria-hidden="true"></i>
+    <p>This is by far the most enjoyable course I've undertaken in this career to date.</p>
+  </div>
 </div>
+```
 
-## Big changes from HSMA 7
+```{=html}
+<blockquote class="featured-quote">
+  <i class="fa-solid fa-quote-left quote-icon" aria-hidden="true"></i>
+  <p>Since completing the HSMA programme, I’ve found myself coding a lot more in my day-to-day role, which has really improved both the efficiency and depth of my work.</p>
+  <p>It’s also shifted how I approach problem-solving. I now think more analytically and am more confident in exploring data-driven solutions.</p>
+  <p>Off the back of the course, we’ve even set up a data science group within the team, which has created a space to share knowledge, collaborate on projects, and continue building on what I learned during HSMA.</p>
+</blockquote>
+```
+
+## Big changes in HSMA 7
 
 The HSMA programme is always evolving to keep up with the changing world of data science and improve based on student feedback.
 
 HSMA 7 will represent our biggest rewrite since the programme began ten years ago!
 
-- A renewed focus on the techniques we find have the most impact in services, with the discrete event simulation module expanding from 9 hours to over 30 hours of content
-- A new pipeline for project impact, with the lambda programme helping engage decision makers from the earliest stages, ensuring HSMA projects reflect organisational priorities and increasing opportunities for cross-organisation collaborative working
-- Changes to the peer support group (PSG) system, allowing people to select a PSG that matches their preferred learning style
-- A new focus on integrating cost analysis to help evidence the potential impact of HSMA projects, supporting their adoption
-- A new 'phase 1.5' that bridges the gap between the training phase and the project phase, providing training on project management and supported sessions for project planning
-- A new 'phase 3' that provides support for project implementation and impact gathering
-- Brand new content on safe, effective and responsible use of AI coding assistance at different stages of your learning journey
+```{=html}
+<ul class="neon-list neon-list--red">
+  <li><i class="bi bi-hourglass-split" aria-hidden="true"></i>A renewed focus on the techniques we find have the most impact in services, with the discrete event simulation module expanding from 9 hours to over 30 hours of content</li>
+  <li><i class="bi bi-diagram-3" aria-hidden="true"></i>A new pipeline for project impact, with the lambda programme helping engage decision makers from the earliest stages, ensuring HSMA projects reflect organisational priorities and increasing opportunities for cross-organisation collaborative working</li>
+  <li><i class="bi bi-people" aria-hidden="true"></i>Changes to the peer support group (PSG) system, allowing people to select a PSG that matches their preferred learning style</li>
+  <li><i class="bi bi-currency-pound" aria-hidden="true"></i>A new focus on integrating cost analysis to help evidence the potential impact of HSMA projects, supporting their adoption</li>
+  <li><i class="bi bi-kanban" aria-hidden="true"></i>A new 'phase 1.5' that bridges the gap between the training phase and the project phase, providing training on project management and supported sessions for project planning</li>
+  <li><i class="bi bi-rocket-takeoff" aria-hidden="true"></i>A new 'phase 3' that provides support for project implementation and impact gathering</li>
+  <li><i class="bi bi-robot" aria-hidden="true"></i>Brand new content on safe, effective and responsible use of AI coding assistance at different stages of your learning journey</li>
+</ul>
+```
 
 
 ## What have HSMA projects achieved?
