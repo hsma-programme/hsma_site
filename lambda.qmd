@@ -6,9 +6,135 @@ include-back-link: false
 page-layout: full
 ---
 
+```{=html}
+<style>
+/* Display and terminal fonts, as used on the homepage */
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=VT323&display=swap');
+
+/* Expression of interest card, echoing the homepage's λ update card */
+.eoi-card {
+    position: relative;
+    overflow: hidden;
+    margin: 1.5rem 0 2rem 0;
+    padding: 1.75rem 1.75rem 2rem 1.75rem;
+    border-radius: 12px;
+    background-color: #1c1c1c;
+    border: 1px solid rgba(47, 140, 255, 0.35);
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.45), 0 0 22px rgba(47, 140, 255, 0.15);
+    text-align: center;
+}
+
+/* Neon top edge (a pseudo-element rather than border-image, which ignores border-radius) */
+.eoi-card::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    height: 4px;
+    background: linear-gradient(90deg, #2f8cff, #19d39a);
+    box-shadow: 0 0 12px rgba(47, 140, 255, 0.6);
+}
+
+.eoi-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.1rem 0.7rem;
+    border-radius: 4px;
+    font-family: 'VT323', ui-monospace, monospace;
+    font-size: 1.15rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    background-color: rgba(52, 152, 219, 0.2);
+    color: #8cc8f0;
+}
+
+.eoi-card h3 {
+    margin: 0.85rem 0 0.6rem 0;
+    font-family: 'Bebas Neue', 'Lexend', sans-serif;
+    font-size: 2.6rem;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.05em;
+}
+
+.eoi-card p {
+    max-width: 620px;
+    margin: 0 auto 0.75rem auto;
+}
+
+.eoi-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin: 0.75rem 0 1rem 0;
+    padding: 0.8rem 1.8rem;
+    border-radius: 8px;
+    background: linear-gradient(90deg, #2f8cff, #19d39a);
+    color: #0d0d0d;
+    font-size: 1.15rem;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 0 16px rgba(47, 140, 255, 0.45);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.eoi-button:hover {
+    color: #0d0d0d;
+    transform: translateY(-2px);
+    box-shadow: 0 0 26px rgba(25, 211, 154, 0.6);
+}
+
+.eoi-card .eoi-note {
+    font-size: 0.9rem;
+    opacity: 0.75;
+    margin-bottom: 0;
+}
+/* Smaller outlined version near the top of the page that jumps down to the card */
+.eoi-jump-row {
+    display: flex;
+    justify-content: center;
+    margin: 1.25rem 0 0.5rem 0;
+}
+
+.eoi-jump {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.55rem 1.3rem;
+    border-radius: 8px;
+    border: 2px solid #2f8cff;
+    background-color: rgba(47, 140, 255, 0.1);
+    color: #8cc8f0;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(47, 140, 255, 0.3);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+}
+
+.eoi-jump:hover {
+    color: #8de8c9;
+    border-color: #19d39a;
+    box-shadow: 0 0 16px rgba(25, 211, 154, 0.5);
+}
+
+/* Leave room above the card for the fixed navbar when jumping to it */
+#register-interest {
+    scroll-margin-top: 90px;
+}
+</style>
+```
+
 Launching in **winter 2026/27 – spring 2027**, our new HSMA-λ (HSMA lambda) offering is a series of **standalone workshops** targeted at decision makers in the health service.
 
 HSMA-λ will focus on supporting participants to understand the advanced techniques that are taught on HSMA so you can **ask the right questions** and **interpret project outputs**.
+
+```{=html}
+<div class="eoi-jump-row">
+  <a class="eoi-jump" href="#register-interest"><i class="bi bi-arrow-down-circle"></i>Register interest</a>
+</div>
+```
 
 <br/>
 
@@ -114,13 +240,16 @@ We also equip you with the knowledge you need to ask the right questions about a
 
 ## Signing Up
 
-We would be delighted if you could fill in our **expression of interest form** for HSMA lambda by clicking [this link](https://forms.cloud.microsoft/e/spFr8qr2pP).
-
-This will help us to ensure we offer enough dates for each workshop.
-
-We will then circulate the workshop dates ahead of launch and contact you with details of how to book at that time.
-
-Please note that completing this expression of interest does not guarantee a place at the workshops.
+```{=html}
+<div class="eoi-card" id="register-interest">
+  <span class="eoi-badge"><i class="bi bi-calendar-event"></i>Winter 2026/27 – spring 2027</span>
+  <h3>Register your interest</h3>
+  <p>We would be delighted if you could fill in our expression of interest form for HSMA-λ. This will help us to ensure we offer enough dates for each workshop.</p>
+  <a class="eoi-button" href="https://forms.cloud.microsoft/e/spFr8qr2pP"><i class="bi bi-pencil-square"></i>Register λ interest</a>
+  <p>We will then circulate the workshop dates ahead of launch and contact you with details of how to book at that time.</p>
+  <p class="eoi-note">Please note that completing this expression of interest does not guarantee a place at the workshops.</p>
+</div>
+```
 
 If you are interested in being kept up to date with HSMA more generally, please [drop us an email](mailto:penchord@exeter.ac.uk?subject=Add%20me%20to%20the%20HSMA%20Mailing%20List%2C%20Please!&body=Please%20complete%20the%20fields%20below%20to%20be%20added%20to%20the%20HSMA%20mailing%20list%0A%0AFull%20Name%3A%0A%0AOrganisation%3A%0A%0A**This%20is%20an%20automatically%20generated%20email%20from%20a%20link%20on%20the%20HSMA%20website**) and we will keep you informed via our mailing list.
 
