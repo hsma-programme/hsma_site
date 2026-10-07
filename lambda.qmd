@@ -126,9 +126,12 @@ If you are interested in being kept up to date with HSMA more generally, please 
 
 You can also follow us on [LinkedIn](https://www.linkedin.com/company/hsma-programme/).
 
-## FAQ
+## FAQs
 
-### Will I learn to undertake these projects myself?
+::: {.faq}
+
+<details>
+<summary>Will I learn to undertake these projects myself?</summary>
 
 No – but you will learn enough to be able to design and support projects using the methods covered on each workshop.
 
@@ -136,10 +139,20 @@ You will also have the opportunity to propose project ideas to be worked on in H
 
 If you want to learn how to write the code required to create these models yourself, keep an eye out for registration opening up for HSMA 7 (hopefully launching in spring/summer 2027) or access our [HSMA 6 recordings](https://hsma.co.uk/hsma_content/modules/modules.html) or [teach-yourself ebooks](https://hsma.co.uk/hsma_content/books/books.html).
 
-### Do I need any technical background?
+</details>
+
+<details>
+<summary>Do I need any technical background?</summary>
 
 No! Unlike the core HSMA programme, there are no coding or technical requirements for HSMA lambda workshops. We do not expect you to have any prior knowledge of these techniques or any background in mathematics, computer programming, data science or operational research.
 
-### My question is not answered here
+</details>
+
+<details>
+<summary>My question is not answered here</summary>
 
 Please send us an email at [penchord@exeter.ac.uk](mailto:penchord@exeter.ac.uk) and we'll get back to you as soon as possible.
+
+</details>
+
+:::

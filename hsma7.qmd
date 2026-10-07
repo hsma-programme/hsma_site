@@ -96,46 +96,6 @@ grid:
   flex-shrink: 0;
 }
 
-details {
-  margin: 0.75rem 0;
-  border: 1px solid var(--quarto-border-color);
-  border-radius: 0.5rem;
-  background: #740000;
-}
-
-details summary {
-  padding: 1rem 1.25rem;
-  font-weight: 600;
-  cursor: pointer;
-  list-style: none;
-  color: #DDDDDD;
-
-}
-
-details summary::-webkit-details-marker {
-  display: none;
-}
-
-details summary::after {
-  content: "+";
-  float: right;
-  font-size: 1.3rem;
-  font-weight: 400;
-}
-
-details[open] summary::after {
-  content: "−";
-}
-
-details > *:not(summary) {
-  padding-left: 1.25rem;
-  padding-right: 1.25rem;
-}
-
-details > p:last-child {
-  padding-bottom: 1rem;
-}
-
 </style>
 
 :::: {.columns}
@@ -353,6 +313,8 @@ Our recent article in the Operational Research Society's Impact magazine provide
 
 ## FAQs
 
+::: {.faq}
+
 ### Eligibility and Applications
 
 <details>
@@ -568,3 +530,5 @@ Due to the capacity within the HSMA team, we do not offer bespoke or intensive t
 However, [all of our course material from previous years](hsma_content/modules/modules.qmd) is freely available for non-commercial adaptation and reuse (with attribution to the HSMA team). HSMA alumni and other people around the world have successfully delivered our sessions to other learners.
 
 </details>
+
+:::
