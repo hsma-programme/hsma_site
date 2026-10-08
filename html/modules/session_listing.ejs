@@ -39,7 +39,10 @@
       const code = m ? m[1].toUpperCase() : '';
       const name = m ? m[2] : item.title;
       const info = item['pub-info'] || {};
-      const links = (info.links || []).filter(link => link.url);
+      // A Codespaces link gets its own panel beside the session details rather than a button in the row
+      const isCodespace = link => /codespaces\.new|codespace/i.test(link.url + ' ' + link.name);
+      const codespace = (info.links || []).find(link => link.url && isCodespace(link));
+      const links = (info.links || []).filter(link => link.url && !isCodespace(link));
     %>
     <li class="session" <% if (code) { %>id="session-<%= code.toLowerCase() %>"<% } %> <%= metadataAttrs(item) %>>
       <div class="session-node" aria-hidden="true"><%= code %></div>
@@ -49,7 +52,8 @@
           <% if (item.hours) { %><span class="session-hours"><i class="bi bi-clock" aria-hidden="true"></i> <%= item.hours %> <%= Number(item.hours) === 1 ? 'hr' : 'hrs' %></span><% } %>
         </div>
 
-        <div class="session-body">
+        <div class="session-body<%= codespace ? ' session-body--split' : '' %>">
+          <div class="session-main">
           <% if (item['session-lead']) { %>
             <p class="session-lead"><i class="bi bi-person-video3" aria-hidden="true"></i> Session lead: <%= item['session-lead'] %></p>
           <% } %>
@@ -72,6 +76,20 @@
                 <%/* The recording is the main way in, so the video button is the solid one */%>
                 <a class="neon-button <%= link.name === 'Video' ? '' : 'neon-button--ghost' %>" href="<%- link.url %>" target="_blank" rel="noopener"><i class="<%- link.icon %>"></i> <%= link.name %></a>
               <% } %>
+            </div>
+          <% } %>
+          </div>
+
+          <% if (codespace) { %>
+            <%/* A div, not an aside: Quarto treats asides as margin content and rearranges the page grid around them */%>
+            <div class="codespace-panel" role="complementary" aria-label="Code along in a GitHub Codespace">
+              <div class="codespace-bar" aria-hidden="true"><span></span><span></span><span></span><em>codespace</em></div>
+              <div class="codespace-body">
+                <p class="codespace-cmd"><span class="prompt" aria-hidden="true">$ </span>code along<span class="cursor" aria-hidden="true"></span></p>
+                <p>Follow along with this session in your browser by starting a GitHub Codespace: a ready-made coding environment with everything already set up, so there's nothing to install.</p>
+                <p class="codespace-note"><i class="bi bi-info-circle" aria-hidden="true"></i> Free GitHub account required</p>
+                <a class="neon-button" href="<%- codespace.url %>" target="_blank" rel="noopener"><i class="fa-brands fa-github"></i> Start a codespace</a>
+              </div>
             </div>
           <% } %>
         </div>
