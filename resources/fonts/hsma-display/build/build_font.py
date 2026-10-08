@@ -113,7 +113,12 @@ def make_font(style, solid):
         metrics[name] = (adv, SB)
 
     cmap = {0x20: 'space', 0x28: 'parenleft', 0x29: 'parenright', 0x2D: 'hyphen', 0x2E: 'period',
-            0xB7: 'periodcentered', 0x37: 'seven', 0x3BB: 'lambda', 0x39B: 'lambda'}
+            0xB7: 'periodcentered', 0x3BB: 'lambda', 0x39B: 'lambda',
+            0x2C: 'comma', 0x3A: 'colon', 0x27: 'quotesingle', 0x2019: 'quotesingle', 0x21: 'exclam',
+            0x3F: 'question', 0x2F: 'slash'}
+    digits = ['zero', 'one', 'two', 'three', 'four', 'five', 'six', 'seven', 'eight', 'nine']
+    for i, name in enumerate(digits):
+        cmap[0x30 + i] = name
     for name in shapes:
         if len(name) == 1 and name.isalpha():
             cmap[ord(name)] = name
