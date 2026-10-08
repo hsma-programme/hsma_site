@@ -276,21 +276,27 @@ listing:
     }
 }
 
-/* ---- Module cards: the Books page's cards turned on their side. Two to a row, the module's art on a
-        wide CRT "monitor" with an on-screen hours readout, and the module number in the HSMA lettering ---- */
+/* ---- Module cards: one per row like the Books shelf, with the module number in the HSMA lettering,
+        the art pinned to the top of its CRT screen with an on-screen hours readout, and the topic
+        lists in two columns on wide cards so the longer modules don't run on ---- */
 .module-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(min(100%, 420px), 1fr));
+    grid-template-columns: 1fr;
     gap: 1.5rem;
     margin: 2rem 0 1rem 0;
 }
 
 .module-card {
-    display: flex;
-    flex-direction: column;
     border-radius: 12px;
     padding: 0;
+    container-type: inline-size;
     scroll-margin-top: 6rem;   /* clear the navbar when jumped to from the route map */
+}
+
+.module-card-inner {
+    display: grid;
+    grid-template-columns: clamp(220px, 28%, 300px) minmax(0, 1fr);
+    align-items: stretch;
 }
 
 .module-header {
@@ -328,22 +334,44 @@ listing:
     text-shadow: 0 0 8px var(--accent-glow);
 }
 
+.module-screen {
+    align-items: flex-start;   /* keep the art at the top of tall cards */
+    border-radius: 0 0 0 12px;
+}
+
+/* The art and its readout move together on hover, rather than just the image */
+.module-screen-frame {
+    position: relative;
+    display: block;
+    width: 100%;
+    transition: transform 0.2s ease;
+}
+
+a.module-screen:hover img {
+    transform: none;
+}
+
+a.module-screen:hover .module-screen-frame {
+    transform: translateY(-3px);
+}
+
 .module-screen img {
-    width: min(100%, 240px);
+    width: 100%;
     height: auto;
     aspect-ratio: 1;
     object-fit: cover;
 }
 
-/* On-screen display in the corner of the monitor, like a TV's channel readout */
+/* On-screen display in the corner of the picture, like a TV's channel readout */
 .module-osd {
     position: absolute;
-    right: 0.9rem;
-    bottom: 0.8rem;
+    right: 0.5rem;
+    bottom: 0.5rem;
     padding: 0 0.5rem;
     border: 1px solid color-mix(in srgb, var(--accent-soft) 55%, transparent);
     border-radius: 4px;
-    background-color: rgba(0, 0, 0, 0.6);
+    background-color: rgba(0, 0, 0, 0.8);
+    z-index: 1;   /* above the CRT overlay, so it stays readable on bright art */
     font-family: var(--terminal-font);
     font-size: 1.25rem;
     letter-spacing: 0.05em;
@@ -356,8 +384,9 @@ listing:
     flex-grow: 1;
     display: flex;
     flex-direction: column;
-    padding: 1.25rem 1.5rem 1.5rem 1.5rem;
-    border-top: 1px solid color-mix(in srgb, var(--accent-soft) 40%, transparent);
+    padding: 1.5rem 1.75rem 1.5rem 2rem;
+    /* Divider between the screen and the details, in the module's colour */
+    border-left: 1px solid color-mix(in srgb, var(--accent-soft) 40%, transparent);
 }
 
 .module-abstract {
@@ -372,7 +401,7 @@ listing:
     margin-bottom: 0.75rem;
 }
 
-/* "It covers", as a terminal prompt in the module's colour */
+/* "It covers" (or "We will cover"), as a terminal prompt in the module's colour */
 .module-abstract .module-label {
     margin-bottom: 0.2rem;
     font-family: var(--terminal-font);
@@ -410,6 +439,44 @@ listing:
     border-radius: 1px;
     background-color: var(--accent-soft);
     box-shadow: 0 0 6px var(--accent-glow);
+}
+
+/* Wide cards: topic lists in two columns */
+@container (min-width: 900px) {
+    .module-topics {
+        column-count: 2;
+        column-gap: 2.25rem;
+    }
+
+    .module-topics li {
+        break-inside: avoid;
+    }
+
+    .module-topics li:last-child {
+        border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+    }
+}
+
+/* Narrow cards (phones): screen above the details */
+@container (max-width: 560px) {
+    .module-card-inner {
+        grid-template-columns: 1fr;
+    }
+
+    .module-screen {
+        justify-content: center;
+        border-radius: 0;
+    }
+
+    .module-screen-frame {
+        max-width: 260px;
+    }
+
+    .module-card .module-body {
+        padding: 1.25rem 1.5rem 1.5rem 1.5rem;
+        border-left: none;
+        border-top: 1px solid color-mix(in srgb, var(--accent-soft) 40%, transparent);
+    }
 }
 
 .module-actions {
