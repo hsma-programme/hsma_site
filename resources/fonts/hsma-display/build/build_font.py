@@ -138,6 +138,9 @@ def make_font(style, solid):
     fb.setupOS2(sTypoAscender=820, sTypoDescender=-180, sTypoLineGap=0, usWinAscent=900, usWinDescent=200,
                 sCapHeight=CAP_UNITS, sxHeight=CAP_UNITS, achVendID='HSMA')
     fb.setupPost()
+    # J's top-left is empty, so pull it in after round letters
+    fb.addOpenTypeFeatures("languagesystem DFLT dflt; languagesystem latn dflt; languagesystem grek dflt; "
+                           "feature kern { pos [O Q D zero] J -60; } kern;")
     base = os.path.join(OUT, family.replace(' ', '') + '-Regular')
     fb.save(base + '.ttf')
     f = TTFont(base + '.ttf')

@@ -117,12 +117,12 @@ def build():
                               [(322, 82), (322, -80)]],
                     groove_strokes=[[(H2, BOT), (H2, TOP)], [(R(mw), BOT), (R(mw), TOP)],
                                     [(dl(TOP), TOP), (322, 82), (mw - dl(TOP), TOP)]], wd=128)
+    # N: one continuous groove, as in the logo's M: up the left stem, down the diagonal, up the right stem
     nw = 520
     n_d = ((H2, CAP + 40), (R(nw), -40))
     gl['N'] = Glyph(nw, [[(H2, BOT), (H2, TOP)], [(R(nw), TOP), (R(nw), BOT)]],
                     diagonal=[list(n_d)],
-                    groove_strokes=[[(H2, BOT), (H2, TOP)], [(R(nw), BOT), (R(nw), TOP)],
-                                    [at_y(*n_d, TOP), at_y(*n_d, BOT)]])
+                    groove_strokes=[[(H2, BOT), (H2, TOP), at_y(*n_d, TOP), at_y(*n_d, BOT), (R(nw), BOT), (R(nw), TOP)]])
 
     # A: diagonals along the logo's grooves (89, 69) -> (264, 654), mirrored, meeting in a flat apex;
     # full-weight crossbar centred at y=240
@@ -313,9 +313,15 @@ def build():
     scy = 255
     srx, sry = (sxw - W) / 2, scy - BOT + OVER
     six_bowl = arc(sxw / 2, scy, srx, sry, 0, 360, 96)
-    six_stem = arc(sxw / 2, 330, srx, TOP - 330 + OVER, 180, 62, 40)
-    gl['six'] = Glyph(sxw, [six_bowl, six_stem], clip=False)
-    gl['nine'] = Glyph(sxw, [six_bowl, six_stem], clip=False, rotate=True)
+    # The stem rises up the bowl's left side into a round top, the same curve as the 2's
+    six_top = TOP + OVER - srx                        # centre height of the top arc
+    # (the stroke starts half a stroke above the bowl's widest point, so its square end stays inside the bowl;
+    # the groove starts at that point, so it runs on unbroken from the bowl's groove)
+    six_arc = arc(sxw / 2, six_top, srx, srx, 180, 35, 40)
+    six_stem = [(sxw / 2 - srx, scy + H2)] + six_arc
+    six_grooves = [six_bowl, [(sxw / 2 - srx, scy)] + six_arc]
+    gl['six'] = Glyph(sxw, [six_bowl, six_stem], groove_strokes=six_grooves, clip=False)
+    gl['nine'] = Glyph(sxw, [six_bowl, six_stem], groove_strokes=six_grooves, clip=False, rotate=True)
 
     ew = 490
     eu_ry = (TOP - MID) / 2 + 5
