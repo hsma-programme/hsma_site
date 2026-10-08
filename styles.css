@@ -974,7 +974,7 @@ a.neon-tile--quiet:hover::before {
     margin: 0;
     font-family: 'HSMA Display', 'Lexend', sans-serif;
     font-weight: 400;
-    font-size: clamp(2.4rem, 7.2vw, 6rem);   /* phones keep the smaller minimum so the λ title fits on one line */
+    font-size: clamp(2.4rem, 7.9vw, 6.6rem);   /* phones keep the smaller minimum so the λ title fits on one line */
     line-height: 1;
     letter-spacing: 0.08em;
     text-transform: none;
