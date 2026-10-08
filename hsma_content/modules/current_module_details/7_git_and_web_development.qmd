@@ -5,6 +5,7 @@ image: "7_collab.jpeg"
 hours: 18
 accent: spectrum
 book: https://hsma-programme.github.io/streamlit_book/
+book-label: "Web development eBook (7B & 7C)"   # the Streamlit book covers the web development sessions only
 pub-info:
   abstract: |
     In this module we start by taking a look at a crucial skill for the analyst, data science or operational researcher's toolbox - version control with Git. Git ensures that the full history of your code is available, allowing you to

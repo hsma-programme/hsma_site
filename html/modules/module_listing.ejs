@@ -23,7 +23,8 @@
         }
       }
     %>
-    <%/* Each module's `accent` colours its card; modules with a companion eBook share that book's colour */%>
+    <%/* Each module's `accent` colours its card; modules with a companion eBook share that book's colour.
+          `book-label` replaces the eBook button's text, e.g. where the book covers only part of a module */%>
     <div class="module-card neon-tile neon-tile--<%= item.accent || 'red' %>" <% if (num) { %>id="module-<%= num %>"<% } %> <%= metadataAttrs(item) %>>
       <div class="module-header tile-header">
         <% if (num) { %><span class="module-num" aria-hidden="true"><%= num %></span><% } %>
@@ -60,7 +61,7 @@
         <div class="module-actions">
           <a class="neon-button" href="<%- item.path %>"><i class="bi bi-collection-play"></i> View sessions</a>
           <% if (item.book) { %>
-            <a class="neon-button neon-button--ghost" href="<%- item.book %>" target="_blank" rel="noopener"><i class="fa-solid fa-book"></i> Companion eBook</a>
+            <a class="neon-button neon-button--ghost" href="<%- item.book %>" target="_blank" rel="noopener"><i class="fa-solid fa-book"></i> <%= item['book-label'] || 'Companion eBook' %></a>
           <% } %>
         </div>
       </div>
