@@ -1,0 +1,6 @@
+fonttools
+brotli
+shapely
+opencv-python-headless
+numpy
+pillow

@@ -7,3 +7,6 @@ current_projects
 **/*.quarto_ipynb
 
 docs/
+
+# HSMA Display font build check image
+resources/fonts/hsma-display/build/calib.png
