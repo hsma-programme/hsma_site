@@ -24,6 +24,12 @@ BOT = H2           # centre line of bottom strokes
 MID = 381          # centre line of crossbars (H)
 
 
+def at_y(p0, p1, y):
+    """The point at height y on the straight line through p0 and p1."""
+    (x0, y0), (x1, y1) = p0, p1
+    return (x0 + (x1 - x0) * (y - y0) / (y1 - y0), y)
+
+
 def arc(cx, cy, rx, ry, a0, a1, n=48):
     """Points along an elliptical arc, angles in degrees (0 = right, counter-clockwise)."""
     return [(cx + rx * math.cos(math.radians(a0 + (a1 - a0) * i / n)),
@@ -31,7 +37,7 @@ def arc(cx, cy, rx, ry, a0, a1, n=48):
 
 
 class Glyph:
-    def __init__(self, width, strokes, diagonal=(), extra=None, groove_strokes=None, clip=True, wd=None, bars=(), rotate=False):
+    def __init__(self, width, strokes, diagonal=(), extra=None, groove_strokes=None, clip=True, wd=None, bars=(), rotate=False, clip_x=False):
         self.width = width            # advance width of the letter body, excluding side bearings
         self.wd = wd or WD            # stroke width for this glyph's diagonals
         self.bars = bars              # centre lines drawn at W with flat ends, for bars that stop inside other strokes
@@ -41,6 +47,7 @@ class Glyph:
         self.groove_strokes = groove_strokes  # override which centre lines get a groove
         self.clip = clip              # clip to the cap-height box (flat tops on M, A, N...)
         self.rotate = rotate          # turn the finished glyph upside down (9 is a rotated 6)
+        self.clip_x = clip_x          # also clip to the glyph's width, for strokes that start at a corner
 
 
 def _closed(p):
@@ -67,7 +74,7 @@ def letter(g):
              if s is not None]
     shape = unary_union(parts)
     if g.clip:
-        shape = shape.intersection(box(-400, 0, g.width + 400, CAP))
+        shape = shape.intersection(box(0 if g.clip_x else -400, 0, g.width if g.clip_x else g.width + 400, CAP))
     # Slightly rounded outer corners, as in the logo
     return _turn(g, shape.buffer(-ROUND, join_style='round').buffer(ROUND, join_style='round'))
 
@@ -111,9 +118,11 @@ def build():
                     groove_strokes=[[(H2, BOT), (H2, TOP)], [(R(mw), BOT), (R(mw), TOP)],
                                     [(dl(TOP), TOP), (322, 82), (mw - dl(TOP), TOP)]], wd=128)
     nw = 520
+    n_d = ((H2, CAP + 40), (R(nw), -40))
     gl['N'] = Glyph(nw, [[(H2, BOT), (H2, TOP)], [(R(nw), TOP), (R(nw), BOT)]],
-                    diagonal=[[(H2, CAP + 40), (R(nw), -40)]],
-                    groove_strokes=[[(H2, BOT), (H2, TOP), (R(nw), BOT), (R(nw), TOP)]])
+                    diagonal=[list(n_d)],
+                    groove_strokes=[[(H2, BOT), (H2, TOP)], [(R(nw), BOT), (R(nw), TOP)],
+                                    [at_y(*n_d, TOP), at_y(*n_d, BOT)]])
 
     # A: diagonals along the logo's grooves (89, 69) -> (264, 654), mirrored, meeting in a flat apex;
     # full-weight crossbar centred at y=240
@@ -168,10 +177,10 @@ def build():
                          [(H2, TOP), (pw - H2 - ru, TOP)] + arc(pw - H2 - ru, MID + ru - 15, ru, ru + 15, 90, -90) + [(H2, MID - 30)]])
     gl['R'] = Glyph(500, [[(H2, BOT), (H2, TOP)],
                           [(H2, TOP), (500 - H2 - ru - 20, TOP)] + arc(500 - H2 - ru - 20, MID + ru - 15, ru, ru + 15, 90, -90) + [(H2, MID - 30)]],
-                    diagonal=[[(250, MID - 30), (500 - 40, -60)]],
+                    diagonal=[[(250, MID - 30), (500 - 40, -60)]],   # leg
                     groove_strokes=[[(H2, BOT), (H2, TOP)],
                                     [(H2, TOP), (500 - H2 - ru - 20, TOP)] + arc(500 - H2 - ru - 20, MID + ru - 15, ru, ru + 15, 90, -90) + [(H2, MID - 30)],
-                                    [(270, MID - 30), (500 - H2 - 10, BOT)]])
+                                    [at_y((250, MID - 30), (460, -60), MID - 50), at_y((250, MID - 30), (460, -60), BOT)]])
     cw = 520
     gl['C'] = Glyph(cw, [arc(cw / 2 + 10, CAP / 2, cw / 2 - H2, oh / 2, 40, 320, 80)],
                     groove_strokes=[arc(cw / 2 + 10, CAP / 2, cw / 2 - H2, oh / 2, 52, 308, 80)], clip=False)
@@ -191,8 +200,12 @@ def build():
 
     # λ: long stroke from top-left down to bottom-right, short leg to bottom-left
     lw = 500
-    gl['lambda'] = Glyph(lw, [], diagonal=[[(60, CAP + 30), (lw - 30, -60)], [(250, 360), (25, -60)]],
-                         groove_strokes=[[(85, TOP), (lw - 80, BOT)], [(235, 345), (85, BOT)]])
+    l_long = ((60, CAP + 30), (lw - 30, -60))
+    l_join = at_y(*l_long, 360)                       # where the short leg leaves the long stroke
+    l_short = (l_join, (25, -60))
+    # The short leg's path starts further up the long stroke so its squared-off start stays inside it
+    gl['lambda'] = Glyph(lw, [], diagonal=[list(l_long), [at_y(*l_long, 480), l_join, (25, -60)]],
+                         groove_strokes=[[at_y(*l_long, TOP), at_y(*l_long, BOT)], [l_join, at_y(*l_short, BOT)]])
 
     # Brackets: flat arcs a little taller than the caps, at the lighter diagonal weight
     pr, pa = 700, 38            # arc radius and half-angle
@@ -236,15 +249,20 @@ def build():
 
     # X: two crossing diagonals
     xw = 540
-    gl['X'] = Glyph(xw, [], diagonal=[[(30, CAP + 60), (xw - 30, -60)], [(xw - 30, CAP + 60), (30, -60)]],
-                    groove_strokes=[[(85, TOP), (xw - 85, BOT)], [(xw - 85, TOP), (85, BOT)]], wd=132)
+    x_a = ((30, CAP + 60), (xw - 30, -60))
+    x_b = ((xw - 30, CAP + 60), (30, -60))
+    gl['X'] = Glyph(xw, [], diagonal=[list(x_a), list(x_b)],
+                    groove_strokes=[[at_y(*x_a, TOP), at_y(*x_a, BOT)], [at_y(*x_b, TOP), at_y(*x_b, BOT)]], wd=132)
 
     # Y: two arms meeting at a stem
     yw = 560
     yj = 320                                          # height where the arms meet the stem
+    y_fork = (yw / 2, yj - 20)
+    y_arm = ((30, CAP + 60), y_fork)
+    y_top = at_y(*y_arm, TOP)
     gl['Y'] = Glyph(yw, [[(yw / 2, yj), (yw / 2, BOT)]],
-                    diagonal=[[(30, CAP + 60), (yw / 2, yj - 20), (yw - 30, CAP + 60)]],
-                    groove_strokes=[[(80, TOP), (yw / 2, yj), (yw - 80, TOP)], [(yw / 2, yj), (yw / 2, BOT)]], wd=128)
+                    diagonal=[[(30, CAP + 60), y_fork, (yw - 30, CAP + 60)]],
+                    groove_strokes=[[y_top, y_fork, (yw - y_top[0], TOP)], [y_fork, (yw / 2, BOT)]], wd=128)
 
     # Z: top and bottom bars joined by a diagonal; the diagonal forms both corners, as in the 7
     zw = 480
@@ -256,9 +274,11 @@ def build():
     # ------------------------------------------------------------ digits (cap height, like the 7)
     gl['zero'] = Glyph(480, [arc(240, CAP / 2, 240 - H2, oh / 2, 0, 360, 96)], clip=False)
 
+    one_flag = ((R(320), TOP), (40, TOP - 170))
+    one_end_y = TOP - 170 * (R(320) - 95) / (R(320) - 40)   # flag centre line at x = 95
     gl['one'] = Glyph(320, [[(R(320), BOT), (R(320), TOP)]],
-                      diagonal=[[(R(320), TOP), (40, TOP - 170)]],
-                      groove_strokes=[[(R(320), BOT), (R(320), TOP), (90, TOP - 150)]])
+                      diagonal=[list(one_flag)], clip_x=True,
+                      groove_strokes=[[(R(320), BOT), (R(320), TOP), at_y(*one_flag, one_end_y)]])
 
     tw = 480
     tr = (tw - W) / 2
@@ -278,8 +298,10 @@ def build():
     fx = fw - 150                                     # stem centre
     fy = 230                                          # bar centre
     gl['four'] = Glyph(fw, [[(fx, BOT), (fx, TOP)], [(H2, fy), (R(fw), fy)]],
-                       diagonal=[[(fx + 30, CAP + 60), (H2 + 35, fy + 35)]],   # ends inside the bar
-                       groove_strokes=[[(fx, BOT), (fx, TOP), (H2 + 20, fy)], [(H2 + 20, fy), (R(fw), fy)]])
+                       diagonal=[[(fx - 10, CAP + 60), (H2 + 35, fy + 35)]],   # starts over the stem, ends inside the bar
+                       groove_strokes=[[(fx, BOT), (fx, TOP)],
+                                       [at_y((fx - 10, CAP + 60), (H2 + 35, fy + 35), TOP),
+                                        at_y((fx - 10, CAP + 60), (H2 + 35, fy + 35), fy), (R(fw), fy)]])
 
     vw5 = 480
     bcy = 255                                         # bowl centre height
