@@ -681,11 +681,16 @@ a.neon-tile:hover {
     --accent-soft: #8cc8f0;
 }
 
-/* Headline tile: full neon gradient edge and a standing glow */
+/* Full neon gradient edge (the whole banner spectrum) */
+.neon-tile--spectrum,
 .neon-tile--feature {
     --accent: var(--neon-gradient);
     --accent-glow: rgba(224, 33, 138, 0.5);
     --accent-soft: #f08cc4;
+}
+
+/* Headline tile: the spectrum edge plus a standing glow, to stand out from its neighbours */
+.neon-tile--feature {
     border-color: rgba(224, 33, 138, 0.35);
     box-shadow: 0 0 18px rgba(224, 33, 138, 0.18);
 }

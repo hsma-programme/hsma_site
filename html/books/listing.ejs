@@ -2,7 +2,7 @@
 <div class="list book-grid">
 
   <% for (const item of items) { %>
-    <%/* Each book's `accent` (red, blue, magenta, green or feature) colours its header band and button */%>
+    <%/* Each book's `accent` (red, blue, magenta, green or spectrum) colours its header band and button */%>
     <div class="book-card neon-tile neon-tile--<%= item.accent || 'red' %>" <%= metadataAttrs(item) %>>
       <div class="book-header">
         <h3 class="no-anchor book-title listing-title"><span class="prompt" aria-hidden="true">&gt; </span><%= item['title'] %></h3>
