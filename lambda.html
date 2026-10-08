@@ -116,7 +116,7 @@ background-size: cover;
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed neon-headings neon-headings--left lambda-theme neon-title quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -312,6 +312,7 @@ background-size: cover;
   <div class="quarto-title-banner page-columns page-full">
     <div class="quarto-title column-page">
       <h1 class="title">HSMA λ (Lambda)</h1>
+            <p class="subtitle lead">Ask the right questions · Interpret project outputs</p>
                       </div>
   </div>
     
@@ -335,10 +336,87 @@ background-size: cover;
 
 
 
-<p>Launching in <strong>winter 2026/27 – spring 2027</strong>, our new HSMA-λ (HSMA lambda) offering is a series of <strong>standalone workshops</strong> targeted at decision makers in the health service.</p>
-<p>HSMA-λ will focus on supporting participants to understand the advanced techniques that are taught on HSMA so you can <strong>ask the right questions</strong> and <strong>interpret project outputs</strong>.</p>
+<style>
+/* Shared fonts, colours, headings, tiles and highlights live in styles.css (neon design language section) */
+
+.eoi-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.6rem;
+    margin: 0.75rem 0 1rem 0;
+    padding: 0.8rem 1.8rem;
+    border-radius: 8px;
+    background: var(--lambda-gradient);
+    color: #0d0d0d;
+    font-size: 1.15rem;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 0 16px rgba(47, 140, 255, 0.45);
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+
+.eoi-button:hover {
+    color: #0d0d0d;
+    transform: translateY(-2px);
+    box-shadow: 0 0 26px rgba(25, 211, 154, 0.6);
+}
+
+.lambda-card .eoi-note {
+    font-size: 0.9rem;
+    opacity: 0.75;
+}
+
+/* Smaller outlined version near the top of the page that jumps down to the card */
+.eoi-jump-row {
+    display: flex;
+    justify-content: center;
+    margin: 1.25rem 0 0.5rem 0;
+}
+
+.eoi-jump {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.55rem 1.3rem;
+    border-radius: 8px;
+    border: 2px solid var(--neon-blue);
+    background-color: rgba(47, 140, 255, 0.1);
+    color: #8cc8f0;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(47, 140, 255, 0.3);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+}
+
+.eoi-jump:hover {
+    color: #8de8c9;
+    border-color: var(--neon-green);
+    box-shadow: 0 0 16px rgba(25, 211, 154, 0.5);
+}
+
+/* Leave room above the card for the fixed navbar when jumping to it */
+#register-interest {
+    scroll-margin-top: 90px;
+}
+
+/* Thin neon line above each workshop description, matching its tile's colour */
+.workshop-col {
+    padding-top: 1rem;
+    border-top: 3px solid var(--col-accent);
+}
+
+.workshop-col--blue { --col-accent: var(--neon-blue); }
+.workshop-col--magenta { --col-accent: var(--neon-magenta); }
+.workshop-col--green { --col-accent: var(--neon-green); }
+</style>
+<p>Launching in <strong>winter 2026/27 – spring 2027</strong>, our new HSMA-λ (HSMA lambda) offering is a series of <span class="neon-text"><strong>standalone workshops</strong></span> targeted at decision makers in the health service.</p>
+<p>HSMA-λ will focus on supporting participants to understand the advanced techniques that are taught on HSMA so you can <span class="neon-text"><strong>ask the right questions</strong></span> and <span class="neon-text"><strong>interpret project outputs</strong></span>.</p>
+<div class="eoi-jump-row">
+  <a class="eoi-jump" href="#register-interest"><i class="bi bi-arrow-down-circle"></i>Register interest</a>
+</div>
 <p><br></p>
-<div class="value-box-simple bg-red" style="justify-content:center; text-align:center;">
+<div class="lambda-card">
+<span class="lambda-badge"><i class="bi bi-terminal"></i>No prior experience needed</span>
 <h3 class="anchored">
 No code, no technical jargon
 </h3>
@@ -349,15 +427,15 @@ Just teaching focused on real-world application, helping you understand the art 
 <p><br></p>
 <p>Taught by the core HSMA team – applied University of Exeter researchers who have delivered training to over 450 HSMAs and supported the development of over 100 real-world healthcare data science projects in the NHS, allied professions, healthcare charities and beyond – this new format opens up the world of HSMA to a wider range of people.</p>
 <div class="value-grid-box" style="justify-content:center; text-align:center;">
-    <div class="value-box bg-red">
+    <div class="value-box neon-tile neon-tile--lambda">
         <div class="icon" style="font-size: 2rem;"><i class="bi bi-cloud"></i></div>
         <div class="details">An interactive online workshop lasting around 3 hours, with plenty of time for group discussions and questions.</div>
     </div>
-    <div class="value-box bg-red">
+    <div class="value-box neon-tile neon-tile--lambda">
         <div class="icon" style="font-size: 2rem;"><i class="bi bi-currency-pound"></i></div>
         <div class="details">Free of charge to people working in a public sector healthcare organisation.</div>
     </div>
-    <div class="value-box bg-red">
+    <div class="value-box neon-tile neon-tile--lambda">
         <div class="icon" style="font-size: 2rem;"><i class="fa-solid fa-users"></i></div>
         <div class="details">Delivered to small groups of under 20 people, made up exclusively of people working in similar roles across the health service.</div>
     </div>
@@ -375,34 +453,34 @@ Just teaching focused on real-world application, helping you understand the art 
 <section id="workshops" class="level2">
 <h2 class="anchored" data-anchor-id="workshops">Workshops</h2>
 <div class="value-grid-box" style="justify-content:center; text-align:center;">
-    <div class="value-box bg-red">
+    <div class="value-box neon-tile neon-tile--blue">
         <div class="icon" style="font-size: 2rem;"><i class="bi bi-signpost-split"></i></div>
         <div class="details">Simulation Modelling<br>for Pathway Problems</div>
     </div>
-    <div class="value-box bg-red">
+    <div class="value-box neon-tile neon-tile--magenta">
         <div class="icon" style="font-size: 2rem;"><i class="bi bi-globe-americas"></i></div>
         <div class="details">Location Optimization<br>for Equity and Efficiency</div>
     </div>
-    <div class="value-box bg-red">
+    <div class="value-box neon-tile neon-tile--green">
         <div class="icon" style="font-size: 2rem;"><i class="fa-solid fa-brain"></i></div>
         <div class="details">Machine Learning<br>for Operational Improvements</div>
     </div>
 </div>
 <p><br></p>
 <div class="columns">
-<div class="column" style="width:30%;">
+<div class="column workshop-col workshop-col--blue" style="width:30%;">
 <p>In this workshop, we explore the powerful technique of <strong>discrete event simulation (DES)</strong>.</p>
 <p>DES allows you to create computer models of pathways, helping you to answer ‘what-if’ questions about pathway resourcing and configuration in a risk-free environment.</p>
 <p>Used extensively in manufacturing and logistics, this technique allows you to model anything from emergency departments to ambulances to elective surgery waits.</p>
 <p>Understanding the kind of questions that are suited to DES unlocks a powerful new way to ensure pathways are right-sized, robust and ready for the future.</p>
 </div><div class="column" style="width:5%;">
 
-</div><div class="column" style="width:30%;">
+</div><div class="column workshop-col workshop-col--magenta" style="width:30%;">
 <p>In this workshop, we explore how we can better understand the geographical distribution of our demand and make sure our services are in the right place to support our population.</p>
 <p>We will explore the powerful location optimization algorithms that the HSMA course teaches analysts to use, helping you manage new sites, service closures, or locating a range of new services in a data-driven way that can account for real-world car and public transport travel times, equity, and emissions.</p>
 </div><div class="column" style="width:5%;">
 
-</div><div class="column" style="width:30%;">
+</div><div class="column workshop-col workshop-col--green" style="width:30%;">
 <p>In this workshop, we focus on how machine learning can be used to drive operational improvements.</p>
 <p>Helping to carefully navigate the complexity of how machine learning projects can be used for service improvement, we explore the data requirements, ethics and regulations surrounding machine learning in operational contexts.</p>
 <p>We will explore success stories from previous HSMA cohorts, such as how machine learning helped drive significant reductions in patient non-attendance by allowing better targeting of high-risk non-attenders.</p>
@@ -412,31 +490,43 @@ Just teaching focused on real-world application, helping you understand the art 
 </section>
 <section id="signing-up" class="level2">
 <h2 class="anchored" data-anchor-id="signing-up">Signing Up</h2>
-<p>We would be delighted if you could fill in our <strong>expression of interest form</strong> for HSMA lambda by clicking <a href="https://forms.cloud.microsoft/e/spFr8qr2pP">this link</a>.</p>
-<p>This will help us to ensure we offer enough dates for each workshop.</p>
-<p>We will then circulate the workshop dates ahead of launch and contact you with details of how to book at that time.</p>
-<p>Please note that completing this expression of interest does not guarantee a place at the workshops.</p>
+<div class="lambda-card" id="register-interest">
+  <span class="lambda-badge"><i class="bi bi-calendar-event"></i>Winter 2026/27 – spring 2027</span>
+  <h3 class="anchored">Register your interest</h3>
+  <p>We would be delighted if you could fill in our expression of interest form for HSMA-λ. This will help us to ensure we offer enough dates for each workshop.</p>
+  <a class="eoi-button" href="https://forms.cloud.microsoft/e/spFr8qr2pP"><i class="bi bi-pencil-square"></i>Register λ interest</a>
+  <p>We will then circulate the workshop dates ahead of launch and contact you with details of how to book at that time.</p>
+  <p class="eoi-note">Please note that completing this expression of interest does not guarantee a place at the workshops.</p>
+</div>
 <p>If you are interested in being kept up to date with HSMA more generally, please <a href="mailto:penchord@exeter.ac.uk?subject=Add%20me%20to%20the%20HSMA%20Mailing%20List%2C%20Please!&amp;body=Please%20complete%20the%20fields%20below%20to%20be%20added%20to%20the%20HSMA%20mailing%20list%0A%0AFull%20Name%3A%0A%0AOrganisation%3A%0A%0A**This%20is%20an%20automatically%20generated%20email%20from%20a%20link%20on%20the%20HSMA%20website**">drop us an email</a> and we will keep you informed via our mailing list.</p>
 <p>You can also follow us on <a href="https://www.linkedin.com/company/hsma-programme/">LinkedIn</a>.</p>
 </section>
-<section id="faq" class="level2">
-<h2 class="anchored" data-anchor-id="faq">FAQ</h2>
-<section id="will-i-learn-to-undertake-these-projects-myself" class="level3">
-<h3 class="anchored" data-anchor-id="will-i-learn-to-undertake-these-projects-myself">Will I learn to undertake these projects myself?</h3>
+<section id="faqs" class="level2">
+<h2 class="anchored" data-anchor-id="faqs">FAQs</h2>
+<div class="faq faq--lambda">
+<details>
+<summary>
+Will I learn to undertake these projects myself?
+</summary>
 <p>No – but you will learn enough to be able to design and support projects using the methods covered on each workshop.</p>
 <p>You will also have the opportunity to propose project ideas to be worked on in HSMA 7 as HSMA projects, as well as nominating candidates from your organisation for the HSMA programme.</p>
 <p>If you want to learn how to write the code required to create these models yourself, keep an eye out for registration opening up for HSMA 7 (hopefully launching in spring/summer 2027) or access our <a href="https://hsma.co.uk/hsma_content/modules/modules.html">HSMA 6 recordings</a> or <a href="https://hsma.co.uk/hsma_content/books/books.html">teach-yourself ebooks</a>.</p>
-</section>
-<section id="do-i-need-any-technical-background" class="level3">
-<h3 class="anchored" data-anchor-id="do-i-need-any-technical-background">Do I need any technical background?</h3>
+</details>
+<details>
+<summary>
+Do I need any technical background?
+</summary>
 <p>No! Unlike the core HSMA programme, there are no coding or technical requirements for HSMA lambda workshops. We do not expect you to have any prior knowledge of these techniques or any background in mathematics, computer programming, data science or operational research.</p>
-</section>
-<section id="my-question-is-not-answered-here" class="level3">
-<h3 class="anchored" data-anchor-id="my-question-is-not-answered-here">My question is not answered here</h3>
+</details>
+<details>
+<summary>
+My question is not answered here
+</summary>
 <p>Please send us an email at <a href="mailto:penchord@exeter.ac.uk">penchord@exeter.ac.uk</a> and we’ll get back to you as soon as possible.</p>
+</details>
+</div>
 
 
-</section>
 </section>
 
 </main> <!-- /main -->

@@ -121,7 +121,7 @@ background-size: cover;
 <link rel="stylesheet" href="styles.css">
 </head>
 
-<body class="nav-fixed quarto-light">
+<body class="nav-fixed neon-headings quarto-light">
 
 <div id="quarto-search-results"></div>
   <header id="quarto-header" class="headroom fixed-top quarto-banner">
@@ -341,71 +341,14 @@ background-size: cover;
 
 
 <style>
-/* Bebas Neue echoes the condensed lettering of the HSMA logo tagline; VT323 is a retro terminal font */
-@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=IBM+Plex+Mono:wght@400&family=VT323&display=swap');
-
-/* Neon colours sampled from the site banner */
-:root {
-    --hsma-red: #c4161c;
-    --neon-red: #ff2d3f;
-    --neon-magenta: #e0218a;
-    --neon-blue: #2f8cff;
-    --neon-green: #19d39a;
-    --neon-gradient: linear-gradient(90deg, var(--neon-red), var(--neon-magenta) 35%, var(--neon-blue) 70%, var(--neon-green));
-    --display-font: 'Bebas Neue', 'Lexend', sans-serif;
-    --terminal-font: 'VT323', ui-monospace, monospace;
-}
-
 /* Centre the page content and title only, not the site-wide announcement banner */
 #title-block-header,
 #quarto-document-content {
     text-align: center;
 }
 
-#quarto-document-content h2 {
-    font-family: var(--display-font);
-    text-transform: uppercase;
-    font-size: 2.9rem;
-    font-weight: 400;
-    line-height: 1;
-    letter-spacing: 0.12em;
-    text-align: center;
-    margin-top: 4.5rem;
-    margin-bottom: 1.75rem;
-    /* Balances the trailing letter-spacing after the last letter so the text centres over the bar */
-    padding-left: 0.12em;
-    padding-bottom: 0;
-    border-bottom: none;
-    position: relative;
-}
-
-/* Take Quarto's hover anchor link out of the flow so it doesn't push the heading text off-centre */
-#quarto-document-content h2 .anchorjs-link {
-    position: absolute;
-    padding-left: 0.4em;
-}
-
 #quarto-document-content #what-is-hsma > h2 {
     margin-top: 1.5rem;
-}
-
-/* Short neon accent bar under each section heading */
-#quarto-document-content h2::after {
-    content: "";
-    display: block;
-    width: 110px;
-    height: 4px;
-    margin: 0.85rem auto 0 auto;
-    border-radius: 2px;
-    background: var(--neon-gradient);
-    box-shadow: 0 0 10px rgba(224, 33, 138, 0.55), 0 0 2px rgba(255, 255, 255, 0.4);
-}
-
-@media (max-width: 600px) {
-    #quarto-document-content h2 {
-        font-size: 2.2rem;
-        letter-spacing: 0.08em;
-    }
 }
 
 /* ---- Main image carousel: split card layout ---- */
@@ -810,85 +753,6 @@ background-size: cover;
     font-size: 1.6rem;
 }
 
-/* Dark link tiles with a neon top edge, matching the updates panel and quote cards.
-   Hierarchy comes from size and glow rather than different shades of red. */
-.neon-tile {
-    --accent: var(--neon-red);
-    --accent-glow: rgba(255, 45, 63, 0.55);
-    --accent-soft: #ff8a90;
-    position: relative;
-    overflow: hidden;
-    background-color: #1c1c1c;
-    border: 1px solid #2e2e2e;
-    color: white;
-    transition: transform 0.2s ease, box-shadow 0.2s ease, border-color 0.2s ease;
-}
-
-.neon-tile::before {
-    content: "";
-    position: absolute;
-    top: 0;
-    left: 0;
-    right: 0;
-    height: 4px;
-    background: var(--accent);
-    box-shadow: 0 0 12px var(--accent-glow);
-}
-
-.neon-tile .icon {
-    color: var(--accent-soft);
-}
-
-.neon-tile:hover {
-    border-color: var(--accent-glow);
-    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.35), 0 0 14px var(--accent-glow);
-}
-
-.neon-tile--magenta {
-    --accent: var(--neon-magenta);
-    --accent-glow: rgba(224, 33, 138, 0.55);
-    --accent-soft: #f08cc4;
-}
-
-.neon-tile--blue {
-    --accent: var(--neon-blue);
-    --accent-glow: rgba(47, 140, 255, 0.55);
-    --accent-soft: #8cc8f0;
-}
-
-.neon-tile--green {
-    --accent: var(--neon-green);
-    --accent-glow: rgba(25, 211, 154, 0.5);
-    --accent-soft: #8de8c9;
-}
-
-/* Headline tile: full neon gradient edge and a standing glow */
-.neon-tile--feature {
-    --accent: var(--neon-gradient);
-    --accent-glow: rgba(224, 33, 138, 0.5);
-    --accent-soft: #f08cc4;
-    border-color: rgba(224, 33, 138, 0.35);
-    box-shadow: 0 0 18px rgba(224, 33, 138, 0.18);
-}
-
-/* Secondary "browse by" tiles: no top edge, just a neon icon, lighting up on hover */
-.neon-tile--quiet {
-    background-color: #181818;
-}
-
-.neon-tile--quiet::before {
-    opacity: 0;
-    transition: opacity 0.2s ease;
-}
-
-.neon-tile--quiet:hover::before {
-    opacity: 1;
-}
-
-.neon-tile--quiet .details {
-    opacity: 0.85;
-}
-
 @media (max-width: 900px) {
     .stat-grid,
     .value-grid-box-4 {
@@ -982,62 +846,14 @@ background-size: cover;
     padding: 1.5rem 1.5rem 0 1.5rem;
 }
 
-.update-workshops {
-    list-style: none;
-    width: 100%;
-    margin: 0 0 0.9rem 0;
-    padding: 0;
-}
-
-.update-workshops li {
-    display: flex;
-    align-items: center;
-    gap: 0.65rem;
-    margin-bottom: 0.4rem;
-    padding: 0.45rem 0.75rem;
-    border-left: 3px solid var(--neon-blue);
-    border-radius: 6px;
-    background-color: rgba(47, 140, 255, 0.08);
-    font-weight: 500;
-}
-
-.update-workshops li i {
-    color: #8cc8f0;
-    font-size: 1.1rem;
-}
-
-/* Inline neon highlight in the λ card's blue-to-green accent (plain light blue where gradient text isn't supported) */
-.neon-text {
-    color: #8cc8f0;
-    font-weight: 600;
-}
-
-@supports ((-webkit-background-clip: text) or (background-clip: text)) {
-    .neon-text {
-        background: linear-gradient(90deg, #6fb2ff, #5fe6bd);
-        -webkit-background-clip: text;
-        background-clip: text;
-        color: transparent;
-        -webkit-box-decoration-break: clone;
-        box-decoration-break: clone;
-        filter: drop-shadow(0 0 6px rgba(47, 140, 255, 0.55));
-    }
-}
-
-/* HSMA 7 sneak-peek list: red variant of the workshop rows, growing so the link sits at the bottom */
+/* HSMA 7 sneak-peek list (shared .neon-list rows in styles.css): grows so the link sits at the bottom */
 .update-teasers {
     flex-grow: 1;
 }
 
 .update-teasers li {
-    border-left-color: var(--neon-red);
-    background-color: rgba(255, 45, 63, 0.08);
     font-size: 0.92rem;
     line-height: 1.35;
-}
-
-.update-teasers li i {
-    color: #ff8a90;
 }
 
 /* Extra specificity: this must beat the general .update-item p:last-of-type rule further down */
@@ -1191,42 +1007,6 @@ background-size: cover;
     }
 }
 
-.featured-quote {
-    position: relative;
-    margin: 1.5rem auto 2rem auto;
-    padding: 2.5rem 3rem 2rem 3rem;
-    max-width: 820px;
-    border-left: 6px solid #9c000d;
-    border-radius: 10px;
-    background: linear-gradient(135deg, rgba(156, 0, 13, 0.35) 0%, rgba(116, 0, 0, 0.12) 60%, rgba(255, 255, 255, 0.03) 100%);
-    box-shadow: 0 6px 18px rgba(0, 0, 0, 0.35);
-    text-align: left;
-}
-
-.featured-quote .quote-icon {
-    position: absolute;
-    top: -0.9rem;
-    left: 1.25rem;
-    font-size: 3.5rem;
-    color: #e04a55;
-    opacity: 0.6;
-}
-
-.featured-quote p {
-    font-size: 1.3rem;
-    font-style: italic;
-    font-weight: 300;
-    line-height: 1.6;
-    margin-bottom: 1rem;
-}
-
-.featured-quote footer {
-    text-align: right;
-    font-size: 0.95rem;
-    font-weight: 500;
-    opacity: 0.8;
-}
-
 .quotes-splide {
     padding: 0 3rem 2.5rem 3rem;
 }
@@ -1234,46 +1014,6 @@ background-size: cover;
 .quotes-splide .splide__slide {
     display: flex;
     padding: 8px 0 10px 0; /* room for the hover lift and shadow inside the clipped track */
-}
-
-/* Same treatment as the featured quote above: red left edge and a soft red-to-dark gradient */
-.quote-card {
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
-    width: 100%;
-    height: 100%;
-    padding: 1.75rem 1.5rem 1.5rem 1.5rem;
-    border-left: 5px solid #9c000d;
-    border-radius: 10px;
-    background: linear-gradient(135deg, rgba(156, 0, 13, 0.35) 0%, rgba(116, 0, 0, 0.12) 60%, rgba(255, 255, 255, 0.03) 100%);
-    color: white;
-    text-align: left;
-    /* Smaller than the featured quote's shadow so the carousel track doesn't clip it */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
-    transition: transform 0.2s ease;
-}
-
-.quote-card:hover {
-    transform: translateY(-4px);
-}
-
-.quote-card .quote-icon {
-    font-size: 1.6rem;
-    color: #e04a55;
-    opacity: 0.6;
-    margin-bottom: 0.75rem;
-}
-
-.quote-card p {
-    font-size: 1.05rem;
-    font-style: italic;
-    line-height: 1.5;
-    margin-bottom: 0.5rem;
-}
-
-.quote-card--long p {
-    font-size: 0.92rem;
 }
 
 .quotes-splide .splide__arrow {
@@ -1306,14 +1046,6 @@ background-size: cover;
 }
 
 @media (max-width: 600px) {
-    .featured-quote {
-        padding: 2.25rem 1.25rem 1.5rem 1.25rem;
-    }
-
-    .featured-quote p {
-        font-size: 1.1rem;
-    }
-
     .quotes-splide {
         padding: 0 0 2.5rem 0;
     }
@@ -1326,7 +1058,7 @@ background-size: cover;
 
 <section id="what-is-hsma" class="level2">
 <h2 class="anchored" data-anchor-id="what-is-hsma">What is HSMA?</h2>
-<p>The Health Service Modelling Associates (HSMA) Programme is an <strong>online</strong> programme teaching public sector analysts, clinicians and managers how to use <strong>data science</strong> and <strong>operational research</strong> techniques, as well as supporting them to apply these techniques in their organisations.</p>
+<p>The Health Service Modelling Associates (HSMA) Programme is an <span class="neon-text neon-text--red">online</span> programme teaching public sector analysts, clinicians and managers how to use <span class="neon-text neon-text--magenta">data science</span> and <span class="neon-text">operational research</span> techniques, as well as supporting them to apply these techniques in their organisations.</p>
 <div class="stat-grid">
   <div class="stat-tile">
     <div class="stat-value">2016</div>
@@ -1733,7 +1465,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <span class="update-badge"><i class="bi bi-calendar-event"></i>Spring/summer 2027</span>
       <h3 class="anchored">HSMA 7</h3>
       <p>We're busy giving HSMA its biggest rewrite since the programme began ten years ago. A sneak peek at what's new:</p>
-      <ul class="update-workshops update-teasers">
+      <ul class="neon-list neon-list--red update-teasers">
         <li><i class="bi bi-hourglass-split" aria-hidden="true"></i>Simulation content expanded from 9 to 30+ hours</li>
         <li><i class="bi bi-stars" aria-hidden="true"></i>Brand new content on simulation visualisation and advanced location optimisation</li>
         <li><i class="bi bi-currency-pound" aria-hidden="true"></i>Cost analysis to evidence your project's impact</li>
@@ -1745,7 +1477,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <span class="update-badge"><i class="bi bi-calendar-event"></i>Winter 2026/27 – spring 2027</span>
       <h3 class="anchored">HSMA-λ (lambda)</h3>
       <p>We are also putting together a new series of three standalone 3-hour workshops for senior leaders and <strong class="neon-text">decision makers</strong> in the health service:</p>
-      <ul class="update-workshops">
+      <ul class="neon-list">
         <li><i class="bi bi-diagram-3" aria-hidden="true"></i>Simulation Modelling for Pathway Problems</li>
         <li><i class="bi bi-geo-alt" aria-hidden="true"></i>Location Optimisation for Equity and Efficiency</li>
         <li><i class="bi bi-cpu" aria-hidden="true"></i>Machine Learning for Operational Improvements</li>
