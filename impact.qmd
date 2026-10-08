@@ -1,5 +1,7 @@
 ---
 title: Project Case Studies
+subtitle: "Real-world projects, real impact"
+body-classes: neon-title neon-title--long
 title-block-banner: resources/banner.png
 page-layout: full
 grid:

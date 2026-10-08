@@ -1,5 +1,6 @@
 ---
 title: "News"
+body-classes: neon-title
 listing:
   contents: news
   sort: "date desc"

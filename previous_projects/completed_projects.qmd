@@ -1,5 +1,6 @@
 ---
 title: "Completed Projects"
+body-classes: neon-title neon-title--long
 toc: false
 title-block-banner: banner.png
 include-back-link: false

@@ -950,7 +950,8 @@ a.neon-tile--quiet:hover::before {
 
 /* Logo-style page titles, echoing the homepage's HSMA logo: the computer icon beside the title in the
    logo's own lettering, with the page's subtitle as a condensed tagline underneath.
-   Opt in per page with `neon-title` in `body-classes`. */
+   Opt in per page with `neon-title` in `body-classes`; add `neon-title--long` for titles of more than
+   about fifteen characters, which are set smaller so they fit on one line on desktop. */
 .neon-title .quarto-title-banner {
     padding-top: 2.75rem;
     padding-bottom: 2.75rem;
@@ -959,7 +960,7 @@ a.neon-tile--quiet:hover::before {
 .neon-title #title-block-header .quarto-title {
     grid-column: 1 / -1;
     display: grid;
-    grid-template-columns: auto auto;
+    grid-template-columns: auto minmax(0, auto);   /* a title too long for the banner wraps rather than spilling */
     justify-content: center;
     align-items: center;
     column-gap: clamp(1rem, 3vw, 2.25rem);
@@ -974,6 +975,11 @@ a.neon-tile--quiet:hover::before {
     filter: drop-shadow(0 0 8px rgba(255, 255, 255, 0.35));
 }
 
+/* Without a tagline the icon only spans the title's row, so the two line up */
+.neon-title #title-block-header .quarto-title:not(:has(.subtitle))::before {
+    grid-row: 1;
+}
+
 .neon-title #title-block-header h1.title {
     grid-column: 2;
     margin: 0;
@@ -985,6 +991,10 @@ a.neon-tile--quiet:hover::before {
     text-transform: none;
     color: white;
     text-shadow: 0 0 14px rgba(255, 255, 255, 0.3);
+}
+
+.neon-title--long #title-block-header h1.title {
+    font-size: clamp(1.6rem, 4vw, 4.4rem);
 }
 
 .neon-title #title-block-header .subtitle {
@@ -1007,6 +1017,11 @@ a.neon-tile--quiet:hover::before {
         justify-items: center;
         row-gap: 0.9rem;
         text-align: center;
+    }
+
+    /* Long titles wrap, so keep them off the screen edges */
+    .neon-title--long #title-block-header .quarto-title {
+        padding-inline: 1rem;
     }
 
     .neon-title #title-block-header .quarto-title::before,

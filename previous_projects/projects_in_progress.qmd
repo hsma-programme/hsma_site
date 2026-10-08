@@ -1,5 +1,6 @@
 ---
 title: "Projects in Progress"
+body-classes: neon-title neon-title--long
 title-block-banner: banner.png
 toc: false
 include-back-link: false

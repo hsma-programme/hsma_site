@@ -1,5 +1,6 @@
 ---
 title: "Projects by Area of Care"
+body-classes: neon-title neon-title--long
 toc-location: right
 title-block-banner: banner.png
 toc-expand: 2

@@ -1,5 +1,6 @@
 ---
 title: "HSMA Projects With Code"
+body-classes: neon-title neon-title--long
 toc-location: right
 title-block-banner: banner.png
 include-back-link: false
