@@ -1,38 +1,68 @@
 ```{=html}
-<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 450px)); gap: 20px;">
+<div class="list module-grid">
 
   <% for (const item of items) { %>
-    <div class="custom-grid-card border-2 rounded-3" <%= metadataAttrs(item) %>>
-          <div class="main-card-content">
-            <% if(item['image']) { %>
-              <a href="<%- item.path %>">
-                <img class="card-img" src="<%- item.image %>" alt="<%- item.title %>" class="card-img-top"/>
-              </a>
+    <%
+      // "Module 1: Introduction to..." -> number 1 and the name, shown separately in the header
+      const m = /^Module\s+(\d+)\s*:\s*(.*)$/i.exec(item.title || '');
+      const num = m ? m[1] : '';
+      const name = m ? m[2] : item.title;
+
+      // The abstracts are written as lines separated by <br/>; lines starting with a bullet become a list
+      const blocks = [];
+      const abstract = (item['pub-info'] && item['pub-info'].abstract) || '';
+      for (const raw of abstract.split(/<br\s*\/?>/i)) {
+        const line = raw.trim();
+        if (!line) continue;
+        const bullet = /^(?:•|&#x2022;|&bull;)\s*(.*)$/s.exec(line);
+        if (bullet) {
+          const last = blocks[blocks.length - 1];
+          if (last && last.list) last.list.push(bullet[1]); else blocks.push({ list: [bullet[1]] });
+        } else {
+          blocks.push({ text: line });
+        }
+      }
+    %>
+    <%/* Each module's `accent` colours its card; modules with a companion eBook share that book's colour */%>
+    <div class="module-card neon-tile neon-tile--<%= item.accent || 'red' %>" <% if (num) { %>id="module-<%= num %>"<% } %> <%= metadataAttrs(item) %>>
+      <div class="module-header tile-header">
+        <% if (num) { %><span class="module-num" aria-hidden="true"><%= num %></span><% } %>
+        <h3 class="no-anchor module-title listing-title"><% if (num) { %><span class="visually-hidden">Module <%= num %>: </span><% } %><%= name %></h3>
+      </div>
+
+      <% if (item.image) { %>
+        <a class="module-screen crt-screen" href="<%- item.path %>" aria-label="<%= item.title %>">
+          <img src="<%- item.image %>" alt=""/>
+          <% if (item.hours) { %><span class="module-osd"><i class="bi bi-clock" aria-hidden="true"></i> <%= item.hours %> hrs</span><% } %>
+        </a>
+      <% } %>
+
+      <div class="module-body">
+        <div class="module-abstract">
+          <% for (const b of blocks) { %>
+            <% if (b.list) { %>
+              <ul class="module-topics">
+                <% for (const li of b.list) { %><li><%- li %></li><% } %>
+              </ul>
+            <% } else { %>
+              <% if (/^It covers:?$/i.test(b.text)) { %>
+                <p class="module-label"><span aria-hidden="true">&gt; </span><%- b.text %></p>
+              <% } else { %>
+                <p><%- b.text %></p>
               <% } %>
-
-              <div class="project-content listing-title">
-                <h5 class="no-anchor card-title listing-title"><%= item['title'] %></h5>
-            </div>
-
-            <div class="quarto-categories">
-              <button class="category-button"><%= item.hours %> hours</button>
-            </div>
-
-            <% if (item['pub-info'] && item['pub-info'].abstract) { %>
-              <p class="listing-abstract"><%= item['pub-info'].abstract %></p>
-
-                <% } %>
-
-              </div>
-
-
-                <div class="project-details-listing">
-                  <button class="project-link-listing-button"><a href="<%- item.path %>"><i class="fa fa-info-circle"></i> Details </a></button>
-                </div>
-
-              </div>
-
             <% } %>
-          </div>
+          <% } %>
+        </div>
 
+        <div class="module-actions">
+          <a class="neon-button" href="<%- item.path %>"><i class="bi bi-collection-play"></i> View sessions</a>
+          <% if (item.book) { %>
+            <a class="neon-button neon-button--ghost" href="<%- item.book %>" target="_blank" rel="noopener"><i class="fa-solid fa-book"></i> Companion eBook</a>
+          <% } %>
+        </div>
+      </div>
+    </div>
+  <% } %>
+
+</div>
 ```

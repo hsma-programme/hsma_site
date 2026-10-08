@@ -3,6 +3,8 @@ title: "Module 1: Introduction to Operational Research, Data Science and Program
 title-block-banner: ../../banner.png
 image: "1_intro_or_ds_python.jpeg"
 hours: 36
+accent: red
+book: https://hsma-programme.github.io/hsma6_intro_to_python_book/
 pub-info:
   abstract: |
     This module serves as an introduction to the fields of operational research and data science, as well as ensuring you have the tools setup and all of the Python knowledge you need to be able to access the later sessions delivered on the course.

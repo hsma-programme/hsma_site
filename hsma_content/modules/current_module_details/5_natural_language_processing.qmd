@@ -3,6 +3,7 @@ title: "Module 5: Natural Language Processing"
 title-block-banner: ../../banner.png
 image: "5_nlp.jpeg"
 hours: 15
+accent: dusk
 pub-info:
   abstract: |
     In this module we explore a range of techniques that can help to make sense of the reams of unstructured text-based data that exists in healthcare systems around the world.

@@ -1,5 +1,6 @@
 ---
 title: "HSMA 6 Modules"
+subtitle: "Recordings · Slides · Exercises"
 body-classes: neon-title
 toc: false
 title-block-banner: resources/banner.png
@@ -20,8 +21,419 @@ listing:
       template: html/modules/module_listing.ejs
 ---
 
+```{=html}
+<style>
+/* Shared neon colours, fonts, .neon-tile, .tile-header, .crt-screen, .neon-button and .page-jump live in styles.css */
 
-::: {.callout-tip}
+/* ---- Intro panel: the homepage's "Updates from the HSMA team" terminal panel, holding two tiles ---- */
+.modules-intro {
+    margin: 0.5rem 0 1rem 0;
+    border-radius: 14px;
+    background-color: #262626;
+    border: 1px solid #3d3d3d;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.45);
+    overflow: hidden;
+}
+
+.modules-intro-header {
+    padding: 0.7rem 1.5rem;
+    background: linear-gradient(90deg, #7a000b, #9c000d 45%, #6d0f4f);
+    border-bottom: 2px solid transparent;
+    border-image: var(--neon-gradient) 1;
+    color: white;
+    font-family: var(--terminal-font);
+    font-size: 1.7rem;
+    line-height: 1.2;
+    letter-spacing: 0.06em;
+    text-align: center;
+    text-transform: uppercase;
+    text-shadow: 0 0 8px rgba(255, 120, 140, 0.55);
+}
+
+.modules-intro-header .prompt {
+    color: #ff8a90;
+}
+
+.modules-intro-header .cursor {
+    display: inline-block;
+    width: 0.55em;
+    height: 1em;
+    margin-left: 0.1em;
+    background-color: currentColor;
+    vertical-align: -0.12em;
+    animation: intro-cursor-blink 1.1s steps(1) infinite;
+}
+
+@keyframes intro-cursor-blink {
+    50% { opacity: 0; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .modules-intro-header .cursor {
+        animation: none;
+    }
+}
+
+.modules-intro-grid {
+    display: grid;
+    grid-template-columns: minmax(0, 1fr) minmax(0, 1fr);
+    gap: 1.25rem;
+    padding: 1.5rem;
+}
+
+.intro-tile {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    border-radius: 10px;
+    padding: 1.4rem 1.5rem 1.25rem 1.5rem;
+    font-size: 0.95rem;
+}
+
+.intro-tile p {
+    margin-bottom: 0.75rem;
+}
+
+.intro-badge {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    padding: 0.1rem 0.7rem;
+    border-radius: 4px;
+    font-family: var(--terminal-font);
+    font-size: 1.15rem;
+    letter-spacing: 0.04em;
+    text-transform: uppercase;
+    background-color: color-mix(in srgb, var(--accent-soft) 18%, transparent);
+    color: var(--accent-soft);
+}
+
+.intro-heading {
+    margin: 0.75rem 0 0.6rem 0;
+    font-family: var(--display-font);
+    font-size: 2.1rem;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: 0.05em;
+    color: white;
+}
+
+.intro-tile .page-jump {
+    margin-top: auto;
+}
+
+/* ---- Route map: modules 1-8 as stops on a line. Dashed links are modules that stand alone;
+        solid neon links mark the two that build on the module before ---- */
+.module-map {
+    display: grid;
+    grid-template-columns: repeat(8, minmax(0, 1fr));
+    width: 100%;
+    margin: 0.5rem 0 0.75rem 0;
+    padding: 0;
+    list-style: none;
+}
+
+.module-map li {
+    position: relative;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+}
+
+/* Link back to the previous stop */
+.module-map li + li::before {
+    content: "";
+    position: absolute;
+    top: 21px;
+    right: 50%;
+    width: 100%;
+    border-top: 2px dashed #555;
+}
+
+.module-map li.map-dep::before {
+    border-top: 3px solid transparent;
+    border-image: var(--accent) 1;
+    filter: drop-shadow(0 0 4px var(--accent-glow));
+}
+
+.map-node {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 44px;
+    height: 44px;
+    border-radius: 50%;
+    border: 2px solid var(--accent-soft);
+    background-color: #1c1c1c;
+    box-shadow: 0 0 8px var(--accent-glow);
+    color: white;
+    font-family: 'HSMA Display Solid', var(--display-font);
+    font-size: 1.35rem;
+    line-height: 1;
+    text-decoration: none;
+    transition: box-shadow 0.2s ease, transform 0.2s ease, background-color 0.2s ease;
+}
+
+.map-node:hover {
+    color: white;
+    transform: translateY(-2px);
+    background-color: color-mix(in srgb, var(--accent-soft) 25%, #1c1c1c);
+    box-shadow: 0 0 16px var(--accent-glow);
+}
+
+/* Module 1: the start of every route */
+.map-start .map-node {
+    background-color: color-mix(in srgb, var(--accent-soft) 30%, #1c1c1c);
+    box-shadow: 0 0 14px var(--accent-glow), 0 0 2px white;
+}
+
+.map-label {
+    margin-top: 0.4rem;
+    font-size: 0.72rem;
+    font-weight: 600;
+    line-height: 1.15;
+    opacity: 0.85;
+}
+
+.map-tag {
+    margin-top: 0.3rem;
+    padding: 0 0.35rem;
+    border-radius: 3px;
+    font-family: var(--terminal-font);
+    font-size: 0.95rem;
+    line-height: 1.2;
+    white-space: nowrap;
+    text-transform: uppercase;
+    background-color: color-mix(in srgb, var(--accent-soft) 18%, transparent);
+    color: var(--accent-soft);
+}
+
+.map-key {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.4rem 1.25rem;
+    margin-bottom: 1rem;
+    font-size: 0.8rem;
+    opacity: 0.8;
+}
+
+.map-key span::before {
+    content: "";
+    display: inline-block;
+    width: 22px;
+    margin-right: 0.4rem;
+    vertical-align: middle;
+    border-top: 2px dashed #777;
+}
+
+.map-key .key-dep::before {
+    border-top: 3px solid var(--neon-magenta);
+    box-shadow: 0 0 4px rgba(224, 33, 138, 0.6);
+}
+
+.intro-route .neon-list {
+    margin-bottom: 0;
+}
+
+.intro-route .neon-list li {
+    font-size: 0.9rem;
+    font-weight: 400;
+}
+
+@media (max-width: 800px) {
+    .modules-intro-grid {
+        grid-template-columns: 1fr;
+        padding: 1.25rem 1rem;
+    }
+
+    .modules-intro-header {
+        font-size: 1.35rem;
+        letter-spacing: 0.04em;
+    }
+
+    .map-label {
+        display: none;
+    }
+}
+
+/* Phones: smaller stops so all eight fit on one line */
+@media (max-width: 600px) {
+    .map-node {
+        width: 32px;
+        height: 32px;
+        font-size: 1rem;
+    }
+
+    .module-map li + li::before {
+        top: 15px;
+    }
+
+    .map-tag {
+        font-size: 0.8rem;
+    }
+}
+
+/* ---- Module cards: the Books page's cards turned on their side. Two to a row, the module's art on a
+        wide CRT "monitor" with an on-screen hours readout, and the module number in the HSMA lettering ---- */
+.module-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(min(100%, 420px), 1fr));
+    gap: 1.5rem;
+    margin: 2rem 0 1rem 0;
+}
+
+.module-card {
+    display: flex;
+    flex-direction: column;
+    border-radius: 12px;
+    padding: 0;
+    scroll-margin-top: 6rem;   /* clear the navbar when jumped to from the route map */
+}
+
+.module-header {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    min-height: 5.2rem;
+    padding: 0.75rem 1.4rem;
+}
+
+.module-num {
+    flex-shrink: 0;
+    min-width: 1.6ch;
+    padding-right: 0.9rem;
+    border-right: 1px solid color-mix(in srgb, var(--accent-soft) 45%, transparent);
+    font-family: 'HSMA Display', var(--display-font);
+    font-size: 3rem;
+    line-height: 1;
+    text-align: center;
+    color: white;
+    text-shadow: 0 0 12px var(--accent-glow);
+}
+
+/* Override the shared listing title's forced capitalisation and padding */
+.module-card .module-title {
+    margin: 0;
+    padding: 0;
+    font-family: var(--terminal-font);
+    font-size: clamp(1.25rem, 2.2vw, 1.5rem);
+    font-weight: 400;
+    line-height: 1.15;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0 0 8px var(--accent-glow);
+}
+
+.module-screen img {
+    width: min(100%, 240px);
+    height: auto;
+    aspect-ratio: 1;
+    object-fit: cover;
+}
+
+/* On-screen display in the corner of the monitor, like a TV's channel readout */
+.module-osd {
+    position: absolute;
+    right: 0.9rem;
+    bottom: 0.8rem;
+    padding: 0 0.5rem;
+    border: 1px solid color-mix(in srgb, var(--accent-soft) 55%, transparent);
+    border-radius: 4px;
+    background-color: rgba(0, 0, 0, 0.6);
+    font-family: var(--terminal-font);
+    font-size: 1.25rem;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--accent-soft);
+    text-shadow: 0 0 6px var(--accent-glow);
+}
+
+.module-body {
+    flex-grow: 1;
+    display: flex;
+    flex-direction: column;
+    padding: 1.25rem 1.5rem 1.5rem 1.5rem;
+    border-top: 1px solid color-mix(in srgb, var(--accent-soft) 40%, transparent);
+}
+
+.module-abstract {
+    flex-grow: 1;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    font-weight: 300;
+    line-height: 1.5;
+}
+
+.module-abstract p {
+    margin-bottom: 0.75rem;
+}
+
+/* "It covers", as a terminal prompt in the module's colour */
+.module-abstract .module-label {
+    margin-bottom: 0.2rem;
+    font-family: var(--terminal-font);
+    font-size: 1.2rem;
+    font-weight: 400;
+    letter-spacing: 0.05em;
+    text-transform: uppercase;
+    color: var(--accent-soft);
+}
+
+/* "It covers" lists: rows with a small neon marker in the module's colour */
+.module-topics {
+    margin: 0 0 0.75rem 0;
+    padding: 0;
+    list-style: none;
+}
+
+.module-topics li {
+    position: relative;
+    padding: 0.3rem 0 0.3rem 1.1rem;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.06);
+}
+
+.module-topics li:last-child {
+    border-bottom: none;
+}
+
+.module-topics li::before {
+    content: "";
+    position: absolute;
+    left: 0;
+    top: 0.85em;
+    width: 6px;
+    height: 6px;
+    border-radius: 1px;
+    background-color: var(--accent-soft);
+    box-shadow: 0 0 6px var(--accent-glow);
+}
+
+.module-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
+}
+</style>
+```
+
+::::: {.modules-intro}
+
+```{=html}
+<div class="modules-intro-header"><span class="prompt" aria-hidden="true">&gt; </span>HSMA 6 module archive<span class="cursor" aria-hidden="true"></span></div>
+```
+
+:::: {.modules-intro-grid}
+
+::: {.intro-tile .intro-about .neon-tile .neon-tile--red}
+
+```{=html}
+<span class="intro-badge"><i class="bi bi-calendar-check"></i> April 2024 – June 2025</span>
+<p class="intro-heading">Free to all</p>
+```
 
 The content below relates to the now complete HSMA 6, which ran from April 2024 to June 2025.
 
@@ -31,19 +443,64 @@ Click into the module you are interested in to find a full list of the sessions 
 
 Prefer to read a summary of the content covered in these sessions? Head to the [books](books.qmd) page instead.
 
+[<i class="bi bi-book"></i> Go to the books page](books.qmd){.page-jump}
+
 :::
 
+::: {.intro-tile .intro-route .neon-tile .neon-tile--spectrum}
 
-:::{.callout-note}
+```{=html}
+<span class="intro-badge"><i class="bi bi-signpost-split"></i> Pick your route</span>
+<p class="intro-heading">How the modules fit together</p>
+```
+
 Modules are listed in the order they are delivered on the course, but while module 1 is essential for all other modules, most of the remaining modules can be consumed independently.
+
+```{=html}
+<ol class="module-map" aria-label="Module route map">
+  <li class="map-start neon-tile--red"><a class="map-node" href="#module-1" aria-label="Module 1">1</a><span class="map-label">Python</span><span class="map-tag">Start here</span></li>
+  <li class="neon-tile--blue"><a class="map-node" href="#module-2" aria-label="Module 2">2</a><span class="map-label">DES</span></li>
+  <li class="neon-tile--magenta"><a class="map-node" href="#module-3" aria-label="Module 3">3</a><span class="map-label">Geo</span></li>
+  <li class="neon-tile--green"><a class="map-node" href="#module-4" aria-label="Module 4">4</a><span class="map-label">ML</span></li>
+  <li class="map-dep neon-tile--dusk"><a class="map-node" href="#module-5" aria-label="Module 5">5</a><span class="map-label">NLP</span><span class="map-tag">After 4</span></li>
+  <li class="neon-tile--sunset"><a class="map-node" href="#module-6" aria-label="Module 6">6</a><span class="map-label">SD &amp; ABS</span></li>
+  <li class="neon-tile--spectrum"><a class="map-node" href="#module-7" aria-label="Module 7">7</a><span class="map-label">Git &amp; Web</span></li>
+  <li class="map-dep neon-tile--ocean"><a class="map-node" href="#module-8" aria-label="Module 8">8</a><span class="map-label">Analytics</span><span class="map-tag">Uses 7A</span></li>
+</ol>
+<div class="map-key" aria-hidden="true"><span>Stands alone (after module 1)</span><span class="key-dep">Builds on the module before</span></div>
+```
 
 The only exceptions are
 
-- deploying reproducible reports online in module 8 (an optional exercise) relies on github content from session 7A
-- natural language processing in module 5, which benefits from completing module 4 (machine learning) first
+```{=html}
+<ul class="neon-list">
+  <li><i class="bi bi-cloud-upload" aria-hidden="true"></i>deploying reproducible reports online in module 8 (an optional exercise) relies on github content from session 7A</li>
+  <li><i class="bi bi-chat-square-text" aria-hidden="true"></i>natural language processing in module 5, which benefits from completing module 4 (machine learning) first</li>
+</ul>
+```
 
 :::
 
+::::
+
+:::::
+
+```{=html}
+<!-- CRT bloom for the module art, as on the homepage carousel: blurs the image, keeps only the brighter
+     parts of the blur, and screens them back over the original -->
+<svg width="0" height="0" style="position: absolute;" aria-hidden="true" focusable="false">
+  <filter id="crt-bloom" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"/>
+    <feComponentTransfer in="blur" result="highlights">
+      <feFuncR type="linear" slope="1.6" intercept="-0.6"/>
+      <feFuncG type="linear" slope="1.6" intercept="-0.6"/>
+      <feFuncB type="linear" slope="1.6" intercept="-0.6"/>
+      <feFuncA type="linear" slope="0.5"/>
+    </feComponentTransfer>
+    <feBlend in="SourceGraphic" in2="highlights" mode="screen"/>
+  </filter>
+</svg>
+```
 
 :::{#modules}
 :::

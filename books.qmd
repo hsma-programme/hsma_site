@@ -18,7 +18,7 @@ listing:
 
 ```{=html}
 <style>
-/* Shared neon colours, fonts and .neon-tile live in styles.css (neon design language section) */
+/* Shared neon colours, fonts, .neon-tile, .tile-header, .crt-screen and .neon-button live in styles.css */
 
 /* Bookshelf: one full-width card per book, cover on the left and its details beside it */
 .book-grid {
@@ -32,32 +32,6 @@ listing:
     border-radius: 12px;
     padding: 0;
     container-type: inline-size;
-}
-
-/* The header band's underline replaces the tile's neon top edge */
-.book-card::before {
-    display: none;
-}
-
-/* Terminal-style header band, as on the homepage's "Updates from the HSMA team" panel,
-   tinted with each book's topic colour and underlined in it */
-.book-header {
-    position: relative;
-    padding: 0.75rem 1.75rem;
-    background: linear-gradient(90deg,
-        color-mix(in srgb, var(--accent-soft) 30%, #1c1c1c),
-        color-mix(in srgb, var(--accent-soft) 12%, #1c1c1c) 70%);
-}
-
-.book-header::after {
-    content: "";
-    position: absolute;
-    left: 0;
-    right: 0;
-    bottom: 0;
-    height: 2px;
-    background: var(--accent);
-    box-shadow: 0 0 10px var(--accent-glow);
 }
 
 /* Override the shared listing title's forced capitalisation and padding */
@@ -78,64 +52,21 @@ listing:
     color: var(--accent-soft);
 }
 
-/* Cover on a black screen panel down the card's left side, as in the homepage carousel */
+/* Cover on the left, the book's details beside it */
 .book-card-inner {
     display: grid;
     grid-template-columns: clamp(220px, 28%, 340px) minmax(0, 1fr);
     align-items: stretch;
 }
 
+/* Cover on a black CRT screen (.crt-screen in styles.css) down the card's left side */
 .book-cover {
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    padding: 1.25rem;
-    background-color: #161616;
     border-radius: 0 0 0 12px;
-    overflow: hidden;
 }
 
 .book-cover img {
-    display: block;
     width: 100%;
     height: auto;
-    border-radius: 6px;
-    /* CRT "phosphor" grade, as on the carousel: soft highlight bloom (SVG filter below), plus a little punch */
-    filter: url(#crt-bloom) contrast(1.06) saturate(1.15);
-    transition: box-shadow 0.2s ease, transform 0.2s ease;
-}
-
-.book-cover:hover img {
-    transform: translateY(-3px);
-    box-shadow: 0 0 18px var(--accent-glow);
-}
-
-/* CRT-style screen over the panel, as on the homepage carousel: faint pulsing scanlines, vignette,
-   phosphor tint and edge glow (pointer-events off so the cover stays clickable) */
-.book-cover::after {
-    content: "";
-    position: absolute;
-    inset: 0;
-    border-radius: inherit;
-    pointer-events: none;
-    background:
-        repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.12) 0 1px, transparent 1px 3px),
-        radial-gradient(ellipse at center, transparent 60%, rgba(0, 0, 0, 0.35) 100%),
-        linear-gradient(135deg, rgba(224, 33, 138, 0.07), rgba(47, 140, 255, 0.07));
-    box-shadow: inset 0 0 28px rgba(0, 0, 0, 0.55), inset 0 0 2px rgba(255, 120, 180, 0.25);
-    animation: crt-pulse 3.5s ease-in-out infinite;
-}
-
-@keyframes crt-pulse {
-    0%, 100% { opacity: 0.7; }
-    50%      { opacity: 1; }
-}
-
-@media (prefers-reduced-motion: reduce) {
-    .book-cover::after {
-        animation: none;
-    }
 }
 
 .book-body {
@@ -176,50 +107,6 @@ listing:
     font-weight: 300;
     line-height: 1.5;
 }
-
-.book-button {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    padding: 0.55rem 1.3rem;
-    border-radius: 8px;
-    border: 2px solid var(--accent-soft);
-    background-color: color-mix(in srgb, var(--accent-soft) 10%, transparent);
-    color: var(--accent-soft);
-    font-weight: 700;
-    text-decoration: none;
-    box-shadow: 0 0 8px var(--accent-glow);
-    transition: box-shadow 0.2s ease, background-color 0.2s ease, color 0.2s ease;
-}
-
-.book-button:hover {
-    color: white;
-    background-color: color-mix(in srgb, var(--accent-soft) 22%, transparent);
-    box-shadow: 0 0 18px var(--accent-glow);
-}
-
-/* Pointer to the modules page, matching the outlined neon buttons elsewhere */
-.modules-jump {
-    display: inline-flex;
-    align-items: center;
-    gap: 0.5rem;
-    margin-bottom: 0.5rem;
-    padding: 0.5rem 1.2rem;
-    border-radius: 8px;
-    border: 2px solid var(--neon-red);
-    background-color: rgba(255, 45, 63, 0.08);
-    color: #ff8a90;
-    font-weight: 700;
-    text-decoration: none;
-    box-shadow: 0 0 10px rgba(255, 45, 63, 0.3);
-    transition: border-color 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
-}
-
-.modules-jump:hover {
-    color: #f08cc4;
-    border-color: var(--neon-magenta);
-    box-shadow: 0 0 16px rgba(224, 33, 138, 0.5);
-}
 </style>
 ```
 
@@ -229,7 +116,7 @@ These are freely available to all - please share them with anyone you think woul
 
 Prefer to follow along with the original session recordings, slides and exercises? Head to the [modules](modules.qmd) page instead.
 
-[<i class="bi bi-collection-play"></i> Go to the modules page](modules.qmd){.modules-jump}
+[<i class="bi bi-collection-play"></i> Go to the modules page](modules.qmd){.page-jump}
 
 ```{=html}
 <!-- CRT bloom for the covers, as on the homepage carousel: blurs the image, keeps only the brighter

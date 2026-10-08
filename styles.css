@@ -1041,3 +1041,151 @@ a.neon-tile--quiet:hover::before {
         font-family: 'HSMA Display Solid', 'Lexend', sans-serif;
     }
 }
+
+/* More neon tile accents, walking the banner gradient two colours at a time
+   (used alongside the solid ones to give each HSMA 6 module its own colour) */
+.neon-tile--sunset {
+    --accent: linear-gradient(90deg, var(--neon-red), var(--neon-magenta));
+    --accent-glow: rgba(255, 45, 63, 0.5);
+    --accent-soft: #ff8ab0;
+}
+
+.neon-tile--dusk {
+    --accent: linear-gradient(90deg, var(--neon-magenta), var(--neon-blue));
+    --accent-glow: rgba(224, 33, 138, 0.5);
+    --accent-soft: #c99cf0;
+}
+
+.neon-tile--ocean {
+    --accent: var(--lambda-gradient);
+    --accent-glow: rgba(47, 140, 255, 0.5);
+    --accent-soft: #8de0e0;
+}
+
+/* Header band across the top of a neon tile (Books and Modules cards), after the homepage's
+   "Updates from the HSMA team" panel: tinted with the tile's colour and underlined in it */
+.tile-header {
+    position: relative;
+    padding: 0.75rem 1.75rem;
+    background: linear-gradient(90deg,
+        color-mix(in srgb, var(--accent-soft) 30%, #1c1c1c),
+        color-mix(in srgb, var(--accent-soft) 12%, #1c1c1c) 70%);
+}
+
+.tile-header::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background: var(--accent);
+    box-shadow: 0 0 10px var(--accent-glow);
+}
+
+/* The header band's underline replaces the tile's neon top edge */
+.neon-tile:has(> .tile-header)::before {
+    display: none;
+}
+
+/* Images shown on a black CRT screen, as in the homepage carousel: soft highlight bloom (the page needs the
+   #crt-bloom SVG filter), faint pulsing scanlines, vignette, phosphor tint and edge glow.
+   pointer-events are off on the overlay so a linked screen stays clickable. */
+.crt-screen {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+    background-color: #161616;
+    overflow: hidden;
+}
+
+.crt-screen img {
+    display: block;
+    border-radius: 6px;
+    filter: url(#crt-bloom) contrast(1.06) saturate(1.15);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+a.crt-screen:hover img {
+    transform: translateY(-3px);
+    box-shadow: 0 0 18px var(--accent-glow, rgba(224, 33, 138, 0.5));
+}
+
+.crt-screen::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    background:
+        repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.12) 0 1px, transparent 1px 3px),
+        radial-gradient(ellipse at center, transparent 60%, rgba(0, 0, 0, 0.35) 100%),
+        linear-gradient(135deg, rgba(224, 33, 138, 0.07), rgba(47, 140, 255, 0.07));
+    box-shadow: inset 0 0 28px rgba(0, 0, 0, 0.55), inset 0 0 2px rgba(255, 120, 180, 0.25);
+    animation: crt-pulse 3.5s ease-in-out infinite;
+}
+
+@keyframes crt-pulse {
+    0%, 100% { opacity: 0.7; }
+    50%      { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .crt-screen::after {
+        animation: none;
+    }
+}
+
+/* Outlined button in the tile's colour (Books and Modules cards) */
+.neon-button {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    padding: 0.55rem 1.3rem;
+    border-radius: 8px;
+    border: 2px solid var(--accent-soft);
+    background-color: color-mix(in srgb, var(--accent-soft) 10%, transparent);
+    color: var(--accent-soft);
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 0 8px var(--accent-glow);
+    transition: box-shadow 0.2s ease, background-color 0.2s ease, color 0.2s ease;
+}
+
+.neon-button:hover {
+    color: white;
+    background-color: color-mix(in srgb, var(--accent-soft) 22%, transparent);
+    box-shadow: 0 0 18px var(--accent-glow);
+}
+
+/* Quieter variant for a secondary action beside a .neon-button */
+.neon-button--ghost {
+    border-color: color-mix(in srgb, var(--accent-soft) 45%, transparent);
+    background-color: transparent;
+    box-shadow: none;
+}
+
+/* Outlined red button pointing to a related page (Books <-> Modules) */
+.page-jump {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.5rem;
+    margin-bottom: 0.5rem;
+    padding: 0.5rem 1.2rem;
+    border-radius: 8px;
+    border: 2px solid var(--neon-red);
+    background-color: rgba(255, 45, 63, 0.08);
+    color: #ff8a90;
+    font-weight: 700;
+    text-decoration: none;
+    box-shadow: 0 0 10px rgba(255, 45, 63, 0.3);
+    transition: border-color 0.2s ease, box-shadow 0.2s ease, color 0.2s ease;
+}
+
+.page-jump:hover {
+    color: #f08cc4;
+    border-color: var(--neon-magenta);
+    box-shadow: 0 0 16px rgba(224, 33, 138, 0.5);
+}

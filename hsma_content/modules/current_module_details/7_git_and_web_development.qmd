@@ -3,6 +3,8 @@ title: "Module 7: Open Source Collaborative Development and Web Development"
 title-block-banner: ../../banner.png
 image: "7_collab.jpeg"
 hours: 18
+accent: spectrum
+book: https://hsma-programme.github.io/streamlit_book/
 pub-info:
   abstract: |
     In this module we start by taking a look at a crucial skill for the analyst, data science or operational researcher's toolbox - version control with Git. Git ensures that the full history of your code is available, allowing you to

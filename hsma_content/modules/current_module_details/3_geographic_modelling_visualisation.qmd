@@ -2,6 +2,8 @@
 title: "Module 3: Geographic Modelling and Visualisation"
 title-block-banner: ../../banner.png
 hours: 12
+accent: magenta
+book: https://hsma-programme.github.io/hsma6_geographic_optimisation_and_visualisation_book/intro.html
 image: "3_geographic.jpeg"
 pub-info:
   abstract: |

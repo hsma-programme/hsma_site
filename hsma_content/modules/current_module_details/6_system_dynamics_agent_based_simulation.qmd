@@ -3,6 +3,7 @@ title: "Module 6: Modelling Behaviour and System Dynamics"
 title-block-banner: ../../banner.png
 image: "6_system.jpeg"
 hours: 12
+accent: sunset
 pub-info:
   abstract: |
     In module 6, we explore two more techniques for modelling pathways and systems.

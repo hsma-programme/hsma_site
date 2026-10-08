@@ -4,12 +4,12 @@
   <% for (const item of items) { %>
     <%/* Each book's `accent` (red, blue, magenta, green or spectrum) colours its header band and button */%>
     <div class="book-card neon-tile neon-tile--<%= item.accent || 'red' %>" <%= metadataAttrs(item) %>>
-      <div class="book-header">
+      <div class="book-header tile-header">
         <h3 class="no-anchor book-title listing-title"><span class="prompt" aria-hidden="true">&gt; </span><%= item['title'] %></h3>
       </div>
       <div class="book-card-inner">
         <% if(item['image']) { %>
-          <a class="book-cover" href="<%- item.link %>" target="_blank" rel="noopener">
+          <a class="book-cover crt-screen" href="<%- item.link %>" target="_blank" rel="noopener">
             <img src="<%- item.image %>" alt="Cover of <%= item.title %>"/>
           </a>
         <% } %>
@@ -21,7 +21,7 @@
           <% } %>
 
           <% if (item.link) { %>
-            <a class="book-button" href="<%- item.link %>" target="_blank" rel="noopener"><i class="fa-solid fa-book"></i> Free eBook</a>
+            <a class="book-button neon-button" href="<%- item.link %>" target="_blank" rel="noopener"><i class="fa-solid fa-book"></i> Free eBook</a>
           <% } %>
         </div>
       </div>

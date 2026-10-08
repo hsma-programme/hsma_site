@@ -2,6 +2,8 @@
 title: "Module 4: Machine Learning"
 title-block-banner: ../../banner.png
 hours: 30
+accent: green
+book: https://hsma-programme.github.io/h6_module4_notebooks/
 image: "4_ml.jpeg"
 pub-info:
   abstract: |

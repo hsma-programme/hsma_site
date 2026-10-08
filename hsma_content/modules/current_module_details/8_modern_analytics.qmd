@@ -3,6 +3,7 @@ title: "Module 8: Modern Analytics"
 title-block-banner: ../../banner.png
 image: "8_modern.jpg"
 hours: 12
+accent: ocean
 pub-info:
   abstract: |
     This module serves to introduce some additional techniques that are useful parts of the modern analyst's skillset.

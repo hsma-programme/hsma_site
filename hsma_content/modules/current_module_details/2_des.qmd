@@ -3,6 +3,8 @@ title: "Module 2: Modelling Pathway and Queuing Problems"
 title-block-banner: ../../banner.png
 image: "2_des.jpeg"
 hours: 9
+accent: blue
+book: https://hsma-programme.github.io/hsma6_des_book/
 pub-info:
   abstract: |
     This module serves as an introduction to modelling pathway problems with discrete event simulation (DES).
