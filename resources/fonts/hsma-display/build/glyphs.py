@@ -30,6 +30,15 @@ def at_y(p0, p1, y):
     return (x0 + (x1 - x0) * (y - y0) / (y1 - y0), y)
 
 
+def edge_through(top, y, x_edge, width):
+    """The point at height y on a centre line from `top`, chosen so the stroke's left edge is at x_edge there."""
+    x = x_edge + width / 2
+    for _ in range(50):
+        theta = math.atan2(top[1] - y, top[0] - x)
+        x = x_edge + (width / 2) / math.sin(theta)
+    return (x, y)
+
+
 def arc(cx, cy, rx, ry, a0, a1, n=48):
     """Points along an elliptical arc, angles in degrees (0 = right, counter-clockwise)."""
     return [(cx + rx * math.cos(math.radians(a0 + (a1 - a0) * i / n)),
@@ -45,7 +54,7 @@ class Glyph:
         self.diagonal = diagonal      # centre lines drawn at WD
         self.extra = extra            # extra solid geometry (e.g. a dot)
         self.groove_strokes = groove_strokes  # override which centre lines get a groove
-        self.clip = clip              # clip to the cap-height box (flat tops on M, A, N...)
+        self.clip = clip              # clip to the cap-height box (flat tops on M, A, N...); 'base' clips only below the baseline and left of 0
         self.rotate = rotate          # turn the finished glyph upside down (9 is a rotated 6)
         self.clip_x = clip_x          # also clip to the glyph's width, for strokes that start at a corner
 
@@ -73,7 +82,9 @@ def letter(g):
     parts = [s for s in (_thicken(g.strokes, W), _thicken(g.diagonal, g.wd), _thicken(g.bars, W, 'flat'), g.extra)
              if s is not None]
     shape = unary_union(parts)
-    if g.clip:
+    if g.clip == 'base':
+        shape = shape.intersection(box(0, 0, g.width + 400, CAP + 400))
+    elif g.clip:
         shape = shape.intersection(box(0 if g.clip_x else -400, 0, g.width if g.clip_x else g.width + 400, CAP))
     # Slightly rounded outer corners, as in the logo
     return _turn(g, shape.buffer(-ROUND, join_style='round').buffer(ROUND, join_style='round'))
@@ -274,39 +285,51 @@ def build():
     # ------------------------------------------------------------ digits (cap height, like the 7)
     gl['zero'] = Glyph(480, [arc(240, CAP / 2, 240 - H2, oh / 2, 0, 360, 96)], clip=False)
 
-    one_flag = ((R(320), TOP), (40, TOP - 170))
-    one_end_y = TOP - 170 * (R(320) - 95) / (R(320) - 40)   # flag centre line at x = 95
-    gl['one'] = Glyph(320, [[(R(320), BOT), (R(320), TOP)]],
-                      diagonal=[list(one_flag)], clip_x=True,
-                      groove_strokes=[[(R(320), BOT), (R(320), TOP), at_y(*one_flag, one_end_y)]])
+    # 1: the flag and stem are one stroke, so they meet in a single clean corner at the top
+    one_w = 320
+    one_tip = (100, TOP - 160)                        # flag end; its square cap stays clear of the left edge
+    gl['one'] = Glyph(one_w, [[one_tip, (R(one_w), TOP), (R(one_w), BOT)]], clip_x=True)
 
+    # 2: the bowl runs into a straight diagonal down to the baseline bar. The diagonal is cut off at the
+    # baseline and left side, so its foot ends level with the letter's left edge rather than in a long point
     tw = 480
     tr = (tw - W) / 2
     tcy = TOP - tr + OVER
-    gl['two'] = Glyph(tw, [arc(tw / 2, tcy, tr, tr, 165, -38, 48) + [(H2 + 5, BOT), (R(tw), BOT)]], clip=False)
+    two_arc = arc(tw / 2, tcy, tr, tr, 165, -38, 48)
+    two_foot = edge_through(two_arc[-1], 0, -12, W)   # centre line at the baseline
+    two_line = (two_arc[-1], two_foot)
+    gl['two'] = Glyph(tw, [two_arc + [at_y(*two_line, -120)]], clip='base',
+                      extra=box(at_y(*two_line, W / 2)[0], 0, tw, W),
+                      groove_strokes=[two_arc + [at_y(*two_line, BOT), (R(tw), BOT)]])
 
     hw = 470
     hux, hurx = hw / 2 - 5, (hw - W) / 2 - 10
     hury = (TOP - MID) / 2 + OVER / 2
     hlrx, hlry = (hw - W) / 2, (MID - BOT) / 2 + OVER / 2
-    upper = arc(hux, MID + hury - OVER / 2, hurx, hury, 155, -90, 40)
-    lower = arc(hw / 2, MID - hlry + OVER / 2, hlrx, hlry, 90, -155, 40)
-    # The bowls meet at the middle; a short separate bar gives the 3 its flat middle without a spiky join
-    gl['three'] = Glyph(hw, [upper, lower, [(hux - 60, MID), (hw / 2, MID)]], clip=False)
+    # The bowls meet at the middle, where their square ends line up into one flat, vertical edge (finely
+    # divided arcs, so the ends are level); a short bar between them fills the join without a spike
+    upper = arc(hux, MID + hury - OVER / 2, hurx, hury, 155, -90, 240)
+    lower = arc(hw / 2, MID - hlry + OVER / 2, hlrx, hlry, 90, -155, 240)
+    gl['three'] = Glyph(hw, [upper, lower, [(hux, MID), (hw / 2, MID)]], clip=False)
 
+    # 4: the diagonal's outer edge forms the bar's left end (as the 7's diagonal forms its top-right corner)
     fw = 520
     fx = fw - 150                                     # stem centre
     fy = 230                                          # bar centre
-    gl['four'] = Glyph(fw, [[(fx, BOT), (fx, TOP)], [(H2, fy), (R(fw), fy)]],
-                       diagonal=[[(fx - 10, CAP + 60), (H2 + 35, fy + 35)]],   # starts over the stem, ends inside the bar
+    f_top = (fx - 10, CAP + 60)
+    f_low = edge_through(f_top, fy - H2, 0, WD)       # diagonal centre at the bar's underside
+    f_line = (f_top, f_low)
+    f_diag = LineString([f_top, at_y(*f_line, fy - H2 - 150)]).buffer(WD / 2, cap_style='flat')
+    gl['four'] = Glyph(fw, [[(fx, BOT), (fx, TOP)]],
+                       extra=f_diag.intersection(box(0, fy - H2, fw, CAP + 100))
+                       .union(box(at_y(*f_line, fy)[0], fy - H2, fw, fy + H2)),
                        groove_strokes=[[(fx, BOT), (fx, TOP)],
-                                       [at_y((fx - 10, CAP + 60), (H2 + 35, fy + 35), TOP),
-                                        at_y((fx - 10, CAP + 60), (H2 + 35, fy + 35), fy), (R(fw), fy)]])
+                                       [at_y(*f_line, TOP), at_y(*f_line, fy), (R(fw), fy)]])
 
     vw5 = 480
     bcy = 255                                         # bowl centre height
     brx, bry = (vw5 - W) / 2, bcy - BOT + OVER
-    gl['five'] = Glyph(vw5, [[(R(vw5), TOP), (H2 + 20, TOP), (H2 + 20, MID + 40)]
+    gl['five'] = Glyph(vw5, [[(R(vw5) - 40, TOP), (H2 + 20, TOP), (H2 + 20, MID + 40)]
                              + arc(vw5 / 2, bcy, brx, bry, 128, -150, 48)], clip=False)
 
     sxw = 490
