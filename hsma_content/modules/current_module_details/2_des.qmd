@@ -1,6 +1,7 @@
 ---
 title: "Module 2: Modelling Pathway and Queuing Problems"
 title-block-banner: ../../banner.png
+body-classes: neon-title module-page neon-tile--blue
 image: "2_des.jpeg"
 hours: 9
 accent: blue
@@ -35,29 +36,33 @@ listing:
       grid-columns: 2
       categories: false
       template: ../../../html/modules/session_listing.ejs
+      template-params:
+        module-readout: true
 ---
 
-:::{.callout-tip}
+::::: {.module-book}
 
-:::: {.columns}
+```{=html}
+<div class="tile-header"><span class="prompt" aria-hidden="true">&gt; </span>Companion eBook</div>
+```
 
-::: {.column width="auto"}
-![](../../books/book_details/des_cover_image.jpeg){height=250}
+:::: {.module-book-inner}
+
+::: {.module-book-cover .crt-screen}
+![](../../books/book_details/des_cover_image.jpeg)
 :::
 
-::: {.column width="5%"}
-:::
-
-::: {.column}
-<br/>
+::: {.module-book-body}
 We also have a free eBook that accompanies this module! Check it out at [des.hsma.co.uk](https://des.hsma.co.uk).
 
 If you'd rather follow along with the recorded HSMA sessions and exercises, these can be found below.
+
+[<i class="fa-solid fa-book"></i> Read the eBook](https://des.hsma.co.uk){.neon-button target="_blank" rel="noopener"}
 :::
 
 ::::
 
-:::
+:::::
 
 
 ::: {#2_des}

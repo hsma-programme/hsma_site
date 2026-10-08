@@ -1,6 +1,7 @@
 ---
 title: "Module 7: Open Source Collaborative Development and Web Development"
 title-block-banner: ../../banner.png
+body-classes: neon-title module-page neon-tile--spectrum
 image: "7_collab.jpeg"
 hours: 18
 accent: spectrum
@@ -44,33 +45,33 @@ listing:
       grid-columns: 2
       categories: false
       template: ../../../html/modules/session_listing.ejs
+      template-params:
+        module-readout: true
 ---
 
-:::{.callout-tip}
+::::: {.module-book}
 
-:::: {.columns}
+```{=html}
+<div class="tile-header"><span class="prompt" aria-hidden="true">&gt; </span>Companion eBook: web development (7B &amp; 7C)</div>
+```
 
-::: {.column width='auto'}
+:::: {.module-book-inner}
 
-![](../../books/book_details/streamlit_cover_image.jpeg){height=250}
-
+::: {.module-book-cover .crt-screen}
+![](../../books/book_details/streamlit_cover_image.jpeg)
 :::
 
-::: {.column width='5%'}
-
-:::
-
-::: {.column}
-<br/>
+::: {.module-book-body}
 We also have a free eBook that accompanies the web development section of this module! Check it out at [webapps.hsma.co.uk](https://webapps.hsma.co.uk).
 
 If you'd rather follow along with the recorded HSMA sessions and exercises, these can be found below.
 
+[<i class="fa-solid fa-book"></i> Read the eBook](https://webapps.hsma.co.uk){.neon-button target="_blank" rel="noopener"}
 :::
 
 ::::
 
-:::
+:::::
 
 
 ::: {#7_git_streamlit}

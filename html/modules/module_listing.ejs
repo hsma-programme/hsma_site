@@ -46,13 +46,13 @@
           <% for (const b of blocks) { %>
             <% if (b.list) { %>
               <ul class="module-topics">
-                <% for (const li of b.list) { %><li><%- li %></li><% } %>
+                <% for (const li of b.list) { %><li><%= li %></li><% } %>
               </ul>
             <% } else { %>
               <% if (/^(It covers|We will cover):?$/i.test(b.text)) { %>
-                <p class="module-label"><span aria-hidden="true">&gt; </span><%- b.text %></p>
+                <p class="module-label"><span aria-hidden="true">&gt; </span><%= b.text %></p>
               <% } else { %>
-                <p><%- b.text %></p>
+                <p><%= b.text %></p>
               <% } %>
             <% } %>
           <% } %>

@@ -1,42 +1,96 @@
 ```{=html}
-<div class="list grid" style="display: grid; grid-template-columns: repeat(auto-fill, minmax(300px, 1250px)); gap: 40px;">
+<%
+  // Totals for the readout above the sessions
+  const totalHours = items.reduce((sum, item) => sum + (Number(item.hours) || 0), 0);
 
+  // (In Quarto's listing templates the dash tag escapes its output and the equals tag prints it as is,
+  // so the abstract HTML below is printed with the equals tag)
+  // The abstracts are written as lines separated by <br/>; lines starting with a bullet become a list
+  const blocksOf = (abstract) => {
+    const blocks = [];
+    for (const raw of (abstract || '').split(/<br\s*\/?>/i)) {
+      const line = raw.trim();
+      if (!line) continue;
+      const bullet = /^(?:•|&#x2022;|&bull;)\s*(.*)$/s.exec(line);
+      if (bullet) {
+        const last = blocks[blocks.length - 1];
+        if (last && last.list) last.list.push(bullet[1]); else blocks.push({ list: [bullet[1]] });
+      } else {
+        blocks.push({ text: line });
+      }
+    }
+    return blocks;
+  };
+%>
+<%/* Module pages turn on the back link and totals with `template-params: module-readout: true` */%>
+<% if (typeof templateParams !== 'undefined' && templateParams && templateParams['module-readout']) { %>
+<div class="module-readout">
+  <a class="page-jump" href="../../../modules.html"><i class="bi bi-arrow-left"></i> All modules</a>
+  <span class="readout-text"><span class="prompt" aria-hidden="true">&gt; </span><%= items.length %> <%= items.length === 1 ? 'session' : 'sessions' %> · <%= totalHours %> hours</span>
+</div>
+<% } %>
+
+<%/* Sessions as stops on a neon track, in the module's colour (set by the page's neon-tile--* body class) */%>
+<ol class="list session-track">
   <% for (const item of items) { %>
-    <div class="custom-grid-card border-2 rounded-3" <%= metadataAttrs(item) %>>
-          <div class="main-card-content">
+    <%
+      // "1A: Welcome to HSMA" -> code 1A and the name, shown separately
+      const m = /^(\d+[A-Za-z])\s*:?\s+(.*)$/.exec(item.title || '');
+      const code = m ? m[1].toUpperCase() : '';
+      const name = m ? m[2] : item.title;
+      const info = item['pub-info'] || {};
+      const links = (info.links || []).filter(link => link.url);
+    %>
+    <li class="session" <% if (code) { %>id="session-<%= code.toLowerCase() %>"<% } %> <%= metadataAttrs(item) %>>
+      <div class="session-node" aria-hidden="true"><%= code %></div>
+      <article class="session-card">
+        <div class="session-header tile-header">
+          <h3 class="no-anchor session-title listing-title"><% if (code) { %><span class="visually-hidden"><%= code %>: </span><% } %><%= name %></h3>
+          <% if (item.hours) { %><span class="session-hours"><i class="bi bi-clock" aria-hidden="true"></i> <%= item.hours %> <%= Number(item.hours) === 1 ? 'hr' : 'hrs' %></span><% } %>
+        </div>
 
-              <div class="session-content session-listing-title">
-                <h5 class="no-anchor card-title session-listing-title"><%= item['title'] %></h5> <button class="session-duration-button"><%= item.hours %> hours</button>
-              </div>
+        <div class="session-body">
+          <% if (item['session-lead']) { %>
+            <p class="session-lead"><i class="bi bi-person-video3" aria-hidden="true"></i> Session lead: <%= item['session-lead'] %></p>
+          <% } %>
 
-            <% if(item['session-lead']) { %>
-              <div class="listing-session-lead">
-                Session Lead: <%= item['session-lead'] %></br>
-              </div>
-            <% } %>
-
-            <% if (item['pub-info'] && item['pub-info'].abstract) { %>
-              <p class="listing-abstract"><%= item['pub-info'].abstract %></p>
-
-                <% } %>
-
-              </div>
-
-                <div class="project-details-listing">
-                  <% if (item['pub-info']) { %>
-                    <% if (item['pub-info'].links) { %>
-                        <% for (const link of item['pub-info'].links) { %>
-                          <% if (link.url) { %>
-                    <button class="session-link-listing-button"><a href="<%- link.url %>"><i class="<%- link.icon %>"></i> <%= link.name %> </a></button>
-                    <% } %>
-                    <% } %>
-                      <% } %>
-                  <% } %>
-                </div>
-
-              </div>
-
+          <div class="session-abstract">
+            <% for (const b of blocksOf(info.abstract)) { %>
+              <% if (b.list) { %>
+                <ul class="session-topics">
+                  <% for (const li of b.list) { %><li><%= li %></li><% } %>
+                </ul>
+              <% } else { %>
+                <p><%= b.text %></p>
+              <% } %>
             <% } %>
           </div>
 
+          <% if (links.length) { %>
+            <div class="session-links">
+              <% for (const link of links) { %>
+                <%/* The recording is the main way in, so the video button is the solid one */%>
+                <a class="neon-button <%= link.name === 'Video' ? '' : 'neon-button--ghost' %>" href="<%- link.url %>" target="_blank" rel="noopener"><i class="<%- link.icon %>"></i> <%= link.name %></a>
+              <% } %>
+            </div>
+          <% } %>
+        </div>
+      </article>
+    </li>
+  <% } %>
+</ol>
+
+<!-- CRT bloom for the companion eBook cover, as on the homepage carousel -->
+<svg width="0" height="0" style="position: absolute;" aria-hidden="true" focusable="false">
+  <filter id="crt-bloom" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"/>
+    <feComponentTransfer in="blur" result="highlights">
+      <feFuncR type="linear" slope="1.6" intercept="-0.6"/>
+      <feFuncG type="linear" slope="1.6" intercept="-0.6"/>
+      <feFuncB type="linear" slope="1.6" intercept="-0.6"/>
+      <feFuncA type="linear" slope="0.5"/>
+    </feComponentTransfer>
+    <feBlend in="SourceGraphic" in2="highlights" mode="screen"/>
+  </filter>
+</svg>
 ```
