@@ -928,8 +928,23 @@ a.neon-tile--quiet:hover::before {
     margin-bottom: 0;
 }
 
-/* Logo-style page titles, echoing the homepage's HSMA logo: the computer icon beside the title in wide,
-   outlined capitals (like the logo lettering), with the page's subtitle as a condensed tagline underneath.
+/* HSMA Display: lettering built from the HSMA logo (see resources/fonts/hsma-display/README.md).
+   The grooved face matches the logo; the solid face is for small sizes, where the groove would be under a pixel.
+   Lowercase types the same capitals, so titles need no text-transform (which would also turn λ into Λ). */
+@font-face {
+    font-family: 'HSMA Display';
+    src: url("resources/fonts/hsma-display/HSMADisplay-Regular.woff2") format("woff2");
+    font-display: swap;
+}
+
+@font-face {
+    font-family: 'HSMA Display Solid';
+    src: url("resources/fonts/hsma-display/HSMADisplaySolid-Regular.woff2") format("woff2");
+    font-display: swap;
+}
+
+/* Logo-style page titles, echoing the homepage's HSMA logo: the computer icon beside the title in the
+   logo's own lettering, with the page's subtitle as a condensed tagline underneath.
    Opt in per page with `neon-title` in `body-classes`. */
 .neon-title .quarto-title-banner {
     padding-top: 2.75rem;
@@ -957,22 +972,14 @@ a.neon-tile--quiet:hover::before {
 .neon-title #title-block-header h1.title {
     grid-column: 2;
     margin: 0;
-    font-family: 'Lexend', sans-serif;
-    font-weight: 700;
-    font-size: clamp(2.2rem, 6vw, 4.75rem);
+    font-family: 'HSMA Display', 'Lexend', sans-serif;
+    font-weight: 400;
+    font-size: clamp(2.4rem, 7.2vw, 6rem);   /* phones keep the smaller minimum so the λ title fits on one line */
     line-height: 1;
-    letter-spacing: 0.14em;
-    text-transform: uppercase;
+    letter-spacing: 0.08em;
+    text-transform: none;
     color: white;
-}
-
-/* Outlined lettering with a soft glow where supported; plain white otherwise */
-@supports (-webkit-text-stroke: 1px white) {
-    .neon-title #title-block-header h1.title {
-        color: transparent;
-        -webkit-text-stroke: 2px white;
-        text-shadow: 0 0 14px rgba(255, 255, 255, 0.3);
-    }
+    text-shadow: 0 0 14px rgba(255, 255, 255, 0.3);
 }
 
 .neon-title #title-block-header .subtitle {
@@ -1007,5 +1014,10 @@ a.neon-tile--quiet:hover::before {
     .neon-title #title-block-header .subtitle {
         margin: 0;
         letter-spacing: 0.2em;
+    }
+
+    /* At phone sizes the groove would be under a pixel wide, so use the solid letters */
+    .neon-title #title-block-header h1.title {
+        font-family: 'HSMA Display Solid', 'Lexend', sans-serif;
     }
 }

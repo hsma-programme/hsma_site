@@ -3,6 +3,7 @@ project:
   output-dir: docs
   resources:
     - impact_posters/*.png
+    - resources/fonts/hsma-display/*.woff2
   pre-render:
     - _prerender.py
 

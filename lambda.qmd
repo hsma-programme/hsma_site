@@ -1,6 +1,5 @@
 ---
-title: "HSMA [λ]{.keep-case} (Lambda)"
-pagetitle: "HSMA λ (Lambda)"
+title: "HSMA λ (Lambda)"
 subtitle: "Ask the right questions · Interpret project outputs"
 toc: false
 title-block-banner: resources/banner.png
