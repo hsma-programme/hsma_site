@@ -20,111 +20,157 @@ listing:
 <style>
 /* Shared neon colours, fonts and .neon-tile live in styles.css (neon design language section) */
 
-/* Two books per row, three on very wide screens, one on phones */
+/* Bookshelf: one full-width card per book, cover on the left and its details beside it */
 .book-grid {
     display: grid;
-    grid-template-columns: repeat(2, minmax(0, 1fr));
+    grid-template-columns: 1fr;
     gap: 1.5rem;
     margin: 1.5rem 0 1rem 0;
 }
 
-/* The page body is capped at ~1140px, so on very wide screens let the grid break out of it, centred */
-@media (min-width: 1921px) {
-    .book-grid {
-        grid-template-columns: repeat(3, minmax(0, 1fr));
-        width: min(1800px, calc(100vw - 6rem));
-        position: relative;
-        left: 50%;
-        transform: translateX(-50%);
-    }
-}
-
-@media (max-width: 800px) {
-    .book-grid {
-        grid-template-columns: 1fr;
-    }
-}
-
 .book-card {
     border-radius: 12px;
-    padding: 1.5rem;
+    padding: 0;
     container-type: inline-size;
 }
 
-/* Cover beside the text when the card is wide enough, above it when not */
-.book-card-inner {
-    display: grid;
-    grid-template-columns: minmax(160px, 38%) 1fr;
-    gap: 1.5rem;
-    align-items: start;
+/* The header band's underline replaces the tile's neon top edge */
+.book-card::before {
+    display: none;
 }
 
-@container (max-width: 520px) {
-    .book-card-inner {
-        grid-template-columns: 1fr;
-    }
+/* Terminal-style header band, as on the homepage's "Updates from the HSMA team" panel,
+   tinted with each book's topic colour and underlined in it */
+.book-header {
+    position: relative;
+    padding: 0.75rem 1.75rem;
+    background: linear-gradient(90deg,
+        color-mix(in srgb, var(--accent-soft) 30%, #1c1c1c),
+        color-mix(in srgb, var(--accent-soft) 12%, #1c1c1c) 70%);
+}
 
-    .book-cover {
-        max-width: 320px;
-    }
+.book-header::after {
+    content: "";
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    height: 2px;
+    background: var(--accent);
+    box-shadow: 0 0 10px var(--accent-glow);
+}
+
+/* Override the shared listing title's forced capitalisation and padding */
+.book-card .book-title {
+    margin: 0;
+    padding: 0;
+    font-family: var(--terminal-font);
+    font-size: clamp(1.35rem, 3vw, 1.75rem);
+    font-weight: 400;
+    line-height: 1.2;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0 0 8px var(--accent-glow);
+}
+
+.book-title .prompt {
+    color: var(--accent-soft);
+}
+
+/* Cover on a black screen panel down the card's left side, as in the homepage carousel */
+.book-card-inner {
+    display: grid;
+    grid-template-columns: clamp(220px, 28%, 340px) minmax(0, 1fr);
+    align-items: stretch;
 }
 
 .book-cover {
-    display: block;
-    border-radius: 8px;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 1.25rem;
+    background-color: #161616;
+    border-radius: 0 0 0 12px;
     overflow: hidden;
-    border: 1px solid #2e2e2e;
-    transition: box-shadow 0.2s ease, transform 0.2s ease, border-color 0.2s ease;
 }
 
 .book-cover img {
     display: block;
     width: 100%;
     height: auto;
+    border-radius: 6px;
+    /* CRT "phosphor" grade, as on the carousel: soft highlight bloom (SVG filter below), plus a little punch */
+    filter: url(#crt-bloom) contrast(1.06) saturate(1.15);
+    transition: box-shadow 0.2s ease, transform 0.2s ease;
 }
 
-.book-cover:hover {
+.book-cover:hover img {
     transform: translateY(-3px);
-    border-color: var(--accent-soft);
     box-shadow: 0 0 18px var(--accent-glow);
+}
+
+/* CRT-style screen over the panel, as on the homepage carousel: faint pulsing scanlines, vignette,
+   phosphor tint and edge glow (pointer-events off so the cover stays clickable) */
+.book-cover::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    pointer-events: none;
+    background:
+        repeating-linear-gradient(0deg, rgba(0, 0, 0, 0.12) 0 1px, transparent 1px 3px),
+        radial-gradient(ellipse at center, transparent 60%, rgba(0, 0, 0, 0.35) 100%),
+        linear-gradient(135deg, rgba(224, 33, 138, 0.07), rgba(47, 140, 255, 0.07));
+    box-shadow: inset 0 0 28px rgba(0, 0, 0, 0.55), inset 0 0 2px rgba(255, 120, 180, 0.25);
+    animation: crt-pulse 3.5s ease-in-out infinite;
+}
+
+@keyframes crt-pulse {
+    0%, 100% { opacity: 0.7; }
+    50%      { opacity: 1; }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .book-cover::after {
+        animation: none;
+    }
 }
 
 .book-body {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    height: 100%;
+    padding: 1.75rem 1.75rem 1.75rem 2rem;
+    /* Divider between the screen panel and the details, in the book's colour */
+    border-left: 1px solid color-mix(in srgb, var(--accent-soft) 40%, transparent);
 }
 
-.book-badge {
-    padding: 0.05rem 0.6rem;
-    border-radius: 4px;
-    font-family: var(--terminal-font);
-    font-size: 1.1rem;
-    letter-spacing: 0.04em;
-    text-transform: uppercase;
-    color: var(--accent-soft);
-    background-color: color-mix(in srgb, var(--accent-soft) 15%, transparent);
-}
+/* Narrow cards (phones): screen panel above the details */
+@container (max-width: 560px) {
+    .book-card-inner {
+        grid-template-columns: 1fr;
+    }
 
-.book-badge::before {
-    content: "> ";
-}
+    .book-cover {
+        border-radius: 0;
+    }
 
-/* Override the shared listing title's forced capitalisation, which turns "of" into "Of" */
-.book-card .book-title {
-    margin: 0.75rem 0 0.75rem 0;
-    padding: 0;
-    font-family: var(--display-font);
-    font-size: 2rem;
-    font-weight: 400;
-    line-height: 1.05;
-    letter-spacing: 0.04em;
-    text-transform: none;
+    .book-cover img {
+        max-width: 320px;
+    }
+
+    .book-body {
+        padding: 1.25rem 1.5rem 1.5rem 1.5rem;
+        border-left: none;
+        border-top: 1px solid color-mix(in srgb, var(--accent-soft) 40%, transparent);
+    }
 }
 
 .book-abstract {
     flex-grow: 1;
+    max-width: 75ch;   /* keep lines readable on the wide shelf cards */
     margin-bottom: 1.25rem;
     font-size: 0.92rem;
     font-weight: 300;
@@ -184,6 +230,23 @@ These are freely available to all - please share them with anyone you think woul
 Prefer to follow along with the original session recordings, slides and exercises? Head to the [modules](modules.qmd) page instead.
 
 [<i class="bi bi-collection-play"></i> Go to the modules page](modules.qmd){.modules-jump}
+
+```{=html}
+<!-- CRT bloom for the covers, as on the homepage carousel: blurs the image, keeps only the brighter
+     parts of the blur, and screens them back over the original -->
+<svg width="0" height="0" style="position: absolute;" aria-hidden="true" focusable="false">
+  <filter id="crt-bloom" x="0" y="0" width="100%" height="100%" color-interpolation-filters="sRGB">
+    <feGaussianBlur in="SourceGraphic" stdDeviation="5" result="blur"/>
+    <feComponentTransfer in="blur" result="highlights">
+      <feFuncR type="linear" slope="1.6" intercept="-0.6"/>
+      <feFuncG type="linear" slope="1.6" intercept="-0.6"/>
+      <feFuncB type="linear" slope="1.6" intercept="-0.6"/>
+      <feFuncA type="linear" slope="0.5"/>
+    </feComponentTransfer>
+    <feBlend in="SourceGraphic" in2="highlights" mode="screen"/>
+  </filter>
+</svg>
+```
 
 :::{#books}
 :::
