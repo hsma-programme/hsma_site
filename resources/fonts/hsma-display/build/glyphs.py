@@ -43,10 +43,22 @@ class Glyph:
         self.rotate = rotate          # turn the finished glyph upside down (9 is a rotated 6)
 
 
+def _closed(p):
+    """Snap a path whose ends (nearly) meet, such as a full-circle arc, into an exact loop.
+
+    Rounding leaves a 360-degree arc's last point a hair off its first; without this the stroke gets
+    square end caps at the seam, which show as small ticks on the sides of O, 0, 8 and so on.
+    """
+    p = list(p)
+    if len(p) > 2 and math.dist(p[0], p[-1]) < 1:
+        p[-1] = p[0]
+    return p
+
+
 def _thicken(paths, width, cap='square'):
     if not paths:
         return None
-    return unary_union([LineString(p).buffer(width / 2, cap_style=cap, join_style='mitre', mitre_limit=10)
+    return unary_union([LineString(_closed(p)).buffer(width / 2, cap_style=cap, join_style='mitre', mitre_limit=10)
                         for p in paths])
 
 
@@ -121,10 +133,19 @@ def build():
                                       [(vw / 2, 37), (vw / 2, -80)]],
                     groove_strokes=[[(vx(TOP), TOP), (vw / 2, 82), (vw - vx(TOP), TOP)]], wd=128)
 
+    # K: the arm runs from the top right into the stem; the leg branches off a point on the arm's centre line,
+    # so the strokes join cleanly and the leg's groove forks off the arm's groove
     kw = 480
+    ka = lambda y: (H2 + 30) + (kw - 75 - (H2 + 30)) * (y - 300) / (TOP - 300)   # arm centre line, x at height y
+    kp = (ka(430), 430)                                                          # where the leg branches off
+    kb = (kw - 70, BOT)                                                          # leg's bottom end
+    kl = lambda y: kp[0] + (kb[0] - kp[0]) * (y - kp[1]) / (kb[1] - kp[1])        # leg centre line
+    y_stem = 300 - (H2 + 30 - H2) * (TOP - 300) / (kw - 75 - (H2 + 30))          # where the arm line meets the stem's centre
     gl['K'] = Glyph(kw, [[(H2, BOT), (H2, TOP)]],
-                    diagonal=[[(R(kw) + 30, CAP + 40), (H2 + 40, 330)], [(H2 + 120, 400), (R(kw) + 30, -40)]],
-                    groove_strokes=[[(H2, BOT), (H2, TOP)], [(R(kw) - 10, TOP), (H2, 330)], [(H2 + 135, 395), (R(kw) - 10, BOT)]])
+                    diagonal=[[(ka(CAP + 60), CAP + 60), (ka(y_stem + 20), y_stem + 20)],
+                              [kp, (kl(-60), -60)]],
+                    groove_strokes=[[(H2, BOT), (H2, TOP)], [(ka(TOP), TOP), (H2, y_stem)], [kp, (kl(BOT), BOT)]],
+                    wd=128)
 
     # Round letters: stadium-like bowls with the same stroke
     # Round letters overshoot the cap height and baseline slightly, as the logo's S does (by ~10px)
