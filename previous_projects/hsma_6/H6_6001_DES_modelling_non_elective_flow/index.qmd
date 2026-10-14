@@ -36,6 +36,9 @@ pub-info:
   - name: Video
     url: https://youtu.be/0DUx5hhxjoA?feature=shared
     icon: fa-brands fa-youtube
+  - name: Conference talk
+    url: https://youtu.be/OOeJsnYEVhQ
+    icon: fa-brands fa-youtube
   - name: Code
     url: https://github.com/helenajr/Non-Elective-Flow-Simulation
     icon: fa-brands fa-github
@@ -72,6 +75,12 @@ The team also created a friendly user interface that stakeholders can try out sc
 ### Talks
 
 {{< video https://youtu.be/0DUx5hhxjoA?feature=shared >}}
+
+#### DES-igning Better Flow: Modelling Non-Elective Admissions
+
+Presented at RPySOC 2025, the NHS-R / NHS.pycom Open Source Conference.
+
+{{< video https://youtu.be/OOeJsnYEVhQ >}}
 
 ### App
 

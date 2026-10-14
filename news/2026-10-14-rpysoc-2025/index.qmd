@@ -1,0 +1,49 @@
+---
+title: "HSMAs Present at RPySOC 2025"
+title-block-banner: ../banner.png
+author:
+    - "Sammi Rosser"
+    - "Dr Dan Chalk"
+    - "PenARC Team"
+date: "2026-10-14"
+date-modified: "2026-10-14"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    Two of our HSMA 6 associates shared their projects at the NHS-R / NHS.pycom Open Source Conference - watch their talks here!
+image: image.png
+image-alt: "Screenshot of the non-elective flow simulation app"
+---
+
+**We're delighted to share that two of our HSMA 6 associates presented their projects at RPySOC 2025, the NHS-R / NHS.pycom Open Source Conference.**
+
+The conference was held at the Wellcome Trust in London and online on 13th and 14th November 2025. It brought together people from across the NHS and beyond who use open source tools such as R and Python to improve patient care - which is exactly what our associates have been doing since joining the HSMA programme.
+
+## DES-igning Better Flow: Modelling Non-Elective Admissions
+
+Helena Robinson, from the Countess of Chester Hospital NHS Foundation Trust, talked about her discrete event simulation of non-elective patient flow. Her model explores how bed numbers, length of stay and Same Day Emergency Care affect waits in the Emergency Department, and comes with an app that lets stakeholders try out scenarios for themselves.
+
+{{< video https://youtu.be/OOeJsnYEVhQ >}}
+
+Find out more on the [project page](../../previous_projects/hsma_6/H6_6001_DES_modelling_non_elective_flow/index.qmd).
+
+## Predicting Outpatient Non-Attendance
+
+Peter Andrews, from Barts Health NHS Trust, presented his work on forecasting which outpatient appointments are likely to be missed. Around 12% of outpatient appointments at Barts are not attended each month, and a machine learning model can help teams target their efforts to reduce this and make better use of clinical time.
+
+{{< video https://youtu.be/tWcLIMTQb8A >}}
+
+Find out more on the [project page](../../previous_projects/hsma_6/H6_6046_proactive_patient_attendance_prediction/index.qmd).
+
+## Well done!
+
+Presenting at a national conference is a great achievement, and we're really proud of both Helena and Peter for sharing their work with the wider community.
+
+:::{.callout-tip appearance="simple"}
+Recordings from the rest of the conference are available on the NHS-R YouTube channel, and slides and code are in the conference GitHub repository. See the [conference page](https://nhsrcommunity.com/conference.html) for details.
+:::

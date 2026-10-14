@@ -29,6 +29,9 @@ pub-info:
   - name: Video
     url: https://youtu.be/WNtIIWA_IYg?feature=shared
     icon: fa-brands fa-youtube
+  - name: Conference talk
+    url: https://youtu.be/tWcLIMTQb8A
+    icon: fa-brands fa-youtube
   - name: Code
     url: https://github.com/WX-BIU/Outpatient-DNAs
     icon: fa-brands fa-github
@@ -53,7 +56,15 @@ This project will develop :
 - Patient contact capture tool
 - Integration of machine learning model into enterprise level reports
 
+### Talks
+
 {{< video https://youtu.be/WNtIIWA_IYg?feature=shared >}}
+
+#### Predicting Outpatient Non-Attendance
+
+Presented at RPySOC 2025, the NHS-R / NHS.pycom Open Source Conference.
+
+{{< video https://youtu.be/tWcLIMTQb8A >}}
 
 :::{.callout-note}
 ## 10-year plan Alignment
