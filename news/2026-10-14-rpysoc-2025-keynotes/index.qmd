@@ -1,0 +1,43 @@
+---
+title: "HSMA Keynotes at RPySOC 2025"
+title-block-banner: ../banner.png
+author:
+    - "PenARC Team"
+date: "2026-10-14"
+date-modified: "2026-10-14"
+include-back-link: true
+format:
+    html:
+        toc: true
+        grid:
+            sidebar-width: 0px
+            body-width: 1100px
+description: |
+    Dr Dan Chalk and Sammi Rosser each gave a keynote at the NHS-R / NHS.pycom Open Source Conference - watch them here!
+image: image.png
+image-alt: "Screenshot of the non-elective flow simulation app"
+---
+
+**As well as our associates' talks, the HSMA team were honoured to be invited to give two keynotes at RPySOC 2025, the NHS-R / NHS.pycom Open Source Conference.**
+
+Held at the Wellcome Trust in London and online on 13th and 14th November 2025, the conference celebrates the use of open source tools to improve patient care. Both keynotes are now available to watch.
+
+## Total Eclipse of the Excel Chart
+
+Dr Dan Chalk (Senior Research Fellow, lead of the HSMA programme), opened with a keynote reflecting on 12 years of teaching modelling and data science in the NHS.
+
+{{< video https://youtu.be/Njm87gLaK9Q >}}
+
+## Reusable by Default: Reflections on Building Sustainable Open Tools and Knowledge for Healthcare
+
+Sammi Rosser (Postdoctoral Research Fellow, trainer on the HSMA programme) reflected on what it takes to build open tools and knowledge that others can genuinely pick up, adapt and reuse.
+
+{{< video https://youtu.be/JU0DG0hB1bQ >}}
+
+## Want to learn more?
+
+You can see the talks given by our HSMA 6 associates at the same conference in [our earlier news story](../2026-10-14-rpysoc-2025/index.qmd).
+
+:::{.callout-tip appearance="simple"}
+Recordings from the rest of the conference are available on the NHS-R YouTube channel. See the [conference page](https://nhsrcommunity.com/conference.html) for details.
+:::
