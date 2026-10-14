@@ -3,8 +3,8 @@ title: "HSMA Keynotes at RPySOC 2025"
 title-block-banner: ../banner.png
 author:
     - "PenARC Team"
-date: "2026-10-14"
-date-modified: "2026-10-14"
+date: "2026-02-04"
+date-modified: "2026-02-04"
 include-back-link: true
 format:
     html:
@@ -36,7 +36,7 @@ Sammi Rosser (Postdoctoral Research Fellow, trainer on the HSMA programme) refle
 
 ## Want to learn more?
 
-You can see the talks given by our HSMA 6 associates at the same conference in [our earlier news story](../2026-10-14-rpysoc-2025/index.qmd).
+You can see the talks given by our HSMA 6 associates at the same conference in [our earlier news story](../2026-02-04-rpysoc-2025/index.qmd).
 
 :::{.callout-tip appearance="simple"}
 Recordings from the rest of the conference are available on the NHS-R YouTube channel. See the [conference page](https://nhsrcommunity.com/conference.html) for details.
