@@ -1084,7 +1084,7 @@ document.addEventListener('DOMContentLoaded', function () {
   <div class="updates-header"><span><span class="prompt" aria-hidden="true">&gt; </span>Updates from the HSMA team<span class="cursor" aria-hidden="true"></span></span></div>
   <div class="updates-grid">
     <div class="update-item update-hsma7">
-      <span class="update-badge"><i class="bi bi-calendar-event"></i>Spring/summer 2027</span>
+      <span class="update-badge"><i class="bi bi-calendar-event"></i>Summer 2027</span>
       <h3>HSMA 7</h3>
       <p>We're busy giving HSMA its biggest rewrite since the programme began ten years ago. A sneak peek at what's new:</p>
       <ul class="neon-list neon-list--red update-teasers">
@@ -1096,7 +1096,7 @@ document.addEventListener('DOMContentLoaded', function () {
       <a class="update-link" href="hsma7.html">What we'll teach, what's changed since HSMA 6, and FAQs <i class="bi bi-arrow-right"></i></a>
     </div>
     <div class="update-item update-lambda">
-      <span class="update-badge"><i class="bi bi-calendar-event"></i>Winter 2026/27 – spring 2027</span>
+      <span class="update-badge"><i class="bi bi-calendar-event"></i>Spring 2027</span>
       <h3>HSMA-λ (lambda)</h3>
       <p>We are also putting together a new series of three standalone 3-hour workshops for senior leaders and <strong class="neon-text">decision makers</strong> in the health service:</p>
       <ul class="neon-list">

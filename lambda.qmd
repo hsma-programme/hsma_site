@@ -84,7 +84,7 @@ body-classes: neon-headings neon-headings--left lambda-theme neon-title
 </style>
 ```
 
-Launching in **winter 2026/27 – spring 2027**, our new HSMA-λ (HSMA lambda) offering is a series of [**standalone workshops**]{.neon-text} targeted at decision makers in the health service.
+Launching in **spring 2027**, our new HSMA-λ (HSMA lambda) offering is a series of [**standalone workshops**]{.neon-text} targeted at decision makers in the health service.
 
 HSMA-λ will focus on supporting participants to understand the advanced techniques that are taught on HSMA so you can [**ask the right questions**]{.neon-text} and [**interpret project outputs**]{.neon-text}.
 
@@ -201,7 +201,7 @@ We also equip you with the knowledge you need to ask the right questions about a
 
 ```{=html}
 <div class="lambda-card" id="register-interest">
-  <span class="lambda-badge"><i class="bi bi-calendar-event"></i>Winter 2026/27 – spring 2027</span>
+  <span class="lambda-badge"><i class="bi bi-calendar-event"></i>spring 2027</span>
   <h3>Register your interest</h3>
   <p>We would be delighted if you could fill in our expression of interest form for HSMA-λ. This will help us to ensure we offer enough dates for each workshop.</p>
   <a class="eoi-button" href="https://forms.cloud.microsoft/e/spFr8qr2pP"><i class="bi bi-pencil-square"></i>Register λ interest</a>
