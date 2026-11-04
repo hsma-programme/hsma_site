@@ -283,7 +283,7 @@ Each workshop will last between 3 and 4.5 hours, depending on the workshop. Exac
 <details>
 <summary>What platform will be used for delivering lambda workshops?</summary>
 
-All workshops will be delivered on Zoom.
+All workshops will be delivered on Zoom or Teams - this is being finalised based on technical and access requirements.
 
 You will need a working microphone at a minimum, and we would strongly recommend turning on your camera for the discussion-based exercises.
 
