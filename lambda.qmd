@@ -84,34 +84,32 @@ body-classes: neon-headings neon-headings--left lambda-theme neon-title
 </style>
 ```
 
-Launching in **spring 2027**, our new HSMA-λ (HSMA lambda) offering is a series of [**standalone workshops**]{.neon-text} targeted at decision makers in the health service.
+Launching in **spring 2027**, our new HSMA-λ (HSMA lambda) offering is a series of [**standalone workshops**]{.neon-text} targeted at [**decision makers**]{.neon-text} in the health service.
 
 HSMA-λ will focus on supporting participants to understand the advanced techniques that are taught on HSMA so you can [**ask the right questions**]{.neon-text} and [**interpret project outputs**]{.neon-text}.
 
 ```{=html}
-<div class="eoi-jump-row">
-  <a class="eoi-jump" href="#register-interest"><i class="bi bi-arrow-down-circle"></i>Register interest</a>
+<div class="lambda-card" id="register-interest">
+  <span class="lambda-badge"><i class="bi bi-calendar-event"></i>spring 2027</span>
+  <h3>Register your interest</h3>
+  <p>We would be delighted if you could fill in our expression of interest form for HSMA-λ. This will help us to ensure we offer enough dates for each workshop.</p>
+  <a class="eoi-button" href="https://forms.cloud.microsoft/e/spFr8qr2pP"><i class="bi bi-pencil-square"></i>Register λ interest</a>
+  <p>We will then circulate the workshop dates ahead of launch and contact you with details of how to book at that time.</p>
+  <p class="eoi-note">Please note that completing this expression of interest does not guarantee a place at the workshops.</p>
 </div>
 ```
 
 <br/>
 
-<div class="lambda-card">
-<span class="lambda-badge"><i class="bi bi-terminal"></i>No prior experience needed</span>
-<h3>No code, no technical jargon</h3>
-
-<p>Just teaching focused on real-world application, helping you understand the art of the possible in cutting-edge data science and operational research techniques, whatever your prior level of knowledge.</p>
-</div>
+## What is lambda?
 
 <br/>
-
-Taught by the core HSMA team – applied University of Exeter researchers who have delivered training to over 450 HSMAs and supported the development of over 100 real-world healthcare data science projects in the NHS, allied professions, healthcare charities and beyond – this new format opens up the world of HSMA to a wider range of people.
 
 ```{=html}
 <div class="value-grid-box" style="justify-content:center; text-align:center;">
     <div class="value-box neon-tile neon-tile--lambda">
         <div class="icon" style="font-size: 2rem;"><i class="bi bi-cloud"></i></div>
-        <div class="details">An interactive online workshop lasting around 3 hours, with plenty of time for group discussions and questions.</div>
+        <div class="details">An interactive online workshop with plenty of time for group discussions and questions.</div>
     </div>
     <div class="value-box neon-tile neon-tile--lambda">
         <div class="icon" style="font-size: 2rem;"><i class="bi bi-currency-pound"></i></div>
@@ -123,6 +121,9 @@ Taught by the core HSMA team – applied University of Exeter researchers who ha
     </div>
 </div>
 ```
+<br/>
+
+Taught by the core HSMA team – applied University of Exeter researchers who have delivered training to over 450 HSMAs and supported the development of over 100 real-world healthcare data science projects in the NHS, allied professions, healthcare charities and beyond – this new format opens up the world of HSMA to a wider range of people.
 
 <br/>
 
@@ -137,7 +138,14 @@ At each workshop, you will
 - Identify shared problems across organisations that could be tackled collaboratively
 - Form structured questions to use as a basis for project work in HSMA, and identify individuals or teams to nominate for HSMA to work on these problems
 
-## Workshops
+<div class="lambda-card">
+<span class="lambda-badge"><i class="bi bi-terminal"></i>No prior experience needed</span>
+<h3>No code, no technical jargon</h3>
+
+<p>Just teaching focused on real-world application, helping you understand the art of the possible in cutting-edge data science and operational research techniques, whatever your prior level of knowledge.</p>
+</div>
+
+## What workshops are offered?
 
 ```{=html}
 <div class="value-grid-box" style="justify-content:center; text-align:center;">
@@ -197,7 +205,7 @@ We also equip you with the knowledge you need to ask the right questions about a
 ::::
 
 
-## Signing Up
+## How can I sign up?
 
 ```{=html}
 <div class="lambda-card" id="register-interest">
@@ -235,6 +243,113 @@ If you want to learn how to write the code required to create these models yours
 No! Unlike the core HSMA programme, there are no coding or technical requirements for HSMA lambda workshops. We do not expect you to have any prior knowledge of these techniques or any background in mathematics, computer programming, data science or operational research.
 
 </details>
+
+<details>
+<summary>I am based outside England - can I apply?</summary>
+
+Unfortunately our live workshops are limited to participants who work for an English health service only. Your own geographical location can differ.
+
+If you are not eligible to join, note that the slides and interactive exercises from lambda workshops will be made available freely to all.
+
+</details>
+
+<details>
+<summary>I am based in the private sector - can I apply?</summary>
+
+Unfortunately we are not able to support attendance from those working in profit-making/private-sector organisations at this time.
+
+However, the slides and interactive exercises from lambda workshops will be made available freely to all.
+
+</details>
+
+<details>
+<summary>What platform will be used for delivering lambda workshops?</summary>
+
+All workshops will be delivered on Zoom.
+
+You will need a working microphone at a minimum, and we would strongly recommend turning on your camera for the discussion-based exercises.
+
+</details>
+
+
+<details>
+<summary>Will the workshops be recorded?</summary>
+
+To support open discussions, we will not be recording lambda workshops. However, the slides and interactive exercises will be available after the workshop, along with cheatsheets to remind you of key terminology and concepts from each workshop.
+</details>
+
+<details>
+<summary>Does attending a lambda workshop guarantee that my project idea will be taken forward?</summary>
+
+Unfortunately we cannot guarantee that every proposed project will be possible to take forward into a full HSMA project. However, where similar projects are proposed by multiple organisations, we hope to facilitate collaboration so that bigger and better solutions can be created.
+
+</details>
+
+<details>
+<summary>Do I need to prepare anything in advance?</summary>
+
+No preparation is required.
+</details>
+
+<details>
+<summary>Can I attend more than one workshop?</summary>
+
+Yes, absolutely! While the first ten minutes of each workshop share some similarities while we introduce a couple of key concepts, the remainder will cover completely different techniques, so there is value in attending more than one, though there is also no obligation to do so. Take a look at the workshop descriptions to see if they might be relevant to you.
+</details>
+
+<details>
+<summary>Do I have to attend the workshops in a specific order?</summary>
+
+The three workshops can be attended in any order - no workshop relies on content from another.
+</details>
+
+<details>
+<summary>Will I receive a certificate of attendance?</summary>
+
+Certificates of attendance are available on request by emailing [penchord@exeter.ac.uk](mailto:penchord@exeter.ac.uk).
+</details>
+
+<details>
+<summary>Are there CPD points associated with this training?</summary>
+
+There are no CPD points associated with lambda workshops.
+</details>
+
+<details>
+<summary>How long are the workshops?</summary>
+
+Each workshop will last between 3 and 4.5 hours, depending on the workshop. Exact timings will be shared when the individual workshop registration opens; in the meantime, please do [register your interest](https://forms.cloud.microsoft/e/spFr8qr2pP).
+</details>
+
+
+<details>
+<summary>Does nominating someone for the HSMA programme via lambda guarantee them a place on the HSMA programme?</summary>
+
+We aim to support as many people as possible to learn via the full HSMA programme, and we would expect the vast majority of people nominated to be accepted onto the programme. However, while we do not require any particular prior qualifications and no previous coding experience is required for the full HSMA course, we do require nominated participants to meet a minimum level of computer literacy and confidence, which we have found is necessary to be able to manage the level of content they are learning on the course. Therefore, we may occasionally have to reject applications on these grounds.
+
+</details>
+
+
+<details>
+<summary>Can several people from the same organisation attend?</summary>
+
+Yes, absolutely. There are no limits on the number of participants from a single organisation.
+
+</details>
+
+
+
+<details>
+<summary>I'm just curious about doing the full programme - is this a taster session?</summary>
+
+Participants for lambda workshops are expected to be those with a direct decision-making role within the NHS and who are expecting to direct and support others to undertake the work.
+
+These workshops will be very different to a normal HSMA session and will not teach you to undertake the projects yourself. The focus, format and exercises will be very different so will not give you a true flavour of the full HSMA course.
+
+If you're keen to find out whether the full HSMA course is right for you, we'd instead recommend [looking at our HSMA 7 page](hsma7.qmd), [watching our HSMA 6 open day presentation](https://www.youtube.com/watch?v=4huQ2FM16pk), or [taking a look at the HSMA 6 content](modules.qmd).
+
+</details>
+
 
 <details>
 <summary>My question is not answered here</summary>
