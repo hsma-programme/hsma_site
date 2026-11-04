@@ -226,16 +226,7 @@ You can also follow us on [LinkedIn](https://www.linkedin.com/company/hsma-progr
 
 ::: {.faq .faq--lambda}
 
-<details>
-<summary>Will I learn to undertake these projects myself?</summary>
-
-No – but you will learn enough to be able to design and support projects using the methods covered on each workshop.
-
-You will also have the opportunity to propose project ideas to be worked on in HSMA 7 as HSMA projects, as well as nominating candidates from your organisation for the HSMA programme.
-
-If you want to learn how to write the code required to create these models yourself, keep an eye out for registration opening up for HSMA 7 (hopefully launching in spring/summer 2027) or access our [HSMA 6 recordings](https://hsma.co.uk/hsma_content/modules/modules.html) or [teach-yourself ebooks](https://hsma.co.uk/hsma_content/books/books.html).
-
-</details>
+### Who can attend?
 
 <details>
 <summary>Do I need any technical background?</summary>
@@ -263,81 +254,11 @@ However, the slides and interactive exercises from lambda workshops will be made
 </details>
 
 <details>
-<summary>What platform will be used for delivering lambda workshops?</summary>
-
-All workshops will be delivered on Zoom.
-
-You will need a working microphone at a minimum, and we would strongly recommend turning on your camera for the discussion-based exercises.
-
-</details>
-
-
-<details>
-<summary>Will the workshops be recorded?</summary>
-
-To support open discussions, we will not be recording lambda workshops. However, the slides and interactive exercises will be available after the workshop, along with cheatsheets to remind you of key terminology and concepts from each workshop.
-</details>
-
-<details>
-<summary>Does attending a lambda workshop guarantee that my project idea will be taken forward?</summary>
-
-Unfortunately we cannot guarantee that every proposed project will be possible to take forward into a full HSMA project. However, where similar projects are proposed by multiple organisations, we hope to facilitate collaboration so that bigger and better solutions can be created.
-
-</details>
-
-<details>
-<summary>Do I need to prepare anything in advance?</summary>
-
-No preparation is required.
-</details>
-
-<details>
-<summary>Can I attend more than one workshop?</summary>
-
-Yes, absolutely! While the first ten minutes of each workshop share some similarities while we introduce a couple of key concepts, the remainder will cover completely different techniques, so there is value in attending more than one, though there is also no obligation to do so. Take a look at the workshop descriptions to see if they might be relevant to you.
-</details>
-
-<details>
-<summary>Do I have to attend the workshops in a specific order?</summary>
-
-The three workshops can be attended in any order - no workshop relies on content from another.
-</details>
-
-<details>
-<summary>Will I receive a certificate of attendance?</summary>
-
-Certificates of attendance are available on request by emailing [penchord@exeter.ac.uk](mailto:penchord@exeter.ac.uk).
-</details>
-
-<details>
-<summary>Are there CPD points associated with this training?</summary>
-
-There are no CPD points associated with lambda workshops.
-</details>
-
-<details>
-<summary>How long are the workshops?</summary>
-
-Each workshop will last between 3 and 4.5 hours, depending on the workshop. Exact timings will be shared when the individual workshop registration opens; in the meantime, please do [register your interest](https://forms.cloud.microsoft/e/spFr8qr2pP).
-</details>
-
-
-<details>
-<summary>Does nominating someone for the HSMA programme via lambda guarantee them a place on the HSMA programme?</summary>
-
-We aim to support as many people as possible to learn via the full HSMA programme, and we would expect the vast majority of people nominated to be accepted onto the programme. However, while we do not require any particular prior qualifications and no previous coding experience is required for the full HSMA course, we do require nominated participants to meet a minimum level of computer literacy and confidence, which we have found is necessary to be able to manage the level of content they are learning on the course. Therefore, we may occasionally have to reject applications on these grounds.
-
-</details>
-
-
-<details>
 <summary>Can several people from the same organisation attend?</summary>
 
 Yes, absolutely. There are no limits on the number of participants from a single organisation.
 
 </details>
-
-
 
 <details>
 <summary>I'm just curious about doing the full programme - is this a taster session?</summary>
@@ -350,6 +271,94 @@ If you're keen to find out whether the full HSMA course is right for you, we'd i
 
 </details>
 
+### Workshop format
+
+<details>
+<summary>How long are the workshops?</summary>
+
+Each workshop will last between 3 and 4.5 hours, depending on the workshop. Exact timings will be shared when the individual workshop registration opens; in the meantime, please do [register your interest](https://forms.cloud.microsoft/e/spFr8qr2pP).
+
+</details>
+
+<details>
+<summary>What platform will be used for delivering lambda workshops?</summary>
+
+All workshops will be delivered on Zoom.
+
+You will need a working microphone at a minimum, and we would strongly recommend turning on your camera for the discussion-based exercises.
+
+</details>
+
+<details>
+<summary>Do I need to prepare anything in advance?</summary>
+
+No preparation is required.
+
+</details>
+
+<details>
+<summary>Can I attend more than one workshop?</summary>
+
+Yes, absolutely! While the first ten minutes of each workshop share some similarities while we introduce a couple of key concepts, the remainder will cover completely different techniques, so there is value in attending more than one, though there is also no obligation to do so. Take a look at the workshop descriptions to see if they might be relevant to you.
+
+</details>
+
+<details>
+<summary>Do I have to attend the workshops in a specific order?</summary>
+
+The three workshops can be attended in any order - no workshop relies on content from another.
+
+</details>
+
+<details>
+<summary>Will the workshops be recorded?</summary>
+
+To support open discussions, we will not be recording lambda workshops. However, the slides and interactive exercises will be available after the workshop, along with cheatsheets to remind you of key terminology and concepts from each workshop.
+
+</details>
+
+<details>
+<summary>Will I learn to undertake these projects myself?</summary>
+
+No – but you will learn enough to be able to design and support projects using the methods covered on each workshop.
+
+You will also have the opportunity to propose project ideas to be worked on in HSMA 7 as HSMA projects, as well as nominating candidates from your organisation for the HSMA programme.
+
+If you want to learn how to write the code required to create these models yourself, keep an eye out for registration opening up for HSMA 7 (hopefully launching in spring/summer 2027) or access our [HSMA 6 recordings](https://hsma.co.uk/hsma_content/modules/modules.html) or [teach-yourself ebooks](https://hsma.co.uk/hsma_content/books/books.html).
+
+</details>
+
+### After the workshop
+
+<details>
+<summary>Does attending a lambda workshop guarantee that my project idea will be taken forward?</summary>
+
+Unfortunately we cannot guarantee that every proposed project will be possible to take forward into a full HSMA project. However, where similar projects are proposed by multiple organisations, we hope to facilitate collaboration so that bigger and better solutions can be created.
+
+</details>
+
+<details>
+<summary>Does nominating someone for the HSMA programme via lambda guarantee them a place on the HSMA programme?</summary>
+
+We aim to support as many people as possible to learn via the full HSMA programme, and we would expect the vast majority of people nominated to be accepted onto the programme. However, while we do not require any particular prior qualifications and no previous coding experience is required for the full HSMA course, we do require nominated participants to meet a minimum level of computer literacy and confidence, which we have found is necessary to be able to manage the level of content they are learning on the course. Therefore, we may occasionally have to reject applications on these grounds.
+
+</details>
+
+<details>
+<summary>Will I receive a certificate of attendance?</summary>
+
+Certificates of attendance are available on request by emailing [penchord@exeter.ac.uk](mailto:penchord@exeter.ac.uk).
+
+</details>
+
+<details>
+<summary>Are there CPD points associated with this training?</summary>
+
+There are no CPD points associated with lambda workshops.
+
+</details>
+
+### Other
 
 <details>
 <summary>My question is not answered here</summary>
