@@ -1255,9 +1255,9 @@ While HSMA involves a large training element, the main focus of the programme is
 
 ::: {.support-item}
 
-![](resources/ARC-logo-horizontal-white.svg){.support-logo-img fig-alt="NIHR ARC South West logo"}
+![](resources/nihr_logo.png){.support-logo-img fig-alt="NIHR ARC logo"}
 
-HSMA is supported by the [NHS Digital Academy](https://www.england.nhs.uk/digitaltechnology/nhs-digital-academy/) and delivered by a team belonging to the [NIHR Applied Research Collaboration South West (ARC South West)](https://arc-swp.nihr.ac.uk/).
+HSMA is delivered by a team belonging to the [NIHR Applied Research Collaboration South West (ARC South West)](https://arc-swp.nihr.ac.uk/).
 
 :::
 
