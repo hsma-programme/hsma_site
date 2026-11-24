@@ -57,6 +57,10 @@ website:
         href: https://www.linkedin.com/company/hsma-programme/
       - icon: broadcast-pin
         href: https://podcast.hsma.co.uk/
+    left:
+      - href: hsma_content/playgrounds.qmd
+        text: "<span class='nav-cta-prefix'>Try the </span>Playgrounds"
+        icon: controller
     right:
       - href: index.qmd
         text: Welcome

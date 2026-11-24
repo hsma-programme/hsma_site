@@ -128,6 +128,21 @@ grid:
   content: "> ";
 }
 
+/* Link from a module tile to its mini playground, in the tile's colour */
+.module-tile a.playground-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 700;
+  color: var(--accent-soft);
+  text-decoration: none;
+}
+
+.module-tile a.playground-link:hover {
+  color: white;
+  text-shadow: 0 0 8px var(--accent-glow);
+}
+
 /* The λ card sits in the narrower right-hand column here */
 .lambda-card--compact {
   margin: 0 0 1.5rem 0;
@@ -269,6 +284,8 @@ From month 15 onwards, participants will receive support to get their project wo
 
 HSMA 7 is centred around 4 key modules:
 
+Curious what these techniques can do? [Try our interactive playgrounds](hsma_content/playgrounds.qmd) - no code or installation needed.
+
 ::::{.value-box-row columns="2"}
 
 ::: {.value-box .neon-tile .module-tile value="Introduction to Operational Research, Data Science & Programming" icon="ph ph-desktop-tower" value-font-size="1.4rem" color="#1c1c1c" icon-color="var(--accent-soft)" width="90%" icon-position="right"}
@@ -283,6 +300,8 @@ They will also be introduced to key concepts in computer programming and the Pyt
 In this module, students are introduced to powerful simulation techniques that allow you to accurately model real-world systems and try out changes in a safe environment to see what works before implementing it in the real world.
 
 Students learn to develop robust models aligning with best practices, as well as cutting-edge techniques for visualising flow in systems.
+
+[<i class="bi bi-play-circle"></i> Try the DES playground](https://hsma-programme.github.io/des_playground_mini/){.playground-link target="_blank" rel="noopener"}
 :::
 
 
@@ -290,12 +309,16 @@ Students learn to develop robust models aligning with best practices, as well as
 In this module, students learn key geographic principles and how to create high-quality maps.
 
 They are also introduced to advanced operational research techniques for solving problems around where to place services in the face of competing priorities like equity of access, costs, and net zero goals.
+
+[<i class="bi bi-play-circle"></i> Try the geographic modelling playground](https://hsma-programme.github.io/geographic_playground_mini/){.playground-link target="_blank" rel="noopener"}
 :::
 
 ::: {.value-box .neon-tile .module-tile .neon-tile--green value="Machine Learning" icon="ph ph-brain" value-font-size="1.6rem" color="#1c1c1c" icon-color="var(--accent-soft)" title="<i>“I want to identify patients to target with interventions”</i>" width="90%" icon-position="right"}
 In this module, students learn the key principles of supervised machine learning, allowing them to train machine learning models designed to support operational improvements to services through better targeting of interventions.
 
 They are also introduced to issues around model bias, ethics, legal issues, and model explainability.
+
+[<i class="bi bi-play-circle"></i> Try the machine learning playground](https://hsma-programme.github.io/ml_playground_mini/){.playground-link target="_blank" rel="noopener"}
 :::
 
 ::::

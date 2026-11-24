@@ -44,6 +44,83 @@
   --bs-scroll-height: 100vh;
 }
 
+/* "Try the Playgrounds" call to action beside the logo: a dark pill with the neon banner gradient as its border */
+.navbar .navbar-nav.me-auto a.nav-link[href$="playgrounds.html"] {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.45rem;
+  margin: 0.25rem 0 0.25rem 0.5rem;
+  padding: 0.4rem 1.1rem;
+  border: 2px solid transparent;
+  border-radius: 999px;
+  background:
+    linear-gradient(#1b1a1a, #1b1a1a) padding-box,
+    var(--neon-gradient) border-box;
+  color: #fff;
+  font-weight: 700;
+  white-space: nowrap;
+  box-shadow: 0 0 12px rgba(224, 33, 138, 0.6);
+  transition: box-shadow 0.2s ease, transform 0.2s ease;
+}
+
+.navbar .navbar-nav.me-auto a.nav-link[href$="playgrounds.html"]:hover,
+.navbar .navbar-nav.me-auto a.nav-link[href$="playgrounds.html"]:focus-visible {
+  color: #fff;
+  transform: translateY(-1px);
+  box-shadow: 0 0 20px rgba(224, 33, 138, 0.85), 0 0 8px rgba(47, 140, 255, 0.6);
+}
+
+.navbar .navbar-nav.me-auto a.nav-link[href$="playgrounds.html"] .menu-text {
+  color: inherit;
+}
+
+/* The full navbar is tight between where it stops collapsing (1200px) and ~1750px, so there the links sit
+   closer together and the call to action shortens to "Playgrounds", then to its icon alone */
+@media (min-width: 1200px) {
+  /* Keep the call to action round rather than letting the links squash it */
+  .navbar .navbar-nav.me-auto {
+    flex-shrink: 0;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1749.98px) {
+  .navbar .navbar-nav .nav-link {
+    padding-left: 0.3rem;
+    padding-right: 0.3rem;
+    font-size: 0.92rem;
+    white-space: nowrap;
+  }
+
+  .navbar .nav-cta-prefix {
+    display: none;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1349.98px) {
+  .navbar .navbar-nav .nav-link {
+    padding-left: 0.22rem;
+    padding-right: 0.22rem;
+    font-size: 0.84rem;
+  }
+}
+
+@media (min-width: 1200px) and (max-width: 1449.98px) {
+  .navbar .navbar-nav.me-auto a.nav-link[href$="playgrounds.html"] {
+    gap: 0;
+    padding: 0.45rem 0.75rem;
+  }
+
+  /* Hidden visually but still read out by screen readers */
+  .navbar .navbar-nav.me-auto a.nav-link[href$="playgrounds.html"] .menu-text {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    overflow: hidden;
+    clip: rect(0 0 0 0);
+    white-space: nowrap;
+  }
+}
+
 .quarto-title-banner h1, .quarto-title-banner .h1, .quarto-title-banner h2, .quarto-title-banner .h2 {
     color: #fff;
     text-shadow: -1px 1px 1px rgb(41, 33, 33);
@@ -1300,6 +1377,13 @@ a.crt-screen:hover img {
 
 .module-book-body p:last-child {
     margin-bottom: 0;
+}
+
+/* "Read the eBook" and "Try the playground" buttons side by side */
+.module-book-actions {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 0.75rem;
 }
 
 @media (max-width: 600px) {

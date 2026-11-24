@@ -65,6 +65,8 @@ Discrete Event Simulation is a powerful tool for improving pathways, of which th
 
 Originally built for introducing people to Discrete Event Simulation at our open day, this web application is freely available for you to use and adapt.
 
+Short on time? Try our quicker [mini DES playground](https://hsma-programme.github.io/des_playground_mini/), or see [all of our playgrounds](playgrounds.qmd), including geographic modelling and machine learning.
+
 ```{=html}
 <div class="project-link-buttons">
     <ul class="project-links">

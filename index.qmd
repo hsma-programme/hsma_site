@@ -1196,7 +1196,7 @@ document.addEventListener('DOMContentLoaded', function () {
 Whether you are an alumni, current participant, or someone who is looking to learn data science and operational research on your own, you can access all our materials.
 
 ```{=html}
-<div class="value-grid-box-2" style="justify-content:center; text-align:center;">
+<div class="value-grid-box" style="justify-content:center; text-align:center;">
   <a href="https://hsma.co.uk/hsma_content/modules/modules.html" class="value-box bg-red">
     <div class="icon" style="font-size: 2rem;"><i class="bi bi-camera-reels"></i></div>
     <div class="details">Click here to access our HSMA 6 content recordings, slides and sample code</div>
@@ -1204,6 +1204,10 @@ Whether you are an alumni, current participant, or someone who is looking to lea
     <a href="https://hsma.co.uk/hsma_content/books/books.html" class="value-box bg-red">
     <div class="icon" style="font-size: 2rem;"><i class="bi bi-book"></i></div>
     <div class="details">Click here to view our teach-yourself ebooks on Python, geographic modelling, simulation (and more)</div>
+  </a>
+  <a href="hsma_content/playgrounds.html" class="value-box bg-red">
+    <div class="icon" style="font-size: 2rem;"><i class="bi bi-controller"></i></div>
+    <div class="details">Click here to try our interactive playgrounds for simulation, geographic modelling and machine learning - no code needed</div>
   </a>
 </div>
 ```

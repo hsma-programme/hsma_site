@@ -57,7 +57,14 @@ We also have a free eBook that accompanies this module! Check it out at [des.hsm
 
 If you'd rather follow along with the recorded HSMA sessions and exercises, these can be found below.
 
-[<i class="fa-solid fa-book"></i> Read the eBook](https://des.hsma.co.uk){.neon-button target="_blank" rel="noopener"}
+New to simulation? Get a feel for what DES can do in our interactive playground - no code needed.
+
+```{=html}
+<div class="module-book-actions">
+  <a class="neon-button" href="https://des.hsma.co.uk" target="_blank" rel="noopener"><i class="fa-solid fa-book"></i> Read the eBook</a>
+  <a class="neon-button neon-button--ghost" href="https://hsma-programme.github.io/des_playground_mini/" target="_blank" rel="noopener"><i class="bi bi-play-circle"></i> Try the playground</a>
+</div>
+```
 :::
 
 ::::

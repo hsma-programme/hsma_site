@@ -78,9 +78,23 @@ body-classes: neon-headings neon-headings--left lambda-theme neon-title
     border-top: 3px solid var(--col-accent);
 }
 
-.workshop-col--blue { --col-accent: var(--neon-blue); }
-.workshop-col--magenta { --col-accent: var(--neon-magenta); }
-.workshop-col--green { --col-accent: var(--neon-green); }
+.workshop-col--blue { --col-accent: var(--neon-blue); --col-soft: #8cc8f0; }
+.workshop-col--magenta { --col-accent: var(--neon-magenta); --col-soft: #f08cc4; }
+.workshop-col--green { --col-accent: var(--neon-green); --col-soft: #8de8c9; }
+
+/* "Try the playground" link at the foot of each workshop description */
+.workshop-col a.playground-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-weight: 700;
+    color: var(--col-soft);
+    text-decoration: none;
+}
+
+.workshop-col a.playground-link:hover {
+    color: white;
+}
 </style>
 ```
 
@@ -177,6 +191,8 @@ DES allows you to create computer models of pathways, helping you to answer 'wha
 Used extensively in manufacturing and logistics, this technique allows you to model anything from emergency departments to ambulances to elective surgery waits.
 
 Understanding the kind of questions that are suited to DES unlocks a powerful new way to ensure pathways are right-sized, robust and ready for the future.
+
+**Get a taste before the workshop:** [<i class="bi bi-play-circle"></i> try the simulation playground](https://hsma-programme.github.io/des_playground_mini/){.playground-link target="_blank" rel="noopener"}
 :::
 
 ::: {.column width='5%'}
@@ -186,6 +202,8 @@ Understanding the kind of questions that are suited to DES unlocks a powerful ne
 In this workshop, we explore how we can better understand the geographical distribution of our demand and make sure our services are in the right place to support our population.
 
 We will explore the powerful location optimization algorithms that the HSMA course teaches analysts to use, helping you manage new sites, service closures, or locating a range of new services in a data-driven way that can account for real-world car and public transport travel times, equity, and emissions.
+
+**Get a taste before the workshop:** [<i class="bi bi-play-circle"></i> try the location optimization playground](https://hsma-programme.github.io/geographic_playground_mini/){.playground-link target="_blank" rel="noopener"}
 :::
 
 ::: {.column width='5%'}
@@ -199,6 +217,8 @@ Helping to carefully navigate the complexity of how machine learning projects ca
 We will explore success stories from previous HSMA cohorts, such as how machine learning helped drive significant reductions in patient non-attendance by allowing better targeting of high-risk non-attenders.
 
 We also equip you with the knowledge you need to ask the right questions about algorithm performance, and support you to think about opportunities for how machine learning can be used safely, equitably and effectively in your organisation.
+
+**Get a taste before the workshop:** [<i class="bi bi-play-circle"></i> try the machine learning playground](https://hsma-programme.github.io/ml_playground_mini/){.playground-link target="_blank" rel="noopener"}
 
 :::
 
