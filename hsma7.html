@@ -49,7 +49,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-447e42e69aaa9833c0ba1b986f430b20.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-a5513f347cceec906dae1bae7d8df814.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-f8d6965fb375122b0d0822543df042b9.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" rel="stylesheet">
 <link href="site_libs/quarto-contrib/value-box-styles-1.0.0/value-box.css" rel="stylesheet">
 <link href="https://cdn.jsdelivr.net/npm/@phosphor-icons/web@2.1.2/src/regular/style.css" rel="stylesheet">
@@ -141,6 +141,13 @@ background-size: cover;
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./hsma_content/playgrounds.html"> <i class="bi bi-controller" role="img">
+</i> 
+<span class="menu-text"><span class="nav-cta-prefix">Try the </span>Playgrounds</span></a>
+  </li>  
+</ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
@@ -473,6 +480,21 @@ background-size: cover;
   content: "> ";
 }
 
+/* Link from a module tile to its mini playground, in the tile's colour */
+.module-tile a.playground-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.4rem;
+  font-weight: 700;
+  color: var(--accent-soft);
+  text-decoration: none;
+}
+
+.module-tile a.playground-link:hover {
+  color: white;
+  text-shadow: 0 0 8px var(--accent-glow);
+}
+
 /* The λ card sits in the narrower right-hand column here */
 .lambda-card--compact {
   margin: 0 0 1.5rem 0;
@@ -578,6 +600,7 @@ background-size: cover;
 <section id="modules" class="level2">
 <h2 class="anchored" data-anchor-id="modules">Modules</h2>
 <p>HSMA 7 is centred around 4 key modules:</p>
+<p>Curious what these techniques can do? <a href="./hsma_content/playgrounds.html">Try our interactive playgrounds</a> - no code or installation needed.</p>
 <div class="value-box-row vb-row-grid" style="--vb-row-columns:2; ">
 <div class="value-box vb-icon-right  neon-tile module-tile" style="--vb-width:90%; --vb-bg:#1c1c1c; "><i class="icon ph ph-desktop-tower" style="color:var(--accent-soft); "></i><div class="vb-content" style=""><div class="value" style="font-size:1.4rem; ">Introduction to Operational Research, Data Science &amp; Programming</div><div class="details" style="">
 <p>In this module, students will learn key principles underpinning operational research and data science.</p>
@@ -586,14 +609,17 @@ background-size: cover;
 <div class="value-box vb-icon-right  neon-tile module-tile neon-tile--blue" style="--vb-width:90%; --vb-bg:#1c1c1c; "><i class="icon ph ph-users-three" style="color:var(--accent-soft); "></i><div class="vb-content" style=""><div class="title" style=""><i>“I want to fix my delays, and see what works before I try it”</i></div><div class="value" style="font-size:1.6rem; ">Discrete Event Simulation</div><div class="details" style="">
 <p>In this module, students are introduced to powerful simulation techniques that allow you to accurately model real-world systems and try out changes in a safe environment to see what works before implementing it in the real world.</p>
 <p>Students learn to develop robust models aligning with best practices, as well as cutting-edge techniques for visualising flow in systems.</p>
+<p><a href="https://hsma-programme.github.io/des_playground_mini/" class="playground-link" target="_blank" rel="noopener"><i class="bi bi-play-circle"></i> Try the DES playground</a></p>
 </div></div></div>
 <div class="value-box vb-icon-right  neon-tile module-tile neon-tile--magenta" style="--vb-width:90%; --vb-bg:#1c1c1c; "><i class="icon ph ph-globe-hemisphere-west" style="color:var(--accent-soft); "></i><div class="vb-content" style=""><div class="title" style=""><i>“Where is demand, and where should I put my services?”</i></div><div class="value" style="font-size:1.6rem; ">Geographic Modelling</div><div class="details" style="">
 <p>In this module, students learn key geographic principles and how to create high-quality maps.</p>
 <p>They are also introduced to advanced operational research techniques for solving problems around where to place services in the face of competing priorities like equity of access, costs, and net zero goals.</p>
+<p><a href="https://hsma-programme.github.io/geographic_playground_mini/" class="playground-link" target="_blank" rel="noopener"><i class="bi bi-play-circle"></i> Try the geographic modelling playground</a></p>
 </div></div></div>
 <div class="value-box vb-icon-right  neon-tile module-tile neon-tile--green" style="--vb-width:90%; --vb-bg:#1c1c1c; "><i class="icon ph ph-brain" style="color:var(--accent-soft); "></i><div class="vb-content" style=""><div class="title" style=""><i>“I want to identify patients to target with interventions”</i></div><div class="value" style="font-size:1.6rem; ">Machine Learning</div><div class="details" style="">
 <p>In this module, students learn the key principles of supervised machine learning, allowing them to train machine learning models designed to support operational improvements to services through better targeting of interventions.</p>
 <p>They are also introduced to issues around model bias, ethics, legal issues, and model explainability.</p>
+<p><a href="https://hsma-programme.github.io/ml_playground_mini/" class="playground-link" target="_blank" rel="noopener"><i class="bi bi-play-circle"></i> Try the machine learning playground</a></p>
 </div></div></div>
 </div>
 </section>

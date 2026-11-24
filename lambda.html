@@ -49,7 +49,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="site_libs/quarto-html/quarto-syntax-highlighting-dark-447e42e69aaa9833c0ba1b986f430b20.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="site_libs/bootstrap/bootstrap-342c3bc9b89c2543ca3b8c1f2d881a5a.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="site_libs/bootstrap/bootstrap-413489570c3819a586ccab7e40fb040d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -133,6 +133,13 @@ background-size: cover;
   <span class="navbar-toggler-icon"></span>
 </button>
           <div class="collapse navbar-collapse" id="navbarCollapse">
+            <ul class="navbar-nav navbar-nav-scroll me-auto">
+  <li class="nav-item">
+    <a class="nav-link" href="./hsma_content/playgrounds.html"> <i class="bi bi-controller" role="img">
+</i> 
+<span class="menu-text"><span class="nav-cta-prefix">Try the </span>Playgrounds</span></a>
+  </li>  
+</ul>
             <ul class="navbar-nav navbar-nav-scroll ms-auto">
   <li class="nav-item">
     <a class="nav-link" href="./index.html"> 
@@ -406,9 +413,23 @@ background-size: cover;
     border-top: 3px solid var(--col-accent);
 }
 
-.workshop-col--blue { --col-accent: var(--neon-blue); }
-.workshop-col--magenta { --col-accent: var(--neon-magenta); }
-.workshop-col--green { --col-accent: var(--neon-green); }
+.workshop-col--blue { --col-accent: var(--neon-blue); --col-soft: #8cc8f0; }
+.workshop-col--magenta { --col-accent: var(--neon-magenta); --col-soft: #f08cc4; }
+.workshop-col--green { --col-accent: var(--neon-green); --col-soft: #8de8c9; }
+
+/* "Try the playground" link at the foot of each workshop description */
+.workshop-col a.playground-link {
+    display: inline-flex;
+    align-items: center;
+    gap: 0.4rem;
+    font-weight: 700;
+    color: var(--col-soft);
+    text-decoration: none;
+}
+
+.workshop-col a.playground-link:hover {
+    color: white;
+}
 </style>
 <p>Launching in <strong>spring 2027</strong>, our new HSMA-λ (HSMA lambda) offering is a series of <span class="neon-text"><strong>standalone workshops</strong></span> targeted at <span class="neon-text"><strong>decision makers</strong></span> in the health service.</p>
 <p>HSMA-λ will focus on supporting participants to understand the advanced techniques that are taught on HSMA so you can <span class="neon-text"><strong>ask the right questions</strong></span> and <span class="neon-text"><strong>interpret project outputs</strong></span>.</p>
@@ -483,11 +504,13 @@ Just teaching focused on real-world application, helping you understand the art 
 <p>DES allows you to create computer models of pathways, helping you to answer ‘what-if’ questions about pathway resourcing and configuration in a risk-free environment.</p>
 <p>Used extensively in manufacturing and logistics, this technique allows you to model anything from emergency departments to ambulances to elective surgery waits.</p>
 <p>Understanding the kind of questions that are suited to DES unlocks a powerful new way to ensure pathways are right-sized, robust and ready for the future.</p>
+<p><strong>Get a taste before the workshop:</strong> <a href="https://hsma-programme.github.io/des_playground_mini/" class="playground-link" target="_blank" rel="noopener"><i class="bi bi-play-circle"></i> try the simulation playground</a></p>
 </div><div class="column" style="width:5%;">
 
 </div><div class="column workshop-col workshop-col--magenta" style="width:30%;">
 <p>In this workshop, we explore how we can better understand the geographical distribution of our demand and make sure our services are in the right place to support our population.</p>
 <p>We will explore the powerful location optimization algorithms that the HSMA course teaches analysts to use, helping you manage new sites, service closures, or locating a range of new services in a data-driven way that can account for real-world car and public transport travel times, equity, and emissions.</p>
+<p><strong>Get a taste before the workshop:</strong> <a href="https://hsma-programme.github.io/geographic_playground_mini/" class="playground-link" target="_blank" rel="noopener"><i class="bi bi-play-circle"></i> try the location optimization playground</a></p>
 </div><div class="column" style="width:5%;">
 
 </div><div class="column workshop-col workshop-col--green" style="width:30%;">
@@ -495,6 +518,7 @@ Just teaching focused on real-world application, helping you understand the art 
 <p>Helping to carefully navigate the complexity of how machine learning projects can be used for service improvement, we explore the data requirements, ethics and regulations surrounding machine learning in operational contexts.</p>
 <p>We will explore success stories from previous HSMA cohorts, such as how machine learning helped drive significant reductions in patient non-attendance by allowing better targeting of high-risk non-attenders.</p>
 <p>We also equip you with the knowledge you need to ask the right questions about algorithm performance, and support you to think about opportunities for how machine learning can be used safely, equitably and effectively in your organisation.</p>
+<p><strong>Get a taste before the workshop:</strong> <a href="https://hsma-programme.github.io/ml_playground_mini/" class="playground-link" target="_blank" rel="noopener"><i class="bi bi-play-circle"></i> try the machine learning playground</a></p>
 </div>
 </div>
 </section>
