@@ -49,7 +49,7 @@ ul.task-list li input[type="checkbox"] {
 <link href="../site_libs/quarto-html/quarto-syntax-highlighting-dark-447e42e69aaa9833c0ba1b986f430b20.css" rel="stylesheet" id="quarto-text-highlighting-styles">
 <script src="../site_libs/bootstrap/bootstrap.min.js"></script>
 <link href="../site_libs/bootstrap/bootstrap-icons.css" rel="stylesheet">
-<link href="../site_libs/bootstrap/bootstrap-0ffb92c6df2b58ffcc2ea6ca00c9ac86.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
+<link href="../site_libs/bootstrap/bootstrap-413489570c3819a586ccab7e40fb040d.min.css" rel="stylesheet" append-hash="true" id="quarto-bootstrap" data-mode="dark">
 <script id="quarto-search-options" type="application/json">{
   "location": "navbar",
   "copy-button": false,
@@ -112,6 +112,7 @@ background-size: cover;
       }
 </style>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+<meta http-equiv="refresh" content="0; URL=https://hsma.co.uk/playgrounds">
 
 
 <link rel="stylesheet" href="../styles.css">
@@ -135,7 +136,7 @@ background-size: cover;
           <div class="collapse navbar-collapse" id="navbarCollapse">
             <ul class="navbar-nav navbar-nav-scroll me-auto">
   <li class="nav-item">
-    <a class="nav-link active" href="../hsma_content/playgrounds.html" aria-current="page"> <i class="bi bi-controller" role="img">
+    <a class="nav-link" href="../playgrounds.html"> <i class="bi bi-controller" role="img">
 </i> 
 <span class="menu-text"><span class="nav-cta-prefix">Try the </span>Playgrounds</span></a>
   </li>  
@@ -318,13 +319,13 @@ background-size: cover;
 <!-- content -->
 <header id="title-block-header" class="quarto-title-block default page-columns page-full">
   <div class="quarto-title-banner page-columns page-full">
-    <div class="quarto-title column-page">
+    <div class="quarto-title column-body">
       <h1 class="title">Try HSMA in Your Browser</h1>
                       </div>
   </div>
     
   
-  <div class="quarto-title-meta column-page">
+  <div class="quarto-title-meta">
 
       
     
@@ -332,198 +333,22 @@ background-size: cover;
     </div>
     
   
-  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-full page-navbar">
+  </header><div id="quarto-content" class="quarto-container page-columns page-rows-contents page-layout-article page-navbar">
 <!-- sidebar -->
 <!-- margin-sidebar -->
-    
+    <div id="quarto-margin-sidebar" class="sidebar margin-sidebar zindex-bottom">
+        
+    </div>
 <!-- main -->
-<main class="content quarto-banner-title-block column-page" id="quarto-document-content" tabindex="-1">
+<main class="content quarto-banner-title-block" id="quarto-document-content" tabindex="-1">
 
 
 
 
 
-<style>
-.playground-card {
-    margin: 0 0 2.5rem 0;
-    padding: 1.5rem 1.75rem 1.75rem 1.75rem;
-    border-radius: 12px;
-}
-
-.playground-card .tile-header {
-    margin-bottom: 0.25rem;
-    font-family: var(--terminal-font);
-    font-size: 1.6rem;
-    line-height: 1.2;
-    letter-spacing: 0.06em;
-    text-transform: uppercase;
-    color: white;
-    text-shadow: 0 0 8px var(--accent-glow);
-}
-
-.playground-card .tile-header .prompt {
-    color: var(--accent-soft);
-}
-
-.playground-card .playground-question {
-    display: block;
-    margin-bottom: 1rem;
-    font-style: italic;
-    color: var(--accent-soft);
-}
-
-/* Panel that is swapped for the app when "Load it here" is clicked, so the
-   in-browser Python download only happens for the app the visitor picks */
-.playground-frame {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 0.9rem;
-    min-height: 220px;
-    margin-top: 1.25rem;
-    border-radius: 10px;
-    border: 1px dashed color-mix(in srgb, var(--accent-soft) 45%, transparent);
-    background:
-        radial-gradient(ellipse at center, color-mix(in srgb, var(--accent-soft) 10%, transparent), transparent 70%),
-        #161616;
-    color: #bbb;
-    text-align: center;
-    padding: 1.5rem 1rem;
-}
-
-.playground-frame-text {
-    margin: 0;
-    font-size: 1.05rem;
-}
-
-.playground-frame button.playground-load {
-    font: inherit;
-    font-size: 1.2rem;
-    font-weight: 700;
-    padding: 0.75rem 2rem;
-    cursor: pointer;
-    background-color: color-mix(in srgb, var(--accent-soft) 20%, transparent);
-    box-shadow: 0 0 14px var(--accent-glow);
-    animation: playground-glow 2.4s ease-in-out infinite;
-}
-
-.playground-frame button.playground-load:hover {
-    background-color: color-mix(in srgb, var(--accent-soft) 32%, transparent);
-    box-shadow: 0 0 24px var(--accent-glow);
-}
-
-@keyframes playground-glow {
-    0%, 100% { box-shadow: 0 0 10px var(--accent-glow); }
-    50%      { box-shadow: 0 0 22px var(--accent-glow); }
-}
-
-@media (prefers-reduced-motion: reduce) {
-    .playground-frame button.playground-load {
-        animation: none;
-    }
-}
-
-.playground-frame .playground-newtab {
-    font-size: 0.95rem;
-    color: var(--accent-soft);
-}
-
-.playground-frame.is-loaded {
-    display: block;
-    padding: 0;
-    border-style: solid;
-    min-height: 0;
-}
-
-.playground-frame iframe {
-    display: block;
-    width: 100%;
-    border: none;
-    border-radius: 10px;
-    height: 80vh;
-    min-height: 600px;
-    max-height: 1000px;
-}
-
-@media only screen and (max-width: 800px) {
-    .playground-frame iframe {
-        height: 75vh;
-        min-height: 500px;
-    }
-}
-
-.playground-learn {
-    display: block;
-    margin-top: 1.25rem;
-    margin-bottom: 0;
-}
-
-.playground-learn a {
-    color: var(--accent-soft);
-}
-</style>
-<p>We teach three core techniques on HSMA: <strong>discrete event simulation</strong>, <strong>geographic modelling and optimisation</strong>, and <strong>machine learning</strong>.</p>
-<p>Each of the playgrounds below gives you a quick, hands-on taste of one of them, built around a realistic healthcare problem. There’s nothing to install and no code to write - everything runs in your web browser.</p>
-<p>The first time you open a playground, it can take a little while to load while your browser downloads everything it needs to run the model.</p>
-<div class="playground-card neon-tile neon-tile--blue">
-<div class="tile-header"><span class="prompt" aria-hidden="true">&gt; </span>Discrete Event Simulation</div>
-<p><span class="playground-question"><em>“I want to fix my delays, and see what works before I try it”</em></span></p>
-<p>Discrete event simulation lets you build a computer model of a pathway - like patients arriving at an emergency department, queuing, and being seen - and then try out changes such as adding staff or altering processes in a safe environment before you make them for real.</p>
-<p>In this playground, you can change how a department is resourced, run the simulation, and watch the queues build up (or disappear!) in an animated view of the pathway.</p>
-<div class="playground-frame" id="des-frame">
-  <p class="playground-frame-text">Run the playground right here on this page</p>
-  <button type="button" class="neon-button playground-load" data-src="https://hsma-programme.github.io/des_playground_mini/" data-title="HSMA Discrete Event Simulation Playground"><i class="bi bi-play-circle"></i>Load it here</button>
-  <a class="playground-newtab" href="https://hsma-programme.github.io/des_playground_mini/" target="_blank" rel="noopener">or open it in a new tab <i class="bi bi-box-arrow-up-right"></i></a>
-</div>
-<p><span class="playground-learn">Want to learn how to build models like this? Explore our <a href="../hsma_content/modules/current_module_details/2_des.html">DES module</a>, read the free <a href="https://des.hsma.co.uk">DES eBook</a>, or try the <a href="../hsma_content/des_playground.html">full DES playground</a>.</span></p>
-</div>
-<div class="playground-card neon-tile neon-tile--magenta">
-<div class="tile-header"><span class="prompt" aria-hidden="true">&gt; </span>Geographic Modelling</div>
-<p><span class="playground-question"><em>“Where is demand, and where should I put my services?”</em></span></p>
-<p>Geographic modelling helps you understand where the need for a service is, how long it takes people to reach it, and where new sites should go to balance priorities like travel time, fair access for everyone, and cost.</p>
-<p>In this playground, you get to decide where a new diagnostic centre should go, see how your choice affects travel times across the area, and compare your picks with those found by an optimisation algorithm.</p>
-<div class="playground-frame" id="geo-frame">
-  <p class="playground-frame-text">Run the playground right here on this page</p>
-  <button type="button" class="neon-button playground-load" data-src="https://hsma-programme.github.io/geographic_playground_mini/" data-title="HSMA Geographic Modelling Playground"><i class="bi bi-play-circle"></i>Load it here</button>
-  <a class="playground-newtab" href="https://hsma-programme.github.io/geographic_playground_mini/" target="_blank" rel="noopener">or open it in a new tab <i class="bi bi-box-arrow-up-right"></i></a>
-</div>
-<p><span class="playground-learn">Want to learn how to tackle problems like this? Explore our <a href="../hsma_content/modules/current_module_details/3_geographic_modelling_visualisation.html">geographic modelling module</a> or read the free <a href="https://geographic.hsma.co.uk">geographic modelling eBook</a>.</span></p>
-</div>
-<div class="playground-card neon-tile neon-tile--green">
-<div class="tile-header"><span class="prompt" aria-hidden="true">&gt; </span>Machine Learning</div>
-<p><span class="playground-question"><em>“I want to identify patients to target with interventions”</em></span></p>
-<p>Machine learning models learn patterns from past data so that they can make predictions about the future - such as which patients are most likely to miss an upcoming appointment - helping services target their interventions where they will make the biggest difference.</p>
-<p>In this playground, you can see how a model predicts missed appointments, explore which factors drive its predictions, and compare targeting reminder calls using the model against simpler approaches - including a rule of your own.</p>
-<div class="playground-frame" id="ml-frame">
-  <p class="playground-frame-text">Run the playground right here on this page</p>
-  <button type="button" class="neon-button playground-load" data-src="https://hsma-programme.github.io/ml_playground_mini/" data-title="HSMA Machine Learning Playground"><i class="bi bi-play-circle"></i>Load it here</button>
-  <a class="playground-newtab" href="https://hsma-programme.github.io/ml_playground_mini/" target="_blank" rel="noopener">or open it in a new tab <i class="bi bi-box-arrow-up-right"></i></a>
-</div>
-<p><span class="playground-learn">Want to learn how to build models like this? Explore our <a href="../hsma_content/modules/current_module_details/4_machine_learning.html">machine learning module</a> or read the free <a href="https://machinelearning.hsma.co.uk">machine learning eBook</a>.</span></p>
-</div>
-<section id="want-to-learn-more" class="level2">
-<h2 class="anchored" data-anchor-id="want-to-learn-more">Want to learn more?</h2>
-<p>If you work in health or social care and want to learn to use these techniques yourself, take a look at <a href="../hsma7.html">HSMA 7</a>, our free 15-month training and mentoring programme.</p>
-<p>If you’re a leader or decision maker who wants to understand what these techniques can do for your organisation without writing any code, our <a href="../lambda.html">HSMA-λ workshops</a> may be a better fit.</p>
-<script>
-document.querySelectorAll(".playground-load").forEach(function (button) {
-  button.addEventListener("click", function () {
-    var frame = button.closest(".playground-frame");
-    if (!frame || frame.classList.contains("is-loaded")) return;
-    var iframe = document.createElement("iframe");
-    iframe.src = button.dataset.src;
-    iframe.title = button.dataset.title;
-    iframe.setAttribute("allow", "fullscreen");
-    frame.textContent = "";
-    frame.appendChild(iframe);
-    frame.classList.add("is-loaded");
-  });
-});
-</script>
+<p>Redirecting to the HSMA playgrounds. If you are not redirected within 3 seconds, click <a href="https://hsma.co.uk/playgrounds">here</a> to go to the page.</p>
 
 
-</section>
 
 </main> <!-- /main -->
 <script id="quarto-html-after-body" type="application/javascript">
