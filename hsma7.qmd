@@ -284,7 +284,7 @@ From month 15 onwards, participants will receive support to get their project wo
 
 HSMA 7 is centred around 4 key modules:
 
-Curious what these techniques can do? [Try our interactive playgrounds](hsma_content/playgrounds.qmd) - no code or installation needed.
+Curious what these techniques can do? [Try our interactive playgrounds](playgrounds.qmd) - no code or installation needed.
 
 ::::{.value-box-row columns="2"}
 

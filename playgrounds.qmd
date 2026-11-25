@@ -1,0 +1,237 @@
+---
+title: Try HSMA in Your Browser
+title-block-banner: resources/banner.png
+include-back-link: false
+page-layout: full
+grid:
+  sidebar-width: 0px
+  body-width: 4000px
+  margin-width: 0px
+  gutter-width: 2rem
+toc: false
+---
+
+```{=html}
+<style>
+.playground-card {
+    margin: 0 0 2.5rem 0;
+    padding: 1.5rem 1.75rem 1.75rem 1.75rem;
+    border-radius: 12px;
+}
+
+.playground-card .tile-header {
+    margin-bottom: 0.25rem;
+    font-family: var(--terminal-font);
+    font-size: 1.6rem;
+    line-height: 1.2;
+    letter-spacing: 0.06em;
+    text-transform: uppercase;
+    color: white;
+    text-shadow: 0 0 8px var(--accent-glow);
+}
+
+.playground-card .tile-header .prompt {
+    color: var(--accent-soft);
+}
+
+.playground-card .playground-question {
+    display: block;
+    margin-bottom: 1rem;
+    font-style: italic;
+    color: var(--accent-soft);
+}
+
+/* Panel that is swapped for the app when "Load it here" is clicked, so the
+   in-browser Python download only happens for the app the visitor picks */
+.playground-frame {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    gap: 0.9rem;
+    min-height: 220px;
+    margin-top: 1.25rem;
+    border-radius: 10px;
+    border: 1px dashed color-mix(in srgb, var(--accent-soft) 45%, transparent);
+    background:
+        radial-gradient(ellipse at center, color-mix(in srgb, var(--accent-soft) 10%, transparent), transparent 70%),
+        #161616;
+    color: #bbb;
+    text-align: center;
+    padding: 1.5rem 1rem;
+}
+
+.playground-frame-text {
+    margin: 0;
+    font-size: 1.05rem;
+}
+
+.playground-frame button.playground-load {
+    font: inherit;
+    font-size: 1.2rem;
+    font-weight: 700;
+    padding: 0.75rem 2rem;
+    cursor: pointer;
+    background-color: color-mix(in srgb, var(--accent-soft) 20%, transparent);
+    box-shadow: 0 0 14px var(--accent-glow);
+    animation: playground-glow 2.4s ease-in-out infinite;
+}
+
+.playground-frame button.playground-load:hover {
+    background-color: color-mix(in srgb, var(--accent-soft) 32%, transparent);
+    box-shadow: 0 0 24px var(--accent-glow);
+}
+
+@keyframes playground-glow {
+    0%, 100% { box-shadow: 0 0 10px var(--accent-glow); }
+    50%      { box-shadow: 0 0 22px var(--accent-glow); }
+}
+
+@media (prefers-reduced-motion: reduce) {
+    .playground-frame button.playground-load {
+        animation: none;
+    }
+}
+
+.playground-frame .playground-newtab {
+    font-size: 0.95rem;
+    color: var(--accent-soft);
+}
+
+.playground-frame.is-loaded {
+    display: block;
+    padding: 0;
+    border-style: solid;
+    min-height: 0;
+}
+
+.playground-frame iframe {
+    display: block;
+    width: 100%;
+    border: none;
+    border-radius: 10px;
+    height: 80vh;
+    min-height: 600px;
+    max-height: 1000px;
+}
+
+@media only screen and (max-width: 800px) {
+    .playground-frame iframe {
+        height: 75vh;
+        min-height: 500px;
+    }
+}
+
+.playground-learn {
+    display: block;
+    margin-top: 1.25rem;
+    margin-bottom: 0;
+}
+
+.playground-learn a {
+    color: var(--accent-soft);
+}
+</style>
+```
+
+We teach three core techniques on HSMA: **discrete event simulation**, **geographic modelling and optimisation**, and **machine learning**.
+
+Each of the playgrounds below gives you a quick, hands-on taste of one of them, built around a realistic healthcare problem. There's nothing to install and no code to write - everything runs in your web browser.
+
+The first time you open a playground, it can take a little while to load while your browser downloads everything it needs to run the model.
+
+::: {.playground-card .neon-tile .neon-tile--blue}
+
+```{=html}
+<div class="tile-header"><span class="prompt" aria-hidden="true">&gt; </span>Discrete Event Simulation</div>
+```
+
+[*"I want to fix my delays, and see what works before I try it"*]{.playground-question}
+
+Discrete event simulation lets you build a computer model of a pathway - like patients arriving at an emergency department, queuing, and being seen - and then try out changes such as adding staff or altering processes in a safe environment before you make them for real.
+
+In this playground, you can change how a department is resourced, run the simulation, and watch the queues build up (or disappear!) in an animated view of the pathway.
+
+```{=html}
+<div class="playground-frame" id="des-frame">
+  <p class="playground-frame-text">Run the playground right here on this page</p>
+  <button type="button" class="neon-button playground-load" data-src="https://hsma-programme.github.io/des_playground_mini/" data-title="HSMA Discrete Event Simulation Playground"><i class="bi bi-play-circle"></i>Load it here</button>
+  <a class="playground-newtab" href="https://hsma-programme.github.io/des_playground_mini/" target="_blank" rel="noopener">or open it in a new tab <i class="bi bi-box-arrow-up-right"></i></a>
+</div>
+```
+
+[Want to learn how to build models like this? Explore our [DES module](hsma_content/modules/current_module_details/2_des.qmd), read the free [DES eBook](https://des.hsma.co.uk), or try the [full DES playground](hsma_content/des_playground.qmd).]{.playground-learn}
+
+:::
+
+::: {.playground-card .neon-tile .neon-tile--magenta}
+
+```{=html}
+<div class="tile-header"><span class="prompt" aria-hidden="true">&gt; </span>Geographic Modelling</div>
+```
+
+[*"Where is demand, and where should I put my services?"*]{.playground-question}
+
+Geographic modelling helps you understand where the need for a service is, how long it takes people to reach it, and where new sites should go to balance priorities like travel time, fair access for everyone, and cost.
+
+In this playground, you get to decide where a new diagnostic centre should go, see how your choice affects travel times across the area, and compare your picks with those found by an optimisation algorithm.
+
+```{=html}
+<div class="playground-frame" id="geo-frame">
+  <p class="playground-frame-text">Run the playground right here on this page</p>
+  <button type="button" class="neon-button playground-load" data-src="https://hsma-programme.github.io/geographic_playground_mini/" data-title="HSMA Geographic Modelling Playground"><i class="bi bi-play-circle"></i>Load it here</button>
+  <a class="playground-newtab" href="https://hsma-programme.github.io/geographic_playground_mini/" target="_blank" rel="noopener">or open it in a new tab <i class="bi bi-box-arrow-up-right"></i></a>
+</div>
+```
+
+[Want to learn how to tackle problems like this? Explore our [geographic modelling module](hsma_content/modules/current_module_details/3_geographic_modelling_visualisation.qmd) or read the free [geographic modelling eBook](https://geographic.hsma.co.uk).]{.playground-learn}
+
+:::
+
+::: {.playground-card .neon-tile .neon-tile--green}
+
+```{=html}
+<div class="tile-header"><span class="prompt" aria-hidden="true">&gt; </span>Machine Learning</div>
+```
+
+[*"I want to identify patients to target with interventions"*]{.playground-question}
+
+Machine learning models learn patterns from past data so that they can make predictions about the future - such as which patients are most likely to miss an upcoming appointment - helping services target their interventions where they will make the biggest difference.
+
+In this playground, you can see how a model predicts missed appointments, explore which factors drive its predictions, and compare targeting reminder calls using the model against simpler approaches - including a rule of your own.
+
+```{=html}
+<div class="playground-frame" id="ml-frame">
+  <p class="playground-frame-text">Run the playground right here on this page</p>
+  <button type="button" class="neon-button playground-load" data-src="https://hsma-programme.github.io/ml_playground_mini/" data-title="HSMA Machine Learning Playground"><i class="bi bi-play-circle"></i>Load it here</button>
+  <a class="playground-newtab" href="https://hsma-programme.github.io/ml_playground_mini/" target="_blank" rel="noopener">or open it in a new tab <i class="bi bi-box-arrow-up-right"></i></a>
+</div>
+```
+
+[Want to learn how to build models like this? Explore our [machine learning module](hsma_content/modules/current_module_details/4_machine_learning.qmd) or read the free [machine learning eBook](https://machinelearning.hsma.co.uk).]{.playground-learn}
+
+:::
+
+## Want to learn more?
+
+If you work in health or social care and want to learn to use these techniques yourself, take a look at [HSMA 7](hsma7.qmd), our free 15-month training and mentoring programme.
+
+If you're a leader or decision maker who wants to understand what these techniques can do for your organisation without writing any code, our [HSMA-λ workshops](lambda.qmd) may be a better fit.
+
+```{=html}
+<script>
+document.querySelectorAll(".playground-load").forEach(function (button) {
+  button.addEventListener("click", function () {
+    var frame = button.closest(".playground-frame");
+    if (!frame || frame.classList.contains("is-loaded")) return;
+    var iframe = document.createElement("iframe");
+    iframe.src = button.dataset.src;
+    iframe.title = button.dataset.title;
+    iframe.setAttribute("allow", "fullscreen");
+    frame.textContent = "";
+    frame.appendChild(iframe);
+    frame.classList.add("is-loaded");
+  });
+});
+</script>
+```

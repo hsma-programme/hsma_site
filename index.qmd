@@ -1205,7 +1205,7 @@ Whether you are an alumni, current participant, or someone who is looking to lea
     <div class="icon" style="font-size: 2rem;"><i class="bi bi-book"></i></div>
     <div class="details">Click here to view our teach-yourself ebooks on Python, geographic modelling, simulation (and more)</div>
   </a>
-  <a href="hsma_content/playgrounds.html" class="value-box bg-red">
+  <a href="playgrounds.html" class="value-box bg-red">
     <div class="icon" style="font-size: 2rem;"><i class="bi bi-controller"></i></div>
     <div class="details">Click here to try our interactive playgrounds for simulation, geographic modelling and machine learning - no code needed</div>
   </a>
